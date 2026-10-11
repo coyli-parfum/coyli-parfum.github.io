@@ -76,4 +76,4 @@ function cartText(){return 'Здравствуйте! Хочу уточнить 
  const tg=document.getElementById('open-telegram');if(tg)tg.onclick=()=>window.open('https://t.me/Jullyheyy','_blank');
  document.getElementById('overlay').classList.add('open');
 }
-render();</script></body></html>
+fetch('catalog.json?v='+Date.now()).then(r=>{if(!r.ok)throw Error('catalog');return r.json()}).then(items=>{if(Array.isArray(items)){p.splice(0,p.length,...items);render()}}).catch(()=>{});render();</script></body></html>
