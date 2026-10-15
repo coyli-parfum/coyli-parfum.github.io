@@ -9321,7 +9321,7 @@
   },
   {
     "id": 338,
-    "name": "Zam Zam Gold",
+    "name": "Zam Zam Cold",
     "cat": "Люкс",
     "kind": "perfume",
     "volumes": [
@@ -9349,9 +9349,9 @@
       "100": 8000
     },
     "notes": "",
-    "catalogStatus": "name_label_mismatch",
+    "catalogStatus": "photo_label_matches",
     "image": "https://raw.githubusercontent.com/jullyhey/coyli-parfum/main/assets/perfumes/zam-zam-cold-user.jpg",
-    "imageSource": "Фотография предоставлена COYLI PARFUM; на этикетке написано ZAM ZAM COLD",
+    "imageSource": "Фотография предоставлена COYLI PARFUM; на этикетке ZAM ZAM COLD",
     "sortBrand": "zam"
   },
   {
