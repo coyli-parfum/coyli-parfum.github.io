@@ -901,7 +901,8 @@
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.33519.jpg",
     "referenceVersion": "Baccarat Rouge 540 Maison Francis Kurkdjian perfume - a fragrance for women and men 2015",
     "duplicateOf": 92,
-    "sortBrand": "baccarat"
+    "sortBrand": "baccarat",
+    "gender": "Унисекс"
   },
   {
     "id": 61,
@@ -932,7 +933,8 @@
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.32172.jpg",
     "referenceVersion": "Kirkè Tiziana Terenzi perfume - a fragrance for women and men 2015",
     "duplicateOf": 127,
-    "sortBrand": "kirke"
+    "sortBrand": "kirke",
+    "gender": "Унисекс"
   },
   {
     "id": 62,
@@ -961,7 +963,8 @@
     "notesSource": "https://www.zarkoperfume.com/commodity/11-zarkoperfume-the-muse",
     "image": "https://image.brigitte.de/13575226/t/5T/v4/w960/r1/-/zarko-perfume-the-muse.png",
     "imageSource": "https://image.brigitte.de/13575226/t/5T/v4/w960/r1/-/zarko-perfume-the-muse.png",
-    "sortBrand": "zarkoperfume"
+    "sortBrand": "zarkoperfume",
+    "gender": "Унисекс"
   },
   {
     "id": 63,
@@ -992,7 +995,8 @@
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.41222.jpg",
     "referenceVersion": "Tygar Bvlgari cologne - a fragrance for men 2016",
     "duplicateOf": 93,
-    "sortBrand": "bvlgari"
+    "sortBrand": "bvlgari",
+    "gender": "Мужской"
   },
   {
     "id": 64,
@@ -1022,7 +1026,8 @@
     "notesSource": "https://www.fragrantica.com/perfume/Christian-Dior/Sauvage-31861.html",
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.31861.jpg",
     "referenceVersion": "Sauvage Dior cologne - a fragrance for men 2015",
-    "sortBrand": "dior"
+    "sortBrand": "dior",
+    "gender": "Мужской"
   },
   {
     "id": 65,
@@ -1052,7 +1057,8 @@
     "notesSource": "https://www.fragrantica.com/perfume/Chanel/Bleu-de-Chanel-9099.html",
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.9099.jpg",
     "referenceVersion": "Bleu de Chanel Chanel cologne - a fragrance for men 2010",
-    "sortBrand": "chanel"
+    "sortBrand": "chanel",
+    "gender": "Мужской"
   },
   {
     "id": 66,
@@ -1082,7 +1088,8 @@
     "notesSource": "https://www.fragrantica.com/perfume/yves-saint-laurent/black-opium-25324.html",
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.25324.jpg",
     "referenceVersion": "Black Opium Yves Saint Laurent perfume - a fragrance for women 2014",
-    "sortBrand": "yves saint laurent"
+    "sortBrand": "yves saint laurent",
+    "gender": "Женский"
   },
   {
     "id": 67,
@@ -1112,7 +1119,8 @@
     "notesSource": "https://www.fragrantica.com/perfume/Gucci/Flora-Gorgeous-Gardenia-Eau-de-Parfum-68578.html",
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.68578.jpg",
     "referenceVersion": "Flora Gorgeous Gardenia Gucci perfume - a fragrance for women 2021",
-    "sortBrand": "gucci"
+    "sortBrand": "gucci",
+    "gender": "Женский"
   },
   {
     "id": 68,
@@ -1142,7 +1150,8 @@
     "notesSource": "https://www.fragrantica.com/perfume/Burberry/Burberry-Her-51694.html",
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.51694.jpg",
     "referenceVersion": "Burberry Her Burberry perfume - a fragrance for women 2018",
-    "sortBrand": "burberry"
+    "sortBrand": "burberry",
+    "gender": "Женский"
   },
   {
     "id": 69,
@@ -1172,7 +1181,8 @@
     "notesSource": "https://www.fragrantica.com/perfume/Giorgio-Armani/Si-18453.html",
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.18453.jpg",
     "referenceVersion": "Si Giorgio Armani perfume - a fragrance for women 2013",
-    "sortBrand": "giorgio armani"
+    "sortBrand": "giorgio armani",
+    "gender": "Женский"
   },
   {
     "id": 70,
@@ -1202,7 +1212,8 @@
     "notesSource": "https://www.fragrantica.com/perfume/Rabanne/Invictus-18471.html",
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.18471.jpg",
     "referenceVersion": "Invictus Rabanne cologne - a fragrance for men 2013",
-    "sortBrand": "paco rabanne"
+    "sortBrand": "paco rabanne",
+    "gender": "Мужской"
   },
   {
     "id": 71,
@@ -1232,7 +1243,8 @@
     "notesSource": "https://www.fragrantica.com/perfume/Lacoste-Fragrances/Eau-de-Lacoste-L-12-12-White-11043.html",
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.11043.jpg",
     "referenceVersion": "Eau de Lacoste L.12.12. White Lacoste Fragrances cologne - a fragrance for men 2011",
-    "sortBrand": "lacoste"
+    "sortBrand": "lacoste",
+    "gender": "Мужской"
   },
   {
     "id": 72,
@@ -1431,7 +1443,8 @@
     "notesSource": "https://www.fragrantica.com/perfume/27-87/Genetic-Bliss-51396.html",
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.51396.jpg",
     "referenceVersion": "Genetic Bliss 27 87 perfume - a fragrance for women and men 2018",
-    "sortBrand": "27"
+    "sortBrand": "27",
+    "gender": "Унисекс"
   },
   {
     "id": 86,
@@ -1461,7 +1474,8 @@
     "notesSource": "https://www.fragrantica.com/perfume/Ajmal/Amber-Wood-26016.html",
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.26016.jpg",
     "referenceVersion": "Amber Wood Ajmal perfume - a fragrance for women and men 2014",
-    "sortBrand": "ajmal"
+    "sortBrand": "ajmal",
+    "gender": "Унисекс"
   },
   {
     "id": 87,
@@ -1491,7 +1505,8 @@
     "notesSource": "https://www.fragrantica.com/perfume/Parfums-de-Marly/altha-r-84109.html",
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.84109.jpg",
     "referenceVersion": "Althaïr Parfums de Marly cologne - a fragrance for men 2023",
-    "sortBrand": "parfums"
+    "sortBrand": "parfums",
+    "gender": "Мужской"
   },
   {
     "id": 88,
@@ -1521,7 +1536,8 @@
     "notesSource": "https://www.fragrantica.com/perfume/Tiziana-Terenzi/Andromeda-30623.html",
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.30623.jpg",
     "referenceVersion": "Andromeda Tiziana Terenzi perfume - a fragrance for women and men 2015",
-    "sortBrand": "tiziana terenzi"
+    "sortBrand": "tiziana terenzi",
+    "gender": "Женский"
   },
   {
     "id": 89,
@@ -1611,7 +1627,8 @@
     "notesSource": "https://www.fragrantica.com/perfume/Attar-Collection/Musk-Kashmir-38134.html",
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.38134.jpg",
     "referenceVersion": "Musk Kashmir Attar Collection perfume - a fragrance for women and men 2016",
-    "sortBrand": "attar collection"
+    "sortBrand": "attar collection",
+    "gender": "Унисекс"
   },
   {
     "id": 92,
@@ -1641,7 +1658,8 @@
     "notesSource": "https://www.fragrantica.com/parfum/Maison-Francis-Kurkdjian/Baccarat-Rouge-540-33519.html",
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.33519.jpg",
     "referenceVersion": "Baccarat Rouge 540 Maison Francis Kurkdjian perfume - a fragrance for women and men 2015",
-    "sortBrand": "maison francis kurkdjian"
+    "sortBrand": "maison francis kurkdjian",
+    "gender": "Унисекс"
   },
   {
     "id": 93,
@@ -1671,7 +1689,8 @@
     "notesSource": "https://www.fragrantica.com/perfume/Bvlgari/Tygar-41222.html",
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.41222.jpg",
     "referenceVersion": "Tygar Bvlgari cologne - a fragrance for men 2016",
-    "sortBrand": "bvlgari"
+    "sortBrand": "bvlgari",
+    "gender": "Мужской"
   },
   {
     "id": 94,
@@ -1701,7 +1720,8 @@
     "notesSource": "https://www.fragrantica.com/perfume/Nasomatto/Black-Afgano-6472.html",
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.6472.jpg",
     "referenceVersion": "Black Afgano Nasomatto perfume - a fragrance for women and men 2009",
-    "sortBrand": "nasomatto"
+    "sortBrand": "nasomatto",
+    "gender": "Унисекс"
   },
   {
     "id": 95,
@@ -1731,7 +1751,8 @@
     "notesSource": "https://www.fragrantica.com/perfume/By-Kilian/Black-Phantom-43632.html",
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.43632.jpg",
     "referenceVersion": "Black Phantom By Kilian perfume - a fragrance for women and men 2017",
-    "sortBrand": "kilian"
+    "sortBrand": "kilian",
+    "gender": "Унисекс"
   },
   {
     "id": 96,
@@ -1761,7 +1782,8 @@
     "notesSource": "https://www.fragrantica.com/perfume/Clive-Christian/Blonde-Amber-73595.html",
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.73595.jpg",
     "referenceVersion": "Blonde Amber Clive Christian perfume - a fragrance for women and men 2022",
-    "sortBrand": "clive christian"
+    "sortBrand": "clive christian",
+    "gender": "Унисекс"
   },
   {
     "id": 97,
@@ -1791,7 +1813,8 @@
     "notesSource": "https://www.fragrantica.com/perfume/Ex-Nihilo/Blue-Talisman-84224.html",
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.84224.jpg",
     "referenceVersion": "Blue Talisman Ex Nihilo perfume - a fragrance for women and men 2023",
-    "sortBrand": "ex nihilo"
+    "sortBrand": "ex nihilo",
+    "gender": "Унисекс"
   },
   {
     "id": 98,
@@ -1832,7 +1855,8 @@
       "50": 3625,
       "100": 7150
     },
-    "discountSource": "Цены на спрей уже со скидкой 50%: скриншоты COYLI PARFUM IMG_2649–IMG_2655 от 15.10.2026. На чистое масло −50% от обычного тарифа категории, подтверждено пользователем."
+    "discountSource": "Цены на спрей уже со скидкой 50%: скриншоты COYLI PARFUM IMG_2649–IMG_2655 от 15.10.2026. На чистое масло −50% от обычного тарифа категории, подтверждено пользователем.",
+    "gender": "Женский"
   },
   {
     "id": 99,
@@ -1862,7 +1886,8 @@
     "notesSource": "https://www.fragrantica.com/perfume/Essential%20Parfums/Essential-Parfums-Bois-Imperial-64338.html",
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.64338.jpg",
     "referenceVersion": "Bois Impérial Essential Parfums perfume - a fragrance for women and men 2020",
-    "sortBrand": "essential"
+    "sortBrand": "essential",
+    "gender": "Унисекс"
   },
   {
     "id": 100,
@@ -1892,7 +1917,8 @@
     "notesSource": "https://www.fragrantica.com/perfume/byredo/bal-d-afrique-6458.html",
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.6458.jpg",
     "referenceVersion": "Bal d'Afrique Byredo perfume - a fragrance for women and men 2009",
-    "sortBrand": "byredo"
+    "sortBrand": "byredo",
+    "gender": "Унисекс"
   },
   {
     "id": 101,
@@ -1922,7 +1948,8 @@
     "notesSource": "https://www.fragrantica.com/p/73438",
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.73438.jpg",
     "referenceVersion": "Vanille Antique Byredo perfume - a fragrance for women and men 2022",
-    "sortBrand": "byredo"
+    "sortBrand": "byredo",
+    "gender": "Унисекс"
   },
   {
     "id": 102,
@@ -1952,7 +1979,8 @@
     "notesSource": "https://www.fragrantica.com/p/101532",
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.101532.jpg",
     "referenceVersion": "Chimilka Vilhelm Parfumerie perfume - a new fragrance for women and men 2025",
-    "sortBrand": "vilhelm"
+    "sortBrand": "vilhelm",
+    "gender": "Унисекс"
   },
   {
     "id": 103,
@@ -1982,7 +2010,8 @@
     "notesSource": "https://www.fragrantica.com/perfume/Creed/Absolu-Aventus-106624.html",
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.106624.jpg",
     "referenceVersion": "Absolu Aventus Creed cologne - a new fragrance for men 2025",
-    "sortBrand": "creed"
+    "sortBrand": "creed",
+    "gender": "Мужской"
   },
   {
     "id": 104,
@@ -2012,7 +2041,8 @@
     "notesSource": "https://www.fragrantica.com/perfume/Creed/Aventus-9828.html",
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.9828.jpg",
     "referenceVersion": "Aventus Creed cologne - a fragrance for men 2010",
-    "sortBrand": "creed"
+    "sortBrand": "creed",
+    "gender": "Мужской"
   },
   {
     "id": 105,
@@ -2042,7 +2072,8 @@
     "notesSource": "https://www.fragrantica.com/perfume/Parfums-de-Marly/Sedley-56273.html",
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.56273.jpg",
     "referenceVersion": "Sedley Parfums de Marly perfume - a fragrance for women and men 2019",
-    "sortBrand": "parfums"
+    "sortBrand": "parfums",
+    "gender": "Мужской"
   },
   {
     "id": 106,
@@ -2072,7 +2103,8 @@
     "notesSource": "https://www.hfcparis.com/catalog/devils-intrigue",
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.52792.jpg",
     "referenceVersion": "Devil's Intrigue Haute Fragrance Company HFC perfume - a fragrance for women 2018",
-    "sortBrand": "hfc"
+    "sortBrand": "hfc",
+    "gender": "Женский"
   },
   {
     "id": 107,
@@ -2102,7 +2134,8 @@
     "notesSource": "https://www.fragrantica.com/perfume/Richard/Dirty-Mango-66804.html",
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.66804.jpg",
     "referenceVersion": "Dirty Mango Richard perfume - a fragrance for women 2021",
-    "sortBrand": "richard"
+    "sortBrand": "richard",
+    "gender": "Унисекс"
   },
   {
     "id": 108,
@@ -2132,7 +2165,8 @@
     "notesSource": "https://www.fragrantica.com/perfume/Ex-Nihilo/Generation-s-106031.html",
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.106031.jpg",
     "referenceVersion": "Generation(s) Ex Nihilo perfume - a new fragrance for women and men 2025",
-    "sortBrand": "ex nihilo"
+    "sortBrand": "ex nihilo",
+    "gender": "Унисекс"
   },
   {
     "id": 109,
@@ -2162,7 +2196,8 @@
     "notesSource": "https://www.fragrantica.com/perfume/Ex-Nihilo/Fleur-Narcotique-27571.html",
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.27571.jpg",
     "referenceVersion": "Fleur Narcotique Ex Nihilo perfume - a fragrance for women and men 2014",
-    "sortBrand": "ex nihilo"
+    "sortBrand": "ex nihilo",
+    "gender": "Женский"
   },
   {
     "id": 110,
@@ -2192,7 +2227,8 @@
     "notesSource": "https://www.fragrantica.com/perfume/Franck-Boclet/Cocaine-44128.html",
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.44128.jpg",
     "referenceVersion": "Cocaïne Franck Boclet perfume - a fragrance for women and men 2017",
-    "sortBrand": "franck"
+    "sortBrand": "franck",
+    "gender": "Унисекс"
   },
   {
     "id": 111,
@@ -2252,7 +2288,8 @@
     "notesSource": "https://www.fragrantica.com/perfume/Marc-Antoine-Barrois/Ganymede-54720.html",
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.54720.jpg",
     "referenceVersion": "Ganymede Marc-Antoine Barrois perfume - a fragrance for women and men 2019",
-    "sortBrand": "marc-antoine barrois"
+    "sortBrand": "marc-antoine barrois",
+    "gender": "Унисекс"
   },
   {
     "id": 113,
@@ -2282,7 +2319,8 @@
     "notesSource": "https://www.fragrantica.com/perfume/byredo/gypsy-water-3575.html",
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.3575.jpg",
     "referenceVersion": "Gypsy Water Byredo perfume - a fragrance for women and men 2008",
-    "sortBrand": "byredo"
+    "sortBrand": "byredo",
+    "gender": "Унисекс"
   },
   {
     "id": 114,
@@ -2372,7 +2410,8 @@
     "notesSource": "https://www.fragrantica.com/p/67370",
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.67370.jpg",
     "referenceVersion": "Imagination Louis Vuitton cologne - a fragrance for men 2021",
-    "sortBrand": "louis vuitton"
+    "sortBrand": "louis vuitton",
+    "gender": "Мужской"
   },
   {
     "id": 117,
@@ -2402,7 +2441,8 @@
     "notesSource": "https://www.fragrantica.com/perfume/Initio-Parfums-Prives/Narcotic-Delight-89368.html",
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.89368.jpg",
     "referenceVersion": "Narcotic Delight Initio Parfums Prives perfume - a fragrance for women and men 2024",
-    "sortBrand": "initio"
+    "sortBrand": "initio",
+    "gender": "Унисекс"
   },
   {
     "id": 118,
@@ -2432,7 +2472,8 @@
     "notesSource": "https://www.fragrantica.com/perfume/Initio-Parfums-Prives/Rehab-50351.html",
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.50351.jpg",
     "referenceVersion": "Rehab Initio Parfums Prives perfume - a fragrance for women and men 2018",
-    "sortBrand": "initio"
+    "sortBrand": "initio",
+    "gender": "Унисекс"
   },
   {
     "id": 119,
@@ -2462,7 +2503,8 @@
     "notesSource": "https://initioparfums.com/products/side-effect",
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.42260.jpg",
     "referenceVersion": "Side Effect Initio Parfums Prives perfume - a fragrance for women and men 2016",
-    "sortBrand": "initio"
+    "sortBrand": "initio",
+    "gender": "Унисекс"
   },
   {
     "id": 120,
@@ -2492,7 +2534,8 @@
     "notesSource": "https://www.fragrantica.com/p/20541",
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.20541.jpg",
     "referenceVersion": "Jazz Club Maison Martin Margiela cologne - a fragrance for men 2013",
-    "sortBrand": "maison margiela"
+    "sortBrand": "maison margiela",
+    "gender": "Унисекс"
   },
   {
     "id": 121,
@@ -2522,7 +2565,8 @@
     "notesSource": "https://www.fragrantica.com/perfume/Jo-Malone-London/Blackberry-Bay-15134.html",
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.15134.jpg",
     "referenceVersion": "Blackberry & Bay Jo Malone London perfume - a fragrance for women 2012",
-    "sortBrand": "jo"
+    "sortBrand": "jo",
+    "gender": "Унисекс"
   },
   {
     "id": 122,
@@ -2552,7 +2596,8 @@
     "notesSource": "https://www.fragrantica.com/perfume/Kajal/Almaz-73429.html",
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.73429.jpg",
     "referenceVersion": "Almaz Kajal perfume - a fragrance for women and men 2022",
-    "sortBrand": "kajal"
+    "sortBrand": "kajal",
+    "gender": "Унисекс"
   },
   {
     "id": 123,
@@ -2640,7 +2685,8 @@
     "notesSource": "https://www.fragrantica.com/perfume/By-Kilian/Good-Girl-Gone-Bad-15924.html",
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.15924.jpg",
     "referenceVersion": "Good Girl Gone Bad By Kilian perfume - a fragrance for women 2012",
-    "sortBrand": "kilian"
+    "sortBrand": "kilian",
+    "gender": "Женский"
   },
   {
     "id": 126,
@@ -2670,7 +2716,8 @@
     "notesSource": "https://www.fragrantica.com/perfume/By-Kilian/Rolling-in-Love-56402.html",
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.56402.jpg",
     "referenceVersion": "Rolling in Love By Kilian perfume - a fragrance for women and men 2019",
-    "sortBrand": "kilian"
+    "sortBrand": "kilian",
+    "gender": "Женский"
   },
   {
     "id": 127,
@@ -2700,7 +2747,8 @@
     "notesSource": "https://www.fragrantica.com/perfume/Tiziana-Terenzi/Kirke-32172.html",
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.32172.jpg",
     "referenceVersion": "Kirkè Tiziana Terenzi perfume - a fragrance for women and men 2015",
-    "sortBrand": "tiziana terenzi"
+    "sortBrand": "tiziana terenzi",
+    "gender": "Унисекс"
   },
   {
     "id": 128,
@@ -2730,7 +2778,8 @@
     "notesSource": "https://www.fragrantica.com/perfume/Louis-Vuitton/Symphony-68357.html",
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.68357.jpg",
     "referenceVersion": "Symphony Louis Vuitton perfume - a fragrance for women and men 2021",
-    "sortBrand": "louis vuitton"
+    "sortBrand": "louis vuitton",
+    "gender": "Унисекс"
   },
   {
     "id": 129,
@@ -2760,7 +2809,8 @@
     "notesSource": "https://www.fragrantica.com/perfume/Le-Labo/Another-13-10131.html",
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.10131.jpg",
     "referenceVersion": "Another 13 Le Labo perfume - a fragrance for women and men 2010",
-    "sortBrand": "le"
+    "sortBrand": "le",
+    "gender": "Унисекс"
   },
   {
     "id": 130,
@@ -2790,7 +2840,8 @@
     "notesSource": "https://www.fragrantica.com/perfume/Louis-Vuitton/Afternoon-Swim-53947.html",
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.53947.jpg",
     "referenceVersion": "Afternoon Swim Louis Vuitton perfume - a fragrance for women and men 2019",
-    "sortBrand": "louis vuitton"
+    "sortBrand": "louis vuitton",
+    "gender": "Унисекс"
   },
   {
     "id": 131,
@@ -2850,7 +2901,8 @@
     "notesSource": "https://www.fragrantica.com/perfume/Louis-Vuitton/L-Immensit--49751.html",
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.49751.jpg",
     "referenceVersion": "L’Immensité Louis Vuitton cologne - a fragrance for men 2018",
-    "sortBrand": "louis vuitton"
+    "sortBrand": "louis vuitton",
+    "gender": "Мужской"
   },
   {
     "id": 133,
@@ -2880,7 +2932,8 @@
     "notesSource": "https://www.fragrantica.com/perfume/Louis-Vuitton/Stellar-Times-68356.html",
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.68356.jpg",
     "referenceVersion": "Stellar Times Louis Vuitton perfume - a fragrance for women and men 2021",
-    "sortBrand": "louis vuitton"
+    "sortBrand": "louis vuitton",
+    "gender": "Унисекс"
   },
   {
     "id": 134,
@@ -2921,7 +2974,8 @@
       "50": 3625,
       "100": 7150
     },
-    "discountSource": "Цены на спрей уже со скидкой 50%: скриншоты COYLI PARFUM IMG_2649–IMG_2655 от 15.10.2026. На чистое масло −50% от обычного тарифа категории, подтверждено пользователем."
+    "discountSource": "Цены на спрей уже со скидкой 50%: скриншоты COYLI PARFUM IMG_2649–IMG_2655 от 15.10.2026. На чистое масло −50% от обычного тарифа категории, подтверждено пользователем.",
+    "gender": "Унисекс"
   },
   {
     "id": 135,
@@ -2951,7 +3005,8 @@
     "notesSource": "https://www.fragrantica.com/p/91688",
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.91688.jpg",
     "referenceVersion": "Tilia Marc-Antoine Barrois perfume - a fragrance for women and men 2024",
-    "sortBrand": "marc-antoine barrois"
+    "sortBrand": "marc-antoine barrois",
+    "gender": "Унисекс"
   },
   {
     "id": 136,
@@ -2981,7 +3036,8 @@
     "notesSource": "https://www.fragrantica.com/parfum/Orto-Parisi/Megamare-53471.html",
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.53471.jpg",
     "referenceVersion": "Megamare Orto Parisi perfume - a fragrance for women and men 2019",
-    "sortBrand": "orto"
+    "sortBrand": "orto",
+    "gender": "Унисекс"
   },
   {
     "id": 137,
@@ -3011,7 +3067,8 @@
     "notesSource": "https://www.fragrantica.com/perfume/Escentric-Molecules/Molecule-02-3606.html",
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.3606.jpg",
     "referenceVersion": "Molecule 02 Escentric Molecules perfume - a fragrance for women and men 2008",
-    "sortBrand": "escentric"
+    "sortBrand": "escentric",
+    "gender": "Унисекс"
   },
   {
     "id": 138,
@@ -3041,7 +3098,8 @@
     "notesSource": "https://www.fragrantica.com/parfum/Richard/White-Chocola-46262.html",
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.46262.jpg",
     "referenceVersion": "White Chocola Richard perfume - a fragrance for women and men",
-    "sortBrand": "richard"
+    "sortBrand": "richard",
+    "gender": "Унисекс"
   },
   {
     "id": 139,
@@ -3071,7 +3129,8 @@
     "notesSource": "https://www.fragrantica.com/perfume/Sospiro-Perfumes/Accento-13816.html?ccid=531236",
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.13816.jpg",
     "referenceVersion": "Accento Sospiro Perfumes perfume - a fragrance for women and men 2011",
-    "sortBrand": "sospiro"
+    "sortBrand": "sospiro",
+    "gender": "Унисекс"
   },
   {
     "id": 140,
@@ -3101,7 +3160,8 @@
     "notesSource": "https://www.fragrantica.com/perfume/Sospiro-Perfumes/Erba-Pura-18652.html",
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.18652.jpg",
     "referenceVersion": "Erba Pura Sospiro Perfumes perfume - a fragrance for women and men 2013",
-    "sortBrand": "sospiro"
+    "sortBrand": "sospiro",
+    "gender": "Унисекс"
   },
   {
     "id": 141,
@@ -3131,7 +3191,8 @@
     "notesSource": "https://www.fragrantica.com/perfume/Tom-Ford/Lost-Cherry-51411.html",
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.51411.jpg",
     "referenceVersion": "Lost Cherry Tom Ford perfume - a fragrance for women and men 2018",
-    "sortBrand": "tom ford"
+    "sortBrand": "tom ford",
+    "gender": "Унисекс"
   },
   {
     "id": 142,
@@ -3161,7 +3222,8 @@
     "notesSource": "https://www.fragrantica.com/perfume/Tom-Ford/Oud-Wood-1826.html",
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.1826.jpg",
     "referenceVersion": "Oud Wood Tom Ford perfume - a fragrance for women and men 2007",
-    "sortBrand": "tom ford"
+    "sortBrand": "tom ford",
+    "gender": "Унисекс"
   },
   {
     "id": 143,
@@ -3191,7 +3253,8 @@
     "notesSource": "https://www.fragrantica.com/perfume/Tom-Ford/Cherry-Smoke-78578.html",
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.78578.jpg",
     "referenceVersion": "Cherry Smoke Tom Ford perfume - a fragrance for women and men 2022",
-    "sortBrand": "tom ford"
+    "sortBrand": "tom ford",
+    "gender": "Унисекс"
   },
   {
     "id": 144,
@@ -3240,7 +3303,8 @@
       586.25,
       375,
       500
-    ]
+    ],
+    "gender": "Унисекс"
   },
   {
     "id": 145,
@@ -3270,7 +3334,8 @@
     "notesSource": "https://www.fragrantica.com/perfume/Thomas-Kosmala/Apr-s-l-Amour-53742.html",
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.53742.jpg",
     "referenceVersion": "Nọ 4 - Après l’Amour Eau de Parfum Thomas Kosmala perfume - a fragrance for women and men 2018",
-    "sortBrand": "thomas"
+    "sortBrand": "thomas",
+    "gender": "Унисекс"
   },
   {
     "id": 146,
@@ -3300,7 +3365,8 @@
     "notesSource": "https://www.fragrantica.com/perfume/Zielinski-Rozen/Black-Pepper-Amber-Neroli-65074.html",
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.65074.jpg",
     "referenceVersion": "Black Pepper & Amber, Neroli Zielinski & Rozen perfume - a fragrance for women and men",
-    "sortBrand": "zielinski & rozen"
+    "sortBrand": "zielinski & rozen",
+    "gender": "Унисекс"
   },
   {
     "id": 147,
@@ -3330,7 +3396,8 @@
     "notesSource": "https://www.fragrantica.com/perfume/ZARKOPERFUME/PINK-MOL-CULE-090-09-25474.html",
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.25474.jpg",
     "referenceVersion": "PINK MOLéCULE 090.09 ZARKOPERFUME perfume - a fragrance for women and men 2014",
-    "sortBrand": "zarkoperfume"
+    "sortBrand": "zarkoperfume",
+    "gender": "Унисекс"
   },
   {
     "id": 148,
@@ -3360,7 +3427,8 @@
     "notesSource": "https://www.fragrantica.com/perfume/Antonio-Banderas/Blue-Seduction-1088.html",
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.1088.jpg",
     "referenceVersion": "Blue Seduction Antonio Banderas cologne - a fragrance for men 2007",
-    "sortBrand": "antonio"
+    "sortBrand": "antonio",
+    "gender": "Мужской"
   },
   {
     "id": 149,
@@ -3390,7 +3458,8 @@
     "notesSource": "https://www.fragrantica.com/perfume/Giorgio-Armani/Emporio-Armani-Stronger-With-You-45258.html",
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.45258.jpg",
     "referenceVersion": "Emporio Armani Stronger With You Giorgio Armani cologne - a fragrance for men 2017",
-    "sortBrand": "giorgio armani"
+    "sortBrand": "giorgio armani",
+    "gender": "Мужской"
   },
   {
     "id": 150,
@@ -3431,7 +3500,8 @@
       "50": 2075,
       "100": 4000
     },
-    "discountSource": "Цены на спрей уже со скидкой 50%: скриншоты COYLI PARFUM IMG_2649–IMG_2655 от 15.10.2026. На чистое масло −50% от обычного тарифа категории, подтверждено пользователем."
+    "discountSource": "Цены на спрей уже со скидкой 50%: скриншоты COYLI PARFUM IMG_2649–IMG_2655 от 15.10.2026. На чистое масло −50% от обычного тарифа категории, подтверждено пользователем.",
+    "gender": "Мужской"
   },
   {
     "id": 151,
@@ -3461,7 +3531,8 @@
     "notesSource": "https://www.fragrantica.com/p/5979",
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.5979.jpg",
     "referenceVersion": "Boss Orange Hugo Boss perfume - a fragrance for women 2009",
-    "sortBrand": "hugo boss"
+    "sortBrand": "hugo boss",
+    "gender": "Мужской"
   },
   {
     "id": 152,
@@ -3521,7 +3592,8 @@
     "notesSource": "https://www.fragrantica.com/perfume/Chanel/Allure-Homme-Sport-607.html",
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.607.jpg",
     "referenceVersion": "Allure Homme Sport Chanel cologne - a fragrance for men 2004",
-    "sortBrand": "chanel"
+    "sortBrand": "chanel",
+    "gender": "Мужской"
   },
   {
     "id": 154,
@@ -3551,7 +3623,8 @@
     "notesSource": "https://www.fragrantica.com/perfume/Chanel/Chance-610.html",
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.610.jpg",
     "referenceVersion": "Chance Eau de Toilette Chanel perfume - a fragrance for women 2002",
-    "sortBrand": "chanel"
+    "sortBrand": "chanel",
+    "gender": "Женский"
   },
   {
     "id": 155,
@@ -3581,7 +3654,8 @@
     "notesSource": "https://www.fragrantica.com/perfume/Chanel/Coco-Mademoiselle-611.html",
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.611.jpg",
     "referenceVersion": "Coco Mademoiselle Chanel perfume - a fragrance for women 2001",
-    "sortBrand": "chanel"
+    "sortBrand": "chanel",
+    "gender": "Женский"
   },
   {
     "id": 156,
@@ -3611,7 +3685,8 @@
     "notesSource": "https://www.fragrantica.com/parfem/Chanel/Egoiste-613.html",
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.613.jpg",
     "referenceVersion": "Egoiste Chanel cologne - a fragrance for men 1990",
-    "sortBrand": "chanel"
+    "sortBrand": "chanel",
+    "gender": "Мужской"
   },
   {
     "id": 157,
@@ -3641,7 +3716,8 @@
     "notesSource": "https://www.fragrantica.com/perfume/Chanel/Chance-Eau-Fraiche-1483.html",
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.1483.jpg",
     "referenceVersion": "Chance Eau Fraiche Chanel perfume - a fragrance for women 2007",
-    "sortBrand": "chanel"
+    "sortBrand": "chanel",
+    "gender": "Женский"
   },
   {
     "id": 158,
@@ -3671,7 +3747,8 @@
     "notesSource": "https://www.fragrantica.com/perfume/Dolce-Gabbana/D-G-Anthology-L-Imperatrice-3-6086.html",
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.6086.jpg",
     "referenceVersion": "D&G Anthology L'Imperatrice 3 Dolce&Gabbana perfume - a fragrance for women 2009",
-    "sortBrand": "dolce & gabbana"
+    "sortBrand": "dolce & gabbana",
+    "gender": "Женский"
   },
   {
     "id": 159,
@@ -3701,7 +3778,8 @@
     "notesSource": "https://www.fragrantica.com/perfume/Dior/Dior-Homme-Sport-4033.html",
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.4033.jpg",
     "referenceVersion": "Dior Homme Sport (2008), Eau de Toilette",
-    "sortBrand": "dior"
+    "sortBrand": "dior",
+    "gender": "Мужской"
   },
   {
     "id": 160,
@@ -3731,7 +3809,8 @@
     "notesSource": "https://www.fragrantica.com/perfume/Dior/J-adore-210.html",
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.210.jpg",
     "referenceVersion": "J'adore Dior perfume - a fragrance for women 1999",
-    "sortBrand": "dior"
+    "sortBrand": "dior",
+    "gender": "Женский"
   },
   {
     "id": 161,
@@ -3761,7 +3840,8 @@
     "notesSource": "https://www.fragrantica.com/perfume/Dolce-Gabbana/Q-by-Dolce-Gabbana-78873.html",
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.78873.jpg",
     "referenceVersion": "Q by Dolce & Gabbana Dolce&Gabbana perfume - a fragrance for women 2023",
-    "sortBrand": "dolce & gabbana"
+    "sortBrand": "dolce & gabbana",
+    "gender": "Женский"
   },
   {
     "id": 162,
@@ -3791,7 +3871,8 @@
     "notesSource": "https://www.fragrantica.com/p/988",
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.988.jpg",
     "referenceVersion": "Eclat d’Arpège Lanvin perfume - a fragrance for women 2002",
-    "sortBrand": "lanvin"
+    "sortBrand": "lanvin",
+    "gender": "Женский"
   },
   {
     "id": 163,
@@ -3818,7 +3899,8 @@
     "notes": "",
     "kind": "perfume",
     "duplicateOf": 164,
-    "sortBrand": "givenchy"
+    "sortBrand": "givenchy",
+    "gender": "Мужской"
   },
   {
     "id": 164,
@@ -3848,7 +3930,8 @@
     "notesSource": "https://www.fragrantica.com/perfume/Givenchy/Gentleman-Society-78639.html?ccid=1822995",
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.78639.jpg",
     "referenceVersion": "Gentleman Society Givenchy cologne - a fragrance for men 2023",
-    "sortBrand": "givenchy"
+    "sortBrand": "givenchy",
+    "gender": "Мужской"
   },
   {
     "id": 165,
@@ -3878,7 +3961,8 @@
     "notesSource": "https://www.fragrantica.com/perfume/Givenchy/Irr-sistible-Givenchy-60891.html",
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.60891.jpg",
     "referenceVersion": "Irresistible Givenchy Givenchy perfume - a fragrance for women 2020",
-    "sortBrand": "givenchy"
+    "sortBrand": "givenchy",
+    "gender": "Женский"
   },
   {
     "id": 166,
@@ -3908,7 +3992,8 @@
     "notesSource": "https://www.fragrantica.com/perfume/Givenchy/L-Interdit-2018--51488.html",
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.51488.jpg",
     "referenceVersion": "L'Interdit Eau de Parfum Givenchy perfume - a fragrance for women 2018",
-    "sortBrand": "givenchy"
+    "sortBrand": "givenchy",
+    "gender": "Женский"
   },
   {
     "id": 167,
@@ -3938,7 +4023,8 @@
     "notesSource": "https://www.fragrantica.com/perfume/Gucci/Flora-Gorgeous-Gardenia-Intense-106623.html",
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.106623.jpg",
     "referenceVersion": "Flora Gorgeous Gardenia Intense Gucci perfume - a new fragrance for women 2025",
-    "sortBrand": "gucci"
+    "sortBrand": "gucci",
+    "gender": "Женский"
   },
   {
     "id": 168,
@@ -3968,7 +4054,8 @@
     "notesSource": "https://www.fragrantica.com/perfume/Hugo-Boss/Boss-Bottled-383.html",
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.383.jpg",
     "referenceVersion": "Boss Bottled Hugo Boss cologne - a fragrance for men 1998",
-    "sortBrand": "hugo boss"
+    "sortBrand": "hugo boss",
+    "gender": "Мужской"
   },
   {
     "id": 169,
@@ -3998,7 +4085,8 @@
     "notesSource": "https://www.fragrantica.com/perfume/Hugo-Boss/Hugo-Man-64606.html",
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.64606.jpg",
     "referenceVersion": "Hugo Man Hugo Boss cologne - a fragrance for men 2021",
-    "sortBrand": "hugo boss"
+    "sortBrand": "hugo boss",
+    "gender": "Мужской"
   },
   {
     "id": 170,
@@ -4028,7 +4116,8 @@
     "notesSource": "https://www.fragrantica.com/perfume/Lacoste-Fragrances/Lacoste-Pour-Femme-669.html",
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.669.jpg",
     "referenceVersion": "Lacoste Pour Femme Lacoste Fragrances perfume - a fragrance for women 2003",
-    "sortBrand": "lacoste"
+    "sortBrand": "lacoste",
+    "gender": "Женский"
   },
   {
     "id": 171,
@@ -4058,7 +4147,8 @@
     "notesSource": "https://www.fragrantica.com/perfume/Lattafa-Perfumes/yara-76880.html",
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.76880.jpg",
     "referenceVersion": "Yara Lattafa Perfumes perfume - a fragrance for women 2020",
-    "sortBrand": "lattafa"
+    "sortBrand": "lattafa",
+    "gender": "Женский"
   },
   {
     "id": 172,
@@ -4129,7 +4219,8 @@
       "50": 2075,
       "100": 4000
     },
-    "discountSource": "Цены на спрей уже со скидкой 50%: скриншоты COYLI PARFUM IMG_2649–IMG_2655 от 15.10.2026. На чистое масло −50% от обычного тарифа категории, подтверждено пользователем."
+    "discountSource": "Цены на спрей уже со скидкой 50%: скриншоты COYLI PARFUM IMG_2649–IMG_2655 от 15.10.2026. На чистое масло −50% от обычного тарифа категории, подтверждено пользователем.",
+    "gender": "Унисекс"
   },
   {
     "id": 174,
@@ -4170,7 +4261,8 @@
       "50": 2075,
       "100": 4000
     },
-    "discountSource": "Цены на спрей уже со скидкой 50%: скриншоты COYLI PARFUM IMG_2649–IMG_2655 от 15.10.2026. На чистое масло −50% от обычного тарифа категории, подтверждено пользователем."
+    "discountSource": "Цены на спрей уже со скидкой 50%: скриншоты COYLI PARFUM IMG_2649–IMG_2655 от 15.10.2026. На чистое масло −50% от обычного тарифа категории, подтверждено пользователем.",
+    "gender": "Женский"
   },
   {
     "id": 175,
@@ -4211,7 +4303,8 @@
       "50": 2075,
       "100": 4000
     },
-    "discountSource": "Цены на спрей уже со скидкой 50%: скриншоты COYLI PARFUM IMG_2649–IMG_2655 от 15.10.2026. На чистое масло −50% от обычного тарифа категории, подтверждено пользователем."
+    "discountSource": "Цены на спрей уже со скидкой 50%: скриншоты COYLI PARFUM IMG_2649–IMG_2655 от 15.10.2026. На чистое масло −50% от обычного тарифа категории, подтверждено пользователем.",
+    "gender": "Унисекс"
   },
   {
     "id": 176,
@@ -4241,7 +4334,8 @@
     "notesSource": "https://www.fragrantica.com/perfume/Paco-Rabanne/1-Million-3747.html",
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.3747.jpg",
     "referenceVersion": "1 Million Rabanne cologne - a fragrance for men 2008",
-    "sortBrand": "paco rabanne"
+    "sortBrand": "paco rabanne",
+    "gender": "Мужской"
   },
   {
     "id": 177,
@@ -4271,7 +4365,8 @@
     "notesSource": "https://www.fragrantica.com/perfume/Victoria-s-Secret/Aqua-Kiss-33495.html",
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.33495.jpg",
     "referenceVersion": "Aqua Kiss Victoria's Secret perfume - a fragrance for women 2012",
-    "sortBrand": "victoria's secret"
+    "sortBrand": "victoria's secret",
+    "gender": "Женский"
   },
   {
     "id": 178,
@@ -4301,7 +4396,8 @@
     "notesSource": "https://www.fragrantica.com/perfume/Victoria-s-Secret/Scandalous-123884.html",
     "imageSource": "https://www.fragrantica.com/perfume/Victoria-s-Secret/Scandalous-28256.html",
     "referenceVersion": "Scandalous Victoria's Secret Eau de Parfum 2014 (pink patterned bottle with black bow)",
-    "sortBrand": "victoria's secret"
+    "sortBrand": "victoria's secret",
+    "gender": "Женский"
   },
   {
     "id": 179,
@@ -4331,7 +4427,8 @@
     "notesSource": "https://www.fragrantica.com/perfume/Victoria-s-Secret/Eau-So-Sexy-26453.html",
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.26453.jpg",
     "referenceVersion": "Eau So Sexy Victoria's Secret perfume - a fragrance for women 2014",
-    "sortBrand": "victoria's secret"
+    "sortBrand": "victoria's secret",
+    "gender": "Женский"
   },
   {
     "id": 180,
@@ -4361,7 +4458,8 @@
     "notesSource": "https://www.fragrantica.com/perfume/Versace/Bright-Crystal-632.html",
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.632.jpg",
     "referenceVersion": "Bright Crystal Versace perfume - a fragrance for women 2006",
-    "sortBrand": "versace"
+    "sortBrand": "versace",
+    "gender": "Женский"
   },
   {
     "id": 181,
@@ -4391,7 +4489,8 @@
     "notesSource": "https://www.fragrantica.com/perfume/Versace/Crystal-Noir-631.html",
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.631.jpg",
     "referenceVersion": "Crystal Noir Versace perfume - a fragrance for women 2004",
-    "sortBrand": "versace"
+    "sortBrand": "versace",
+    "gender": "Женский"
   },
   {
     "id": 182,
@@ -4421,7 +4520,8 @@
     "notesSource": "https://www.fragrantica.com/perfume/Versace/Eros-Flame-52180.html",
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.52180.jpg",
     "referenceVersion": "Eros Flame Versace cologne - a fragrance for men 2018",
-    "sortBrand": "versace"
+    "sortBrand": "versace",
+    "gender": "Мужской"
   },
   {
     "id": 183,
@@ -4451,7 +4551,8 @@
     "notesSource": "https://www.fragrantica.com/perfume/Versace/Eros-16657.html",
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.16657.jpg",
     "referenceVersion": "Eros Versace cologne - a fragrance for men 2012",
-    "sortBrand": "versace"
+    "sortBrand": "versace",
+    "gender": "Мужской"
   },
   {
     "id": 184,
@@ -4481,7 +4582,8 @@
     "notesSource": "https://www.fragrantica.com/perfume/Victoria-s-Secret/Bombshell-10190.html",
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.10190.jpg",
     "referenceVersion": "Bombshell Victoria's Secret perfume - a fragrance for women 2010",
-    "sortBrand": "victoria's secret"
+    "sortBrand": "victoria's secret",
+    "gender": "Женский"
   },
   {
     "id": 185,
@@ -4511,7 +4613,8 @@
     "notesSource": "https://www.fragrantica.com/perfume/Yves-Saint-Laurent/Manifesto-15540.html",
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.15540.jpg",
     "referenceVersion": "Manifesto Yves Saint Laurent perfume - a fragrance for women 2012",
-    "sortBrand": "yves saint laurent"
+    "sortBrand": "yves saint laurent",
+    "gender": "Женский"
   },
   {
     "id": 186,
@@ -4541,7 +4644,8 @@
     "notesSource": "https://www.fragrantica.com/perfume/Zadig-Voltaire/This-is-Him-39359.html",
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.39359.jpg",
     "referenceVersion": "This is Him Zadig & Voltaire cologne - a fragrance for men 2016",
-    "sortBrand": "zadig & voltaire"
+    "sortBrand": "zadig & voltaire",
+    "gender": "Мужской"
   },
   {
     "id": 187,
@@ -4582,7 +4686,8 @@
       "50": 2075,
       "100": 4000
     },
-    "discountSource": "Цены на спрей уже со скидкой 50%: скриншоты COYLI PARFUM IMG_2649–IMG_2655 от 15.10.2026. На чистое масло −50% от обычного тарифа категории, подтверждено пользователем."
+    "discountSource": "Цены на спрей уже со скидкой 50%: скриншоты COYLI PARFUM IMG_2649–IMG_2655 от 15.10.2026. На чистое масло −50% от обычного тарифа категории, подтверждено пользователем.",
+    "gender": "Мужской"
   },
   {
     "id": 188,
@@ -4726,7 +4831,8 @@
       "status": "in_stock",
       "checkedAt": "2026-10-15",
       "source": "Оригинал отчёт .xlsm, Инвентаризация, остаток на 15.10.2026; наличие оригиналов только в Ньютоне подтверждено пользователем"
-    }
+    },
+    "gender": "Женский"
   },
   {
     "id": 192,
@@ -4835,7 +4941,8 @@
       "status": "in_stock",
       "checkedAt": "2026-10-15",
       "source": "Оригинал отчёт .xlsm, Инвентаризация, остаток на 15.10.2026; наличие оригиналов только в Ньютоне подтверждено пользователем"
-    }
+    },
+    "gender": "Унисекс"
   },
   {
     "id": 195,
@@ -4871,7 +4978,8 @@
       "status": "in_stock",
       "checkedAt": "2026-10-15",
       "source": "Оригинал отчёт .xlsm, Инвентаризация, остаток на 15.10.2026; наличие оригиналов только в Ньютоне подтверждено пользователем"
-    }
+    },
+    "gender": "Женский"
   },
   {
     "id": 196,
@@ -4907,7 +5015,8 @@
       "status": "in_stock",
       "checkedAt": "2026-10-15",
       "source": "Оригинал отчёт .xlsm, Инвентаризация, остаток на 15.10.2026; наличие оригиналов только в Ньютоне подтверждено пользователем"
-    }
+    },
+    "gender": "Женский"
   },
   {
     "id": 197,
@@ -5089,7 +5198,8 @@
       "status": "in_stock",
       "checkedAt": "2026-10-15",
       "source": "Оригинал отчёт .xlsm, Инвентаризация, остаток на 15.10.2026; наличие оригиналов только в Ньютоне подтверждено пользователем"
-    }
+    },
+    "gender": "Унисекс"
   },
   {
     "id": 202,
@@ -5125,7 +5235,8 @@
       "status": "in_stock",
       "checkedAt": "2026-10-15",
       "source": "Оригинал отчёт .xlsm, Инвентаризация, остаток на 15.10.2026; наличие оригиналов только в Ньютоне подтверждено пользователем"
-    }
+    },
+    "gender": "Унисекс"
   },
   {
     "id": 203,
@@ -5162,7 +5273,8 @@
       "status": "in_stock",
       "checkedAt": "2026-10-15",
       "source": "Оригинал отчёт .xlsm, Инвентаризация, остаток на 15.10.2026; наличие оригиналов только в Ньютоне подтверждено пользователем"
-    }
+    },
+    "gender": "Унисекс"
   },
   {
     "id": 204,
@@ -5198,7 +5310,8 @@
       "status": "in_stock",
       "checkedAt": "2026-10-15",
       "source": "Оригинал отчёт .xlsm, Инвентаризация, остаток на 15.10.2026; наличие оригиналов только в Ньютоне подтверждено пользователем"
-    }
+    },
+    "gender": "Мужской"
   },
   {
     "id": 205,
@@ -5235,7 +5348,8 @@
       "status": "in_stock",
       "checkedAt": "2026-10-15",
       "source": "Оригинал отчёт .xlsm, Инвентаризация, остаток на 15.10.2026; наличие оригиналов только в Ньютоне подтверждено пользователем"
-    }
+    },
+    "gender": "Мужской"
   },
   {
     "id": 206,
@@ -5271,7 +5385,8 @@
       "status": "in_stock",
       "checkedAt": "2026-10-15",
       "source": "Оригинал отчёт .xlsm, Инвентаризация, остаток на 15.10.2026; наличие оригиналов только в Ньютоне подтверждено пользователем"
-    }
+    },
+    "gender": "Женский"
   },
   {
     "id": 207,
@@ -5307,7 +5422,8 @@
       "status": "in_stock",
       "checkedAt": "2026-10-15",
       "source": "Оригинал отчёт .xlsm, Инвентаризация, остаток на 15.10.2026; наличие оригиналов только в Ньютоне подтверждено пользователем"
-    }
+    },
+    "gender": "Мужской"
   },
   {
     "id": 208,
@@ -5344,7 +5460,8 @@
       "status": "in_stock",
       "checkedAt": "2026-10-15",
       "source": "Оригинал отчёт .xlsm, Инвентаризация, остаток на 15.10.2026; наличие оригиналов только в Ньютоне подтверждено пользователем"
-    }
+    },
+    "gender": "Мужской"
   },
   {
     "id": 209,
@@ -5381,7 +5498,8 @@
       "status": "in_stock",
       "checkedAt": "2026-10-15",
       "source": "Оригинал отчёт .xlsm, Инвентаризация, остаток на 15.10.2026; наличие оригиналов только в Ньютоне подтверждено пользователем"
-    }
+    },
+    "gender": "Женский"
   },
   {
     "id": 210,
@@ -5418,7 +5536,8 @@
       "status": "in_stock",
       "checkedAt": "2026-10-15",
       "source": "Оригинал отчёт .xlsm, Инвентаризация, остаток на 15.10.2026; наличие оригиналов только в Ньютоне подтверждено пользователем"
-    }
+    },
+    "gender": "Мужской"
   },
   {
     "id": 211,
@@ -5454,7 +5573,8 @@
       "status": "in_stock",
       "checkedAt": "2026-10-15",
       "source": "Оригинал отчёт .xlsm, Инвентаризация, остаток на 15.10.2026; наличие оригиналов только в Ньютоне подтверждено пользователем"
-    }
+    },
+    "gender": "Унисекс"
   },
   {
     "id": 212,
@@ -5490,7 +5610,8 @@
       "status": "in_stock",
       "checkedAt": "2026-10-15",
       "source": "Оригинал отчёт .xlsm, Инвентаризация, остаток на 15.10.2026; наличие оригиналов только в Ньютоне подтверждено пользователем"
-    }
+    },
+    "gender": "Унисекс"
   },
   {
     "id": 213,
@@ -5526,7 +5647,8 @@
       "status": "in_stock",
       "checkedAt": "2026-10-15",
       "source": "Оригинал отчёт .xlsm, Инвентаризация, остаток на 15.10.2026; наличие оригиналов только в Ньютоне подтверждено пользователем"
-    }
+    },
+    "gender": "Унисекс"
   },
   {
     "id": 214,
@@ -5562,7 +5684,8 @@
       "status": "in_stock",
       "checkedAt": "2026-10-15",
       "source": "Оригинал отчёт .xlsm, Инвентаризация, остаток на 15.10.2026; наличие оригиналов только в Ньютоне подтверждено пользователем"
-    }
+    },
+    "gender": "Унисекс"
   },
   {
     "id": 215,
@@ -5598,7 +5721,8 @@
       "status": "in_stock",
       "checkedAt": "2026-10-15",
       "source": "Оригинал отчёт .xlsm, Инвентаризация, остаток на 15.10.2026; наличие оригиналов только в Ньютоне подтверждено пользователем"
-    }
+    },
+    "gender": "Женский"
   },
   {
     "id": 216,
@@ -5634,7 +5758,8 @@
       "status": "in_stock",
       "checkedAt": "2026-10-15",
       "source": "Оригинал отчёт .xlsm, Инвентаризация, остаток на 15.10.2026; наличие оригиналов только в Ньютоне подтверждено пользователем"
-    }
+    },
+    "gender": "Унисекс"
   },
   {
     "id": 217,
@@ -5670,7 +5795,8 @@
       "status": "in_stock",
       "checkedAt": "2026-10-15",
       "source": "Оригинал отчёт .xlsm, Инвентаризация, остаток на 15.10.2026; наличие оригиналов только в Ньютоне подтверждено пользователем"
-    }
+    },
+    "gender": "Мужской"
   },
   {
     "id": 218,
@@ -5742,7 +5868,8 @@
       "status": "in_stock",
       "checkedAt": "2026-10-15",
       "source": "Оригинал отчёт .xlsm, Инвентаризация, остаток на 15.10.2026; наличие оригиналов только в Ньютоне подтверждено пользователем"
-    }
+    },
+    "gender": "Унисекс"
   },
   {
     "id": 220,
@@ -5778,7 +5905,8 @@
       "status": "in_stock",
       "checkedAt": "2026-10-15",
       "source": "Оригинал отчёт .xlsm, Инвентаризация, остаток на 15.10.2026; наличие оригиналов только в Ньютоне подтверждено пользователем"
-    }
+    },
+    "gender": "Унисекс"
   },
   {
     "id": 221,
@@ -5814,7 +5942,8 @@
       "status": "in_stock",
       "checkedAt": "2026-10-15",
       "source": "Оригинал отчёт .xlsm, Инвентаризация, остаток на 15.10.2026; наличие оригиналов только в Ньютоне подтверждено пользователем"
-    }
+    },
+    "gender": "Женский"
   },
   {
     "id": 222,
@@ -5850,7 +5979,8 @@
       "status": "in_stock",
       "checkedAt": "2026-10-15",
       "source": "Оригинал отчёт .xlsm, Инвентаризация, остаток на 15.10.2026; наличие оригиналов только в Ньютоне подтверждено пользователем"
-    }
+    },
+    "gender": "Женский"
   },
   {
     "id": 223,
@@ -5888,7 +6018,8 @@
       "source": "Оригинал отчёт .xlsm, Инвентаризация, остаток на 15.10.2026; наличие оригиналов только в Ньютоне подтверждено пользователем"
     },
     "discountPercent": 15,
-    "discountSource": "Пользователь: акция −15% на 12 ароматов с IMG_2656.jpeg и IMG_2657.jpeg, 15.10.2026"
+    "discountSource": "Пользователь: акция −15% на 12 ароматов с IMG_2656.jpeg и IMG_2657.jpeg, 15.10.2026",
+    "gender": "Унисекс"
   },
   {
     "id": 224,
@@ -5924,7 +6055,8 @@
       "status": "in_stock",
       "checkedAt": "2026-10-15",
       "source": "Оригинал отчёт .xlsm, Инвентаризация, остаток на 15.10.2026; наличие оригиналов только в Ньютоне подтверждено пользователем"
-    }
+    },
+    "gender": "Женский"
   },
   {
     "id": 225,
@@ -5960,7 +6092,8 @@
       "status": "in_stock",
       "checkedAt": "2026-10-15",
       "source": "Оригинал отчёт .xlsm, Инвентаризация, остаток на 15.10.2026; наличие оригиналов только в Ньютоне подтверждено пользователем"
-    }
+    },
+    "gender": "Женский"
   },
   {
     "id": 226,
@@ -5998,7 +6131,8 @@
       "source": "Оригинал отчёт .xlsm, Инвентаризация, остаток на 15.10.2026; наличие оригиналов только в Ньютоне подтверждено пользователем"
     },
     "discountPercent": 15,
-    "discountSource": "Пользователь: акция −15% на 12 ароматов с IMG_2656.jpeg и IMG_2657.jpeg, 15.10.2026"
+    "discountSource": "Пользователь: акция −15% на 12 ароматов с IMG_2656.jpeg и IMG_2657.jpeg, 15.10.2026",
+    "gender": "Женский"
   },
   {
     "id": 227,
@@ -6034,7 +6168,8 @@
       "status": "in_stock",
       "checkedAt": "2026-10-15",
       "source": "Оригинал отчёт .xlsm, Инвентаризация, остаток на 15.10.2026; наличие оригиналов только в Ньютоне подтверждено пользователем"
-    }
+    },
+    "gender": "Унисекс"
   },
   {
     "id": 228,
@@ -6070,7 +6205,8 @@
       "status": "in_stock",
       "checkedAt": "2026-10-15",
       "source": "Оригинал отчёт .xlsm, Инвентаризация, остаток на 15.10.2026; наличие оригиналов только в Ньютоне подтверждено пользователем"
-    }
+    },
+    "gender": "Унисекс"
   },
   {
     "id": 229,
@@ -6106,7 +6242,8 @@
       "status": "in_stock",
       "checkedAt": "2026-10-15",
       "source": "Оригинал отчёт .xlsm, Инвентаризация, остаток на 15.10.2026; наличие оригиналов только в Ньютоне подтверждено пользователем"
-    }
+    },
+    "gender": "Унисекс"
   },
   {
     "id": 230,
@@ -6142,7 +6279,8 @@
       "status": "in_stock",
       "checkedAt": "2026-10-15",
       "source": "Оригинал отчёт .xlsm, Инвентаризация, остаток на 15.10.2026; наличие оригиналов только в Ньютоне подтверждено пользователем"
-    }
+    },
+    "gender": "Унисекс"
   },
   {
     "id": 231,
@@ -6178,7 +6316,8 @@
       "status": "in_stock",
       "checkedAt": "2026-10-15",
       "source": "Оригинал отчёт .xlsm, Инвентаризация, остаток на 15.10.2026; наличие оригиналов только в Ньютоне подтверждено пользователем"
-    }
+    },
+    "gender": "Унисекс"
   },
   {
     "id": 232,
@@ -6214,7 +6353,8 @@
       "status": "in_stock",
       "checkedAt": "2026-10-15",
       "source": "Оригинал отчёт .xlsm, Инвентаризация, остаток на 15.10.2026; наличие оригиналов только в Ньютоне подтверждено пользователем"
-    }
+    },
+    "gender": "Унисекс"
   },
   {
     "id": 233,
@@ -6250,7 +6390,8 @@
       "status": "in_stock",
       "checkedAt": "2026-10-15",
       "source": "Оригинал отчёт .xlsm, Инвентаризация, остаток на 15.10.2026; наличие оригиналов только в Ньютоне подтверждено пользователем"
-    }
+    },
+    "gender": "Унисекс"
   },
   {
     "id": 234,
@@ -6286,7 +6427,8 @@
       "status": "in_stock",
       "checkedAt": "2026-10-15",
       "source": "Оригинал отчёт .xlsm, Инвентаризация, остаток на 15.10.2026; наличие оригиналов только в Ньютоне подтверждено пользователем"
-    }
+    },
+    "gender": "Унисекс"
   },
   {
     "id": 235,
@@ -6322,7 +6464,8 @@
       "status": "in_stock",
       "checkedAt": "2026-10-15",
       "source": "Оригинал отчёт .xlsm, Инвентаризация, остаток на 15.10.2026; наличие оригиналов только в Ньютоне подтверждено пользователем"
-    }
+    },
+    "gender": "Унисекс"
   },
   {
     "id": 236,
@@ -6358,7 +6501,8 @@
       "status": "in_stock",
       "checkedAt": "2026-10-15",
       "source": "Оригинал отчёт .xlsm, Инвентаризация, остаток на 15.10.2026; наличие оригиналов только в Ньютоне подтверждено пользователем"
-    }
+    },
+    "gender": "Унисекс"
   },
   {
     "id": 237,
@@ -6394,7 +6538,8 @@
       "status": "in_stock",
       "checkedAt": "2026-10-15",
       "source": "Оригинал отчёт .xlsm, Инвентаризация, остаток на 15.10.2026; наличие оригиналов только в Ньютоне подтверждено пользователем"
-    }
+    },
+    "gender": "Унисекс"
   },
   {
     "id": 238,
@@ -6430,7 +6575,8 @@
       "status": "in_stock",
       "checkedAt": "2026-10-15",
       "source": "Оригинал отчёт .xlsm, Инвентаризация, остаток на 15.10.2026; наличие оригиналов только в Ньютоне подтверждено пользователем"
-    }
+    },
+    "gender": "Унисекс"
   },
   {
     "id": 239,
@@ -6466,7 +6612,8 @@
       "status": "in_stock",
       "checkedAt": "2026-10-15",
       "source": "Оригинал отчёт .xlsm, Инвентаризация, остаток на 15.10.2026; наличие оригиналов только в Ньютоне подтверждено пользователем"
-    }
+    },
+    "gender": "Унисекс"
   },
   {
     "id": 240,
@@ -6496,7 +6643,8 @@
     "notesSource": "https://www.fragrantica.com/perfume/ALREHAB-PERFUMES/Choco-Musk-20139.html",
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.20139.jpg?t=1789494472",
     "referenceVersion": "Choco Musk ALREHAB PERFUMES perfume - a fragrance for women and men",
-    "sortBrand": "al-rehab"
+    "sortBrand": "al-rehab",
+    "gender": "Унисекс"
   },
   {
     "id": 241,
@@ -6526,7 +6674,8 @@
     "notesSource": "https://www.fragrantica.com/perfume/Antonio-Banderas/Seduction-in-Black-6746.html",
     "imageSource": "https://www.banderasperfumes.com/uploads/products/images/seduction-black-gama-100ml_1675080411.png",
     "referenceVersion": "Seduction in Black Antonio Banderas cologne - a fragrance for men 2009",
-    "sortBrand": "antonio"
+    "sortBrand": "antonio",
+    "gender": "Мужской"
   },
   {
     "id": 242,
@@ -6556,7 +6705,8 @@
     "notesSource": "https://www.fragrantica.com/perfume/Dior/Fahrenheit-228.html",
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.228.jpg",
     "referenceVersion": "Fahrenheit Dior cologne - a fragrance for men 1988",
-    "sortBrand": "dior"
+    "sortBrand": "dior",
+    "gender": "Мужской"
   },
   {
     "id": 243,
@@ -6586,7 +6736,8 @@
     "notesSource": "https://www.fragrantica.com/perfume/Christian-Dior/Miss-Dior-Blooming-Bouquet-23280.html",
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.23280.jpg",
     "referenceVersion": "Miss Dior Blooming Bouquet Dior perfume - a fragrance for women 2014",
-    "sortBrand": "dior"
+    "sortBrand": "dior",
+    "gender": "Женский"
   },
   {
     "id": 244,
@@ -6616,7 +6767,8 @@
     "notesSource": "https://www.fragrantica.com/perfume/Dolce-Gabbana/K-by-Dolce-Gabbana-56358.html",
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.56358.jpg",
     "referenceVersion": "K by Dolce & Gabbana Dolce&Gabbana cologne - a fragrance for men 2019",
-    "sortBrand": "dolce & gabbana"
+    "sortBrand": "dolce & gabbana",
+    "gender": "Мужской"
   },
   {
     "id": 245,
@@ -6646,7 +6798,8 @@
     "notesSource": "https://www.fragrantica.com/perfume/giorgio-armani/my-way-62036.html",
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.62036.jpg",
     "referenceVersion": "My Way Giorgio Armani perfume - a fragrance for women 2020",
-    "sortBrand": "giorgio armani"
+    "sortBrand": "giorgio armani",
+    "gender": "Женский"
   },
   {
     "id": 246,
@@ -6676,7 +6829,8 @@
     "notesSource": "https://www.fragrantica.com/perfume/Givenchy/Ange-Ou-Demon-Le-Secret-6529.html?ccid=1668599",
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.6529.jpg",
     "referenceVersion": "Ange Ou Demon Le Secret Givenchy perfume - a fragrance for women 2009",
-    "sortBrand": "givenchy"
+    "sortBrand": "givenchy",
+    "gender": "Женский"
   },
   {
     "id": 247,
@@ -6706,7 +6860,8 @@
     "notesSource": "https://www.fragrantica.com/perfume/Givenchy/Givenchy-pour-Homme-Blue-Label-38.html",
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.38.jpg",
     "referenceVersion": "Givenchy pour Homme Blue Label Givenchy cologne - a fragrance for men 2004",
-    "sortBrand": "givenchy"
+    "sortBrand": "givenchy",
+    "gender": "Мужской"
   },
   {
     "id": 248,
@@ -6777,7 +6932,8 @@
       "50": 2075,
       "100": 4000
     },
-    "discountSource": "Цены на спрей уже со скидкой 50%: скриншоты COYLI PARFUM IMG_2649–IMG_2655 от 15.10.2026. На чистое масло −50% от обычного тарифа категории, подтверждено пользователем."
+    "discountSource": "Цены на спрей уже со скидкой 50%: скриншоты COYLI PARFUM IMG_2649–IMG_2655 от 15.10.2026. На чистое масло −50% от обычного тарифа категории, подтверждено пользователем.",
+    "gender": "Женский"
   },
   {
     "id": 250,
@@ -6807,7 +6963,8 @@
     "notesSource": "https://www.fragrantica.com/perfume/herm-s/terre-d-hermes-17.html",
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.17.jpg",
     "referenceVersion": "Terre d'Hermès Hermès cologne - a fragrance for men 2006",
-    "sortBrand": "hermès"
+    "sortBrand": "hermès",
+    "gender": "Мужской"
   },
   {
     "id": 251,
@@ -6837,7 +6994,8 @@
     "notesSource": "https://www.fragrantica.com/perfume/Kenzo/Kenzo-Flower-by-Kenzo-72.html",
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.72.jpg",
     "referenceVersion": "Flower by Kenzo Kenzo perfume - a fragrance for women 2000",
-    "sortBrand": "kenzo"
+    "sortBrand": "kenzo",
+    "gender": "Женский"
   },
   {
     "id": 252,
@@ -6927,7 +7085,8 @@
     "notesSource": "https://www.fragrantica.com/perfume/Lacoste/Eau-de-Lacoste-L-12-12-Pour-Elle-Sparkling-32686.html",
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.32686.jpg",
     "referenceVersion": "Eau de Lacoste L.12.12 Pour Elle Sparkling Lacoste Fragrances perfume - a fragrance for women 2015",
-    "sortBrand": "lacoste"
+    "sortBrand": "lacoste",
+    "gender": "Женский"
   },
   {
     "id": 255,
@@ -6957,7 +7116,8 @@
     "notesSource": "https://www.fragrantica.com/perfume/Lacoste-Fragrances/Lacoste-Essential-Sport-8158.html",
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.8158.jpg",
     "referenceVersion": "Lacoste Essential Sport Lacoste Fragrances cologne - a fragrance for men 2009",
-    "sortBrand": "lacoste"
+    "sortBrand": "lacoste",
+    "gender": "Мужской"
   },
   {
     "id": 256,
@@ -6998,7 +7158,8 @@
       "50": 2075,
       "100": 4000
     },
-    "discountSource": "Цены на спрей уже со скидкой 50%: скриншоты COYLI PARFUM IMG_2649–IMG_2655 от 15.10.2026. На чистое масло −50% от обычного тарифа категории, подтверждено пользователем."
+    "discountSource": "Цены на спрей уже со скидкой 50%: скриншоты COYLI PARFUM IMG_2649–IMG_2655 от 15.10.2026. На чистое масло −50% от обычного тарифа категории, подтверждено пользователем.",
+    "gender": "Женский"
   },
   {
     "id": 257,
@@ -7088,7 +7249,8 @@
     "notesSource": "https://www.fragrantica.com/perfume/Moschino/Toy-2-51589.html",
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.51589.jpg",
     "referenceVersion": "Toy 2 Moschino perfume - a fragrance for women 2018",
-    "sortBrand": "moschino"
+    "sortBrand": "moschino",
+    "gender": "Женский"
   },
   {
     "id": 260,
@@ -7129,7 +7291,8 @@
       "50": 2075,
       "100": 4000
     },
-    "discountSource": "Цены на спрей уже со скидкой 50%: скриншоты COYLI PARFUM IMG_2649–IMG_2655 от 15.10.2026. На чистое масло −50% от обычного тарифа категории, подтверждено пользователем."
+    "discountSource": "Цены на спрей уже со скидкой 50%: скриншоты COYLI PARFUM IMG_2649–IMG_2655 от 15.10.2026. На чистое масло −50% от обычного тарифа категории, подтверждено пользователем.",
+    "gender": "Женский"
   },
   {
     "id": 261,
@@ -7170,7 +7333,8 @@
       "50": 2075,
       "100": 4000
     },
-    "discountSource": "Цены на спрей уже со скидкой 50%: скриншоты COYLI PARFUM IMG_2649–IMG_2655 от 15.10.2026. На чистое масло −50% от обычного тарифа категории, подтверждено пользователем."
+    "discountSource": "Цены на спрей уже со скидкой 50%: скриншоты COYLI PARFUM IMG_2649–IMG_2655 от 15.10.2026. На чистое масло −50% от обычного тарифа категории, подтверждено пользователем.",
+    "gender": "Женский"
   },
   {
     "id": 262,
@@ -7200,7 +7364,8 @@
     "notesSource": "https://www.fragrantica.com/perfume/Paco-Rabanne/Olympea-31666.html",
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.31666.jpg",
     "referenceVersion": "Olympéa Rabanne perfume - a fragrance for women 2015",
-    "sortBrand": "paco rabanne"
+    "sortBrand": "paco rabanne",
+    "gender": "Женский"
   },
   {
     "id": 263,
@@ -7230,7 +7395,8 @@
     "notesSource": "https://www.fragrantica.com/perfume/Shaik/Opulent-Shaik-Classic-No-77-2777.html",
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.2777.jpg",
     "referenceVersion": "Opulent Shaik Classic No 77 Shaik cologne - a fragrance for men",
-    "sortBrand": "shaik"
+    "sortBrand": "shaik",
+    "gender": "Мужской"
   },
   {
     "id": 264,
@@ -7260,7 +7426,8 @@
     "notesSource": "https://www.fragrantica.com/perfume/Trussardi/My-Name-18802.html",
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.18802.jpg",
     "referenceVersion": "My Name Trussardi perfume - a fragrance for women 2013",
-    "sortBrand": "trussardi"
+    "sortBrand": "trussardi",
+    "gender": "Женский"
   },
   {
     "id": 265,
@@ -7290,7 +7457,8 @@
     "notesSource": "https://www.fragrantica.com/perfume/Versace/Versace-Man-Eau-Fraiche-644.html",
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.644.jpg",
     "referenceVersion": "Versace Man Eau Fraiche Versace cologne - a fragrance for men 2006",
-    "sortBrand": "versace"
+    "sortBrand": "versace",
+    "gender": "Мужской"
   },
   {
     "id": 266,
@@ -7320,7 +7488,8 @@
     "notesSource": "https://www.fragrantica.com/perfume/Victoria-s-Secret/Tease-Creme-Cloud-68550.html",
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.68550.jpg",
     "referenceVersion": "Tease Crème Cloud Victoria's Secret perfume - a fragrance for women 2021",
-    "sortBrand": "victoria's secret"
+    "sortBrand": "victoria's secret",
+    "gender": "Женский"
   },
   {
     "id": 267,
@@ -7350,7 +7519,8 @@
     "notesSource": "https://www.fragrantica.com/perfume/Zadig-Voltaire/This-is-Her-39358.html",
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.39358.jpg",
     "referenceVersion": "This is Her Zadig & Voltaire perfume - a fragrance for women 2016",
-    "sortBrand": "zadig & voltaire"
+    "sortBrand": "zadig & voltaire",
+    "gender": "Женский"
   },
   {
     "id": 268,
@@ -7541,7 +7711,8 @@
       "50": 3625,
       "100": 7150
     },
-    "discountSource": "Цены на спрей уже со скидкой 50%: скриншоты COYLI PARFUM IMG_2649–IMG_2655 от 15.10.2026. На чистое масло −50% от обычного тарифа категории, подтверждено пользователем."
+    "discountSource": "Цены на спрей уже со скидкой 50%: скриншоты COYLI PARFUM IMG_2649–IMG_2655 от 15.10.2026. На чистое масло −50% от обычного тарифа категории, подтверждено пользователем.",
+    "gender": "Мужской"
   },
   {
     "id": 274,
@@ -7631,7 +7802,8 @@
     "notesSource": "https://www.fragrantica.com/perfume/Carolina-Herrera/Good-Girl-39681.html",
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.39681.jpg",
     "referenceVersion": "Good Girl Carolina Herrera perfume - a fragrance for women 2016",
-    "sortBrand": "carolina"
+    "sortBrand": "carolina",
+    "gender": "Женский"
   },
   {
     "id": 277,
@@ -7692,7 +7864,8 @@
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.6086.jpg",
     "referenceVersion": "D&G Anthology L'Imperatrice 3 Dolce&Gabbana perfume - a fragrance for women 2009",
     "duplicateOf": 158,
-    "sortBrand": "dolce & gabbana"
+    "sortBrand": "dolce & gabbana",
+    "gender": "Женский"
   },
   {
     "id": 279,
@@ -7723,7 +7896,8 @@
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.78873.jpg",
     "referenceVersion": "Q by Dolce & Gabbana Dolce&Gabbana perfume - a fragrance for women 2023",
     "duplicateOf": 161,
-    "sortBrand": "dolce & gabbana"
+    "sortBrand": "dolce & gabbana",
+    "gender": "Женский"
   },
   {
     "id": 280,
@@ -7873,7 +8047,8 @@
     "notesSource": "https://www.fragrantica.com/perfume/Genyum/Painter-54911.html",
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.54911.jpg",
     "referenceVersion": "Painter Genyum perfume - a fragrance for women and men 2018",
-    "sortBrand": "genyum"
+    "sortBrand": "genyum",
+    "gender": "Унисекс"
   },
   {
     "id": 285,
@@ -7933,7 +8108,8 @@
     "notesSource": "https://www.fragrantica.com/perfume/Initio-Parfums-Prives/Oud-for-Happiness-69224.html",
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.69224.jpg",
     "referenceVersion": "Oud for Happiness Initio Parfums Prives perfume - a fragrance for women and men 2021",
-    "sortBrand": "initio"
+    "sortBrand": "initio",
+    "gender": "Унисекс"
   },
   {
     "id": 287,
@@ -8064,7 +8240,8 @@
     "notesSource": "https://www.fragrantica.com/perfume/By-Kilian/Bad-Boys-Are-No-Good-But-Good-Boys-Are-No-Fun-50495.html",
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.50495.jpg",
     "referenceVersion": "Bad Boys Are No Good But Good Boys Are No Fun By Kilian perfume - a fragrance for women and men 2018",
-    "sortBrand": "kilian"
+    "sortBrand": "kilian",
+    "gender": "Мужской"
   },
   {
     "id": 291,
@@ -8094,7 +8271,8 @@
     "notesSource": "https://www.fragrantica.com/perfume/By-Kilian/I-Don-t-Need-A-Prince-By-My-Side-To-Be-A-Princess-50497.html",
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.50497.jpg",
     "referenceVersion": "I Don't Need A Prince By My Side To Be A Princess By Kilian perfume - a fragrance for women and men 2018",
-    "sortBrand": "kilian"
+    "sortBrand": "kilian",
+    "gender": "Женский"
   },
   {
     "id": 292,
@@ -8125,7 +8303,8 @@
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.669.jpg",
     "referenceVersion": "Lacoste Pour Femme Lacoste Fragrances perfume - a fragrance for women 2003",
     "duplicateOf": 170,
-    "sortBrand": "lacoste"
+    "sortBrand": "lacoste",
+    "gender": "Женский"
   },
   {
     "id": 293,
@@ -8166,7 +8345,8 @@
       "50": 2075,
       "100": 4000
     },
-    "discountSource": "Цены на спрей уже со скидкой 50%: скриншоты COYLI PARFUM IMG_2649–IMG_2655 от 15.10.2026. На чистое масло −50% от обычного тарифа категории, подтверждено пользователем."
+    "discountSource": "Цены на спрей уже со скидкой 50%: скриншоты COYLI PARFUM IMG_2649–IMG_2655 от 15.10.2026. На чистое масло −50% от обычного тарифа категории, подтверждено пользователем.",
+    "gender": "Женский"
   },
   {
     "id": 294,
@@ -8286,7 +8466,8 @@
     "notesSource": "https://www.fragrantica.com/perfume/Maison-Martin-Margiela/Replica-By-the-Fireplace-31623.html",
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.31623.jpg",
     "referenceVersion": "By the Fireplace Maison Martin Margiela perfume - a fragrance for women and men 2015",
-    "sortBrand": "maison margiela"
+    "sortBrand": "maison margiela",
+    "gender": "Унисекс"
   },
   {
     "id": 298,
@@ -8316,7 +8497,8 @@
     "notesSource": "https://www.fragrantica.com/perfume/Maison-Crivelli/Oud-Maracuja-83842.html",
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.83842.jpg",
     "referenceVersion": "Oud Maracujá Maison Crivelli perfume - a fragrance for women and men 2023",
-    "sortBrand": "maison crivelli"
+    "sortBrand": "maison crivelli",
+    "gender": "Унисекс"
   },
   {
     "id": 299,
@@ -8346,7 +8528,8 @@
     "notesSource": "https://www.fragrantica.com/perfume/Mancera/Cedrat-Boise-15211.html",
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.15211.jpg",
     "referenceVersion": "Cedrat Boise Mancera perfume - a fragrance for women and men 2011",
-    "sortBrand": "mancera"
+    "sortBrand": "mancera",
+    "gender": "Унисекс"
   },
   {
     "id": 300,
@@ -8376,7 +8559,8 @@
     "notesSource": "https://www.fragrantica.com/perfume/Mancera/Coco-Vanille-42782.html",
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.42782.jpg",
     "referenceVersion": "Coco Vanille Mancera perfume - a fragrance for women 2016",
-    "sortBrand": "mancera"
+    "sortBrand": "mancera",
+    "gender": "Унисекс"
   },
   {
     "id": 301,
@@ -8406,7 +8590,8 @@
     "notesSource": "https://www.fragrantica.com/perfume/Mancera/Feminity-61755.html",
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.61755.jpg",
     "referenceVersion": "Feminity Mancera perfume - a fragrance for women 2020",
-    "sortBrand": "mancera"
+    "sortBrand": "mancera",
+    "gender": "Женский"
   },
   {
     "id": 302,
@@ -8436,7 +8621,8 @@
     "notesSource": "https://www.fragrantica.com/perfume/Mancera/Holidays-42888.html",
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.42888.jpg",
     "referenceVersion": "Holidays Mancera perfume - a fragrance for women and men 2016",
-    "sortBrand": "mancera"
+    "sortBrand": "mancera",
+    "gender": "Унисекс"
   },
   {
     "id": 303,
@@ -8477,7 +8663,8 @@
       "50": 3625,
       "100": 7150
     },
-    "discountSource": "Цены на спрей уже со скидкой 50%: скриншоты COYLI PARFUM IMG_2649–IMG_2655 от 15.10.2026. На чистое масло −50% от обычного тарифа категории, подтверждено пользователем."
+    "discountSource": "Цены на спрей уже со скидкой 50%: скриншоты COYLI PARFUM IMG_2649–IMG_2655 от 15.10.2026. На чистое масло −50% от обычного тарифа категории, подтверждено пользователем.",
+    "gender": "Женский"
   },
   {
     "id": 304,
@@ -8507,7 +8694,8 @@
     "notesSource": "https://www.fragrantica.com/perfume/Memo/French-Leather-28049.html",
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.28049.jpg",
     "referenceVersion": "French Leather Memo Paris perfume - a fragrance for women and men 2014",
-    "sortBrand": "memo"
+    "sortBrand": "memo",
+    "gender": "Унисекс"
   },
   {
     "id": 305,
@@ -8537,7 +8725,8 @@
     "notesSource": "https://www.fragrantica.com/perfume/Memo-Paris/Marfa-37185.html",
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.37185.jpg",
     "referenceVersion": "Marfa Memo Paris perfume - a fragrance for women and men 2016",
-    "sortBrand": "memo"
+    "sortBrand": "memo",
+    "gender": "Унисекс"
   },
   {
     "id": 306,
@@ -8567,7 +8756,8 @@
     "notesSource": "https://www.fragrantica.com/perfume/Montale/Mukhallat-3241.html",
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.3241.jpg",
     "referenceVersion": "Mukhallat Montale perfume - a fragrance for women and men 2008",
-    "sortBrand": "montale"
+    "sortBrand": "montale",
+    "gender": "Унисекс"
   },
   {
     "id": 307,
@@ -8608,7 +8798,8 @@
       "50": 3625,
       "100": 7150
     },
-    "discountSource": "Цены на спрей уже со скидкой 50%: скриншоты COYLI PARFUM IMG_2649–IMG_2655 от 15.10.2026. На чистое масло −50% от обычного тарифа категории, подтверждено пользователем."
+    "discountSource": "Цены на спрей уже со скидкой 50%: скриншоты COYLI PARFUM IMG_2649–IMG_2655 от 15.10.2026. На чистое масло −50% от обычного тарифа категории, подтверждено пользователем.",
+    "gender": "Женский"
   },
   {
     "id": 308,
@@ -8638,7 +8829,8 @@
     "notesSource": "https://www.fragrantica.com/perfume/Montale/Starry-Night-31771.html",
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.31771.jpg",
     "referenceVersion": "Starry Nights Montale perfume - a fragrance for women and men 2015",
-    "sortBrand": "montale"
+    "sortBrand": "montale",
+    "gender": "Унисекс"
   },
   {
     "id": 309,
@@ -8668,7 +8860,8 @@
     "notesSource": "https://www.fragrantica.com/perfume/Nasomatto/Fantomas-62775.html",
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.62775.jpg",
     "referenceVersion": "Fantomas Nasomatto perfume - a fragrance for women and men 2020",
-    "sortBrand": "nasomatto"
+    "sortBrand": "nasomatto",
+    "gender": "Унисекс"
   },
   {
     "id": 310,
@@ -8739,7 +8932,8 @@
     "notesSource": "https://www.fragrantica.com/perfume/Ormonde-Jayne/Montabaco-16896.html",
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.16896.jpg",
     "referenceVersion": "Montabaco Ormonde Jayne perfume - a fragrance for women and men 2012",
-    "sortBrand": "ormonde"
+    "sortBrand": "ormonde",
+    "gender": "Унисекс"
   },
   {
     "id": 312,
@@ -8770,7 +8964,8 @@
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.18471.jpg",
     "referenceVersion": "Invictus Rabanne cologne - a fragrance for men 2013",
     "duplicateOf": 70,
-    "sortBrand": "paco rabanne"
+    "sortBrand": "paco rabanne",
+    "gender": "Мужской"
   },
   {
     "id": 313,
@@ -8830,7 +9025,8 @@
     "notesSource": "https://www.fragrantica.com/perfume/Tiziana-Terenzi/Cassiopea-30624.html",
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.30624.jpg",
     "referenceVersion": "Cassiopea Tiziana Terenzi perfume - a fragrance for women and men 2015",
-    "sortBrand": "tiziana terenzi"
+    "sortBrand": "tiziana terenzi",
+    "gender": "Женский"
   },
   {
     "id": 315,
@@ -8871,7 +9067,8 @@
       "50": 3625,
       "100": 7150
     },
-    "discountSource": "Цены на спрей уже со скидкой 50%: скриншоты COYLI PARFUM IMG_2649–IMG_2655 от 15.10.2026. На чистое масло −50% от обычного тарифа категории, подтверждено пользователем."
+    "discountSource": "Цены на спрей уже со скидкой 50%: скриншоты COYLI PARFUM IMG_2649–IMG_2655 от 15.10.2026. На чистое масло −50% от обычного тарифа категории, подтверждено пользователем.",
+    "gender": "Женский"
   },
   {
     "id": 316,
@@ -8931,7 +9128,8 @@
     "notesSource": "https://www.fragrantica.com/perfume/Tom-Ford/Tobacco-Vanille-1825.html",
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.1825.jpg",
     "referenceVersion": "Tobacco Vanille Tom Ford perfume - a fragrance for women and men 2007",
-    "sortBrand": "tom ford"
+    "sortBrand": "tom ford",
+    "gender": "Унисекс"
   },
   {
     "id": 318,
@@ -8961,7 +9159,8 @@
     "notesSource": "https://www.fragrantica.com/perfume/Tom-Ford/Vanilla-88588.html",
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.88588.jpg",
     "referenceVersion": "Vanilla Tom Ford perfume - a fragrance for women and men 2023",
-    "sortBrand": "tom ford"
+    "sortBrand": "tom ford",
+    "gender": "Унисекс"
   },
   {
     "id": 319,
@@ -9272,7 +9471,8 @@
     "notesSource": "https://www.fragrantica.com/perfume/Britney-Spears/Fantasy-600.html",
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.600.jpg",
     "referenceVersion": "Fantasy — Britney Spears (2005), Eau de Parfum",
-    "sortBrand": "britney"
+    "sortBrand": "britney",
+    "gender": "Женский"
   },
   {
     "id": 329,
@@ -9302,7 +9502,8 @@
     "notesSource": "https://www.fragrantica.com/perfume/Chanel/Chanel-No-5-Parfum-28711.html",
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.28711.jpg",
     "referenceVersion": "Chanel No 5 Parfum (1921)",
-    "sortBrand": "chanel"
+    "sortBrand": "chanel",
+    "gender": "Женский"
   },
   {
     "id": 330,
@@ -9343,7 +9544,8 @@
       "50": 3625,
       "100": 7150
     },
-    "discountSource": "Цены на спрей уже со скидкой 50%: скриншоты COYLI PARFUM IMG_2649–IMG_2655 от 15.10.2026. На чистое масло −50% от обычного тарифа категории, подтверждено пользователем."
+    "discountSource": "Цены на спрей уже со скидкой 50%: скриншоты COYLI PARFUM IMG_2649–IMG_2655 от 15.10.2026. На чистое масло −50% от обычного тарифа категории, подтверждено пользователем.",
+    "gender": "Женский"
   },
   {
     "id": 331,
@@ -9403,7 +9605,8 @@
     "notesSource": "https://www.fragrantica.com/perfume/Tom-Ford/Soleil-Blanc-34893.html",
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.34893.jpg",
     "referenceVersion": "Soleil Blanc — Tom Ford (2016), Eau de Parfum",
-    "sortBrand": "tom ford"
+    "sortBrand": "tom ford",
+    "gender": "Унисекс"
   },
   {
     "id": 333,
@@ -9463,7 +9666,8 @@
     "notesSource": "https://www.juliettehasagun.com/en/products/not-a-perfume-parfum",
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.10296.jpg",
     "referenceVersion": "Not a Perfume — Juliette Has a Gun (2010)",
-    "sortBrand": "juliette has a gun"
+    "sortBrand": "juliette has a gun",
+    "gender": "Женский"
   },
   {
     "id": 335,
@@ -9798,7 +10002,8 @@
       "status": "in_stock",
       "checkedAt": "2026-10-15",
       "source": "Оригинал отчёт .xlsm, Инвентаризация, остаток на 15.10.2026; наличие оригиналов только в Ньютоне подтверждено пользователем"
-    }
+    },
+    "gender": "Женский"
   },
   {
     "id": 345,
@@ -9834,7 +10039,8 @@
       "status": "in_stock",
       "checkedAt": "2026-10-15",
       "source": "Оригинал отчёт .xlsm, Инвентаризация, остаток на 15.10.2026; наличие оригиналов только в Ньютоне подтверждено пользователем"
-    }
+    },
+    "gender": "Женский"
   },
   {
     "id": 346,
@@ -9871,7 +10077,8 @@
       "status": "in_stock",
       "checkedAt": "2026-10-15",
       "source": "Оригинал отчёт .xlsm, Инвентаризация, остаток на 15.10.2026; наличие оригиналов только в Ньютоне подтверждено пользователем"
-    }
+    },
+    "gender": "Мужской"
   },
   {
     "id": 347,
@@ -10092,7 +10299,8 @@
       "status": "in_stock",
       "checkedAt": "2026-10-15",
       "source": "Оригинал отчёт .xlsm, Инвентаризация, остаток на 15.10.2026; наличие оригиналов только в Ньютоне подтверждено пользователем"
-    }
+    },
+    "gender": "Женский"
   },
   {
     "id": 353,
@@ -10128,7 +10336,8 @@
       "status": "in_stock",
       "checkedAt": "2026-10-15",
       "source": "Оригинал отчёт .xlsm, Инвентаризация, остаток на 15.10.2026; наличие оригиналов только в Ньютоне подтверждено пользователем"
-    }
+    },
+    "gender": "Женский"
   },
   {
     "id": 354,
@@ -10202,7 +10411,8 @@
       "status": "in_stock",
       "checkedAt": "2026-10-15",
       "source": "Оригинал отчёт .xlsm, Инвентаризация, остаток на 15.10.2026; наличие оригиналов только в Ньютоне подтверждено пользователем"
-    }
+    },
+    "gender": "Женский"
   },
   {
     "id": 356,
@@ -10238,7 +10448,8 @@
       "status": "in_stock",
       "checkedAt": "2026-10-15",
       "source": "Оригинал отчёт .xlsm, Инвентаризация, остаток на 15.10.2026; наличие оригиналов только в Ньютоне подтверждено пользователем"
-    }
+    },
+    "gender": "Женский"
   },
   {
     "id": 357,
@@ -10382,7 +10593,8 @@
       "status": "in_stock",
       "checkedAt": "2026-10-15",
       "source": "Оригинал отчёт .xlsm, Инвентаризация, остаток на 15.10.2026; наличие оригиналов только в Ньютоне подтверждено пользователем"
-    }
+    },
+    "gender": "Женский"
   },
   {
     "id": 361,
@@ -10454,7 +10666,8 @@
       "status": "in_stock",
       "checkedAt": "2026-10-15",
       "source": "Оригинал отчёт .xlsm, Инвентаризация, остаток на 15.10.2026; наличие оригиналов только в Ньютоне подтверждено пользователем"
-    }
+    },
+    "gender": "Мужской"
   },
   {
     "id": 363,
@@ -10600,7 +10813,8 @@
       "status": "in_stock",
       "checkedAt": "2026-10-15",
       "source": "Оригинал отчёт .xlsm, Инвентаризация, остаток на 15.10.2026; наличие оригиналов только в Ньютоне подтверждено пользователем"
-    }
+    },
+    "gender": "Женский"
   },
   {
     "id": 367,
@@ -10672,7 +10886,8 @@
       "status": "in_stock",
       "checkedAt": "2026-10-15",
       "source": "Оригинал отчёт .xlsm, Инвентаризация, остаток на 15.10.2026; наличие оригиналов только в Ньютоне подтверждено пользователем"
-    }
+    },
+    "gender": "Женский"
   },
   {
     "id": 369,
@@ -10816,7 +11031,8 @@
       "status": "in_stock",
       "checkedAt": "2026-10-15",
       "source": "Оригинал отчёт .xlsm, Инвентаризация, остаток на 15.10.2026; наличие оригиналов только в Ньютоне подтверждено пользователем"
-    }
+    },
+    "gender": "Мужской"
   },
   {
     "id": 373,
@@ -10852,7 +11068,8 @@
       "status": "in_stock",
       "checkedAt": "2026-10-15",
       "source": "Оригинал отчёт .xlsm, Инвентаризация, остаток на 15.10.2026; наличие оригиналов только в Ньютоне подтверждено пользователем"
-    }
+    },
+    "gender": "Унисекс"
   },
   {
     "id": 374,
@@ -10888,7 +11105,8 @@
       "status": "in_stock",
       "checkedAt": "2026-10-15",
       "source": "Оригинал отчёт .xlsm, Инвентаризация, остаток на 15.10.2026; наличие оригиналов только в Ньютоне подтверждено пользователем"
-    }
+    },
+    "gender": "Унисекс"
   },
   {
     "id": 375,
@@ -10960,7 +11178,8 @@
       "status": "in_stock",
       "checkedAt": "2026-10-15",
       "source": "Оригинал отчёт .xlsm, Инвентаризация, остаток на 15.10.2026; наличие оригиналов только в Ньютоне подтверждено пользователем"
-    }
+    },
+    "gender": "Унисекс"
   },
   {
     "id": 377,
@@ -10997,7 +11216,8 @@
       "status": "in_stock",
       "checkedAt": "2026-10-15",
       "source": "Оригинал отчёт .xlsm, Инвентаризация, остаток на 15.10.2026; наличие оригиналов только в Ньютоне подтверждено пользователем"
-    }
+    },
+    "gender": "Мужской"
   },
   {
     "id": 378,
@@ -11107,7 +11327,8 @@
       "status": "in_stock",
       "checkedAt": "2026-10-15",
       "source": "Оригинал отчёт .xlsm, Инвентаризация, остаток на 15.10.2026; наличие оригиналов только в Ньютоне подтверждено пользователем"
-    }
+    },
+    "gender": "Унисекс"
   },
   {
     "id": 381,
@@ -11143,7 +11364,8 @@
       "status": "in_stock",
       "checkedAt": "2026-10-15",
       "source": "Оригинал отчёт .xlsm, Инвентаризация, остаток на 15.10.2026; наличие оригиналов только в Ньютоне подтверждено пользователем"
-    }
+    },
+    "gender": "Унисекс"
   },
   {
     "id": 382,
@@ -11179,7 +11401,8 @@
       "status": "in_stock",
       "checkedAt": "2026-10-15",
       "source": "Оригинал отчёт .xlsm, Инвентаризация, остаток на 15.10.2026; наличие оригиналов только в Ньютоне подтверждено пользователем"
-    }
+    },
+    "gender": "Унисекс"
   },
   {
     "id": 383,
@@ -11215,7 +11438,8 @@
       "status": "in_stock",
       "checkedAt": "2026-10-15",
       "source": "Оригинал отчёт .xlsm, Инвентаризация, остаток на 15.10.2026; наличие оригиналов только в Ньютоне подтверждено пользователем"
-    }
+    },
+    "gender": "Женский"
   },
   {
     "id": 384,
@@ -11253,7 +11477,8 @@
       "source": "Оригинал отчёт .xlsm, Инвентаризация, остаток на 15.10.2026; наличие оригиналов только в Ньютоне подтверждено пользователем"
     },
     "discountPercent": 15,
-    "discountSource": "Пользователь: акция −15% на 12 ароматов с IMG_2656.jpeg и IMG_2657.jpeg, 15.10.2026"
+    "discountSource": "Пользователь: акция −15% на 12 ароматов с IMG_2656.jpeg и IMG_2657.jpeg, 15.10.2026",
+    "gender": "Женский"
   },
   {
     "id": 385,
@@ -11397,7 +11622,8 @@
       "status": "in_stock",
       "checkedAt": "2026-10-15",
       "source": "Оригинал отчёт .xlsm, Инвентаризация, остаток на 15.10.2026; наличие оригиналов только в Ньютоне подтверждено пользователем"
-    }
+    },
+    "gender": "Мужской"
   },
   {
     "id": 389,
@@ -11543,7 +11769,8 @@
       "status": "in_stock",
       "checkedAt": "2026-10-15",
       "source": "Оригинал отчёт .xlsm, Инвентаризация, остаток на 15.10.2026; наличие оригиналов только в Ньютоне подтверждено пользователем"
-    }
+    },
+    "gender": "Женский"
   },
   {
     "id": 393,
@@ -11651,7 +11878,8 @@
       "status": "in_stock",
       "checkedAt": "2026-10-15",
       "source": "Оригинал отчёт .xlsm, Инвентаризация, остаток на 15.10.2026; наличие оригиналов только в Ньютоне подтверждено пользователем"
-    }
+    },
+    "gender": "Женский"
   },
   {
     "id": 397,
@@ -11725,7 +11953,8 @@
       "status": "in_stock",
       "checkedAt": "2026-10-15",
       "source": "Оригинал отчёт .xlsm, Инвентаризация, остаток на 15.10.2026; наличие оригиналов только в Ньютоне подтверждено пользователем"
-    }
+    },
+    "gender": "Женский"
   },
   {
     "id": 399,
@@ -11908,7 +12137,8 @@
       "source": "Оригинал отчёт .xlsm, Инвентаризация, остаток на 15.10.2026; наличие оригиналов только в Ньютоне подтверждено пользователем"
     },
     "discountPercent": 15,
-    "discountSource": "Пользователь: акция −15% на 12 ароматов с IMG_2656.jpeg и IMG_2657.jpeg, 15.10.2026"
+    "discountSource": "Пользователь: акция −15% на 12 ароматов с IMG_2656.jpeg и IMG_2657.jpeg, 15.10.2026",
+    "gender": "Женский"
   },
   {
     "id": 404,
@@ -11945,7 +12175,8 @@
       "status": "in_stock",
       "checkedAt": "2026-10-15",
       "source": "Оригинал отчёт .xlsm, Инвентаризация, остаток на 15.10.2026; наличие оригиналов только в Ньютоне подтверждено пользователем"
-    }
+    },
+    "gender": "Женский"
   },
   {
     "id": 405,
@@ -12029,7 +12260,8 @@
       586.25,
       375,
       500
-    ]
+    ],
+    "gender": "Женский"
   },
   {
     "id": 407,
@@ -12076,7 +12308,8 @@
       583.75,
       375,
       500
-    ]
+    ],
+    "gender": "Унисекс"
   },
   {
     "id": 408,
@@ -12170,7 +12403,8 @@
       585,
       375,
       500
-    ]
+    ],
+    "gender": "Мужской"
   },
   {
     "id": 410,
@@ -12217,7 +12451,8 @@
       430,
       375,
       500
-    ]
+    ],
+    "gender": "Женский"
   },
   {
     "id": 411,
@@ -12264,7 +12499,8 @@
       455,
       375,
       500
-    ]
+    ],
+    "gender": "Женский"
   },
   {
     "id": 412,
@@ -12311,7 +12547,8 @@
       431.25,
       375,
       500
-    ]
+    ],
+    "gender": "Женский"
   },
   {
     "id": 413,
@@ -12358,7 +12595,8 @@
       587.5,
       375,
       500
-    ]
+    ],
+    "gender": "Женский"
   },
   {
     "id": 414,
@@ -12405,7 +12643,8 @@
       587.5,
       375,
       500
-    ]
+    ],
+    "gender": "Мужской"
   },
   {
     "id": 415,
@@ -12499,7 +12738,8 @@
       587.5,
       375,
       500
-    ]
+    ],
+    "gender": "Унисекс"
   },
   {
     "id": 417,
@@ -12593,7 +12833,8 @@
       582.5,
       375,
       500
-    ]
+    ],
+    "gender": "Женский"
   },
   {
     "id": 419,
@@ -12640,7 +12881,8 @@
       586.25,
       375,
       500
-    ]
+    ],
+    "gender": "Женский"
   },
   {
     "id": 420,
@@ -12687,7 +12929,8 @@
       587.5,
       375,
       500
-    ]
+    ],
+    "gender": "Женский"
   },
   {
     "id": 421,
@@ -12734,7 +12977,8 @@
       587.5,
       375,
       500
-    ]
+    ],
+    "gender": "Мужской"
   },
   {
     "id": 422,
@@ -12875,7 +13119,8 @@
       586.25,
       375,
       500
-    ]
+    ],
+    "gender": "Унисекс"
   },
   {
     "id": 425,
@@ -12969,7 +13214,8 @@
       586.25,
       375,
       500
-    ]
+    ],
+    "gender": "Мужской"
   },
   {
     "id": 427,
@@ -13016,7 +13262,8 @@
       568.75,
       375,
       500
-    ]
+    ],
+    "gender": "Женский"
   },
   {
     "id": 428,
@@ -13063,7 +13310,8 @@
       431.25,
       375,
       500
-    ]
+    ],
+    "gender": "Женский"
   },
   {
     "id": 429,
@@ -13110,7 +13358,8 @@
       585,
       375,
       500
-    ]
+    ],
+    "gender": "Женский"
   },
   {
     "id": 430,
@@ -13157,7 +13406,8 @@
       586.25,
       375,
       500
-    ]
+    ],
+    "gender": "Женский"
   },
   {
     "id": 431,
@@ -13298,7 +13548,8 @@
       586.25,
       375,
       500
-    ]
+    ],
+    "gender": "Мужской"
   },
   {
     "id": 434,
@@ -13345,7 +13596,8 @@
       582.5,
       375,
       500
-    ]
+    ],
+    "gender": "Женский"
   },
   {
     "id": 435,
@@ -13439,7 +13691,8 @@
       586.25,
       375,
       500
-    ]
+    ],
+    "gender": "Мужской"
   },
   {
     "id": 437,
@@ -13486,6 +13739,7 @@
       587.5,
       375,
       500
-    ]
+    ],
+    "gender": "Мужской"
   }
 ]
