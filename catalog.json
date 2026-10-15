@@ -9278,8 +9278,8 @@
     "catalogStatus": "reference_pending",
     "notesSource": "https://www.fragrantica.com/perfumes/Giorgio-Armani/Acqua-di-Gio-410.html",
     "referenceVersion": "Acqua di Giò Pour Homme 1996",
-    "image": "https://www.perfumesamplesanddecants.com/cdn/shop/products/Armani-AcquaDiGio-UseMe.png?v=1498607128",
-    "imageSource": "https://www.perfumesamplesanddecants.com/cdn/shop/products/Armani-AcquaDiGio-UseMe.png?v=1498607128",
+    "image": "https://fimgs.net/mdimg/perfume/375x500.410.jpg",
+    "imageSource": "Fragrantica, Acqua di Gio Giorgio Armani (1996)",
     "sortBrand": "giorgio armani"
   },
   {
@@ -9350,7 +9350,7 @@
     },
     "notes": "",
     "catalogStatus": "name_label_mismatch",
-    "image": "assets/perfumes/zam-zam-cold-user.jpg",
+    "image": "https://raw.githubusercontent.com/jullyhey/coyli-parfum/main/assets/perfumes/zam-zam-cold-user.jpg",
     "imageSource": "Фотография предоставлена COYLI PARFUM; на этикетке написано ZAM ZAM COLD",
     "sortBrand": "zam"
   },
@@ -9386,7 +9386,7 @@
     "notes": "По описанию продавца: верхние ноты — каннабис, перец, бурбонская ваниль, паприка, кофе; сердце — эбеновое дерево, табак, мексиканский шоколад; база — кедр, пачули, сандал. Пирамида не подтверждена официальным сайтом Byredo.",
     "catalogStatus": "notes_unverified",
     "notesSource": "https://byredo.eu.com/byredo-marijuana-parfyumirovannaya-voda-100-ml-1",
-    "image": "assets/perfumes/byredo-marijuana-user.jpg",
+    "image": "https://raw.githubusercontent.com/jullyhey/coyli-parfum/main/assets/perfumes/byredo-marijuana-user.jpg",
     "imageSource": "Фотография предоставлена COYLI PARFUM",
     "sortBrand": "byredo"
   },
@@ -9456,7 +9456,7 @@
       "100": 8000
     },
     "notes": "",
-    "image": "assets/perfumes/zam-zam-user.jpg",
+    "image": "https://raw.githubusercontent.com/jullyhey/coyli-parfum/main/assets/perfumes/zam-zam-user.jpg",
     "imageSource": "Фото графина, предоставленное COYLI PARFUM",
     "sortBrand": "zam"
   }
