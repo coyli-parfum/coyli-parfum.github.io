@@ -901,11 +901,11 @@
       "50": 7250,
       "100": 14300
     },
-    "notes": "Аромат чистоты: мягкий хлопковый аккорд, белый мускус, древесные оттенки. Производитель не раскрывает пирамиду по уровням.",
+    "notes": "Цветок хлопка, белый мускус, белый уд. Производитель не разделяет композицию на верхние, средние и базовые ноты.",
     "kind": "perfume",
-    "notesSource": "https://www.zarkoperfume.com/commodity/11-zarkoperfume-the-muse",
-    "image": "https://media.douglas.hr/media/image/41/c8/c4/ZAR66873_1280x1280.jpg",
-    "imageSource": "https://media.douglas.hr/media/image/41/c8/c4/ZAR66873_1280x1280.jpg"
+    "notesSource": "https://www.fragrantica.com/p/60665",
+    "image": "https://image.brigitte.de/13575226/t/5T/v4/w960/r1/-/zarko-perfume-the-muse.png",
+    "imageSource": "https://image.brigitte.de/13575226/t/5T/v4/w960/r1/-/zarko-perfume-the-muse.png"
   },
   {
     "id": 63,
@@ -9058,8 +9058,8 @@
     "catalogStatus": "reference_pending",
     "notesSource": "https://www.fragrantica.com/perfumes/Giorgio-Armani/Acqua-di-Gio-410.html",
     "referenceVersion": "Acqua di Giò Pour Homme 1996",
-    "image": "https://bizweb.dktcdn.net/thumb/1024x1024/100/208/222/products/bec4b999-4842-4857-b849-71499a268912.jpg",
-    "imageSource": "https://bizweb.dktcdn.net/thumb/1024x1024/100/208/222/products/bec4b999-4842-4857-b849-71499a268912.jpg"
+    "image": "https://www.perfumesamplesanddecants.com/cdn/shop/products/Armani-AcquaDiGio-UseMe.png?v=1498607128",
+    "imageSource": "https://www.perfumesamplesanddecants.com/cdn/shop/products/Armani-AcquaDiGio-UseMe.png?v=1498607128"
   },
   {
     "id": 337,
@@ -9192,7 +9192,9 @@
     },
     "notes": "Ноты аромата: ветивер, бергамот, лимон",
     "catalogStatus": "reference_pending",
-    "notesSource": "https://www.fragrantica.com/perfume/Zielinski-Rozen/Vetiver-Lemon-Bergamot-65055.html"
+    "notesSource": "https://www.fragrantica.com/perfume/Zielinski-Rozen/Vetiver-Lemon-Bergamot-65055.html",
+    "image": "https://zielinski-rozen.com.ua/content/images/9/1024x1024l80mc0/97096259246411.jpg",
+    "imageSource": "https://zielinski-rozen.com.ua/content/images/9/1024x1024l80mc0/97096259246411.jpg"
   },
   {
     "id": 341,
