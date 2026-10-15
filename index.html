@@ -40,14 +40,32 @@ for(const name of ["Antonio Banderas Blue Seduction", "Giorgio Armani Sì", "Gio
 function normName(x){return String(x).toLowerCase().replace(/ё/g,"е").replace(/[^a-zа-я0-9]/g,"")}
 // Для оригиналов цены и объёмы в справочнике не указаны: карточки информационные.
 for(const name of ["Arcadia London", "Attar Collection Al Rayhan", "Attar Collection Annabella", "Attar Collection Crystal Love for Her", "Attar Collection Hayati", "Attar Collection Monolith", "Attar Collection Musk Kashmir Extrait", "Attar Collection The Queen of Sheba", "Burberry Goddess Intense", "ByBozo Habibi", "ByBozo Sea Breeze", "ByBozo Topless", "Byredo 1996", "Byredo Bal d'Afrique", "Casamorati Dolce Amalfi", "Casamorati Italica", "Chanel Allure Homme Sport", "Chanel Bleu de Chanel", "Chanel Chance Eau Splendide", "Creed Aventus", "Creed Aventus Absolu", "Dior Hypnotic Poison", "Dior Sauvage", "Escentric Molecules Molecule 01", "Escentric Molecules Molecule 02", "Essential Parfums Bois Impérial", "Ex Nihilo Blue Talisman", "Ex Nihilo Fleur Narcotique", "Genyum Painter", "Givenchy Gentleman Society Extrême", "HFC Devil's Intrigue", "Hormone Paris Gaba", "Initio Side Effect", "Juliette Has a Gun Miami Shake", "Juliette Has a Gun Mmmm…", "Juliette Has a Gun Moscow Mule", "Juliette Has a Gun Ode to Dullness", "Juliette Has a Gun Pear Inc", "Juliette Has a Gun Sunny Side Up", "Kilian Angels' Share", "Le Labo Another 13", "Les Liquides Imaginaires Blanche Bête", "Maison Francis Kurkdjian Baccarat Rouge 540", "Marc-Antoine Barrois Ganymede", "Nasomatto Black Afgano", "Orto Parisi Megamare", "Richard Dirty Mango", "Richard White Chocola", "Tiziana Terenzi Kirke", "Tom Ford Ombré Leather", "Vilhelm Parfumerie Chimilka", "Zarkoperfume The Muse"]){add(name,"Оригинал",["уточнить"],{"уточнить":0},"Цена и наличие уточняются у менеджера", "original");}
-let cat='Все товары',query='',cart=[],current=null,format='spray',vol='10';const cats=['Все товары','Оригинал','Селектив','Люкс','Автопарфюм','Крем-баттер','Мист / арома-спрей','Рум-спрей','Диффузор','Свеча','Аромасаше'];const norm=s=>String(s).toLowerCase().replace(/ё/g,'е').replace(/[^a-zа-я0-9]/g,'');const rub=n=>Number(n)>0?Number(n).toLocaleString('ru-RU')+' ₽':'Цена по запросу';const esc=s=>String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));function price(item){return item.price[item.volumes[0]]??Object.values(item.price)[0]};function render(){
+let cat='Все товары',query='',cart=[],current=null,format='spray',vol='10';const cats=['Все товары','Оригинал','Селектив','Люкс','Автопарфюм','Крем-баттер','Мист / арома-спрей','Рум-спрей','Диффузор','Свеча','Аромасаше'];const norm=s=>String(s).toLowerCase().replace(/ё/g,'е').replace(/[^a-zа-я0-9]/g,'');const rub=n=>Number(n)>0?Number(n).toLocaleString('ru-RU')+' ₽':'Цена по запросу';const esc=s=>String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));function price(item){return item.price[item.volumes[0]]??Object.values(item.price)[0]};
+function handleImageError(img){
+ const original=img.getAttribute('src')||'';
+ if(!img.dataset.retried && original.startsWith('assets/')){
+  img.dataset.retried='1';
+  img.src='https://raw.githubusercontent.com/jullyhey/coyli-parfum/main/'+original;
+  return;
+ }
+ img.onerror=null;
+ img.style.display='none';
+ const placeholder=document.createElement('div');
+ placeholder.className='bottle';
+ const label=document.createElement('span');
+ label.textContent='COYLI';
+ placeholder.appendChild(label);
+ img.insertAdjacentElement('afterend',placeholder);
+}
+
+function render(){
  const tabs=document.getElementById('tabs');
  tabs.innerHTML=cats.map((c,i)=>`<button class="tab ${cat===c?'active':''}" data-cat="${i}">${esc(c)}</button>`).join('');
  tabs.querySelectorAll('[data-cat]').forEach(b=>b.addEventListener('click',()=>{cat=cats[Number(b.dataset.cat)];render()}));
  const matches=p.filter(x=>!x.duplicateOf&&(cat==='Все товары'||x.cat===cat)&&norm(x.name+' '+x.cat+' '+x.notes).includes(norm(query))).sort((a,b)=>{const rank=x=>x.cat==='Селектив'?0:x.cat==='Люкс'?1:x.cat==='Оригинал'?2:3;const d=rank(a)-rank(b);if(d)return d;if(rank(a)<2){const brandA=a.sortBrand||a.name.toLowerCase().split(' ')[0],brandB=b.sortBrand||b.name.toLowerCase().split(' ')[0];return brandA.localeCompare(brandB,'ru')||a.name.localeCompare(b.name,'ru')}return a.id-b.id});
  document.getElementById('total').textContent='Найдено товаров: '+matches.length;
  document.getElementById('grid').innerHTML=matches.map(x=>{
- const photo=x.image?`<img class="product-photo" loading="lazy" decoding="async" src="${x.image}" alt="${esc(x.name)}" onerror="if(!this.dataset.retried &amp;&amp; this.getAttribute(\'src\').startsWith(\'assets/\')){this.dataset.retried=\'1\';this.src=\'https://raw.githubusercontent.com/jullyhey/coyli-parfum/main/\'+this.getAttribute(\'src\');}else{this.onerror=null;this.style.display=\'none\';this.insertAdjacentHTML(\'afterend\',\'<div class=&quot;bottle&quot;><span>COYLI</span></div>\');}">`:'<div class="bottle"><span>COYLI</span></div>';
+ const photo=x.image?`<img class="product-photo" loading="lazy" decoding="async" src="${x.image}" alt="${esc(x.name)}" onerror="handleImageError(this)">`:'<div class="bottle"><span>COYLI</span></div>';
  const meta=esc(x.cat)+' · '+(x.kind==='perfume'?'от '+rub(price(x)):esc(x.volumes.join(' / '))+(x.kind==='car'||x.kind==='original'?'':' мл'));
  return `<article class="item" onclick="openProduct(${x.id})"><div class="visual ${x.kind==='home'?'home':x.kind==='car'?'car':''}">${photo}</div><div class="name">${esc(x.name)}</div><div class="meta">${meta}</div><div class="bottom"><span class="price">${x.kind==='perfume'?'от ':''}${rub(price(x))}</span><button class="plus" onclick="event.stopPropagation();openProduct(${x.id})">+</button></div></article>`;
  }).join('')||'<p>Ничего не найдено. Попробуйте другое написание.</p>';
@@ -61,7 +79,7 @@ document.getElementById('search').oninput=e=>{query=e.target.value;render()};fun
   if(!(vol in pr))vol=String(options[0]);
  }
  const amount=pr[vol];
- const photo=x.image?`<img class="product-photo" loading="lazy" decoding="async" src="${x.image}" alt="${esc(x.name)}" onerror="if(!this.dataset.retried &amp;&amp; this.getAttribute(\'src\').startsWith(\'assets/\')){this.dataset.retried=\'1\';this.src=\'https://raw.githubusercontent.com/jullyhey/coyli-parfum/main/\'+this.getAttribute(\'src\');}else{this.onerror=null;this.style.display=\'none\';this.insertAdjacentHTML(\'afterend\',\'<div class=&quot;bottle&quot;><span>COYLI</span></div>\');}">`:'<div class="bottle"><span>COYLI</span></div>';
+ const photo=x.image?`<img class="product-photo" loading="lazy" decoding="async" src="${x.image}" alt="${esc(x.name)}" onerror="handleImageError(this)">`:'<div class="bottle"><span>COYLI</span></div>';
  const formats=x.kind==='perfume'?`<h4>Формат</h4><div class="pillset"><button class="pill ${format==='spray'?'selected':''}" onclick="format='spray';vol='10';drawProduct()">Спрей</button><button class="pill ${format==='oil'?'selected':''}" onclick="format='oil';vol='1';drawProduct()">Чистое масло</button></div>`:'';
  const choices=options.map(v=>`<button class="pill ${String(vol)===String(v)?'selected':''}" onclick="vol='${v}';drawProduct()">${v}${x.kind==='car'||x.kind==='original'?'':' мл'}</button>`).join('');
  document.getElementById('panel').innerHTML=`<button class="close" onclick="hide()">×</button><div class="visual" style="height:160px">${photo}</div><p class="muted">${esc(x.cat)}</p><h2>${esc(x.name)}</h2><p class="muted product-notes">${esc(x.notes||'Описание и ноты аромата будут добавлены после проверки.')}</p>${formats}<h4>Объём</h4><div class="pillset">${choices}</div><h2>${rub(amount)}</h2><button class="primary" id="add-to-cart" ${x.kind==='original'?'disabled':''}>Добавить в корзину</button><p class="muted">Наличие уточняется у менеджера.</p>`;
