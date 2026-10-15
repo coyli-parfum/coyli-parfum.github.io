@@ -226,7 +226,7 @@
   {
     "id": 17,
     "name": "Клубничный чизкейк",
-    "cat": "Мист / арома-спрей",
+    "cat": "Мисты",
     "volumes": [
       60
     ],
@@ -235,12 +235,21 @@
     },
     "notes": "клубника | сливки | мусс",
     "kind": "spray",
-    "notesSource": "Ноты с этикетки на фотографии COYLI PARFUM, предоставленной пользователем"
+    "notesSource": "Ноты с этикетки на фотографии COYLI PARFUM, предоставленной пользователем",
+    "image": "assets/mists/strawberry-20261015.jpg",
+    "imageSource": "User supplied: 9ADFC591-2974-4D9B-A506-E7077B077C1E.jpeg",
+    "imageFrame": [
+      5.5,
+      154.5,
+      1075,
+      1086,
+      1448
+    ]
   },
   {
     "id": 18,
     "name": "Морская дымка",
-    "cat": "Мист / арома-спрей",
+    "cat": "Мисты",
     "volumes": [
       60
     ],
@@ -249,12 +258,21 @@
     },
     "notes": "морская соль | сандал | пудра",
     "kind": "spray",
-    "notesSource": "Ноты с этикетки на фотографии COYLI PARFUM, предоставленной пользователем"
+    "notesSource": "Ноты с этикетки на фотографии COYLI PARFUM, предоставленной пользователем",
+    "image": "assets/mists/sea-20261015.jpg",
+    "imageSource": "User supplied: 30DCE914-CFB4-4C21-A4CB-141756C18EFD.jpeg",
+    "imageFrame": [
+      27.25,
+      205.75,
+      1022.5,
+      1086,
+      1448
+    ]
   },
   {
     "id": 19,
     "name": "AIR мусс",
-    "cat": "Мист / арома-спрей",
+    "cat": "Мисты",
     "volumes": [
       60
     ],
@@ -263,12 +281,21 @@
     },
     "notes": "белый мускус | хлопок | белый уд",
     "kind": "spray",
-    "notesSource": "Ноты с этикетки на фотографии COYLI PARFUM, предоставленной пользователем"
+    "notesSource": "Ноты с этикетки на фотографии COYLI PARFUM, предоставленной пользователем",
+    "image": "assets/mists/air-20261015.jpg",
+    "imageSource": "User supplied: FDCDF4F5-AA17-436A-82EF-D3A697637989.jpeg",
+    "imageFrame": [
+      -22.125,
+      164.875,
+      1131.25,
+      1086,
+      1448
+    ]
   },
   {
     "id": 20,
     "name": "Сливочная груша",
-    "cat": "Мист / арома-спрей",
+    "cat": "Мисты",
     "volumes": [
       60
     ],
@@ -277,12 +304,21 @@
     },
     "notes": "груша | маскарпоне | пралине",
     "kind": "spray",
-    "notesSource": "Ноты с этикетки на фотографии COYLI PARFUM, предоставленной пользователем"
+    "notesSource": "Ноты с этикетки на фотографии COYLI PARFUM, предоставленной пользователем",
+    "image": "assets/mists/pear-20261015.jpg",
+    "imageSource": "User supplied: 3F53F7BF-4B36-458A-AB26-F2AD913DD945.jpeg",
+    "imageFrame": [
+      100.125,
+      246.625,
+      883.75,
+      1086,
+      1448
+    ]
   },
   {
     "id": 21,
     "name": "Игристый грейпфрут",
-    "cat": "Мист / арома-спрей",
+    "cat": "Мисты",
     "volumes": [
       60
     ],
@@ -291,12 +327,21 @@
     },
     "notes": "персик | грейпфрут | цедра лимона",
     "kind": "spray",
-    "notesSource": "Ноты с этикетки на фотографии COYLI PARFUM, предоставленной пользователем"
+    "notesSource": "Ноты с этикетки на фотографии COYLI PARFUM, предоставленной пользователем",
+    "image": "assets/mists/grapefruit-20261015.jpg",
+    "imageSource": "User supplied: 11A477F2-B5DF-4D49-9E80-8108F17DA5AE.jpeg",
+    "imageFrame": [
+      21.875,
+      193.875,
+      1041.25,
+      1086,
+      1448
+    ]
   },
   {
     "id": 22,
     "name": "Апельсиновое мороженое",
-    "cat": "Мист / арома-спрей",
+    "cat": "Мисты",
     "volumes": [
       60
     ],
@@ -309,7 +354,7 @@
   {
     "id": 23,
     "name": "Манго сгущёнка",
-    "cat": "Мист / арома-спрей",
+    "cat": "Мисты",
     "volumes": [
       60
     ],
@@ -318,12 +363,21 @@
     },
     "notes": "манго | сгущёнка | кокосовое молоко",
     "kind": "spray",
-    "notesSource": "Ноты с этикетки на фотографии COYLI PARFUM, предоставленной пользователем"
+    "notesSource": "Ноты с этикетки на фотографии COYLI PARFUM, предоставленной пользователем",
+    "image": "assets/mists/mango-20261015.jpg",
+    "imageSource": "User supplied: 5CBE7943-8729-412D-A3D6-EA5BA6DAEF38.jpeg",
+    "imageFrame": [
+      88.375,
+      241.875,
+      911.25,
+      1086,
+      1448
+    ]
   },
   {
     "id": 24,
     "name": "Кленовые вафли",
-    "cat": "Мист / арома-спрей",
+    "cat": "Мисты",
     "volumes": [
       60
     ],
@@ -332,12 +386,19 @@
     },
     "notes": "",
     "kind": "spray",
-    "image": "product-06.jpg"
+    "image": "product-06.jpg",
+    "imageFrame": [
+      22.875,
+      21.375,
+      856.25,
+      900,
+      900
+    ]
   },
   {
     "id": 25,
     "name": "Вишнёвый",
-    "cat": "Мист / арома-спрей",
+    "cat": "Мисты",
     "volumes": [
       60
     ],
@@ -346,7 +407,14 @@
     },
     "notes": "",
     "kind": "spray",
-    "image": "product-05.jpg"
+    "image": "product-05.jpg",
+    "imageFrame": [
+      -5.75,
+      -6.25,
+      912.5,
+      900,
+      900
+    ]
   },
   {
     "id": 26,

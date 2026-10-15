@@ -1,6 +1,6 @@
 # COYLI PARFUM catalog
 
-This private repository publishes the existing Netlify site https://starlit-sunflower-ea1b0d.netlify.app/ from main. Keep the existing hosting and design.
+The active site is https://jullyhey.github.io/coyli-parfum/ and publishes main through GitHub Pages. The previous Netlify URL https://starlit-sunflower-ea1b0d.netlify.app/ still serves an older catalog as verified on 2026-10-15. Verify changes on the active GitHub Pages site. Keep the existing design and hosting configuration.
 
 ## Catalog updates requested in chat
 
@@ -25,3 +25,9 @@ This is a buildless static site. index.html, catalog.json and image assets are s
 - Lux/selective spray and pure-oil price schedules are also encoded as sprayL, sprayS, oilL, oilS in index.html. A requested price update must update the relevant renderer schedule as well as catalog prices; validate the actual format/volume selection and cart amount.
 - For the user's reference-fragrance import, matching bottle images and notes may be researched from official brands or Fragrantica. Keep notesSource and imageSource provenance, distinguish fragrance editions, and host the actual photos locally. White backgrounds and consistent bottle views are preferred. Do not substitute a related fragrance for an unclear name.
 - Unrelated home products, original perfumes, prices and images remain unchanged. Records with duplicateOf are retained for historical IDs but hidden by index.html: Baccarat 60 → 92 and Givenchy Gentleman 163 → Society 164. Reuse existing confirmed name/category cards rather than adding aliases as new products. catalogStatus: reference_pending means photo and notes remain unverified; preserve the user's spelling and category until clarified. Zames must not be added.
+
+## Mists
+
+- The category is named «Мисты» in catalog.json, index.html and admin.html. Keep existing IDs, prices and volumes.
+- User-supplied mist photos are under assets/mists/. imageFrame is [left, top, squareSize, sourceWidth, sourceHeight] in source pixels. productPhoto renders this crop through CSS without changing the original file. The eight photographed mists use the same centered bottle height (80% of the square), including existing Вишнёвый and Кленовые вафли.
+- Апельсиновое мороженое has no supplied photo yet. Do not invent a matching bottle or remove the product.
