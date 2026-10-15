@@ -44,7 +44,7 @@ let cat='Все товары',query='',cart=[],current=null,format='spray',vol='
  const tabs=document.getElementById('tabs');
  tabs.innerHTML=cats.map((c,i)=>`<button class="tab ${cat===c?'active':''}" data-cat="${i}">${esc(c)}</button>`).join('');
  tabs.querySelectorAll('[data-cat]').forEach(b=>b.addEventListener('click',()=>{cat=cats[Number(b.dataset.cat)];render()}));
- const matches=p.filter(x=>!x.duplicateOf&&(cat==='Все товары'||x.cat===cat)&&norm(x.name+' '+x.cat+' '+x.notes).includes(norm(query)));
+ const matches=p.filter(x=>!x.duplicateOf&&(cat==='Все товары'||x.cat===cat)&&norm(x.name+' '+x.cat+' '+x.notes).includes(norm(query))).sort((a,b)=>{const rank=x=>x.cat==='Селектив'?0:x.cat==='Люкс'?1:x.cat==='Оригинал'?2:3;const d=rank(a)-rank(b);if(d)return d;if(rank(a)<2){const brandA=a.sortBrand||a.name.toLowerCase().split(' ')[0],brandB=b.sortBrand||b.name.toLowerCase().split(' ')[0];return brandA.localeCompare(brandB,'ru')||a.name.localeCompare(b.name,'ru')}return a.id-b.id});
  document.getElementById('total').textContent='Найдено товаров: '+matches.length;
  document.getElementById('grid').innerHTML=matches.map(x=>{
  const photo=x.image?`<img class="product-photo" loading="lazy" decoding="async" src="${x.image}" alt="${esc(x.name)}">`:'<div class="bottle"><span>COYLI</span></div>';
