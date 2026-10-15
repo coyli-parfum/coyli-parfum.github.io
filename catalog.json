@@ -9582,12 +9582,13 @@
       "100": 8000
     },
     "notes": "Верхние ноты: лайм, лимон, бергамот, жасмин, апельсин, мандарин, нероли\nСердце: морские ноты, жасмин, розмарин, персик, фрезия, цикламен, фиалка, кориандр, роза, мускатный орех\nБаза: белый мускус, кедр, дубовый мох, пачули, амбра",
-    "catalogStatus": "reference_pending",
+    "catalogStatus": "reference_identified",
     "notesSource": "https://www.fragrantica.com/perfumes/Giorgio-Armani/Acqua-di-Gio-410.html",
     "referenceVersion": "Acqua di Giò Pour Homme 1996",
-    "image": "https://fimgs.net/mdimg/perfume/375x500.410.jpg",
-    "imageSource": "Fragrantica, Acqua di Gio Giorgio Armani (1996)",
-    "sortBrand": "giorgio armani"
+    "image": "assets/perfumes/armani-acqua-di-gio-20261015.jpg",
+    "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.410.jpg",
+    "sortBrand": "giorgio armani",
+    "imageStatus": "verified"
   },
   {
     "id": 337,
@@ -9619,16 +9620,17 @@
       "100": 8000
     },
     "notes": "Верхние ноты: тростник, мята, зелёная сирень, мандарин, розовый перец\nСердце: водяная лилия, перец, фиалка, белый персик, амариллис, роза\nБаза: кедр, белый мускус, ваниль",
-    "catalogStatus": "reference_pending",
+    "catalogStatus": "reference_identified",
     "notesSource": "https://www.fragrantica.com/perfume/Kenzo/L-Eau-par-Kenzo-78.html",
     "referenceVersion": "L'Eau par Kenzo pour Femme 1996",
-    "image": "https://media.marionnaud.at/medias/sys_master/prd-images/h22/h6c/12413045932062/prd-front-47443100_2000x2000/prd-front-47443100-2000x2000.jpg",
-    "imageSource": "https://media.marionnaud.at/medias/sys_master/prd-images/h22/h6c/12413045932062/prd-front-47443100_2000x2000/prd-front-47443100-2000x2000.jpg",
-    "sortBrand": "kenzo"
+    "image": "assets/perfumes/kenzo-pour-femme-20261015.jpg",
+    "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.112700.jpg",
+    "sortBrand": "kenzo",
+    "imageStatus": "verified"
   },
   {
     "id": 338,
-    "name": "Zam Zam Cold",
+    "name": "Zam Zam Gold",
     "cat": "Люкс",
     "kind": "perfume",
     "volumes": [
@@ -9657,9 +9659,10 @@
     },
     "notes": "",
     "catalogStatus": "photo_label_matches",
-    "image": "assets/perfumes/zam-zam-cold-new.jpg",
-    "imageSource": "Фотография предоставлена COYLI PARFUM; на этикетке ZAM ZAM COLD",
-    "sortBrand": "zam"
+    "image": "assets/perfumes/zam-zam-gold-20261015.jpg",
+    "imageSource": "User supplied: DBAC4E16-3FC3-42D0-857F-E80E1471DD9F(1).jpeg",
+    "sortBrand": "zam",
+    "imageStatus": "verified"
   },
   {
     "id": 339,
@@ -9693,9 +9696,10 @@
     "notes": "По описанию продавца: верхние ноты — каннабис, перец, бурбонская ваниль, паприка, кофе; сердце — эбеновое дерево, табак, мексиканский шоколад; база — кедр, пачули, сандал. Пирамида не подтверждена официальным сайтом Byredo.",
     "catalogStatus": "notes_unverified",
     "notesSource": "https://byredo.eu.com/byredo-marijuana-parfyumirovannaya-voda-100-ml-1",
-    "image": "https://raw.githubusercontent.com/jullyhey/coyli-parfum/main/assets/perfumes/byredo-marijuana-user.jpg",
-    "imageSource": "Фотография предоставлена COYLI PARFUM",
-    "sortBrand": "byredo"
+    "image": "assets/perfumes/byredo-marijuana-20261015.jpg",
+    "imageSource": "https://mrlilacscents.com/cdn/shop/files/JPG_6_1fb243e5-9ca4-490a-b514-255cdb95362d.jpg?v=1709759158&width=1080",
+    "sortBrand": "byredo",
+    "imageStatus": "verified"
   },
   {
     "id": 340,
@@ -9727,11 +9731,12 @@
       "100": 14300
     },
     "notes": "Ноты аромата: ветивер, бергамот, лимон",
-    "catalogStatus": "reference_pending",
+    "catalogStatus": "reference_identified",
     "notesSource": "https://www.fragrantica.com/perfume/Zielinski-Rozen/Vetiver-Lemon-Bergamot-65055.html",
-    "image": "https://zielinski-rozen.com.ua/content/images/9/1024x1024l80mc0/97096259246411.jpg",
-    "imageSource": "https://zielinski-rozen.com.ua/content/images/9/1024x1024l80mc0/97096259246411.jpg",
-    "sortBrand": "zielinski & rozen"
+    "image": "assets/perfumes/zielinski-vetiver-lemon-20261015.jpg",
+    "imageSource": "User supplied: IMG_2591(1).jpeg",
+    "sortBrand": "zielinski & rozen",
+    "imageStatus": "verified"
   },
   {
     "id": 341,
@@ -9763,9 +9768,10 @@
       "100": 8000
     },
     "notes": "",
-    "image": "assets/perfumes/zam-zam-new.jpg",
-    "imageSource": "Фото графина, предоставленное COYLI PARFUM",
-    "sortBrand": "zam"
+    "image": "assets/perfumes/zam-zam-20261015.jpg",
+    "imageSource": "User supplied: 660102CF-7C3D-4C2C-B1EB-18B5B47EBAEC(1).jpeg",
+    "sortBrand": "zam",
+    "imageStatus": "verified"
   },
   {
     "id": 342,
