@@ -835,7 +835,8 @@
     "image": "assets/perfumes/33519.jpg",
     "notesSource": "https://www.fragrantica.com/parfum/Maison-Francis-Kurkdjian/Baccarat-Rouge-540-33519.html",
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.33519.jpg",
-    "referenceVersion": "Baccarat Rouge 540 Maison Francis Kurkdjian perfume - a fragrance for women and men 2015"
+    "referenceVersion": "Baccarat Rouge 540 Maison Francis Kurkdjian perfume - a fragrance for women and men 2015",
+    "duplicateOf": 92
   },
   {
     "id": 61,
