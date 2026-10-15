@@ -901,9 +901,9 @@
       "50": 7250,
       "100": 14300
     },
-    "notes": "Цветок хлопка, белый мускус, белый уд. Производитель не разделяет композицию на верхние, средние и базовые ноты.",
+    "notes": "Чистый, мягкий, тёплый аромат. Производитель не раскрывает конкретные ноты и не делит композицию на верхние, сердечные и базовые.",
     "kind": "perfume",
-    "notesSource": "https://www.fragrantica.com/p/60665",
+    "notesSource": "https://www.zarkoperfume.com/commodity/11-zarkoperfume-the-muse",
     "image": "https://image.brigitte.de/13575226/t/5T/v4/w960/r1/-/zarko-perfume-the-muse.png",
     "imageSource": "https://image.brigitte.de/13575226/t/5T/v4/w960/r1/-/zarko-perfume-the-muse.png"
   },
@@ -9158,8 +9158,9 @@
       "50": 7250,
       "100": 14300
     },
-    "notes": "",
-    "catalogStatus": "reference_pending"
+    "notes": "По описанию продавца: верхние ноты — каннабис, перец, бурбонская ваниль, паприка, кофе; сердце — эбеновое дерево, табак, мексиканский шоколад; база — кедр, пачули, сандал. Пирамида не подтверждена официальным сайтом Byredo.",
+    "catalogStatus": "notes_unverified",
+    "notesSource": "https://byredo.eu.com/byredo-marijuana-parfyumirovannaya-voda-100-ml-1"
   },
   {
     "id": 340,
