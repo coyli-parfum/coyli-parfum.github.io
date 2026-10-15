@@ -1568,16 +1568,16 @@
     "name": "Attar Collection Crystal Love",
     "cat": "Селектив",
     "volumes": [
-      "2",
-      "3",
-      "4",
-      "5",
-      "10",
-      "15",
-      "20",
-      "30",
-      "50",
-      "100"
+      2,
+      3,
+      4,
+      5,
+      10,
+      15,
+      20,
+      30,
+      50,
+      100
     ],
     "price": {
       "2": 340,
@@ -1591,8 +1591,12 @@
       "50": 7250,
       "100": 14300
     },
-    "notes": "",
-    "kind": "perfume"
+    "notes": "Верхние ноты: фрукты, роза\nСердце: молочный шоколад, белый мускус, мускатный орех\nБаза: бурбонская ваниль, бобы тонка",
+    "kind": "perfume",
+    "image": "assets/perfumes/59566.jpg",
+    "notesSource": "https://www.fragrantica.com/perfume/Attar-Collection/Crystal-Love-For-Her-59566.html",
+    "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.59566.jpg",
+    "referenceVersion": "Crystal Love For Her — Attar Collection (2020)"
   },
   {
     "id": 91,
@@ -3975,16 +3979,16 @@
     "name": "Dior Homme Sport",
     "cat": "Люкс",
     "volumes": [
-      "2",
-      "3",
-      "4",
-      "5",
-      "10",
-      "15",
-      "20",
-      "30",
-      "50",
-      "100"
+      2,
+      3,
+      4,
+      5,
+      10,
+      15,
+      20,
+      30,
+      50,
+      100
     ],
     "price": {
       "2": 220,
@@ -3998,8 +4002,12 @@
       "50": 4150,
       "100": 8000
     },
-    "notes": "",
-    "kind": "perfume"
+    "notes": "Верхние ноты: лимон, грейпфрут, бергамот, смола элеми\nСердце: имбирь, ветивер, виргинский кедр\nБаза: лаванда, розмарин, сандал",
+    "kind": "perfume",
+    "image": "assets/perfumes/4033.jpg",
+    "notesSource": "https://www.fragrantica.com/perfume/Dior/Dior-Homme-Sport-4033.html",
+    "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.4033.jpg",
+    "referenceVersion": "Dior Homme Sport (2008), Eau de Toilette"
   },
   {
     "id": 160,
@@ -4135,7 +4143,8 @@
       "100": 8000
     },
     "notes": "",
-    "kind": "perfume"
+    "kind": "perfume",
+    "duplicateOf": 164
   },
   {
     "id": 164,
@@ -7300,7 +7309,7 @@
   },
   {
     "id": 287,
-    "name": "Intelligence & Fantasy Collection Volume I",
+    "name": "The Beautiful Mind Series Volume I Intelligence & Fantasy",
     "cat": "Селектив",
     "volumes": [
       2,
@@ -8697,5 +8706,480 @@
     "notesSource": "https://www.fragrantica.com/p/65110",
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.65110.jpg",
     "referenceVersion": "Black Narcotique Serge Dumonten perfume - a fragrance for women and men"
+  },
+  {
+    "id": 327,
+    "name": "Captain Black",
+    "cat": "Люкс",
+    "kind": "perfume",
+    "volumes": [
+      2,
+      3,
+      4,
+      5,
+      10,
+      15,
+      20,
+      30,
+      50,
+      100
+    ],
+    "price": {
+      "2": 220,
+      "3": 320,
+      "4": 420,
+      "5": 550,
+      "10": 1000,
+      "15": 1400,
+      "20": 1800,
+      "30": 2600,
+      "50": 4150,
+      "100": 8000
+    },
+    "notes": "Ноты: табак, мёд, бобы тонка, амбра, сандал, пачули",
+    "image": "assets/perfumes/50559.jpg",
+    "notesSource": "https://www.fragrantica.com/perfume/Elixirs-Of-Eden/Captain-Black-50559.html",
+    "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.50559.jpg",
+    "referenceVersion": "Captain Black — Elixirs Of Eden"
+  },
+  {
+    "id": 328,
+    "name": "Britney Spears Fantasy",
+    "cat": "Люкс",
+    "kind": "perfume",
+    "volumes": [
+      2,
+      3,
+      4,
+      5,
+      10,
+      15,
+      20,
+      30,
+      50,
+      100
+    ],
+    "price": {
+      "2": 220,
+      "3": 320,
+      "4": 420,
+      "5": 550,
+      "10": 1000,
+      "15": 1400,
+      "20": 1800,
+      "30": 2600,
+      "50": 4150,
+      "100": 8000
+    },
+    "notes": "Верхние ноты: киви, красный личи, айва\nСердце: белый шоколад, кекс, орхидея, жасмин\nБаза: мускус, корень ириса, древесные ноты",
+    "image": "assets/perfumes/600.jpg",
+    "notesSource": "https://www.fragrantica.com/perfume/Britney-Spears/Fantasy-600.html",
+    "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.600.jpg",
+    "referenceVersion": "Fantasy — Britney Spears (2005), Eau de Parfum"
+  },
+  {
+    "id": 329,
+    "name": "Chanel №5",
+    "cat": "Селектив",
+    "kind": "perfume",
+    "volumes": [
+      2,
+      3,
+      4,
+      5,
+      10,
+      15,
+      20,
+      30,
+      50,
+      100
+    ],
+    "price": {
+      "2": 340,
+      "3": 500,
+      "4": 660,
+      "5": 850,
+      "10": 1600,
+      "15": 2300,
+      "20": 3000,
+      "30": 4450,
+      "50": 7250,
+      "100": 14300
+    },
+    "notes": "Верхние ноты: альдегиды, иланг-иланг, нероли, бергамот, лимон\nСердце: ирис, жасмин, роза, корень ириса, ландыш\nБаза: цивет, мускус, сандал, амбра, мох, ваниль, ветивер, пачули",
+    "image": "assets/perfumes/28711.jpg",
+    "notesSource": "https://www.fragrantica.com/perfume/Chanel/Chanel-No-5-Parfum-28711.html",
+    "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.28711.jpg",
+    "referenceVersion": "Chanel No 5 Parfum (1921)"
+  },
+  {
+    "id": 330,
+    "name": "Ex Nihilo Fleur Narcotique Blossom",
+    "cat": "Селектив",
+    "kind": "perfume",
+    "volumes": [
+      2,
+      3,
+      4,
+      5,
+      10,
+      15,
+      20,
+      30,
+      50,
+      100
+    ],
+    "price": {
+      "2": 340,
+      "3": 500,
+      "4": 660,
+      "5": 850,
+      "10": 1600,
+      "15": 2300,
+      "20": 3000,
+      "30": 4450,
+      "50": 7250,
+      "100": 14300
+    },
+    "notes": "Верхние ноты: личи, калабрийский бергамот\nСердце: апельсиновый цвет, жасмин, пион\nБаза: мускус, древесные ноты, мох",
+    "image": "assets/perfumes/67042.jpg",
+    "notesSource": "https://www.fragrantica.com/perfume/Ex-Nihilo/Fleur-Narcotique-Blossom-67042.html",
+    "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.67042.jpg",
+    "referenceVersion": "Fleur Narcotique Blossom — Ex Nihilo (2021)"
+  },
+  {
+    "id": 331,
+    "name": "Zara Exotic Mimosa",
+    "cat": "Люкс",
+    "kind": "perfume",
+    "volumes": [
+      2,
+      3,
+      4,
+      5,
+      10,
+      15,
+      20,
+      30,
+      50,
+      100
+    ],
+    "price": {
+      "2": 220,
+      "3": 320,
+      "4": 420,
+      "5": 550,
+      "10": 1000,
+      "15": 1400,
+      "20": 1800,
+      "30": 2600,
+      "50": 4150,
+      "100": 8000
+    },
+    "notes": "Верхние ноты: пудровые ноты, зелёные ноты\nСердце: мимоза\nБаза: мёд",
+    "image": "assets/perfumes/75692.jpg",
+    "notesSource": "https://www.fragrantica.com/perfume/Zara/Exotic-Mimosa-75692.html",
+    "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.75692.jpg",
+    "referenceVersion": "Exotic Mimosa — Zara (2022)"
+  },
+  {
+    "id": 332,
+    "name": "Tom Ford Soleil Blanc",
+    "cat": "Селектив",
+    "kind": "perfume",
+    "volumes": [
+      2,
+      3,
+      4,
+      5,
+      10,
+      15,
+      20,
+      30,
+      50,
+      100
+    ],
+    "price": {
+      "2": 340,
+      "3": 500,
+      "4": 660,
+      "5": 850,
+      "10": 1600,
+      "15": 2300,
+      "20": 3000,
+      "30": 4450,
+      "50": 7250,
+      "100": 14300
+    },
+    "notes": "Верхние ноты: фисташка, бергамот, кардамон, розовый перец\nСердце: тубероза, иланг-иланг, жасмин\nБаза: кокос, амбра, бобы тонка, бензоин",
+    "image": "assets/perfumes/34893.jpg",
+    "notesSource": "https://www.fragrantica.com/perfume/Tom-Ford/Soleil-Blanc-34893.html",
+    "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.34893.jpg",
+    "referenceVersion": "Soleil Blanc — Tom Ford (2016), Eau de Parfum"
+  },
+  {
+    "id": 333,
+    "name": "Chopard Vetiver d’Haïti au Thé Vert",
+    "cat": "Селектив",
+    "kind": "perfume",
+    "volumes": [
+      2,
+      3,
+      4,
+      5,
+      10,
+      15,
+      20,
+      30,
+      50,
+      100
+    ],
+    "price": {
+      "2": 340,
+      "3": 500,
+      "4": 660,
+      "5": 850,
+      "10": 1600,
+      "15": 2300,
+      "20": 3000,
+      "30": 4450,
+      "50": 7250,
+      "100": 14300
+    },
+    "notes": "Верхние ноты: зелёный чай, амбра\nСердце: гаитянский ветивер, кедр\nБаза: мускус, древесный аккорд Wolfwood",
+    "image": "assets/perfumes/45226.jpg",
+    "notesSource": "https://www.fragrantica.com/perfume/Chopard/Vetiver-d-Haiti-au-The-Vert-45226.html",
+    "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.45226.jpg",
+    "referenceVersion": "Vetiver d'Haiti au The Vert — Chopard (2017)"
+  },
+  {
+    "id": 334,
+    "name": "Juliette Has a Gun Not a Perfume",
+    "cat": "Селектив",
+    "kind": "perfume",
+    "volumes": [
+      2,
+      3,
+      4,
+      5,
+      10,
+      15,
+      20,
+      30,
+      50,
+      100
+    ],
+    "price": {
+      "2": 340,
+      "3": 500,
+      "4": 660,
+      "5": 850,
+      "10": 1600,
+      "15": 2300,
+      "20": 3000,
+      "30": 4450,
+      "50": 7250,
+      "100": 14300
+    },
+    "notes": "Нота: цеталокс",
+    "image": "assets/perfumes/10296.jpg",
+    "notesSource": "https://www.juliettehasagun.com/en/products/not-a-perfume-parfum",
+    "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.10296.jpg",
+    "referenceVersion": "Not a Perfume — Juliette Has a Gun (2010)"
+  },
+  {
+    "id": 335,
+    "name": "La Sultane de Saba Voyage sur la Route des Épices",
+    "cat": "Селектив",
+    "volumes": [
+      2,
+      3,
+      4,
+      5,
+      10,
+      15,
+      20,
+      30,
+      50,
+      100
+    ],
+    "price": {
+      "2": 340,
+      "3": 500,
+      "4": 660,
+      "5": 850,
+      "10": 1600,
+      "15": 2300,
+      "20": 3000,
+      "30": 4450,
+      "50": 7250,
+      "100": 14300
+    },
+    "notes": "Верхние ноты: камфора, бергамот\nСердце: пачули, сандал, роза, ландыш\nБаза: абсолют ванили, бензоин, бобы тонка",
+    "kind": "perfume",
+    "image": "assets/perfumes/32591.jpg",
+    "notesSource": "https://www.fragrantica.com/perfume/La-Sultane-de-Saba/Voyage-sur-la-route-des-Epices-32591.html",
+    "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.32591.jpg",
+    "referenceVersion": "Voyage sur la route des Épices La Sultane de Saba perfume - a fragrance for women and men 2013"
+  },
+  {
+    "id": 336,
+    "name": "Girgio Armani Aqua Men",
+    "cat": "Люкс",
+    "kind": "perfume",
+    "volumes": [
+      2,
+      3,
+      4,
+      5,
+      10,
+      15,
+      20,
+      30,
+      50,
+      100
+    ],
+    "price": {
+      "2": 220,
+      "3": 320,
+      "4": 420,
+      "5": 550,
+      "10": 1000,
+      "15": 1400,
+      "20": 1800,
+      "30": 2600,
+      "50": 4150,
+      "100": 8000
+    },
+    "notes": "",
+    "catalogStatus": "reference_pending"
+  },
+  {
+    "id": 337,
+    "name": "Kenzo Femme",
+    "cat": "Люкс",
+    "kind": "perfume",
+    "volumes": [
+      2,
+      3,
+      4,
+      5,
+      10,
+      15,
+      20,
+      30,
+      50,
+      100
+    ],
+    "price": {
+      "2": 220,
+      "3": 320,
+      "4": 420,
+      "5": 550,
+      "10": 1000,
+      "15": 1400,
+      "20": 1800,
+      "30": 2600,
+      "50": 4150,
+      "100": 8000
+    },
+    "notes": "",
+    "catalogStatus": "reference_pending"
+  },
+  {
+    "id": 338,
+    "name": "Zam Zam Cold",
+    "cat": "Люкс",
+    "kind": "perfume",
+    "volumes": [
+      2,
+      3,
+      4,
+      5,
+      10,
+      15,
+      20,
+      30,
+      50,
+      100
+    ],
+    "price": {
+      "2": 220,
+      "3": 320,
+      "4": 420,
+      "5": 550,
+      "10": 1000,
+      "15": 1400,
+      "20": 1800,
+      "30": 2600,
+      "50": 4150,
+      "100": 8000
+    },
+    "notes": "",
+    "catalogStatus": "reference_pending"
+  },
+  {
+    "id": 339,
+    "name": "Byredo Marijuana",
+    "cat": "Селектив",
+    "kind": "perfume",
+    "volumes": [
+      2,
+      3,
+      4,
+      5,
+      10,
+      15,
+      20,
+      30,
+      50,
+      100
+    ],
+    "price": {
+      "2": 340,
+      "3": 500,
+      "4": 660,
+      "5": 850,
+      "10": 1600,
+      "15": 2300,
+      "20": 3000,
+      "30": 4450,
+      "50": 7250,
+      "100": 14300
+    },
+    "notes": "",
+    "catalogStatus": "reference_pending"
+  },
+  {
+    "id": 340,
+    "name": "Zielinski & Rozen Lemon & Bergamot",
+    "cat": "Селектив",
+    "kind": "perfume",
+    "volumes": [
+      2,
+      3,
+      4,
+      5,
+      10,
+      15,
+      20,
+      30,
+      50,
+      100
+    ],
+    "price": {
+      "2": 340,
+      "3": 500,
+      "4": 660,
+      "5": 850,
+      "10": 1600,
+      "15": 2300,
+      "20": 3000,
+      "30": 4450,
+      "50": 7250,
+      "100": 14300
+    },
+    "notes": "",
+    "catalogStatus": "reference_pending"
   }
 ]
