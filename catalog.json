@@ -12634,42 +12634,6 @@
     }
   },
   {
-    "id": 394,
-    "name": "Trussardi Uomo The Red",
-    "cat": "Оригинал",
-    "kind": "original",
-    "volumes": [
-      3,
-      5,
-      10,
-      15
-    ],
-    "price": {
-      "3": 900,
-      "5": 1500,
-      "10": 3000,
-      "15": 4500
-    },
-    "notes": "Верхние ноты: коньяк, мускатный орех, цитрон, гальбанум\nСердце: герань, мускатный шалфей, лист фиалки\nБаза: бобы тонка, кожа, пачули",
-    "priceSource": "Canva COYLI PARFUM, дизайн «Ценники», 15.10.2026",
-    "notesSource": "https://www.fragrantica.com/perfume/Trussardi/Trussardi-Uomo-The-Red-39678.html",
-    "image": "assets/originals/39678.jpg",
-    "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.39678.jpg",
-    "imageFrame": [
-      -105.5,
-      -42.5,
-      585,
-      375,
-      500
-    ],
-    "availability": {
-      "location": "ТК «Ньютон»",
-      "status": "check",
-      "checkedAt": "2026-10-15",
-      "source": "Оригинал отчёт .xlsm, Инвентаризация, остаток на 15.10.2026; наличие оригиналов только в Ньютоне подтверждено пользователем"
-    }
-  },
-  {
     "id": 395,
     "name": "Chloé Cedrus",
     "cat": "Оригинал",
