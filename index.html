@@ -47,7 +47,17 @@ for(const name of ["Antonio Banderas Blue Seduction", "Giorgio Armani Sì", "Gio
 function normName(x){return String(x).toLowerCase().replace(/ё/g,"е").replace(/[^a-zа-я0-9]/g,"")}
 // Для оригиналов цены и объёмы в справочнике не указаны: карточки информационные.
 for(const name of ["Arcadia London", "Attar Collection Al Rayhan", "Attar Collection Annabella", "Attar Collection Crystal Love for Her", "Attar Collection Hayati", "Attar Collection Monolith", "Attar Collection Musk Kashmir Extrait", "Attar Collection The Queen of Sheba", "Burberry Goddess Intense", "ByBozo Habibi", "ByBozo Sea Breeze", "ByBozo Topless", "Byredo 1996", "Byredo Bal d'Afrique", "Casamorati Dolce Amalfi", "Casamorati Italica", "Chanel Allure Homme Sport", "Chanel Bleu de Chanel", "Chanel Chance Eau Splendide", "Creed Aventus", "Creed Aventus Absolu", "Dior Hypnotic Poison", "Dior Sauvage", "Escentric Molecules Molecule 01", "Escentric Molecules Molecule 02", "Essential Parfums Bois Impérial", "Ex Nihilo Blue Talisman", "Ex Nihilo Fleur Narcotique", "Genyum Painter", "Givenchy Gentleman Society Extrême", "HFC Devil's Intrigue", "Hormone Paris Gaba", "Initio Side Effect", "Juliette Has a Gun Miami Shake", "Juliette Has a Gun Mmmm…", "Juliette Has a Gun Moscow Mule", "Juliette Has a Gun Ode to Dullness", "Juliette Has a Gun Pear Inc", "Juliette Has a Gun Sunny Side Up", "Kilian Angels' Share", "Le Labo Another 13", "Les Liquides Imaginaires Blanche Bête", "Maison Francis Kurkdjian Baccarat Rouge 540", "Marc-Antoine Barrois Ganymede", "Nasomatto Black Afgano", "Orto Parisi Megamare", "Richard Dirty Mango", "Richard White Chocola", "Tiziana Terenzi Kirke", "Tom Ford Ombré Leather", "Vilhelm Parfumerie Chimilka", "Zarkoperfume The Muse"]){add(name,"Оригинал",["уточнить"],{"уточнить":0},"Цена и наличие уточняются у менеджера", "original");}
-let cat='Все товары',query='',cart=[],current=null,format='spray',vol='10';const cats=['Все товары','Скидки −50%','Оригинал','Селектив','Люкс','Автопарфюм','Крем-баттер','Мисты','Рум-спрей','Диффузор','Свеча','Аромасаше'];const norm=s=>String(s).toLowerCase().replace(/ё/g,'е').replace(/[^a-zа-я0-9]/g,'');const rub=n=>Number(n)>0?Number(n).toLocaleString('ru-RU')+' ₽':'Цена по запросу';const esc=s=>String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));function basePrice(item){if(item.discountPercent===50&&item.saleSprayPrice)return Math.min(...Object.values(item.saleSprayPrice))*2;return item.price[item.volumes[0]]??Object.values(item.price)[0]}
+let cat='Все товары',query='',cart=[],current=null,format='spray',vol='10';const cats=['Все товары','Скидки −50%','Оригинал','Селектив','Люкс','Автопарфюм','Крем-баттер','Мисты','Рум-спрей','Диффузор','Свеча','Аромасаше'];const norm=s=>String(s).toLowerCase().replace(/ё/g,'е').replace(/[^a-zа-я0-9]/g,'');const rub=n=>Number(n)>0?Number(n).toLocaleString('ru-RU')+' ₽':'Цена по запросу';const esc=s=>String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));function formatPrices(item,selectedFormat='spray'){
+ const selective=item.cat==='Селектив';
+ if(selectedFormat==='oil')return Object.fromEntries(Object.entries(selective?oilS:oilL).filter(([v])=>Number(v)>=2));
+ let rates=selective?sprayS:sprayL;
+ if(item.discountPercent===50&&item.saleSprayPrice){
+  rates=Number(item.saleSprayPrice['10'])===500?sprayL:sprayS;
+  rates={...rates,...Object.fromEntries(Object.entries(item.saleSprayPrice).map(([v,n])=>[v,n*2]))};
+ }
+ return Object.fromEntries(Object.entries(rates).filter(([v])=>Number(v)>=5&&Number(v)<=100));
+}
+function basePrice(item){if(item.cat==='Люкс'||item.cat==='Селектив')return formatPrices(item,'spray')['5'];return item.price[item.volumes[0]]??Object.values(item.price)[0]}
 function saleAmount(item,amount){if(!(Number(amount)>0))return amount;if(item.kind==='perfume'&&item.discountPercent===50)return Math.round(Number(amount)*50)/100;if(item.cat==='Оригинал'&&Number(item.discountPercent)>0)return Math.round(Number(amount)*(100-Number(item.discountPercent))/100);return amount}
 function price(item){return saleAmount(item,basePrice(item))}
 function priceMarkup(item,amount,prefix=''){const sale=saleAmount(item,amount);return sale!==amount?'<del class="old-price">'+esc(prefix+rub(amount))+'</del><span class="sale-price">'+esc(prefix+rub(sale))+'</span>':esc(prefix+rub(amount))}
@@ -97,18 +107,18 @@ function render(){
  return `<article class="item ${x.id===1?'brownie-card':''}" onclick="openProduct(${x.id})"><div class="visual ${x.kind==='home'?'home':x.kind==='car'?'car':''}">${photo}</div>${saleBadge(x)}<div class="name">${esc(x.name)}</div><div class="meta">${meta}</div>${x.cat==='Оригинал'?'<p class="availability">'+esc(availabilityText(x))+'</p>':''}<div class="bottom"><span class="price">${priceMarkup(x,basePrice(x),x.kind==='perfume'||x.kind==='original'&&Number(price(x))>0?'от ':'')}</span><button class="plus" onclick="event.stopPropagation();openProduct(${x.id})">+</button></div></article>`;
  }).join('')||'<p>Ничего не найдено. Попробуйте другое написание.</p>';
 }
-document.getElementById('search').oninput=e=>{query=e.target.value;render()};function hide(){document.getElementById('overlay').classList.remove('open')}function openProduct(id){current=p.find(x=>x.id===id);format='spray';vol=String(current.volumes[0]);drawProduct()}function drawProduct(){
+document.getElementById('search').oninput=e=>{query=e.target.value;render()};function hide(){document.getElementById('overlay').classList.remove('open')}function openProduct(id){current=p.find(x=>x.id===id);format='spray';vol=String(current.kind==='perfume'?5:current.volumes[0]);drawProduct()}function drawProduct(){
  const x=current;
  let options=x.volumes,pr=x.price;
  if(x.cat==='Селектив'||x.cat==='Люкс'){
-  pr=format==='spray'?(x.discountPercent===50&&x.saleSprayPrice?Object.fromEntries(Object.entries(x.saleSprayPrice).map(([v,n])=>[v,n*2])):(x.cat==='Селектив'?sprayS:sprayL)):(x.cat==='Селектив'?oilS:oilL);
+  pr=formatPrices(x,format);
   options=Object.keys(pr);
   if(!(vol in pr))vol=String(options[0]);
  }
  const regularAmount=pr[vol];
  const amount=saleAmount(x,regularAmount);
  const photo=productPhoto(x);
- const formats=x.kind==='perfume'?`<h4>Формат</h4><div class="pillset"><button class="pill ${format==='spray'?'selected':''}" onclick="format='spray';vol='10';drawProduct()">Спрей</button><button class="pill ${format==='oil'?'selected':''}" onclick="format='oil';vol='1';drawProduct()">Чистое масло</button></div>`:'';
+ const formats=x.kind==='perfume'?`<h4>Формат</h4><div class="pillset"><button class="pill ${format==='spray'?'selected':''}" onclick="format='spray';vol='5';drawProduct()">Спрей</button><button class="pill ${format==='oil'?'selected':''}" onclick="format='oil';vol='2';drawProduct()">Чистое масло</button></div>`:'';
  const choices=options.map(v=>`<button class="pill ${String(vol)===String(v)?'selected':''}" onclick="vol='${v}';drawProduct()">${v}${x.kind==='car'?'':' мл'}</button>`).join('');
  document.getElementById('panel').innerHTML=`<button class="close" onclick="hide()" aria-label="Закрыть карточку">×</button><div class="visual" style="height:160px">${photo}</div><p class="muted">${esc(x.cat)}</p><h2>${esc(x.name)}</h2>${saleBadge(x)}<p class="muted product-notes">${esc(x.notes||'Описание и ноты аромата будут добавлены после проверки.')}</p>${formats}<h4>Объём</h4><div class="pillset">${choices}</div><h2>${priceMarkup(x,regularAmount)}</h2><button class="primary" id="add-to-cart" ${x.kind==='original'&&(!(Number(amount)>0)||x.availability?.status==='out_of_stock')?'disabled':''}>Добавить в корзину</button><p class="muted availability">${esc(availabilityText(x))}</p>`;
  document.getElementById('add-to-cart').onclick=()=>{cart.push({name:x.name,cat:x.cat,format:x.kind==='perfume'?(format==='spray'?'Спрей':'Масло'):'',vol,amount});document.getElementById('count').textContent=cart.length;hide()};
