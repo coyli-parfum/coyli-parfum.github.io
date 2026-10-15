@@ -9350,7 +9350,7 @@
     },
     "notes": "",
     "catalogStatus": "photo_label_matches",
-    "image": "https://raw.githubusercontent.com/jullyhey/coyli-parfum/main/assets/perfumes/zam-zam-cold-user.jpg",
+    "image": "assets/perfumes/zam-zam-cold-new.jpg",
     "imageSource": "Фотография предоставлена COYLI PARFUM; на этикетке ZAM ZAM COLD",
     "sortBrand": "zam"
   },
@@ -9456,7 +9456,7 @@
       "100": 8000
     },
     "notes": "",
-    "image": "https://raw.githubusercontent.com/jullyhey/coyli-parfum/main/assets/perfumes/zam-zam-user.jpg",
+    "image": "assets/perfumes/zam-zam-new.jpg",
     "imageSource": "Фото графина, предоставленное COYLI PARFUM",
     "sortBrand": "zam"
   }
