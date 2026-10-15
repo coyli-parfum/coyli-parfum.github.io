@@ -2723,7 +2723,7 @@
   },
   {
     "id": 123,
-    "name": "Kayali Yum Pistachio Gelato ",
+    "name": "Kayali Yum Pistachio Gelato | 33",
     "cat": "Селектив",
     "volumes": [
       2,
@@ -2785,7 +2785,9 @@
       "100": 14300
     },
     "notes": "",
-    "kind": "perfume"
+    "kind": "perfume",
+    "duplicateOf": 123,
+    "catalogStatus": "duplicate_split_from_name"
   },
   {
     "id": 125,
