@@ -9024,7 +9024,7 @@
   },
   {
     "id": 336,
-    "name": "Girgio Armani Aqua Men",
+    "name": "Giorgio Armani Acqua di Giò Pour Homme",
     "cat": "Люкс",
     "kind": "perfume",
     "volumes": [
@@ -9056,7 +9056,7 @@
   },
   {
     "id": 337,
-    "name": "Kenzo Femme",
+    "name": "Kenzo L'Eau Kenzo Pour Femme",
     "cat": "Люкс",
     "kind": "perfume",
     "volumes": [
@@ -9088,7 +9088,7 @@
   },
   {
     "id": 338,
-    "name": "Zam Zam Cold",
+    "name": "Zam Zam Gold",
     "cat": "Люкс",
     "kind": "perfume",
     "volumes": [
@@ -9152,7 +9152,7 @@
   },
   {
     "id": 340,
-    "name": "Zielinski & Rozen Lemon & Bergamot",
+    "name": "Zielinski & Rozen Vetiver & Lemon, Bergamot",
     "cat": "Селектив",
     "kind": "perfume",
     "volumes": [
@@ -9178,6 +9178,38 @@
       "30": 4450,
       "50": 7250,
       "100": 14300
+    },
+    "notes": "",
+    "catalogStatus": "reference_pending"
+  },
+  {
+    "id": 341,
+    "name": "Zam Zam",
+    "cat": "Люкс",
+    "kind": "perfume",
+    "volumes": [
+      2,
+      3,
+      4,
+      5,
+      10,
+      15,
+      20,
+      30,
+      50,
+      100
+    ],
+    "price": {
+      "2": 220,
+      "3": 320,
+      "4": 420,
+      "5": 550,
+      "10": 1000,
+      "15": 1400,
+      "20": 1800,
+      "30": 2600,
+      "50": 4150,
+      "100": 8000
     },
     "notes": "",
     "catalogStatus": "reference_pending"
