@@ -1248,7 +1248,7 @@
   },
   {
     "id": 72,
-    "name": "Lacoste White",
+    "name": "По мотивам Lacoste L.12.12 Blanc",
     "cat": "Автопарфюм",
     "volumes": [
       "1 шт"
@@ -1256,12 +1256,23 @@
     "price": {
       "1 шт": 550
     },
-    "notes": "По мотивам аромата",
-    "kind": "car"
+    "notes": "Автопарфюм по мотивам аромата Lacoste L.12.12 Blanc.",
+    "kind": "car",
+    "productNumber": "01",
+    "image": "assets/car-perfume/coyli-01-20261015.jpeg",
+    "imageSource": "Фото пользователя «Автопарфюм - 1(1).jpeg», 15.10.2026",
+    "referenceSource": "Соответствие номеров и ароматов: изображение пользователя IMG_2694(1).png, 15.10.2026",
+    "imageFrame": [
+      137.5,
+      274.5,
+      975.0,
+      1229,
+      1536
+    ]
   },
   {
     "id": 73,
-    "name": "Baccarat Rouge 540",
+    "name": "По мотивам Maison Francis Kurkdjian Baccarat Rouge 540",
     "cat": "Автопарфюм",
     "volumes": [
       "1 шт"
@@ -1269,12 +1280,23 @@
     "price": {
       "1 шт": 550
     },
-    "notes": "По мотивам аромата",
-    "kind": "car"
+    "notes": "Автопарфюм по мотивам аромата Maison Francis Kurkdjian Baccarat Rouge 540.",
+    "kind": "car",
+    "productNumber": "02",
+    "image": "assets/car-perfume/coyli-02-20261015.jpeg",
+    "imageSource": "Фото пользователя «Автопарфюм - 2(1).jpeg», 15.10.2026",
+    "referenceSource": "Соответствие номеров и ароматов: изображение пользователя IMG_2694(1).png, 15.10.2026",
+    "imageFrame": [
+      137.5,
+      274.5,
+      975.0,
+      1229,
+      1536
+    ]
   },
   {
     "id": 74,
-    "name": "Kirke",
+    "name": "По мотивам Tiziana Terenzi Kirke",
     "cat": "Автопарфюм",
     "volumes": [
       "1 шт"
@@ -1282,12 +1304,23 @@
     "price": {
       "1 шт": 550
     },
-    "notes": "По мотивам аромата",
-    "kind": "car"
+    "notes": "Автопарфюм по мотивам аромата Tiziana Terenzi Kirke.",
+    "kind": "car",
+    "productNumber": "03",
+    "image": "assets/car-perfume/coyli-03-20261015.jpeg",
+    "imageSource": "Фото пользователя «Автопарфюм - 3(1).jpeg», 15.10.2026",
+    "referenceSource": "Соответствие номеров и ароматов: изображение пользователя IMG_2694(1).png, 15.10.2026",
+    "imageFrame": [
+      137.5,
+      274.5,
+      975.0,
+      1229,
+      1536
+    ]
   },
   {
     "id": 75,
-    "name": "Molecule 02",
+    "name": "По мотивам Escentric Molecules Molecule 02",
     "cat": "Автопарфюм",
     "volumes": [
       "1 шт"
@@ -1295,12 +1328,23 @@
     "price": {
       "1 шт": 550
     },
-    "notes": "По мотивам аромата",
-    "kind": "car"
+    "notes": "Автопарфюм по мотивам аромата Escentric Molecules Molecule 02.",
+    "kind": "car",
+    "productNumber": "04",
+    "image": "assets/car-perfume/coyli-04-20261015.jpeg",
+    "imageSource": "Фото пользователя «Автопарфюм - 4(1).jpeg», 15.10.2026",
+    "referenceSource": "Соответствие номеров и ароматов: изображение пользователя IMG_2694(1).png, 15.10.2026",
+    "imageFrame": [
+      137.5,
+      274.5,
+      975.0,
+      1229,
+      1536
+    ]
   },
   {
     "id": 76,
-    "name": "Chanel Homme Sport",
+    "name": "По мотивам Chanel Allure Homme Sport",
     "cat": "Автопарфюм",
     "volumes": [
       "1 шт"
@@ -1308,12 +1352,23 @@
     "price": {
       "1 шт": 550
     },
-    "notes": "По мотивам аромата",
-    "kind": "car"
+    "notes": "Автопарфюм по мотивам аромата Chanel Allure Homme Sport.",
+    "kind": "car",
+    "productNumber": "05",
+    "image": "assets/car-perfume/coyli-05-20261015.jpeg",
+    "imageSource": "Фото пользователя «Автопарфюм - 5(1).jpeg», 15.10.2026",
+    "referenceSource": "Соответствие номеров и ароматов: изображение пользователя IMG_2694(1).png, 15.10.2026",
+    "imageFrame": [
+      137.5,
+      274.5,
+      975.0,
+      1229,
+      1536
+    ]
   },
   {
     "id": 77,
-    "name": "Z&R Black Pepper",
+    "name": "По мотивам Zielinski & Rozen Black Pepper & Amber, Neroli",
     "cat": "Автопарфюм",
     "volumes": [
       "1 шт"
@@ -1321,12 +1376,23 @@
     "price": {
       "1 шт": 550
     },
-    "notes": "По мотивам аромата",
-    "kind": "car"
+    "notes": "Автопарфюм по мотивам аромата Zielinski & Rozen Black Pepper & Amber, Neroli.",
+    "kind": "car",
+    "productNumber": "06",
+    "image": "assets/car-perfume/coyli-06-20261015.jpeg",
+    "imageSource": "Фото пользователя «Автопарфюм - 6(1).jpeg», 15.10.2026",
+    "referenceSource": "Соответствие номеров и ароматов: изображение пользователя IMG_2694(1).png, 15.10.2026",
+    "imageFrame": [
+      137.5,
+      274.5,
+      975.0,
+      1229,
+      1536
+    ]
   },
   {
     "id": 78,
-    "name": "Black Opium",
+    "name": "По мотивам Yves Saint Laurent Black Opium",
     "cat": "Автопарфюм",
     "volumes": [
       "1 шт"
@@ -1334,12 +1400,23 @@
     "price": {
       "1 шт": 550
     },
-    "notes": "По мотивам аромата",
-    "kind": "car"
+    "notes": "Автопарфюм по мотивам аромата Yves Saint Laurent Black Opium.",
+    "kind": "car",
+    "productNumber": "07",
+    "image": "assets/car-perfume/coyli-07-20261015.jpeg",
+    "imageSource": "Фото пользователя «Автопарфюм - 7(1).jpeg», 15.10.2026",
+    "referenceSource": "Соответствие номеров и ароматов: изображение пользователя IMG_2694(1).png, 15.10.2026",
+    "imageFrame": [
+      137.5,
+      274.5,
+      975.0,
+      1229,
+      1536
+    ]
   },
   {
     "id": 79,
-    "name": "Chocolate Greedy",
+    "name": "По мотивам Montale Chocolate Greedy",
     "cat": "Автопарфюм",
     "volumes": [
       "1 шт"
@@ -1347,12 +1424,23 @@
     "price": {
       "1 шт": 550
     },
-    "notes": "По мотивам аромата",
-    "kind": "car"
+    "notes": "Автопарфюм по мотивам аромата Montale Chocolate Greedy.",
+    "kind": "car",
+    "productNumber": "08",
+    "image": "assets/car-perfume/coyli-08-20261015.jpeg",
+    "imageSource": "Фото пользователя «Автопарфюм - 8(1).jpeg», 15.10.2026",
+    "referenceSource": "Соответствие номеров и ароматов: изображение пользователя IMG_2694(1).png, 15.10.2026",
+    "imageFrame": [
+      137.5,
+      274.5,
+      975.0,
+      1229,
+      1536
+    ]
   },
   {
     "id": 80,
-    "name": "Black Afgano",
+    "name": "По мотивам Nasomatto Black Afgano",
     "cat": "Автопарфюм",
     "volumes": [
       "1 шт"
@@ -1360,12 +1448,23 @@
     "price": {
       "1 шт": 550
     },
-    "notes": "По мотивам аромата",
-    "kind": "car"
+    "notes": "Автопарфюм по мотивам аромата Nasomatto Black Afgano.",
+    "kind": "car",
+    "productNumber": "09",
+    "image": "assets/car-perfume/coyli-09-20261015.jpeg",
+    "imageSource": "Фото пользователя «Автопарфюм - 9(1).jpeg», 15.10.2026",
+    "referenceSource": "Соответствие номеров и ароматов: изображение пользователя IMG_2694(1).png, 15.10.2026",
+    "imageFrame": [
+      137.5,
+      274.5,
+      975.0,
+      1229,
+      1536
+    ]
   },
   {
     "id": 81,
-    "name": "Invictus",
+    "name": "По мотивам Paco Rabanne Invictus",
     "cat": "Автопарфюм",
     "volumes": [
       "1 шт"
@@ -1373,12 +1472,23 @@
     "price": {
       "1 шт": 550
     },
-    "notes": "По мотивам аромата",
-    "kind": "car"
+    "notes": "Автопарфюм по мотивам аромата Paco Rabanne Invictus.",
+    "kind": "car",
+    "productNumber": "10",
+    "image": "assets/car-perfume/coyli-10-20261015.jpeg",
+    "imageSource": "Фото пользователя «Автопарфюм - 10(1).jpeg», 15.10.2026",
+    "referenceSource": "Соответствие номеров и ароматов: изображение пользователя IMG_2694(1).png, 15.10.2026",
+    "imageFrame": [
+      137.5,
+      274.5,
+      975.0,
+      1229,
+      1536
+    ]
   },
   {
     "id": 82,
-    "name": "Fleur Narcotique",
+    "name": "По мотивам Ex Nihilo Fleur Narcotique",
     "cat": "Автопарфюм",
     "volumes": [
       "1 шт"
@@ -1386,12 +1496,23 @@
     "price": {
       "1 шт": 550
     },
-    "notes": "По мотивам аромата",
-    "kind": "car"
+    "notes": "Автопарфюм по мотивам аромата Ex Nihilo Fleur Narcotique.",
+    "kind": "car",
+    "productNumber": "11",
+    "image": "assets/car-perfume/coyli-11-20261015.jpeg",
+    "imageSource": "Фото пользователя «Автопарфюм - 11(1).jpeg», 15.10.2026",
+    "referenceSource": "Соответствие номеров и ароматов: изображение пользователя IMG_2694(1).png, 15.10.2026",
+    "imageFrame": [
+      137.5,
+      274.5,
+      975.0,
+      1229,
+      1536
+    ]
   },
   {
     "id": 83,
-    "name": "Eclat",
+    "name": "По мотивам Lanvin Éclat d’Arpège",
     "cat": "Автопарфюм",
     "volumes": [
       "1 шт"
@@ -1399,12 +1520,23 @@
     "price": {
       "1 шт": 550
     },
-    "notes": "По мотивам аромата",
-    "kind": "car"
+    "notes": "Автопарфюм по мотивам аромата Lanvin Éclat d’Arpège.",
+    "kind": "car",
+    "productNumber": "12",
+    "image": "assets/car-perfume/coyli-12-20261015.jpeg",
+    "imageSource": "Фото пользователя «Автопарфюм - 12(1).jpeg», 15.10.2026",
+    "referenceSource": "Соответствие номеров и ароматов: изображение пользователя IMG_2694(1).png, 15.10.2026",
+    "imageFrame": [
+      137.5,
+      274.5,
+      975.0,
+      1229,
+      1536
+    ]
   },
   {
     "id": 84,
-    "name": "V.S. So Sexy",
+    "name": "По мотивам Victoria’s Secret Eau So Sexy",
     "cat": "Автопарфюм",
     "volumes": [
       "1 шт"
@@ -1412,8 +1544,19 @@
     "price": {
       "1 шт": 550
     },
-    "notes": "По мотивам аромата",
-    "kind": "car"
+    "notes": "Автопарфюм по мотивам аромата Victoria’s Secret Eau So Sexy.",
+    "kind": "car",
+    "productNumber": "13",
+    "image": "assets/car-perfume/coyli-13-20261015.jpeg",
+    "imageSource": "Фото пользователя «Автопарфюм - 13(1).jpeg», 15.10.2026",
+    "referenceSource": "Соответствие номеров и ароматов: изображение пользователя IMG_2694(1).png, 15.10.2026",
+    "imageFrame": [
+      137.5,
+      274.5,
+      975.0,
+      1229,
+      1536
+    ]
   },
   {
     "id": 85,
