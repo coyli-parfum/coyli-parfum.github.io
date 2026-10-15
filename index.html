@@ -2,6 +2,8 @@
 .grid{align-items:stretch}.item{background:#f6f6f6;min-height:310px;padding:12px;transition:transform .15s ease}.item:active{transform:scale(.99)}
 .visual{height:auto;aspect-ratio:1/1;background:#fff;border-radius:14px;margin-bottom:12px;overflow:hidden;flex-shrink:0}
 .product-photo{width:100%;height:100%;object-fit:contain;object-position:center;background:#fff;border-radius:0}
+/* Масштаб исходной фотографии баттера Брауни только в сетке товаров */
+.item.brownie-card .product-photo{transform:scale(1.65);transform-origin:center center}
 .item .name{min-height:0;font-size:15px;line-height:1.35;margin-bottom:7px}
 .item .meta{font-size:12px;line-height:1.5;margin:0 0 13px;min-height:34px}
 .item .bottom{margin-top:auto}.item .plus{color:#0047bb;font-size:26px;width:36px;height:36px}
@@ -67,7 +69,7 @@ function render(){
  document.getElementById('grid').innerHTML=matches.map(x=>{
  const photo=x.image?`<img class="product-photo" loading="lazy" decoding="async" src="${x.image}" alt="${esc(x.name)}" onerror="handleImageError(this)">`:'<div class="bottle"><span>COYLI</span></div>';
  const meta=esc(x.cat)+' · '+(x.kind==='perfume'?'от '+rub(price(x)):esc(x.volumes.join(' / '))+(x.kind==='car'||x.kind==='original'?'':' мл'));
- return `<article class="item" onclick="openProduct(${x.id})"><div class="visual ${x.kind==='home'?'home':x.kind==='car'?'car':''}">${photo}</div><div class="name">${esc(x.name)}</div><div class="meta">${meta}</div><div class="bottom"><span class="price">${x.kind==='perfume'?'от ':''}${rub(price(x))}</span><button class="plus" onclick="event.stopPropagation();openProduct(${x.id})">+</button></div></article>`;
+ return `<article class="item ${x.id===1?'brownie-card':''}" onclick="openProduct(${x.id})"><div class="visual ${x.kind==='home'?'home':x.kind==='car'?'car':''}">${photo}</div><div class="name">${esc(x.name)}</div><div class="meta">${meta}</div><div class="bottom"><span class="price">${x.kind==='perfume'?'от ':''}${rub(price(x))}</span><button class="plus" onclick="event.stopPropagation();openProduct(${x.id})">+</button></div></article>`;
  }).join('')||'<p>Ничего не найдено. Попробуйте другое написание.</p>';
 }
 document.getElementById('search').oninput=e=>{query=e.target.value;render()};function hide(){document.getElementById('overlay').classList.remove('open')}function openProduct(id){current=p.find(x=>x.id===id);format='spray';vol=String(current.volumes[0]);drawProduct()}function drawProduct(){
