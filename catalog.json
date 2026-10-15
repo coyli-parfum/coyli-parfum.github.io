@@ -836,7 +836,8 @@
     "notesSource": "https://www.fragrantica.com/parfum/Maison-Francis-Kurkdjian/Baccarat-Rouge-540-33519.html",
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.33519.jpg",
     "referenceVersion": "Baccarat Rouge 540 Maison Francis Kurkdjian perfume - a fragrance for women and men 2015",
-    "duplicateOf": 92
+    "duplicateOf": 92,
+    "sortBrand": "baccarat"
   },
   {
     "id": 61,
@@ -871,7 +872,9 @@
     "image": "assets/perfumes/32172.jpg",
     "notesSource": "https://www.fragrantica.com/perfume/Tiziana-Terenzi/Kirke-32172.html",
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.32172.jpg",
-    "referenceVersion": "Kirkè Tiziana Terenzi perfume - a fragrance for women and men 2015"
+    "referenceVersion": "Kirkè Tiziana Terenzi perfume - a fragrance for women and men 2015",
+    "duplicateOf": 127,
+    "sortBrand": "kirke"
   },
   {
     "id": 62,
@@ -905,7 +908,8 @@
     "kind": "perfume",
     "notesSource": "https://www.zarkoperfume.com/commodity/11-zarkoperfume-the-muse",
     "image": "https://image.brigitte.de/13575226/t/5T/v4/w960/r1/-/zarko-perfume-the-muse.png",
-    "imageSource": "https://image.brigitte.de/13575226/t/5T/v4/w960/r1/-/zarko-perfume-the-muse.png"
+    "imageSource": "https://image.brigitte.de/13575226/t/5T/v4/w960/r1/-/zarko-perfume-the-muse.png",
+    "sortBrand": "zarkoperfume"
   },
   {
     "id": 63,
@@ -940,7 +944,9 @@
     "image": "assets/perfumes/41222.jpg",
     "notesSource": "https://www.fragrantica.com/perfume/Bvlgari/Tygar-41222.html",
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.41222.jpg",
-    "referenceVersion": "Tygar Bvlgari cologne - a fragrance for men 2016"
+    "referenceVersion": "Tygar Bvlgari cologne - a fragrance for men 2016",
+    "duplicateOf": 93,
+    "sortBrand": "bvlgari"
   },
   {
     "id": 64,
@@ -975,7 +981,8 @@
     "image": "assets/perfumes/31861.jpg",
     "notesSource": "https://www.fragrantica.com/perfume/Christian-Dior/Sauvage-31861.html",
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.31861.jpg",
-    "referenceVersion": "Sauvage Dior cologne - a fragrance for men 2015"
+    "referenceVersion": "Sauvage Dior cologne - a fragrance for men 2015",
+    "sortBrand": "dior"
   },
   {
     "id": 65,
@@ -1010,7 +1017,8 @@
     "image": "assets/perfumes/9099.jpg",
     "notesSource": "https://www.fragrantica.com/perfume/Chanel/Bleu-de-Chanel-9099.html",
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.9099.jpg",
-    "referenceVersion": "Bleu de Chanel Chanel cologne - a fragrance for men 2010"
+    "referenceVersion": "Bleu de Chanel Chanel cologne - a fragrance for men 2010",
+    "sortBrand": "chanel"
   },
   {
     "id": 66,
@@ -1045,7 +1053,8 @@
     "image": "assets/perfumes/25324.jpg",
     "notesSource": "https://www.fragrantica.com/perfume/yves-saint-laurent/black-opium-25324.html",
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.25324.jpg",
-    "referenceVersion": "Black Opium Yves Saint Laurent perfume - a fragrance for women 2014"
+    "referenceVersion": "Black Opium Yves Saint Laurent perfume - a fragrance for women 2014",
+    "sortBrand": "yves saint laurent"
   },
   {
     "id": 67,
@@ -1080,7 +1089,8 @@
     "image": "assets/perfumes/68578.jpg",
     "notesSource": "https://www.fragrantica.com/perfume/Gucci/Flora-Gorgeous-Gardenia-Eau-de-Parfum-68578.html",
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.68578.jpg",
-    "referenceVersion": "Flora Gorgeous Gardenia Gucci perfume - a fragrance for women 2021"
+    "referenceVersion": "Flora Gorgeous Gardenia Gucci perfume - a fragrance for women 2021",
+    "sortBrand": "gucci"
   },
   {
     "id": 68,
@@ -1115,7 +1125,8 @@
     "image": "assets/perfumes/51694.jpg",
     "notesSource": "https://www.fragrantica.com/perfume/Burberry/Burberry-Her-51694.html",
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.51694.jpg",
-    "referenceVersion": "Burberry Her Burberry perfume - a fragrance for women 2018"
+    "referenceVersion": "Burberry Her Burberry perfume - a fragrance for women 2018",
+    "sortBrand": "burberry"
   },
   {
     "id": 69,
@@ -1150,7 +1161,8 @@
     "image": "assets/perfumes/18453.jpg",
     "notesSource": "https://www.fragrantica.com/perfume/Giorgio-Armani/Si-18453.html",
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.18453.jpg",
-    "referenceVersion": "Si Giorgio Armani perfume - a fragrance for women 2013"
+    "referenceVersion": "Si Giorgio Armani perfume - a fragrance for women 2013",
+    "sortBrand": "giorgio armani"
   },
   {
     "id": 70,
@@ -1185,7 +1197,8 @@
     "image": "assets/perfumes/18471.jpg",
     "notesSource": "https://www.fragrantica.com/perfume/Rabanne/Invictus-18471.html",
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.18471.jpg",
-    "referenceVersion": "Invictus Rabanne cologne - a fragrance for men 2013"
+    "referenceVersion": "Invictus Rabanne cologne - a fragrance for men 2013",
+    "sortBrand": "paco rabanne"
   },
   {
     "id": 71,
@@ -1220,7 +1233,8 @@
     "image": "assets/perfumes/11043.jpg",
     "notesSource": "https://www.fragrantica.com/perfume/Lacoste-Fragrances/Eau-de-Lacoste-L-12-12-White-11043.html",
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.11043.jpg",
-    "referenceVersion": "Eau de Lacoste L.12.12. White Lacoste Fragrances cologne - a fragrance for men 2011"
+    "referenceVersion": "Eau de Lacoste L.12.12. White Lacoste Fragrances cologne - a fragrance for men 2011",
+    "sortBrand": "lacoste"
   },
   {
     "id": 72,
@@ -1424,7 +1438,8 @@
     "image": "assets/perfumes/51396.jpg",
     "notesSource": "https://www.fragrantica.com/perfume/27-87/Genetic-Bliss-51396.html",
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.51396.jpg",
-    "referenceVersion": "Genetic Bliss 27 87 perfume - a fragrance for women and men 2018"
+    "referenceVersion": "Genetic Bliss 27 87 perfume - a fragrance for women and men 2018",
+    "sortBrand": "27"
   },
   {
     "id": 86,
@@ -1459,7 +1474,8 @@
     "image": "assets/perfumes/26016.jpg",
     "notesSource": "https://www.fragrantica.com/perfume/Ajmal/Amber-Wood-26016.html",
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.26016.jpg",
-    "referenceVersion": "Amber Wood Ajmal perfume - a fragrance for women and men 2014"
+    "referenceVersion": "Amber Wood Ajmal perfume - a fragrance for women and men 2014",
+    "sortBrand": "ajmal"
   },
   {
     "id": 87,
@@ -1494,7 +1510,8 @@
     "image": "assets/perfumes/84109.jpg",
     "notesSource": "https://www.fragrantica.com/perfume/Parfums-de-Marly/altha-r-84109.html",
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.84109.jpg",
-    "referenceVersion": "Althaïr Parfums de Marly cologne - a fragrance for men 2023"
+    "referenceVersion": "Althaïr Parfums de Marly cologne - a fragrance for men 2023",
+    "sortBrand": "parfums"
   },
   {
     "id": 88,
@@ -1529,7 +1546,8 @@
     "image": "assets/perfumes/30623.jpg",
     "notesSource": "https://www.fragrantica.com/perfume/Tiziana-Terenzi/Andromeda-30623.html",
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.30623.jpg",
-    "referenceVersion": "Andromeda Tiziana Terenzi perfume - a fragrance for women and men 2015"
+    "referenceVersion": "Andromeda Tiziana Terenzi perfume - a fragrance for women and men 2015",
+    "sortBrand": "tiziana terenzi"
   },
   {
     "id": 89,
@@ -1564,7 +1582,8 @@
     "image": "assets/perfumes/92704.jpg",
     "notesSource": "https://www.fragrantica.com/p/92704",
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.92704.jpg",
-    "referenceVersion": "Madawi Gold Edition Arabian Oud perfume - a fragrance for women and men 2024"
+    "referenceVersion": "Madawi Gold Edition Arabian Oud perfume - a fragrance for women and men 2024",
+    "sortBrand": "arabian"
   },
   {
     "id": 90,
@@ -1599,7 +1618,8 @@
     "image": "assets/perfumes/59566.jpg",
     "notesSource": "https://www.fragrantica.com/perfume/Attar-Collection/Crystal-Love-For-Her-59566.html",
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.59566.jpg",
-    "referenceVersion": "Crystal Love For Her — Attar Collection (2020)"
+    "referenceVersion": "Crystal Love For Her — Attar Collection (2020)",
+    "sortBrand": "attar collection"
   },
   {
     "id": 91,
@@ -1634,7 +1654,8 @@
     "image": "assets/perfumes/38134.jpg",
     "notesSource": "https://www.fragrantica.com/perfume/Attar-Collection/Musk-Kashmir-38134.html",
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.38134.jpg",
-    "referenceVersion": "Musk Kashmir Attar Collection perfume - a fragrance for women and men 2016"
+    "referenceVersion": "Musk Kashmir Attar Collection perfume - a fragrance for women and men 2016",
+    "sortBrand": "attar collection"
   },
   {
     "id": 92,
@@ -1669,7 +1690,8 @@
     "image": "assets/perfumes/33519.jpg",
     "notesSource": "https://www.fragrantica.com/parfum/Maison-Francis-Kurkdjian/Baccarat-Rouge-540-33519.html",
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.33519.jpg",
-    "referenceVersion": "Baccarat Rouge 540 Maison Francis Kurkdjian perfume - a fragrance for women and men 2015"
+    "referenceVersion": "Baccarat Rouge 540 Maison Francis Kurkdjian perfume - a fragrance for women and men 2015",
+    "sortBrand": "maison francis kurkdjian"
   },
   {
     "id": 93,
@@ -1704,7 +1726,8 @@
     "image": "assets/perfumes/41222.jpg",
     "notesSource": "https://www.fragrantica.com/perfume/Bvlgari/Tygar-41222.html",
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.41222.jpg",
-    "referenceVersion": "Tygar Bvlgari cologne - a fragrance for men 2016"
+    "referenceVersion": "Tygar Bvlgari cologne - a fragrance for men 2016",
+    "sortBrand": "bvlgari"
   },
   {
     "id": 94,
@@ -1739,7 +1762,8 @@
     "image": "assets/perfumes/6472.jpg",
     "notesSource": "https://www.fragrantica.com/perfume/Nasomatto/Black-Afgano-6472.html",
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.6472.jpg",
-    "referenceVersion": "Black Afgano Nasomatto perfume - a fragrance for women and men 2009"
+    "referenceVersion": "Black Afgano Nasomatto perfume - a fragrance for women and men 2009",
+    "sortBrand": "nasomatto"
   },
   {
     "id": 95,
@@ -1774,7 +1798,8 @@
     "image": "assets/perfumes/43632.jpg",
     "notesSource": "https://www.fragrantica.com/perfume/By-Kilian/Black-Phantom-43632.html",
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.43632.jpg",
-    "referenceVersion": "Black Phantom By Kilian perfume - a fragrance for women and men 2017"
+    "referenceVersion": "Black Phantom By Kilian perfume - a fragrance for women and men 2017",
+    "sortBrand": "kilian"
   },
   {
     "id": 96,
@@ -1809,7 +1834,8 @@
     "image": "assets/perfumes/73595.jpg",
     "notesSource": "https://www.fragrantica.com/perfume/Clive-Christian/Blonde-Amber-73595.html",
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.73595.jpg",
-    "referenceVersion": "Blonde Amber Clive Christian perfume - a fragrance for women and men 2022"
+    "referenceVersion": "Blonde Amber Clive Christian perfume - a fragrance for women and men 2022",
+    "sortBrand": "clive christian"
   },
   {
     "id": 97,
@@ -1844,7 +1870,8 @@
     "image": "assets/perfumes/84224.jpg",
     "notesSource": "https://www.fragrantica.com/perfume/Ex-Nihilo/Blue-Talisman-84224.html",
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.84224.jpg",
-    "referenceVersion": "Blue Talisman Ex Nihilo perfume - a fragrance for women and men 2023"
+    "referenceVersion": "Blue Talisman Ex Nihilo perfume - a fragrance for women and men 2023",
+    "sortBrand": "ex nihilo"
   },
   {
     "id": 98,
@@ -1879,7 +1906,8 @@
     "image": "assets/perfumes/55770.jpg",
     "notesSource": "https://www.fragrantica.com/perfume/Boadicea-the-Victorious/Heroine-55770.html",
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.55770.jpg",
-    "referenceVersion": "Heroine Boadicea the Victorious perfume - a fragrance for women 2019"
+    "referenceVersion": "Heroine Boadicea the Victorious perfume - a fragrance for women 2019",
+    "sortBrand": "boadicea the victorious"
   },
   {
     "id": 99,
@@ -1914,7 +1942,8 @@
     "image": "assets/perfumes/64338.jpg",
     "notesSource": "https://www.fragrantica.com/perfume/Essential%20Parfums/Essential-Parfums-Bois-Imperial-64338.html",
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.64338.jpg",
-    "referenceVersion": "Bois Impérial Essential Parfums perfume - a fragrance for women and men 2020"
+    "referenceVersion": "Bois Impérial Essential Parfums perfume - a fragrance for women and men 2020",
+    "sortBrand": "essential"
   },
   {
     "id": 100,
@@ -1949,7 +1978,8 @@
     "image": "assets/perfumes/6458.jpg",
     "notesSource": "https://www.fragrantica.com/perfume/byredo/bal-d-afrique-6458.html",
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.6458.jpg",
-    "referenceVersion": "Bal d'Afrique Byredo perfume - a fragrance for women and men 2009"
+    "referenceVersion": "Bal d'Afrique Byredo perfume - a fragrance for women and men 2009",
+    "sortBrand": "byredo"
   },
   {
     "id": 101,
@@ -1984,7 +2014,8 @@
     "image": "assets/perfumes/73438.jpg",
     "notesSource": "https://www.fragrantica.com/p/73438",
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.73438.jpg",
-    "referenceVersion": "Vanille Antique Byredo perfume - a fragrance for women and men 2022"
+    "referenceVersion": "Vanille Antique Byredo perfume - a fragrance for women and men 2022",
+    "sortBrand": "byredo"
   },
   {
     "id": 102,
@@ -2019,7 +2050,8 @@
     "image": "assets/perfumes/101532.jpg",
     "notesSource": "https://www.fragrantica.com/p/101532",
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.101532.jpg",
-    "referenceVersion": "Chimilka Vilhelm Parfumerie perfume - a new fragrance for women and men 2025"
+    "referenceVersion": "Chimilka Vilhelm Parfumerie perfume - a new fragrance for women and men 2025",
+    "sortBrand": "vilhelm"
   },
   {
     "id": 103,
@@ -2054,7 +2086,8 @@
     "image": "assets/perfumes/106624.jpg",
     "notesSource": "https://www.fragrantica.com/perfume/Creed/Absolu-Aventus-106624.html",
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.106624.jpg",
-    "referenceVersion": "Absolu Aventus Creed cologne - a new fragrance for men 2025"
+    "referenceVersion": "Absolu Aventus Creed cologne - a new fragrance for men 2025",
+    "sortBrand": "creed"
   },
   {
     "id": 104,
@@ -2089,7 +2122,8 @@
     "image": "assets/perfumes/9828.jpg",
     "notesSource": "https://www.fragrantica.com/perfume/Creed/Aventus-9828.html",
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.9828.jpg",
-    "referenceVersion": "Aventus Creed cologne - a fragrance for men 2010"
+    "referenceVersion": "Aventus Creed cologne - a fragrance for men 2010",
+    "sortBrand": "creed"
   },
   {
     "id": 105,
@@ -2124,7 +2158,8 @@
     "image": "assets/perfumes/56273.jpg",
     "notesSource": "https://www.fragrantica.com/perfume/Parfums-de-Marly/Sedley-56273.html",
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.56273.jpg",
-    "referenceVersion": "Sedley Parfums de Marly perfume - a fragrance for women and men 2019"
+    "referenceVersion": "Sedley Parfums de Marly perfume - a fragrance for women and men 2019",
+    "sortBrand": "parfums"
   },
   {
     "id": 106,
@@ -2159,7 +2194,8 @@
     "image": "assets/perfumes/52792.jpg",
     "notesSource": "https://www.hfcparis.com/catalog/devils-intrigue",
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.52792.jpg",
-    "referenceVersion": "Devil's Intrigue Haute Fragrance Company HFC perfume - a fragrance for women 2018"
+    "referenceVersion": "Devil's Intrigue Haute Fragrance Company HFC perfume - a fragrance for women 2018",
+    "sortBrand": "hfc"
   },
   {
     "id": 107,
@@ -2194,7 +2230,8 @@
     "image": "assets/perfumes/66804.jpg",
     "notesSource": "https://www.fragrantica.com/perfume/Richard/Dirty-Mango-66804.html",
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.66804.jpg",
-    "referenceVersion": "Dirty Mango Richard perfume - a fragrance for women 2021"
+    "referenceVersion": "Dirty Mango Richard perfume - a fragrance for women 2021",
+    "sortBrand": "richard"
   },
   {
     "id": 108,
@@ -2229,7 +2266,8 @@
     "image": "assets/perfumes/106031.jpg",
     "notesSource": "https://www.fragrantica.com/perfume/Ex-Nihilo/Generation-s-106031.html",
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.106031.jpg",
-    "referenceVersion": "Generation(s) Ex Nihilo perfume - a new fragrance for women and men 2025"
+    "referenceVersion": "Generation(s) Ex Nihilo perfume - a new fragrance for women and men 2025",
+    "sortBrand": "ex nihilo"
   },
   {
     "id": 109,
@@ -2264,7 +2302,8 @@
     "image": "assets/perfumes/27571.jpg",
     "notesSource": "https://www.fragrantica.com/perfume/Ex-Nihilo/Fleur-Narcotique-27571.html",
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.27571.jpg",
-    "referenceVersion": "Fleur Narcotique Ex Nihilo perfume - a fragrance for women and men 2014"
+    "referenceVersion": "Fleur Narcotique Ex Nihilo perfume - a fragrance for women and men 2014",
+    "sortBrand": "ex nihilo"
   },
   {
     "id": 110,
@@ -2299,7 +2338,8 @@
     "image": "assets/perfumes/44128.jpg",
     "notesSource": "https://www.fragrantica.com/perfume/Franck-Boclet/Cocaine-44128.html",
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.44128.jpg",
-    "referenceVersion": "Cocaïne Franck Boclet perfume - a fragrance for women and men 2017"
+    "referenceVersion": "Cocaïne Franck Boclet perfume - a fragrance for women and men 2017",
+    "sortBrand": "franck"
   },
   {
     "id": 111,
@@ -2334,7 +2374,8 @@
     "image": "assets/perfumes/80679.jpg",
     "notesSource": "https://www.fragrantica.com/perfume/Hormone%2520Paris/Hormone-Paris-Gaba-80679.html",
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.80679.jpg",
-    "referenceVersion": "This is Not GABA Hormone Paris perfume - a fragrance for women and men 2023"
+    "referenceVersion": "This is Not GABA Hormone Paris perfume - a fragrance for women and men 2023",
+    "sortBrand": "hormone paris"
   },
   {
     "id": 112,
@@ -2369,7 +2410,8 @@
     "image": "assets/perfumes/54720.jpg",
     "notesSource": "https://www.fragrantica.com/perfume/Marc-Antoine-Barrois/Ganymede-54720.html",
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.54720.jpg",
-    "referenceVersion": "Ganymede Marc-Antoine Barrois perfume - a fragrance for women and men 2019"
+    "referenceVersion": "Ganymede Marc-Antoine Barrois perfume - a fragrance for women and men 2019",
+    "sortBrand": "marc-antoine barrois"
   },
   {
     "id": 113,
@@ -2404,7 +2446,8 @@
     "image": "assets/perfumes/3575.jpg",
     "notesSource": "https://www.fragrantica.com/perfume/byredo/gypsy-water-3575.html",
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.3575.jpg",
-    "referenceVersion": "Gypsy Water Byredo perfume - a fragrance for women and men 2008"
+    "referenceVersion": "Gypsy Water Byredo perfume - a fragrance for women and men 2008",
+    "sortBrand": "byredo"
   },
   {
     "id": 114,
@@ -2439,7 +2482,8 @@
     "image": "assets/perfumes/118765.jpg",
     "notesSource": "https://www.fragrantica.com/perfume/Hormone-Paris/This-is-Not-Caffeine-118765.html",
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.118765.jpg",
-    "referenceVersion": "This is Not Caffeine Hormone Paris perfume - a new fragrance for women and men 2025"
+    "referenceVersion": "This is Not Caffeine Hormone Paris perfume - a new fragrance for women and men 2025",
+    "sortBrand": "hormone paris"
   },
   {
     "id": 115,
@@ -2474,7 +2518,8 @@
     "image": "assets/perfumes/105751.jpg",
     "notesSource": "https://www.fragrantica.com/perfume/Hormone-Paris/This-is-Not-Testosterone-105751.html",
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.105751.jpg",
-    "referenceVersion": "This is Not Testosterone Hormone Paris perfume - a new fragrance for women and men 2025"
+    "referenceVersion": "This is Not Testosterone Hormone Paris perfume - a new fragrance for women and men 2025",
+    "sortBrand": "hormone paris"
   },
   {
     "id": 116,
@@ -2509,7 +2554,8 @@
     "image": "assets/perfumes/67370.jpg",
     "notesSource": "https://www.fragrantica.com/p/67370",
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.67370.jpg",
-    "referenceVersion": "Imagination Louis Vuitton cologne - a fragrance for men 2021"
+    "referenceVersion": "Imagination Louis Vuitton cologne - a fragrance for men 2021",
+    "sortBrand": "louis vuitton"
   },
   {
     "id": 117,
@@ -2544,7 +2590,8 @@
     "image": "assets/perfumes/89368.jpg",
     "notesSource": "https://www.fragrantica.com/perfume/Initio-Parfums-Prives/Narcotic-Delight-89368.html",
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.89368.jpg",
-    "referenceVersion": "Narcotic Delight Initio Parfums Prives perfume - a fragrance for women and men 2024"
+    "referenceVersion": "Narcotic Delight Initio Parfums Prives perfume - a fragrance for women and men 2024",
+    "sortBrand": "initio"
   },
   {
     "id": 118,
@@ -2579,7 +2626,8 @@
     "image": "assets/perfumes/50351.jpg",
     "notesSource": "https://www.fragrantica.com/perfume/Initio-Parfums-Prives/Rehab-50351.html",
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.50351.jpg",
-    "referenceVersion": "Rehab Initio Parfums Prives perfume - a fragrance for women and men 2018"
+    "referenceVersion": "Rehab Initio Parfums Prives perfume - a fragrance for women and men 2018",
+    "sortBrand": "initio"
   },
   {
     "id": 119,
@@ -2614,7 +2662,8 @@
     "image": "assets/perfumes/42260.jpg",
     "notesSource": "https://initioparfums.com/products/side-effect",
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.42260.jpg",
-    "referenceVersion": "Side Effect Initio Parfums Prives perfume - a fragrance for women and men 2016"
+    "referenceVersion": "Side Effect Initio Parfums Prives perfume - a fragrance for women and men 2016",
+    "sortBrand": "initio"
   },
   {
     "id": 120,
@@ -2649,7 +2698,8 @@
     "image": "assets/perfumes/20541.jpg",
     "notesSource": "https://www.fragrantica.com/p/20541",
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.20541.jpg",
-    "referenceVersion": "Jazz Club Maison Martin Margiela cologne - a fragrance for men 2013"
+    "referenceVersion": "Jazz Club Maison Martin Margiela cologne - a fragrance for men 2013",
+    "sortBrand": "maison margiela"
   },
   {
     "id": 121,
@@ -2684,7 +2734,8 @@
     "image": "assets/perfumes/15134.jpg",
     "notesSource": "https://www.fragrantica.com/perfume/Jo-Malone-London/Blackberry-Bay-15134.html",
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.15134.jpg",
-    "referenceVersion": "Blackberry & Bay Jo Malone London perfume - a fragrance for women 2012"
+    "referenceVersion": "Blackberry & Bay Jo Malone London perfume - a fragrance for women 2012",
+    "sortBrand": "jo"
   },
   {
     "id": 122,
@@ -2719,7 +2770,8 @@
     "image": "assets/perfumes/73429.jpg",
     "notesSource": "https://www.fragrantica.com/perfume/Kajal/Almaz-73429.html",
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.73429.jpg",
-    "referenceVersion": "Almaz Kajal perfume - a fragrance for women and men 2022"
+    "referenceVersion": "Almaz Kajal perfume - a fragrance for women and men 2022",
+    "sortBrand": "kajal"
   },
   {
     "id": 123,
@@ -2754,7 +2806,8 @@
     "image": "assets/perfumes/79846.jpg",
     "notesSource": "https://www.fragrantica.com/perfume/Kayali-Fragrances/Yum-Pistachio-Gelato-33-79846.html",
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.79846.jpg",
-    "referenceVersion": "Yum Pistachio Gelato | 33 Kayali Fragrances perfume - a fragrance for women and men 2023"
+    "referenceVersion": "Yum Pistachio Gelato | 33 Kayali Fragrances perfume - a fragrance for women and men 2023",
+    "sortBrand": "kayali"
   },
   {
     "id": 124,
@@ -2787,7 +2840,8 @@
     "notes": "",
     "kind": "perfume",
     "duplicateOf": 123,
-    "catalogStatus": "duplicate_split_from_name"
+    "catalogStatus": "duplicate_split_from_name",
+    "sortBrand": ""
   },
   {
     "id": 125,
@@ -2822,7 +2876,8 @@
     "image": "assets/perfumes/15924.jpg",
     "notesSource": "https://www.fragrantica.com/perfume/By-Kilian/Good-Girl-Gone-Bad-15924.html",
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.15924.jpg",
-    "referenceVersion": "Good Girl Gone Bad By Kilian perfume - a fragrance for women 2012"
+    "referenceVersion": "Good Girl Gone Bad By Kilian perfume - a fragrance for women 2012",
+    "sortBrand": "kilian"
   },
   {
     "id": 126,
@@ -2857,7 +2912,8 @@
     "image": "assets/perfumes/56402.jpg",
     "notesSource": "https://www.fragrantica.com/perfume/By-Kilian/Rolling-in-Love-56402.html",
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.56402.jpg",
-    "referenceVersion": "Rolling in Love By Kilian perfume - a fragrance for women and men 2019"
+    "referenceVersion": "Rolling in Love By Kilian perfume - a fragrance for women and men 2019",
+    "sortBrand": "kilian"
   },
   {
     "id": 127,
@@ -2892,7 +2948,8 @@
     "image": "assets/perfumes/32172.jpg",
     "notesSource": "https://www.fragrantica.com/perfume/Tiziana-Terenzi/Kirke-32172.html",
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.32172.jpg",
-    "referenceVersion": "Kirkè Tiziana Terenzi perfume - a fragrance for women and men 2015"
+    "referenceVersion": "Kirkè Tiziana Terenzi perfume - a fragrance for women and men 2015",
+    "sortBrand": "tiziana terenzi"
   },
   {
     "id": 128,
@@ -2927,7 +2984,8 @@
     "image": "assets/perfumes/68357.jpg",
     "notesSource": "https://www.fragrantica.com/perfume/Louis-Vuitton/Symphony-68357.html",
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.68357.jpg",
-    "referenceVersion": "Symphony Louis Vuitton perfume - a fragrance for women and men 2021"
+    "referenceVersion": "Symphony Louis Vuitton perfume - a fragrance for women and men 2021",
+    "sortBrand": "louis vuitton"
   },
   {
     "id": 129,
@@ -2962,7 +3020,8 @@
     "image": "assets/perfumes/10131.jpg",
     "notesSource": "https://www.fragrantica.com/perfume/Le-Labo/Another-13-10131.html",
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.10131.jpg",
-    "referenceVersion": "Another 13 Le Labo perfume - a fragrance for women and men 2010"
+    "referenceVersion": "Another 13 Le Labo perfume - a fragrance for women and men 2010",
+    "sortBrand": "le"
   },
   {
     "id": 130,
@@ -2997,7 +3056,8 @@
     "image": "assets/perfumes/53947.jpg",
     "notesSource": "https://www.fragrantica.com/perfume/Louis-Vuitton/Afternoon-Swim-53947.html",
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.53947.jpg",
-    "referenceVersion": "Afternoon Swim Louis Vuitton perfume - a fragrance for women and men 2019"
+    "referenceVersion": "Afternoon Swim Louis Vuitton perfume - a fragrance for women and men 2019",
+    "sortBrand": "louis vuitton"
   },
   {
     "id": 131,
@@ -3032,7 +3092,8 @@
     "image": "assets/perfumes/116625.jpg",
     "notesSource": "https://www.fragrantica.com/perfume/Louis-Vuitton/Fantasmagory-116625.html",
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.116625.jpg",
-    "referenceVersion": "Fantasmagory Louis Vuitton perfume - a new fragrance for women and men 2025"
+    "referenceVersion": "Fantasmagory Louis Vuitton perfume - a new fragrance for women and men 2025",
+    "sortBrand": "louis vuitton"
   },
   {
     "id": 132,
@@ -3067,7 +3128,8 @@
     "image": "assets/perfumes/49751.jpg",
     "notesSource": "https://www.fragrantica.com/perfume/Louis-Vuitton/L-Immensit--49751.html",
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.49751.jpg",
-    "referenceVersion": "L’Immensité Louis Vuitton cologne - a fragrance for men 2018"
+    "referenceVersion": "L’Immensité Louis Vuitton cologne - a fragrance for men 2018",
+    "sortBrand": "louis vuitton"
   },
   {
     "id": 133,
@@ -3102,7 +3164,8 @@
     "image": "assets/perfumes/68356.jpg",
     "notesSource": "https://www.fragrantica.com/perfume/Louis-Vuitton/Stellar-Times-68356.html",
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.68356.jpg",
-    "referenceVersion": "Stellar Times Louis Vuitton perfume - a fragrance for women and men 2021"
+    "referenceVersion": "Stellar Times Louis Vuitton perfume - a fragrance for women and men 2021",
+    "sortBrand": "louis vuitton"
   },
   {
     "id": 134,
@@ -3137,7 +3200,8 @@
     "image": "assets/perfumes/49305.jpg",
     "notesSource": "https://www.fragrantica.com/perfume/Vilhelm-Parfumerie/Mango-Skin-49305.html",
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.49305.jpg",
-    "referenceVersion": "Mango Skin Vilhelm Parfumerie perfume - a fragrance for women and men 2018"
+    "referenceVersion": "Mango Skin Vilhelm Parfumerie perfume - a fragrance for women and men 2018",
+    "sortBrand": "vilhelm"
   },
   {
     "id": 135,
@@ -3172,7 +3236,8 @@
     "image": "assets/perfumes/91688.jpg",
     "notesSource": "https://www.fragrantica.com/p/91688",
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.91688.jpg",
-    "referenceVersion": "Tilia Marc-Antoine Barrois perfume - a fragrance for women and men 2024"
+    "referenceVersion": "Tilia Marc-Antoine Barrois perfume - a fragrance for women and men 2024",
+    "sortBrand": "marc-antoine barrois"
   },
   {
     "id": 136,
@@ -3207,7 +3272,8 @@
     "image": "assets/perfumes/53471.jpg",
     "notesSource": "https://www.fragrantica.com/parfum/Orto-Parisi/Megamare-53471.html",
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.53471.jpg",
-    "referenceVersion": "Megamare Orto Parisi perfume - a fragrance for women and men 2019"
+    "referenceVersion": "Megamare Orto Parisi perfume - a fragrance for women and men 2019",
+    "sortBrand": "orto"
   },
   {
     "id": 137,
@@ -3242,7 +3308,8 @@
     "image": "assets/perfumes/3606.jpg",
     "notesSource": "https://www.fragrantica.com/perfume/Escentric-Molecules/Molecule-02-3606.html",
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.3606.jpg",
-    "referenceVersion": "Molecule 02 Escentric Molecules perfume - a fragrance for women and men 2008"
+    "referenceVersion": "Molecule 02 Escentric Molecules perfume - a fragrance for women and men 2008",
+    "sortBrand": "escentric"
   },
   {
     "id": 138,
@@ -3277,7 +3344,8 @@
     "image": "assets/perfumes/46262.jpg",
     "notesSource": "https://www.fragrantica.com/parfum/Richard/White-Chocola-46262.html",
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.46262.jpg",
-    "referenceVersion": "White Chocola Richard perfume - a fragrance for women and men"
+    "referenceVersion": "White Chocola Richard perfume - a fragrance for women and men",
+    "sortBrand": "richard"
   },
   {
     "id": 139,
@@ -3312,7 +3380,8 @@
     "image": "assets/perfumes/13816.jpg",
     "notesSource": "https://www.fragrantica.com/perfume/Sospiro-Perfumes/Accento-13816.html?ccid=531236",
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.13816.jpg",
-    "referenceVersion": "Accento Sospiro Perfumes perfume - a fragrance for women and men 2011"
+    "referenceVersion": "Accento Sospiro Perfumes perfume - a fragrance for women and men 2011",
+    "sortBrand": "sospiro"
   },
   {
     "id": 140,
@@ -3347,7 +3416,8 @@
     "image": "assets/perfumes/18652.jpg",
     "notesSource": "https://www.fragrantica.com/perfume/Sospiro-Perfumes/Erba-Pura-18652.html",
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.18652.jpg",
-    "referenceVersion": "Erba Pura Sospiro Perfumes perfume - a fragrance for women and men 2013"
+    "referenceVersion": "Erba Pura Sospiro Perfumes perfume - a fragrance for women and men 2013",
+    "sortBrand": "sospiro"
   },
   {
     "id": 141,
@@ -3382,7 +3452,8 @@
     "image": "assets/perfumes/51411.jpg",
     "notesSource": "https://www.fragrantica.com/perfume/Tom-Ford/Lost-Cherry-51411.html",
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.51411.jpg",
-    "referenceVersion": "Lost Cherry Tom Ford perfume - a fragrance for women and men 2018"
+    "referenceVersion": "Lost Cherry Tom Ford perfume - a fragrance for women and men 2018",
+    "sortBrand": "tom ford"
   },
   {
     "id": 142,
@@ -3417,7 +3488,8 @@
     "image": "assets/perfumes/1826.jpg",
     "notesSource": "https://www.fragrantica.com/perfume/Tom-Ford/Oud-Wood-1826.html",
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.1826.jpg",
-    "referenceVersion": "Oud Wood Tom Ford perfume - a fragrance for women and men 2007"
+    "referenceVersion": "Oud Wood Tom Ford perfume - a fragrance for women and men 2007",
+    "sortBrand": "tom ford"
   },
   {
     "id": 143,
@@ -3452,7 +3524,8 @@
     "image": "assets/perfumes/78578.jpg",
     "notesSource": "https://www.fragrantica.com/perfume/Tom-Ford/Cherry-Smoke-78578.html",
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.78578.jpg",
-    "referenceVersion": "Cherry Smoke Tom Ford perfume - a fragrance for women and men 2022"
+    "referenceVersion": "Cherry Smoke Tom Ford perfume - a fragrance for women and men 2022",
+    "sortBrand": "tom ford"
   },
   {
     "id": 144,
@@ -3487,7 +3560,8 @@
     "image": "assets/perfumes/88659.jpg",
     "notesSource": "https://www.fragrantica.com/perfume/Tom-Ford/Vanille-Fatale-2024-88659.html",
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.88659.jpg",
-    "referenceVersion": "Vanille Fatale (2024) Tom Ford perfume - a fragrance for women and men 2024"
+    "referenceVersion": "Vanille Fatale (2024) Tom Ford perfume - a fragrance for women and men 2024",
+    "sortBrand": "tom ford"
   },
   {
     "id": 145,
@@ -3522,7 +3596,8 @@
     "image": "assets/perfumes/53742.jpg",
     "notesSource": "https://www.fragrantica.com/perfume/Thomas-Kosmala/Apr-s-l-Amour-53742.html",
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.53742.jpg",
-    "referenceVersion": "Nọ 4 - Après l’Amour Eau de Parfum Thomas Kosmala perfume - a fragrance for women and men 2018"
+    "referenceVersion": "Nọ 4 - Après l’Amour Eau de Parfum Thomas Kosmala perfume - a fragrance for women and men 2018",
+    "sortBrand": "thomas"
   },
   {
     "id": 146,
@@ -3557,7 +3632,8 @@
     "image": "assets/perfumes/65074.jpg",
     "notesSource": "https://www.fragrantica.com/perfume/Zielinski-Rozen/Black-Pepper-Amber-Neroli-65074.html",
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.65074.jpg",
-    "referenceVersion": "Black Pepper & Amber, Neroli Zielinski & Rozen perfume - a fragrance for women and men"
+    "referenceVersion": "Black Pepper & Amber, Neroli Zielinski & Rozen perfume - a fragrance for women and men",
+    "sortBrand": "zielinski & rozen"
   },
   {
     "id": 147,
@@ -3592,7 +3668,8 @@
     "image": "assets/perfumes/25474.jpg",
     "notesSource": "https://www.fragrantica.com/perfume/ZARKOPERFUME/PINK-MOL-CULE-090-09-25474.html",
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.25474.jpg",
-    "referenceVersion": "PINK MOLéCULE 090.09 ZARKOPERFUME perfume - a fragrance for women and men 2014"
+    "referenceVersion": "PINK MOLéCULE 090.09 ZARKOPERFUME perfume - a fragrance for women and men 2014",
+    "sortBrand": "zarkoperfume"
   },
   {
     "id": 148,
@@ -3627,7 +3704,8 @@
     "image": "assets/perfumes/1088.jpg",
     "notesSource": "https://www.fragrantica.com/perfume/Antonio-Banderas/Blue-Seduction-1088.html",
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.1088.jpg",
-    "referenceVersion": "Blue Seduction Antonio Banderas cologne - a fragrance for men 2007"
+    "referenceVersion": "Blue Seduction Antonio Banderas cologne - a fragrance for men 2007",
+    "sortBrand": "antonio"
   },
   {
     "id": 149,
@@ -3662,7 +3740,8 @@
     "image": "assets/perfumes/45258.jpg",
     "notesSource": "https://www.fragrantica.com/perfume/Giorgio-Armani/Emporio-Armani-Stronger-With-You-45258.html",
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.45258.jpg",
-    "referenceVersion": "Emporio Armani Stronger With You Giorgio Armani cologne - a fragrance for men 2017"
+    "referenceVersion": "Emporio Armani Stronger With You Giorgio Armani cologne - a fragrance for men 2017",
+    "sortBrand": "giorgio armani"
   },
   {
     "id": 150,
@@ -3697,7 +3776,8 @@
     "image": "assets/perfumes/797.jpg",
     "notesSource": "https://www.fragrantica.com/perfume/Baldessarini/Ambre-797.html",
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.797.jpg",
-    "referenceVersion": "Ambré Baldessarini cologne - a fragrance for men 2007"
+    "referenceVersion": "Ambré Baldessarini cologne - a fragrance for men 2007",
+    "sortBrand": "baldessarini"
   },
   {
     "id": 151,
@@ -3732,7 +3812,8 @@
     "image": "assets/perfumes/5979.jpg",
     "notesSource": "https://www.fragrantica.com/p/5979",
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.5979.jpg",
-    "referenceVersion": "Boss Orange Hugo Boss perfume - a fragrance for women 2009"
+    "referenceVersion": "Boss Orange Hugo Boss perfume - a fragrance for women 2009",
+    "sortBrand": "hugo boss"
   },
   {
     "id": 152,
@@ -3767,7 +3848,8 @@
     "image": "assets/perfumes/45820.jpg",
     "notesSource": "https://www.fragrantica.com/p/45820",
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.45820.jpg",
-    "referenceVersion": "My Burberry Blush Burberry perfume - a fragrance for women 2017"
+    "referenceVersion": "My Burberry Blush Burberry perfume - a fragrance for women 2017",
+    "sortBrand": "burberry"
   },
   {
     "id": 153,
@@ -3802,7 +3884,8 @@
     "image": "assets/perfumes/607.jpg",
     "notesSource": "https://www.fragrantica.com/perfume/Chanel/Allure-Homme-Sport-607.html",
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.607.jpg",
-    "referenceVersion": "Allure Homme Sport Chanel cologne - a fragrance for men 2004"
+    "referenceVersion": "Allure Homme Sport Chanel cologne - a fragrance for men 2004",
+    "sortBrand": "chanel"
   },
   {
     "id": 154,
@@ -3837,7 +3920,8 @@
     "image": "assets/perfumes/610.jpg",
     "notesSource": "https://www.fragrantica.com/perfume/Chanel/Chance-610.html",
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.610.jpg",
-    "referenceVersion": "Chance Eau de Toilette Chanel perfume - a fragrance for women 2002"
+    "referenceVersion": "Chance Eau de Toilette Chanel perfume - a fragrance for women 2002",
+    "sortBrand": "chanel"
   },
   {
     "id": 155,
@@ -3872,7 +3956,8 @@
     "image": "assets/perfumes/611.jpg",
     "notesSource": "https://www.fragrantica.com/perfume/Chanel/Coco-Mademoiselle-611.html",
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.611.jpg",
-    "referenceVersion": "Coco Mademoiselle Chanel perfume - a fragrance for women 2001"
+    "referenceVersion": "Coco Mademoiselle Chanel perfume - a fragrance for women 2001",
+    "sortBrand": "chanel"
   },
   {
     "id": 156,
@@ -3907,7 +3992,8 @@
     "image": "assets/perfumes/613.jpg",
     "notesSource": "https://www.fragrantica.com/parfem/Chanel/Egoiste-613.html",
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.613.jpg",
-    "referenceVersion": "Egoiste Chanel cologne - a fragrance for men 1990"
+    "referenceVersion": "Egoiste Chanel cologne - a fragrance for men 1990",
+    "sortBrand": "chanel"
   },
   {
     "id": 157,
@@ -3942,7 +4028,8 @@
     "image": "assets/perfumes/1483.jpg",
     "notesSource": "https://www.fragrantica.com/perfume/Chanel/Chance-Eau-Fraiche-1483.html",
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.1483.jpg",
-    "referenceVersion": "Chance Eau Fraiche Chanel perfume - a fragrance for women 2007"
+    "referenceVersion": "Chance Eau Fraiche Chanel perfume - a fragrance for women 2007",
+    "sortBrand": "chanel"
   },
   {
     "id": 158,
@@ -3977,7 +4064,8 @@
     "image": "assets/perfumes/6086.jpg",
     "notesSource": "https://www.fragrantica.com/perfume/Dolce-Gabbana/D-G-Anthology-L-Imperatrice-3-6086.html",
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.6086.jpg",
-    "referenceVersion": "D&G Anthology L'Imperatrice 3 Dolce&Gabbana perfume - a fragrance for women 2009"
+    "referenceVersion": "D&G Anthology L'Imperatrice 3 Dolce&Gabbana perfume - a fragrance for women 2009",
+    "sortBrand": "dolce & gabbana"
   },
   {
     "id": 159,
@@ -4012,7 +4100,8 @@
     "image": "assets/perfumes/4033.jpg",
     "notesSource": "https://www.fragrantica.com/perfume/Dior/Dior-Homme-Sport-4033.html",
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.4033.jpg",
-    "referenceVersion": "Dior Homme Sport (2008), Eau de Toilette"
+    "referenceVersion": "Dior Homme Sport (2008), Eau de Toilette",
+    "sortBrand": "dior"
   },
   {
     "id": 160,
@@ -4047,7 +4136,8 @@
     "image": "assets/perfumes/210.jpg",
     "notesSource": "https://www.fragrantica.com/perfume/Dior/J-adore-210.html",
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.210.jpg",
-    "referenceVersion": "J'adore Dior perfume - a fragrance for women 1999"
+    "referenceVersion": "J'adore Dior perfume - a fragrance for women 1999",
+    "sortBrand": "dior"
   },
   {
     "id": 161,
@@ -4082,7 +4172,8 @@
     "image": "assets/perfumes/78873.jpg",
     "notesSource": "https://www.fragrantica.com/perfume/Dolce-Gabbana/Q-by-Dolce-Gabbana-78873.html",
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.78873.jpg",
-    "referenceVersion": "Q by Dolce & Gabbana Dolce&Gabbana perfume - a fragrance for women 2023"
+    "referenceVersion": "Q by Dolce & Gabbana Dolce&Gabbana perfume - a fragrance for women 2023",
+    "sortBrand": "dolce & gabbana"
   },
   {
     "id": 162,
@@ -4117,7 +4208,8 @@
     "image": "assets/perfumes/988.jpg",
     "notesSource": "https://www.fragrantica.com/p/988",
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.988.jpg",
-    "referenceVersion": "Eclat d’Arpège Lanvin perfume - a fragrance for women 2002"
+    "referenceVersion": "Eclat d’Arpège Lanvin perfume - a fragrance for women 2002",
+    "sortBrand": "lanvin"
   },
   {
     "id": 163,
@@ -4149,7 +4241,8 @@
     },
     "notes": "",
     "kind": "perfume",
-    "duplicateOf": 164
+    "duplicateOf": 164,
+    "sortBrand": "givenchy"
   },
   {
     "id": 164,
@@ -4184,7 +4277,8 @@
     "image": "assets/perfumes/78639.jpg",
     "notesSource": "https://www.fragrantica.com/perfume/Givenchy/Gentleman-Society-78639.html?ccid=1822995",
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.78639.jpg",
-    "referenceVersion": "Gentleman Society Givenchy cologne - a fragrance for men 2023"
+    "referenceVersion": "Gentleman Society Givenchy cologne - a fragrance for men 2023",
+    "sortBrand": "givenchy"
   },
   {
     "id": 165,
@@ -4219,7 +4313,8 @@
     "image": "assets/perfumes/60891.jpg",
     "notesSource": "https://www.fragrantica.com/perfume/Givenchy/Irr-sistible-Givenchy-60891.html",
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.60891.jpg",
-    "referenceVersion": "Irresistible Givenchy Givenchy perfume - a fragrance for women 2020"
+    "referenceVersion": "Irresistible Givenchy Givenchy perfume - a fragrance for women 2020",
+    "sortBrand": "givenchy"
   },
   {
     "id": 166,
@@ -4254,7 +4349,8 @@
     "image": "assets/perfumes/51488.jpg",
     "notesSource": "https://www.fragrantica.com/perfume/Givenchy/L-Interdit-2018--51488.html",
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.51488.jpg",
-    "referenceVersion": "L'Interdit Eau de Parfum Givenchy perfume - a fragrance for women 2018"
+    "referenceVersion": "L'Interdit Eau de Parfum Givenchy perfume - a fragrance for women 2018",
+    "sortBrand": "givenchy"
   },
   {
     "id": 167,
@@ -4289,7 +4385,8 @@
     "image": "assets/perfumes/106623.jpg",
     "notesSource": "https://www.fragrantica.com/perfume/Gucci/Flora-Gorgeous-Gardenia-Intense-106623.html",
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.106623.jpg",
-    "referenceVersion": "Flora Gorgeous Gardenia Intense Gucci perfume - a new fragrance for women 2025"
+    "referenceVersion": "Flora Gorgeous Gardenia Intense Gucci perfume - a new fragrance for women 2025",
+    "sortBrand": "gucci"
   },
   {
     "id": 168,
@@ -4324,7 +4421,8 @@
     "image": "assets/perfumes/383.jpg",
     "notesSource": "https://www.fragrantica.com/perfume/Hugo-Boss/Boss-Bottled-383.html",
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.383.jpg",
-    "referenceVersion": "Boss Bottled Hugo Boss cologne - a fragrance for men 1998"
+    "referenceVersion": "Boss Bottled Hugo Boss cologne - a fragrance for men 1998",
+    "sortBrand": "hugo boss"
   },
   {
     "id": 169,
@@ -4359,7 +4457,8 @@
     "image": "assets/perfumes/64606.jpg",
     "notesSource": "https://www.fragrantica.com/perfume/Hugo-Boss/Hugo-Man-64606.html",
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.64606.jpg",
-    "referenceVersion": "Hugo Man Hugo Boss cologne - a fragrance for men 2021"
+    "referenceVersion": "Hugo Man Hugo Boss cologne - a fragrance for men 2021",
+    "sortBrand": "hugo boss"
   },
   {
     "id": 170,
@@ -4394,7 +4493,8 @@
     "image": "assets/perfumes/669.jpg",
     "notesSource": "https://www.fragrantica.com/perfume/Lacoste-Fragrances/Lacoste-Pour-Femme-669.html",
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.669.jpg",
-    "referenceVersion": "Lacoste Pour Femme Lacoste Fragrances perfume - a fragrance for women 2003"
+    "referenceVersion": "Lacoste Pour Femme Lacoste Fragrances perfume - a fragrance for women 2003",
+    "sortBrand": "lacoste"
   },
   {
     "id": 171,
@@ -4429,7 +4529,8 @@
     "image": "assets/perfumes/76880.jpg",
     "notesSource": "https://www.fragrantica.com/perfume/Lattafa-Perfumes/yara-76880.html",
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.76880.jpg",
-    "referenceVersion": "Yara Lattafa Perfumes perfume - a fragrance for women 2020"
+    "referenceVersion": "Yara Lattafa Perfumes perfume - a fragrance for women 2020",
+    "sortBrand": "lattafa"
   },
   {
     "id": 172,
@@ -4464,7 +4565,8 @@
     "image": "assets/perfumes/485.jpg",
     "notesSource": "https://www.fragrantica.com/perfume/dolce-gabbana/light-blue-485.html",
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.485.jpg",
-    "referenceVersion": "Light Blue Dolce&Gabbana perfume - a fragrance for women 2001"
+    "referenceVersion": "Light Blue Dolce&Gabbana perfume - a fragrance for women 2001",
+    "sortBrand": "dolce & gabbana"
   },
   {
     "id": 173,
@@ -4499,7 +4601,8 @@
     "image": "assets/perfumes/2186.jpg",
     "notesSource": "https://www.fragrantica.com/perfume/Montale/Chocolate-Greedy-2186.html",
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.2186.jpg",
-    "referenceVersion": "Chocolate Greedy Montale perfume - a fragrance for women and men 2007"
+    "referenceVersion": "Chocolate Greedy Montale perfume - a fragrance for women and men 2007",
+    "sortBrand": "montale"
   },
   {
     "id": 174,
@@ -4534,7 +4637,8 @@
     "image": "assets/perfumes/39411.jpg",
     "notesSource": "https://www.fragrantica.com/perfume/Montale/Sweet-Vanilla-39411.html",
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.39411.jpg",
-    "referenceVersion": "Sweet Vanilla Montale perfume - a fragrance for women and men 2015"
+    "referenceVersion": "Sweet Vanilla Montale perfume - a fragrance for women and men 2015",
+    "sortBrand": "montale"
   },
   {
     "id": 175,
@@ -4569,7 +4673,8 @@
     "image": "assets/perfumes/4064.jpg",
     "notesSource": "https://www.montaleparfums.com/nl/gourmand/80-vanille-absolu.html",
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.4064.jpg",
-    "referenceVersion": "Vanille Absolu Montale perfume - a fragrance for women 2008"
+    "referenceVersion": "Vanille Absolu Montale perfume - a fragrance for women 2008",
+    "sortBrand": "montale"
   },
   {
     "id": 176,
@@ -4604,7 +4709,8 @@
     "image": "assets/perfumes/3747.jpg",
     "notesSource": "https://www.fragrantica.com/perfume/Paco-Rabanne/1-Million-3747.html",
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.3747.jpg",
-    "referenceVersion": "1 Million Rabanne cologne - a fragrance for men 2008"
+    "referenceVersion": "1 Million Rabanne cologne - a fragrance for men 2008",
+    "sortBrand": "paco rabanne"
   },
   {
     "id": 177,
@@ -4639,7 +4745,8 @@
     "image": "assets/perfumes/33495.jpg",
     "notesSource": "https://www.fragrantica.com/perfume/Victoria-s-Secret/Aqua-Kiss-33495.html",
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.33495.jpg",
-    "referenceVersion": "Aqua Kiss Victoria's Secret perfume - a fragrance for women 2012"
+    "referenceVersion": "Aqua Kiss Victoria's Secret perfume - a fragrance for women 2012",
+    "sortBrand": "victoria's secret"
   },
   {
     "id": 178,
@@ -4674,7 +4781,8 @@
     "image": "https://fimgs.net/mdimg/perfume-thumbs/375x500.28256.jpg",
     "notesSource": "https://www.fragrantica.com/perfume/Victoria-s-Secret/Scandalous-123884.html",
     "imageSource": "https://www.fragrantica.com/perfume/Victoria-s-Secret/Scandalous-28256.html",
-    "referenceVersion": "Scandalous Victoria's Secret Eau de Parfum 2014 (pink patterned bottle with black bow)"
+    "referenceVersion": "Scandalous Victoria's Secret Eau de Parfum 2014 (pink patterned bottle with black bow)",
+    "sortBrand": "victoria's secret"
   },
   {
     "id": 179,
@@ -4709,7 +4817,8 @@
     "image": "assets/perfumes/26453.jpg",
     "notesSource": "https://www.fragrantica.com/perfume/Victoria-s-Secret/Eau-So-Sexy-26453.html",
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.26453.jpg",
-    "referenceVersion": "Eau So Sexy Victoria's Secret perfume - a fragrance for women 2014"
+    "referenceVersion": "Eau So Sexy Victoria's Secret perfume - a fragrance for women 2014",
+    "sortBrand": "victoria's secret"
   },
   {
     "id": 180,
@@ -4744,7 +4853,8 @@
     "image": "assets/perfumes/632.jpg",
     "notesSource": "https://www.fragrantica.com/perfume/Versace/Bright-Crystal-632.html",
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.632.jpg",
-    "referenceVersion": "Bright Crystal Versace perfume - a fragrance for women 2006"
+    "referenceVersion": "Bright Crystal Versace perfume - a fragrance for women 2006",
+    "sortBrand": "versace"
   },
   {
     "id": 181,
@@ -4779,7 +4889,8 @@
     "image": "assets/perfumes/631.jpg",
     "notesSource": "https://www.fragrantica.com/perfume/Versace/Crystal-Noir-631.html",
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.631.jpg",
-    "referenceVersion": "Crystal Noir Versace perfume - a fragrance for women 2004"
+    "referenceVersion": "Crystal Noir Versace perfume - a fragrance for women 2004",
+    "sortBrand": "versace"
   },
   {
     "id": 182,
@@ -4814,7 +4925,8 @@
     "image": "assets/perfumes/52180.jpg",
     "notesSource": "https://www.fragrantica.com/perfume/Versace/Eros-Flame-52180.html",
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.52180.jpg",
-    "referenceVersion": "Eros Flame Versace cologne - a fragrance for men 2018"
+    "referenceVersion": "Eros Flame Versace cologne - a fragrance for men 2018",
+    "sortBrand": "versace"
   },
   {
     "id": 183,
@@ -4849,7 +4961,8 @@
     "image": "assets/perfumes/16657.jpg",
     "notesSource": "https://www.fragrantica.com/perfume/Versace/Eros-16657.html",
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.16657.jpg",
-    "referenceVersion": "Eros Versace cologne - a fragrance for men 2012"
+    "referenceVersion": "Eros Versace cologne - a fragrance for men 2012",
+    "sortBrand": "versace"
   },
   {
     "id": 184,
@@ -4884,7 +4997,8 @@
     "image": "assets/perfumes/10190.jpg",
     "notesSource": "https://www.fragrantica.com/perfume/Victoria-s-Secret/Bombshell-10190.html",
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.10190.jpg",
-    "referenceVersion": "Bombshell Victoria's Secret perfume - a fragrance for women 2010"
+    "referenceVersion": "Bombshell Victoria's Secret perfume - a fragrance for women 2010",
+    "sortBrand": "victoria's secret"
   },
   {
     "id": 185,
@@ -4919,7 +5033,8 @@
     "image": "assets/perfumes/15540.jpg",
     "notesSource": "https://www.fragrantica.com/perfume/Yves-Saint-Laurent/Manifesto-15540.html",
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.15540.jpg",
-    "referenceVersion": "Manifesto Yves Saint Laurent perfume - a fragrance for women 2012"
+    "referenceVersion": "Manifesto Yves Saint Laurent perfume - a fragrance for women 2012",
+    "sortBrand": "yves saint laurent"
   },
   {
     "id": 186,
@@ -4954,7 +5069,8 @@
     "image": "assets/perfumes/39359.jpg",
     "notesSource": "https://www.fragrantica.com/perfume/Zadig-Voltaire/This-is-Him-39359.html",
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.39359.jpg",
-    "referenceVersion": "This is Him Zadig & Voltaire cologne - a fragrance for men 2016"
+    "referenceVersion": "This is Him Zadig & Voltaire cologne - a fragrance for men 2016",
+    "sortBrand": "zadig & voltaire"
   },
   {
     "id": 187,
@@ -4989,7 +5105,8 @@
     "image": "assets/perfumes/1054.jpg",
     "notesSource": "https://www.fragrantica.com/perfume/Carolina%20Herrera/Carolina-Herrera-212-Sexy-Men-1054.html",
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.1054.jpg",
-    "referenceVersion": "212 Sexy Men Carolina Herrera cologne - a fragrance for men 2006"
+    "referenceVersion": "212 Sexy Men Carolina Herrera cologne - a fragrance for men 2006",
+    "sortBrand": "carolina"
   },
   {
     "id": 188,
@@ -5700,7 +5817,8 @@
     "image": "assets/perfumes/20139.jpg",
     "notesSource": "https://www.fragrantica.com/perfume/ALREHAB-PERFUMES/Choco-Musk-20139.html",
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.20139.jpg?t=1789494472",
-    "referenceVersion": "Choco Musk ALREHAB PERFUMES perfume - a fragrance for women and men"
+    "referenceVersion": "Choco Musk ALREHAB PERFUMES perfume - a fragrance for women and men",
+    "sortBrand": "al-rehab"
   },
   {
     "id": 241,
@@ -5735,7 +5853,8 @@
     "image": "assets/perfumes/banderas-black-seduction.webp",
     "notesSource": "https://www.fragrantica.com/perfume/Antonio-Banderas/Seduction-in-Black-6746.html",
     "imageSource": "https://www.banderasperfumes.com/uploads/products/images/seduction-black-gama-100ml_1675080411.png",
-    "referenceVersion": "Seduction in Black Antonio Banderas cologne - a fragrance for men 2009"
+    "referenceVersion": "Seduction in Black Antonio Banderas cologne - a fragrance for men 2009",
+    "sortBrand": "antonio"
   },
   {
     "id": 242,
@@ -5770,7 +5889,8 @@
     "image": "assets/perfumes/228.jpg",
     "notesSource": "https://www.fragrantica.com/perfume/Dior/Fahrenheit-228.html",
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.228.jpg",
-    "referenceVersion": "Fahrenheit Dior cologne - a fragrance for men 1988"
+    "referenceVersion": "Fahrenheit Dior cologne - a fragrance for men 1988",
+    "sortBrand": "dior"
   },
   {
     "id": 243,
@@ -5805,7 +5925,8 @@
     "image": "assets/perfumes/23280.jpg",
     "notesSource": "https://www.fragrantica.com/perfume/Christian-Dior/Miss-Dior-Blooming-Bouquet-23280.html",
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.23280.jpg",
-    "referenceVersion": "Miss Dior Blooming Bouquet Dior perfume - a fragrance for women 2014"
+    "referenceVersion": "Miss Dior Blooming Bouquet Dior perfume - a fragrance for women 2014",
+    "sortBrand": "dior"
   },
   {
     "id": 244,
@@ -5840,7 +5961,8 @@
     "image": "assets/perfumes/56358.jpg",
     "notesSource": "https://www.fragrantica.com/perfume/Dolce-Gabbana/K-by-Dolce-Gabbana-56358.html",
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.56358.jpg",
-    "referenceVersion": "K by Dolce & Gabbana Dolce&Gabbana cologne - a fragrance for men 2019"
+    "referenceVersion": "K by Dolce & Gabbana Dolce&Gabbana cologne - a fragrance for men 2019",
+    "sortBrand": "dolce & gabbana"
   },
   {
     "id": 245,
@@ -5875,7 +5997,8 @@
     "image": "assets/perfumes/62036.jpg",
     "notesSource": "https://www.fragrantica.com/perfume/giorgio-armani/my-way-62036.html",
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.62036.jpg",
-    "referenceVersion": "My Way Giorgio Armani perfume - a fragrance for women 2020"
+    "referenceVersion": "My Way Giorgio Armani perfume - a fragrance for women 2020",
+    "sortBrand": "giorgio armani"
   },
   {
     "id": 246,
@@ -5910,7 +6033,8 @@
     "image": "assets/perfumes/6529.jpg",
     "notesSource": "https://www.fragrantica.com/perfume/Givenchy/Ange-Ou-Demon-Le-Secret-6529.html?ccid=1668599",
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.6529.jpg",
-    "referenceVersion": "Ange Ou Demon Le Secret Givenchy perfume - a fragrance for women 2009"
+    "referenceVersion": "Ange Ou Demon Le Secret Givenchy perfume - a fragrance for women 2009",
+    "sortBrand": "givenchy"
   },
   {
     "id": 247,
@@ -5945,7 +6069,8 @@
     "image": "assets/perfumes/38.jpg",
     "notesSource": "https://www.fragrantica.com/perfume/Givenchy/Givenchy-pour-Homme-Blue-Label-38.html",
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.38.jpg",
-    "referenceVersion": "Givenchy pour Homme Blue Label Givenchy cologne - a fragrance for men 2004"
+    "referenceVersion": "Givenchy pour Homme Blue Label Givenchy cologne - a fragrance for men 2004",
+    "sortBrand": "givenchy"
   },
   {
     "id": 248,
@@ -5980,7 +6105,8 @@
     "image": "assets/perfumes/54822.jpg",
     "notesSource": "https://www.fragrantica.com/p/54822",
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.54822.jpg",
-    "referenceVersion": "Tutù Gritti perfume - a fragrance for women 2019"
+    "referenceVersion": "Tutù Gritti perfume - a fragrance for women 2019",
+    "sortBrand": "gritti"
   },
   {
     "id": 249,
@@ -6015,7 +6141,8 @@
     "image": "assets/perfumes/7610.jpg",
     "notesSource": "https://www.fragrantica.com/perfume/Gucci/Flora-by-Gucci-Eau-de-Parfum-7610.html",
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.7610.jpg",
-    "referenceVersion": "Flora by Gucci Eau de Parfum Gucci perfume - a fragrance for women 2010"
+    "referenceVersion": "Flora by Gucci Eau de Parfum Gucci perfume - a fragrance for women 2010",
+    "sortBrand": "gucci"
   },
   {
     "id": 250,
@@ -6050,7 +6177,8 @@
     "image": "assets/perfumes/17.jpg",
     "notesSource": "https://www.fragrantica.com/perfume/herm-s/terre-d-hermes-17.html",
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.17.jpg",
-    "referenceVersion": "Terre d'Hermès Hermès cologne - a fragrance for men 2006"
+    "referenceVersion": "Terre d'Hermès Hermès cologne - a fragrance for men 2006",
+    "sortBrand": "hermès"
   },
   {
     "id": 251,
@@ -6085,7 +6213,8 @@
     "image": "assets/perfumes/72.jpg",
     "notesSource": "https://www.fragrantica.com/perfume/Kenzo/Kenzo-Flower-by-Kenzo-72.html",
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.72.jpg",
-    "referenceVersion": "Flower by Kenzo Kenzo perfume - a fragrance for women 2000"
+    "referenceVersion": "Flower by Kenzo Kenzo perfume - a fragrance for women 2000",
+    "sortBrand": "kenzo"
   },
   {
     "id": 252,
@@ -6120,7 +6249,8 @@
     "image": "assets/perfumes/78.jpg",
     "notesSource": "https://www.fragrantica.com/perfume/Kenzo/L-Eau-par-Kenzo-78.html",
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.78.jpg",
-    "referenceVersion": "L'Eau par Kenzo Kenzo perfume - a fragrance for women 1996"
+    "referenceVersion": "L'Eau par Kenzo Kenzo perfume - a fragrance for women 1996",
+    "sortBrand": "kenzo"
   },
   {
     "id": 253,
@@ -6155,7 +6285,8 @@
     "image": "assets/perfumes/32591.jpg",
     "notesSource": "https://www.fragrantica.com/perfume/La-Sultane-de-Saba/Voyage-sur-la-route-des-Epices-32591.html",
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.32591.jpg",
-    "referenceVersion": "Voyage sur la route des Épices La Sultane de Saba perfume - a fragrance for women and men 2013"
+    "referenceVersion": "Voyage sur la route des Épices La Sultane de Saba perfume - a fragrance for women and men 2013",
+    "sortBrand": "la"
   },
   {
     "id": 254,
@@ -6190,7 +6321,8 @@
     "image": "assets/perfumes/32686.jpg",
     "notesSource": "https://www.fragrantica.com/perfume/Lacoste/Eau-de-Lacoste-L-12-12-Pour-Elle-Sparkling-32686.html",
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.32686.jpg",
-    "referenceVersion": "Eau de Lacoste L.12.12 Pour Elle Sparkling Lacoste Fragrances perfume - a fragrance for women 2015"
+    "referenceVersion": "Eau de Lacoste L.12.12 Pour Elle Sparkling Lacoste Fragrances perfume - a fragrance for women 2015",
+    "sortBrand": "lacoste"
   },
   {
     "id": 255,
@@ -6225,7 +6357,8 @@
     "image": "assets/perfumes/8158.jpg",
     "notesSource": "https://www.fragrantica.com/perfume/Lacoste-Fragrances/Lacoste-Essential-Sport-8158.html",
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.8158.jpg",
-    "referenceVersion": "Lacoste Essential Sport Lacoste Fragrances cologne - a fragrance for men 2009"
+    "referenceVersion": "Lacoste Essential Sport Lacoste Fragrances cologne - a fragrance for men 2009",
+    "sortBrand": "lacoste"
   },
   {
     "id": 256,
@@ -6260,7 +6393,8 @@
     "image": "assets/perfumes/38890.jpg",
     "notesSource": "https://www.fragrantica.com/perfume/Lanvin/Modern-Princess-38890.html",
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.38890.jpg",
-    "referenceVersion": "Modern Princess Lanvin perfume - a fragrance for women 2016"
+    "referenceVersion": "Modern Princess Lanvin perfume - a fragrance for women 2016",
+    "sortBrand": "lanvin"
   },
   {
     "id": 257,
@@ -6295,7 +6429,8 @@
     "image": "assets/perfumes/25808.jpg",
     "notesSource": "https://www.fragrantica.com/perfume/Lattafa-Perfumes/Sheikh-Al-Shuyukh-25808.html",
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.25808.jpg",
-    "referenceVersion": "Sheikh Al Shuyukh Lattafa Perfumes perfume - a fragrance for women and men"
+    "referenceVersion": "Sheikh Al Shuyukh Lattafa Perfumes perfume - a fragrance for women and men",
+    "sortBrand": "lattafa"
   },
   {
     "id": 258,
@@ -6330,7 +6465,8 @@
     "image": "assets/perfumes/48948.jpg",
     "notesSource": "https://www.fragrantica.com/perfume/Montale/Vanilla-Cake-48948.html",
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.48948.jpg",
-    "referenceVersion": "Vanilla Cake Montale perfume - a fragrance for women and men 2018"
+    "referenceVersion": "Vanilla Cake Montale perfume - a fragrance for women and men 2018",
+    "sortBrand": "montale"
   },
   {
     "id": 259,
@@ -6365,7 +6501,8 @@
     "image": "assets/perfumes/51589.jpg",
     "notesSource": "https://www.fragrantica.com/perfume/Moschino/Toy-2-51589.html",
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.51589.jpg",
-    "referenceVersion": "Toy 2 Moschino perfume - a fragrance for women 2018"
+    "referenceVersion": "Toy 2 Moschino perfume - a fragrance for women 2018",
+    "sortBrand": "moschino"
   },
   {
     "id": 260,
@@ -6400,7 +6537,8 @@
     "image": "assets/perfumes/147.jpg",
     "notesSource": "https://www.fragrantica.com/perfume/Nina-Ricci/Nina-147.html",
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.147.jpg",
-    "referenceVersion": "Nina Nina Ricci perfume - a fragrance for women 2006"
+    "referenceVersion": "Nina Nina Ricci perfume - a fragrance for women 2006",
+    "sortBrand": "nina"
   },
   {
     "id": 261,
@@ -6435,7 +6573,8 @@
     "image": "assets/perfumes/9045.jpg",
     "notesSource": "https://www.fragrantica.com/perfume/Paco-Rabanne/Lady-Million-9045.html",
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.9045.jpg",
-    "referenceVersion": "Lady Million Rabanne perfume - a fragrance for women 2010"
+    "referenceVersion": "Lady Million Rabanne perfume - a fragrance for women 2010",
+    "sortBrand": "paco rabanne"
   },
   {
     "id": 262,
@@ -6470,7 +6609,8 @@
     "image": "assets/perfumes/31666.jpg",
     "notesSource": "https://www.fragrantica.com/perfume/Paco-Rabanne/Olympea-31666.html",
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.31666.jpg",
-    "referenceVersion": "Olympéa Rabanne perfume - a fragrance for women 2015"
+    "referenceVersion": "Olympéa Rabanne perfume - a fragrance for women 2015",
+    "sortBrand": "paco rabanne"
   },
   {
     "id": 263,
@@ -6505,7 +6645,8 @@
     "image": "assets/perfumes/2777.jpg",
     "notesSource": "https://www.fragrantica.com/perfume/Shaik/Opulent-Shaik-Classic-No-77-2777.html",
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.2777.jpg",
-    "referenceVersion": "Opulent Shaik Classic No 77 Shaik cologne - a fragrance for men"
+    "referenceVersion": "Opulent Shaik Classic No 77 Shaik cologne - a fragrance for men",
+    "sortBrand": "shaik"
   },
   {
     "id": 264,
@@ -6540,7 +6681,8 @@
     "image": "assets/perfumes/18802.jpg",
     "notesSource": "https://www.fragrantica.com/perfume/Trussardi/My-Name-18802.html",
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.18802.jpg",
-    "referenceVersion": "My Name Trussardi perfume - a fragrance for women 2013"
+    "referenceVersion": "My Name Trussardi perfume - a fragrance for women 2013",
+    "sortBrand": "trussardi"
   },
   {
     "id": 265,
@@ -6575,7 +6717,8 @@
     "image": "assets/perfumes/644.jpg",
     "notesSource": "https://www.fragrantica.com/perfume/Versace/Versace-Man-Eau-Fraiche-644.html",
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.644.jpg",
-    "referenceVersion": "Versace Man Eau Fraiche Versace cologne - a fragrance for men 2006"
+    "referenceVersion": "Versace Man Eau Fraiche Versace cologne - a fragrance for men 2006",
+    "sortBrand": "versace"
   },
   {
     "id": 266,
@@ -6610,7 +6753,8 @@
     "image": "assets/perfumes/68550.jpg",
     "notesSource": "https://www.fragrantica.com/perfume/Victoria-s-Secret/Tease-Creme-Cloud-68550.html",
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.68550.jpg",
-    "referenceVersion": "Tease Crème Cloud Victoria's Secret perfume - a fragrance for women 2021"
+    "referenceVersion": "Tease Crème Cloud Victoria's Secret perfume - a fragrance for women 2021",
+    "sortBrand": "victoria's secret"
   },
   {
     "id": 267,
@@ -6645,7 +6789,8 @@
     "image": "assets/perfumes/39358.jpg",
     "notesSource": "https://www.fragrantica.com/perfume/Zadig-Voltaire/This-is-Her-39358.html",
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.39358.jpg",
-    "referenceVersion": "This is Her Zadig & Voltaire perfume - a fragrance for women 2016"
+    "referenceVersion": "This is Her Zadig & Voltaire perfume - a fragrance for women 2016",
+    "sortBrand": "zadig & voltaire"
   },
   {
     "id": 268,
@@ -6680,7 +6825,8 @@
     "image": "assets/perfumes/21307.jpg",
     "notesSource": "https://www.fragrantica.com/parfum/Abdul-Samad-Al-Qurashi/Al-Hajjar-Al-Aswad-21307.html",
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.21307.jpg",
-    "referenceVersion": "Al Hajjar Al Aswad Abdul Samad Al Qurashi perfume - a fragrance for women and men"
+    "referenceVersion": "Al Hajjar Al Aswad Abdul Samad Al Qurashi perfume - a fragrance for women and men",
+    "sortBrand": "abdul"
   },
   {
     "id": 269,
@@ -6715,7 +6861,8 @@
     "image": "assets/perfumes/50343.jpg",
     "notesSource": "https://www.fragrantica.com/perfume/attar-collection/azora-50343.html",
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.50343.jpg",
-    "referenceVersion": "Azora Attar Collection perfume - a fragrance for women and men 2018"
+    "referenceVersion": "Azora Attar Collection perfume - a fragrance for women and men 2018",
+    "sortBrand": "attar collection"
   },
   {
     "id": 270,
@@ -6750,7 +6897,8 @@
     "image": "assets/perfumes/62707.jpg",
     "notesSource": "https://www.fragrantica.com/perfume/Tom-Ford/Bitter-Peach-62707.html",
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.62707.jpg",
-    "referenceVersion": "Bitter Peach Tom Ford perfume - a fragrance for women and men 2020"
+    "referenceVersion": "Bitter Peach Tom Ford perfume - a fragrance for women and men 2020",
+    "sortBrand": "tom ford"
   },
   {
     "id": 271,
@@ -6785,7 +6933,8 @@
     "image": "assets/perfumes/58545.jpg",
     "notesSource": "https://www.fragrantica.com/perfume/Boadicea-the-Victorious/Aurica-58545.html",
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.58545.jpg",
-    "referenceVersion": "Aurica Boadicea the Victorious perfume - a fragrance for women and men 2020"
+    "referenceVersion": "Aurica Boadicea the Victorious perfume - a fragrance for women and men 2020",
+    "sortBrand": "boadicea the victorious"
   },
   {
     "id": 272,
@@ -6820,7 +6969,8 @@
     "image": "assets/perfumes/35525.jpg",
     "notesSource": "https://www.fragrantica.com/perfume/Boadicea-the-Victorious/Hanuman-35525.html",
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.35525.jpg",
-    "referenceVersion": "Hanuman Boadicea the Victorious perfume - a fragrance for women and men 2016"
+    "referenceVersion": "Hanuman Boadicea the Victorious perfume - a fragrance for women and men 2016",
+    "sortBrand": "boadicea the victorious"
   },
   {
     "id": 273,
@@ -6855,7 +7005,8 @@
     "image": "assets/perfumes/1742.jpg",
     "notesSource": "https://www.fragrantica.com/perfume/Bvlgari/Aqva-Pour-Homme-Marine-1742.html",
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.1742.jpg",
-    "referenceVersion": "Aqva Pour Homme Marine Bvlgari cologne - a fragrance for men 2008"
+    "referenceVersion": "Aqva Pour Homme Marine Bvlgari cologne - a fragrance for men 2008",
+    "sortBrand": "bvlgari"
   },
   {
     "id": 274,
@@ -6890,7 +7041,8 @@
     "image": "assets/perfumes/6686.jpg",
     "notesSource": "https://www.fragrantica.com/perfume/Byredo/Blanche-6686.html",
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.6686.jpg",
-    "referenceVersion": "Blanche Byredo perfume - a fragrance for women 2009"
+    "referenceVersion": "Blanche Byredo perfume - a fragrance for women 2009",
+    "sortBrand": "byredo"
   },
   {
     "id": 275,
@@ -6925,7 +7077,8 @@
     "image": "assets/perfumes/27040.jpg",
     "notesSource": "https://www.fragrantica.com/perfume/byredo/mojave-ghost-27040.html",
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.27040.jpg",
-    "referenceVersion": "Mojave Ghost Byredo perfume - a fragrance for women and men 2014"
+    "referenceVersion": "Mojave Ghost Byredo perfume - a fragrance for women and men 2014",
+    "sortBrand": "byredo"
   },
   {
     "id": 276,
@@ -6960,7 +7113,8 @@
     "image": "assets/perfumes/39681.jpg",
     "notesSource": "https://www.fragrantica.com/perfume/Carolina-Herrera/Good-Girl-39681.html",
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.39681.jpg",
-    "referenceVersion": "Good Girl Carolina Herrera perfume - a fragrance for women 2016"
+    "referenceVersion": "Good Girl Carolina Herrera perfume - a fragrance for women 2016",
+    "sortBrand": "carolina"
   },
   {
     "id": 277,
@@ -6995,7 +7149,8 @@
     "image": "assets/perfumes/47116.jpg",
     "notesSource": "https://www.fragrantica.com/perfume/Clive-Christian/Hedonistic-47116.html",
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.47116.jpg",
-    "referenceVersion": "Jump up and Kiss Me Hedonistic Clive Christian cologne - a fragrance for men 2017"
+    "referenceVersion": "Jump up and Kiss Me Hedonistic Clive Christian cologne - a fragrance for men 2017",
+    "sortBrand": "clive christian"
   },
   {
     "id": 278,
@@ -7030,7 +7185,9 @@
     "image": "assets/perfumes/6086.jpg",
     "notesSource": "https://www.fragrantica.com/perfume/Dolce-Gabbana/D-G-Anthology-L-Imperatrice-3-6086.html",
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.6086.jpg",
-    "referenceVersion": "D&G Anthology L'Imperatrice 3 Dolce&Gabbana perfume - a fragrance for women 2009"
+    "referenceVersion": "D&G Anthology L'Imperatrice 3 Dolce&Gabbana perfume - a fragrance for women 2009",
+    "duplicateOf": 158,
+    "sortBrand": "dolce & gabbana"
   },
   {
     "id": 279,
@@ -7065,7 +7222,9 @@
     "image": "assets/perfumes/78873.jpg",
     "notesSource": "https://www.fragrantica.com/perfume/Dolce-Gabbana/Q-by-Dolce-Gabbana-78873.html",
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.78873.jpg",
-    "referenceVersion": "Q by Dolce & Gabbana Dolce&Gabbana perfume - a fragrance for women 2023"
+    "referenceVersion": "Q by Dolce & Gabbana Dolce&Gabbana perfume - a fragrance for women 2023",
+    "duplicateOf": 161,
+    "sortBrand": "dolce & gabbana"
   },
   {
     "id": 280,
@@ -7100,7 +7259,8 @@
     "image": "assets/perfumes/66047.jpg",
     "notesSource": "https://www.fragrantica.com/perfume/Escentric-Molecules/Molecule-01-Mandarin-66047.html",
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.66047.jpg",
-    "referenceVersion": "Molecule 01 + Mandarin Escentric Molecules perfume - a fragrance for women and men 2021"
+    "referenceVersion": "Molecule 01 + Mandarin Escentric Molecules perfume - a fragrance for women and men 2021",
+    "sortBrand": "escentric"
   },
   {
     "id": 281,
@@ -7135,7 +7295,8 @@
     "image": "assets/perfumes/66049.jpg",
     "notesSource": "https://www.fragrantica.com/perfume/Escentric-Molecules/Molecule-01-Patchouli-66049.html",
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.66049.jpg",
-    "referenceVersion": "Molecule 01 + Patchouli Escentric Molecules perfume - a fragrance for women and men 2021"
+    "referenceVersion": "Molecule 01 + Patchouli Escentric Molecules perfume - a fragrance for women and men 2021",
+    "sortBrand": "escentric"
   },
   {
     "id": 282,
@@ -7170,7 +7331,8 @@
     "image": "assets/perfumes/44315.jpg",
     "notesSource": "https://www.fragrantica.com/p/44315",
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.44315.jpg",
-    "referenceVersion": "Molecule 04 Escentric Molecules perfume - a fragrance for women and men 2017"
+    "referenceVersion": "Molecule 04 Escentric Molecules perfume - a fragrance for women and men 2017",
+    "sortBrand": "escentric"
   },
   {
     "id": 283,
@@ -7205,7 +7367,8 @@
     "image": "assets/perfumes/58969.jpg",
     "notesSource": "https://www.fragrantica.com/perfume/Escentric-Molecules/Molecule-05-58969.html",
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.58969.jpg?t=1791423466",
-    "referenceVersion": "Molecule 05 Escentric Molecules perfume - a fragrance for women and men 2020"
+    "referenceVersion": "Molecule 05 Escentric Molecules perfume - a fragrance for women and men 2020",
+    "sortBrand": "escentric"
   },
   {
     "id": 284,
@@ -7240,7 +7403,8 @@
     "image": "assets/perfumes/54911.jpg",
     "notesSource": "https://www.fragrantica.com/perfume/Genyum/Painter-54911.html",
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.54911.jpg",
-    "referenceVersion": "Painter Genyum perfume - a fragrance for women and men 2018"
+    "referenceVersion": "Painter Genyum perfume - a fragrance for women and men 2018",
+    "sortBrand": "genyum"
   },
   {
     "id": 285,
@@ -7275,7 +7439,8 @@
     "image": "assets/perfumes/63835.jpg",
     "notesSource": "https://www.fragrantica.com/perfume/Hormone%20Paris/Hormone-Paris-Dopamine-63835.html",
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.63835.jpg",
-    "referenceVersion": "This is Not Dopamine Hormone Paris perfume - a fragrance for women and men 2020"
+    "referenceVersion": "This is Not Dopamine Hormone Paris perfume - a fragrance for women and men 2020",
+    "sortBrand": "hormone paris"
   },
   {
     "id": 286,
@@ -7310,7 +7475,8 @@
     "image": "assets/perfumes/69224.jpg",
     "notesSource": "https://www.fragrantica.com/perfume/Initio-Parfums-Prives/Oud-for-Happiness-69224.html",
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.69224.jpg",
-    "referenceVersion": "Oud for Happiness Initio Parfums Prives perfume - a fragrance for women and men 2021"
+    "referenceVersion": "Oud for Happiness Initio Parfums Prives perfume - a fragrance for women and men 2021",
+    "sortBrand": "initio"
   },
   {
     "id": 287,
@@ -7345,7 +7511,8 @@
     "image": "assets/perfumes/8594.jpg",
     "notesSource": "https://www.fragrantica.com/perfume/The-Beautiful-Mind-Series/Intelligence-Fantasy-8594.html",
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.8594.jpg",
-    "referenceVersion": "Volume I Intelligence & Fantasy The Beautiful Mind Series perfume - a fragrance for women 2010"
+    "referenceVersion": "Volume I Intelligence & Fantasy The Beautiful Mind Series perfume - a fragrance for women 2010",
+    "sortBrand": "the"
   },
   {
     "id": 288,
@@ -7380,7 +7547,8 @@
     "image": "assets/perfumes/62571.jpg",
     "notesSource": "https://www.fragrantica.com/perfume/Kajal/Lamar-62571.html",
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.62571.jpg",
-    "referenceVersion": "Lamar Kajal perfume - a fragrance for women and men 2020"
+    "referenceVersion": "Lamar Kajal perfume - a fragrance for women and men 2020",
+    "sortBrand": "kajal"
   },
   {
     "id": 289,
@@ -7415,7 +7583,8 @@
     "image": "assets/perfumes/94206.jpg",
     "notesSource": "https://www.fragrantica.com/perfume/Kayali-Fragrances/Maldives-in-a-Bottle-Ylang-Coco-20-Eau-de-Parfum-94206.html",
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.94206.jpg",
-    "referenceVersion": "Maldives in a Bottle Ylang Coco | 20 Eau de Parfum Kayali Fragrances perfume - a fragrance for women 2024"
+    "referenceVersion": "Maldives in a Bottle Ylang Coco | 20 Eau de Parfum Kayali Fragrances perfume - a fragrance for women 2024",
+    "sortBrand": "kayali"
   },
   {
     "id": 290,
@@ -7450,7 +7619,8 @@
     "image": "assets/perfumes/50495.jpg",
     "notesSource": "https://www.fragrantica.com/perfume/By-Kilian/Bad-Boys-Are-No-Good-But-Good-Boys-Are-No-Fun-50495.html",
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.50495.jpg",
-    "referenceVersion": "Bad Boys Are No Good But Good Boys Are No Fun By Kilian perfume - a fragrance for women and men 2018"
+    "referenceVersion": "Bad Boys Are No Good But Good Boys Are No Fun By Kilian perfume - a fragrance for women and men 2018",
+    "sortBrand": "kilian"
   },
   {
     "id": 291,
@@ -7485,7 +7655,8 @@
     "image": "assets/perfumes/50497.jpg",
     "notesSource": "https://www.fragrantica.com/perfume/By-Kilian/I-Don-t-Need-A-Prince-By-My-Side-To-Be-A-Princess-50497.html",
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.50497.jpg",
-    "referenceVersion": "I Don't Need A Prince By My Side To Be A Princess By Kilian perfume - a fragrance for women and men 2018"
+    "referenceVersion": "I Don't Need A Prince By My Side To Be A Princess By Kilian perfume - a fragrance for women and men 2018",
+    "sortBrand": "kilian"
   },
   {
     "id": 292,
@@ -7520,7 +7691,9 @@
     "image": "assets/perfumes/669.jpg",
     "notesSource": "https://www.fragrantica.com/perfume/Lacoste-Fragrances/Lacoste-Pour-Femme-669.html",
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.669.jpg",
-    "referenceVersion": "Lacoste Pour Femme Lacoste Fragrances perfume - a fragrance for women 2003"
+    "referenceVersion": "Lacoste Pour Femme Lacoste Fragrances perfume - a fragrance for women 2003",
+    "duplicateOf": 170,
+    "sortBrand": "lacoste"
   },
   {
     "id": 293,
@@ -7555,7 +7728,8 @@
     "image": "assets/perfumes/14982.jpg",
     "notesSource": "https://www.fragrantica.com/perfume/Lanc-me/La-Vie-Est-Belle-14982.html",
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.14982.jpg",
-    "referenceVersion": "La Vie Est Belle Lancôme perfume - a fragrance for women 2012"
+    "referenceVersion": "La Vie Est Belle Lancôme perfume - a fragrance for women 2012",
+    "sortBrand": "lancôme"
   },
   {
     "id": 294,
@@ -7590,7 +7764,8 @@
     "image": "assets/perfumes/81423.jpg",
     "notesSource": "https://www.fragrantica.com/perfume/Louis-Vuitton/Pacific-Chill-81423.html",
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.81423.jpg",
-    "referenceVersion": "Pacific Chill Louis Vuitton perfume - a fragrance for women and men 2023"
+    "referenceVersion": "Pacific Chill Louis Vuitton perfume - a fragrance for women and men 2023",
+    "sortBrand": "louis vuitton"
   },
   {
     "id": 295,
@@ -7625,7 +7800,8 @@
     "image": "assets/perfumes/53945.jpg",
     "notesSource": "https://www.fragrantica.com/perfume/Louis-Vuitton/Sun-Song-53945.html",
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.53945.jpg",
-    "referenceVersion": "Sun Song Louis Vuitton perfume - a fragrance for women and men 2019"
+    "referenceVersion": "Sun Song Louis Vuitton perfume - a fragrance for women and men 2019",
+    "sortBrand": "louis vuitton"
   },
   {
     "id": 296,
@@ -7660,7 +7836,8 @@
     "image": "assets/perfumes/51016.jpg",
     "notesSource": "https://www.fragrantica.com/perfume/Louis%20Vuitton/Louis-Vuitton-Attrape-R-ves-51016.html",
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.51016.jpg",
-    "referenceVersion": "Attrape-Rêves Louis Vuitton perfume - a fragrance for women 2018"
+    "referenceVersion": "Attrape-Rêves Louis Vuitton perfume - a fragrance for women 2018",
+    "sortBrand": "louis vuitton"
   },
   {
     "id": 297,
@@ -7695,7 +7872,8 @@
     "image": "assets/perfumes/31623.jpg",
     "notesSource": "https://www.fragrantica.com/perfume/Maison-Martin-Margiela/Replica-By-the-Fireplace-31623.html",
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.31623.jpg",
-    "referenceVersion": "By the Fireplace Maison Martin Margiela perfume - a fragrance for women and men 2015"
+    "referenceVersion": "By the Fireplace Maison Martin Margiela perfume - a fragrance for women and men 2015",
+    "sortBrand": "maison margiela"
   },
   {
     "id": 298,
@@ -7730,7 +7908,8 @@
     "image": "assets/perfumes/83842.jpg",
     "notesSource": "https://www.fragrantica.com/perfume/Maison-Crivelli/Oud-Maracuja-83842.html",
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.83842.jpg",
-    "referenceVersion": "Oud Maracujá Maison Crivelli perfume - a fragrance for women and men 2023"
+    "referenceVersion": "Oud Maracujá Maison Crivelli perfume - a fragrance for women and men 2023",
+    "sortBrand": "maison crivelli"
   },
   {
     "id": 299,
@@ -7765,7 +7944,8 @@
     "image": "assets/perfumes/15211.jpg",
     "notesSource": "https://www.fragrantica.com/perfume/Mancera/Cedrat-Boise-15211.html",
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.15211.jpg",
-    "referenceVersion": "Cedrat Boise Mancera perfume - a fragrance for women and men 2011"
+    "referenceVersion": "Cedrat Boise Mancera perfume - a fragrance for women and men 2011",
+    "sortBrand": "mancera"
   },
   {
     "id": 300,
@@ -7800,7 +7980,8 @@
     "image": "assets/perfumes/42782.jpg",
     "notesSource": "https://www.fragrantica.com/perfume/Mancera/Coco-Vanille-42782.html",
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.42782.jpg",
-    "referenceVersion": "Coco Vanille Mancera perfume - a fragrance for women 2016"
+    "referenceVersion": "Coco Vanille Mancera perfume - a fragrance for women 2016",
+    "sortBrand": "mancera"
   },
   {
     "id": 301,
@@ -7835,7 +8016,8 @@
     "image": "assets/perfumes/61755.jpg",
     "notesSource": "https://www.fragrantica.com/perfume/Mancera/Feminity-61755.html",
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.61755.jpg",
-    "referenceVersion": "Feminity Mancera perfume - a fragrance for women 2020"
+    "referenceVersion": "Feminity Mancera perfume - a fragrance for women 2020",
+    "sortBrand": "mancera"
   },
   {
     "id": 302,
@@ -7870,7 +8052,8 @@
     "image": "assets/perfumes/42888.jpg",
     "notesSource": "https://www.fragrantica.com/perfume/Mancera/Holidays-42888.html",
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.42888.jpg",
-    "referenceVersion": "Holidays Mancera perfume - a fragrance for women and men 2016"
+    "referenceVersion": "Holidays Mancera perfume - a fragrance for women and men 2016",
+    "sortBrand": "mancera"
   },
   {
     "id": 303,
@@ -7905,7 +8088,8 @@
     "image": "assets/perfumes/15210.jpg",
     "notesSource": "https://www.fragrantica.com/perfume/Mancera/Roses-Vanille-15210.html",
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.15210.jpg",
-    "referenceVersion": "Roses Vanille Mancera perfume - a fragrance for women 2011"
+    "referenceVersion": "Roses Vanille Mancera perfume - a fragrance for women 2011",
+    "sortBrand": "mancera"
   },
   {
     "id": 304,
@@ -7940,7 +8124,8 @@
     "image": "assets/perfumes/28049.jpg",
     "notesSource": "https://www.fragrantica.com/perfume/Memo/French-Leather-28049.html",
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.28049.jpg",
-    "referenceVersion": "French Leather Memo Paris perfume - a fragrance for women and men 2014"
+    "referenceVersion": "French Leather Memo Paris perfume - a fragrance for women and men 2014",
+    "sortBrand": "memo"
   },
   {
     "id": 305,
@@ -7975,7 +8160,8 @@
     "image": "assets/perfumes/37185.jpg",
     "notesSource": "https://www.fragrantica.com/perfume/Memo-Paris/Marfa-37185.html",
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.37185.jpg",
-    "referenceVersion": "Marfa Memo Paris perfume - a fragrance for women and men 2016"
+    "referenceVersion": "Marfa Memo Paris perfume - a fragrance for women and men 2016",
+    "sortBrand": "memo"
   },
   {
     "id": 306,
@@ -8010,7 +8196,8 @@
     "image": "assets/perfumes/3241.jpg",
     "notesSource": "https://www.fragrantica.com/perfume/Montale/Mukhallat-3241.html",
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.3241.jpg",
-    "referenceVersion": "Mukhallat Montale perfume - a fragrance for women and men 2008"
+    "referenceVersion": "Mukhallat Montale perfume - a fragrance for women and men 2008",
+    "sortBrand": "montale"
   },
   {
     "id": 307,
@@ -8045,7 +8232,8 @@
     "image": "assets/perfumes/1148.jpg",
     "notesSource": "https://www.fragrantica.com/p/1148",
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.1148.jpg",
-    "referenceVersion": "Roses Musk Montale perfume - a fragrance for women 2009"
+    "referenceVersion": "Roses Musk Montale perfume - a fragrance for women 2009",
+    "sortBrand": "montale"
   },
   {
     "id": 308,
@@ -8080,7 +8268,8 @@
     "image": "assets/perfumes/31771.jpg",
     "notesSource": "https://www.fragrantica.com/perfume/Montale/Starry-Night-31771.html",
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.31771.jpg",
-    "referenceVersion": "Starry Nights Montale perfume - a fragrance for women and men 2015"
+    "referenceVersion": "Starry Nights Montale perfume - a fragrance for women and men 2015",
+    "sortBrand": "montale"
   },
   {
     "id": 309,
@@ -8115,7 +8304,8 @@
     "image": "assets/perfumes/62775.jpg",
     "notesSource": "https://www.fragrantica.com/perfume/Nasomatto/Fantomas-62775.html",
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.62775.jpg",
-    "referenceVersion": "Fantomas Nasomatto perfume - a fragrance for women and men 2020"
+    "referenceVersion": "Fantomas Nasomatto perfume - a fragrance for women and men 2020",
+    "sortBrand": "nasomatto"
   },
   {
     "id": 310,
@@ -8150,7 +8340,8 @@
     "image": "assets/perfumes/10620.jpg",
     "notesSource": "https://www.fragrantica.com/perfume/Nejma/Nejma-7-10620.html",
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.10620.jpg",
-    "referenceVersion": "Nejma 7 Nejma perfume - a fragrance for women and men 2014"
+    "referenceVersion": "Nejma 7 Nejma perfume - a fragrance for women and men 2014",
+    "sortBrand": "nejma"
   },
   {
     "id": 311,
@@ -8185,7 +8376,8 @@
     "image": "assets/perfumes/16896.jpg",
     "notesSource": "https://www.fragrantica.com/perfume/Ormonde-Jayne/Montabaco-16896.html",
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.16896.jpg",
-    "referenceVersion": "Montabaco Ormonde Jayne perfume - a fragrance for women and men 2012"
+    "referenceVersion": "Montabaco Ormonde Jayne perfume - a fragrance for women and men 2012",
+    "sortBrand": "ormonde"
   },
   {
     "id": 312,
@@ -8220,7 +8412,9 @@
     "image": "assets/perfumes/18471.jpg",
     "notesSource": "https://www.fragrantica.com/perfume/Rabanne/Invictus-18471.html",
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.18471.jpg",
-    "referenceVersion": "Invictus Rabanne cologne - a fragrance for men 2013"
+    "referenceVersion": "Invictus Rabanne cologne - a fragrance for men 2013",
+    "duplicateOf": 70,
+    "sortBrand": "paco rabanne"
   },
   {
     "id": 313,
@@ -8255,7 +8449,8 @@
     "image": "assets/perfumes/50239.jpg",
     "notesSource": "https://www.fragrantica.com/perfume/Tom-Ford/Ombre-Leather-2018-50239.html",
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.50239.jpg",
-    "referenceVersion": "Ombré Leather (2018) Tom Ford perfume - a fragrance for women and men 2018"
+    "referenceVersion": "Ombré Leather (2018) Tom Ford perfume - a fragrance for women and men 2018",
+    "sortBrand": "tom ford"
   },
   {
     "id": 314,
@@ -8290,7 +8485,8 @@
     "image": "assets/perfumes/30624.jpg",
     "notesSource": "https://www.fragrantica.com/perfume/Tiziana-Terenzi/Cassiopea-30624.html",
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.30624.jpg",
-    "referenceVersion": "Cassiopea Tiziana Terenzi perfume - a fragrance for women and men 2015"
+    "referenceVersion": "Cassiopea Tiziana Terenzi perfume - a fragrance for women and men 2015",
+    "sortBrand": "tiziana terenzi"
   },
   {
     "id": 315,
@@ -8325,7 +8521,8 @@
     "image": "assets/perfumes/61873.jpg",
     "notesSource": "https://www.fragrantica.com/perfume/Tiziana-Terenzi/Orza-61873.html",
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.61873.jpg",
-    "referenceVersion": "Orza Tiziana Terenzi perfume - a fragrance for women and men 2020"
+    "referenceVersion": "Orza Tiziana Terenzi perfume - a fragrance for women and men 2020",
+    "sortBrand": "tiziana terenzi"
   },
   {
     "id": 316,
@@ -8360,7 +8557,8 @@
     "image": "assets/perfumes/6363.jpg",
     "notesSource": "https://www.fragrantica.com/perfume/Tom-Ford/Arabian-Wood-6363.html",
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.6363.jpg",
-    "referenceVersion": "Arabian Wood Tom Ford perfume - a fragrance for women and men 2009"
+    "referenceVersion": "Arabian Wood Tom Ford perfume - a fragrance for women and men 2009",
+    "sortBrand": "tom ford"
   },
   {
     "id": 317,
@@ -8395,7 +8593,8 @@
     "image": "assets/perfumes/1825.jpg",
     "notesSource": "https://www.fragrantica.com/perfume/Tom-Ford/Tobacco-Vanille-1825.html",
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.1825.jpg",
-    "referenceVersion": "Tobacco Vanille Tom Ford perfume - a fragrance for women and men 2007"
+    "referenceVersion": "Tobacco Vanille Tom Ford perfume - a fragrance for women and men 2007",
+    "sortBrand": "tom ford"
   },
   {
     "id": 318,
@@ -8430,7 +8629,8 @@
     "image": "assets/perfumes/88588.jpg",
     "notesSource": "https://www.fragrantica.com/perfume/Tom-Ford/Vanilla-88588.html",
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.88588.jpg",
-    "referenceVersion": "Vanilla Tom Ford perfume - a fragrance for women and men 2023"
+    "referenceVersion": "Vanilla Tom Ford perfume - a fragrance for women and men 2023",
+    "sortBrand": "tom ford"
   },
   {
     "id": 319,
@@ -8465,7 +8665,8 @@
     "image": "assets/perfumes/59831.jpg",
     "notesSource": "https://www.fragrantica.com/perfume/Trussardi/Musc-Noir-Perfume-Enhancer-59831.html",
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.59831.jpg",
-    "referenceVersion": "Musc Noir Perfume Enhancer Trussardi perfume - a fragrance for women and men 2020"
+    "referenceVersion": "Musc Noir Perfume Enhancer Trussardi perfume - a fragrance for women and men 2020",
+    "sortBrand": "trussardi"
   },
   {
     "id": 320,
@@ -8500,7 +8701,8 @@
     "image": "assets/perfumes/47923.jpg",
     "notesSource": "https://www.fragrantica.com/perfume/Vertus/Narcos-is-47923.html",
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.47923.jpg",
-    "referenceVersion": "Narcos'is Vertus perfume - a fragrance for women and men 2017"
+    "referenceVersion": "Narcos'is Vertus perfume - a fragrance for women and men 2017",
+    "sortBrand": "vertus"
   },
   {
     "id": 321,
@@ -8535,7 +8737,8 @@
     "image": "assets/perfumes/65065.jpg",
     "notesSource": "https://www.fragrantica.com/perfume/Zielinski-Rozen/Fiction-65065.html",
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.65065.jpg",
-    "referenceVersion": "Fiction Zielinski & Rozen perfume - a fragrance for women and men"
+    "referenceVersion": "Fiction Zielinski & Rozen perfume - a fragrance for women and men",
+    "sortBrand": "zielinski & rozen"
   },
   {
     "id": 322,
@@ -8570,7 +8773,8 @@
     "image": "assets/perfumes/65057.jpg",
     "notesSource": "https://www.fragrantica.com/perfume/Zielinski-Rozen/Oakmoss-Amber-65057.html",
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.65057.jpg",
-    "referenceVersion": "Oakmoss & Amber Zielinski & Rozen perfume - a fragrance for women and men"
+    "referenceVersion": "Oakmoss & Amber Zielinski & Rozen perfume - a fragrance for women and men",
+    "sortBrand": "zielinski & rozen"
   },
   {
     "id": 323,
@@ -8605,7 +8809,8 @@
     "image": "assets/perfumes/65069.jpg",
     "notesSource": "https://www.fragrantica.com/p/65069",
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.65069.jpg",
-    "referenceVersion": "Vanilla Blend Zielinski & Rozen perfume - a fragrance for women and men"
+    "referenceVersion": "Vanilla Blend Zielinski & Rozen perfume - a fragrance for women and men",
+    "sortBrand": "zielinski & rozen"
   },
   {
     "id": 324,
@@ -8640,7 +8845,8 @@
     "image": "assets/perfumes/65053.jpg",
     "notesSource": "https://www.fragrantica.com/perfume/Zielinski-Rozen/Orange-Jasmine-Vanilla-65053.html",
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.65053.jpg",
-    "referenceVersion": "Orange & Jasmine, Vanilla Zielinski & Rozen perfume - a fragrance for women and men"
+    "referenceVersion": "Orange & Jasmine, Vanilla Zielinski & Rozen perfume - a fragrance for women and men",
+    "sortBrand": "zielinski & rozen"
   },
   {
     "id": 325,
@@ -8675,7 +8881,8 @@
     "image": "assets/perfumes/19607.jpg",
     "notesSource": "https://www.fragrantica.com/perfume/Al-Haramain-Perfumes/Hayati-19607.html",
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.19607.jpg",
-    "referenceVersion": "Hayati Al Haramain Perfumes perfume - a fragrance for women and men"
+    "referenceVersion": "Hayati Al Haramain Perfumes perfume - a fragrance for women and men",
+    "sortBrand": "al"
   },
   {
     "id": 326,
@@ -8710,7 +8917,8 @@
     "image": "assets/perfumes/65110.jpg",
     "notesSource": "https://www.fragrantica.com/p/65110",
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.65110.jpg",
-    "referenceVersion": "Black Narcotique Serge Dumonten perfume - a fragrance for women and men"
+    "referenceVersion": "Black Narcotique Serge Dumonten perfume - a fragrance for women and men",
+    "sortBrand": "serge"
   },
   {
     "id": 327,
@@ -8745,7 +8953,8 @@
     "image": "assets/perfumes/50559.jpg",
     "notesSource": "https://www.fragrantica.com/perfume/Elixirs-Of-Eden/Captain-Black-50559.html",
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.50559.jpg",
-    "referenceVersion": "Captain Black — Elixirs Of Eden"
+    "referenceVersion": "Captain Black — Elixirs Of Eden",
+    "sortBrand": "captain"
   },
   {
     "id": 328,
@@ -8780,7 +8989,8 @@
     "image": "assets/perfumes/600.jpg",
     "notesSource": "https://www.fragrantica.com/perfume/Britney-Spears/Fantasy-600.html",
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.600.jpg",
-    "referenceVersion": "Fantasy — Britney Spears (2005), Eau de Parfum"
+    "referenceVersion": "Fantasy — Britney Spears (2005), Eau de Parfum",
+    "sortBrand": "britney"
   },
   {
     "id": 329,
@@ -8815,7 +9025,8 @@
     "image": "assets/perfumes/28711.jpg",
     "notesSource": "https://www.fragrantica.com/perfume/Chanel/Chanel-No-5-Parfum-28711.html",
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.28711.jpg",
-    "referenceVersion": "Chanel No 5 Parfum (1921)"
+    "referenceVersion": "Chanel No 5 Parfum (1921)",
+    "sortBrand": "chanel"
   },
   {
     "id": 330,
@@ -8850,7 +9061,8 @@
     "image": "assets/perfumes/67042.jpg",
     "notesSource": "https://www.fragrantica.com/perfume/Ex-Nihilo/Fleur-Narcotique-Blossom-67042.html",
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.67042.jpg",
-    "referenceVersion": "Fleur Narcotique Blossom — Ex Nihilo (2021)"
+    "referenceVersion": "Fleur Narcotique Blossom — Ex Nihilo (2021)",
+    "sortBrand": "ex nihilo"
   },
   {
     "id": 331,
@@ -8885,7 +9097,8 @@
     "image": "assets/perfumes/75692.jpg",
     "notesSource": "https://www.fragrantica.com/perfume/Zara/Exotic-Mimosa-75692.html",
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.75692.jpg",
-    "referenceVersion": "Exotic Mimosa — Zara (2022)"
+    "referenceVersion": "Exotic Mimosa — Zara (2022)",
+    "sortBrand": "zara"
   },
   {
     "id": 332,
@@ -8920,7 +9133,8 @@
     "image": "assets/perfumes/34893.jpg",
     "notesSource": "https://www.fragrantica.com/perfume/Tom-Ford/Soleil-Blanc-34893.html",
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.34893.jpg",
-    "referenceVersion": "Soleil Blanc — Tom Ford (2016), Eau de Parfum"
+    "referenceVersion": "Soleil Blanc — Tom Ford (2016), Eau de Parfum",
+    "sortBrand": "tom ford"
   },
   {
     "id": 333,
@@ -8955,7 +9169,8 @@
     "image": "assets/perfumes/45226.jpg",
     "notesSource": "https://www.fragrantica.com/perfume/Chopard/Vetiver-d-Haiti-au-The-Vert-45226.html",
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.45226.jpg",
-    "referenceVersion": "Vetiver d'Haiti au The Vert — Chopard (2017)"
+    "referenceVersion": "Vetiver d'Haiti au The Vert — Chopard (2017)",
+    "sortBrand": "chopard"
   },
   {
     "id": 334,
@@ -8990,7 +9205,8 @@
     "image": "assets/perfumes/10296.jpg",
     "notesSource": "https://www.juliettehasagun.com/en/products/not-a-perfume-parfum",
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.10296.jpg",
-    "referenceVersion": "Not a Perfume — Juliette Has a Gun (2010)"
+    "referenceVersion": "Not a Perfume — Juliette Has a Gun (2010)",
+    "sortBrand": "juliette has a gun"
   },
   {
     "id": 335,
@@ -9025,7 +9241,9 @@
     "image": "assets/perfumes/32591.jpg",
     "notesSource": "https://www.fragrantica.com/perfume/La-Sultane-de-Saba/Voyage-sur-la-route-des-Epices-32591.html",
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.32591.jpg",
-    "referenceVersion": "Voyage sur la route des Épices La Sultane de Saba perfume - a fragrance for women and men 2013"
+    "referenceVersion": "Voyage sur la route des Épices La Sultane de Saba perfume - a fragrance for women and men 2013",
+    "duplicateOf": 253,
+    "sortBrand": "la"
   },
   {
     "id": 336,
@@ -9061,7 +9279,8 @@
     "notesSource": "https://www.fragrantica.com/perfumes/Giorgio-Armani/Acqua-di-Gio-410.html",
     "referenceVersion": "Acqua di Giò Pour Homme 1996",
     "image": "https://www.perfumesamplesanddecants.com/cdn/shop/products/Armani-AcquaDiGio-UseMe.png?v=1498607128",
-    "imageSource": "https://www.perfumesamplesanddecants.com/cdn/shop/products/Armani-AcquaDiGio-UseMe.png?v=1498607128"
+    "imageSource": "https://www.perfumesamplesanddecants.com/cdn/shop/products/Armani-AcquaDiGio-UseMe.png?v=1498607128",
+    "sortBrand": "giorgio armani"
   },
   {
     "id": 337,
@@ -9097,7 +9316,8 @@
     "notesSource": "https://www.fragrantica.com/perfume/Kenzo/L-Eau-par-Kenzo-78.html",
     "referenceVersion": "L'Eau par Kenzo pour Femme 1996",
     "image": "https://media.marionnaud.at/medias/sys_master/prd-images/h22/h6c/12413045932062/prd-front-47443100_2000x2000/prd-front-47443100-2000x2000.jpg",
-    "imageSource": "https://media.marionnaud.at/medias/sys_master/prd-images/h22/h6c/12413045932062/prd-front-47443100_2000x2000/prd-front-47443100-2000x2000.jpg"
+    "imageSource": "https://media.marionnaud.at/medias/sys_master/prd-images/h22/h6c/12413045932062/prd-front-47443100_2000x2000/prd-front-47443100-2000x2000.jpg",
+    "sortBrand": "kenzo"
   },
   {
     "id": 338,
@@ -9131,7 +9351,8 @@
     "notes": "",
     "catalogStatus": "name_label_mismatch",
     "image": "assets/perfumes/zam-zam-cold-user.jpg",
-    "imageSource": "Фотография предоставлена COYLI PARFUM; на этикетке написано ZAM ZAM COLD"
+    "imageSource": "Фотография предоставлена COYLI PARFUM; на этикетке написано ZAM ZAM COLD",
+    "sortBrand": "zam"
   },
   {
     "id": 339,
@@ -9166,7 +9387,8 @@
     "catalogStatus": "notes_unverified",
     "notesSource": "https://byredo.eu.com/byredo-marijuana-parfyumirovannaya-voda-100-ml-1",
     "image": "assets/perfumes/byredo-marijuana-user.jpg",
-    "imageSource": "Фотография предоставлена COYLI PARFUM"
+    "imageSource": "Фотография предоставлена COYLI PARFUM",
+    "sortBrand": "byredo"
   },
   {
     "id": 340,
@@ -9201,7 +9423,8 @@
     "catalogStatus": "reference_pending",
     "notesSource": "https://www.fragrantica.com/perfume/Zielinski-Rozen/Vetiver-Lemon-Bergamot-65055.html",
     "image": "https://zielinski-rozen.com.ua/content/images/9/1024x1024l80mc0/97096259246411.jpg",
-    "imageSource": "https://zielinski-rozen.com.ua/content/images/9/1024x1024l80mc0/97096259246411.jpg"
+    "imageSource": "https://zielinski-rozen.com.ua/content/images/9/1024x1024l80mc0/97096259246411.jpg",
+    "sortBrand": "zielinski & rozen"
   },
   {
     "id": 341,
@@ -9234,6 +9457,7 @@
     },
     "notes": "",
     "image": "assets/perfumes/zam-zam-user.jpg",
-    "imageSource": "Фото графина, предоставленное COYLI PARFUM"
+    "imageSource": "Фото графина, предоставленное COYLI PARFUM",
+    "sortBrand": "zam"
   }
 ]
