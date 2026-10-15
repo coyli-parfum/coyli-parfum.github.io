@@ -807,16 +807,16 @@
     "name": "Baccarat Rouge 540",
     "cat": "Селектив",
     "volumes": [
-      "2",
-      "3",
-      "4",
-      "5",
-      "10",
-      "15",
-      "20",
-      "30",
-      "50",
-      "100"
+      2,
+      3,
+      4,
+      5,
+      10,
+      15,
+      20,
+      30,
+      50,
+      100
     ],
     "price": {
       "2": 340,
@@ -830,24 +830,28 @@
       "50": 7250,
       "100": 14300
     },
-    "notes": "Форматы: спрей и масло — уточняйте наличие",
-    "kind": "perfume"
+    "notes": "Верхние ноты: шафран, жасмин\nСердце: амбровая древесина, серая амбра, гедион\nБаза: пихтовая смола, кедр, сахар, амброксан, дубовый мох",
+    "kind": "perfume",
+    "image": "assets/perfumes/33519.jpg",
+    "notesSource": "https://www.fragrantica.com/parfum/Maison-Francis-Kurkdjian/Baccarat-Rouge-540-33519.html",
+    "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.33519.jpg",
+    "referenceVersion": "Baccarat Rouge 540 Maison Francis Kurkdjian perfume - a fragrance for women and men 2015"
   },
   {
     "id": 61,
     "name": "Kirke",
     "cat": "Селектив",
     "volumes": [
-      "2",
-      "3",
-      "4",
-      "5",
-      "10",
-      "15",
-      "20",
-      "30",
-      "50",
-      "100"
+      2,
+      3,
+      4,
+      5,
+      10,
+      15,
+      20,
+      30,
+      50,
+      100
     ],
     "price": {
       "2": 340,
@@ -861,8 +865,12 @@
       "50": 7250,
       "100": 14300
     },
-    "notes": "Форматы: спрей и масло — уточняйте наличие",
-    "kind": "perfume"
+    "notes": "Верхние ноты: маракуйя, персик, груша, малина, чёрная смородина, песок\nСердце: ландыш\nБаза: мускус, сандал, ваниль, пачули, гелиотроп",
+    "kind": "perfume",
+    "image": "assets/perfumes/32172.jpg",
+    "notesSource": "https://www.fragrantica.com/perfume/Tiziana-Terenzi/Kirke-32172.html",
+    "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.32172.jpg",
+    "referenceVersion": "Kirkè Tiziana Terenzi perfume - a fragrance for women and men 2015"
   },
   {
     "id": 62,
@@ -900,16 +908,16 @@
     "name": "Bvlgari Tygar",
     "cat": "Селектив",
     "volumes": [
-      "2",
-      "3",
-      "4",
-      "5",
-      "10",
-      "15",
-      "20",
-      "30",
-      "50",
-      "100"
+      2,
+      3,
+      4,
+      5,
+      10,
+      15,
+      20,
+      30,
+      50,
+      100
     ],
     "price": {
       "2": 340,
@@ -923,55 +931,63 @@
       "50": 7250,
       "100": 14300
     },
-    "notes": "Форматы: спрей и масло — уточняйте наличие",
-    "kind": "perfume"
+    "notes": "Верхние ноты: грейпфрут\nСердце: имбирь, амбретта\nБаза: амброксан, мускус, ветивер, пачули",
+    "kind": "perfume",
+    "image": "assets/perfumes/41222.jpg",
+    "notesSource": "https://www.fragrantica.com/perfume/Bvlgari/Tygar-41222.html",
+    "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.41222.jpg",
+    "referenceVersion": "Tygar Bvlgari cologne - a fragrance for men 2016"
   },
   {
     "id": 64,
     "name": "Dior Sauvage",
-    "cat": "Люкс",
+    "cat": "Селектив",
     "volumes": [
-      "2",
-      "3",
-      "4",
-      "5",
-      "10",
-      "15",
-      "20",
-      "30",
-      "50",
-      "100"
+      2,
+      3,
+      4,
+      5,
+      10,
+      15,
+      20,
+      30,
+      50,
+      100
     ],
     "price": {
-      "2": 220,
-      "3": 320,
-      "4": 420,
-      "5": 550,
-      "10": 1000,
-      "15": 1400,
-      "20": 1800,
-      "30": 2600,
-      "50": 4150,
-      "100": 8000
+      "2": 340,
+      "3": 500,
+      "4": 660,
+      "5": 850,
+      "10": 1600,
+      "15": 2300,
+      "20": 3000,
+      "30": 4450,
+      "50": 7250,
+      "100": 14300
     },
-    "notes": "Форматы: спрей и масло — уточняйте наличие",
-    "kind": "perfume"
+    "notes": "Верхние ноты: калабрийский бергамот, перец\nСердце: сычуаньский перец, лаванда, розовый перец, ветивер, пачули, герань, элеми\nБаза: амброксан, кедр, лабданум",
+    "kind": "perfume",
+    "image": "assets/perfumes/31861.jpg",
+    "notesSource": "https://www.fragrantica.com/perfume/Christian-Dior/Sauvage-31861.html",
+    "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.31861.jpg",
+    "referenceVersion": "Sauvage Dior cologne - a fragrance for men 2015"
   },
   {
     "id": 65,
     "name": "Chanel Bleu de Chanel",
     "cat": "Люкс",
     "volumes": [
-      "2",
-      "3",
-      "4",
-      "5",
-      "10",
-      "15",
-      "20",
-      "30",
-      "50",
-      "100"
+      2,
+      3,
+      4,
+      5,
+      10,
+      15,
+      20,
+      30,
+      50,
+      100
     ],
     "price": {
       "2": 220,
@@ -985,24 +1001,28 @@
       "50": 4150,
       "100": 8000
     },
-    "notes": "Форматы: спрей и масло — уточняйте наличие",
-    "kind": "perfume"
+    "notes": "Верхние ноты: грейпфрут, лимон, мята, розовый перец\nСердце: имбирь, мускатный орех, жасмин, Iso E Super\nБаза: ладан, кедр, ветивер, сандал, пачули, лабданум, белый мускус",
+    "kind": "perfume",
+    "image": "assets/perfumes/9099.jpg",
+    "notesSource": "https://www.fragrantica.com/perfume/Chanel/Bleu-de-Chanel-9099.html",
+    "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.9099.jpg",
+    "referenceVersion": "Bleu de Chanel Chanel cologne - a fragrance for men 2010"
   },
   {
     "id": 66,
     "name": "Yves Saint Laurent Black Opium",
     "cat": "Люкс",
     "volumes": [
-      "2",
-      "3",
-      "4",
-      "5",
-      "10",
-      "15",
-      "20",
-      "30",
-      "50",
-      "100"
+      2,
+      3,
+      4,
+      5,
+      10,
+      15,
+      20,
+      30,
+      50,
+      100
     ],
     "price": {
       "2": 220,
@@ -1016,24 +1036,28 @@
       "50": 4150,
       "100": 8000
     },
-    "notes": "Форматы: спрей и масло — уточняйте наличие",
-    "kind": "perfume"
+    "notes": "Верхние ноты: груша, розовый перец, апельсиновый цвет\nСердце: кофе, жасмин, горький миндаль, лакрица\nБаза: ваниль, пачули, кашмировое дерево, кедр",
+    "kind": "perfume",
+    "image": "assets/perfumes/25324.jpg",
+    "notesSource": "https://www.fragrantica.com/perfume/yves-saint-laurent/black-opium-25324.html",
+    "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.25324.jpg",
+    "referenceVersion": "Black Opium Yves Saint Laurent perfume - a fragrance for women 2014"
   },
   {
     "id": 67,
     "name": "Gucci Flora Gorgeous Gardenia",
     "cat": "Люкс",
     "volumes": [
-      "2",
-      "3",
-      "4",
-      "5",
-      "10",
-      "15",
-      "20",
-      "30",
-      "50",
-      "100"
+      2,
+      3,
+      4,
+      5,
+      10,
+      15,
+      20,
+      30,
+      50,
+      100
     ],
     "price": {
       "2": 220,
@@ -1047,24 +1071,28 @@
       "50": 4150,
       "100": 8000
     },
-    "notes": "Форматы: спрей и масло — уточняйте наличие",
-    "kind": "perfume"
+    "notes": "Верхние ноты: цветок груши, красные ягоды, итальянский мандарин\nСердце: гардения, жасмин, франжипани\nБаза: коричневый сахар, пачули",
+    "kind": "perfume",
+    "image": "assets/perfumes/68578.jpg",
+    "notesSource": "https://www.fragrantica.com/perfume/Gucci/Flora-Gorgeous-Gardenia-Eau-de-Parfum-68578.html",
+    "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.68578.jpg",
+    "referenceVersion": "Flora Gorgeous Gardenia Gucci perfume - a fragrance for women 2021"
   },
   {
     "id": 68,
     "name": "Burberry Her",
     "cat": "Люкс",
     "volumes": [
-      "2",
-      "3",
-      "4",
-      "5",
-      "10",
-      "15",
-      "20",
-      "30",
-      "50",
-      "100"
+      2,
+      3,
+      4,
+      5,
+      10,
+      15,
+      20,
+      30,
+      50,
+      100
     ],
     "price": {
       "2": 220,
@@ -1078,24 +1106,28 @@
       "50": 4150,
       "100": 8000
     },
-    "notes": "Форматы: спрей и масло — уточняйте наличие",
-    "kind": "perfume"
+    "notes": "Верхние ноты: клубника, малина, ежевика, кислая вишня, чёрная смородина, мандарин, лимон\nСердце: фиалка, жасмин\nБаза: мускус, ваниль, кашмеран, древесные ноты, амбра, дубовый мох, пачули",
+    "kind": "perfume",
+    "image": "assets/perfumes/51694.jpg",
+    "notesSource": "https://www.fragrantica.com/perfume/Burberry/Burberry-Her-51694.html",
+    "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.51694.jpg",
+    "referenceVersion": "Burberry Her Burberry perfume - a fragrance for women 2018"
   },
   {
     "id": 69,
     "name": "Giorgio Armani Sì",
     "cat": "Люкс",
     "volumes": [
-      "2",
-      "3",
-      "4",
-      "5",
-      "10",
-      "15",
-      "20",
-      "30",
-      "50",
-      "100"
+      2,
+      3,
+      4,
+      5,
+      10,
+      15,
+      20,
+      30,
+      50,
+      100
     ],
     "price": {
       "2": 220,
@@ -1109,24 +1141,28 @@
       "50": 4150,
       "100": 8000
     },
-    "notes": "Форматы: спрей и масло — уточняйте наличие",
-    "kind": "perfume"
+    "notes": "Верхние ноты: чёрная смородина\nСердце: майская роза, фрезия\nБаза: ваниль, пачули, древесные ноты, амброксан",
+    "kind": "perfume",
+    "image": "assets/perfumes/18453.jpg",
+    "notesSource": "https://www.fragrantica.com/perfume/Giorgio-Armani/Si-18453.html",
+    "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.18453.jpg",
+    "referenceVersion": "Si Giorgio Armani perfume - a fragrance for women 2013"
   },
   {
     "id": 70,
     "name": "Paco Rabanne Invictus",
     "cat": "Люкс",
     "volumes": [
-      "2",
-      "3",
-      "4",
-      "5",
-      "10",
-      "15",
-      "20",
-      "30",
-      "50",
-      "100"
+      2,
+      3,
+      4,
+      5,
+      10,
+      15,
+      20,
+      30,
+      50,
+      100
     ],
     "price": {
       "2": 220,
@@ -1140,24 +1176,28 @@
       "50": 4150,
       "100": 8000
     },
-    "notes": "Форматы: спрей и масло — уточняйте наличие",
-    "kind": "perfume"
+    "notes": "Верхние ноты: морские ноты, грейпфрут, мандарин\nСердце: лавровый лист, жасмин\nБаза: серая амбра, гваяковое дерево, дубовый мох, пачули",
+    "kind": "perfume",
+    "image": "assets/perfumes/18471.jpg",
+    "notesSource": "https://www.fragrantica.com/perfume/Rabanne/Invictus-18471.html",
+    "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.18471.jpg",
+    "referenceVersion": "Invictus Rabanne cologne - a fragrance for men 2013"
   },
   {
     "id": 71,
     "name": "Lacoste L.12.12 Blanc",
     "cat": "Люкс",
     "volumes": [
-      "2",
-      "3",
-      "4",
-      "5",
-      "10",
-      "15",
-      "20",
-      "30",
-      "50",
-      "100"
+      2,
+      3,
+      4,
+      5,
+      10,
+      15,
+      20,
+      30,
+      50,
+      100
     ],
     "price": {
       "2": 220,
@@ -1171,8 +1211,12 @@
       "50": 4150,
       "100": 8000
     },
-    "notes": "Форматы: спрей и масло — уточняйте наличие",
-    "kind": "perfume"
+    "notes": "Верхние ноты: грейпфрут, розмарин, кардамон\nСердце: иланг-иланг, тубероза\nБаза: виргинский кедр, замша, ветивер, кожа",
+    "kind": "perfume",
+    "image": "assets/perfumes/11043.jpg",
+    "notesSource": "https://www.fragrantica.com/perfume/Lacoste-Fragrances/Eau-de-Lacoste-L-12-12-White-11043.html",
+    "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.11043.jpg",
+    "referenceVersion": "Eau de Lacoste L.12.12. White Lacoste Fragrances cologne - a fragrance for men 2011"
   },
   {
     "id": 72,
@@ -1348,16 +1392,16 @@
     "name": "27 87 Genetic Bliss",
     "cat": "Селектив",
     "volumes": [
-      "2",
-      "3",
-      "4",
-      "5",
-      "10",
-      "15",
-      "20",
-      "30",
-      "50",
-      "100"
+      2,
+      3,
+      4,
+      5,
+      10,
+      15,
+      20,
+      30,
+      50,
+      100
     ],
     "price": {
       "2": 340,
@@ -1371,24 +1415,28 @@
       "50": 7250,
       "100": 14300
     },
-    "notes": "",
-    "kind": "perfume"
+    "notes": "Ноты: древесные ноты, сандал, акигалавуд, мускус, беламбра",
+    "kind": "perfume",
+    "image": "assets/perfumes/51396.jpg",
+    "notesSource": "https://www.fragrantica.com/perfume/27-87/Genetic-Bliss-51396.html",
+    "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.51396.jpg",
+    "referenceVersion": "Genetic Bliss 27 87 perfume - a fragrance for women and men 2018"
   },
   {
     "id": 86,
     "name": "Ajmal Amber Wood",
     "cat": "Селектив",
     "volumes": [
-      "2",
-      "3",
-      "4",
-      "5",
-      "10",
-      "15",
-      "20",
-      "30",
-      "50",
-      "100"
+      2,
+      3,
+      4,
+      5,
+      10,
+      15,
+      20,
+      30,
+      50,
+      100
     ],
     "price": {
       "2": 340,
@@ -1402,24 +1450,28 @@
       "50": 7250,
       "100": 14300
     },
-    "notes": "",
-    "kind": "perfume"
+    "notes": "Верхние ноты: кардамон, яблоко, лаванда, белый перец\nСердце: кедр, ирис\nБаза: амбра, древесные ноты, пачули",
+    "kind": "perfume",
+    "image": "assets/perfumes/26016.jpg",
+    "notesSource": "https://www.fragrantica.com/perfume/Ajmal/Amber-Wood-26016.html",
+    "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.26016.jpg",
+    "referenceVersion": "Amber Wood Ajmal perfume - a fragrance for women and men 2014"
   },
   {
     "id": 87,
     "name": "Parfums de Marly Althaïr",
     "cat": "Селектив",
     "volumes": [
-      "2",
-      "3",
-      "4",
-      "5",
-      "10",
-      "15",
-      "20",
-      "30",
-      "50",
-      "100"
+      2,
+      3,
+      4,
+      5,
+      10,
+      15,
+      20,
+      30,
+      50,
+      100
     ],
     "price": {
       "2": 340,
@@ -1433,24 +1485,28 @@
       "50": 7250,
       "100": 14300
     },
-    "notes": "",
-    "kind": "perfume"
+    "notes": "Верхние ноты: корица, апельсиновый цвет, кардамон, бергамот\nСердце: бурбонская ваниль, элеми\nБаза: пралине, мускус, амброксан, бобы тонка, гваяковое дерево, засахаренный миндаль",
+    "kind": "perfume",
+    "image": "assets/perfumes/84109.jpg",
+    "notesSource": "https://www.fragrantica.com/perfume/Parfums-de-Marly/altha-r-84109.html",
+    "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.84109.jpg",
+    "referenceVersion": "Althaïr Parfums de Marly cologne - a fragrance for men 2023"
   },
   {
     "id": 88,
     "name": "Tiziana Terenzi Andromeda",
     "cat": "Селектив",
     "volumes": [
-      "2",
-      "3",
-      "4",
-      "5",
-      "10",
-      "15",
-      "20",
-      "30",
-      "50",
-      "100"
+      2,
+      3,
+      4,
+      5,
+      10,
+      15,
+      20,
+      30,
+      50,
+      100
     ],
     "price": {
       "2": 340,
@@ -1464,24 +1520,28 @@
       "50": 7250,
       "100": 14300
     },
-    "notes": "",
-    "kind": "perfume"
+    "notes": "Верхние ноты: иланг-иланг, водяной жасмин, бергамот, трава\nСердце: персик, цветок груши, лилия, белый гелиотроп, лист фиалки, дамасская роза\nБаза: кашмировое дерево, амбра, эбеновое дерево, ваниль, бобы тонка, сахар, кокос",
+    "kind": "perfume",
+    "image": "assets/perfumes/30623.jpg",
+    "notesSource": "https://www.fragrantica.com/perfume/Tiziana-Terenzi/Andromeda-30623.html",
+    "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.30623.jpg",
+    "referenceVersion": "Andromeda Tiziana Terenzi perfume - a fragrance for women and men 2015"
   },
   {
     "id": 89,
     "name": "Arabian Oud Madawi Gold Edition",
     "cat": "Селектив",
     "volumes": [
-      "2",
-      "3",
-      "4",
-      "5",
-      "10",
-      "15",
-      "20",
-      "30",
-      "50",
-      "100"
+      2,
+      3,
+      4,
+      5,
+      10,
+      15,
+      20,
+      30,
+      50,
+      100
     ],
     "price": {
       "2": 340,
@@ -1495,8 +1555,12 @@
       "50": 7250,
       "100": 14300
     },
-    "notes": "",
-    "kind": "perfume"
+    "notes": "Верхние ноты: фруктовые ноты, кардамон\nСердце: бобы тонка, цветок ананаса, жасмин\nБаза: ваниль, пачули",
+    "kind": "perfume",
+    "image": "assets/perfumes/92704.jpg",
+    "notesSource": "https://www.fragrantica.com/p/92704",
+    "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.92704.jpg",
+    "referenceVersion": "Madawi Gold Edition Arabian Oud perfume - a fragrance for women and men 2024"
   },
   {
     "id": 90,
@@ -1534,16 +1598,16 @@
     "name": "Attar Collection Musk Kashmir",
     "cat": "Селектив",
     "volumes": [
-      "2",
-      "3",
-      "4",
-      "5",
-      "10",
-      "15",
-      "20",
-      "30",
-      "50",
-      "100"
+      2,
+      3,
+      4,
+      5,
+      10,
+      15,
+      20,
+      30,
+      50,
+      100
     ],
     "price": {
       "2": 340,
@@ -1557,24 +1621,28 @@
       "50": 7250,
       "100": 14300
     },
-    "notes": "",
-    "kind": "perfume"
+    "notes": "Ноты: белый мускус, белый перец, сандал, гардения, гвоздика (пряность)",
+    "kind": "perfume",
+    "image": "assets/perfumes/38134.jpg",
+    "notesSource": "https://www.fragrantica.com/perfume/Attar-Collection/Musk-Kashmir-38134.html",
+    "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.38134.jpg",
+    "referenceVersion": "Musk Kashmir Attar Collection perfume - a fragrance for women and men 2016"
   },
   {
     "id": 92,
     "name": "Maison Francis Kurkdjian Baccarat Rouge 540",
     "cat": "Селектив",
     "volumes": [
-      "2",
-      "3",
-      "4",
-      "5",
-      "10",
-      "15",
-      "20",
-      "30",
-      "50",
-      "100"
+      2,
+      3,
+      4,
+      5,
+      10,
+      15,
+      20,
+      30,
+      50,
+      100
     ],
     "price": {
       "2": 340,
@@ -1588,24 +1656,28 @@
       "50": 7250,
       "100": 14300
     },
-    "notes": "",
-    "kind": "perfume"
+    "notes": "Верхние ноты: шафран, жасмин\nСердце: амбровая древесина, серая амбра, гедион\nБаза: пихтовая смола, кедр, сахар, амброксан, дубовый мох",
+    "kind": "perfume",
+    "image": "assets/perfumes/33519.jpg",
+    "notesSource": "https://www.fragrantica.com/parfum/Maison-Francis-Kurkdjian/Baccarat-Rouge-540-33519.html",
+    "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.33519.jpg",
+    "referenceVersion": "Baccarat Rouge 540 Maison Francis Kurkdjian perfume - a fragrance for women and men 2015"
   },
   {
     "id": 93,
     "name": "Bvlgari Le Gemme Tygar",
     "cat": "Селектив",
     "volumes": [
-      "2",
-      "3",
-      "4",
-      "5",
-      "10",
-      "15",
-      "20",
-      "30",
-      "50",
-      "100"
+      2,
+      3,
+      4,
+      5,
+      10,
+      15,
+      20,
+      30,
+      50,
+      100
     ],
     "price": {
       "2": 340,
@@ -1619,24 +1691,28 @@
       "50": 7250,
       "100": 14300
     },
-    "notes": "",
-    "kind": "perfume"
+    "notes": "Верхние ноты: грейпфрут\nСердце: имбирь, амбретта\nБаза: амброксан, мускус, ветивер, пачули",
+    "kind": "perfume",
+    "image": "assets/perfumes/41222.jpg",
+    "notesSource": "https://www.fragrantica.com/perfume/Bvlgari/Tygar-41222.html",
+    "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.41222.jpg",
+    "referenceVersion": "Tygar Bvlgari cologne - a fragrance for men 2016"
   },
   {
     "id": 94,
     "name": "Nasomatto Black Afgano",
     "cat": "Селектив",
     "volumes": [
-      "2",
-      "3",
-      "4",
-      "5",
-      "10",
-      "15",
-      "20",
-      "30",
-      "50",
-      "100"
+      2,
+      3,
+      4,
+      5,
+      10,
+      15,
+      20,
+      30,
+      50,
+      100
     ],
     "price": {
       "2": 340,
@@ -1650,24 +1726,28 @@
       "50": 7250,
       "100": 14300
     },
-    "notes": "",
-    "kind": "perfume"
+    "notes": "Верхние ноты: конопля, зелёные ноты, давана, шафран, тимьян\nСердце: смолы, древесные ноты, табак, кофе, малина, корица, фиалка\nБаза: уд, ладан, амбра, анималистические ноты, гваяковое дерево, мускус, кедр, бобы тонка, гурьюнский бальзам, амброксан, ваниль",
+    "kind": "perfume",
+    "image": "assets/perfumes/6472.jpg",
+    "notesSource": "https://www.fragrantica.com/perfume/Nasomatto/Black-Afgano-6472.html",
+    "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.6472.jpg",
+    "referenceVersion": "Black Afgano Nasomatto perfume - a fragrance for women and men 2009"
   },
   {
     "id": 95,
     "name": "Kilian Black Phantom",
     "cat": "Селектив",
     "volumes": [
-      "2",
-      "3",
-      "4",
-      "5",
-      "10",
-      "15",
-      "20",
-      "30",
-      "50",
-      "100"
+      2,
+      3,
+      4,
+      5,
+      10,
+      15,
+      20,
+      30,
+      50,
+      100
     ],
     "price": {
       "2": 340,
@@ -1681,24 +1761,28 @@
       "50": 7250,
       "100": 14300
     },
-    "notes": "",
-    "kind": "perfume"
+    "notes": "Верхние ноты: ром\nСердце: тёмный шоколад, кофе, миндаль, гелиотроп\nБаза: карамель, сахарный тростник, сандал, ваниль, бобы тонка, ветивер",
+    "kind": "perfume",
+    "image": "assets/perfumes/43632.jpg",
+    "notesSource": "https://www.fragrantica.com/perfume/By-Kilian/Black-Phantom-43632.html",
+    "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.43632.jpg",
+    "referenceVersion": "Black Phantom By Kilian perfume - a fragrance for women and men 2017"
   },
   {
     "id": 96,
     "name": "Clive Christian Blonde Amber",
     "cat": "Селектив",
     "volumes": [
-      "2",
-      "3",
-      "4",
-      "5",
-      "10",
-      "15",
-      "20",
-      "30",
-      "50",
-      "100"
+      2,
+      3,
+      4,
+      5,
+      10,
+      15,
+      20,
+      30,
+      50,
+      100
     ],
     "price": {
       "2": 340,
@@ -1712,24 +1796,28 @@
       "50": 7250,
       "100": 14300
     },
-    "notes": "",
-    "kind": "perfume"
+    "notes": "Верхние ноты: ром, ладан, горький апельсин, кардамон, розовый перец, имбирь, бергамот, грейпфрут\nСердце: сухофрукты, белый табак, сандал, шафран, тубероза, османтус, жасмин, ирис\nБаза: бобы тонка, ваниль, мирра, лабданум, пачули, кедр, мускус, ветивер",
+    "kind": "perfume",
+    "image": "assets/perfumes/73595.jpg",
+    "notesSource": "https://www.fragrantica.com/perfume/Clive-Christian/Blonde-Amber-73595.html",
+    "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.73595.jpg",
+    "referenceVersion": "Blonde Amber Clive Christian perfume - a fragrance for women and men 2022"
   },
   {
     "id": 97,
     "name": "Ex Nihilo Blue Talisman",
     "cat": "Селектив",
     "volumes": [
-      "2",
-      "3",
-      "4",
-      "5",
-      "10",
-      "15",
-      "20",
-      "30",
-      "50",
-      "100"
+      2,
+      3,
+      4,
+      5,
+      10,
+      15,
+      20,
+      30,
+      50,
+      100
     ],
     "price": {
       "2": 340,
@@ -1743,24 +1831,28 @@
       "50": 7250,
       "100": 14300
     },
-    "notes": "",
-    "kind": "perfume"
+    "notes": "Верхние ноты: груша, бергамот, мандарин, имбирь\nСердце: апельсиновый цвет, Georgywood\nБаза: мускус, Ambrofix, акигалавуд, кедр",
+    "kind": "perfume",
+    "image": "assets/perfumes/84224.jpg",
+    "notesSource": "https://www.fragrantica.com/perfume/Ex-Nihilo/Blue-Talisman-84224.html",
+    "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.84224.jpg",
+    "referenceVersion": "Blue Talisman Ex Nihilo perfume - a fragrance for women and men 2023"
   },
   {
     "id": 98,
     "name": "Boadicea the Victorious Heroine",
     "cat": "Селектив",
     "volumes": [
-      "2",
-      "3",
-      "4",
-      "5",
-      "10",
-      "15",
-      "20",
-      "30",
-      "50",
-      "100"
+      2,
+      3,
+      4,
+      5,
+      10,
+      15,
+      20,
+      30,
+      50,
+      100
     ],
     "price": {
       "2": 340,
@@ -1774,24 +1866,28 @@
       "50": 7250,
       "100": 14300
     },
-    "notes": "",
-    "kind": "perfume"
+    "notes": "Верхние ноты: фиалка, апельсин, бергамот\nСердце: жасмин, роза\nБаза: ваниль, мускус, ирис, ветивер",
+    "kind": "perfume",
+    "image": "assets/perfumes/55770.jpg",
+    "notesSource": "https://www.fragrantica.com/perfume/Boadicea-the-Victorious/Heroine-55770.html",
+    "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.55770.jpg",
+    "referenceVersion": "Heroine Boadicea the Victorious perfume - a fragrance for women 2019"
   },
   {
     "id": 99,
     "name": "Essential Parfums Bois Impérial",
     "cat": "Селектив",
     "volumes": [
-      "2",
-      "3",
-      "4",
-      "5",
-      "10",
-      "15",
-      "20",
-      "30",
-      "50",
-      "100"
+      2,
+      3,
+      4,
+      5,
+      10,
+      15,
+      20,
+      30,
+      50,
+      100
     ],
     "price": {
       "2": 340,
@@ -1805,24 +1901,28 @@
       "50": 7250,
       "100": 14300
     },
-    "notes": "",
-    "kind": "perfume"
+    "notes": "Ноты: акигалавуд, древесные ноты, базилик, ветивер, тимурский перец, амброксан, пачули",
+    "kind": "perfume",
+    "image": "assets/perfumes/64338.jpg",
+    "notesSource": "https://www.fragrantica.com/perfume/Essential%20Parfums/Essential-Parfums-Bois-Imperial-64338.html",
+    "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.64338.jpg",
+    "referenceVersion": "Bois Impérial Essential Parfums perfume - a fragrance for women and men 2020"
   },
   {
     "id": 100,
     "name": "Byredo Bal D’Afrique",
     "cat": "Селектив",
     "volumes": [
-      "2",
-      "3",
-      "4",
-      "5",
-      "10",
-      "15",
-      "20",
-      "30",
-      "50",
-      "100"
+      2,
+      3,
+      4,
+      5,
+      10,
+      15,
+      20,
+      30,
+      50,
+      100
     ],
     "price": {
       "2": 340,
@@ -1836,24 +1936,28 @@
       "50": 7250,
       "100": 14300
     },
-    "notes": "",
-    "kind": "perfume"
+    "notes": "Верхние ноты: бергамот, африканские бархатцы, бучу\nСердце: фиалка, цикламен\nБаза: ветивер, кедр",
+    "kind": "perfume",
+    "image": "assets/perfumes/6458.jpg",
+    "notesSource": "https://www.fragrantica.com/perfume/byredo/bal-d-afrique-6458.html",
+    "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.6458.jpg",
+    "referenceVersion": "Bal d'Afrique Byredo perfume - a fragrance for women and men 2009"
   },
   {
     "id": 101,
     "name": "Byredo Vanille Antique",
     "cat": "Селектив",
     "volumes": [
-      "2",
-      "3",
-      "4",
-      "5",
-      "10",
-      "15",
-      "20",
-      "30",
-      "50",
-      "100"
+      2,
+      3,
+      4,
+      5,
+      10,
+      15,
+      20,
+      30,
+      50,
+      100
     ],
     "price": {
       "2": 340,
@@ -1867,24 +1971,28 @@
       "50": 7250,
       "100": 14300
     },
-    "notes": "",
-    "kind": "perfume"
+    "notes": "Верхние ноты: мускус, слива\nСердце: светлая древесина, лабданум\nБаза: ваниль, амбра",
+    "kind": "perfume",
+    "image": "assets/perfumes/73438.jpg",
+    "notesSource": "https://www.fragrantica.com/p/73438",
+    "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.73438.jpg",
+    "referenceVersion": "Vanille Antique Byredo perfume - a fragrance for women and men 2022"
   },
   {
     "id": 102,
     "name": "Vilhelm Parfumerie Chimilka",
     "cat": "Селектив",
     "volumes": [
-      "2",
-      "3",
-      "4",
-      "5",
-      "10",
-      "15",
-      "20",
-      "30",
-      "50",
-      "100"
+      2,
+      3,
+      4,
+      5,
+      10,
+      15,
+      20,
+      30,
+      50,
+      100
     ],
     "price": {
       "2": 340,
@@ -1898,24 +2006,28 @@
       "50": 7250,
       "100": 14300
     },
-    "notes": "",
-    "kind": "perfume"
+    "notes": "Верхние ноты: персик, итальянский мандарин, бархат, кардамон\nСердце: кожа, китайский османтус, шафран, дубовый мох, фиалка, бессмертник\nБаза: сахар, мускус, пачули, амбра",
+    "kind": "perfume",
+    "image": "assets/perfumes/101532.jpg",
+    "notesSource": "https://www.fragrantica.com/p/101532",
+    "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.101532.jpg",
+    "referenceVersion": "Chimilka Vilhelm Parfumerie perfume - a new fragrance for women and men 2025"
   },
   {
     "id": 103,
     "name": "Creed Aventus Absolu",
     "cat": "Селектив",
     "volumes": [
-      "2",
-      "3",
-      "4",
-      "5",
-      "10",
-      "15",
-      "20",
-      "30",
-      "50",
-      "100"
+      2,
+      3,
+      4,
+      5,
+      10,
+      15,
+      20,
+      30,
+      50,
+      100
     ],
     "price": {
       "2": 340,
@@ -1929,24 +2041,28 @@
       "50": 7250,
       "100": 14300
     },
-    "notes": "",
-    "kind": "perfume"
+    "notes": "Верхние ноты: ананас, чёрная смородина, грейпфрут, розовый перец, лимон, бергамот\nСердце: кардамон, корица, имбирь\nБаза: ветивер, пачули",
+    "kind": "perfume",
+    "image": "assets/perfumes/106624.jpg",
+    "notesSource": "https://www.fragrantica.com/perfume/Creed/Absolu-Aventus-106624.html",
+    "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.106624.jpg",
+    "referenceVersion": "Absolu Aventus Creed cologne - a new fragrance for men 2025"
   },
   {
     "id": 104,
     "name": "Creed Aventus",
     "cat": "Селектив",
     "volumes": [
-      "2",
-      "3",
-      "4",
-      "5",
-      "10",
-      "15",
-      "20",
-      "30",
-      "50",
-      "100"
+      2,
+      3,
+      4,
+      5,
+      10,
+      15,
+      20,
+      30,
+      50,
+      100
     ],
     "price": {
       "2": 340,
@@ -1960,24 +2076,28 @@
       "50": 7250,
       "100": 14300
     },
-    "notes": "",
-    "kind": "perfume"
+    "notes": "Верхние ноты: бергамот, чёрная смородина, яблоко, лимон, розовый перец\nСердце: ананас, пачули, марокканский жасмин\nБаза: берёза, мускус, дубовый мох, кедровая древесина, амброксан",
+    "kind": "perfume",
+    "image": "assets/perfumes/9828.jpg",
+    "notesSource": "https://www.fragrantica.com/perfume/Creed/Aventus-9828.html",
+    "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.9828.jpg",
+    "referenceVersion": "Aventus Creed cologne - a fragrance for men 2010"
   },
   {
     "id": 105,
     "name": "Parfums de Marly Sedley",
     "cat": "Селектив",
     "volumes": [
-      "2",
-      "3",
-      "4",
-      "5",
-      "10",
-      "15",
-      "20",
-      "30",
-      "50",
-      "100"
+      2,
+      3,
+      4,
+      5,
+      10,
+      15,
+      20,
+      30,
+      50,
+      100
     ],
     "price": {
       "2": 340,
@@ -1991,24 +2111,28 @@
       "50": 7250,
       "100": 14300
     },
-    "notes": "",
-    "kind": "perfume"
+    "notes": "Верхние ноты: лимон, мята, бергамот, грейпфрут, мандарин\nСердце: лаванда, розмарин, герань, ладан\nБаза: амброксан, сандал, кедр, кашмеран, ветивер, пачули",
+    "kind": "perfume",
+    "image": "assets/perfumes/56273.jpg",
+    "notesSource": "https://www.fragrantica.com/perfume/Parfums-de-Marly/Sedley-56273.html",
+    "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.56273.jpg",
+    "referenceVersion": "Sedley Parfums de Marly perfume - a fragrance for women and men 2019"
   },
   {
     "id": 106,
     "name": "HFC Devil’s Intrigue",
     "cat": "Селектив",
     "volumes": [
-      "2",
-      "3",
-      "4",
-      "5",
-      "10",
-      "15",
-      "20",
-      "30",
-      "50",
-      "100"
+      2,
+      3,
+      4,
+      5,
+      10,
+      15,
+      20,
+      30,
+      50,
+      100
     ],
     "price": {
       "2": 340,
@@ -2022,24 +2146,28 @@
       "50": 7250,
       "100": 14300
     },
-    "notes": "",
-    "kind": "perfume"
+    "notes": "Верхние ноты: османтус, белый чай\nСердце: апельсиновый цвет, сандал\nБаза: кашмировое дерево, амбровая древесина, рисовое молоко, ваниль",
+    "kind": "perfume",
+    "image": "assets/perfumes/52792.jpg",
+    "notesSource": "https://www.hfcparis.com/catalog/devils-intrigue",
+    "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.52792.jpg",
+    "referenceVersion": "Devil's Intrigue Haute Fragrance Company HFC perfume - a fragrance for women 2018"
   },
   {
     "id": 107,
     "name": "Richard Dirty Mango",
     "cat": "Селектив",
     "volumes": [
-      "2",
-      "3",
-      "4",
-      "5",
-      "10",
-      "15",
-      "20",
-      "30",
-      "50",
-      "100"
+      2,
+      3,
+      4,
+      5,
+      10,
+      15,
+      20,
+      30,
+      50,
+      100
     ],
     "price": {
       "2": 340,
@@ -2053,24 +2181,28 @@
       "50": 7250,
       "100": 14300
     },
-    "notes": "",
-    "kind": "perfume"
+    "notes": "Ноты: манго, персик, ваниль, иланг-иланг, апельсин, франжипани, мандарин, мускус, кокосовое молоко, тубероза, миндальное молоко, сандал, жасмин, роза, фиалка, лилия, ирис",
+    "kind": "perfume",
+    "image": "assets/perfumes/66804.jpg",
+    "notesSource": "https://www.fragrantica.com/perfume/Richard/Dirty-Mango-66804.html",
+    "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.66804.jpg",
+    "referenceVersion": "Dirty Mango Richard perfume - a fragrance for women 2021"
   },
   {
     "id": 108,
     "name": "Ex Nihilo Generation(s)",
     "cat": "Селектив",
     "volumes": [
-      "2",
-      "3",
-      "4",
-      "5",
-      "10",
-      "15",
-      "20",
-      "30",
-      "50",
-      "100"
+      2,
+      3,
+      4,
+      5,
+      10,
+      15,
+      20,
+      30,
+      50,
+      100
     ],
     "price": {
       "2": 340,
@@ -2084,24 +2216,28 @@
       "50": 7250,
       "100": 14300
     },
-    "notes": "",
-    "kind": "perfume"
+    "notes": "Верхние ноты: груша, розовый перец, ладан\nСердце: инжир\nБаза: сандал, мускус, бобы тонка",
+    "kind": "perfume",
+    "image": "assets/perfumes/106031.jpg",
+    "notesSource": "https://www.fragrantica.com/perfume/Ex-Nihilo/Generation-s-106031.html",
+    "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.106031.jpg",
+    "referenceVersion": "Generation(s) Ex Nihilo perfume - a new fragrance for women and men 2025"
   },
   {
     "id": 109,
     "name": "Ex Nihilo Fleur Narcotique",
     "cat": "Селектив",
     "volumes": [
-      "2",
-      "3",
-      "4",
-      "5",
-      "10",
-      "15",
-      "20",
-      "30",
-      "50",
-      "100"
+      2,
+      3,
+      4,
+      5,
+      10,
+      15,
+      20,
+      30,
+      50,
+      100
     ],
     "price": {
       "2": 340,
@@ -2115,24 +2251,28 @@
       "50": 7250,
       "100": 14300
     },
-    "notes": "",
-    "kind": "perfume"
+    "notes": "Верхние ноты: личи, бергамот, персик\nСердце: пион, апельсиновый цвет, жасмин, Petalia\nБаза: мускус, мох, древесные ноты",
+    "kind": "perfume",
+    "image": "assets/perfumes/27571.jpg",
+    "notesSource": "https://www.fragrantica.com/perfume/Ex-Nihilo/Fleur-Narcotique-27571.html",
+    "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.27571.jpg",
+    "referenceVersion": "Fleur Narcotique Ex Nihilo perfume - a fragrance for women and men 2014"
   },
   {
     "id": 110,
     "name": "Franck Boclet Cocaine",
     "cat": "Селектив",
     "volumes": [
-      "2",
-      "3",
-      "4",
-      "5",
-      "10",
-      "15",
-      "20",
-      "30",
-      "50",
-      "100"
+      2,
+      3,
+      4,
+      5,
+      10,
+      15,
+      20,
+      30,
+      50,
+      100
     ],
     "price": {
       "2": 340,
@@ -2146,24 +2286,28 @@
       "50": 7250,
       "100": 14300
     },
-    "notes": "",
-    "kind": "perfume"
+    "notes": "Верхние ноты: карамель, табак, горький апельсин, красные ягоды\nСердце: тубероза, лилия, орхидея\nБаза: масло моной, ваниль, пачули",
+    "kind": "perfume",
+    "image": "assets/perfumes/44128.jpg",
+    "notesSource": "https://www.fragrantica.com/perfume/Franck-Boclet/Cocaine-44128.html",
+    "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.44128.jpg",
+    "referenceVersion": "Cocaïne Franck Boclet perfume - a fragrance for women and men 2017"
   },
   {
     "id": 111,
     "name": "Hormone Paris GABA",
     "cat": "Селектив",
     "volumes": [
-      "2",
-      "3",
-      "4",
-      "5",
-      "10",
-      "15",
-      "20",
-      "30",
-      "50",
-      "100"
+      2,
+      3,
+      4,
+      5,
+      10,
+      15,
+      20,
+      30,
+      50,
+      100
     ],
     "price": {
       "2": 340,
@@ -2177,24 +2321,28 @@
       "50": 7250,
       "100": 14300
     },
-    "notes": "",
-    "kind": "perfume"
+    "notes": "Верхние ноты: мандарин, маракуйя\nСердце: фрезия, жасмин, ландыш\nБаза: амбра, мох",
+    "kind": "perfume",
+    "image": "assets/perfumes/80679.jpg",
+    "notesSource": "https://www.fragrantica.com/perfume/Hormone%2520Paris/Hormone-Paris-Gaba-80679.html",
+    "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.80679.jpg",
+    "referenceVersion": "This is Not GABA Hormone Paris perfume - a fragrance for women and men 2023"
   },
   {
     "id": 112,
     "name": "Marc-Antoine Barrois Ganymede",
     "cat": "Селектив",
     "volumes": [
-      "2",
-      "3",
-      "4",
-      "5",
-      "10",
-      "15",
-      "20",
-      "30",
-      "50",
-      "100"
+      2,
+      3,
+      4,
+      5,
+      10,
+      15,
+      20,
+      30,
+      50,
+      100
     ],
     "price": {
       "2": 340,
@@ -2208,24 +2356,28 @@
       "50": 7250,
       "100": 14300
     },
-    "notes": "",
-    "kind": "perfume"
+    "notes": "Верхние ноты: шафран, итальянский мандарин\nСердце: китайский османтус, бессмертник, лист фиалки\nБаза: минеральные ноты, замша, акигалавуд, мускус, кедр, пачули",
+    "kind": "perfume",
+    "image": "assets/perfumes/54720.jpg",
+    "notesSource": "https://www.fragrantica.com/perfume/Marc-Antoine-Barrois/Ganymede-54720.html",
+    "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.54720.jpg",
+    "referenceVersion": "Ganymede Marc-Antoine Barrois perfume - a fragrance for women and men 2019"
   },
   {
     "id": 113,
     "name": "Byredo Gypsy Water",
     "cat": "Селектив",
     "volumes": [
-      "2",
-      "3",
-      "4",
-      "5",
-      "10",
-      "15",
-      "20",
-      "30",
-      "50",
-      "100"
+      2,
+      3,
+      4,
+      5,
+      10,
+      15,
+      20,
+      30,
+      50,
+      100
     ],
     "price": {
       "2": 340,
@@ -2239,24 +2391,28 @@
       "50": 7250,
       "100": 14300
     },
-    "notes": "",
-    "kind": "perfume"
+    "notes": "Верхние ноты: можжевельник, лимон, бергамот, перец\nСердце: сосновая хвоя, ладан, корень ириса\nБаза: ваниль, сандал, амбра",
+    "kind": "perfume",
+    "image": "assets/perfumes/3575.jpg",
+    "notesSource": "https://www.fragrantica.com/perfume/byredo/gypsy-water-3575.html",
+    "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.3575.jpg",
+    "referenceVersion": "Gypsy Water Byredo perfume - a fragrance for women and men 2008"
   },
   {
     "id": 114,
     "name": "Hormone Paris This Is Not Caffeine",
     "cat": "Селектив",
     "volumes": [
-      "2",
-      "3",
-      "4",
-      "5",
-      "10",
-      "15",
-      "20",
-      "30",
-      "50",
-      "100"
+      2,
+      3,
+      4,
+      5,
+      10,
+      15,
+      20,
+      30,
+      50,
+      100
     ],
     "price": {
       "2": 340,
@@ -2270,24 +2426,28 @@
       "50": 7250,
       "100": 14300
     },
-    "notes": "",
-    "kind": "perfume"
+    "notes": "Верхние ноты: карамель, кокос, перечная мята, корица, шалфей\nСердце: бобы тонка, кофе, имбирь, жасмин, циприол\nБаза: абсолют ванили, бензоин, серая амбра, кожа, кедр",
+    "kind": "perfume",
+    "image": "assets/perfumes/118765.jpg",
+    "notesSource": "https://www.fragrantica.com/perfume/Hormone-Paris/This-is-Not-Caffeine-118765.html",
+    "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.118765.jpg",
+    "referenceVersion": "This is Not Caffeine Hormone Paris perfume - a new fragrance for women and men 2025"
   },
   {
     "id": 115,
     "name": "Hormone Paris This Is Not Testosterone",
     "cat": "Селектив",
     "volumes": [
-      "2",
-      "3",
-      "4",
-      "5",
-      "10",
-      "15",
-      "20",
-      "30",
-      "50",
-      "100"
+      2,
+      3,
+      4,
+      5,
+      10,
+      15,
+      20,
+      30,
+      50,
+      100
     ],
     "price": {
       "2": 340,
@@ -2301,24 +2461,28 @@
       "50": 7250,
       "100": 14300
     },
-    "notes": "",
-    "kind": "perfume"
+    "notes": "Верхние ноты: кардамон, грейпфрут, корица\nСердце: гваяковое дерево, ваниль, жасмин\nБаза: амбровая древесина, сандал, пралине, мускус",
+    "kind": "perfume",
+    "image": "assets/perfumes/105751.jpg",
+    "notesSource": "https://www.fragrantica.com/perfume/Hormone-Paris/This-is-Not-Testosterone-105751.html",
+    "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.105751.jpg",
+    "referenceVersion": "This is Not Testosterone Hormone Paris perfume - a new fragrance for women and men 2025"
   },
   {
     "id": 116,
     "name": "Louis Vuitton Imagination",
     "cat": "Селектив",
     "volumes": [
-      "2",
-      "3",
-      "4",
-      "5",
-      "10",
-      "15",
-      "20",
-      "30",
-      "50",
-      "100"
+      2,
+      3,
+      4,
+      5,
+      10,
+      15,
+      20,
+      30,
+      50,
+      100
     ],
     "price": {
       "2": 340,
@@ -2332,24 +2496,28 @@
       "50": 7250,
       "100": 14300
     },
-    "notes": "",
-    "kind": "perfume"
+    "notes": "Верхние ноты: цитрон, калабрийский бергамот, сицилийский апельсин\nСердце: тунисский нероли, нигерийский имбирь, цейлонская корица\nБаза: китайский чёрный чай, амброксан, гваяковое дерево, ладан",
+    "kind": "perfume",
+    "image": "assets/perfumes/67370.jpg",
+    "notesSource": "https://www.fragrantica.com/p/67370",
+    "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.67370.jpg",
+    "referenceVersion": "Imagination Louis Vuitton cologne - a fragrance for men 2021"
   },
   {
     "id": 117,
     "name": "Initio Narcotic Delight",
     "cat": "Селектив",
     "volumes": [
-      "2",
-      "3",
-      "4",
-      "5",
-      "10",
-      "15",
-      "20",
-      "30",
-      "50",
-      "100"
+      2,
+      3,
+      4,
+      5,
+      10,
+      15,
+      20,
+      30,
+      50,
+      100
     ],
     "price": {
       "2": 340,
@@ -2363,24 +2531,28 @@
       "50": 7250,
       "100": 14300
     },
-    "notes": "",
-    "kind": "perfume"
+    "notes": "Верхние ноты: вишня, розовый перец, чёрный перец\nСердце: коньяк, гедион, роза\nБаза: табак, ваниль, бобы тонка, кедр, пачули",
+    "kind": "perfume",
+    "image": "assets/perfumes/89368.jpg",
+    "notesSource": "https://www.fragrantica.com/perfume/Initio-Parfums-Prives/Narcotic-Delight-89368.html",
+    "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.89368.jpg",
+    "referenceVersion": "Narcotic Delight Initio Parfums Prives perfume - a fragrance for women and men 2024"
   },
   {
     "id": 118,
     "name": "Initio Rehab",
     "cat": "Селектив",
     "volumes": [
-      "2",
-      "3",
-      "4",
-      "5",
-      "10",
-      "15",
-      "20",
-      "30",
-      "50",
-      "100"
+      2,
+      3,
+      4,
+      5,
+      10,
+      15,
+      20,
+      30,
+      50,
+      100
     ],
     "price": {
       "2": 340,
@@ -2394,24 +2566,28 @@
       "50": 7250,
       "100": 14300
     },
-    "notes": "",
-    "kind": "perfume"
+    "notes": "Верхние ноты: лаванда, бергамот\nСердце: кедр, ветивер, пачули\nБаза: сандал, мускус, гваяковое дерево",
+    "kind": "perfume",
+    "image": "assets/perfumes/50351.jpg",
+    "notesSource": "https://www.fragrantica.com/perfume/Initio-Parfums-Prives/Rehab-50351.html",
+    "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.50351.jpg",
+    "referenceVersion": "Rehab Initio Parfums Prives perfume - a fragrance for women and men 2018"
   },
   {
     "id": 119,
     "name": "Initio Side Effect",
     "cat": "Селектив",
     "volumes": [
-      "2",
-      "3",
-      "4",
-      "5",
-      "10",
-      "15",
-      "20",
-      "30",
-      "50",
-      "100"
+      2,
+      3,
+      4,
+      5,
+      10,
+      15,
+      20,
+      30,
+      50,
+      100
     ],
     "price": {
       "2": 340,
@@ -2425,24 +2601,28 @@
       "50": 7250,
       "100": 14300
     },
-    "notes": "",
-    "kind": "perfume"
+    "notes": "Ноты: корица, ром, табак, ваниль, шафран, сандал, гедион",
+    "kind": "perfume",
+    "image": "assets/perfumes/42260.jpg",
+    "notesSource": "https://initioparfums.com/products/side-effect",
+    "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.42260.jpg",
+    "referenceVersion": "Side Effect Initio Parfums Prives perfume - a fragrance for women and men 2016"
   },
   {
     "id": 120,
     "name": "Maison Margiela Replica Jazz Club",
     "cat": "Селектив",
     "volumes": [
-      "2",
-      "3",
-      "4",
-      "5",
-      "10",
-      "15",
-      "20",
-      "30",
-      "50",
-      "100"
+      2,
+      3,
+      4,
+      5,
+      10,
+      15,
+      20,
+      30,
+      50,
+      100
     ],
     "price": {
       "2": 340,
@@ -2456,24 +2636,28 @@
       "50": 7250,
       "100": 14300
     },
-    "notes": "",
-    "kind": "perfume"
+    "notes": "Верхние ноты: розовый перец, нероли, лимон\nСердце: ром, яванский ветивер, мускатный шалфей\nБаза: табачный лист, ваниль, стиракс",
+    "kind": "perfume",
+    "image": "assets/perfumes/20541.jpg",
+    "notesSource": "https://www.fragrantica.com/p/20541",
+    "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.20541.jpg",
+    "referenceVersion": "Jazz Club Maison Martin Margiela cologne - a fragrance for men 2013"
   },
   {
     "id": 121,
     "name": "Jo Malone London Blackberry & Bay",
     "cat": "Селектив",
     "volumes": [
-      "2",
-      "3",
-      "4",
-      "5",
-      "10",
-      "15",
-      "20",
-      "30",
-      "50",
-      "100"
+      2,
+      3,
+      4,
+      5,
+      10,
+      15,
+      20,
+      30,
+      50,
+      100
     ],
     "price": {
       "2": 340,
@@ -2487,24 +2671,28 @@
       "50": 7250,
       "100": 14300
     },
-    "notes": "",
-    "kind": "perfume"
+    "notes": "Ноты: ежевика, лавровый лист, грейпфрут, кедр, ветивер, цветочные ноты",
+    "kind": "perfume",
+    "image": "assets/perfumes/15134.jpg",
+    "notesSource": "https://www.fragrantica.com/perfume/Jo-Malone-London/Blackberry-Bay-15134.html",
+    "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.15134.jpg",
+    "referenceVersion": "Blackberry & Bay Jo Malone London perfume - a fragrance for women 2012"
   },
   {
     "id": 122,
     "name": "Kajal Almaz",
     "cat": "Селектив",
     "volumes": [
-      "2",
-      "3",
-      "4",
-      "5",
-      "10",
-      "15",
-      "20",
-      "30",
-      "50",
-      "100"
+      2,
+      3,
+      4,
+      5,
+      10,
+      15,
+      20,
+      30,
+      50,
+      100
     ],
     "price": {
       "2": 340,
@@ -2518,24 +2706,28 @@
       "50": 7250,
       "100": 14300
     },
-    "notes": "",
-    "kind": "perfume"
+    "notes": "Верхние ноты: чёрная смородина, калабрийский бергамот, амальфитанский лимон, мандарин\nСердце: малина, гелиотроп, турецкая роза, ирис\nБаза: коричневый сахар, мадагаскарская ваниль, мускус, бобы тонка, сандал, амбра",
+    "kind": "perfume",
+    "image": "assets/perfumes/73429.jpg",
+    "notesSource": "https://www.fragrantica.com/perfume/Kajal/Almaz-73429.html",
+    "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.73429.jpg",
+    "referenceVersion": "Almaz Kajal perfume - a fragrance for women and men 2022"
   },
   {
     "id": 123,
     "name": "Kayali Yum Pistachio Gelato ",
     "cat": "Селектив",
     "volumes": [
-      "2",
-      "3",
-      "4",
-      "5",
-      "10",
-      "15",
-      "20",
-      "30",
-      "50",
-      "100"
+      2,
+      3,
+      4,
+      5,
+      10,
+      15,
+      20,
+      30,
+      50,
+      100
     ],
     "price": {
       "2": 340,
@@ -2549,8 +2741,12 @@
       "50": 7250,
       "100": 14300
     },
-    "notes": "",
-    "kind": "perfume"
+    "notes": "Верхние ноты: фисташка, мороженое, бергамот, фундук, ром, кардамон\nСердце: ландыш, груша, жасмин, пион, герань, малина, белый персик\nБаза: взбитые сливки, маршмеллоу, сахарная вата, бобы тонка, лукум, сандал, кедр, какао",
+    "kind": "perfume",
+    "image": "assets/perfumes/79846.jpg",
+    "notesSource": "https://www.fragrantica.com/perfume/Kayali-Fragrances/Yum-Pistachio-Gelato-33-79846.html",
+    "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.79846.jpg",
+    "referenceVersion": "Yum Pistachio Gelato | 33 Kayali Fragrances perfume - a fragrance for women and men 2023"
   },
   {
     "id": 124,
@@ -2588,16 +2784,16 @@
     "name": "Kilian Good Girl Gone Bad",
     "cat": "Селектив",
     "volumes": [
-      "2",
-      "3",
-      "4",
-      "5",
-      "10",
-      "15",
-      "20",
-      "30",
-      "50",
-      "100"
+      2,
+      3,
+      4,
+      5,
+      10,
+      15,
+      20,
+      30,
+      50,
+      100
     ],
     "price": {
       "2": 340,
@@ -2611,24 +2807,28 @@
       "50": 7250,
       "100": 14300
     },
-    "notes": "",
-    "kind": "perfume"
+    "notes": "Верхние ноты: османтус, персик, нероли, бергамот, мандарин, корица\nСердце: индийская тубероза, жасмин, нарцисс, майская роза\nБаза: амбра, кедр, сандал, ветивер, пачули",
+    "kind": "perfume",
+    "image": "assets/perfumes/15924.jpg",
+    "notesSource": "https://www.fragrantica.com/perfume/By-Kilian/Good-Girl-Gone-Bad-15924.html",
+    "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.15924.jpg",
+    "referenceVersion": "Good Girl Gone Bad By Kilian perfume - a fragrance for women 2012"
   },
   {
     "id": 126,
     "name": "Kilian Rolling in Love",
     "cat": "Селектив",
     "volumes": [
-      "2",
-      "3",
-      "4",
-      "5",
-      "10",
-      "15",
-      "20",
-      "30",
-      "50",
-      "100"
+      2,
+      3,
+      4,
+      5,
+      10,
+      15,
+      20,
+      30,
+      50,
+      100
     ],
     "price": {
       "2": 340,
@@ -2642,24 +2842,28 @@
       "50": 7250,
       "100": 14300
     },
-    "notes": "",
-    "kind": "perfume"
+    "notes": "Верхние ноты: миндальное молоко, амбретта\nСердце: ирис, фрезия, гелиотроп, малина, гедион, пион\nБаза: тубероза, ваниль, бобы тонка, мускус, лактоны, карамель",
+    "kind": "perfume",
+    "image": "assets/perfumes/56402.jpg",
+    "notesSource": "https://www.fragrantica.com/perfume/By-Kilian/Rolling-in-Love-56402.html",
+    "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.56402.jpg",
+    "referenceVersion": "Rolling in Love By Kilian perfume - a fragrance for women and men 2019"
   },
   {
     "id": 127,
     "name": "Tiziana Terenzi Kirke",
     "cat": "Селектив",
     "volumes": [
-      "2",
-      "3",
-      "4",
-      "5",
-      "10",
-      "15",
-      "20",
-      "30",
-      "50",
-      "100"
+      2,
+      3,
+      4,
+      5,
+      10,
+      15,
+      20,
+      30,
+      50,
+      100
     ],
     "price": {
       "2": 340,
@@ -2673,24 +2877,28 @@
       "50": 7250,
       "100": 14300
     },
-    "notes": "",
-    "kind": "perfume"
+    "notes": "Верхние ноты: маракуйя, персик, груша, малина, чёрная смородина, песок\nСердце: ландыш\nБаза: мускус, сандал, ваниль, пачули, гелиотроп",
+    "kind": "perfume",
+    "image": "assets/perfumes/32172.jpg",
+    "notesSource": "https://www.fragrantica.com/perfume/Tiziana-Terenzi/Kirke-32172.html",
+    "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.32172.jpg",
+    "referenceVersion": "Kirkè Tiziana Terenzi perfume - a fragrance for women and men 2015"
   },
   {
     "id": 128,
     "name": "Louis Vuitton Symphony",
     "cat": "Селектив",
     "volumes": [
-      "2",
-      "3",
-      "4",
-      "5",
-      "10",
-      "15",
-      "20",
-      "30",
-      "50",
-      "100"
+      2,
+      3,
+      4,
+      5,
+      10,
+      15,
+      20,
+      30,
+      50,
+      100
     ],
     "price": {
       "2": 340,
@@ -2704,24 +2912,28 @@
       "50": 7250,
       "100": 14300
     },
-    "notes": "",
-    "kind": "perfume"
+    "notes": "Ноты: бергамот, грейпфрут, имбирь",
+    "kind": "perfume",
+    "image": "assets/perfumes/68357.jpg",
+    "notesSource": "https://www.fragrantica.com/perfume/Louis-Vuitton/Symphony-68357.html",
+    "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.68357.jpg",
+    "referenceVersion": "Symphony Louis Vuitton perfume - a fragrance for women and men 2021"
   },
   {
     "id": 129,
     "name": "Le Labo Another 13",
     "cat": "Селектив",
     "volumes": [
-      "2",
-      "3",
-      "4",
-      "5",
-      "10",
-      "15",
-      "20",
-      "30",
-      "50",
-      "100"
+      2,
+      3,
+      4,
+      5,
+      10,
+      15,
+      20,
+      30,
+      50,
+      100
     ],
     "price": {
       "2": 340,
@@ -2735,24 +2947,28 @@
       "50": 7250,
       "100": 14300
     },
-    "notes": "",
-    "kind": "perfume"
+    "notes": "Верхние ноты: груша, яблоко, цитрусы\nСердце: амбретта, амилсалицилат, мох, жасмин\nБаза: Iso E Super, цеталокс, гельветолид, амбреттолид",
+    "kind": "perfume",
+    "image": "assets/perfumes/10131.jpg",
+    "notesSource": "https://www.fragrantica.com/perfume/Le-Labo/Another-13-10131.html",
+    "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.10131.jpg",
+    "referenceVersion": "Another 13 Le Labo perfume - a fragrance for women and men 2010"
   },
   {
     "id": 130,
     "name": "Louis Vuitton Afternoon Swim",
     "cat": "Селектив",
     "volumes": [
-      "2",
-      "3",
-      "4",
-      "5",
-      "10",
-      "15",
-      "20",
-      "30",
-      "50",
-      "100"
+      2,
+      3,
+      4,
+      5,
+      10,
+      15,
+      20,
+      30,
+      50,
+      100
     ],
     "price": {
       "2": 340,
@@ -2766,24 +2982,28 @@
       "50": 7250,
       "100": 14300
     },
-    "notes": "",
-    "kind": "perfume"
+    "notes": "Ноты: мандарин, сицилийский апельсин, бергамот, серая амбра, имбирь",
+    "kind": "perfume",
+    "image": "assets/perfumes/53947.jpg",
+    "notesSource": "https://www.fragrantica.com/perfume/Louis-Vuitton/Afternoon-Swim-53947.html",
+    "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.53947.jpg",
+    "referenceVersion": "Afternoon Swim Louis Vuitton perfume - a fragrance for women and men 2019"
   },
   {
     "id": 131,
     "name": "Louis Vuitton Fantasmagory",
     "cat": "Селектив",
     "volumes": [
-      "2",
-      "3",
-      "4",
-      "5",
-      "10",
-      "15",
-      "20",
-      "30",
-      "50",
-      "100"
+      2,
+      3,
+      4,
+      5,
+      10,
+      15,
+      20,
+      30,
+      50,
+      100
     ],
     "price": {
       "2": 340,
@@ -2797,24 +3017,28 @@
       "50": 7250,
       "100": 14300
     },
-    "notes": "",
-    "kind": "perfume"
+    "notes": "Верхние ноты: имбирь, анис\nСердце: миндаль, цветочные ноты\nБаза: ваниль, кожа",
+    "kind": "perfume",
+    "image": "assets/perfumes/116625.jpg",
+    "notesSource": "https://www.fragrantica.com/perfume/Louis-Vuitton/Fantasmagory-116625.html",
+    "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.116625.jpg",
+    "referenceVersion": "Fantasmagory Louis Vuitton perfume - a new fragrance for women and men 2025"
   },
   {
     "id": 132,
     "name": "Louis Vuitton L’Immensité",
     "cat": "Селектив",
     "volumes": [
-      "2",
-      "3",
-      "4",
-      "5",
-      "10",
-      "15",
-      "20",
-      "30",
-      "50",
-      "100"
+      2,
+      3,
+      4,
+      5,
+      10,
+      15,
+      20,
+      30,
+      50,
+      100
     ],
     "price": {
       "2": 340,
@@ -2828,24 +3052,28 @@
       "50": 7250,
       "100": 14300
     },
-    "notes": "",
-    "kind": "perfume"
+    "notes": "Верхние ноты: грейпфрут, бергамот, имбирь\nСердце: розмарин, шалфей, водные ноты, герань\nБаза: амброксан, амбра, лабданум",
+    "kind": "perfume",
+    "image": "assets/perfumes/49751.jpg",
+    "notesSource": "https://www.fragrantica.com/perfume/Louis-Vuitton/L-Immensit--49751.html",
+    "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.49751.jpg",
+    "referenceVersion": "L’Immensité Louis Vuitton cologne - a fragrance for men 2018"
   },
   {
     "id": 133,
     "name": "Louis Vuitton Stellar Times",
     "cat": "Селектив",
     "volumes": [
-      "2",
-      "3",
-      "4",
-      "5",
-      "10",
-      "15",
-      "20",
-      "30",
-      "50",
-      "100"
+      2,
+      3,
+      4,
+      5,
+      10,
+      15,
+      20,
+      30,
+      50,
+      100
     ],
     "price": {
       "2": 340,
@@ -2859,24 +3087,28 @@
       "50": 7250,
       "100": 14300
     },
-    "notes": "",
-    "kind": "perfume"
+    "notes": "Ноты: апельсиновый цвет, амбра, древесные ноты",
+    "kind": "perfume",
+    "image": "assets/perfumes/68356.jpg",
+    "notesSource": "https://www.fragrantica.com/perfume/Louis-Vuitton/Stellar-Times-68356.html",
+    "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.68356.jpg",
+    "referenceVersion": "Stellar Times Louis Vuitton perfume - a fragrance for women and men 2021"
   },
   {
     "id": 134,
     "name": "Vilhelm Parfumerie Mango Skin",
     "cat": "Селектив",
     "volumes": [
-      "2",
-      "3",
-      "4",
-      "5",
-      "10",
-      "15",
-      "20",
-      "30",
-      "50",
-      "100"
+      2,
+      3,
+      4,
+      5,
+      10,
+      15,
+      20,
+      30,
+      50,
+      100
     ],
     "price": {
       "2": 340,
@@ -2890,24 +3122,28 @@
       "50": 7250,
       "100": 14300
     },
-    "notes": "",
-    "kind": "perfume"
+    "notes": "Верхние ноты: манго, ежевика, чёрный перец\nСердце: ирис, жасмин, лотос\nБаза: ваниль, сахарная глазурь, пачули",
+    "kind": "perfume",
+    "image": "assets/perfumes/49305.jpg",
+    "notesSource": "https://www.fragrantica.com/perfume/Vilhelm-Parfumerie/Mango-Skin-49305.html",
+    "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.49305.jpg",
+    "referenceVersion": "Mango Skin Vilhelm Parfumerie perfume - a fragrance for women and men 2018"
   },
   {
     "id": 135,
     "name": "Marc-Antoine Barrois Tilia",
     "cat": "Селектив",
     "volumes": [
-      "2",
-      "3",
-      "4",
-      "5",
-      "10",
-      "15",
-      "20",
-      "30",
-      "50",
-      "100"
+      2,
+      3,
+      4,
+      5,
+      10,
+      15,
+      20,
+      30,
+      50,
+      100
     ],
     "price": {
       "2": 340,
@@ -2921,24 +3157,28 @@
       "50": 7250,
       "100": 14300
     },
-    "notes": "",
-    "kind": "perfume"
+    "notes": "Верхние ноты: липовый цвет, жасмин самбак, дрок\nСердце: апельсиновый цвет, гелиотроп, ветивер\nБаза: Ambrofix, Georgywood",
+    "kind": "perfume",
+    "image": "assets/perfumes/91688.jpg",
+    "notesSource": "https://www.fragrantica.com/p/91688",
+    "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.91688.jpg",
+    "referenceVersion": "Tilia Marc-Antoine Barrois perfume - a fragrance for women and men 2024"
   },
   {
     "id": 136,
     "name": "Orto Parisi Megamare",
     "cat": "Селектив",
     "volumes": [
-      "2",
-      "3",
-      "4",
-      "5",
-      "10",
-      "15",
-      "20",
-      "30",
-      "50",
-      "100"
+      2,
+      3,
+      4,
+      5,
+      10,
+      15,
+      20,
+      30,
+      50,
+      100
     ],
     "price": {
       "2": 340,
@@ -2952,24 +3192,28 @@
       "50": 7250,
       "100": 14300
     },
-    "notes": "",
-    "kind": "perfume"
+    "notes": "Верхние ноты: бергамот, лимон\nСердце: водоросли, калон, гедион\nБаза: мускус, амброксан, кедр",
+    "kind": "perfume",
+    "image": "assets/perfumes/53471.jpg",
+    "notesSource": "https://www.fragrantica.com/parfum/Orto-Parisi/Megamare-53471.html",
+    "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.53471.jpg",
+    "referenceVersion": "Megamare Orto Parisi perfume - a fragrance for women and men 2019"
   },
   {
     "id": 137,
     "name": "Escentric Molecules Molecule 02",
     "cat": "Селектив",
     "volumes": [
-      "2",
-      "3",
-      "4",
-      "5",
-      "10",
-      "15",
-      "20",
-      "30",
-      "50",
-      "100"
+      2,
+      3,
+      4,
+      5,
+      10,
+      15,
+      20,
+      30,
+      50,
+      100
     ],
     "price": {
       "2": 340,
@@ -2983,24 +3227,28 @@
       "50": 7250,
       "100": 14300
     },
-    "notes": "",
-    "kind": "perfume"
+    "notes": "Ноты: амброксан",
+    "kind": "perfume",
+    "image": "assets/perfumes/3606.jpg",
+    "notesSource": "https://www.fragrantica.com/perfume/Escentric-Molecules/Molecule-02-3606.html",
+    "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.3606.jpg",
+    "referenceVersion": "Molecule 02 Escentric Molecules perfume - a fragrance for women and men 2008"
   },
   {
     "id": 138,
     "name": "Richard White Chocola",
     "cat": "Селектив",
     "volumes": [
-      "2",
-      "3",
-      "4",
-      "5",
-      "10",
-      "15",
-      "20",
-      "30",
-      "50",
-      "100"
+      2,
+      3,
+      4,
+      5,
+      10,
+      15,
+      20,
+      30,
+      50,
+      100
     ],
     "price": {
       "2": 340,
@@ -3014,24 +3262,28 @@
       "50": 7250,
       "100": 14300
     },
-    "notes": "",
-    "kind": "perfume"
+    "notes": "Верхние ноты: мандарин, мускатный орех\nСердце: белый шоколад, ваниль\nБаза: цветок миндаля, цветок персика, цветок вишни, мимоза",
+    "kind": "perfume",
+    "image": "assets/perfumes/46262.jpg",
+    "notesSource": "https://www.fragrantica.com/parfum/Richard/White-Chocola-46262.html",
+    "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.46262.jpg",
+    "referenceVersion": "White Chocola Richard perfume - a fragrance for women and men"
   },
   {
     "id": 139,
     "name": "Sospiro Accento",
     "cat": "Селектив",
     "volumes": [
-      "2",
-      "3",
-      "4",
-      "5",
-      "10",
-      "15",
-      "20",
-      "30",
-      "50",
-      "100"
+      2,
+      3,
+      4,
+      5,
+      10,
+      15,
+      20,
+      30,
+      50,
+      100
     ],
     "price": {
       "2": 340,
@@ -3045,24 +3297,28 @@
       "50": 7250,
       "100": 14300
     },
-    "notes": "",
-    "kind": "perfume"
+    "notes": "Верхние ноты: ананас, гиацинт\nСердце: розовый перец, жасмин, ирис\nБаза: мускус, амбра, ветивер, пачули, ваниль",
+    "kind": "perfume",
+    "image": "assets/perfumes/13816.jpg",
+    "notesSource": "https://www.fragrantica.com/perfume/Sospiro-Perfumes/Accento-13816.html?ccid=531236",
+    "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.13816.jpg",
+    "referenceVersion": "Accento Sospiro Perfumes perfume - a fragrance for women and men 2011"
   },
   {
     "id": 140,
     "name": "Sospiro Erba Pura",
     "cat": "Селектив",
     "volumes": [
-      "2",
-      "3",
-      "4",
-      "5",
-      "10",
-      "15",
-      "20",
-      "30",
-      "50",
-      "100"
+      2,
+      3,
+      4,
+      5,
+      10,
+      15,
+      20,
+      30,
+      50,
+      100
     ],
     "price": {
       "2": 340,
@@ -3076,24 +3332,28 @@
       "50": 7250,
       "100": 14300
     },
-    "notes": "",
-    "kind": "perfume"
+    "notes": "Верхние ноты: апельсин, бергамот, лимон\nСердце: фрукты\nБаза: белый мускус, амбра, мадагаскарская ваниль",
+    "kind": "perfume",
+    "image": "assets/perfumes/18652.jpg",
+    "notesSource": "https://www.fragrantica.com/perfume/Sospiro-Perfumes/Erba-Pura-18652.html",
+    "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.18652.jpg",
+    "referenceVersion": "Erba Pura Sospiro Perfumes perfume - a fragrance for women and men 2013"
   },
   {
     "id": 141,
     "name": "Tom Ford Lost Cherry",
     "cat": "Селектив",
     "volumes": [
-      "2",
-      "3",
-      "4",
-      "5",
-      "10",
-      "15",
-      "20",
-      "30",
-      "50",
-      "100"
+      2,
+      3,
+      4,
+      5,
+      10,
+      15,
+      20,
+      30,
+      50,
+      100
     ],
     "price": {
       "2": 340,
@@ -3107,24 +3367,28 @@
       "50": 7250,
       "100": 14300
     },
-    "notes": "",
-    "kind": "perfume"
+    "notes": "Верхние ноты: горький миндаль, чёрная вишня, вишнёвый ликёр\nСердце: кислая вишня, слива, турецкая роза, жасмин самбак\nБаза: ваниль, бобы тонка, корица, перуанский бальзам, сандал, бензоин, гвоздика (пряность), кедр, пачули, ветивер",
+    "kind": "perfume",
+    "image": "assets/perfumes/51411.jpg",
+    "notesSource": "https://www.fragrantica.com/perfume/Tom-Ford/Lost-Cherry-51411.html",
+    "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.51411.jpg",
+    "referenceVersion": "Lost Cherry Tom Ford perfume - a fragrance for women and men 2018"
   },
   {
     "id": 142,
     "name": "Tom Ford Oud Wood",
     "cat": "Селектив",
     "volumes": [
-      "2",
-      "3",
-      "4",
-      "5",
-      "10",
-      "15",
-      "20",
-      "30",
-      "50",
-      "100"
+      2,
+      3,
+      4,
+      5,
+      10,
+      15,
+      20,
+      30,
+      50,
+      100
     ],
     "price": {
       "2": 340,
@@ -3138,24 +3402,28 @@
       "50": 7250,
       "100": 14300
     },
-    "notes": "",
-    "kind": "perfume"
+    "notes": "Ноты: уд, бразильский палисандр, кардамон, сандал, сычуаньский перец, ваниль, ветивер, бобы тонка, амбра",
+    "kind": "perfume",
+    "image": "assets/perfumes/1826.jpg",
+    "notesSource": "https://www.fragrantica.com/perfume/Tom-Ford/Oud-Wood-1826.html",
+    "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.1826.jpg",
+    "referenceVersion": "Oud Wood Tom Ford perfume - a fragrance for women and men 2007"
   },
   {
     "id": 143,
     "name": "Tom Ford Cherry Smoke",
     "cat": "Селектив",
     "volumes": [
-      "2",
-      "3",
-      "4",
-      "5",
-      "10",
-      "15",
-      "20",
-      "30",
-      "50",
-      "100"
+      2,
+      3,
+      4,
+      5,
+      10,
+      15,
+      20,
+      30,
+      50,
+      100
     ],
     "price": {
       "2": 340,
@@ -3169,24 +3437,28 @@
       "50": 7250,
       "100": 14300
     },
-    "notes": "",
-    "kind": "perfume"
+    "notes": "Верхние ноты: кислая вишня, шафран\nСердце: кожа, китайский османтус, олива, абрикос\nБаза: дым, древесные ноты, циприол",
+    "kind": "perfume",
+    "image": "assets/perfumes/78578.jpg",
+    "notesSource": "https://www.fragrantica.com/perfume/Tom-Ford/Cherry-Smoke-78578.html",
+    "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.78578.jpg",
+    "referenceVersion": "Cherry Smoke Tom Ford perfume - a fragrance for women and men 2022"
   },
   {
     "id": 144,
     "name": "Tom Ford Vanille Fatale (2024)",
     "cat": "Селектив",
     "volumes": [
-      "2",
-      "3",
-      "4",
-      "5",
-      "10",
-      "15",
-      "20",
-      "30",
-      "50",
-      "100"
+      2,
+      3,
+      4,
+      5,
+      10,
+      15,
+      20,
+      30,
+      50,
+      100
     ],
     "price": {
       "2": 340,
@@ -3200,24 +3472,28 @@
       "50": 7250,
       "100": 14300
     },
-    "notes": "",
-    "kind": "perfume"
+    "notes": "Верхние ноты: шафран, кориандр\nСердце: кофе, франжипани, ячмень, нарцисс\nБаза: мадагаскарская ваниль, табак, замша, красное дерево",
+    "kind": "perfume",
+    "image": "assets/perfumes/88659.jpg",
+    "notesSource": "https://www.fragrantica.com/perfume/Tom-Ford/Vanille-Fatale-2024-88659.html",
+    "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.88659.jpg",
+    "referenceVersion": "Vanille Fatale (2024) Tom Ford perfume - a fragrance for women and men 2024"
   },
   {
     "id": 145,
     "name": "Thomas Kosmala No. 4 Après l’Amour",
     "cat": "Селектив",
     "volumes": [
-      "2",
-      "3",
-      "4",
-      "5",
-      "10",
-      "15",
-      "20",
-      "30",
-      "50",
-      "100"
+      2,
+      3,
+      4,
+      5,
+      10,
+      15,
+      20,
+      30,
+      50,
+      100
     ],
     "price": {
       "2": 340,
@@ -3231,24 +3507,28 @@
       "50": 7250,
       "100": 14300
     },
-    "notes": "",
-    "kind": "perfume"
+    "notes": "Верхние ноты: лимонная цедра, цветок горького апельсина\nСердце: ароматические специи\nБаза: мускус, амбра, древесные ноты",
+    "kind": "perfume",
+    "image": "assets/perfumes/53742.jpg",
+    "notesSource": "https://www.fragrantica.com/perfume/Thomas-Kosmala/Apr-s-l-Amour-53742.html",
+    "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.53742.jpg",
+    "referenceVersion": "Nọ 4 - Après l’Amour Eau de Parfum Thomas Kosmala perfume - a fragrance for women and men 2018"
   },
   {
     "id": 146,
     "name": "Zielinski & Rozen Black Pepper",
     "cat": "Селектив",
     "volumes": [
-      "2",
-      "3",
-      "4",
-      "5",
-      "10",
-      "15",
-      "20",
-      "30",
-      "50",
-      "100"
+      2,
+      3,
+      4,
+      5,
+      10,
+      15,
+      20,
+      30,
+      50,
+      100
     ],
     "price": {
       "2": 340,
@@ -3262,24 +3542,28 @@
       "50": 7250,
       "100": 14300
     },
-    "notes": "",
-    "kind": "perfume"
+    "notes": "Ноты: чёрный перец, амбра, нероли",
+    "kind": "perfume",
+    "image": "assets/perfumes/65074.jpg",
+    "notesSource": "https://www.fragrantica.com/perfume/Zielinski-Rozen/Black-Pepper-Amber-Neroli-65074.html",
+    "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.65074.jpg",
+    "referenceVersion": "Black Pepper & Amber, Neroli Zielinski & Rozen perfume - a fragrance for women and men"
   },
   {
     "id": 147,
     "name": "Zarkoperfume Pink Molecule 090·09",
     "cat": "Селектив",
     "volumes": [
-      "2",
-      "3",
-      "4",
-      "5",
-      "10",
-      "15",
-      "20",
-      "30",
-      "50",
-      "100"
+      2,
+      3,
+      4,
+      5,
+      10,
+      15,
+      20,
+      30,
+      50,
+      100
     ],
     "price": {
       "2": 340,
@@ -3293,24 +3577,28 @@
       "50": 7250,
       "100": 14300
     },
-    "notes": "",
-    "kind": "perfume"
+    "notes": "Ноты: шампанское, абрикос, чёрная бузина, чёрная орхидея\nНоты: взбитые сливки, чёрное дерево, красное дерево",
+    "kind": "perfume",
+    "image": "assets/perfumes/25474.jpg",
+    "notesSource": "https://www.fragrantica.com/perfume/ZARKOPERFUME/PINK-MOL-CULE-090-09-25474.html",
+    "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.25474.jpg",
+    "referenceVersion": "PINK MOLéCULE 090.09 ZARKOPERFUME perfume - a fragrance for women and men 2014"
   },
   {
     "id": 148,
     "name": "Antonio Banderas Blue Seduction",
     "cat": "Люкс",
     "volumes": [
-      "2",
-      "3",
-      "4",
-      "5",
-      "10",
-      "15",
-      "20",
-      "30",
-      "50",
-      "100"
+      2,
+      3,
+      4,
+      5,
+      10,
+      15,
+      20,
+      30,
+      50,
+      100
     ],
     "price": {
       "2": 220,
@@ -3324,24 +3612,28 @@
       "50": 4150,
       "100": 8000
     },
-    "notes": "",
-    "kind": "perfume"
+    "notes": "Верхние ноты: дыня, бергамот, мята, чёрная смородина\nСердце: морская вода, зелёное яблоко, капучино, кардамон, мускатный орех\nБаза: древесные ноты, амбра",
+    "kind": "perfume",
+    "image": "assets/perfumes/1088.jpg",
+    "notesSource": "https://www.fragrantica.com/perfume/Antonio-Banderas/Blue-Seduction-1088.html",
+    "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.1088.jpg",
+    "referenceVersion": "Blue Seduction Antonio Banderas cologne - a fragrance for men 2007"
   },
   {
     "id": 149,
     "name": "Giorgio Armani Stronger With You",
     "cat": "Люкс",
     "volumes": [
-      "2",
-      "3",
-      "4",
-      "5",
-      "10",
-      "15",
-      "20",
-      "30",
-      "50",
-      "100"
+      2,
+      3,
+      4,
+      5,
+      10,
+      15,
+      20,
+      30,
+      50,
+      100
     ],
     "price": {
       "2": 220,
@@ -3355,24 +3647,28 @@
       "50": 4150,
       "100": 8000
     },
-    "notes": "",
-    "kind": "perfume"
+    "notes": "Верхние ноты: каштан, сахар\nСердце: лаванда, шалфей\nБаза: ваниль, дым",
+    "kind": "perfume",
+    "image": "assets/perfumes/45258.jpg",
+    "notesSource": "https://www.fragrantica.com/perfume/Giorgio-Armani/Emporio-Armani-Stronger-With-You-45258.html",
+    "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.45258.jpg",
+    "referenceVersion": "Emporio Armani Stronger With You Giorgio Armani cologne - a fragrance for men 2017"
   },
   {
     "id": 150,
     "name": "Baldessarini Ambre",
     "cat": "Люкс",
     "volumes": [
-      "2",
-      "3",
-      "4",
-      "5",
-      "10",
-      "15",
-      "20",
-      "30",
-      "50",
-      "100"
+      2,
+      3,
+      4,
+      5,
+      10,
+      15,
+      20,
+      30,
+      50,
+      100
     ],
     "price": {
       "2": 220,
@@ -3386,24 +3682,28 @@
       "50": 4150,
       "100": 8000
     },
-    "notes": "",
-    "kind": "perfume"
+    "notes": "Верхние ноты: красное яблоко, мандарин, виски\nСердце: кожа, фиалка\nБаза: амбра, дуб, ваниль, лабданум",
+    "kind": "perfume",
+    "image": "assets/perfumes/797.jpg",
+    "notesSource": "https://www.fragrantica.com/perfume/Baldessarini/Ambre-797.html",
+    "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.797.jpg",
+    "referenceVersion": "Ambré Baldessarini cologne - a fragrance for men 2007"
   },
   {
     "id": 151,
     "name": "Hugo Boss Boss Orange",
     "cat": "Люкс",
     "volumes": [
-      "2",
-      "3",
-      "4",
-      "5",
-      "10",
-      "15",
-      "20",
-      "30",
-      "50",
-      "100"
+      2,
+      3,
+      4,
+      5,
+      10,
+      15,
+      20,
+      30,
+      50,
+      100
     ],
     "price": {
       "2": 220,
@@ -3417,24 +3717,28 @@
       "50": 4150,
       "100": 8000
     },
-    "notes": "",
-    "kind": "perfume"
+    "notes": "Верхние ноты: красное яблоко\nСердце: африканский апельсиновый цвет, белые цветы\nБаза: ваниль, сандал, оливковое дерево",
+    "kind": "perfume",
+    "image": "assets/perfumes/5979.jpg",
+    "notesSource": "https://www.fragrantica.com/p/5979",
+    "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.5979.jpg",
+    "referenceVersion": "Boss Orange Hugo Boss perfume - a fragrance for women 2009"
   },
   {
     "id": 152,
     "name": "Burberry My Burberry Blush",
     "cat": "Люкс",
     "volumes": [
-      "2",
-      "3",
-      "4",
-      "5",
-      "10",
-      "15",
-      "20",
-      "30",
-      "50",
-      "100"
+      2,
+      3,
+      4,
+      5,
+      10,
+      15,
+      20,
+      30,
+      50,
+      100
     ],
     "price": {
       "2": 220,
@@ -3448,24 +3752,28 @@
       "50": 4150,
       "100": 8000
     },
-    "notes": "",
-    "kind": "perfume"
+    "notes": "Верхние ноты: гранат, лимон\nСердце: зелёное яблоко, лепестки розы, герань\nБаза: глициния, жасмин",
+    "kind": "perfume",
+    "image": "assets/perfumes/45820.jpg",
+    "notesSource": "https://www.fragrantica.com/p/45820",
+    "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.45820.jpg",
+    "referenceVersion": "My Burberry Blush Burberry perfume - a fragrance for women 2017"
   },
   {
     "id": 153,
     "name": "Chanel Allure Homme Sport",
     "cat": "Люкс",
     "volumes": [
-      "2",
-      "3",
-      "4",
-      "5",
-      "10",
-      "15",
-      "20",
-      "30",
-      "50",
-      "100"
+      2,
+      3,
+      4,
+      5,
+      10,
+      15,
+      20,
+      30,
+      50,
+      100
     ],
     "price": {
       "2": 220,
@@ -3479,24 +3787,28 @@
       "50": 4150,
       "100": 8000
     },
-    "notes": "",
-    "kind": "perfume"
+    "notes": "Верхние ноты: апельсин, морские ноты, альдегиды, красный мандарин\nСердце: перец, нероли, кедр\nБаза: ваниль, бобы тонка, белый мускус, амбра, ветивер, смола элеми",
+    "kind": "perfume",
+    "image": "assets/perfumes/607.jpg",
+    "notesSource": "https://www.fragrantica.com/perfume/Chanel/Allure-Homme-Sport-607.html",
+    "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.607.jpg",
+    "referenceVersion": "Allure Homme Sport Chanel cologne - a fragrance for men 2004"
   },
   {
     "id": 154,
     "name": "Chanel Chance",
     "cat": "Люкс",
     "volumes": [
-      "2",
-      "3",
-      "4",
-      "5",
-      "10",
-      "15",
-      "20",
-      "30",
-      "50",
-      "100"
+      2,
+      3,
+      4,
+      5,
+      10,
+      15,
+      20,
+      30,
+      50,
+      100
     ],
     "price": {
       "2": 220,
@@ -3510,24 +3822,28 @@
       "50": 4150,
       "100": 8000
     },
-    "notes": "",
-    "kind": "perfume"
+    "notes": "Верхние ноты: пачули, розовый перец, ананас, гиацинт, ирис\nСердце: лимон, жасмин, роза\nБаза: пачули, мускус, ветивер, ваниль",
+    "kind": "perfume",
+    "image": "assets/perfumes/610.jpg",
+    "notesSource": "https://www.fragrantica.com/perfume/Chanel/Chance-610.html",
+    "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.610.jpg",
+    "referenceVersion": "Chance Eau de Toilette Chanel perfume - a fragrance for women 2002"
   },
   {
     "id": 155,
     "name": "Chanel Coco Mademoiselle",
     "cat": "Люкс",
     "volumes": [
-      "2",
-      "3",
-      "4",
-      "5",
-      "10",
-      "15",
-      "20",
-      "30",
-      "50",
-      "100"
+      2,
+      3,
+      4,
+      5,
+      10,
+      15,
+      20,
+      30,
+      50,
+      100
     ],
     "price": {
       "2": 220,
@@ -3541,24 +3857,28 @@
       "50": 4150,
       "100": 8000
     },
-    "notes": "",
-    "kind": "perfume"
+    "notes": "Верхние ноты: апельсин, мандарин, бергамот, апельсиновый цвет\nСердце: турецкая роза, жасмин, мимоза, иланг-иланг\nБаза: пачули, белый мускус, ваниль, ветивер, бобы тонка, опопонакс",
+    "kind": "perfume",
+    "image": "assets/perfumes/611.jpg",
+    "notesSource": "https://www.fragrantica.com/perfume/Chanel/Coco-Mademoiselle-611.html",
+    "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.611.jpg",
+    "referenceVersion": "Coco Mademoiselle Chanel perfume - a fragrance for women 2001"
   },
   {
     "id": 156,
     "name": "Chanel Égoïste",
     "cat": "Люкс",
     "volumes": [
-      "2",
-      "3",
-      "4",
-      "5",
-      "10",
-      "15",
-      "20",
-      "30",
-      "50",
-      "100"
+      2,
+      3,
+      4,
+      5,
+      10,
+      15,
+      20,
+      30,
+      50,
+      100
     ],
     "price": {
       "2": 220,
@@ -3572,24 +3892,28 @@
       "50": 4150,
       "100": 8000
     },
-    "notes": "",
-    "kind": "perfume"
+    "notes": "Верхние ноты: бразильский палисандр, кориандр, сицилийский мандарин, красное дерево\nСердце: корица, дамасская роза, гвоздика (цветок)\nБаза: сандал, табак, ваниль, кожа, амбра, амбретта",
+    "kind": "perfume",
+    "image": "assets/perfumes/613.jpg",
+    "notesSource": "https://www.fragrantica.com/parfem/Chanel/Egoiste-613.html",
+    "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.613.jpg",
+    "referenceVersion": "Egoiste Chanel cologne - a fragrance for men 1990"
   },
   {
     "id": 157,
     "name": "Chanel Chance Eau Fraîche",
     "cat": "Люкс",
     "volumes": [
-      "2",
-      "3",
-      "4",
-      "5",
-      "10",
-      "15",
-      "20",
-      "30",
-      "50",
-      "100"
+      2,
+      3,
+      4,
+      5,
+      10,
+      15,
+      20,
+      30,
+      50,
+      100
     ],
     "price": {
       "2": 220,
@@ -3603,24 +3927,28 @@
       "50": 4150,
       "100": 8000
     },
-    "notes": "",
-    "kind": "perfume"
+    "notes": "Верхние ноты: лимон, кедр, цитрон\nСердце: водяной гиацинт, розовый перец, жасмин\nБаза: белый мускус, пачули, ветивер, тиковое дерево, ирис, амбра",
+    "kind": "perfume",
+    "image": "assets/perfumes/1483.jpg",
+    "notesSource": "https://www.fragrantica.com/perfume/Chanel/Chance-Eau-Fraiche-1483.html",
+    "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.1483.jpg",
+    "referenceVersion": "Chance Eau Fraiche Chanel perfume - a fragrance for women 2007"
   },
   {
     "id": 158,
     "name": "Dolce & Gabbana L’Imperatrice",
     "cat": "Люкс",
     "volumes": [
-      "2",
-      "3",
-      "4",
-      "5",
-      "10",
-      "15",
-      "20",
-      "30",
-      "50",
-      "100"
+      2,
+      3,
+      4,
+      5,
+      10,
+      15,
+      20,
+      30,
+      50,
+      100
     ],
     "price": {
       "2": 220,
@@ -3634,8 +3962,12 @@
       "50": 4150,
       "100": 8000
     },
-    "notes": "",
-    "kind": "perfume"
+    "notes": "Верхние ноты: киви, ревень, розовый перец\nСердце: арбуз, цикламен, жасмин\nБаза: лимонное дерево, мускус, сандал",
+    "kind": "perfume",
+    "image": "assets/perfumes/6086.jpg",
+    "notesSource": "https://www.fragrantica.com/perfume/Dolce-Gabbana/D-G-Anthology-L-Imperatrice-3-6086.html",
+    "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.6086.jpg",
+    "referenceVersion": "D&G Anthology L'Imperatrice 3 Dolce&Gabbana perfume - a fragrance for women 2009"
   },
   {
     "id": 159,
@@ -3673,16 +4005,16 @@
     "name": "Dior J’adore",
     "cat": "Люкс",
     "volumes": [
-      "2",
-      "3",
-      "4",
-      "5",
-      "10",
-      "15",
-      "20",
-      "30",
-      "50",
-      "100"
+      2,
+      3,
+      4,
+      5,
+      10,
+      15,
+      20,
+      30,
+      50,
+      100
     ],
     "price": {
       "2": 220,
@@ -3696,24 +4028,28 @@
       "50": 4150,
       "100": 8000
     },
-    "notes": "",
-    "kind": "perfume"
+    "notes": "Верхние ноты: груша, дыня, магнолия, персик, мандарин, бергамот\nСердце: жасмин, ландыш, тубероза, фрезия, роза, орхидея, фиалка, слива\nБаза: мускус, ваниль, кедр, ежевика",
+    "kind": "perfume",
+    "image": "assets/perfumes/210.jpg",
+    "notesSource": "https://www.fragrantica.com/perfume/Dior/J-adore-210.html",
+    "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.210.jpg",
+    "referenceVersion": "J'adore Dior perfume - a fragrance for women 1999"
   },
   {
     "id": 161,
     "name": "Dolce & Gabbana Q",
     "cat": "Люкс",
     "volumes": [
-      "2",
-      "3",
-      "4",
-      "5",
-      "10",
-      "15",
-      "20",
-      "30",
-      "50",
-      "100"
+      2,
+      3,
+      4,
+      5,
+      10,
+      15,
+      20,
+      30,
+      50,
+      100
     ],
     "price": {
       "2": 220,
@@ -3727,24 +4063,28 @@
       "50": 4150,
       "100": 8000
     },
-    "notes": "",
-    "kind": "perfume"
+    "notes": "Верхние ноты: сицилийский лимон, красный апельсин, жасмин\nСердце: вишня, гелиотроп\nБаза: мускус, кедр",
+    "kind": "perfume",
+    "image": "assets/perfumes/78873.jpg",
+    "notesSource": "https://www.fragrantica.com/perfume/Dolce-Gabbana/Q-by-Dolce-Gabbana-78873.html",
+    "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.78873.jpg",
+    "referenceVersion": "Q by Dolce & Gabbana Dolce&Gabbana perfume - a fragrance for women 2023"
   },
   {
     "id": 162,
     "name": "Lanvin Éclat d’Arpège",
     "cat": "Люкс",
     "volumes": [
-      "2",
-      "3",
-      "4",
-      "5",
-      "10",
-      "15",
-      "20",
-      "30",
-      "50",
-      "100"
+      2,
+      3,
+      4,
+      5,
+      10,
+      15,
+      20,
+      30,
+      50,
+      100
     ],
     "price": {
       "2": 220,
@@ -3758,8 +4098,12 @@
       "50": 4150,
       "100": 8000
     },
-    "notes": "",
-    "kind": "perfume"
+    "notes": "Ноты: зелёная сирень, чайный лист, пион, цветок персика, мускус, глициния, петитгрейн, китайский османтус, кедр, амбра",
+    "kind": "perfume",
+    "image": "assets/perfumes/988.jpg",
+    "notesSource": "https://www.fragrantica.com/p/988",
+    "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.988.jpg",
+    "referenceVersion": "Eclat d’Arpège Lanvin perfume - a fragrance for women 2002"
   },
   {
     "id": 163,
@@ -3797,16 +4141,16 @@
     "name": "Givenchy Gentleman Society Eau de Parfum",
     "cat": "Люкс",
     "volumes": [
-      "2",
-      "3",
-      "4",
-      "5",
-      "10",
-      "15",
-      "20",
-      "30",
-      "50",
-      "100"
+      2,
+      3,
+      4,
+      5,
+      10,
+      15,
+      20,
+      30,
+      50,
+      100
     ],
     "price": {
       "2": 220,
@@ -3820,24 +4164,28 @@
       "50": 4150,
       "100": 8000
     },
-    "notes": "",
-    "kind": "perfume"
+    "notes": "Верхние ноты: кардамон, шалфей\nСердце: французский нарцисс, гаитянский ветивер, мадагаскарский ветивер\nБаза: ваниль, пало санто, кедр",
+    "kind": "perfume",
+    "image": "assets/perfumes/78639.jpg",
+    "notesSource": "https://www.fragrantica.com/perfume/Givenchy/Gentleman-Society-78639.html?ccid=1822995",
+    "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.78639.jpg",
+    "referenceVersion": "Gentleman Society Givenchy cologne - a fragrance for men 2023"
   },
   {
     "id": 165,
     "name": "Givenchy Irresistible",
     "cat": "Люкс",
     "volumes": [
-      "2",
-      "3",
-      "4",
-      "5",
-      "10",
-      "15",
-      "20",
-      "30",
-      "50",
-      "100"
+      2,
+      3,
+      4,
+      5,
+      10,
+      15,
+      20,
+      30,
+      50,
+      100
     ],
     "price": {
       "2": 220,
@@ -3851,24 +4199,28 @@
       "50": 4150,
       "100": 8000
     },
-    "notes": "",
-    "kind": "perfume"
+    "notes": "Верхние ноты: груша, амбретта\nСердце: роза, ирис\nБаза: мускус, виргинский кедр",
+    "kind": "perfume",
+    "image": "assets/perfumes/60891.jpg",
+    "notesSource": "https://www.fragrantica.com/perfume/Givenchy/Irr-sistible-Givenchy-60891.html",
+    "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.60891.jpg",
+    "referenceVersion": "Irresistible Givenchy Givenchy perfume - a fragrance for women 2020"
   },
   {
     "id": 166,
     "name": "Givenchy L’Interdit",
     "cat": "Люкс",
     "volumes": [
-      "2",
-      "3",
-      "4",
-      "5",
-      "10",
-      "15",
-      "20",
-      "30",
-      "50",
-      "100"
+      2,
+      3,
+      4,
+      5,
+      10,
+      15,
+      20,
+      30,
+      50,
+      100
     ],
     "price": {
       "2": 220,
@@ -3882,24 +4234,28 @@
       "50": 4150,
       "100": 8000
     },
-    "notes": "",
-    "kind": "perfume"
+    "notes": "Верхние ноты: груша, бергамот\nСердце: тубероза, апельсиновый цвет, жасмин самбак\nБаза: пачули, ваниль, амброксан, ветивер",
+    "kind": "perfume",
+    "image": "assets/perfumes/51488.jpg",
+    "notesSource": "https://www.fragrantica.com/perfume/Givenchy/L-Interdit-2018--51488.html",
+    "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.51488.jpg",
+    "referenceVersion": "L'Interdit Eau de Parfum Givenchy perfume - a fragrance for women 2018"
   },
   {
     "id": 167,
     "name": "Gucci Flora Gorgeous Gardenia Intense",
     "cat": "Люкс",
     "volumes": [
-      "2",
-      "3",
-      "4",
-      "5",
-      "10",
-      "15",
-      "20",
-      "30",
-      "50",
-      "100"
+      2,
+      3,
+      4,
+      5,
+      10,
+      15,
+      20,
+      30,
+      50,
+      100
     ],
     "price": {
       "2": 220,
@@ -3913,24 +4269,28 @@
       "50": 4150,
       "100": 8000
     },
-    "notes": "",
-    "kind": "perfume"
+    "notes": "Верхние ноты: мандарин\nСердце: гардения, гедион\nБаза: сандал",
+    "kind": "perfume",
+    "image": "assets/perfumes/106623.jpg",
+    "notesSource": "https://www.fragrantica.com/perfume/Gucci/Flora-Gorgeous-Gardenia-Intense-106623.html",
+    "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.106623.jpg",
+    "referenceVersion": "Flora Gorgeous Gardenia Intense Gucci perfume - a new fragrance for women 2025"
   },
   {
     "id": 168,
     "name": "Hugo Boss Bottled",
     "cat": "Люкс",
     "volumes": [
-      "2",
-      "3",
-      "4",
-      "5",
-      "10",
-      "15",
-      "20",
-      "30",
-      "50",
-      "100"
+      2,
+      3,
+      4,
+      5,
+      10,
+      15,
+      20,
+      30,
+      50,
+      100
     ],
     "price": {
       "2": 220,
@@ -3944,24 +4304,28 @@
       "50": 4150,
       "100": 8000
     },
-    "notes": "",
-    "kind": "perfume"
+    "notes": "Верхние ноты: яблоко, слива, бергамот, лимон, дубовый мох, герань\nСердце: корица, красное дерево, гвоздика (цветок)\nБаза: ваниль, сандал, кедр, ветивер, оливковое дерево",
+    "kind": "perfume",
+    "image": "assets/perfumes/383.jpg",
+    "notesSource": "https://www.fragrantica.com/perfume/Hugo-Boss/Boss-Bottled-383.html",
+    "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.383.jpg",
+    "referenceVersion": "Boss Bottled Hugo Boss cologne - a fragrance for men 1998"
   },
   {
     "id": 169,
     "name": "Hugo Boss Hugo Man",
     "cat": "Люкс",
     "volumes": [
-      "2",
-      "3",
-      "4",
-      "5",
-      "10",
-      "15",
-      "20",
-      "30",
-      "50",
-      "100"
+      2,
+      3,
+      4,
+      5,
+      10,
+      15,
+      20,
+      30,
+      50,
+      100
     ],
     "price": {
       "2": 220,
@@ -3975,24 +4339,28 @@
       "50": 4150,
       "100": 8000
     },
-    "notes": "",
-    "kind": "perfume"
+    "notes": "Верхние ноты: зелёное яблоко\nСердце: лаванда\nБаза: сосна, древесные ноты, бальзамическая пихта",
+    "kind": "perfume",
+    "image": "assets/perfumes/64606.jpg",
+    "notesSource": "https://www.fragrantica.com/perfume/Hugo-Boss/Hugo-Man-64606.html",
+    "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.64606.jpg",
+    "referenceVersion": "Hugo Man Hugo Boss cologne - a fragrance for men 2021"
   },
   {
     "id": 170,
     "name": "Lacoste Pour Femme",
     "cat": "Люкс",
     "volumes": [
-      "2",
-      "3",
-      "4",
-      "5",
-      "10",
-      "15",
-      "20",
-      "30",
-      "50",
-      "100"
+      2,
+      3,
+      4,
+      5,
+      10,
+      15,
+      20,
+      30,
+      50,
+      100
     ],
     "price": {
       "2": 220,
@@ -4006,24 +4374,28 @@
       "50": 4150,
       "100": 8000
     },
-    "notes": "",
-    "kind": "perfume"
+    "notes": "Верхние ноты: фрезия, перец, яблоко\nСердце: фиалка, гелиотроп, жасмин, гибискус, роза\nБаза: замша, сандал, кедр, ладан, лабданум",
+    "kind": "perfume",
+    "image": "assets/perfumes/669.jpg",
+    "notesSource": "https://www.fragrantica.com/perfume/Lacoste-Fragrances/Lacoste-Pour-Femme-669.html",
+    "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.669.jpg",
+    "referenceVersion": "Lacoste Pour Femme Lacoste Fragrances perfume - a fragrance for women 2003"
   },
   {
     "id": 171,
     "name": "Lattafa Yara",
     "cat": "Люкс",
     "volumes": [
-      "2",
-      "3",
-      "4",
-      "5",
-      "10",
-      "15",
-      "20",
-      "30",
-      "50",
-      "100"
+      2,
+      3,
+      4,
+      5,
+      10,
+      15,
+      20,
+      30,
+      50,
+      100
     ],
     "price": {
       "2": 220,
@@ -4037,24 +4409,28 @@
       "50": 4150,
       "100": 8000
     },
-    "notes": "",
-    "kind": "perfume"
+    "notes": "Верхние ноты: орхидея, гелиотроп, мандарин\nСердце: гурманский аккорд, тропические фрукты\nБаза: ваниль, мускус, сандал",
+    "kind": "perfume",
+    "image": "assets/perfumes/76880.jpg",
+    "notesSource": "https://www.fragrantica.com/perfume/Lattafa-Perfumes/yara-76880.html",
+    "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.76880.jpg",
+    "referenceVersion": "Yara Lattafa Perfumes perfume - a fragrance for women 2020"
   },
   {
     "id": 172,
     "name": "Dolce & Gabbana Light Blue",
     "cat": "Люкс",
     "volumes": [
-      "2",
-      "3",
-      "4",
-      "5",
-      "10",
-      "15",
-      "20",
-      "30",
-      "50",
-      "100"
+      2,
+      3,
+      4,
+      5,
+      10,
+      15,
+      20,
+      30,
+      50,
+      100
     ],
     "price": {
       "2": 220,
@@ -4068,24 +4444,28 @@
       "50": 4150,
       "100": 8000
     },
-    "notes": "",
-    "kind": "perfume"
+    "notes": "Верхние ноты: сицилийский лимон, яблоко, кедр, колокольчик\nСердце: бамбук, жасмин, белая роза\nБаза: кедр, мускус, амбра",
+    "kind": "perfume",
+    "image": "assets/perfumes/485.jpg",
+    "notesSource": "https://www.fragrantica.com/perfume/dolce-gabbana/light-blue-485.html",
+    "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.485.jpg",
+    "referenceVersion": "Light Blue Dolce&Gabbana perfume - a fragrance for women 2001"
   },
   {
     "id": 173,
     "name": "Montale Chocolate Greedy",
     "cat": "Люкс",
     "volumes": [
-      "2",
-      "3",
-      "4",
-      "5",
-      "10",
-      "15",
-      "20",
-      "30",
-      "50",
-      "100"
+      2,
+      3,
+      4,
+      5,
+      10,
+      15,
+      20,
+      30,
+      50,
+      100
     ],
     "price": {
       "2": 220,
@@ -4099,24 +4479,28 @@
       "50": 4150,
       "100": 8000
     },
-    "notes": "",
-    "kind": "perfume"
+    "notes": "Ноты: какао, ваниль, бобы тонка, горький апельсин, сухофрукты, кофе",
+    "kind": "perfume",
+    "image": "assets/perfumes/2186.jpg",
+    "notesSource": "https://www.fragrantica.com/perfume/Montale/Chocolate-Greedy-2186.html",
+    "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.2186.jpg",
+    "referenceVersion": "Chocolate Greedy Montale perfume - a fragrance for women and men 2007"
   },
   {
     "id": 174,
     "name": "Montale Sweet Vanilla",
     "cat": "Люкс",
     "volumes": [
-      "2",
-      "3",
-      "4",
-      "5",
-      "10",
-      "15",
-      "20",
-      "30",
-      "50",
-      "100"
+      2,
+      3,
+      4,
+      5,
+      10,
+      15,
+      20,
+      30,
+      50,
+      100
     ],
     "price": {
       "2": 220,
@@ -4130,24 +4514,28 @@
       "50": 4150,
       "100": 8000
     },
-    "notes": "",
-    "kind": "perfume"
+    "notes": "Ноты: ваниль, абрикос",
+    "kind": "perfume",
+    "image": "assets/perfumes/39411.jpg",
+    "notesSource": "https://www.fragrantica.com/perfume/Montale/Sweet-Vanilla-39411.html",
+    "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.39411.jpg",
+    "referenceVersion": "Sweet Vanilla Montale perfume - a fragrance for women and men 2015"
   },
   {
     "id": 175,
     "name": "Montale Vanille Absolu",
     "cat": "Люкс",
     "volumes": [
-      "2",
-      "3",
-      "4",
-      "5",
-      "10",
-      "15",
-      "20",
-      "30",
-      "50",
-      "100"
+      2,
+      3,
+      4,
+      5,
+      10,
+      15,
+      20,
+      30,
+      50,
+      100
     ],
     "price": {
       "2": 220,
@@ -4161,24 +4549,28 @@
       "50": 4150,
       "100": 8000
     },
-    "notes": "",
-    "kind": "perfume"
+    "notes": "Верхние ноты: слива, вишня\nСердце: ваниль, карамель\nБаза: белый мускус",
+    "kind": "perfume",
+    "image": "assets/perfumes/4064.jpg",
+    "notesSource": "https://www.montaleparfums.com/nl/gourmand/80-vanille-absolu.html",
+    "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.4064.jpg",
+    "referenceVersion": "Vanille Absolu Montale perfume - a fragrance for women 2008"
   },
   {
     "id": 176,
     "name": "Paco Rabanne 1 Million",
     "cat": "Люкс",
     "volumes": [
-      "2",
-      "3",
-      "4",
-      "5",
-      "10",
-      "15",
-      "20",
-      "30",
-      "50",
-      "100"
+      2,
+      3,
+      4,
+      5,
+      10,
+      15,
+      20,
+      30,
+      50,
+      100
     ],
     "price": {
       "2": 220,
@@ -4192,24 +4584,28 @@
       "50": 4150,
       "100": 8000
     },
-    "notes": "",
-    "kind": "perfume"
+    "notes": "Верхние ноты: красный мандарин, грейпфрут, мята\nСердце: корица, пряные ноты, роза\nБаза: амбра, кожа, древесные ноты, индийские пачули",
+    "kind": "perfume",
+    "image": "assets/perfumes/3747.jpg",
+    "notesSource": "https://www.fragrantica.com/perfume/Paco-Rabanne/1-Million-3747.html",
+    "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.3747.jpg",
+    "referenceVersion": "1 Million Rabanne cologne - a fragrance for men 2008"
   },
   {
     "id": 177,
     "name": "Victoria’s Secret Aqua Kiss",
     "cat": "Люкс",
     "volumes": [
-      "2",
-      "3",
-      "4",
-      "5",
-      "10",
-      "15",
-      "20",
-      "30",
-      "50",
-      "100"
+      2,
+      3,
+      4,
+      5,
+      10,
+      15,
+      20,
+      30,
+      50,
+      100
     ],
     "price": {
       "2": 220,
@@ -4223,24 +4619,28 @@
       "50": 4150,
       "100": 8000
     },
-    "notes": "",
-    "kind": "perfume"
+    "notes": "Ноты: морские ноты, фрезия, алоэ вера, маргаритка, ромашка, сладкие ноты, цветок сливы",
+    "kind": "perfume",
+    "image": "assets/perfumes/33495.jpg",
+    "notesSource": "https://www.fragrantica.com/perfume/Victoria-s-Secret/Aqua-Kiss-33495.html",
+    "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.33495.jpg",
+    "referenceVersion": "Aqua Kiss Victoria's Secret perfume - a fragrance for women 2012"
   },
   {
     "id": 178,
     "name": "Victoria’s Secret Scandalous",
     "cat": "Люкс",
     "volumes": [
-      "2",
-      "3",
-      "4",
-      "5",
-      "10",
-      "15",
-      "20",
-      "30",
-      "50",
-      "100"
+      2,
+      3,
+      4,
+      5,
+      10,
+      15,
+      20,
+      30,
+      50,
+      100
     ],
     "price": {
       "2": 220,
@@ -4254,24 +4654,28 @@
       "50": 4150,
       "100": 8000
     },
-    "notes": "",
-    "kind": "perfume"
+    "notes": "Верхние ноты: малина\nСердце: пион\nБаза: пралине",
+    "kind": "perfume",
+    "image": "assets/perfumes/123884.jpg",
+    "notesSource": "https://www.fragrantica.com/perfume/Victoria-s-Secret/Scandalous-123884.html",
+    "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.123884.jpg",
+    "referenceVersion": "Scandalous Victoria's Secret perfume - a fragrance for women 2014"
   },
   {
     "id": 179,
     "name": "Victoria’s Secret Eau So Sexy",
     "cat": "Люкс",
     "volumes": [
-      "2",
-      "3",
-      "4",
-      "5",
-      "10",
-      "15",
-      "20",
-      "30",
-      "50",
-      "100"
+      2,
+      3,
+      4,
+      5,
+      10,
+      15,
+      20,
+      30,
+      50,
+      100
     ],
     "price": {
       "2": 220,
@@ -4285,24 +4689,28 @@
       "50": 4150,
       "100": 8000
     },
-    "notes": "",
-    "kind": "perfume"
+    "notes": "Ноты: яблоко, взбитые сливки, бергамот",
+    "kind": "perfume",
+    "image": "assets/perfumes/26453.jpg",
+    "notesSource": "https://www.fragrantica.com/perfume/Victoria-s-Secret/Eau-So-Sexy-26453.html",
+    "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.26453.jpg",
+    "referenceVersion": "Eau So Sexy Victoria's Secret perfume - a fragrance for women 2014"
   },
   {
     "id": 180,
     "name": "Versace Bright Crystal",
     "cat": "Люкс",
     "volumes": [
-      "2",
-      "3",
-      "4",
-      "5",
-      "10",
-      "15",
-      "20",
-      "30",
-      "50",
-      "100"
+      2,
+      3,
+      4,
+      5,
+      10,
+      15,
+      20,
+      30,
+      50,
+      100
     ],
     "price": {
       "2": 220,
@@ -4316,24 +4724,28 @@
       "50": 4150,
       "100": 8000
     },
-    "notes": "",
-    "kind": "perfume"
+    "notes": "Верхние ноты: юдзу, гранат, лёд\nСердце: пион, лотос, магнолия\nБаза: мускус, красное дерево, амбра",
+    "kind": "perfume",
+    "image": "assets/perfumes/632.jpg",
+    "notesSource": "https://www.fragrantica.com/perfume/Versace/Bright-Crystal-632.html",
+    "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.632.jpg",
+    "referenceVersion": "Bright Crystal Versace perfume - a fragrance for women 2006"
   },
   {
     "id": 181,
     "name": "Versace Crystal Noir",
     "cat": "Люкс",
     "volumes": [
-      "2",
-      "3",
-      "4",
-      "5",
-      "10",
-      "15",
-      "20",
-      "30",
-      "50",
-      "100"
+      2,
+      3,
+      4,
+      5,
+      10,
+      15,
+      20,
+      30,
+      50,
+      100
     ],
     "price": {
       "2": 220,
@@ -4347,24 +4759,28 @@
       "50": 4150,
       "100": 8000
     },
-    "notes": "",
-    "kind": "perfume"
+    "notes": "Верхние ноты: перец, имбирь, кардамон\nСердце: кокос, гардения, апельсиновый цвет, пион\nБаза: сандал, мускус, амбра",
+    "kind": "perfume",
+    "image": "assets/perfumes/631.jpg",
+    "notesSource": "https://www.fragrantica.com/perfume/Versace/Crystal-Noir-631.html",
+    "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.631.jpg",
+    "referenceVersion": "Crystal Noir Versace perfume - a fragrance for women 2004"
   },
   {
     "id": 182,
     "name": "Versace Eros Flame",
     "cat": "Люкс",
     "volumes": [
-      "2",
-      "3",
-      "4",
-      "5",
-      "10",
-      "15",
-      "20",
-      "30",
-      "50",
-      "100"
+      2,
+      3,
+      4,
+      5,
+      10,
+      15,
+      20,
+      30,
+      50,
+      100
     ],
     "price": {
       "2": 220,
@@ -4378,24 +4794,28 @@
       "50": 4150,
       "100": 8000
     },
-    "notes": "",
-    "kind": "perfume"
+    "notes": "Верхние ноты: мандарин, мадагаскарский перец, лимон, кинотто, розмарин\nСердце: герань, роза, Pepperwood\nБаза: ваниль, бобы тонка, сандал, техасский кедр, пачули, дубовый мох",
+    "kind": "perfume",
+    "image": "assets/perfumes/52180.jpg",
+    "notesSource": "https://www.fragrantica.com/perfume/Versace/Eros-Flame-52180.html",
+    "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.52180.jpg",
+    "referenceVersion": "Eros Flame Versace cologne - a fragrance for men 2018"
   },
   {
     "id": 183,
     "name": "Versace Eros",
     "cat": "Люкс",
     "volumes": [
-      "2",
-      "3",
-      "4",
-      "5",
-      "10",
-      "15",
-      "20",
-      "30",
-      "50",
-      "100"
+      2,
+      3,
+      4,
+      5,
+      10,
+      15,
+      20,
+      30,
+      50,
+      100
     ],
     "price": {
       "2": 220,
@@ -4409,24 +4829,28 @@
       "50": 4150,
       "100": 8000
     },
-    "notes": "",
-    "kind": "perfume"
+    "notes": "Верхние ноты: мята, зелёное яблоко, лимон\nСердце: бобы тонка, амброксан, герань\nБаза: мадагаскарская ваниль, виргинский кедр, атласский кедр, ветивер, дубовый мох",
+    "kind": "perfume",
+    "image": "assets/perfumes/16657.jpg",
+    "notesSource": "https://www.fragrantica.com/perfume/Versace/Eros-16657.html",
+    "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.16657.jpg",
+    "referenceVersion": "Eros Versace cologne - a fragrance for men 2012"
   },
   {
     "id": 184,
     "name": "Victoria’s Secret Bombshell",
     "cat": "Люкс",
     "volumes": [
-      "2",
-      "3",
-      "4",
-      "5",
-      "10",
-      "15",
-      "20",
-      "30",
-      "50",
-      "100"
+      2,
+      3,
+      4,
+      5,
+      10,
+      15,
+      20,
+      30,
+      50,
+      100
     ],
     "price": {
       "2": 220,
@@ -4440,24 +4864,28 @@
       "50": 4150,
       "100": 8000
     },
-    "notes": "",
-    "kind": "perfume"
+    "notes": "Верхние ноты: маракуйя, грейпфрут, ананас, мандарин, клубника\nСердце: пион, ванильная орхидея, красные ягоды, жасмин, ландыш\nБаза: мускус, древесные ноты, дубовый мох",
+    "kind": "perfume",
+    "image": "assets/perfumes/10190.jpg",
+    "notesSource": "https://www.fragrantica.com/perfume/Victoria-s-Secret/Bombshell-10190.html",
+    "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.10190.jpg",
+    "referenceVersion": "Bombshell Victoria's Secret perfume - a fragrance for women 2010"
   },
   {
     "id": 185,
     "name": "Yves Saint Laurent Manifesto",
     "cat": "Люкс",
     "volumes": [
-      "2",
-      "3",
-      "4",
-      "5",
-      "10",
-      "15",
-      "20",
-      "30",
-      "50",
-      "100"
+      2,
+      3,
+      4,
+      5,
+      10,
+      15,
+      20,
+      30,
+      50,
+      100
     ],
     "price": {
       "2": 220,
@@ -4471,24 +4899,28 @@
       "50": 4150,
       "100": 8000
     },
-    "notes": "",
-    "kind": "perfume"
+    "notes": "Верхние ноты: чёрная смородина, зелёные ноты, бергамот\nСердце: жасмин самбак, ландыш\nБаза: ваниль, бобы тонка, сандал, кедр",
+    "kind": "perfume",
+    "image": "assets/perfumes/15540.jpg",
+    "notesSource": "https://www.fragrantica.com/perfume/Yves-Saint-Laurent/Manifesto-15540.html",
+    "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.15540.jpg",
+    "referenceVersion": "Manifesto Yves Saint Laurent perfume - a fragrance for women 2012"
   },
   {
     "id": 186,
     "name": "Zadig & Voltaire This is Him!",
     "cat": "Люкс",
     "volumes": [
-      "2",
-      "3",
-      "4",
-      "5",
-      "10",
-      "15",
-      "20",
-      "30",
-      "50",
-      "100"
+      2,
+      3,
+      4,
+      5,
+      10,
+      15,
+      20,
+      30,
+      50,
+      100
     ],
     "price": {
       "2": 220,
@@ -4502,24 +4934,28 @@
       "50": 4150,
       "100": 8000
     },
-    "notes": "",
-    "kind": "perfume"
+    "notes": "Верхние ноты: чёрный перец, грейпфрут\nСердце: ладан, ваниль\nБаза: сандал",
+    "kind": "perfume",
+    "image": "assets/perfumes/39359.jpg",
+    "notesSource": "https://www.fragrantica.com/perfume/Zadig-Voltaire/This-is-Him-39359.html",
+    "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.39359.jpg",
+    "referenceVersion": "This is Him Zadig & Voltaire cologne - a fragrance for men 2016"
   },
   {
     "id": 187,
     "name": "Carolina Herrera 212 Sexy Men",
     "cat": "Люкс",
     "volumes": [
-      "2",
-      "3",
-      "4",
-      "5",
-      "10",
-      "15",
-      "20",
-      "30",
-      "50",
-      "100"
+      2,
+      3,
+      4,
+      5,
+      10,
+      15,
+      20,
+      30,
+      50,
+      100
     ],
     "price": {
       "2": 220,
@@ -4533,8 +4969,12 @@
       "50": 4150,
       "100": 8000
     },
-    "notes": "",
-    "kind": "perfume"
+    "notes": "Верхние ноты: мандарин, бергамот, зелёные ноты\nСердце: перец, кардамон, цветы\nБаза: ваниль, гваяковое дерево, сандал, мускус, амбра",
+    "kind": "perfume",
+    "image": "assets/perfumes/1054.jpg",
+    "notesSource": "https://www.fragrantica.com/perfume/Carolina%20Herrera/Carolina-Herrera-212-Sexy-Men-1054.html",
+    "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.1054.jpg",
+    "referenceVersion": "212 Sexy Men Carolina Herrera cologne - a fragrance for men 2006"
   },
   {
     "id": 188,
@@ -5211,5 +5651,2980 @@
     },
     "notes": "Цена и наличие уточняются у менеджера",
     "kind": "original"
+  },
+  {
+    "id": 240,
+    "name": "Al-Rehab Choco Musk",
+    "cat": "Люкс",
+    "volumes": [
+      2,
+      3,
+      4,
+      5,
+      10,
+      15,
+      20,
+      30,
+      50,
+      100
+    ],
+    "price": {
+      "2": 220,
+      "3": 320,
+      "4": 420,
+      "5": 550,
+      "10": 1000,
+      "15": 1400,
+      "20": 1800,
+      "30": 2600,
+      "50": 4150,
+      "100": 8000
+    },
+    "notes": "Ноты: ваниль, молочный шоколад, белый мускус, пряные ноты, корица, амбра, сандал, мирра, роза",
+    "kind": "perfume",
+    "image": "assets/perfumes/20139.jpg",
+    "notesSource": "https://www.fragrantica.com/perfume/ALREHAB-PERFUMES/Choco-Musk-20139.html",
+    "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.20139.jpg?t=1789494472",
+    "referenceVersion": "Choco Musk ALREHAB PERFUMES perfume - a fragrance for women and men"
+  },
+  {
+    "id": 241,
+    "name": "Antonio Banderas Seduction in Black",
+    "cat": "Люкс",
+    "volumes": [
+      2,
+      3,
+      4,
+      5,
+      10,
+      15,
+      20,
+      30,
+      50,
+      100
+    ],
+    "price": {
+      "2": 220,
+      "3": 320,
+      "4": 420,
+      "5": 550,
+      "10": 1000,
+      "15": 1400,
+      "20": 1800,
+      "30": 2600,
+      "50": 4150,
+      "100": 8000
+    },
+    "notes": "Верхние ноты: чёрная смородина, бергамот\nСердце: мускатный орех, кардамон, кориандр\nБаза: бобы тонка, амбра, мускус, виргинский кедр",
+    "kind": "perfume",
+    "image": "assets/perfumes/banderas-black-seduction.webp",
+    "notesSource": "https://www.fragrantica.com/perfume/Antonio-Banderas/Seduction-in-Black-6746.html",
+    "imageSource": "https://www.banderasperfumes.com/uploads/products/images/seduction-black-gama-100ml_1675080411.png",
+    "referenceVersion": "Seduction in Black Antonio Banderas cologne - a fragrance for men 2009"
+  },
+  {
+    "id": 242,
+    "name": "Dior Fahrenheit",
+    "cat": "Люкс",
+    "volumes": [
+      2,
+      3,
+      4,
+      5,
+      10,
+      15,
+      20,
+      30,
+      50,
+      100
+    ],
+    "price": {
+      "2": 220,
+      "3": 320,
+      "4": 420,
+      "5": 550,
+      "10": 1000,
+      "15": 1400,
+      "20": 1800,
+      "30": 2600,
+      "50": 4150,
+      "100": 8000
+    },
+    "notes": "Верхние ноты: мускатный цвет, лаванда, кедр, мандарин, ромашка, бергамот, боярышник, лимон\nСердце: лист фиалки, мускатный орех, кедр, сандал, гвоздика (цветок), жимолость, жасмин, ландыш\nБаза: кожа, ветивер, мускус, амбра, пачули, бобы тонка",
+    "kind": "perfume",
+    "image": "assets/perfumes/228.jpg",
+    "notesSource": "https://www.fragrantica.com/perfume/Dior/Fahrenheit-228.html",
+    "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.228.jpg",
+    "referenceVersion": "Fahrenheit Dior cologne - a fragrance for men 1988"
+  },
+  {
+    "id": 243,
+    "name": "Dior Miss Dior Blooming Bouquet",
+    "cat": "Люкс",
+    "volumes": [
+      2,
+      3,
+      4,
+      5,
+      10,
+      15,
+      20,
+      30,
+      50,
+      100
+    ],
+    "price": {
+      "2": 220,
+      "3": 320,
+      "4": 420,
+      "5": 550,
+      "10": 1000,
+      "15": 1400,
+      "20": 1800,
+      "30": 2600,
+      "50": 4150,
+      "100": 8000
+    },
+    "notes": "Верхние ноты: сицилийский мандарин\nСердце: розовый пион, дамасская роза, абрикос, персик\nБаза: белый мускус",
+    "kind": "perfume",
+    "image": "assets/perfumes/23280.jpg",
+    "notesSource": "https://www.fragrantica.com/perfume/Christian-Dior/Miss-Dior-Blooming-Bouquet-23280.html",
+    "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.23280.jpg",
+    "referenceVersion": "Miss Dior Blooming Bouquet Dior perfume - a fragrance for women 2014"
+  },
+  {
+    "id": 244,
+    "name": "Dolce & Gabbana K",
+    "cat": "Люкс",
+    "volumes": [
+      2,
+      3,
+      4,
+      5,
+      10,
+      15,
+      20,
+      30,
+      50,
+      100
+    ],
+    "price": {
+      "2": 220,
+      "3": 320,
+      "4": 420,
+      "5": 550,
+      "10": 1000,
+      "15": 1400,
+      "20": 1800,
+      "30": 2600,
+      "50": 4150,
+      "100": 8000
+    },
+    "notes": "Верхние ноты: ягоды можжевельника, цитрусы, красный апельсин, сицилийский лимон\nСердце: душистый перец, лаванда, мускатный шалфей, герань\nБаза: ветивер, кедр, пачули",
+    "kind": "perfume",
+    "image": "assets/perfumes/56358.jpg",
+    "notesSource": "https://www.fragrantica.com/perfume/Dolce-Gabbana/K-by-Dolce-Gabbana-56358.html",
+    "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.56358.jpg",
+    "referenceVersion": "K by Dolce & Gabbana Dolce&Gabbana cologne - a fragrance for men 2019"
+  },
+  {
+    "id": 245,
+    "name": "Giorgio Armani My Way",
+    "cat": "Люкс",
+    "volumes": [
+      2,
+      3,
+      4,
+      5,
+      10,
+      15,
+      20,
+      30,
+      50,
+      100
+    ],
+    "price": {
+      "2": 220,
+      "3": 320,
+      "4": 420,
+      "5": 550,
+      "10": 1000,
+      "15": 1400,
+      "20": 1800,
+      "30": 2600,
+      "50": 4150,
+      "100": 8000
+    },
+    "notes": "Верхние ноты: апельсиновый цвет, бергамот\nСердце: тубероза, индийский жасмин\nБаза: мадагаскарская ваниль, белый мускус, виргинский кедр",
+    "kind": "perfume",
+    "image": "assets/perfumes/62036.jpg",
+    "notesSource": "https://www.fragrantica.com/perfume/giorgio-armani/my-way-62036.html",
+    "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.62036.jpg",
+    "referenceVersion": "My Way Giorgio Armani perfume - a fragrance for women 2020"
+  },
+  {
+    "id": 246,
+    "name": "Givenchy Ange ou Démon Le Secret",
+    "cat": "Люкс",
+    "volumes": [
+      2,
+      3,
+      4,
+      5,
+      10,
+      15,
+      20,
+      30,
+      50,
+      100
+    ],
+    "price": {
+      "2": 220,
+      "3": 320,
+      "4": 420,
+      "5": 550,
+      "10": 1000,
+      "15": 1400,
+      "20": 1800,
+      "30": 2600,
+      "50": 4150,
+      "100": 8000
+    },
+    "notes": "Верхние ноты: чай, клюква, амальфитанский лимон\nСердце: пион, жасмин, кувшинка\nБаза: древесные ноты, пачули",
+    "kind": "perfume",
+    "image": "assets/perfumes/6529.jpg",
+    "notesSource": "https://www.fragrantica.com/perfume/Givenchy/Ange-Ou-Demon-Le-Secret-6529.html?ccid=1668599",
+    "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.6529.jpg",
+    "referenceVersion": "Ange Ou Demon Le Secret Givenchy perfume - a fragrance for women 2009"
+  },
+  {
+    "id": 247,
+    "name": "Givenchy Blue Label",
+    "cat": "Люкс",
+    "volumes": [
+      2,
+      3,
+      4,
+      5,
+      10,
+      15,
+      20,
+      30,
+      50,
+      100
+    ],
+    "price": {
+      "2": 220,
+      "3": 320,
+      "4": 420,
+      "5": 550,
+      "10": 1000,
+      "15": 1400,
+      "20": 1800,
+      "30": 2600,
+      "50": 4150,
+      "100": 8000
+    },
+    "notes": "Верхние ноты: грейпфрут, бергамот\nСердце: перец, лаванда, кардамон, полынь\nБаза: кедр, ветивер, ладан",
+    "kind": "perfume",
+    "image": "assets/perfumes/38.jpg",
+    "notesSource": "https://www.fragrantica.com/perfume/Givenchy/Givenchy-pour-Homme-Blue-Label-38.html",
+    "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.38.jpg",
+    "referenceVersion": "Givenchy pour Homme Blue Label Givenchy cologne - a fragrance for men 2004"
+  },
+  {
+    "id": 248,
+    "name": "Gritti Tutu",
+    "cat": "Люкс",
+    "volumes": [
+      2,
+      3,
+      4,
+      5,
+      10,
+      15,
+      20,
+      30,
+      50,
+      100
+    ],
+    "price": {
+      "2": 220,
+      "3": 320,
+      "4": 420,
+      "5": 550,
+      "10": 1000,
+      "15": 1400,
+      "20": 1800,
+      "30": 2600,
+      "50": 4150,
+      "100": 8000
+    },
+    "notes": "Верхние ноты: кокос, яблоко, грейпфрут, чёрная смородина\nСердце: гелиотроп, жасмин, роза\nБаза: малина, мускус, ваниль, амбра",
+    "kind": "perfume",
+    "image": "assets/perfumes/54822.jpg",
+    "notesSource": "https://www.fragrantica.com/p/54822",
+    "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.54822.jpg",
+    "referenceVersion": "Tutù Gritti perfume - a fragrance for women 2019"
+  },
+  {
+    "id": 249,
+    "name": "Gucci Flora by Gucci Eau de Parfum",
+    "cat": "Люкс",
+    "volumes": [
+      2,
+      3,
+      4,
+      5,
+      10,
+      15,
+      20,
+      30,
+      50,
+      100
+    ],
+    "price": {
+      "2": 220,
+      "3": 320,
+      "4": 420,
+      "5": 550,
+      "10": 1000,
+      "15": 1400,
+      "20": 1800,
+      "30": 2600,
+      "50": 4150,
+      "100": 8000
+    },
+    "notes": "Верхние ноты: пион, цитрусы, мандарин\nСердце: османтус, роза\nБаза: сандал, пачули",
+    "kind": "perfume",
+    "image": "assets/perfumes/7610.jpg",
+    "notesSource": "https://www.fragrantica.com/perfume/Gucci/Flora-by-Gucci-Eau-de-Parfum-7610.html",
+    "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.7610.jpg",
+    "referenceVersion": "Flora by Gucci Eau de Parfum Gucci perfume - a fragrance for women 2010"
+  },
+  {
+    "id": 250,
+    "name": "Hermès Terre d’Hermès",
+    "cat": "Люкс",
+    "volumes": [
+      2,
+      3,
+      4,
+      5,
+      10,
+      15,
+      20,
+      30,
+      50,
+      100
+    ],
+    "price": {
+      "2": 220,
+      "3": 320,
+      "4": 420,
+      "5": 550,
+      "10": 1000,
+      "15": 1400,
+      "20": 1800,
+      "30": 2600,
+      "50": 4150,
+      "100": 8000
+    },
+    "notes": "Верхние ноты: апельсин, грейпфрут\nСердце: перец, пеларгония, кремень\nБаза: ветивер, кедр, пачули, бензоин",
+    "kind": "perfume",
+    "image": "assets/perfumes/17.jpg",
+    "notesSource": "https://www.fragrantica.com/perfume/herm-s/terre-d-hermes-17.html",
+    "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.17.jpg",
+    "referenceVersion": "Terre d'Hermès Hermès cologne - a fragrance for men 2006"
+  },
+  {
+    "id": 251,
+    "name": "Kenzo Flower by Kenzo",
+    "cat": "Люкс",
+    "volumes": [
+      2,
+      3,
+      4,
+      5,
+      10,
+      15,
+      20,
+      30,
+      50,
+      100
+    ],
+    "price": {
+      "2": 220,
+      "3": 320,
+      "4": 420,
+      "5": 550,
+      "10": 1000,
+      "15": 1400,
+      "20": 1800,
+      "30": 2600,
+      "50": 4150,
+      "100": 8000
+    },
+    "notes": "Верхние ноты: болгарская роза, боярышник, чёрная смородина, мандарин\nСердце: пармская фиалка, роза, опопонакс, жасмин\nБаза: белый мускус, ваниль, ладан",
+    "kind": "perfume",
+    "image": "assets/perfumes/72.jpg",
+    "notesSource": "https://www.fragrantica.com/perfume/Kenzo/Kenzo-Flower-by-Kenzo-72.html",
+    "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.72.jpg",
+    "referenceVersion": "Flower by Kenzo Kenzo perfume - a fragrance for women 2000"
+  },
+  {
+    "id": 252,
+    "name": "Kenzo L’Eau par Kenzo",
+    "cat": "Люкс",
+    "volumes": [
+      2,
+      3,
+      4,
+      5,
+      10,
+      15,
+      20,
+      30,
+      50,
+      100
+    ],
+    "price": {
+      "2": 220,
+      "3": 320,
+      "4": 420,
+      "5": 550,
+      "10": 1000,
+      "15": 1400,
+      "20": 1800,
+      "30": 2600,
+      "50": 4150,
+      "100": 8000
+    },
+    "notes": "Верхние ноты: тростник, мята, зелёная сирень, мандарин, розовый перец\nСердце: кувшинка, перец, фиалка, белый персик, амариллис, роза\nБаза: кедр, белый мускус, ваниль",
+    "kind": "perfume",
+    "image": "assets/perfumes/78.jpg",
+    "notesSource": "https://www.fragrantica.com/perfume/Kenzo/L-Eau-par-Kenzo-78.html",
+    "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.78.jpg",
+    "referenceVersion": "L'Eau par Kenzo Kenzo perfume - a fragrance for women 1996"
+  },
+  {
+    "id": 253,
+    "name": "La Sultane de Saba Voyage sur la Route des Épices",
+    "cat": "Люкс",
+    "volumes": [
+      2,
+      3,
+      4,
+      5,
+      10,
+      15,
+      20,
+      30,
+      50,
+      100
+    ],
+    "price": {
+      "2": 220,
+      "3": 320,
+      "4": 420,
+      "5": 550,
+      "10": 1000,
+      "15": 1400,
+      "20": 1800,
+      "30": 2600,
+      "50": 4150,
+      "100": 8000
+    },
+    "notes": "Верхние ноты: камфора, бергамот\nСердце: пачули, сандал, роза, ландыш\nБаза: абсолют ванили, бензоин, бобы тонка",
+    "kind": "perfume",
+    "image": "assets/perfumes/32591.jpg",
+    "notesSource": "https://www.fragrantica.com/perfume/La-Sultane-de-Saba/Voyage-sur-la-route-des-Epices-32591.html",
+    "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.32591.jpg",
+    "referenceVersion": "Voyage sur la route des Épices La Sultane de Saba perfume - a fragrance for women and men 2013"
+  },
+  {
+    "id": 254,
+    "name": "Lacoste Eau de Lacoste L.12.12 Pour Elle Sparkling",
+    "cat": "Люкс",
+    "volumes": [
+      2,
+      3,
+      4,
+      5,
+      10,
+      15,
+      20,
+      30,
+      50,
+      100
+    ],
+    "price": {
+      "2": 220,
+      "3": 320,
+      "4": 420,
+      "5": 550,
+      "10": 1000,
+      "15": 1400,
+      "20": 1800,
+      "30": 2600,
+      "50": 4150,
+      "100": 8000
+    },
+    "notes": "Верхние ноты: красное яблоко, специи, ежевика, мандарин\nСердце: сахарная вата, макароны, ландыш\nБаза: мускус, ветивер, кашмировое дерево, пачули",
+    "kind": "perfume",
+    "image": "assets/perfumes/32686.jpg",
+    "notesSource": "https://www.fragrantica.com/perfume/Lacoste/Eau-de-Lacoste-L-12-12-Pour-Elle-Sparkling-32686.html",
+    "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.32686.jpg",
+    "referenceVersion": "Eau de Lacoste L.12.12 Pour Elle Sparkling Lacoste Fragrances perfume - a fragrance for women 2015"
+  },
+  {
+    "id": 255,
+    "name": "Lacoste Essential Sport",
+    "cat": "Люкс",
+    "volumes": [
+      2,
+      3,
+      4,
+      5,
+      10,
+      15,
+      20,
+      30,
+      50,
+      100
+    ],
+    "price": {
+      "2": 220,
+      "3": 320,
+      "4": 420,
+      "5": 550,
+      "10": 1000,
+      "15": 1400,
+      "20": 1800,
+      "30": 2600,
+      "50": 4150,
+      "100": 8000
+    },
+    "notes": "Верхние ноты: грейпфрут, бергамот, имбирь\nСердце: водные ноты, можжевельник, герань, мускатный орех\nБаза: ветивер, мускус, пачули",
+    "kind": "perfume",
+    "image": "assets/perfumes/8158.jpg",
+    "notesSource": "https://www.fragrantica.com/perfume/Lacoste-Fragrances/Lacoste-Essential-Sport-8158.html",
+    "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.8158.jpg",
+    "referenceVersion": "Lacoste Essential Sport Lacoste Fragrances cologne - a fragrance for men 2009"
+  },
+  {
+    "id": 256,
+    "name": "Lanvin Modern Princess",
+    "cat": "Люкс",
+    "volumes": [
+      2,
+      3,
+      4,
+      5,
+      10,
+      15,
+      20,
+      30,
+      50,
+      100
+    ],
+    "price": {
+      "2": 220,
+      "3": 320,
+      "4": 420,
+      "5": 550,
+      "10": 1000,
+      "15": 1400,
+      "20": 1800,
+      "30": 2600,
+      "50": 4150,
+      "100": 8000
+    },
+    "notes": "Верхние ноты: красное яблоко, красная смородина\nСердце: фрезия, жасмин\nБаза: ванильная орхидея, белый мускус, светлая древесина",
+    "kind": "perfume",
+    "image": "assets/perfumes/38890.jpg",
+    "notesSource": "https://www.fragrantica.com/perfume/Lanvin/Modern-Princess-38890.html",
+    "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.38890.jpg",
+    "referenceVersion": "Modern Princess Lanvin perfume - a fragrance for women 2016"
+  },
+  {
+    "id": 257,
+    "name": "Lattafa Sheikh Al Shuyukh",
+    "cat": "Люкс",
+    "volumes": [
+      2,
+      3,
+      4,
+      5,
+      10,
+      15,
+      20,
+      30,
+      50,
+      100
+    ],
+    "price": {
+      "2": 220,
+      "3": 320,
+      "4": 420,
+      "5": 550,
+      "10": 1000,
+      "15": 1400,
+      "20": 1800,
+      "30": 2600,
+      "50": 4150,
+      "100": 8000
+    },
+    "notes": "Верхние ноты: уд, кедр\nСердце: шалфей, лаванда, розмарин\nБаза: ветивер, пачули",
+    "kind": "perfume",
+    "image": "assets/perfumes/25808.jpg",
+    "notesSource": "https://www.fragrantica.com/perfume/Lattafa-Perfumes/Sheikh-Al-Shuyukh-25808.html",
+    "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.25808.jpg",
+    "referenceVersion": "Sheikh Al Shuyukh Lattafa Perfumes perfume - a fragrance for women and men"
+  },
+  {
+    "id": 258,
+    "name": "Montale Vanilla Cake",
+    "cat": "Люкс",
+    "volumes": [
+      2,
+      3,
+      4,
+      5,
+      10,
+      15,
+      20,
+      30,
+      50,
+      100
+    ],
+    "price": {
+      "2": 220,
+      "3": 320,
+      "4": 420,
+      "5": 550,
+      "10": 1000,
+      "15": 1400,
+      "20": 1800,
+      "30": 2600,
+      "50": 4150,
+      "100": 8000
+    },
+    "notes": "Ноты: безе, мадагаскарская ваниль, молоко, карамель, миндаль",
+    "kind": "perfume",
+    "image": "assets/perfumes/48948.jpg",
+    "notesSource": "https://www.fragrantica.com/perfume/Montale/Vanilla-Cake-48948.html",
+    "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.48948.jpg",
+    "referenceVersion": "Vanilla Cake Montale perfume - a fragrance for women and men 2018"
+  },
+  {
+    "id": 259,
+    "name": "Moschino Toy 2",
+    "cat": "Люкс",
+    "volumes": [
+      2,
+      3,
+      4,
+      5,
+      10,
+      15,
+      20,
+      30,
+      50,
+      100
+    ],
+    "price": {
+      "2": 220,
+      "3": 320,
+      "4": 420,
+      "5": 550,
+      "10": 1000,
+      "15": 1400,
+      "20": 1800,
+      "30": 2600,
+      "50": 4150,
+      "100": 8000
+    },
+    "notes": "Верхние ноты: яблоко, мандарин, магнолия\nСердце: белая смородина, пион, жасмин\nБаза: мускус, сандал, амбровая древесина",
+    "kind": "perfume",
+    "image": "assets/perfumes/51589.jpg",
+    "notesSource": "https://www.fragrantica.com/perfume/Moschino/Toy-2-51589.html",
+    "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.51589.jpg",
+    "referenceVersion": "Toy 2 Moschino perfume - a fragrance for women 2018"
+  },
+  {
+    "id": 260,
+    "name": "Nina Ricci Nina",
+    "cat": "Люкс",
+    "volumes": [
+      2,
+      3,
+      4,
+      5,
+      10,
+      15,
+      20,
+      30,
+      50,
+      100
+    ],
+    "price": {
+      "2": 220,
+      "3": 320,
+      "4": 420,
+      "5": 550,
+      "10": 1000,
+      "15": 1400,
+      "20": 1800,
+      "30": 2600,
+      "50": 4150,
+      "100": 8000
+    },
+    "notes": "Верхние ноты: амальфитанский лимон, лайм\nСердце: яблоко Гренни Смит, пралине, пион, дурман\nБаза: яблоня, мускус, виргинский кедр",
+    "kind": "perfume",
+    "image": "assets/perfumes/147.jpg",
+    "notesSource": "https://www.fragrantica.com/perfume/Nina-Ricci/Nina-147.html",
+    "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.147.jpg",
+    "referenceVersion": "Nina Nina Ricci perfume - a fragrance for women 2006"
+  },
+  {
+    "id": 261,
+    "name": "Paco Rabanne Lady Million",
+    "cat": "Люкс",
+    "volumes": [
+      2,
+      3,
+      4,
+      5,
+      10,
+      15,
+      20,
+      30,
+      50,
+      100
+    ],
+    "price": {
+      "2": 220,
+      "3": 320,
+      "4": 420,
+      "5": 550,
+      "10": 1000,
+      "15": 1400,
+      "20": 1800,
+      "30": 2600,
+      "50": 4150,
+      "100": 8000
+    },
+    "notes": "Верхние ноты: малина, нероли, амальфитанский лимон\nСердце: жасмин, африканский апельсиновый цвет, гардения\nБаза: белый мёд, пачули, амбра",
+    "kind": "perfume",
+    "image": "assets/perfumes/9045.jpg",
+    "notesSource": "https://www.fragrantica.com/perfume/Paco-Rabanne/Lady-Million-9045.html",
+    "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.9045.jpg",
+    "referenceVersion": "Lady Million Rabanne perfume - a fragrance for women 2010"
+  },
+  {
+    "id": 262,
+    "name": "Paco Rabanne Olympéa",
+    "cat": "Люкс",
+    "volumes": [
+      2,
+      3,
+      4,
+      5,
+      10,
+      15,
+      20,
+      30,
+      50,
+      100
+    ],
+    "price": {
+      "2": 220,
+      "3": 320,
+      "4": 420,
+      "5": 550,
+      "10": 1000,
+      "15": 1400,
+      "20": 1800,
+      "30": 2600,
+      "50": 4150,
+      "100": 8000
+    },
+    "notes": "Верхние ноты: водяной жасмин, зелёный мандарин, цветок имбиря\nСердце: ваниль, соль\nБаза: кашмировое дерево, серая амбра, сандал",
+    "kind": "perfume",
+    "image": "assets/perfumes/31666.jpg",
+    "notesSource": "https://www.fragrantica.com/perfume/Paco-Rabanne/Olympea-31666.html",
+    "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.31666.jpg",
+    "referenceVersion": "Olympéa Rabanne perfume - a fragrance for women 2015"
+  },
+  {
+    "id": 263,
+    "name": "Shaik 77",
+    "cat": "Люкс",
+    "volumes": [
+      2,
+      3,
+      4,
+      5,
+      10,
+      15,
+      20,
+      30,
+      50,
+      100
+    ],
+    "price": {
+      "2": 220,
+      "3": 320,
+      "4": 420,
+      "5": 550,
+      "10": 1000,
+      "15": 1400,
+      "20": 1800,
+      "30": 2600,
+      "50": 4150,
+      "100": 8000
+    },
+    "notes": "Верхние ноты: лаванда, бергамот, лимон, базилик\nСердце: яблоко, корица, гвоздика (пряность), герань\nБаза: мускус, пачули, дубовый мох, кедр, ваниль, лабданум",
+    "kind": "perfume",
+    "image": "assets/perfumes/2777.jpg",
+    "notesSource": "https://www.fragrantica.com/perfume/Shaik/Opulent-Shaik-Classic-No-77-2777.html",
+    "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.2777.jpg",
+    "referenceVersion": "Opulent Shaik Classic No 77 Shaik cologne - a fragrance for men"
+  },
+  {
+    "id": 264,
+    "name": "Trussardi My Name",
+    "cat": "Люкс",
+    "volumes": [
+      2,
+      3,
+      4,
+      5,
+      10,
+      15,
+      20,
+      30,
+      50,
+      100
+    ],
+    "price": {
+      "2": 220,
+      "3": 320,
+      "4": 420,
+      "5": 550,
+      "10": 1000,
+      "15": 1400,
+      "20": 1800,
+      "30": 2600,
+      "50": 4150,
+      "100": 8000
+    },
+    "notes": "Верхние ноты: гелиотроп, белая фиалка\nСердце: сирень, мускус, калла\nБаза: ваниль, амбра",
+    "kind": "perfume",
+    "image": "assets/perfumes/18802.jpg",
+    "notesSource": "https://www.fragrantica.com/perfume/Trussardi/My-Name-18802.html",
+    "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.18802.jpg",
+    "referenceVersion": "My Name Trussardi perfume - a fragrance for women 2013"
+  },
+  {
+    "id": 265,
+    "name": "Versace Man Eau Fraîche",
+    "cat": "Люкс",
+    "volumes": [
+      2,
+      3,
+      4,
+      5,
+      10,
+      15,
+      20,
+      30,
+      50,
+      100
+    ],
+    "price": {
+      "2": 220,
+      "3": 320,
+      "4": 420,
+      "5": 550,
+      "10": 1000,
+      "15": 1400,
+      "20": 1800,
+      "30": 2600,
+      "50": 4150,
+      "100": 8000
+    },
+    "notes": "Верхние ноты: лимон, бергамот, карамбола, кардамон, бразильский палисандр\nСердце: кедр, тархун, шалфей, перец\nБаза: мускус, древесные ноты, шафран, амбра, платан",
+    "kind": "perfume",
+    "image": "assets/perfumes/644.jpg",
+    "notesSource": "https://www.fragrantica.com/perfume/Versace/Versace-Man-Eau-Fraiche-644.html",
+    "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.644.jpg",
+    "referenceVersion": "Versace Man Eau Fraiche Versace cologne - a fragrance for men 2006"
+  },
+  {
+    "id": 266,
+    "name": "Victoria’s Secret Tease Crème Cloud",
+    "cat": "Люкс",
+    "volumes": [
+      2,
+      3,
+      4,
+      5,
+      10,
+      15,
+      20,
+      30,
+      50,
+      100
+    ],
+    "price": {
+      "2": 220,
+      "3": 320,
+      "4": 420,
+      "5": 550,
+      "10": 1000,
+      "15": 1400,
+      "20": 1800,
+      "30": 2600,
+      "50": 4150,
+      "100": 8000
+    },
+    "notes": "Верхние ноты: безе, ваниль\nСердце: цветок сандала\nБаза: мускус, амбра",
+    "kind": "perfume",
+    "image": "assets/perfumes/68550.jpg",
+    "notesSource": "https://www.fragrantica.com/perfume/Victoria-s-Secret/Tease-Creme-Cloud-68550.html",
+    "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.68550.jpg",
+    "referenceVersion": "Tease Crème Cloud Victoria's Secret perfume - a fragrance for women 2021"
+  },
+  {
+    "id": 267,
+    "name": "Zadig & Voltaire This Is Her!",
+    "cat": "Люкс",
+    "volumes": [
+      2,
+      3,
+      4,
+      5,
+      10,
+      15,
+      20,
+      30,
+      50,
+      100
+    ],
+    "price": {
+      "2": 220,
+      "3": 320,
+      "4": 420,
+      "5": 550,
+      "10": 1000,
+      "15": 1400,
+      "20": 1800,
+      "30": 2600,
+      "50": 4150,
+      "100": 8000
+    },
+    "notes": "Верхние ноты: розовый перец, жасмин самбак, цветок шелкового дерева\nСердце: взбитые сливки, ваниль, каштан\nБаза: сандал, кашмировое дерево",
+    "kind": "perfume",
+    "image": "assets/perfumes/39358.jpg",
+    "notesSource": "https://www.fragrantica.com/perfume/Zadig-Voltaire/This-is-Her-39358.html",
+    "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.39358.jpg",
+    "referenceVersion": "This is Her Zadig & Voltaire perfume - a fragrance for women 2016"
+  },
+  {
+    "id": 268,
+    "name": "Abdul Samad Al Qurashi Al Hajjar Al Aswad",
+    "cat": "Селектив",
+    "volumes": [
+      2,
+      3,
+      4,
+      5,
+      10,
+      15,
+      20,
+      30,
+      50,
+      100
+    ],
+    "price": {
+      "2": 340,
+      "3": 500,
+      "4": 660,
+      "5": 850,
+      "10": 1600,
+      "15": 2300,
+      "20": 3000,
+      "30": 4450,
+      "50": 7250,
+      "100": 14300
+    },
+    "notes": "Ноты: жасмин, цветочные ноты, уд, мускус, лаванда, шафран, бергамот",
+    "kind": "perfume",
+    "image": "assets/perfumes/21307.jpg",
+    "notesSource": "https://www.fragrantica.com/parfum/Abdul-Samad-Al-Qurashi/Al-Hajjar-Al-Aswad-21307.html",
+    "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.21307.jpg",
+    "referenceVersion": "Al Hajjar Al Aswad Abdul Samad Al Qurashi perfume - a fragrance for women and men"
+  },
+  {
+    "id": 269,
+    "name": "Attar Collection Azora",
+    "cat": "Селектив",
+    "volumes": [
+      2,
+      3,
+      4,
+      5,
+      10,
+      15,
+      20,
+      30,
+      50,
+      100
+    ],
+    "price": {
+      "2": 340,
+      "3": 500,
+      "4": 660,
+      "5": 850,
+      "10": 1600,
+      "15": 2300,
+      "20": 3000,
+      "30": 4450,
+      "50": 7250,
+      "100": 14300
+    },
+    "notes": "Верхние ноты: личи, бергамот, апельсин\nСердце: цветочные ноты, персик, жасмин\nБаза: белый мускус, древесные ноты",
+    "kind": "perfume",
+    "image": "assets/perfumes/50343.jpg",
+    "notesSource": "https://www.fragrantica.com/perfume/attar-collection/azora-50343.html",
+    "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.50343.jpg",
+    "referenceVersion": "Azora Attar Collection perfume - a fragrance for women and men 2018"
+  },
+  {
+    "id": 270,
+    "name": "Tom Ford Bitter Peach",
+    "cat": "Селектив",
+    "volumes": [
+      2,
+      3,
+      4,
+      5,
+      10,
+      15,
+      20,
+      30,
+      50,
+      100
+    ],
+    "price": {
+      "2": 340,
+      "3": 500,
+      "4": 660,
+      "5": 850,
+      "10": 1600,
+      "15": 2300,
+      "20": 3000,
+      "30": 4450,
+      "50": 7250,
+      "100": 14300
+    },
+    "notes": "Верхние ноты: персик, красный апельсин, кардамон, гелиотроп\nСердце: ром, коньяк, давана, жасмин\nБаза: ваниль, лист индонезийских пачули, бобы тонка, сандал, бензоин, кашмеран, лабданум, стиракс, ветивер",
+    "kind": "perfume",
+    "image": "assets/perfumes/62707.jpg",
+    "notesSource": "https://www.fragrantica.com/perfume/Tom-Ford/Bitter-Peach-62707.html",
+    "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.62707.jpg",
+    "referenceVersion": "Bitter Peach Tom Ford perfume - a fragrance for women and men 2020"
+  },
+  {
+    "id": 271,
+    "name": "Boadicea the Victorious Aurica",
+    "cat": "Селектив",
+    "volumes": [
+      2,
+      3,
+      4,
+      5,
+      10,
+      15,
+      20,
+      30,
+      50,
+      100
+    ],
+    "price": {
+      "2": 340,
+      "3": 500,
+      "4": 660,
+      "5": 850,
+      "10": 1600,
+      "15": 2300,
+      "20": 3000,
+      "30": 4450,
+      "50": 7250,
+      "100": 14300
+    },
+    "notes": "Верхние ноты: ананас, кедровая хвоя, мандарин, иланг-иланг\nСердце: бархатцы, камбоджийский уд, жасмин, роза\nБаза: мускус, ветивер, сандал, пачули, мох, ваниль, амбра",
+    "kind": "perfume",
+    "image": "assets/perfumes/58545.jpg",
+    "notesSource": "https://www.fragrantica.com/perfume/Boadicea-the-Victorious/Aurica-58545.html",
+    "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.58545.jpg",
+    "referenceVersion": "Aurica Boadicea the Victorious perfume - a fragrance for women and men 2020"
+  },
+  {
+    "id": 272,
+    "name": "Boadicea the Victorious Hanuman",
+    "cat": "Селектив",
+    "volumes": [
+      2,
+      3,
+      4,
+      5,
+      10,
+      15,
+      20,
+      30,
+      50,
+      100
+    ],
+    "price": {
+      "2": 340,
+      "3": 500,
+      "4": 660,
+      "5": 850,
+      "10": 1600,
+      "15": 2300,
+      "20": 3000,
+      "30": 4450,
+      "50": 7250,
+      "100": 14300
+    },
+    "notes": "Верхние ноты: лимон, бергамот, апельсиновый цвет, чёрная смородина\nСердце: османтус, нероли, цикламен, магнолия\nБаза: ветивер, кедр, мускус, амбра, сандал",
+    "kind": "perfume",
+    "image": "assets/perfumes/35525.jpg",
+    "notesSource": "https://www.fragrantica.com/perfume/Boadicea-the-Victorious/Hanuman-35525.html",
+    "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.35525.jpg",
+    "referenceVersion": "Hanuman Boadicea the Victorious perfume - a fragrance for women and men 2016"
+  },
+  {
+    "id": 273,
+    "name": "Bvlgari Aqva Pour Homme Marine",
+    "cat": "Селектив",
+    "volumes": [
+      2,
+      3,
+      4,
+      5,
+      10,
+      15,
+      20,
+      30,
+      50,
+      100
+    ],
+    "price": {
+      "2": 340,
+      "3": 500,
+      "4": 660,
+      "5": 850,
+      "10": 1600,
+      "15": 2300,
+      "20": 3000,
+      "30": 4450,
+      "50": 7250,
+      "100": 14300
+    },
+    "notes": "Верхние ноты: грейпфрут, нероли, мандарин, петитгрейн\nСердце: водные ноты, водоросли, розмарин\nБаза: виргинский кедр, амбра",
+    "kind": "perfume",
+    "image": "assets/perfumes/1742.jpg",
+    "notesSource": "https://www.fragrantica.com/perfume/Bvlgari/Aqva-Pour-Homme-Marine-1742.html",
+    "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.1742.jpg",
+    "referenceVersion": "Aqva Pour Homme Marine Bvlgari cologne - a fragrance for men 2008"
+  },
+  {
+    "id": 274,
+    "name": "Byredo Blanche",
+    "cat": "Селектив",
+    "volumes": [
+      2,
+      3,
+      4,
+      5,
+      10,
+      15,
+      20,
+      30,
+      50,
+      100
+    ],
+    "price": {
+      "2": 340,
+      "3": 500,
+      "4": 660,
+      "5": 850,
+      "10": 1600,
+      "15": 2300,
+      "20": 3000,
+      "30": 4450,
+      "50": 7250,
+      "100": 14300
+    },
+    "notes": "Верхние ноты: альдегиды, роза, розовый перец\nСердце: пион, фиалка, африканский апельсиновый цвет\nБаза: мускус, древесные ноты, сандал",
+    "kind": "perfume",
+    "image": "assets/perfumes/6686.jpg",
+    "notesSource": "https://www.fragrantica.com/perfume/Byredo/Blanche-6686.html",
+    "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.6686.jpg",
+    "referenceVersion": "Blanche Byredo perfume - a fragrance for women 2009"
+  },
+  {
+    "id": 275,
+    "name": "Byredo Mojave Ghost",
+    "cat": "Селектив",
+    "volumes": [
+      2,
+      3,
+      4,
+      5,
+      10,
+      15,
+      20,
+      30,
+      50,
+      100
+    ],
+    "price": {
+      "2": 340,
+      "3": 500,
+      "4": 660,
+      "5": 850,
+      "10": 1600,
+      "15": 2300,
+      "20": 3000,
+      "30": 4450,
+      "50": 7250,
+      "100": 14300
+    },
+    "notes": "Верхние ноты: саподилла, амбретта\nСердце: магнолия, фиалка, сандал\nБаза: серая амбра, кедр, мускус",
+    "kind": "perfume",
+    "image": "assets/perfumes/27040.jpg",
+    "notesSource": "https://www.fragrantica.com/perfume/byredo/mojave-ghost-27040.html",
+    "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.27040.jpg",
+    "referenceVersion": "Mojave Ghost Byredo perfume - a fragrance for women and men 2014"
+  },
+  {
+    "id": 276,
+    "name": "Carolina Herrera Good Girl",
+    "cat": "Селектив",
+    "volumes": [
+      2,
+      3,
+      4,
+      5,
+      10,
+      15,
+      20,
+      30,
+      50,
+      100
+    ],
+    "price": {
+      "2": 340,
+      "3": 500,
+      "4": 660,
+      "5": 850,
+      "10": 1600,
+      "15": 2300,
+      "20": 3000,
+      "30": 4450,
+      "50": 7250,
+      "100": 14300
+    },
+    "notes": "Верхние ноты: миндаль, кофе, бергамот, лимон\nСердце: тубероза, жасмин самбак, апельсиновый цвет, болгарская роза, ирис\nБаза: бобы тонка, какао, ваниль, пралине, сандал, мускус, амбра, кашмировое дерево, пачули, корица, кедр",
+    "kind": "perfume",
+    "image": "assets/perfumes/39681.jpg",
+    "notesSource": "https://www.fragrantica.com/perfume/Carolina-Herrera/Good-Girl-39681.html",
+    "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.39681.jpg",
+    "referenceVersion": "Good Girl Carolina Herrera perfume - a fragrance for women 2016"
+  },
+  {
+    "id": 277,
+    "name": "Clive Christian Jump Up and Kiss Me Hedonistic",
+    "cat": "Селектив",
+    "volumes": [
+      2,
+      3,
+      4,
+      5,
+      10,
+      15,
+      20,
+      30,
+      50,
+      100
+    ],
+    "price": {
+      "2": 340,
+      "3": 500,
+      "4": 660,
+      "5": 850,
+      "10": 1600,
+      "15": 2300,
+      "20": 3000,
+      "30": 4450,
+      "50": 7250,
+      "100": 14300
+    },
+    "notes": "Ноты: кожа, лабданум, амбра",
+    "kind": "perfume",
+    "image": "assets/perfumes/47116.jpg",
+    "notesSource": "https://www.fragrantica.com/perfume/Clive-Christian/Hedonistic-47116.html",
+    "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.47116.jpg",
+    "referenceVersion": "Jump up and Kiss Me Hedonistic Clive Christian cologne - a fragrance for men 2017"
+  },
+  {
+    "id": 278,
+    "name": "Dolce & Gabbana L’Imperatrice",
+    "cat": "Селектив",
+    "volumes": [
+      2,
+      3,
+      4,
+      5,
+      10,
+      15,
+      20,
+      30,
+      50,
+      100
+    ],
+    "price": {
+      "2": 340,
+      "3": 500,
+      "4": 660,
+      "5": 850,
+      "10": 1600,
+      "15": 2300,
+      "20": 3000,
+      "30": 4450,
+      "50": 7250,
+      "100": 14300
+    },
+    "notes": "Верхние ноты: киви, ревень, розовый перец\nСердце: арбуз, цикламен, жасмин\nБаза: лимонное дерево, мускус, сандал",
+    "kind": "perfume",
+    "image": "assets/perfumes/6086.jpg",
+    "notesSource": "https://www.fragrantica.com/perfume/Dolce-Gabbana/D-G-Anthology-L-Imperatrice-3-6086.html",
+    "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.6086.jpg",
+    "referenceVersion": "D&G Anthology L'Imperatrice 3 Dolce&Gabbana perfume - a fragrance for women 2009"
+  },
+  {
+    "id": 279,
+    "name": "Dolce & Gabbana Q",
+    "cat": "Селектив",
+    "volumes": [
+      2,
+      3,
+      4,
+      5,
+      10,
+      15,
+      20,
+      30,
+      50,
+      100
+    ],
+    "price": {
+      "2": 340,
+      "3": 500,
+      "4": 660,
+      "5": 850,
+      "10": 1600,
+      "15": 2300,
+      "20": 3000,
+      "30": 4450,
+      "50": 7250,
+      "100": 14300
+    },
+    "notes": "Верхние ноты: сицилийский лимон, красный апельсин, жасмин\nСердце: вишня, гелиотроп\nБаза: мускус, кедр",
+    "kind": "perfume",
+    "image": "assets/perfumes/78873.jpg",
+    "notesSource": "https://www.fragrantica.com/perfume/Dolce-Gabbana/Q-by-Dolce-Gabbana-78873.html",
+    "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.78873.jpg",
+    "referenceVersion": "Q by Dolce & Gabbana Dolce&Gabbana perfume - a fragrance for women 2023"
+  },
+  {
+    "id": 280,
+    "name": "Escentric Molecules Molecule 01 + Mandarin",
+    "cat": "Селектив",
+    "volumes": [
+      2,
+      3,
+      4,
+      5,
+      10,
+      15,
+      20,
+      30,
+      50,
+      100
+    ],
+    "price": {
+      "2": 340,
+      "3": 500,
+      "4": 660,
+      "5": 850,
+      "10": 1600,
+      "15": 2300,
+      "20": 3000,
+      "30": 4450,
+      "50": 7250,
+      "100": 14300
+    },
+    "notes": "Ноты: мандарин, Iso E Super",
+    "kind": "perfume",
+    "image": "assets/perfumes/66047.jpg",
+    "notesSource": "https://www.fragrantica.com/perfume/Escentric-Molecules/Molecule-01-Mandarin-66047.html",
+    "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.66047.jpg",
+    "referenceVersion": "Molecule 01 + Mandarin Escentric Molecules perfume - a fragrance for women and men 2021"
+  },
+  {
+    "id": 281,
+    "name": "Escentric Molecules Molecule 01 + Patchouli",
+    "cat": "Селектив",
+    "volumes": [
+      2,
+      3,
+      4,
+      5,
+      10,
+      15,
+      20,
+      30,
+      50,
+      100
+    ],
+    "price": {
+      "2": 340,
+      "3": 500,
+      "4": 660,
+      "5": 850,
+      "10": 1600,
+      "15": 2300,
+      "20": 3000,
+      "30": 4450,
+      "50": 7250,
+      "100": 14300
+    },
+    "notes": "Ноты: лист индонезийских пачули, пачули, Iso E Super",
+    "kind": "perfume",
+    "image": "assets/perfumes/66049.jpg",
+    "notesSource": "https://www.fragrantica.com/perfume/Escentric-Molecules/Molecule-01-Patchouli-66049.html",
+    "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.66049.jpg",
+    "referenceVersion": "Molecule 01 + Patchouli Escentric Molecules perfume - a fragrance for women and men 2021"
+  },
+  {
+    "id": 282,
+    "name": "Escentric Molecules Molecule 04",
+    "cat": "Селектив",
+    "volumes": [
+      2,
+      3,
+      4,
+      5,
+      10,
+      15,
+      20,
+      30,
+      50,
+      100
+    ],
+    "price": {
+      "2": 340,
+      "3": 500,
+      "4": 660,
+      "5": 850,
+      "10": 1600,
+      "15": 2300,
+      "20": 3000,
+      "30": 4450,
+      "50": 7250,
+      "100": 14300
+    },
+    "notes": "Ноты: сандал",
+    "kind": "perfume",
+    "image": "assets/perfumes/44315.jpg",
+    "notesSource": "https://www.fragrantica.com/p/44315",
+    "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.44315.jpg",
+    "referenceVersion": "Molecule 04 Escentric Molecules perfume - a fragrance for women and men 2017"
+  },
+  {
+    "id": 283,
+    "name": "Escentric Molecules Molecule 05",
+    "cat": "Селектив",
+    "volumes": [
+      2,
+      3,
+      4,
+      5,
+      10,
+      15,
+      20,
+      30,
+      50,
+      100
+    ],
+    "price": {
+      "2": 340,
+      "3": 500,
+      "4": 660,
+      "5": 850,
+      "10": 1600,
+      "15": 2300,
+      "20": 3000,
+      "30": 4450,
+      "50": 7250,
+      "100": 14300
+    },
+    "notes": "Ноты: кашмеран",
+    "kind": "perfume",
+    "image": "assets/perfumes/58969.jpg",
+    "notesSource": "https://www.fragrantica.com/perfume/Escentric-Molecules/Molecule-05-58969.html",
+    "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.58969.jpg?t=1791423466",
+    "referenceVersion": "Molecule 05 Escentric Molecules perfume - a fragrance for women and men 2020"
+  },
+  {
+    "id": 284,
+    "name": "Genyum Painter",
+    "cat": "Селектив",
+    "volumes": [
+      2,
+      3,
+      4,
+      5,
+      10,
+      15,
+      20,
+      30,
+      50,
+      100
+    ],
+    "price": {
+      "2": 340,
+      "3": 500,
+      "4": 660,
+      "5": 850,
+      "10": 1600,
+      "15": 2300,
+      "20": 3000,
+      "30": 4450,
+      "50": 7250,
+      "100": 14300
+    },
+    "notes": "Ноты: чёрный перец, красные водоросли, ветивер",
+    "kind": "perfume",
+    "image": "assets/perfumes/54911.jpg",
+    "notesSource": "https://www.fragrantica.com/perfume/Genyum/Painter-54911.html",
+    "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.54911.jpg",
+    "referenceVersion": "Painter Genyum perfume - a fragrance for women and men 2018"
+  },
+  {
+    "id": 285,
+    "name": "Hormone Paris This Is Not Dopamine",
+    "cat": "Селектив",
+    "volumes": [
+      2,
+      3,
+      4,
+      5,
+      10,
+      15,
+      20,
+      30,
+      50,
+      100
+    ],
+    "price": {
+      "2": 340,
+      "3": 500,
+      "4": 660,
+      "5": 850,
+      "10": 1600,
+      "15": 2300,
+      "20": 3000,
+      "30": 4450,
+      "50": 7250,
+      "100": 14300
+    },
+    "notes": "Верхние ноты: шафран, мускатный орех\nСердце: уд, лаванда\nБаза: мускус, пачули, амброксан",
+    "kind": "perfume",
+    "image": "assets/perfumes/63835.jpg",
+    "notesSource": "https://www.fragrantica.com/perfume/Hormone%20Paris/Hormone-Paris-Dopamine-63835.html",
+    "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.63835.jpg",
+    "referenceVersion": "This is Not Dopamine Hormone Paris perfume - a fragrance for women and men 2020"
+  },
+  {
+    "id": 286,
+    "name": "Initio Oud for Happiness",
+    "cat": "Селектив",
+    "volumes": [
+      2,
+      3,
+      4,
+      5,
+      10,
+      15,
+      20,
+      30,
+      50,
+      100
+    ],
+    "price": {
+      "2": 340,
+      "3": 500,
+      "4": 660,
+      "5": 850,
+      "10": 1600,
+      "15": 2300,
+      "20": 3000,
+      "30": 4450,
+      "50": 7250,
+      "100": 14300
+    },
+    "notes": "Верхние ноты: имбирь, бергамот\nСердце: лакрица, уд, кедр\nБаза: ваниль, травяные ноты, мускус",
+    "kind": "perfume",
+    "image": "assets/perfumes/69224.jpg",
+    "notesSource": "https://www.fragrantica.com/perfume/Initio-Parfums-Prives/Oud-for-Happiness-69224.html",
+    "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.69224.jpg",
+    "referenceVersion": "Oud for Happiness Initio Parfums Prives perfume - a fragrance for women and men 2021"
+  },
+  {
+    "id": 287,
+    "name": "Intelligence & Fantasy Collection Volume I",
+    "cat": "Селектив",
+    "volumes": [
+      2,
+      3,
+      4,
+      5,
+      10,
+      15,
+      20,
+      30,
+      50,
+      100
+    ],
+    "price": {
+      "2": 340,
+      "3": 500,
+      "4": 660,
+      "5": 850,
+      "10": 1600,
+      "15": 2300,
+      "20": 3000,
+      "30": 4450,
+      "50": 7250,
+      "100": 14300
+    },
+    "notes": "Верхние ноты: бергамот, розовый перец, мандарин, магнолия\nСердце: фрезия, османтус, цветок тиаре, роза\nБаза: мускус, кашмеран, виргинский кедр, сандал",
+    "kind": "perfume",
+    "image": "assets/perfumes/8594.jpg",
+    "notesSource": "https://www.fragrantica.com/perfume/The-Beautiful-Mind-Series/Intelligence-Fantasy-8594.html",
+    "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.8594.jpg",
+    "referenceVersion": "Volume I Intelligence & Fantasy The Beautiful Mind Series perfume - a fragrance for women 2010"
+  },
+  {
+    "id": 288,
+    "name": "Kajal Lamar",
+    "cat": "Селектив",
+    "volumes": [
+      2,
+      3,
+      4,
+      5,
+      10,
+      15,
+      20,
+      30,
+      50,
+      100
+    ],
+    "price": {
+      "2": 340,
+      "3": 500,
+      "4": 660,
+      "5": 850,
+      "10": 1600,
+      "15": 2300,
+      "20": 3000,
+      "30": 4450,
+      "50": 7250,
+      "100": 14300
+    },
+    "notes": "Верхние ноты: ананас, красные ягоды, яблоко, кардамон, кориандр\nСердце: болгарская роза, турецкая роза, магнолия, жасмин самбак\nБаза: мускус, ваниль, амбра, кашмировое дерево, кедр, мох",
+    "kind": "perfume",
+    "image": "assets/perfumes/62571.jpg",
+    "notesSource": "https://www.fragrantica.com/perfume/Kajal/Lamar-62571.html",
+    "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.62571.jpg",
+    "referenceVersion": "Lamar Kajal perfume - a fragrance for women and men 2020"
+  },
+  {
+    "id": 289,
+    "name": "Kayali Maldives",
+    "cat": "Селектив",
+    "volumes": [
+      2,
+      3,
+      4,
+      5,
+      10,
+      15,
+      20,
+      30,
+      50,
+      100
+    ],
+    "price": {
+      "2": 340,
+      "3": 500,
+      "4": 660,
+      "5": 850,
+      "10": 1600,
+      "15": 2300,
+      "20": 3000,
+      "30": 4450,
+      "50": 7250,
+      "100": 14300
+    },
+    "notes": "Верхние ноты: розмарин, лимон\nСердце: иланг-иланг, банан\nБаза: кокосовое молоко",
+    "kind": "perfume",
+    "image": "assets/perfumes/94206.jpg",
+    "notesSource": "https://www.fragrantica.com/perfume/Kayali-Fragrances/Maldives-in-a-Bottle-Ylang-Coco-20-Eau-de-Parfum-94206.html",
+    "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.94206.jpg",
+    "referenceVersion": "Maldives in a Bottle Ylang Coco | 20 Eau de Parfum Kayali Fragrances perfume - a fragrance for women 2024"
+  },
+  {
+    "id": 290,
+    "name": "Kilian Bad Boys",
+    "cat": "Селектив",
+    "volumes": [
+      2,
+      3,
+      4,
+      5,
+      10,
+      15,
+      20,
+      30,
+      50,
+      100
+    ],
+    "price": {
+      "2": 340,
+      "3": 500,
+      "4": 660,
+      "5": 850,
+      "10": 1600,
+      "15": 2300,
+      "20": 3000,
+      "30": 4450,
+      "50": 7250,
+      "100": 14300
+    },
+    "notes": "Верхние ноты: кока-кола, лайм\nСердце: корица, яблоко, мускатный орех\nБаза: кедр, амбровая древесина",
+    "kind": "perfume",
+    "image": "assets/perfumes/50495.jpg",
+    "notesSource": "https://www.fragrantica.com/perfume/By-Kilian/Bad-Boys-Are-No-Good-But-Good-Boys-Are-No-Fun-50495.html",
+    "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.50495.jpg",
+    "referenceVersion": "Bad Boys Are No Good But Good Boys Are No Fun By Kilian perfume - a fragrance for women and men 2018"
+  },
+  {
+    "id": 291,
+    "name": "Kilian I Don’t Need a Prince by My Side to Be a Princess",
+    "cat": "Селектив",
+    "volumes": [
+      2,
+      3,
+      4,
+      5,
+      10,
+      15,
+      20,
+      30,
+      50,
+      100
+    ],
+    "price": {
+      "2": 340,
+      "3": 500,
+      "4": 660,
+      "5": 850,
+      "10": 1600,
+      "15": 2300,
+      "20": 3000,
+      "30": 4450,
+      "50": 7250,
+      "100": 14300
+    },
+    "notes": "Верхние ноты: лимон\nСердце: зелёный чай, имбирь, персик, гедион, жасмин, яблоко\nБаза: маршмеллоу, ваниль, бензоин",
+    "kind": "perfume",
+    "image": "assets/perfumes/50497.jpg",
+    "notesSource": "https://www.fragrantica.com/perfume/By-Kilian/I-Don-t-Need-A-Prince-By-My-Side-To-Be-A-Princess-50497.html",
+    "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.50497.jpg",
+    "referenceVersion": "I Don't Need A Prince By My Side To Be A Princess By Kilian perfume - a fragrance for women and men 2018"
+  },
+  {
+    "id": 292,
+    "name": "Lacoste Pour Femme",
+    "cat": "Селектив",
+    "volumes": [
+      2,
+      3,
+      4,
+      5,
+      10,
+      15,
+      20,
+      30,
+      50,
+      100
+    ],
+    "price": {
+      "2": 340,
+      "3": 500,
+      "4": 660,
+      "5": 850,
+      "10": 1600,
+      "15": 2300,
+      "20": 3000,
+      "30": 4450,
+      "50": 7250,
+      "100": 14300
+    },
+    "notes": "Верхние ноты: фрезия, перец, яблоко\nСердце: фиалка, гелиотроп, жасмин, гибискус, роза\nБаза: замша, сандал, кедр, ладан, лабданум",
+    "kind": "perfume",
+    "image": "assets/perfumes/669.jpg",
+    "notesSource": "https://www.fragrantica.com/perfume/Lacoste-Fragrances/Lacoste-Pour-Femme-669.html",
+    "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.669.jpg",
+    "referenceVersion": "Lacoste Pour Femme Lacoste Fragrances perfume - a fragrance for women 2003"
+  },
+  {
+    "id": 293,
+    "name": "Lancôme La Vie Est Belle",
+    "cat": "Селектив",
+    "volumes": [
+      2,
+      3,
+      4,
+      5,
+      10,
+      15,
+      20,
+      30,
+      50,
+      100
+    ],
+    "price": {
+      "2": 340,
+      "3": 500,
+      "4": 660,
+      "5": 850,
+      "10": 1600,
+      "15": 2300,
+      "20": 3000,
+      "30": 4450,
+      "50": 7250,
+      "100": 14300
+    },
+    "notes": "Верхние ноты: чёрная смородина, груша\nСердце: ирис, жасмин, апельсиновый цвет\nБаза: пралине, ваниль, пачули, бобы тонка",
+    "kind": "perfume",
+    "image": "assets/perfumes/14982.jpg",
+    "notesSource": "https://www.fragrantica.com/perfume/Lanc-me/La-Vie-Est-Belle-14982.html",
+    "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.14982.jpg",
+    "referenceVersion": "La Vie Est Belle Lancôme perfume - a fragrance for women 2012"
+  },
+  {
+    "id": 294,
+    "name": "Louis Vuitton Pacific Chill",
+    "cat": "Селектив",
+    "volumes": [
+      2,
+      3,
+      4,
+      5,
+      10,
+      15,
+      20,
+      30,
+      50,
+      100
+    ],
+    "price": {
+      "2": 340,
+      "3": 500,
+      "4": 660,
+      "5": 850,
+      "10": 1600,
+      "15": 2300,
+      "20": 3000,
+      "30": 4450,
+      "50": 7250,
+      "100": 14300
+    },
+    "notes": "Верхние ноты: цитрон, апельсин, лимон, мята, чёрная смородина, кориандр\nСердце: абрикос, базилик, семена моркови, майская роза\nБаза: инжир, финики, амбретта",
+    "kind": "perfume",
+    "image": "assets/perfumes/81423.jpg",
+    "notesSource": "https://www.fragrantica.com/perfume/Louis-Vuitton/Pacific-Chill-81423.html",
+    "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.81423.jpg",
+    "referenceVersion": "Pacific Chill Louis Vuitton perfume - a fragrance for women and men 2023"
+  },
+  {
+    "id": 295,
+    "name": "Louis Vuitton Sun Song",
+    "cat": "Селектив",
+    "volumes": [
+      2,
+      3,
+      4,
+      5,
+      10,
+      15,
+      20,
+      30,
+      50,
+      100
+    ],
+    "price": {
+      "2": 340,
+      "3": 500,
+      "4": 660,
+      "5": 850,
+      "10": 1600,
+      "15": 2300,
+      "20": 3000,
+      "30": 4450,
+      "50": 7250,
+      "100": 14300
+    },
+    "notes": "Верхние ноты: цитрон\nСердце: апельсиновый цвет\nБаза: мускус",
+    "kind": "perfume",
+    "image": "assets/perfumes/53945.jpg",
+    "notesSource": "https://www.fragrantica.com/perfume/Louis-Vuitton/Sun-Song-53945.html",
+    "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.53945.jpg",
+    "referenceVersion": "Sun Song Louis Vuitton perfume - a fragrance for women and men 2019"
+  },
+  {
+    "id": 296,
+    "name": "Louis Vuitton Attrape-Rêves",
+    "cat": "Селектив",
+    "volumes": [
+      2,
+      3,
+      4,
+      5,
+      10,
+      15,
+      20,
+      30,
+      50,
+      100
+    ],
+    "price": {
+      "2": 340,
+      "3": 500,
+      "4": 660,
+      "5": 850,
+      "10": 1600,
+      "15": 2300,
+      "20": 3000,
+      "30": 4450,
+      "50": 7250,
+      "100": 14300
+    },
+    "notes": "Верхние ноты: личи, имбирь, бергамот\nСердце: пион, турецкая роза, какао\nБаза: пачули",
+    "kind": "perfume",
+    "image": "assets/perfumes/51016.jpg",
+    "notesSource": "https://www.fragrantica.com/perfume/Louis%20Vuitton/Louis-Vuitton-Attrape-R-ves-51016.html",
+    "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.51016.jpg",
+    "referenceVersion": "Attrape-Rêves Louis Vuitton perfume - a fragrance for women 2018"
+  },
+  {
+    "id": 297,
+    "name": "Maison Margiela Replica By the Fireplace",
+    "cat": "Селектив",
+    "volumes": [
+      2,
+      3,
+      4,
+      5,
+      10,
+      15,
+      20,
+      30,
+      50,
+      100
+    ],
+    "price": {
+      "2": 340,
+      "3": 500,
+      "4": 660,
+      "5": 850,
+      "10": 1600,
+      "15": 2300,
+      "20": 3000,
+      "30": 4450,
+      "50": 7250,
+      "100": 14300
+    },
+    "notes": "Верхние ноты: гвоздика (пряность), розовый перец, апельсиновый цвет\nСердце: каштан, гваяковое дерево, можжевельник\nБаза: ваниль, перуанский бальзам, кашмеран",
+    "kind": "perfume",
+    "image": "assets/perfumes/31623.jpg",
+    "notesSource": "https://www.fragrantica.com/perfume/Maison-Martin-Margiela/Replica-By-the-Fireplace-31623.html",
+    "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.31623.jpg",
+    "referenceVersion": "By the Fireplace Maison Martin Margiela perfume - a fragrance for women and men 2015"
+  },
+  {
+    "id": 298,
+    "name": "Maison Crivelli Oud Maracujá",
+    "cat": "Селектив",
+    "volumes": [
+      2,
+      3,
+      4,
+      5,
+      10,
+      15,
+      20,
+      30,
+      50,
+      100
+    ],
+    "price": {
+      "2": 340,
+      "3": 500,
+      "4": 660,
+      "5": 850,
+      "10": 1600,
+      "15": 2300,
+      "20": 3000,
+      "30": 4450,
+      "50": 7250,
+      "100": 14300
+    },
+    "notes": "Верхние ноты: маракуйя, фруктовые ноты, шафран, турецкая роза\nСердце: уд, бензоин, лист индонезийских пачули\nБаза: кожа, акигалавуд, амбра, ваниль, лабданум",
+    "kind": "perfume",
+    "image": "assets/perfumes/83842.jpg",
+    "notesSource": "https://www.fragrantica.com/perfume/Maison-Crivelli/Oud-Maracuja-83842.html",
+    "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.83842.jpg",
+    "referenceVersion": "Oud Maracujá Maison Crivelli perfume - a fragrance for women and men 2023"
+  },
+  {
+    "id": 299,
+    "name": "Mancera Cedrat Boise",
+    "cat": "Селектив",
+    "volumes": [
+      2,
+      3,
+      4,
+      5,
+      10,
+      15,
+      20,
+      30,
+      50,
+      100
+    ],
+    "price": {
+      "2": 340,
+      "3": 500,
+      "4": 660,
+      "5": 850,
+      "10": 1600,
+      "15": 2300,
+      "20": 3000,
+      "30": 4450,
+      "50": 7250,
+      "100": 14300
+    },
+    "notes": "Верхние ноты: сицилийский лимон, бергамот, чёрная смородина, пряные ноты\nСердце: фруктовые ноты, лист пачули, водяной жасмин\nБаза: кедр, кожа, сандал, ваниль, белый мускус, мох",
+    "kind": "perfume",
+    "image": "assets/perfumes/15211.jpg",
+    "notesSource": "https://www.fragrantica.com/perfume/Mancera/Cedrat-Boise-15211.html",
+    "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.15211.jpg",
+    "referenceVersion": "Cedrat Boise Mancera perfume - a fragrance for women and men 2011"
+  },
+  {
+    "id": 300,
+    "name": "Mancera Coco Vanilla",
+    "cat": "Селектив",
+    "volumes": [
+      2,
+      3,
+      4,
+      5,
+      10,
+      15,
+      20,
+      30,
+      50,
+      100
+    ],
+    "price": {
+      "2": 340,
+      "3": 500,
+      "4": 660,
+      "5": 850,
+      "10": 1600,
+      "15": 2300,
+      "20": 3000,
+      "30": 4450,
+      "50": 7250,
+      "100": 14300
+    },
+    "notes": "Верхние ноты: кокос, белый персик\nСердце: цветок тиаре, иланг-иланг, жасмин\nБаза: мадагаскарская ваниль, белый мускус, древесные ноты",
+    "kind": "perfume",
+    "image": "assets/perfumes/42782.jpg",
+    "notesSource": "https://www.fragrantica.com/perfume/Mancera/Coco-Vanille-42782.html",
+    "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.42782.jpg",
+    "referenceVersion": "Coco Vanille Mancera perfume - a fragrance for women 2016"
+  },
+  {
+    "id": 301,
+    "name": "Mancera Feminity",
+    "cat": "Селектив",
+    "volumes": [
+      2,
+      3,
+      4,
+      5,
+      10,
+      15,
+      20,
+      30,
+      50,
+      100
+    ],
+    "price": {
+      "2": 340,
+      "3": 500,
+      "4": 660,
+      "5": 850,
+      "10": 1600,
+      "15": 2300,
+      "20": 3000,
+      "30": 4450,
+      "50": 7250,
+      "100": 14300
+    },
+    "notes": "Верхние ноты: кожа, мандарин, розовый перец, кофе\nСердце: фиалка, гелиотроп, жасмин, ландыш\nБаза: стручок ванили, карамель, белый мускус, сандал, амбра, дубовый мох",
+    "kind": "perfume",
+    "image": "assets/perfumes/61755.jpg",
+    "notesSource": "https://www.fragrantica.com/perfume/Mancera/Feminity-61755.html",
+    "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.61755.jpg",
+    "referenceVersion": "Feminity Mancera perfume - a fragrance for women 2020"
+  },
+  {
+    "id": 302,
+    "name": "Mancera Holidays",
+    "cat": "Селектив",
+    "volumes": [
+      2,
+      3,
+      4,
+      5,
+      10,
+      15,
+      20,
+      30,
+      50,
+      100
+    ],
+    "price": {
+      "2": 340,
+      "3": 500,
+      "4": 660,
+      "5": 850,
+      "10": 1600,
+      "15": 2300,
+      "20": 3000,
+      "30": 4450,
+      "50": 7250,
+      "100": 14300
+    },
+    "notes": "Верхние ноты: кокос, бергамот\nСердце: цветок тиаре, иланг-иланг, морские ноты\nБаза: стручок ванили, сандал, белый мускус",
+    "kind": "perfume",
+    "image": "assets/perfumes/42888.jpg",
+    "notesSource": "https://www.fragrantica.com/perfume/Mancera/Holidays-42888.html",
+    "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.42888.jpg",
+    "referenceVersion": "Holidays Mancera perfume - a fragrance for women and men 2016"
+  },
+  {
+    "id": 303,
+    "name": "Mancera Roses Vanille",
+    "cat": "Селектив",
+    "volumes": [
+      2,
+      3,
+      4,
+      5,
+      10,
+      15,
+      20,
+      30,
+      50,
+      100
+    ],
+    "price": {
+      "2": 340,
+      "3": 500,
+      "4": 660,
+      "5": 850,
+      "10": 1600,
+      "15": 2300,
+      "20": 3000,
+      "30": 4450,
+      "50": 7250,
+      "100": 14300
+    },
+    "notes": "Верхние ноты: итальянский лимон\nСердце: турецкая роза\nБаза: ваниль, белый мускус, кедр",
+    "kind": "perfume",
+    "image": "assets/perfumes/15210.jpg",
+    "notesSource": "https://www.fragrantica.com/perfume/Mancera/Roses-Vanille-15210.html",
+    "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.15210.jpg",
+    "referenceVersion": "Roses Vanille Mancera perfume - a fragrance for women 2011"
+  },
+  {
+    "id": 304,
+    "name": "Memo Paris French Leather",
+    "cat": "Селектив",
+    "volumes": [
+      2,
+      3,
+      4,
+      5,
+      10,
+      15,
+      20,
+      30,
+      50,
+      100
+    ],
+    "price": {
+      "2": 340,
+      "3": 500,
+      "4": 660,
+      "5": 850,
+      "10": 1600,
+      "15": 2300,
+      "20": 3000,
+      "30": 4450,
+      "50": 7250,
+      "100": 14300
+    },
+    "notes": "Верхние ноты: лайм, розовый перец, ягоды можжевельника, бергамот\nСердце: роза, мускатный шалфей, сено\nБаза: замша, кедровая древесина",
+    "kind": "perfume",
+    "image": "assets/perfumes/28049.jpg",
+    "notesSource": "https://www.fragrantica.com/perfume/Memo/French-Leather-28049.html",
+    "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.28049.jpg",
+    "referenceVersion": "French Leather Memo Paris perfume - a fragrance for women and men 2014"
+  },
+  {
+    "id": 305,
+    "name": "Memo Paris Marfa",
+    "cat": "Селектив",
+    "volumes": [
+      2,
+      3,
+      4,
+      5,
+      10,
+      15,
+      20,
+      30,
+      50,
+      100
+    ],
+    "price": {
+      "2": 340,
+      "3": 500,
+      "4": 660,
+      "5": 850,
+      "10": 1600,
+      "15": 2300,
+      "20": 3000,
+      "30": 4450,
+      "50": 7250,
+      "100": 14300
+    },
+    "notes": "Верхние ноты: персик, мандарин\nСердце: тубероза, иланг-иланг, апельсиновый цвет\nБаза: ваниль, мускус, сандал, бобы тонка, кедровая древесина",
+    "kind": "perfume",
+    "image": "assets/perfumes/37185.jpg",
+    "notesSource": "https://www.fragrantica.com/perfume/Memo-Paris/Marfa-37185.html",
+    "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.37185.jpg",
+    "referenceVersion": "Marfa Memo Paris perfume - a fragrance for women and men 2016"
+  },
+  {
+    "id": 306,
+    "name": "Montale Mukhallat",
+    "cat": "Селектив",
+    "volumes": [
+      2,
+      3,
+      4,
+      5,
+      10,
+      15,
+      20,
+      30,
+      50,
+      100
+    ],
+    "price": {
+      "2": 340,
+      "3": 500,
+      "4": 660,
+      "5": 850,
+      "10": 1600,
+      "15": 2300,
+      "20": 3000,
+      "30": 4450,
+      "50": 7250,
+      "100": 14300
+    },
+    "notes": "Ноты: клубника, ваниль, миндаль, перуанский бальзам, мускус",
+    "kind": "perfume",
+    "image": "assets/perfumes/3241.jpg",
+    "notesSource": "https://www.fragrantica.com/perfume/Montale/Mukhallat-3241.html",
+    "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.3241.jpg",
+    "referenceVersion": "Mukhallat Montale perfume - a fragrance for women and men 2008"
+  },
+  {
+    "id": 307,
+    "name": "Montale Roses Musk",
+    "cat": "Селектив",
+    "volumes": [
+      2,
+      3,
+      4,
+      5,
+      10,
+      15,
+      20,
+      30,
+      50,
+      100
+    ],
+    "price": {
+      "2": 340,
+      "3": 500,
+      "4": 660,
+      "5": 850,
+      "10": 1600,
+      "15": 2300,
+      "20": 3000,
+      "30": 4450,
+      "50": 7250,
+      "100": 14300
+    },
+    "notes": "Ноты: роза, мускус, жасмин",
+    "kind": "perfume",
+    "image": "assets/perfumes/1148.jpg",
+    "notesSource": "https://www.fragrantica.com/p/1148",
+    "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.1148.jpg",
+    "referenceVersion": "Roses Musk Montale perfume - a fragrance for women 2009"
+  },
+  {
+    "id": 308,
+    "name": "Montale Starry Nights",
+    "cat": "Селектив",
+    "volumes": [
+      2,
+      3,
+      4,
+      5,
+      10,
+      15,
+      20,
+      30,
+      50,
+      100
+    ],
+    "price": {
+      "2": 340,
+      "3": 500,
+      "4": 660,
+      "5": 850,
+      "10": 1600,
+      "15": 2300,
+      "20": 3000,
+      "30": 4450,
+      "50": 7250,
+      "100": 14300
+    },
+    "notes": "Верхние ноты: яблоко, бергамот, лимон\nСердце: роза, пачули, жасмин\nБаза: белый мускус, пудровые ноты, амбра",
+    "kind": "perfume",
+    "image": "assets/perfumes/31771.jpg",
+    "notesSource": "https://www.fragrantica.com/perfume/Montale/Starry-Night-31771.html",
+    "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.31771.jpg",
+    "referenceVersion": "Starry Nights Montale perfume - a fragrance for women and men 2015"
+  },
+  {
+    "id": 309,
+    "name": "Nasomatto Fantomas",
+    "cat": "Селектив",
+    "volumes": [
+      2,
+      3,
+      4,
+      5,
+      10,
+      15,
+      20,
+      30,
+      50,
+      100
+    ],
+    "price": {
+      "2": 340,
+      "3": 500,
+      "4": 660,
+      "5": 850,
+      "10": 1600,
+      "15": 2300,
+      "20": 3000,
+      "30": 4450,
+      "50": 7250,
+      "100": 14300
+    },
+    "notes": "Ноты: дыня, пластик, резина, сладкие ноты, дым, порох, карамель, тропические фрукты, землистые ноты, кашмеран, пачули",
+    "kind": "perfume",
+    "image": "assets/perfumes/62775.jpg",
+    "notesSource": "https://www.fragrantica.com/perfume/Nasomatto/Fantomas-62775.html",
+    "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.62775.jpg",
+    "referenceVersion": "Fantomas Nasomatto perfume - a fragrance for women and men 2020"
+  },
+  {
+    "id": 310,
+    "name": "Nejma 7",
+    "cat": "Селектив",
+    "volumes": [
+      2,
+      3,
+      4,
+      5,
+      10,
+      15,
+      20,
+      30,
+      50,
+      100
+    ],
+    "price": {
+      "2": 340,
+      "3": 500,
+      "4": 660,
+      "5": 850,
+      "10": 1600,
+      "15": 2300,
+      "20": 3000,
+      "30": 4450,
+      "50": 7250,
+      "100": 14300
+    },
+    "notes": "Верхние ноты: розовый грейпфрут, зелёный мандарин, калабрийский бергамот\nСердце: кокос, какао-боб, нероли\nБаза: уд, пачули, белый мускус",
+    "kind": "perfume",
+    "image": "assets/perfumes/10620.jpg",
+    "notesSource": "https://www.fragrantica.com/perfume/Nejma/Nejma-7-10620.html",
+    "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.10620.jpg",
+    "referenceVersion": "Nejma 7 Nejma perfume - a fragrance for women and men 2014"
+  },
+  {
+    "id": 311,
+    "name": "Ormonde Jayne Montabaco",
+    "cat": "Селектив",
+    "volumes": [
+      2,
+      3,
+      4,
+      5,
+      10,
+      15,
+      20,
+      30,
+      50,
+      100
+    ],
+    "price": {
+      "2": 340,
+      "3": 500,
+      "4": 660,
+      "5": 850,
+      "10": 1600,
+      "15": 2300,
+      "20": 3000,
+      "30": 4450,
+      "50": 7250,
+      "100": 14300
+    },
+    "notes": "Верхние ноты: кардамон, горный воздух, можжевельник, бергамот, мускатный шалфей, апельсин\nСердце: чай, гедион, фиалка, магнолия, роза\nБаза: табачный лист, Iso E Super, замша, серая амбра, сандал, мох, бобы тонка",
+    "kind": "perfume",
+    "image": "assets/perfumes/16896.jpg",
+    "notesSource": "https://www.fragrantica.com/perfume/Ormonde-Jayne/Montabaco-16896.html",
+    "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.16896.jpg",
+    "referenceVersion": "Montabaco Ormonde Jayne perfume - a fragrance for women and men 2012"
+  },
+  {
+    "id": 312,
+    "name": "Paco Rabanne Invictus",
+    "cat": "Селектив",
+    "volumes": [
+      2,
+      3,
+      4,
+      5,
+      10,
+      15,
+      20,
+      30,
+      50,
+      100
+    ],
+    "price": {
+      "2": 340,
+      "3": 500,
+      "4": 660,
+      "5": 850,
+      "10": 1600,
+      "15": 2300,
+      "20": 3000,
+      "30": 4450,
+      "50": 7250,
+      "100": 14300
+    },
+    "notes": "Верхние ноты: морские ноты, грейпфрут, мандарин\nСердце: лавровый лист, жасмин\nБаза: серая амбра, гваяковое дерево, дубовый мох, пачули",
+    "kind": "perfume",
+    "image": "assets/perfumes/18471.jpg",
+    "notesSource": "https://www.fragrantica.com/perfume/Rabanne/Invictus-18471.html",
+    "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.18471.jpg",
+    "referenceVersion": "Invictus Rabanne cologne - a fragrance for men 2013"
+  },
+  {
+    "id": 313,
+    "name": "Tom Ford Ombré Leather (2018)",
+    "cat": "Селектив",
+    "volumes": [
+      2,
+      3,
+      4,
+      5,
+      10,
+      15,
+      20,
+      30,
+      50,
+      100
+    ],
+    "price": {
+      "2": 340,
+      "3": 500,
+      "4": 660,
+      "5": 850,
+      "10": 1600,
+      "15": 2300,
+      "20": 3000,
+      "30": 4450,
+      "50": 7250,
+      "100": 14300
+    },
+    "notes": "Верхние ноты: кардамон\nСердце: кожа, жасмин самбак\nБаза: амбра, мох, пачули",
+    "kind": "perfume",
+    "image": "assets/perfumes/50239.jpg",
+    "notesSource": "https://www.fragrantica.com/perfume/Tom-Ford/Ombre-Leather-2018-50239.html",
+    "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.50239.jpg",
+    "referenceVersion": "Ombré Leather (2018) Tom Ford perfume - a fragrance for women and men 2018"
+  },
+  {
+    "id": 314,
+    "name": "Tiziana Terenzi Cassiopea",
+    "cat": "Селектив",
+    "volumes": [
+      2,
+      3,
+      4,
+      5,
+      10,
+      15,
+      20,
+      30,
+      50,
+      100
+    ],
+    "price": {
+      "2": 340,
+      "3": 500,
+      "4": 660,
+      "5": 850,
+      "10": 1600,
+      "15": 2300,
+      "20": 3000,
+      "30": 4450,
+      "50": 7250,
+      "100": 14300
+    },
+    "notes": "Верхние ноты: маракуйя, чёрная смородина, лимон, папоротник\nСердце: чайная роза, ландыш, гвоздика (цветок)\nБаза: бобы тонка, мускус, сандал",
+    "kind": "perfume",
+    "image": "assets/perfumes/30624.jpg",
+    "notesSource": "https://www.fragrantica.com/perfume/Tiziana-Terenzi/Cassiopea-30624.html",
+    "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.30624.jpg",
+    "referenceVersion": "Cassiopea Tiziana Terenzi perfume - a fragrance for women and men 2015"
+  },
+  {
+    "id": 315,
+    "name": "Tiziana Terenzi Orza",
+    "cat": "Селектив",
+    "volumes": [
+      2,
+      3,
+      4,
+      5,
+      10,
+      15,
+      20,
+      30,
+      50,
+      100
+    ],
+    "price": {
+      "2": 340,
+      "3": 500,
+      "4": 660,
+      "5": 850,
+      "10": 1600,
+      "15": 2300,
+      "20": 3000,
+      "30": 4450,
+      "50": 7250,
+      "100": 14300
+    },
+    "notes": "Верхние ноты: лесные ягоды, кокос, зелёное яблоко, слива, орхидея, мандарин, магнолия\nСердце: жасмин, болгарская роза, ландыш\nБаза: карамель, мускус, мадагаскарская ваниль, бензоин, амбра, сандал",
+    "kind": "perfume",
+    "image": "assets/perfumes/61873.jpg",
+    "notesSource": "https://www.fragrantica.com/perfume/Tiziana-Terenzi/Orza-61873.html",
+    "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.61873.jpg",
+    "referenceVersion": "Orza Tiziana Terenzi perfume - a fragrance for women and men 2020"
+  },
+  {
+    "id": 316,
+    "name": "Tom Ford Arabian Wood",
+    "cat": "Селектив",
+    "volumes": [
+      2,
+      3,
+      4,
+      5,
+      10,
+      15,
+      20,
+      30,
+      50,
+      100
+    ],
+    "price": {
+      "2": 340,
+      "3": 500,
+      "4": 660,
+      "5": 850,
+      "10": 1600,
+      "15": 2300,
+      "20": 3000,
+      "30": 4450,
+      "50": 7250,
+      "100": 14300
+    },
+    "notes": "Ноты: древесные ноты, дубовый мох, болгарская роза, майская роза, гальбанум, лаванда, мёд, пачули, жасмин, кедр, гардения, бергамот, фрезия, иланг-иланг, бобы тонка, апельсиновый цвет, сандал, амбра, ирис",
+    "kind": "perfume",
+    "image": "assets/perfumes/6363.jpg",
+    "notesSource": "https://www.fragrantica.com/perfume/Tom-Ford/Arabian-Wood-6363.html",
+    "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.6363.jpg",
+    "referenceVersion": "Arabian Wood Tom Ford perfume - a fragrance for women and men 2009"
+  },
+  {
+    "id": 317,
+    "name": "Tom Ford Tobacco Vanille",
+    "cat": "Селектив",
+    "volumes": [
+      2,
+      3,
+      4,
+      5,
+      10,
+      15,
+      20,
+      30,
+      50,
+      100
+    ],
+    "price": {
+      "2": 340,
+      "3": 500,
+      "4": 660,
+      "5": 850,
+      "10": 1600,
+      "15": 2300,
+      "20": 3000,
+      "30": 4450,
+      "50": 7250,
+      "100": 14300
+    },
+    "notes": "Верхние ноты: табачный лист, пряные ноты\nСердце: ваниль, какао, бобы тонка, цветок табака\nБаза: сухофрукты, древесные ноты",
+    "kind": "perfume",
+    "image": "assets/perfumes/1825.jpg",
+    "notesSource": "https://www.fragrantica.com/perfume/Tom-Ford/Tobacco-Vanille-1825.html",
+    "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.1825.jpg",
+    "referenceVersion": "Tobacco Vanille Tom Ford perfume - a fragrance for women and men 2007"
+  },
+  {
+    "id": 318,
+    "name": "Tom Ford Vanilla Sex",
+    "cat": "Селектив",
+    "volumes": [
+      2,
+      3,
+      4,
+      5,
+      10,
+      15,
+      20,
+      30,
+      50,
+      100
+    ],
+    "price": {
+      "2": 340,
+      "3": 500,
+      "4": 660,
+      "5": 850,
+      "10": 1600,
+      "15": 2300,
+      "20": 3000,
+      "30": 4450,
+      "50": 7250,
+      "100": 14300
+    },
+    "notes": "Ноты: индийская ваниль, абсолют ванили, сандал, анималистические ноты, корень ириса, жасмин",
+    "kind": "perfume",
+    "image": "assets/perfumes/88588.jpg",
+    "notesSource": "https://www.fragrantica.com/perfume/Tom-Ford/Vanilla-88588.html",
+    "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.88588.jpg",
+    "referenceVersion": "Vanilla Tom Ford perfume - a fragrance for women and men 2023"
+  },
+  {
+    "id": 319,
+    "name": "Trussardi Musk Noir",
+    "cat": "Селектив",
+    "volumes": [
+      2,
+      3,
+      4,
+      5,
+      10,
+      15,
+      20,
+      30,
+      50,
+      100
+    ],
+    "price": {
+      "2": 340,
+      "3": 500,
+      "4": 660,
+      "5": 850,
+      "10": 1600,
+      "15": 2300,
+      "20": 3000,
+      "30": 4450,
+      "50": 7250,
+      "100": 14300
+    },
+    "notes": "Ноты: мускус, ирис, кедр, жасмин",
+    "kind": "perfume",
+    "image": "assets/perfumes/59831.jpg",
+    "notesSource": "https://www.fragrantica.com/perfume/Trussardi/Musc-Noir-Perfume-Enhancer-59831.html",
+    "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.59831.jpg",
+    "referenceVersion": "Musc Noir Perfume Enhancer Trussardi perfume - a fragrance for women and men 2020"
+  },
+  {
+    "id": 320,
+    "name": "Vertus Narcos’is",
+    "cat": "Селектив",
+    "volumes": [
+      2,
+      3,
+      4,
+      5,
+      10,
+      15,
+      20,
+      30,
+      50,
+      100
+    ],
+    "price": {
+      "2": 340,
+      "3": 500,
+      "4": 660,
+      "5": 850,
+      "10": 1600,
+      "15": 2300,
+      "20": 3000,
+      "30": 4450,
+      "50": 7250,
+      "100": 14300
+    },
+    "notes": "Верхние ноты: ревень, кардамон, кофе, мандарин\nСердце: манго, имбирь, амбра\nБаза: персик, ветивер, серая амбра",
+    "kind": "perfume",
+    "image": "assets/perfumes/47923.jpg",
+    "notesSource": "https://www.fragrantica.com/perfume/Vertus/Narcos-is-47923.html",
+    "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.47923.jpg",
+    "referenceVersion": "Narcos'is Vertus perfume - a fragrance for women and men 2017"
+  },
+  {
+    "id": 321,
+    "name": "Zielinski & Rozen Fiction",
+    "cat": "Селектив",
+    "volumes": [
+      2,
+      3,
+      4,
+      5,
+      10,
+      15,
+      20,
+      30,
+      50,
+      100
+    ],
+    "price": {
+      "2": 340,
+      "3": 500,
+      "4": 660,
+      "5": 850,
+      "10": 1600,
+      "15": 2300,
+      "20": 3000,
+      "30": 4450,
+      "50": 7250,
+      "100": 14300
+    },
+    "notes": "Ноты: табак, чёрный перец, кедр",
+    "kind": "perfume",
+    "image": "assets/perfumes/65065.jpg",
+    "notesSource": "https://www.fragrantica.com/perfume/Zielinski-Rozen/Fiction-65065.html",
+    "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.65065.jpg",
+    "referenceVersion": "Fiction Zielinski & Rozen perfume - a fragrance for women and men"
+  },
+  {
+    "id": 322,
+    "name": "Zielinski & Rozen Oakmoss & Amber",
+    "cat": "Селектив",
+    "volumes": [
+      2,
+      3,
+      4,
+      5,
+      10,
+      15,
+      20,
+      30,
+      50,
+      100
+    ],
+    "price": {
+      "2": 340,
+      "3": 500,
+      "4": 660,
+      "5": 850,
+      "10": 1600,
+      "15": 2300,
+      "20": 3000,
+      "30": 4450,
+      "50": 7250,
+      "100": 14300
+    },
+    "notes": "Ноты: дубовый мох, амбра",
+    "kind": "perfume",
+    "image": "assets/perfumes/65057.jpg",
+    "notesSource": "https://www.fragrantica.com/perfume/Zielinski-Rozen/Oakmoss-Amber-65057.html",
+    "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.65057.jpg",
+    "referenceVersion": "Oakmoss & Amber Zielinski & Rozen perfume - a fragrance for women and men"
+  },
+  {
+    "id": 323,
+    "name": "Zielinski & Rozen Vanilla Blend",
+    "cat": "Селектив",
+    "volumes": [
+      2,
+      3,
+      4,
+      5,
+      10,
+      15,
+      20,
+      30,
+      50,
+      100
+    ],
+    "price": {
+      "2": 340,
+      "3": 500,
+      "4": 660,
+      "5": 850,
+      "10": 1600,
+      "15": 2300,
+      "20": 3000,
+      "30": 4450,
+      "50": 7250,
+      "100": 14300
+    },
+    "notes": "Ноты: ваниль",
+    "kind": "perfume",
+    "image": "assets/perfumes/65069.jpg",
+    "notesSource": "https://www.fragrantica.com/p/65069",
+    "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.65069.jpg",
+    "referenceVersion": "Vanilla Blend Zielinski & Rozen perfume - a fragrance for women and men"
+  },
+  {
+    "id": 324,
+    "name": "Zielinski & Rozen Orange Jasmine Vanilla",
+    "cat": "Селектив",
+    "volumes": [
+      2,
+      3,
+      4,
+      5,
+      10,
+      15,
+      20,
+      30,
+      50,
+      100
+    ],
+    "price": {
+      "2": 340,
+      "3": 500,
+      "4": 660,
+      "5": 850,
+      "10": 1600,
+      "15": 2300,
+      "20": 3000,
+      "30": 4450,
+      "50": 7250,
+      "100": 14300
+    },
+    "notes": "Верхние ноты: апельсин\nСердце: жасмин\nБаза: ваниль",
+    "kind": "perfume",
+    "image": "assets/perfumes/65053.jpg",
+    "notesSource": "https://www.fragrantica.com/perfume/Zielinski-Rozen/Orange-Jasmine-Vanilla-65053.html",
+    "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.65053.jpg",
+    "referenceVersion": "Orange & Jasmine, Vanilla Zielinski & Rozen perfume - a fragrance for women and men"
   }
 ]
