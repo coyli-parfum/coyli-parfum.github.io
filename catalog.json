@@ -350,7 +350,16 @@
     },
     "notes": "апельсин | ваниль | маршмеллоу",
     "kind": "spray",
-    "notesSource": "Ноты с этикетки на фотографии COYLI PARFUM, предоставленной пользователем: IMG_2603.jpeg"
+    "notesSource": "Ноты с этикетки на фотографии COYLI PARFUM, предоставленной пользователем: IMG_2603.jpeg",
+    "image": "assets/mists/orange-ice-cream-60ml-20261015.jpg",
+    "imageSource": "User supplied IMG_2603(1).jpeg, edited as requested: МИСТ ДЛЯ ТЕЛА, 60 мл",
+    "imageFrame": [
+      134.75,
+      239.75,
+      852.5,
+      1122,
+      1402
+    ]
   },
   {
     "id": 23,
