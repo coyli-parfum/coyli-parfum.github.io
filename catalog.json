@@ -9889,7 +9889,7 @@
   },
   {
     "id": 348,
-    "name": "Maison Martin Margiela Beach Walk",
+    "name": "Maison Margiela Replica Beach Walk",
     "cat": "Оригинал",
     "kind": "original",
     "volumes": [
@@ -9989,7 +9989,7 @@
   },
   {
     "id": 353,
-    "name": "GUCCI Gorgeous gardenia flora intense",
+    "name": "Gucci Flora Gorgeous Gardenia Intense",
     "cat": "Оригинал",
     "kind": "original",
     "volumes": [
@@ -10029,7 +10029,7 @@
   },
   {
     "id": 355,
-    "name": "GUCCI Gorgeous orchid",
+    "name": "Gucci Flora Gorgeous Orchid",
     "cat": "Оригинал",
     "kind": "original",
     "volumes": [
@@ -10129,7 +10129,7 @@
   },
   {
     "id": 360,
-    "name": "Givenchy Irresistible Givenchy Very Floral",
+    "name": "Givenchy Irresistible Very Floral",
     "cat": "Оригинал",
     "kind": "original",
     "volumes": [
@@ -10149,7 +10149,7 @@
   },
   {
     "id": 361,
-    "name": "BON PARFUMEUR PARIS 501",
+    "name": "Bon Parfumeur 501",
     "cat": "Оригинал",
     "kind": "original",
     "volumes": [
@@ -10390,7 +10390,7 @@
   },
   {
     "id": 373,
-    "name": "Chabaud Lait Concentré",
+    "name": "Chabaud Maison de Parfum Lait Concentré",
     "cat": "Оригинал",
     "kind": "original",
     "volumes": [
@@ -10430,7 +10430,7 @@
   },
   {
     "id": 375,
-    "name": "Armani Power of you",
+    "name": "Giorgio Armani Power of You",
     "cat": "Оригинал",
     "kind": "original",
     "volumes": [
@@ -10450,7 +10450,7 @@
   },
   {
     "id": 376,
-    "name": "ex nihilo The hedonist",
+    "name": "Ex Nihilo Hedonist",
     "cat": "Оригинал",
     "kind": "original",
     "volumes": [
@@ -10530,7 +10530,7 @@
   },
   {
     "id": 380,
-    "name": "thomas kosmala Nº4 apres l'amour",
+    "name": "Thomas Kosmala No. 4",
     "cat": "Оригинал",
     "kind": "original",
     "volumes": [
@@ -10550,7 +10550,7 @@
   },
   {
     "id": 381,
-    "name": "jo malone london Wood Sage & Sea",
+    "name": "Jo Malone London Wood Sage & Sea Salt",
     "cat": "Оригинал",
     "kind": "original",
     "volumes": [
@@ -10650,7 +10650,7 @@
   },
   {
     "id": 386,
-    "name": "Thomas Kosmala № 10",
+    "name": "Thomas Kosmala No. 10",
     "cat": "Оригинал",
     "kind": "original",
     "volumes": [
@@ -10730,7 +10730,7 @@
   },
   {
     "id": 390,
-    "name": "Maison Tahité – Officine Creative Cacao2",
+    "name": "Maison Tahité Cacao²",
     "cat": "Оригинал",
     "kind": "original",
     "volumes": [
@@ -10932,5 +10932,95 @@
     "kind": "original",
     "priceSource": "Ценники COYLI PARFUM, фотографии пользователя от 15.10.2026",
     "notesSource": "Ценники COYLI PARFUM, фотографии пользователя от 15.10.2026"
+  },
+  {
+    "id": 400,
+    "name": "La Sultane de Saba Ambre Vanille Patchouli",
+    "cat": "Оригинал",
+    "volumes": [
+      "уточнить"
+    ],
+    "price": {
+      "уточнить": 0
+    },
+    "notes": "",
+    "kind": "original",
+    "catalogStatus": "price_pending",
+    "referenceSource": "Нумерация оригиналов, лист «База», 15.10.2026"
+  },
+  {
+    "id": 401,
+    "name": "Lattafa Art of Nature II",
+    "cat": "Оригинал",
+    "volumes": [
+      "уточнить"
+    ],
+    "price": {
+      "уточнить": 0
+    },
+    "notes": "",
+    "kind": "original",
+    "catalogStatus": "price_pending",
+    "referenceSource": "Нумерация оригиналов, лист «База», 15.10.2026"
+  },
+  {
+    "id": 402,
+    "name": "Miller et Bertaux Menta y Menta",
+    "cat": "Оригинал",
+    "volumes": [
+      "уточнить"
+    ],
+    "price": {
+      "уточнить": 0
+    },
+    "notes": "",
+    "kind": "original",
+    "catalogStatus": "price_pending",
+    "referenceSource": "Нумерация оригиналов, лист «База», 15.10.2026"
+  },
+  {
+    "id": 403,
+    "name": "Narciso Rodriguez For Her Intense",
+    "cat": "Оригинал",
+    "volumes": [
+      "уточнить"
+    ],
+    "price": {
+      "уточнить": 0
+    },
+    "notes": "",
+    "kind": "original",
+    "catalogStatus": "price_pending",
+    "referenceSource": "Нумерация оригиналов, лист «База», 15.10.2026"
+  },
+  {
+    "id": 404,
+    "name": "Versace Versense",
+    "cat": "Оригинал",
+    "volumes": [
+      "уточнить"
+    ],
+    "price": {
+      "уточнить": 0
+    },
+    "notes": "",
+    "kind": "original",
+    "catalogStatus": "price_pending",
+    "referenceSource": "Нумерация оригиналов, лист «База», 15.10.2026"
+  },
+  {
+    "id": 405,
+    "name": "What We Do Is Secret What We Do Is Secret",
+    "cat": "Оригинал",
+    "volumes": [
+      "уточнить"
+    ],
+    "price": {
+      "уточнить": 0
+    },
+    "notes": "",
+    "kind": "original",
+    "catalogStatus": "price_pending",
+    "referenceSource": "Нумерация оригиналов, лист «База», 15.10.2026"
   }
 ]
