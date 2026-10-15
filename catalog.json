@@ -5105,52 +5105,80 @@
     "name": "Arcadia London",
     "cat": "Оригинал",
     "volumes": [
-      "уточнить"
+      3,
+      5,
+      10,
+      15
     ],
     "price": {
-      "уточнить": 0
+      "3": 750,
+      "5": 1250,
+      "10": 2500,
+      "15": 3750
     },
     "notes": "Цена и наличие уточняются у менеджера",
-    "kind": "original"
+    "kind": "original",
+    "priceSource": "Canva COYLI PARFUM, дизайн «Ценники», 15.10.2026"
   },
   {
     "id": 189,
     "name": "Attar Collection Al Rayhan",
     "cat": "Оригинал",
     "volumes": [
-      "уточнить"
+      3,
+      5,
+      10,
+      15
     ],
     "price": {
-      "уточнить": 0
+      "3": 900,
+      "5": 1500,
+      "10": 3000,
+      "15": 4500
     },
     "notes": "Цена и наличие уточняются у менеджера",
-    "kind": "original"
+    "kind": "original",
+    "priceSource": "Canva COYLI PARFUM, дизайн «Ценники», 15.10.2026"
   },
   {
     "id": 190,
     "name": "Attar Collection Annabella",
     "cat": "Оригинал",
     "volumes": [
-      "уточнить"
+      3,
+      5,
+      10,
+      15
     ],
     "price": {
-      "уточнить": 0
+      "3": 900,
+      "5": 1500,
+      "10": 3000,
+      "15": 4500
     },
     "notes": "Цена и наличие уточняются у менеджера",
-    "kind": "original"
+    "kind": "original",
+    "priceSource": "Canva COYLI PARFUM, дизайн «Ценники», 15.10.2026"
   },
   {
     "id": 191,
     "name": "Attar Collection Crystal Love for Her",
     "cat": "Оригинал",
     "volumes": [
-      "уточнить"
+      3,
+      5,
+      10,
+      15
     ],
     "price": {
-      "уточнить": 0
+      "3": 750,
+      "5": 1250,
+      "10": 2500,
+      "15": 3750
     },
     "notes": "Цена и наличие уточняются у менеджера",
-    "kind": "original"
+    "kind": "original",
+    "priceSource": "Canva COYLI PARFUM, дизайн «Ценники», 15.10.2026"
   },
   {
     "id": 192,
@@ -5170,52 +5198,80 @@
     "name": "Attar Collection Monolith",
     "cat": "Оригинал",
     "volumes": [
-      "уточнить"
+      3,
+      5,
+      10,
+      15
     ],
     "price": {
-      "уточнить": 0
+      "3": 900,
+      "5": 1500,
+      "10": 3000,
+      "15": 4500
     },
     "notes": "Цена и наличие уточняются у менеджера",
-    "kind": "original"
+    "kind": "original",
+    "priceSource": "Canva COYLI PARFUM, дизайн «Ценники», 15.10.2026"
   },
   {
     "id": 194,
     "name": "Attar Collection Musk Kashmir Extrait",
     "cat": "Оригинал",
     "volumes": [
-      "уточнить"
+      3,
+      5,
+      10,
+      15
     ],
     "price": {
-      "уточнить": 0
+      "3": 1200,
+      "5": 2000,
+      "10": 4000,
+      "15": 6000
     },
     "notes": "Цена и наличие уточняются у менеджера",
-    "kind": "original"
+    "kind": "original",
+    "priceSource": "Canva COYLI PARFUM, дизайн «Ценники», 15.10.2026"
   },
   {
     "id": 195,
     "name": "Attar Collection The Queen of Sheba",
     "cat": "Оригинал",
     "volumes": [
-      "уточнить"
+      3,
+      5,
+      10,
+      15
     ],
     "price": {
-      "уточнить": 0
+      "3": 900,
+      "5": 1500,
+      "10": 3000,
+      "15": 4500
     },
     "notes": "Цена и наличие уточняются у менеджера",
-    "kind": "original"
+    "kind": "original",
+    "priceSource": "Canva COYLI PARFUM, дизайн «Ценники», 15.10.2026"
   },
   {
     "id": 196,
     "name": "Burberry Goddess Intense",
     "cat": "Оригинал",
     "volumes": [
-      "уточнить"
+      3,
+      5,
+      10,
+      15
     ],
     "price": {
-      "уточнить": 0
+      "3": 900,
+      "5": 1500,
+      "10": 3000,
+      "15": 4500
     },
     "notes": "Цена и наличие уточняются у менеджера",
-    "kind": "original"
+    "kind": "original",
+    "priceSource": "Canva COYLI PARFUM, дизайн «Ценники», 15.10.2026"
   },
   {
     "id": 197,
@@ -5235,117 +5291,180 @@
     "name": "ByBozo Sea Breeze",
     "cat": "Оригинал",
     "volumes": [
-      "уточнить"
+      3,
+      5,
+      10,
+      15
     ],
     "price": {
-      "уточнить": 0
+      "3": 1050,
+      "5": 1750,
+      "10": 3500,
+      "15": 5250
     },
     "notes": "Цена и наличие уточняются у менеджера",
-    "kind": "original"
+    "kind": "original",
+    "priceSource": "Canva COYLI PARFUM, дизайн «Ценники», 15.10.2026"
   },
   {
     "id": 199,
     "name": "ByBozo Topless",
     "cat": "Оригинал",
     "volumes": [
-      "уточнить"
+      3,
+      5,
+      10,
+      15
     ],
     "price": {
-      "уточнить": 0
+      "3": 1050,
+      "5": 1750,
+      "10": 3500,
+      "15": 5250
     },
     "notes": "Цена и наличие уточняются у менеджера",
-    "kind": "original"
+    "kind": "original",
+    "priceSource": "Canva COYLI PARFUM, дизайн «Ценники», 15.10.2026"
   },
   {
     "id": 200,
     "name": "Byredo 1996",
     "cat": "Оригинал",
     "volumes": [
-      "уточнить"
+      3,
+      5,
+      10,
+      15
     ],
     "price": {
-      "уточнить": 0
+      "3": 1200,
+      "5": 2000,
+      "10": 4000,
+      "15": 6000
     },
     "notes": "Цена и наличие уточняются у менеджера",
-    "kind": "original"
+    "kind": "original",
+    "priceSource": "Canva COYLI PARFUM, дизайн «Ценники», 15.10.2026"
   },
   {
     "id": 201,
     "name": "Byredo Bal d'Afrique",
     "cat": "Оригинал",
     "volumes": [
-      "уточнить"
+      3,
+      5,
+      10,
+      15
     ],
     "price": {
-      "уточнить": 0
+      "3": 1350,
+      "5": 2250,
+      "10": 4500,
+      "15": 6750
     },
     "notes": "Цена и наличие уточняются у менеджера",
-    "kind": "original"
+    "kind": "original",
+    "priceSource": "Canva COYLI PARFUM, дизайн «Ценники», 15.10.2026"
   },
   {
     "id": 202,
     "name": "Casamorati Dolce Amalfi",
     "cat": "Оригинал",
     "volumes": [
-      "уточнить"
+      3,
+      5,
+      10,
+      15
     ],
     "price": {
-      "уточнить": 0
+      "3": 1200,
+      "5": 2000,
+      "10": 4000,
+      "15": 6000
     },
     "notes": "Цена и наличие уточняются у менеджера",
-    "kind": "original"
+    "kind": "original",
+    "priceSource": "Canva COYLI PARFUM, дизайн «Ценники», 15.10.2026"
   },
   {
     "id": 203,
     "name": "Casamorati Italica",
     "cat": "Оригинал",
     "volumes": [
-      "уточнить"
+      3,
+      5,
+      10,
+      15
     ],
     "price": {
-      "уточнить": 0
+      "3": 1200,
+      "5": 2000,
+      "10": 4000,
+      "15": 6000
     },
     "notes": "Цена и наличие уточняются у менеджера",
-    "kind": "original"
+    "kind": "original",
+    "priceSource": "Canva COYLI PARFUM, дизайн «Ценники», 15.10.2026"
   },
   {
     "id": 204,
     "name": "Chanel Allure Homme Sport",
     "cat": "Оригинал",
     "volumes": [
-      "уточнить"
+      3,
+      5,
+      10,
+      15
     ],
     "price": {
-      "уточнить": 0
+      "3": 1200,
+      "5": 2000,
+      "10": 4000,
+      "15": 6000
     },
     "notes": "Цена и наличие уточняются у менеджера",
-    "kind": "original"
+    "kind": "original",
+    "priceSource": "Canva COYLI PARFUM, дизайн «Ценники», 15.10.2026"
   },
   {
     "id": 205,
     "name": "Chanel Bleu de Chanel",
     "cat": "Оригинал",
     "volumes": [
-      "уточнить"
+      3,
+      5,
+      10,
+      15
     ],
     "price": {
-      "уточнить": 0
+      "3": 1200,
+      "5": 2000,
+      "10": 4000,
+      "15": 6000
     },
     "notes": "Цена и наличие уточняются у менеджера",
-    "kind": "original"
+    "kind": "original",
+    "priceSource": "Canva COYLI PARFUM, дизайн «Ценники», 15.10.2026"
   },
   {
     "id": 206,
     "name": "Chanel Chance Eau Splendide",
     "cat": "Оригинал",
     "volumes": [
-      "уточнить"
+      3,
+      5,
+      10,
+      15
     ],
     "price": {
-      "уточнить": 0
+      "3": 1200,
+      "5": 2000,
+      "10": 4000,
+      "15": 6000
     },
     "notes": "Цена и наличие уточняются у менеджера",
-    "kind": "original"
+    "kind": "original",
+    "priceSource": "Canva COYLI PARFUM, дизайн «Ценники», 15.10.2026"
   },
   {
     "id": 207,
@@ -5391,169 +5510,260 @@
     "name": "Dior Sauvage",
     "cat": "Оригинал",
     "volumes": [
-      "уточнить"
+      3,
+      5,
+      10,
+      15
     ],
     "price": {
-      "уточнить": 0
+      "3": 900,
+      "5": 1500,
+      "10": 3000,
+      "15": 4500
     },
     "notes": "Цена и наличие уточняются у менеджера",
-    "kind": "original"
+    "kind": "original",
+    "priceSource": "Canva COYLI PARFUM, дизайн «Ценники», 15.10.2026"
   },
   {
     "id": 211,
     "name": "Escentric Molecules Molecule 01",
     "cat": "Оригинал",
     "volumes": [
-      "уточнить"
+      3,
+      5,
+      10,
+      15
     ],
     "price": {
-      "уточнить": 0
+      "3": 1050,
+      "5": 1750,
+      "10": 3500,
+      "15": 5250
     },
     "notes": "Цена и наличие уточняются у менеджера",
-    "kind": "original"
+    "kind": "original",
+    "priceSource": "Canva COYLI PARFUM, дизайн «Ценники», 15.10.2026"
   },
   {
     "id": 212,
     "name": "Escentric Molecules Molecule 02",
     "cat": "Оригинал",
     "volumes": [
-      "уточнить"
+      3,
+      5,
+      10,
+      15
     ],
     "price": {
-      "уточнить": 0
+      "3": 1200,
+      "5": 2000,
+      "10": 4000,
+      "15": 6000
     },
     "notes": "Цена и наличие уточняются у менеджера",
-    "kind": "original"
+    "kind": "original",
+    "priceSource": "Canva COYLI PARFUM, дизайн «Ценники», 15.10.2026"
   },
   {
     "id": 213,
     "name": "Essential Parfums Bois Impérial",
     "cat": "Оригинал",
     "volumes": [
-      "уточнить"
+      3,
+      5,
+      10,
+      15
     ],
     "price": {
-      "уточнить": 0
+      "3": 750,
+      "5": 1250,
+      "10": 2500,
+      "15": 3750
     },
     "notes": "Цена и наличие уточняются у менеджера",
-    "kind": "original"
+    "kind": "original",
+    "priceSource": "Canva COYLI PARFUM, дизайн «Ценники», 15.10.2026"
   },
   {
     "id": 214,
     "name": "Ex Nihilo Blue Talisman",
     "cat": "Оригинал",
     "volumes": [
-      "уточнить"
+      3,
+      5,
+      10,
+      15
     ],
     "price": {
-      "уточнить": 0
+      "3": 2700,
+      "5": 4500,
+      "10": 9000,
+      "15": 13500
     },
     "notes": "Цена и наличие уточняются у менеджера",
-    "kind": "original"
+    "kind": "original",
+    "priceSource": "Canva COYLI PARFUM, дизайн «Ценники», 15.10.2026"
   },
   {
     "id": 215,
     "name": "Ex Nihilo Fleur Narcotique",
     "cat": "Оригинал",
     "volumes": [
-      "уточнить"
+      3,
+      5,
+      10,
+      15
     ],
     "price": {
-      "уточнить": 0
+      "3": 1200,
+      "5": 2000,
+      "10": 4000,
+      "15": 6000
     },
     "notes": "Цена и наличие уточняются у менеджера",
-    "kind": "original"
+    "kind": "original",
+    "priceSource": "Canva COYLI PARFUM, дизайн «Ценники», 15.10.2026"
   },
   {
     "id": 216,
     "name": "Genyum Painter",
     "cat": "Оригинал",
     "volumes": [
-      "уточнить"
+      3,
+      5,
+      10,
+      15
     ],
     "price": {
-      "уточнить": 0
+      "3": 1350,
+      "5": 2250,
+      "10": 4500,
+      "15": 6750
     },
     "notes": "Цена и наличие уточняются у менеджера",
-    "kind": "original"
+    "kind": "original",
+    "priceSource": "Canva COYLI PARFUM, дизайн «Ценники», 15.10.2026"
   },
   {
     "id": 217,
     "name": "Givenchy Gentleman Society Extrême",
     "cat": "Оригинал",
     "volumes": [
-      "уточнить"
+      3,
+      5,
+      10,
+      15
     ],
     "price": {
-      "уточнить": 0
+      "3": 600,
+      "5": 1000,
+      "10": 2000,
+      "15": 3000
     },
     "notes": "Цена и наличие уточняются у менеджера",
-    "kind": "original"
+    "kind": "original",
+    "priceSource": "Canva COYLI PARFUM, дизайн «Ценники», 15.10.2026"
   },
   {
     "id": 218,
     "name": "HFC Devil's Intrigue",
     "cat": "Оригинал",
     "volumes": [
-      "уточнить"
+      3,
+      5,
+      10,
+      15
     ],
     "price": {
-      "уточнить": 0
+      "3": 2550,
+      "5": 4250,
+      "10": 8500,
+      "15": 12750
     },
     "notes": "Цена и наличие уточняются у менеджера",
-    "kind": "original"
+    "kind": "original",
+    "priceSource": "Canva COYLI PARFUM, дизайн «Ценники», 15.10.2026"
   },
   {
     "id": 219,
     "name": "Hormone Paris Gaba",
     "cat": "Оригинал",
     "volumes": [
-      "уточнить"
+      3,
+      5,
+      10,
+      15
     ],
     "price": {
-      "уточнить": 0
+      "3": 1350,
+      "5": 2250,
+      "10": 4500,
+      "15": 6750
     },
     "notes": "Цена и наличие уточняются у менеджера",
-    "kind": "original"
+    "kind": "original",
+    "priceSource": "Canva COYLI PARFUM, дизайн «Ценники», 15.10.2026"
   },
   {
     "id": 220,
     "name": "Initio Side Effect",
     "cat": "Оригинал",
     "volumes": [
-      "уточнить"
+      3,
+      5,
+      10,
+      15
     ],
     "price": {
-      "уточнить": 0
+      "3": 1500,
+      "5": 2500,
+      "10": 5000,
+      "15": 7500
     },
     "notes": "Цена и наличие уточняются у менеджера",
-    "kind": "original"
+    "kind": "original",
+    "priceSource": "Canva COYLI PARFUM, дизайн «Ценники», 15.10.2026"
   },
   {
     "id": 221,
     "name": "Juliette Has a Gun Miami Shake",
     "cat": "Оригинал",
     "volumes": [
-      "уточнить"
+      3,
+      5,
+      10,
+      15
     ],
     "price": {
-      "уточнить": 0
+      "3": 750,
+      "5": 1250,
+      "10": 2500,
+      "15": 3750
     },
     "notes": "Цена и наличие уточняются у менеджера",
-    "kind": "original"
+    "kind": "original",
+    "priceSource": "Canva COYLI PARFUM, дизайн «Ценники», 15.10.2026"
   },
   {
     "id": 222,
     "name": "Juliette Has a Gun Mmmm…",
     "cat": "Оригинал",
     "volumes": [
-      "уточнить"
+      3,
+      5,
+      10,
+      15
     ],
     "price": {
-      "уточнить": 0
+      "3": 600,
+      "5": 1000,
+      "10": 2000,
+      "15": 3000
     },
     "notes": "Цена и наличие уточняются у менеджера",
-    "kind": "original"
+    "kind": "original",
+    "priceSource": "Canva COYLI PARFUM, дизайн «Ценники», 15.10.2026"
   },
   {
     "id": 223,
@@ -5586,195 +5796,300 @@
     "name": "Juliette Has a Gun Pear Inc",
     "cat": "Оригинал",
     "volumes": [
-      "уточнить"
+      3,
+      5,
+      10,
+      15
     ],
     "price": {
-      "уточнить": 0
+      "3": 750,
+      "5": 1250,
+      "10": 2500,
+      "15": 3750
     },
     "notes": "Цена и наличие уточняются у менеджера",
-    "kind": "original"
+    "kind": "original",
+    "priceSource": "Canva COYLI PARFUM, дизайн «Ценники», 15.10.2026"
   },
   {
     "id": 226,
     "name": "Juliette Has a Gun Sunny Side Up",
     "cat": "Оригинал",
     "volumes": [
-      "уточнить"
+      3,
+      5,
+      10,
+      15
     ],
     "price": {
-      "уточнить": 0
+      "3": 750,
+      "5": 1250,
+      "10": 2500,
+      "15": 3750
     },
     "notes": "Цена и наличие уточняются у менеджера",
-    "kind": "original"
+    "kind": "original",
+    "priceSource": "Canva COYLI PARFUM, дизайн «Ценники», 15.10.2026"
   },
   {
     "id": 227,
     "name": "Kilian Angels' Share",
     "cat": "Оригинал",
     "volumes": [
-      "уточнить"
+      3,
+      5,
+      10,
+      15
     ],
     "price": {
-      "уточнить": 0
+      "3": 1950,
+      "5": 3250,
+      "10": 6500,
+      "15": 9750
     },
     "notes": "Цена и наличие уточняются у менеджера",
-    "kind": "original"
+    "kind": "original",
+    "priceSource": "Canva COYLI PARFUM, дизайн «Ценники», 15.10.2026"
   },
   {
     "id": 228,
     "name": "Le Labo Another 13",
     "cat": "Оригинал",
     "volumes": [
-      "уточнить"
+      3,
+      5,
+      10,
+      15
     ],
     "price": {
-      "уточнить": 0
+      "3": 1950,
+      "5": 3250,
+      "10": 6500,
+      "15": 9750
     },
     "notes": "Цена и наличие уточняются у менеджера",
-    "kind": "original"
+    "kind": "original",
+    "priceSource": "Canva COYLI PARFUM, дизайн «Ценники», 15.10.2026"
   },
   {
     "id": 229,
     "name": "Les Liquides Imaginaires Blanche Bête",
     "cat": "Оригинал",
     "volumes": [
-      "уточнить"
+      3,
+      5,
+      10,
+      15
     ],
     "price": {
-      "уточнить": 0
+      "3": 1500,
+      "5": 2500,
+      "10": 5000,
+      "15": 7500
     },
     "notes": "Цена и наличие уточняются у менеджера",
-    "kind": "original"
+    "kind": "original",
+    "priceSource": "Canva COYLI PARFUM, дизайн «Ценники», 15.10.2026"
   },
   {
     "id": 230,
     "name": "Maison Francis Kurkdjian Baccarat Rouge 540",
     "cat": "Оригинал",
     "volumes": [
-      "уточнить"
+      3,
+      5,
+      10,
+      15
     ],
     "price": {
-      "уточнить": 0
+      "3": 1500,
+      "5": 2500,
+      "10": 5000,
+      "15": 7500
     },
     "notes": "Цена и наличие уточняются у менеджера",
-    "kind": "original"
+    "kind": "original",
+    "priceSource": "Canva COYLI PARFUM, дизайн «Ценники», 15.10.2026"
   },
   {
     "id": 231,
     "name": "Marc-Antoine Barrois Ganymede",
     "cat": "Оригинал",
     "volumes": [
-      "уточнить"
+      3,
+      5,
+      10,
+      15
     ],
     "price": {
-      "уточнить": 0
+      "3": 1050,
+      "5": 1750,
+      "10": 3500,
+      "15": 5250
     },
     "notes": "Цена и наличие уточняются у менеджера",
-    "kind": "original"
+    "kind": "original",
+    "priceSource": "Canva COYLI PARFUM, дизайн «Ценники», 15.10.2026"
   },
   {
     "id": 232,
     "name": "Nasomatto Black Afgano",
     "cat": "Оригинал",
     "volumes": [
-      "уточнить"
+      3,
+      5,
+      10,
+      15
     ],
     "price": {
-      "уточнить": 0
+      "3": 2250,
+      "5": 3750,
+      "10": 7500,
+      "15": 11250
     },
     "notes": "Цена и наличие уточняются у менеджера",
-    "kind": "original"
+    "kind": "original",
+    "priceSource": "Canva COYLI PARFUM, дизайн «Ценники», 15.10.2026"
   },
   {
     "id": 233,
     "name": "Orto Parisi Megamare",
     "cat": "Оригинал",
     "volumes": [
-      "уточнить"
+      3,
+      5,
+      10,
+      15
     ],
     "price": {
-      "уточнить": 0
+      "3": 1950,
+      "5": 3250,
+      "10": 6500,
+      "15": 9750
     },
     "notes": "Цена и наличие уточняются у менеджера",
-    "kind": "original"
+    "kind": "original",
+    "priceSource": "Canva COYLI PARFUM, дизайн «Ценники», 15.10.2026"
   },
   {
     "id": 234,
     "name": "Richard Dirty Mango",
     "cat": "Оригинал",
     "volumes": [
-      "уточнить"
+      3,
+      5,
+      10,
+      15
     ],
     "price": {
-      "уточнить": 0
+      "3": 1050,
+      "5": 1750,
+      "10": 3500,
+      "15": 5250
     },
     "notes": "Цена и наличие уточняются у менеджера",
-    "kind": "original"
+    "kind": "original",
+    "priceSource": "Canva COYLI PARFUM, дизайн «Ценники», 15.10.2026"
   },
   {
     "id": 235,
     "name": "Richard White Chocola",
     "cat": "Оригинал",
     "volumes": [
-      "уточнить"
+      3,
+      5,
+      10,
+      15
     ],
     "price": {
-      "уточнить": 0
+      "3": 1050,
+      "5": 1750,
+      "10": 3500,
+      "15": 5250
     },
     "notes": "Цена и наличие уточняются у менеджера",
-    "kind": "original"
+    "kind": "original",
+    "priceSource": "Canva COYLI PARFUM, дизайн «Ценники», 15.10.2026"
   },
   {
     "id": 236,
     "name": "Tiziana Terenzi Kirke",
     "cat": "Оригинал",
     "volumes": [
-      "уточнить"
+      3,
+      5,
+      10,
+      15
     ],
     "price": {
-      "уточнить": 0
+      "3": 750,
+      "5": 1250,
+      "10": 2500,
+      "15": 3750
     },
     "notes": "Цена и наличие уточняются у менеджера",
-    "kind": "original"
+    "kind": "original",
+    "priceSource": "Canva COYLI PARFUM, дизайн «Ценники», 15.10.2026"
   },
   {
     "id": 237,
     "name": "Tom Ford Ombré Leather",
     "cat": "Оригинал",
     "volumes": [
-      "уточнить"
+      3,
+      5,
+      10,
+      15
     ],
     "price": {
-      "уточнить": 0
+      "3": 1050,
+      "5": 1750,
+      "10": 3500,
+      "15": 5250
     },
     "notes": "Цена и наличие уточняются у менеджера",
-    "kind": "original"
+    "kind": "original",
+    "priceSource": "Canva COYLI PARFUM, дизайн «Ценники», 15.10.2026"
   },
   {
     "id": 238,
     "name": "Vilhelm Parfumerie Chimilka",
     "cat": "Оригинал",
     "volumes": [
-      "уточнить"
+      3,
+      5,
+      10,
+      15
     ],
     "price": {
-      "уточнить": 0
+      "3": 1650,
+      "5": 2750,
+      "10": 5500,
+      "15": 8250
     },
     "notes": "Цена и наличие уточняются у менеджера",
-    "kind": "original"
+    "kind": "original",
+    "priceSource": "Canva COYLI PARFUM, дизайн «Ценники», 15.10.2026"
   },
   {
     "id": 239,
     "name": "Zarkoperfume The Muse",
     "cat": "Оригинал",
     "volumes": [
-      "уточнить"
+      3,
+      5,
+      10,
+      15
     ],
     "price": {
-      "уточнить": 0
+      "3": 750,
+      "5": 1250,
+      "10": 2500,
+      "15": 3750
     },
     "notes": "Цена и наличие уточняются у менеджера",
-    "kind": "original"
+    "kind": "original",
+    "priceSource": "Canva COYLI PARFUM, дизайн «Ценники», 15.10.2026"
   },
   {
     "id": 240,
@@ -9451,5 +9766,1085 @@
     "image": "assets/perfumes/zam-zam-new.jpg",
     "imageSource": "Фото графина, предоставленное COYLI PARFUM",
     "sortBrand": "zam"
+  },
+  {
+    "id": 342,
+    "name": "HFC Great Way",
+    "cat": "Оригинал",
+    "kind": "original",
+    "volumes": [
+      3,
+      5,
+      10,
+      15
+    ],
+    "price": {
+      "3": 1350,
+      "5": 2250,
+      "10": 4500,
+      "15": 6750
+    },
+    "notes": "",
+    "priceSource": "Canva COYLI PARFUM, дизайн «Ценники», 15.10.2026"
+  },
+  {
+    "id": 343,
+    "name": "GENYUM Photographer",
+    "cat": "Оригинал",
+    "kind": "original",
+    "volumes": [
+      3,
+      5,
+      10,
+      15
+    ],
+    "price": {
+      "3": 1200,
+      "5": 2000,
+      "10": 4000,
+      "15": 6000
+    },
+    "notes": "",
+    "priceSource": "Canva COYLI PARFUM, дизайн «Ценники», 15.10.2026"
+  },
+  {
+    "id": 344,
+    "name": "Nobile 1942 La Danza delle Libellule",
+    "cat": "Оригинал",
+    "kind": "original",
+    "volumes": [
+      3,
+      5,
+      10,
+      15
+    ],
+    "price": {
+      "3": 1050,
+      "5": 1750,
+      "10": 3500,
+      "15": 5250
+    },
+    "notes": "",
+    "priceSource": "Canva COYLI PARFUM, дизайн «Ценники», 15.10.2026"
+  },
+  {
+    "id": 345,
+    "name": "Givenchy L’interdit rouge",
+    "cat": "Оригинал",
+    "kind": "original",
+    "volumes": [
+      3,
+      5,
+      10,
+      15
+    ],
+    "price": {
+      "3": 1050,
+      "5": 1750,
+      "10": 3500,
+      "15": 5250
+    },
+    "notes": "",
+    "priceSource": "Canva COYLI PARFUM, дизайн «Ценники», 15.10.2026"
+  },
+  {
+    "id": 346,
+    "name": "Dolce&Gabbana The One Gold",
+    "cat": "Оригинал",
+    "kind": "original",
+    "volumes": [
+      3,
+      5,
+      10,
+      15
+    ],
+    "price": {
+      "3": 600,
+      "5": 1000,
+      "10": 2000,
+      "15": 3000
+    },
+    "notes": "",
+    "priceSource": "Canva COYLI PARFUM, дизайн «Ценники», 15.10.2026"
+  },
+  {
+    "id": 347,
+    "name": "Essential Parfums Ambre Latte",
+    "cat": "Оригинал",
+    "kind": "original",
+    "volumes": [
+      3,
+      5,
+      10,
+      15
+    ],
+    "price": {
+      "3": 1350,
+      "5": 2250,
+      "10": 4500,
+      "15": 6750
+    },
+    "notes": "",
+    "priceSource": "Canva COYLI PARFUM, дизайн «Ценники», 15.10.2026"
+  },
+  {
+    "id": 348,
+    "name": "Maison Martin Margiela Beach Walk",
+    "cat": "Оригинал",
+    "kind": "original",
+    "volumes": [
+      3,
+      5,
+      10,
+      15
+    ],
+    "price": {
+      "3": 900,
+      "5": 1500,
+      "10": 3000,
+      "15": 4500
+    },
+    "notes": "",
+    "priceSource": "Canva COYLI PARFUM, дизайн «Ценники», 15.10.2026"
+  },
+  {
+    "id": 349,
+    "name": "Guerlain Samsara",
+    "cat": "Оригинал",
+    "kind": "original",
+    "volumes": [
+      3,
+      5,
+      10,
+      15
+    ],
+    "price": {
+      "3": 900,
+      "5": 1500,
+      "10": 3000,
+      "15": 4500
+    },
+    "notes": "",
+    "priceSource": "Canva COYLI PARFUM, дизайн «Ценники», 15.10.2026"
+  },
+  {
+    "id": 350,
+    "name": "max philip Mandarin",
+    "cat": "Оригинал",
+    "kind": "original",
+    "volumes": [
+      3,
+      5,
+      10,
+      15
+    ],
+    "price": {
+      "3": 900,
+      "5": 1500,
+      "10": 3000,
+      "15": 4500
+    },
+    "notes": "",
+    "priceSource": "Canva COYLI PARFUM, дизайн «Ценники», 15.10.2026"
+  },
+  {
+    "id": 351,
+    "name": "ZARKOPERFUME Sending Love",
+    "cat": "Оригинал",
+    "kind": "original",
+    "volumes": [
+      3,
+      5,
+      10,
+      15
+    ],
+    "price": {
+      "3": 750,
+      "5": 1250,
+      "10": 2500,
+      "15": 3750
+    },
+    "notes": "",
+    "priceSource": "Canva COYLI PARFUM, дизайн «Ценники», 15.10.2026"
+  },
+  {
+    "id": 352,
+    "name": "Narciso Rodriguez Narciso Rodriguez For Her",
+    "cat": "Оригинал",
+    "kind": "original",
+    "volumes": [
+      3,
+      5,
+      10,
+      15
+    ],
+    "price": {
+      "3": 750,
+      "5": 1250,
+      "10": 2500,
+      "15": 3750
+    },
+    "notes": "",
+    "priceSource": "Canva COYLI PARFUM, дизайн «Ценники», 15.10.2026"
+  },
+  {
+    "id": 353,
+    "name": "GUCCI Gorgeous gardenia flora intense",
+    "cat": "Оригинал",
+    "kind": "original",
+    "volumes": [
+      3,
+      5,
+      10,
+      15
+    ],
+    "price": {
+      "3": 900,
+      "5": 1500,
+      "10": 3000,
+      "15": 4500
+    },
+    "notes": "",
+    "priceSource": "Canva COYLI PARFUM, дизайн «Ценники», 15.10.2026"
+  },
+  {
+    "id": 354,
+    "name": "Les Liquides Imaginaires Lime Sister",
+    "cat": "Оригинал",
+    "kind": "original",
+    "volumes": [
+      3,
+      5,
+      10,
+      15
+    ],
+    "price": {
+      "3": 900,
+      "5": 1500,
+      "10": 3000,
+      "15": 4500
+    },
+    "notes": "",
+    "priceSource": "Canva COYLI PARFUM, дизайн «Ценники», 15.10.2026"
+  },
+  {
+    "id": 355,
+    "name": "GUCCI Gorgeous orchid",
+    "cat": "Оригинал",
+    "kind": "original",
+    "volumes": [
+      3,
+      5,
+      10,
+      15
+    ],
+    "price": {
+      "3": 900,
+      "5": 1500,
+      "10": 3000,
+      "15": 4500
+    },
+    "notes": "",
+    "priceSource": "Canva COYLI PARFUM, дизайн «Ценники», 15.10.2026"
+  },
+  {
+    "id": 356,
+    "name": "GUCCI Flora gorgeous magnolia",
+    "cat": "Оригинал",
+    "kind": "original",
+    "volumes": [
+      3,
+      5,
+      10,
+      15
+    ],
+    "price": {
+      "3": 900,
+      "5": 1500,
+      "10": 3000,
+      "15": 4500
+    },
+    "notes": "",
+    "priceSource": "Canva COYLI PARFUM, дизайн «Ценники», 15.10.2026"
+  },
+  {
+    "id": 357,
+    "name": "Atelier Cologne Cedre Atlas",
+    "cat": "Оригинал",
+    "kind": "original",
+    "volumes": [
+      3,
+      5,
+      10,
+      15
+    ],
+    "price": {
+      "3": 1200,
+      "5": 2000,
+      "10": 4000,
+      "15": 6000
+    },
+    "notes": "",
+    "priceSource": "Canva COYLI PARFUM, дизайн «Ценники», 15.10.2026"
+  },
+  {
+    "id": 358,
+    "name": "Chopard Miel d'Arabie",
+    "cat": "Оригинал",
+    "kind": "original",
+    "volumes": [
+      3,
+      5,
+      10,
+      15
+    ],
+    "price": {
+      "3": 1200,
+      "5": 2000,
+      "10": 4000,
+      "15": 6000
+    },
+    "notes": "",
+    "priceSource": "Canva COYLI PARFUM, дизайн «Ценники», 15.10.2026"
+  },
+  {
+    "id": 359,
+    "name": "Chopard Vetiver d'haiti au the vert",
+    "cat": "Оригинал",
+    "kind": "original",
+    "volumes": [
+      3,
+      5,
+      10,
+      15
+    ],
+    "price": {
+      "3": 1350,
+      "5": 2250,
+      "10": 4500,
+      "15": 6750
+    },
+    "notes": "",
+    "priceSource": "Canva COYLI PARFUM, дизайн «Ценники», 15.10.2026"
+  },
+  {
+    "id": 360,
+    "name": "Givenchy Irresistible Givenchy Very Floral",
+    "cat": "Оригинал",
+    "kind": "original",
+    "volumes": [
+      3,
+      5,
+      10,
+      15
+    ],
+    "price": {
+      "3": 900,
+      "5": 1500,
+      "10": 3000,
+      "15": 4500
+    },
+    "notes": "",
+    "priceSource": "Canva COYLI PARFUM, дизайн «Ценники», 15.10.2026"
+  },
+  {
+    "id": 361,
+    "name": "BON PARFUMEUR PARIS 501",
+    "cat": "Оригинал",
+    "kind": "original",
+    "volumes": [
+      3,
+      5,
+      10,
+      15
+    ],
+    "price": {
+      "3": 900,
+      "5": 1500,
+      "10": 3000,
+      "15": 4500
+    },
+    "notes": "",
+    "priceSource": "Canva COYLI PARFUM, дизайн «Ценники», 15.10.2026"
+  },
+  {
+    "id": 362,
+    "name": "Jean Paul Gaultier Le Beau",
+    "cat": "Оригинал",
+    "kind": "original",
+    "volumes": [
+      3,
+      5,
+      10,
+      15
+    ],
+    "price": {
+      "3": 900,
+      "5": 1500,
+      "10": 3000,
+      "15": 4500
+    },
+    "notes": "",
+    "priceSource": "Canva COYLI PARFUM, дизайн «Ценники», 15.10.2026"
+  },
+  {
+    "id": 363,
+    "name": "HORMONE PARIS this is not testosterone",
+    "cat": "Оригинал",
+    "kind": "original",
+    "volumes": [
+      3,
+      5,
+      10,
+      15
+    ],
+    "price": {
+      "3": 1350,
+      "5": 2250,
+      "10": 4500,
+      "15": 6750
+    },
+    "notes": "",
+    "priceSource": "Canva COYLI PARFUM, дизайн «Ценники», 15.10.2026"
+  },
+  {
+    "id": 364,
+    "name": "ZARKOPERFUME Carate Urio",
+    "cat": "Оригинал",
+    "kind": "original",
+    "volumes": [
+      3,
+      5,
+      10,
+      15
+    ],
+    "price": {
+      "3": 1050,
+      "5": 1750,
+      "10": 3500,
+      "15": 5250
+    },
+    "notes": "",
+    "priceSource": "Canva COYLI PARFUM, дизайн «Ценники», 15.10.2026"
+  },
+  {
+    "id": 365,
+    "name": "Osmassino Emotions",
+    "cat": "Оригинал",
+    "kind": "original",
+    "volumes": [
+      3,
+      5,
+      10,
+      15
+    ],
+    "price": {
+      "3": 900,
+      "5": 1500,
+      "10": 3000,
+      "15": 4500
+    },
+    "notes": "",
+    "priceSource": "Canva COYLI PARFUM, дизайн «Ценники», 15.10.2026"
+  },
+  {
+    "id": 366,
+    "name": "Lattafa Her Confession",
+    "cat": "Оригинал",
+    "kind": "original",
+    "volumes": [
+      3,
+      5,
+      10,
+      15
+    ],
+    "price": {
+      "3": 750,
+      "5": 1250,
+      "10": 2500,
+      "15": 3750
+    },
+    "notes": "",
+    "priceSource": "Canva COYLI PARFUM, дизайн «Ценники», 15.10.2026"
+  },
+  {
+    "id": 367,
+    "name": "Lattafa Khamrah",
+    "cat": "Оригинал",
+    "kind": "original",
+    "volumes": [
+      3,
+      5,
+      10,
+      15
+    ],
+    "price": {
+      "3": 750,
+      "5": 1250,
+      "10": 2500,
+      "15": 3750
+    },
+    "notes": "",
+    "priceSource": "Canva COYLI PARFUM, дизайн «Ценники», 15.10.2026"
+  },
+  {
+    "id": 368,
+    "name": "Lattafa Noble Blush",
+    "cat": "Оригинал",
+    "kind": "original",
+    "volumes": [
+      3,
+      5,
+      10,
+      15
+    ],
+    "price": {
+      "3": 600,
+      "5": 1000,
+      "10": 2000,
+      "15": 3000
+    },
+    "notes": "",
+    "priceSource": "Canva COYLI PARFUM, дизайн «Ценники», 15.10.2026"
+  },
+  {
+    "id": 369,
+    "name": "Dolce & Gabbana Light Blue Summer Vibes",
+    "cat": "Оригинал",
+    "kind": "original",
+    "volumes": [
+      3,
+      5,
+      10,
+      15
+    ],
+    "price": {
+      "3": 600,
+      "5": 1000,
+      "10": 2000,
+      "15": 3000
+    },
+    "notes": "",
+    "priceSource": "Canva COYLI PARFUM, дизайн «Ценники», 15.10.2026"
+  },
+  {
+    "id": 370,
+    "name": "Essential Parfums Velvet Iris",
+    "cat": "Оригинал",
+    "kind": "original",
+    "volumes": [
+      3,
+      5,
+      10,
+      15
+    ],
+    "price": {
+      "3": 900,
+      "5": 1500,
+      "10": 3000,
+      "15": 4500
+    },
+    "notes": "",
+    "priceSource": "Canva COYLI PARFUM, дизайн «Ценники», 15.10.2026"
+  },
+  {
+    "id": 371,
+    "name": "Essential Parfums fig infusion",
+    "cat": "Оригинал",
+    "kind": "original",
+    "volumes": [
+      3,
+      5,
+      10,
+      15
+    ],
+    "price": {
+      "3": 750,
+      "5": 1250,
+      "10": 2500,
+      "15": 3750
+    },
+    "notes": "",
+    "priceSource": "Canva COYLI PARFUM, дизайн «Ценники», 15.10.2026"
+  },
+  {
+    "id": 372,
+    "name": "Trussardi Umo",
+    "cat": "Оригинал",
+    "kind": "original",
+    "volumes": [
+      3,
+      5,
+      10,
+      15
+    ],
+    "price": {
+      "3": 450,
+      "5": 750,
+      "10": 1500,
+      "15": 2250
+    },
+    "notes": "",
+    "priceSource": "Canva COYLI PARFUM, дизайн «Ценники», 15.10.2026"
+  },
+  {
+    "id": 373,
+    "name": "Chabaud Lait Concentré",
+    "cat": "Оригинал",
+    "kind": "original",
+    "volumes": [
+      3,
+      5,
+      10,
+      15
+    ],
+    "price": {
+      "3": 600,
+      "5": 1000,
+      "10": 2000,
+      "15": 3000
+    },
+    "notes": "",
+    "priceSource": "Canva COYLI PARFUM, дизайн «Ценники», 15.10.2026"
+  },
+  {
+    "id": 374,
+    "name": "Escentric Molecules Escentric 02",
+    "cat": "Оригинал",
+    "kind": "original",
+    "volumes": [
+      3,
+      5,
+      10,
+      15
+    ],
+    "price": {
+      "3": 1050,
+      "5": 1750,
+      "10": 3500,
+      "15": 5250
+    },
+    "notes": "",
+    "priceSource": "Canva COYLI PARFUM, дизайн «Ценники», 15.10.2026"
+  },
+  {
+    "id": 375,
+    "name": "Armani Power of you",
+    "cat": "Оригинал",
+    "kind": "original",
+    "volumes": [
+      3,
+      5,
+      10,
+      15
+    ],
+    "price": {
+      "3": 1200,
+      "5": 2000,
+      "10": 4000,
+      "15": 6000
+    },
+    "notes": "",
+    "priceSource": "Canva COYLI PARFUM, дизайн «Ценники», 15.10.2026"
+  },
+  {
+    "id": 376,
+    "name": "ex nihilo The hedonist",
+    "cat": "Оригинал",
+    "kind": "original",
+    "volumes": [
+      3,
+      5,
+      10,
+      15
+    ],
+    "price": {
+      "3": 1500,
+      "5": 2500,
+      "10": 5000,
+      "15": 7500
+    },
+    "notes": "",
+    "priceSource": "Canva COYLI PARFUM, дизайн «Ценники», 15.10.2026"
+  },
+  {
+    "id": 377,
+    "name": "Roja Elysium",
+    "cat": "Оригинал",
+    "kind": "original",
+    "volumes": [
+      3,
+      5,
+      10,
+      15
+    ],
+    "price": {
+      "3": 1500,
+      "5": 2500,
+      "10": 5000,
+      "15": 7500
+    },
+    "notes": "",
+    "priceSource": "Canva COYLI PARFUM, дизайн «Ценники», 15.10.2026"
+  },
+  {
+    "id": 378,
+    "name": "Floraïku One Umbrella for Two",
+    "cat": "Оригинал",
+    "kind": "original",
+    "volumes": [
+      3,
+      5,
+      10,
+      15
+    ],
+    "price": {
+      "3": 1500,
+      "5": 2500,
+      "10": 5000,
+      "15": 7500
+    },
+    "notes": "",
+    "priceSource": "Canva COYLI PARFUM, дизайн «Ценники», 15.10.2026"
+  },
+  {
+    "id": 379,
+    "name": "La Sultane de Saba Voyage sur la route des Épices",
+    "cat": "Оригинал",
+    "kind": "original",
+    "volumes": [
+      3,
+      5,
+      10,
+      15
+    ],
+    "price": {
+      "3": 750,
+      "5": 1250,
+      "10": 2500,
+      "15": 3750
+    },
+    "notes": "",
+    "priceSource": "Canva COYLI PARFUM, дизайн «Ценники», 15.10.2026"
+  },
+  {
+    "id": 380,
+    "name": "thomas kosmala Nº4 apres l'amour",
+    "cat": "Оригинал",
+    "kind": "original",
+    "volumes": [
+      3,
+      5,
+      10,
+      15
+    ],
+    "price": {
+      "3": 750,
+      "5": 1250,
+      "10": 2500,
+      "15": 3750
+    },
+    "notes": "",
+    "priceSource": "Canva COYLI PARFUM, дизайн «Ценники», 15.10.2026"
+  },
+  {
+    "id": 381,
+    "name": "jo malone london Wood Sage & Sea",
+    "cat": "Оригинал",
+    "kind": "original",
+    "volumes": [
+      3,
+      5,
+      10,
+      15
+    ],
+    "price": {
+      "3": 1050,
+      "5": 1750,
+      "10": 3500,
+      "15": 5250
+    },
+    "notes": "",
+    "priceSource": "Canva COYLI PARFUM, дизайн «Ценники», 15.10.2026"
+  },
+  {
+    "id": 382,
+    "name": "The House of Oud What About Pop",
+    "cat": "Оригинал",
+    "kind": "original",
+    "volumes": [
+      3,
+      5,
+      10,
+      15
+    ],
+    "price": {
+      "3": 1050,
+      "5": 1750,
+      "10": 3500,
+      "15": 5250
+    },
+    "notes": "",
+    "priceSource": "Canva COYLI PARFUM, дизайн «Ценники», 15.10.2026"
+  },
+  {
+    "id": 383,
+    "name": "Jean Paul Gaultier Gaultier Divine",
+    "cat": "Оригинал",
+    "kind": "original",
+    "volumes": [
+      3,
+      5,
+      10,
+      15
+    ],
+    "price": {
+      "3": 900,
+      "5": 1500,
+      "10": 3000,
+      "15": 4500
+    },
+    "notes": "",
+    "priceSource": "Canva COYLI PARFUM, дизайн «Ценники», 15.10.2026"
+  },
+  {
+    "id": 384,
+    "name": "Kenzo Jungle L'Elephant",
+    "cat": "Оригинал",
+    "kind": "original",
+    "volumes": [
+      3,
+      5,
+      10,
+      15
+    ],
+    "price": {
+      "3": 600,
+      "5": 1000,
+      "10": 2000,
+      "15": 3000
+    },
+    "notes": "",
+    "priceSource": "Canva COYLI PARFUM, дизайн «Ценники», 15.10.2026"
+  },
+  {
+    "id": 385,
+    "name": "Theodoros Kalotinis Lemon Tart",
+    "cat": "Оригинал",
+    "kind": "original",
+    "volumes": [
+      3,
+      5,
+      10,
+      15
+    ],
+    "price": {
+      "3": 1200,
+      "5": 2000,
+      "10": 4000,
+      "15": 6000
+    },
+    "notes": "",
+    "priceSource": "Canva COYLI PARFUM, дизайн «Ценники», 15.10.2026"
+  },
+  {
+    "id": 386,
+    "name": "Thomas Kosmala № 10",
+    "cat": "Оригинал",
+    "kind": "original",
+    "volumes": [
+      3,
+      5,
+      10,
+      15
+    ],
+    "price": {
+      "3": 900,
+      "5": 1500,
+      "10": 3000,
+      "15": 4500
+    },
+    "notes": "",
+    "priceSource": "Canva COYLI PARFUM, дизайн «Ценники», 15.10.2026"
+  },
+  {
+    "id": 387,
+    "name": "Osmassino See me",
+    "cat": "Оригинал",
+    "kind": "original",
+    "volumes": [
+      3,
+      5,
+      10,
+      15
+    ],
+    "price": {
+      "3": 900,
+      "5": 1500,
+      "10": 3000,
+      "15": 4500
+    },
+    "notes": "",
+    "priceSource": "Canva COYLI PARFUM, дизайн «Ценники», 15.10.2026"
+  },
+  {
+    "id": 388,
+    "name": "Versace Eros Flame",
+    "cat": "Оригинал",
+    "kind": "original",
+    "volumes": [
+      3,
+      5,
+      10,
+      15
+    ],
+    "price": {
+      "3": 600,
+      "5": 1000,
+      "10": 2000,
+      "15": 3000
+    },
+    "notes": "",
+    "priceSource": "Canva COYLI PARFUM, дизайн «Ценники», 15.10.2026"
+  },
+  {
+    "id": 389,
+    "name": "Max Philip Caramel",
+    "cat": "Оригинал",
+    "kind": "original",
+    "volumes": [
+      3,
+      5,
+      10,
+      15
+    ],
+    "price": {
+      "3": 750,
+      "5": 1250,
+      "10": 2500,
+      "15": 3750
+    },
+    "notes": "",
+    "priceSource": "Canva COYLI PARFUM, дизайн «Ценники», 15.10.2026"
+  },
+  {
+    "id": 390,
+    "name": "Maison Tahité – Officine Creative Cacao2",
+    "cat": "Оригинал",
+    "kind": "original",
+    "volumes": [
+      3,
+      5,
+      10,
+      15
+    ],
+    "price": {
+      "3": 600,
+      "5": 1000,
+      "10": 2000,
+      "15": 3000
+    },
+    "notes": "",
+    "priceSource": "Canva COYLI PARFUM, дизайн «Ценники», 15.10.2026"
+  },
+  {
+    "id": 391,
+    "name": "Mancera Coco Vanille",
+    "cat": "Оригинал",
+    "kind": "original",
+    "volumes": [
+      3,
+      5,
+      10,
+      15
+    ],
+    "price": {
+      "3": 600,
+      "5": 1000,
+      "10": 2000,
+      "15": 3000
+    },
+    "notes": "",
+    "priceSource": "Canva COYLI PARFUM, дизайн «Ценники», 15.10.2026"
+  },
+  {
+    "id": 392,
+    "name": "Mancera Feminity",
+    "cat": "Оригинал",
+    "kind": "original",
+    "volumes": [
+      3,
+      5,
+      10,
+      15
+    ],
+    "price": {
+      "3": 600,
+      "5": 1000,
+      "10": 2000,
+      "15": 3000
+    },
+    "notes": "",
+    "priceSource": "Canva COYLI PARFUM, дизайн «Ценники», 15.10.2026"
+  },
+  {
+    "id": 393,
+    "name": "Mancera Aoud Line",
+    "cat": "Оригинал",
+    "kind": "original",
+    "volumes": [
+      3,
+      5,
+      10,
+      15
+    ],
+    "price": {
+      "3": 600,
+      "5": 1000,
+      "10": 2000,
+      "15": 3000
+    },
+    "notes": "",
+    "priceSource": "Canva COYLI PARFUM, дизайн «Ценники», 15.10.2026"
+  },
+  {
+    "id": 394,
+    "name": "Trussardi Uomo The Red",
+    "cat": "Оригинал",
+    "kind": "original",
+    "volumes": [
+      3,
+      5,
+      10,
+      15
+    ],
+    "price": {
+      "3": 900,
+      "5": 1500,
+      "10": 3000,
+      "15": 4500
+    },
+    "notes": "",
+    "priceSource": "Canva COYLI PARFUM, дизайн «Ценники», 15.10.2026"
+  },
+  {
+    "id": 395,
+    "name": "Chloé Cedrus",
+    "cat": "Оригинал",
+    "kind": "original",
+    "volumes": [
+      3,
+      5,
+      10,
+      15
+    ],
+    "price": {
+      "3": 1500,
+      "5": 2500,
+      "10": 5000,
+      "15": 7500
+    },
+    "notes": "",
+    "priceSource": "Canva COYLI PARFUM, дизайн «Ценники», 15.10.2026"
   }
 ]
