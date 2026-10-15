@@ -5,8 +5,8 @@
 .item .name{min-height:0;font-size:15px;line-height:1.35;margin-bottom:7px}
 .item .meta{font-size:12px;line-height:1.5;margin:0 0 13px;min-height:34px}
 .item .bottom{margin-top:auto}.item .plus{color:#0047bb;font-size:26px;width:36px;height:36px}
-.panel .visual{height:260px!important;max-width:360px;margin:0 auto 15px}
-@media(max-width:750px){.grid{gap:10px}.item{padding:10px;min-height:280px;border-radius:17px}.item .name{font-size:13px}.item .meta{font-size:11px}.visual{margin-bottom:10px}.panel .visual{height:230px!important}}
+.panel .visual{height:260px!important;max-width:360px;margin:0 auto 15px;aspect-ratio:auto;overflow:visible;display:flex;align-items:center;justify-content:center}.panel .product-photo{width:100%;height:100%;object-fit:contain;object-position:center;display:block}
+@media(max-width:750px){.grid{gap:10px}.item{padding:10px;min-height:280px;border-radius:17px}.item .name{font-size:13px}.item .meta{font-size:11px}.visual{margin-bottom:10px}.panel .visual{height:230px!important;overflow:visible}}
 @media(min-width:751px){.grid{grid-template-columns:repeat(4,minmax(0,1fr))}}
 /* Фото и ноты импортированного каталога */
 .panel .product-notes{white-space:pre-line;line-height:1.65;font-size:13px;color:#555}
