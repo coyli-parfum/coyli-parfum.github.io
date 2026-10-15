@@ -1977,7 +1977,15 @@
     "notesSource": "https://www.fragrantica.com/perfume/Boadicea-the-Victorious/Heroine-55770.html",
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.55770.jpg",
     "referenceVersion": "Heroine Boadicea the Victorious perfume - a fragrance for women 2019",
-    "sortBrand": "boadicea the victorious"
+    "sortBrand": "boadicea the victorious",
+    "discountPercent": 50,
+    "saleSprayPrice": {
+      "10": 800,
+      "15": 1150,
+      "20": 1500,
+      "30": 2225
+    },
+    "discountSource": "Цены на спрей уже со скидкой 50%: скриншоты COYLI PARFUM IMG_2649–IMG_2655 от 15.10.2026. На чистое масло −50% от обычного тарифа категории, подтверждено пользователем."
   },
   {
     "id": 99,
@@ -3271,7 +3279,15 @@
     "notesSource": "https://www.fragrantica.com/perfume/Vilhelm-Parfumerie/Mango-Skin-49305.html",
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.49305.jpg",
     "referenceVersion": "Mango Skin Vilhelm Parfumerie perfume - a fragrance for women and men 2018",
-    "sortBrand": "vilhelm"
+    "sortBrand": "vilhelm",
+    "discountPercent": 50,
+    "saleSprayPrice": {
+      "10": 800,
+      "15": 1150,
+      "20": 1500,
+      "30": 2225
+    },
+    "discountSource": "Цены на спрей уже со скидкой 50%: скриншоты COYLI PARFUM IMG_2649–IMG_2655 от 15.10.2026. На чистое масло −50% от обычного тарифа категории, подтверждено пользователем."
   },
   {
     "id": 135,
@@ -3599,7 +3615,7 @@
   },
   {
     "id": 144,
-    "name": "Tom Ford Vanille Fatale (2024)",
+    "name": "Tom Ford Vanille Fatale (2017)",
     "cat": "Селектив",
     "volumes": [
       2,
@@ -3625,13 +3641,29 @@
       "50": 7250,
       "100": 14300
     },
-    "notes": "Верхние ноты: шафран, кориандр\nСердце: кофе, франжипани, ячмень, нарцисс\nБаза: мадагаскарская ваниль, табак, замша, красное дерево",
+    "notes": "Ноты: ром, шафран, кориандр, мирра, апельсин, лайм, ячмень, кофе, франжипани, нарцисс, артемизия, роза, мадагаскарская ваниль, замша, табак, махагони, пачули, дубовый мох, фиалка",
     "kind": "perfume",
-    "image": "assets/perfumes/88659.jpg",
-    "notesSource": "https://www.fragrantica.com/perfume/Tom-Ford/Vanille-Fatale-2024-88659.html",
-    "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.88659.jpg",
-    "referenceVersion": "Vanille Fatale (2024) Tom Ford perfume - a fragrance for women and men 2024",
-    "sortBrand": "tom ford"
+    "image": "assets/discounts/48029.jpg",
+    "notesSource": "Ценник COYLI PARFUM, предоставленный пользователем 15.10.2026",
+    "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.48029.jpg",
+    "referenceVersion": "Vanille Fatale (2017): флакон и пирамида подтверждены скриншотом пользователя",
+    "sortBrand": "tom ford",
+    "discountPercent": 50,
+    "saleSprayPrice": {
+      "10": 800,
+      "15": 1150,
+      "20": 1500,
+      "30": 2225
+    },
+    "discountSource": "Цены на спрей уже со скидкой 50%: скриншоты COYLI PARFUM IMG_2649–IMG_2655 от 15.10.2026. На чистое масло −50% от обычного тарифа категории, подтверждено пользователем.",
+    "referenceSource": "https://www.fragrantica.com/p/48029",
+    "imageFrame": [
+      -106.625,
+      -43.625,
+      586.25,
+      375,
+      500
+    ]
   },
   {
     "id": 145,
@@ -3847,7 +3879,15 @@
     "notesSource": "https://www.fragrantica.com/perfume/Baldessarini/Ambre-797.html",
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.797.jpg",
     "referenceVersion": "Ambré Baldessarini cologne - a fragrance for men 2007",
-    "sortBrand": "baldessarini"
+    "sortBrand": "baldessarini",
+    "discountPercent": 50,
+    "saleSprayPrice": {
+      "10": 500,
+      "15": 700,
+      "20": 900,
+      "30": 1300
+    },
+    "discountSource": "Цены на спрей уже со скидкой 50%: скриншоты COYLI PARFUM IMG_2649–IMG_2655 от 15.10.2026. На чистое масло −50% от обычного тарифа категории, подтверждено пользователем."
   },
   {
     "id": 151,
@@ -4672,7 +4712,15 @@
     "notesSource": "https://www.fragrantica.com/perfume/Montale/Chocolate-Greedy-2186.html",
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.2186.jpg",
     "referenceVersion": "Chocolate Greedy Montale perfume - a fragrance for women and men 2007",
-    "sortBrand": "montale"
+    "sortBrand": "montale",
+    "discountPercent": 50,
+    "saleSprayPrice": {
+      "10": 500,
+      "15": 700,
+      "20": 900,
+      "30": 1300
+    },
+    "discountSource": "Цены на спрей уже со скидкой 50%: скриншоты COYLI PARFUM IMG_2649–IMG_2655 от 15.10.2026. На чистое масло −50% от обычного тарифа категории, подтверждено пользователем."
   },
   {
     "id": 174,
@@ -4708,7 +4756,15 @@
     "notesSource": "https://www.fragrantica.com/perfume/Montale/Sweet-Vanilla-39411.html",
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.39411.jpg",
     "referenceVersion": "Sweet Vanilla Montale perfume - a fragrance for women and men 2015",
-    "sortBrand": "montale"
+    "sortBrand": "montale",
+    "discountPercent": 50,
+    "saleSprayPrice": {
+      "10": 500,
+      "15": 700,
+      "20": 900,
+      "30": 1300
+    },
+    "discountSource": "Цены на спрей уже со скидкой 50%: скриншоты COYLI PARFUM IMG_2649–IMG_2655 от 15.10.2026. На чистое масло −50% от обычного тарифа категории, подтверждено пользователем."
   },
   {
     "id": 175,
@@ -4744,7 +4800,15 @@
     "notesSource": "https://www.montaleparfums.com/nl/gourmand/80-vanille-absolu.html",
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.4064.jpg",
     "referenceVersion": "Vanille Absolu Montale perfume - a fragrance for women 2008",
-    "sortBrand": "montale"
+    "sortBrand": "montale",
+    "discountPercent": 50,
+    "saleSprayPrice": {
+      "10": 500,
+      "15": 700,
+      "20": 900,
+      "30": 1300
+    },
+    "discountSource": "Цены на спрей уже со скидкой 50%: скриншоты COYLI PARFUM IMG_2649–IMG_2655 от 15.10.2026. На чистое масло −50% от обычного тарифа категории, подтверждено пользователем."
   },
   {
     "id": 176,
@@ -5176,7 +5240,15 @@
     "notesSource": "https://www.fragrantica.com/perfume/Carolina%20Herrera/Carolina-Herrera-212-Sexy-Men-1054.html",
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.1054.jpg",
     "referenceVersion": "212 Sexy Men Carolina Herrera cologne - a fragrance for men 2006",
-    "sortBrand": "carolina"
+    "sortBrand": "carolina",
+    "discountPercent": 50,
+    "saleSprayPrice": {
+      "10": 500,
+      "15": 700,
+      "20": 900,
+      "30": 1300
+    },
+    "discountSource": "Цены на спрей уже со скидкой 50%: скриншоты COYLI PARFUM IMG_2649–IMG_2655 от 15.10.2026. На чистое масло −50% от обычного тарифа категории, подтверждено пользователем."
   },
   {
     "id": 188,
@@ -7420,7 +7492,15 @@
     "notesSource": "https://www.fragrantica.com/perfume/Gucci/Flora-by-Gucci-Eau-de-Parfum-7610.html",
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.7610.jpg",
     "referenceVersion": "Flora by Gucci Eau de Parfum Gucci perfume - a fragrance for women 2010",
-    "sortBrand": "gucci"
+    "sortBrand": "gucci",
+    "discountPercent": 50,
+    "saleSprayPrice": {
+      "10": 500,
+      "15": 700,
+      "20": 900,
+      "30": 1300
+    },
+    "discountSource": "Цены на спрей уже со скидкой 50%: скриншоты COYLI PARFUM IMG_2649–IMG_2655 от 15.10.2026. На чистое масло −50% от обычного тарифа категории, подтверждено пользователем."
   },
   {
     "id": 250,
@@ -7672,7 +7752,15 @@
     "notesSource": "https://www.fragrantica.com/perfume/Lanvin/Modern-Princess-38890.html",
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.38890.jpg",
     "referenceVersion": "Modern Princess Lanvin perfume - a fragrance for women 2016",
-    "sortBrand": "lanvin"
+    "sortBrand": "lanvin",
+    "discountPercent": 50,
+    "saleSprayPrice": {
+      "10": 500,
+      "15": 700,
+      "20": 900,
+      "30": 1300
+    },
+    "discountSource": "Цены на спрей уже со скидкой 50%: скриншоты COYLI PARFUM IMG_2649–IMG_2655 от 15.10.2026. На чистое масло −50% от обычного тарифа категории, подтверждено пользователем."
   },
   {
     "id": 257,
@@ -7816,7 +7904,15 @@
     "notesSource": "https://www.fragrantica.com/perfume/Nina-Ricci/Nina-147.html",
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.147.jpg",
     "referenceVersion": "Nina Nina Ricci perfume - a fragrance for women 2006",
-    "sortBrand": "nina"
+    "sortBrand": "nina",
+    "discountPercent": 50,
+    "saleSprayPrice": {
+      "10": 500,
+      "15": 700,
+      "20": 900,
+      "30": 1300
+    },
+    "discountSource": "Цены на спрей уже со скидкой 50%: скриншоты COYLI PARFUM IMG_2649–IMG_2655 от 15.10.2026. На чистое масло −50% от обычного тарифа категории, подтверждено пользователем."
   },
   {
     "id": 261,
@@ -7852,7 +7948,15 @@
     "notesSource": "https://www.fragrantica.com/perfume/Paco-Rabanne/Lady-Million-9045.html",
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.9045.jpg",
     "referenceVersion": "Lady Million Rabanne perfume - a fragrance for women 2010",
-    "sortBrand": "paco rabanne"
+    "sortBrand": "paco rabanne",
+    "discountPercent": 50,
+    "saleSprayPrice": {
+      "10": 500,
+      "15": 700,
+      "20": 900,
+      "30": 1300
+    },
+    "discountSource": "Цены на спрей уже со скидкой 50%: скриншоты COYLI PARFUM IMG_2649–IMG_2655 от 15.10.2026. На чистое масло −50% от обычного тарифа категории, подтверждено пользователем."
   },
   {
     "id": 262,
@@ -8284,7 +8388,15 @@
     "notesSource": "https://www.fragrantica.com/perfume/Bvlgari/Aqva-Pour-Homme-Marine-1742.html",
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.1742.jpg",
     "referenceVersion": "Aqva Pour Homme Marine Bvlgari cologne - a fragrance for men 2008",
-    "sortBrand": "bvlgari"
+    "sortBrand": "bvlgari",
+    "discountPercent": 50,
+    "saleSprayPrice": {
+      "10": 800,
+      "15": 1150,
+      "20": 1500,
+      "30": 2225
+    },
+    "discountSource": "Цены на спрей уже со скидкой 50%: скриншоты COYLI PARFUM IMG_2649–IMG_2655 от 15.10.2026. На чистое масло −50% от обычного тарифа категории, подтверждено пользователем."
   },
   {
     "id": 274,
@@ -8862,7 +8974,15 @@
     "notesSource": "https://www.fragrantica.com/perfume/Kayali-Fragrances/Maldives-in-a-Bottle-Ylang-Coco-20-Eau-de-Parfum-94206.html",
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.94206.jpg",
     "referenceVersion": "Maldives in a Bottle Ylang Coco | 20 Eau de Parfum Kayali Fragrances perfume - a fragrance for women 2024",
-    "sortBrand": "kayali"
+    "sortBrand": "kayali",
+    "discountPercent": 50,
+    "saleSprayPrice": {
+      "10": 800,
+      "15": 1150,
+      "20": 1500,
+      "30": 2225
+    },
+    "discountSource": "Цены на спрей уже со скидкой 50%: скриншоты COYLI PARFUM IMG_2649–IMG_2655 от 15.10.2026. На чистое масло −50% от обычного тарифа категории, подтверждено пользователем."
   },
   {
     "id": 290,
@@ -9007,7 +9127,15 @@
     "notesSource": "https://www.fragrantica.com/perfume/Lanc-me/La-Vie-Est-Belle-14982.html",
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.14982.jpg",
     "referenceVersion": "La Vie Est Belle Lancôme perfume - a fragrance for women 2012",
-    "sortBrand": "lancôme"
+    "sortBrand": "lancôme",
+    "discountPercent": 50,
+    "saleSprayPrice": {
+      "10": 500,
+      "15": 700,
+      "20": 900,
+      "30": 1300
+    },
+    "discountSource": "Цены на спрей уже со скидкой 50%: скриншоты COYLI PARFUM IMG_2649–IMG_2655 от 15.10.2026. На чистое масло −50% от обычного тарифа категории, подтверждено пользователем."
   },
   {
     "id": 294,
@@ -9367,7 +9495,15 @@
     "notesSource": "https://www.fragrantica.com/perfume/Mancera/Roses-Vanille-15210.html",
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.15210.jpg",
     "referenceVersion": "Roses Vanille Mancera perfume - a fragrance for women 2011",
-    "sortBrand": "mancera"
+    "sortBrand": "mancera",
+    "discountPercent": 50,
+    "saleSprayPrice": {
+      "10": 800,
+      "15": 1150,
+      "20": 1500,
+      "30": 2225
+    },
+    "discountSource": "Цены на спрей уже со скидкой 50%: скриншоты COYLI PARFUM IMG_2649–IMG_2655 от 15.10.2026. На чистое масло −50% от обычного тарифа категории, подтверждено пользователем."
   },
   {
     "id": 304,
@@ -9511,7 +9647,15 @@
     "notesSource": "https://www.fragrantica.com/p/1148",
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.1148.jpg",
     "referenceVersion": "Roses Musk Montale perfume - a fragrance for women 2009",
-    "sortBrand": "montale"
+    "sortBrand": "montale",
+    "discountPercent": 50,
+    "saleSprayPrice": {
+      "10": 800,
+      "15": 1150,
+      "20": 1500,
+      "30": 2225
+    },
+    "discountSource": "Цены на спрей уже со скидкой 50%: скриншоты COYLI PARFUM IMG_2649–IMG_2655 от 15.10.2026. На чистое масло −50% от обычного тарифа категории, подтверждено пользователем."
   },
   {
     "id": 308,
@@ -9619,7 +9763,15 @@
     "notesSource": "https://www.fragrantica.com/perfume/Nejma/Nejma-7-10620.html",
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.10620.jpg",
     "referenceVersion": "Nejma 7 Nejma perfume - a fragrance for women and men 2014",
-    "sortBrand": "nejma"
+    "sortBrand": "nejma",
+    "discountPercent": 50,
+    "saleSprayPrice": {
+      "10": 800,
+      "15": 1150,
+      "20": 1500,
+      "30": 2225
+    },
+    "discountSource": "Цены на спрей уже со скидкой 50%: скриншоты COYLI PARFUM IMG_2649–IMG_2655 от 15.10.2026. На чистое масло −50% от обычного тарифа категории, подтверждено пользователем."
   },
   {
     "id": 311,
@@ -9800,7 +9952,15 @@
     "notesSource": "https://www.fragrantica.com/perfume/Tiziana-Terenzi/Orza-61873.html",
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.61873.jpg",
     "referenceVersion": "Orza Tiziana Terenzi perfume - a fragrance for women and men 2020",
-    "sortBrand": "tiziana terenzi"
+    "sortBrand": "tiziana terenzi",
+    "discountPercent": 50,
+    "saleSprayPrice": {
+      "10": 800,
+      "15": 1150,
+      "20": 1500,
+      "30": 2225
+    },
+    "discountSource": "Цены на спрей уже со скидкой 50%: скриншоты COYLI PARFUM IMG_2649–IMG_2655 от 15.10.2026. На чистое масло −50% от обычного тарифа категории, подтверждено пользователем."
   },
   {
     "id": 316,
@@ -9980,7 +10140,15 @@
     "notesSource": "https://www.fragrantica.com/perfume/Vertus/Narcos-is-47923.html",
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.47923.jpg",
     "referenceVersion": "Narcos'is Vertus perfume - a fragrance for women and men 2017",
-    "sortBrand": "vertus"
+    "sortBrand": "vertus",
+    "discountPercent": 50,
+    "saleSprayPrice": {
+      "10": 800,
+      "15": 1150,
+      "20": 1500,
+      "30": 2225
+    },
+    "discountSource": "Цены на спрей уже со скидкой 50%: скриншоты COYLI PARFUM IMG_2649–IMG_2655 от 15.10.2026. На чистое масло −50% от обычного тарифа категории, подтверждено пользователем."
   },
   {
     "id": 321,
@@ -10340,7 +10508,15 @@
     "notesSource": "https://www.fragrantica.com/perfume/Ex-Nihilo/Fleur-Narcotique-Blossom-67042.html",
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.67042.jpg",
     "referenceVersion": "Fleur Narcotique Blossom — Ex Nihilo (2021)",
-    "sortBrand": "ex nihilo"
+    "sortBrand": "ex nihilo",
+    "discountPercent": 50,
+    "saleSprayPrice": {
+      "10": 800,
+      "15": 1150,
+      "20": 1500,
+      "30": 2225
+    },
+    "discountSource": "Цены на спрей уже со скидкой 50%: скриншоты COYLI PARFUM IMG_2649–IMG_2655 от 15.10.2026. На чистое масло −50% от обычного тарифа категории, подтверждено пользователем."
   },
   {
     "id": 331,
@@ -10559,7 +10735,15 @@
     "image": "assets/perfumes/armani-acqua-di-gio-20261015.jpg",
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.410.jpg",
     "sortBrand": "giorgio armani",
-    "imageStatus": "verified"
+    "imageStatus": "verified",
+    "discountPercent": 50,
+    "saleSprayPrice": {
+      "10": 500,
+      "15": 700,
+      "20": 900,
+      "30": 1300
+    },
+    "discountSource": "Цены на спрей уже со скидкой 50%: скриншоты COYLI PARFUM IMG_2649–IMG_2655 от 15.10.2026. На чистое масло −50% от обычного тарифа категории, подтверждено пользователем."
   },
   {
     "id": 337,
@@ -13035,5 +13219,1221 @@
       "checkedAt": "2026-10-15",
       "source": "Оригинал отчёт .xlsm, Инвентаризация, остаток на 15.10.2026; наличие оригиналов только в Ньютоне подтверждено пользователем"
     }
+  },
+  {
+    "id": 406,
+    "name": "Marc Jacobs Daisy Wild",
+    "cat": "Люкс",
+    "kind": "perfume",
+    "volumes": [
+      10,
+      15,
+      20,
+      30
+    ],
+    "price": {
+      "10": 1000,
+      "15": 1400,
+      "20": 1800,
+      "30": 2600
+    },
+    "discountPercent": 50,
+    "saleSprayPrice": {
+      "10": 500,
+      "15": 700,
+      "20": 900,
+      "30": 1300
+    },
+    "discountSource": "Цены на спрей уже со скидкой 50%: скриншоты COYLI PARFUM IMG_2649–IMG_2655 от 15.10.2026. На чистое масло −50% от обычного тарифа категории, подтверждено пользователем.",
+    "image": "assets/discounts/89906.jpg",
+    "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.89906.jpg",
+    "notes": "Ноты: цветок банана, жасмин, орех макадамия, ветивер, сандал",
+    "notesSource": "Ценник COYLI PARFUM, предоставленный пользователем 15.10.2026",
+    "referenceSource": "https://www.fragrantica.com/p/89906",
+    "imageFrame": [
+      -105.625,
+      -43.625,
+      586.25,
+      375,
+      500
+    ]
+  },
+  {
+    "id": 407,
+    "name": "Maison Francis Kurkdjian Aqua Celestia",
+    "cat": "Селектив",
+    "kind": "perfume",
+    "volumes": [
+      10,
+      15,
+      20,
+      30
+    ],
+    "price": {
+      "10": 1600,
+      "15": 2300,
+      "20": 3000,
+      "30": 4450
+    },
+    "discountPercent": 50,
+    "saleSprayPrice": {
+      "10": 800,
+      "15": 1150,
+      "20": 1500,
+      "30": 2225
+    },
+    "discountSource": "Цены на спрей уже со скидкой 50%: скриншоты COYLI PARFUM IMG_2649–IMG_2655 от 15.10.2026. На чистое масло −50% от обычного тарифа категории, подтверждено пользователем.",
+    "image": "assets/discounts/42268.jpg",
+    "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.42268.jpg",
+    "notes": "Ноты: лайм, мята, чёрная смородина, петитгрейн, зелёные ноты, мимоза, роза, белый мускус",
+    "notesSource": "Ценник COYLI PARFUM, предоставленный пользователем 15.10.2026",
+    "referenceSource": "https://www.fragrantica.com/p/42268",
+    "imageFrame": [
+      -104.375,
+      -42.375,
+      583.75,
+      375,
+      500
+    ]
+  },
+  {
+    "id": 408,
+    "name": "Dolce & Gabbana The One",
+    "cat": "Люкс",
+    "kind": "perfume",
+    "volumes": [
+      10,
+      15,
+      20,
+      30
+    ],
+    "price": {
+      "10": 1000,
+      "15": 1400,
+      "20": 1800,
+      "30": 2600
+    },
+    "discountPercent": 50,
+    "saleSprayPrice": {
+      "10": 500,
+      "15": 700,
+      "20": 900,
+      "30": 1300
+    },
+    "discountSource": "Цены на спрей уже со скидкой 50%: скриншоты COYLI PARFUM IMG_2649–IMG_2655 от 15.10.2026. На чистое масло −50% от обычного тарифа категории, подтверждено пользователем.",
+    "image": "assets/discounts/698.jpg",
+    "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.698.jpg",
+    "notes": "Верхние ноты: персик, личи, мандарин, бергамот\nСердце: лилия, слива, жасмин, ландыш\nБаза: ваниль, амбра, мускус, ветивер",
+    "notesSource": "Ценник COYLI PARFUM, предоставленный пользователем 15.10.2026",
+    "referenceSource": "https://www.fragrantica.com/p/698",
+    "imageFrame": [
+      -28.125,
+      33.875,
+      431.25,
+      375,
+      500
+    ]
+  },
+  {
+    "id": 409,
+    "name": "Dolce & Gabbana The One for Men",
+    "cat": "Люкс",
+    "kind": "perfume",
+    "volumes": [
+      10,
+      15,
+      20,
+      30
+    ],
+    "price": {
+      "10": 1000,
+      "15": 1400,
+      "20": 1800,
+      "30": 2600
+    },
+    "discountPercent": 50,
+    "saleSprayPrice": {
+      "10": 500,
+      "15": 700,
+      "20": 900,
+      "30": 1300
+    },
+    "discountSource": "Цены на спрей уже со скидкой 50%: скриншоты COYLI PARFUM IMG_2649–IMG_2655 от 15.10.2026. На чистое масло −50% от обычного тарифа категории, подтверждено пользователем.",
+    "image": "assets/discounts/2056.jpg",
+    "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.2056.jpg",
+    "notes": "Верхние ноты: грейпфрут, кориандр, базилик\nСердце: имбирь, кардамон, апельсиновый цвет\nБаза: амбра, табак, кедр",
+    "notesSource": "Ценник COYLI PARFUM, предоставленный пользователем 15.10.2026",
+    "referenceSource": "https://www.fragrantica.com/p/2056",
+    "imageFrame": [
+      -105.5,
+      -42.5,
+      585.0,
+      375,
+      500
+    ]
+  },
+  {
+    "id": 410,
+    "name": "Donna Karan DKNY Be Delicious",
+    "cat": "Люкс",
+    "kind": "perfume",
+    "volumes": [
+      10,
+      15,
+      20,
+      30
+    ],
+    "price": {
+      "10": 1000,
+      "15": 1400,
+      "20": 1800,
+      "30": 2600
+    },
+    "discountPercent": 50,
+    "saleSprayPrice": {
+      "10": 500,
+      "15": 700,
+      "20": 900,
+      "30": 1300
+    },
+    "discountSource": "Цены на спрей уже со скидкой 50%: скриншоты COYLI PARFUM IMG_2649–IMG_2655 от 15.10.2026. На чистое масло −50% от обычного тарифа категории, подтверждено пользователем.",
+    "image": "assets/discounts/498.jpg",
+    "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.498.jpg",
+    "notes": "Ноты: огурец, грейпфрут, магнолия, зелёное яблоко, ландыш, тубероза, фиалка, роза, древесные ноты, сандал, амбра",
+    "notesSource": "Ценник COYLI PARFUM, предоставленный пользователем 15.10.2026",
+    "referenceSource": "https://www.fragrantica.com/p/498",
+    "imageFrame": [
+      -27.0,
+      34.0,
+      430.0,
+      375,
+      500
+    ]
+  },
+  {
+    "id": 411,
+    "name": "Gucci Bamboo",
+    "cat": "Люкс",
+    "kind": "perfume",
+    "volumes": [
+      10,
+      15,
+      20,
+      30
+    ],
+    "price": {
+      "10": 1000,
+      "15": 1400,
+      "20": 1800,
+      "30": 2600
+    },
+    "discountPercent": 50,
+    "saleSprayPrice": {
+      "10": 500,
+      "15": 700,
+      "20": 900,
+      "30": 1300
+    },
+    "discountSource": "Цены на спрей уже со скидкой 50%: скриншоты COYLI PARFUM IMG_2649–IMG_2655 от 15.10.2026. На чистое масло −50% от обычного тарифа категории, подтверждено пользователем.",
+    "image": "assets/discounts/30815.jpg",
+    "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.30815.jpg",
+    "notes": "Верхняя нота: бергамот\nСердце: касабланкская лилия, иланг-иланг, апельсиновый цвет\nБаза: сандал, ваниль, амбра",
+    "notesSource": "Ценник COYLI PARFUM, предоставленный пользователем 15.10.2026",
+    "referenceSource": "https://www.fragrantica.com/p/30815",
+    "imageFrame": [
+      -40.0,
+      22.5,
+      455.0,
+      375,
+      500
+    ]
+  },
+  {
+    "id": 412,
+    "name": "Gucci Rush 2",
+    "cat": "Люкс",
+    "kind": "perfume",
+    "volumes": [
+      10,
+      15,
+      20,
+      30
+    ],
+    "price": {
+      "10": 1000,
+      "15": 1400,
+      "20": 1800,
+      "30": 2600
+    },
+    "discountPercent": 50,
+    "saleSprayPrice": {
+      "10": 500,
+      "15": 700,
+      "20": 900,
+      "30": 1300
+    },
+    "discountSource": "Цены на спрей уже со скидкой 50%: скриншоты COYLI PARFUM IMG_2649–IMG_2655 от 15.10.2026. На чистое масло −50% от обычного тарифа категории, подтверждено пользователем.",
+    "image": "assets/discounts/687.jpg",
+    "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.687.jpg",
+    "notes": "Ноты: фрезия, гардения, роза, пальма, нарцисс, лилия, ландыш, чёрная смородина, мускус, дубовый мох",
+    "notesSource": "Ценник COYLI PARFUM, предоставленный пользователем 15.10.2026",
+    "referenceSource": "https://www.fragrantica.com/p/687",
+    "imageFrame": [
+      -28.125,
+      34.875,
+      431.25,
+      375,
+      500
+    ]
+  },
+  {
+    "id": 413,
+    "name": "Ajmal Aurum",
+    "cat": "Селектив",
+    "kind": "perfume",
+    "volumes": [
+      10,
+      15,
+      20,
+      30
+    ],
+    "price": {
+      "10": 1600,
+      "15": 2300,
+      "20": 3000,
+      "30": 4450
+    },
+    "discountPercent": 50,
+    "saleSprayPrice": {
+      "10": 800,
+      "15": 1150,
+      "20": 1500,
+      "30": 2225
+    },
+    "discountSource": "Цены на спрей уже со скидкой 50%: скриншоты COYLI PARFUM IMG_2649–IMG_2655 от 15.10.2026. На чистое масло −50% от обычного тарифа категории, подтверждено пользователем.",
+    "image": "assets/discounts/14028.jpg",
+    "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.14028.jpg",
+    "notes": "Ноты: малина, лимон, фруктовые ноты, гардения, апельсиновый цвет, жасмин, чёрная смородина, цветочные ноты, ваниль, мускус, амбра, древесные ноты",
+    "notesSource": "Ценник COYLI PARFUM, предоставленный пользователем 15.10.2026",
+    "referenceSource": "https://www.fragrantica.com/p/14028",
+    "imageFrame": [
+      -108.25,
+      -43.75,
+      587.5,
+      375,
+      500
+    ]
+  },
+  {
+    "id": 414,
+    "name": "Kenzo Homme Eau de Parfum",
+    "cat": "Люкс",
+    "kind": "perfume",
+    "volumes": [
+      10,
+      15,
+      20,
+      30
+    ],
+    "price": {
+      "10": 1000,
+      "15": 1400,
+      "20": 1800,
+      "30": 2600
+    },
+    "discountPercent": 50,
+    "saleSprayPrice": {
+      "10": 500,
+      "15": 700,
+      "20": 900,
+      "30": 1300
+    },
+    "discountSource": "Цены на спрей уже со скидкой 50%: скриншоты COYLI PARFUM IMG_2649–IMG_2655 от 15.10.2026. На чистое масло −50% от обычного тарифа категории, подтверждено пользователем.",
+    "image": "assets/discounts/73225.jpg",
+    "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.73225.jpg",
+    "notes": "Верхняя нота: морские ноты\nСердце: кожа\nБаза: пачули",
+    "notesSource": "Ценник COYLI PARFUM, предоставленный пользователем 15.10.2026",
+    "referenceSource": "https://www.fragrantica.com/p/73225",
+    "imageFrame": [
+      -106.25,
+      -43.75,
+      587.5,
+      375,
+      500
+    ]
+  },
+  {
+    "id": 415,
+    "name": "Memo Paris Ocean Leather",
+    "cat": "Селектив",
+    "kind": "perfume",
+    "volumes": [
+      10,
+      15,
+      20,
+      30
+    ],
+    "price": {
+      "10": 1600,
+      "15": 2300,
+      "20": 3000,
+      "30": 4450
+    },
+    "discountPercent": 50,
+    "saleSprayPrice": {
+      "10": 800,
+      "15": 1150,
+      "20": 1500,
+      "30": 2225
+    },
+    "discountSource": "Цены на спрей уже со скидкой 50%: скриншоты COYLI PARFUM IMG_2649–IMG_2655 от 15.10.2026. На чистое масло −50% от обычного тарифа категории, подтверждено пользователем.",
+    "image": "assets/discounts/60587.jpg",
+    "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.60587.jpg",
+    "notes": "Верхние ноты: мандарин, базилик, фиалка\nСердце: шалфей, элеми, кедр\nБаза: ветивер, кожа, мускатный орех",
+    "notesSource": "Ценник COYLI PARFUM, предоставленный пользователем 15.10.2026",
+    "referenceSource": "https://www.fragrantica.com/p/60587",
+    "imageFrame": [
+      -106.75,
+      -43.75,
+      587.5,
+      375,
+      500
+    ]
+  },
+  {
+    "id": 416,
+    "name": "Montale Intense Café",
+    "cat": "Люкс",
+    "kind": "perfume",
+    "volumes": [
+      10,
+      15,
+      20,
+      30
+    ],
+    "price": {
+      "10": 1000,
+      "15": 1400,
+      "20": 1800,
+      "30": 2600
+    },
+    "discountPercent": 50,
+    "saleSprayPrice": {
+      "10": 500,
+      "15": 700,
+      "20": 900,
+      "30": 1300
+    },
+    "discountSource": "Цены на спрей уже со скидкой 50%: скриншоты COYLI PARFUM IMG_2649–IMG_2655 от 15.10.2026. На чистое масло −50% от обычного тарифа категории, подтверждено пользователем.",
+    "image": "assets/discounts/18021.jpg",
+    "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.18021.jpg",
+    "notes": "Верхние ноты: цветочные ноты\nСердце: роза, кофе\nБаза: ваниль, белый мускус, амбра",
+    "notesSource": "Ценник COYLI PARFUM, предоставленный пользователем 15.10.2026",
+    "referenceSource": "https://www.fragrantica.com/p/18021",
+    "imageFrame": [
+      -106.75,
+      -43.75,
+      587.5,
+      375,
+      500
+    ]
+  },
+  {
+    "id": 417,
+    "name": "Montale Pretty Fruity",
+    "cat": "Люкс",
+    "kind": "perfume",
+    "volumes": [
+      10,
+      15,
+      20,
+      30
+    ],
+    "price": {
+      "10": 1000,
+      "15": 1400,
+      "20": 1800,
+      "30": 2600
+    },
+    "discountPercent": 50,
+    "saleSprayPrice": {
+      "10": 500,
+      "15": 700,
+      "20": 900,
+      "30": 1300
+    },
+    "discountSource": "Цены на спрей уже со скидкой 50%: скриншоты COYLI PARFUM IMG_2649–IMG_2655 от 15.10.2026. На чистое масло −50% от обычного тарифа категории, подтверждено пользователем.",
+    "image": "assets/discounts/12301.jpg",
+    "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.12301.jpg",
+    "notes": "Верхние ноты: маракуйя, чёрная смородина, цитрусы\nСердце: магнолия, лилия\nБаза: мускус",
+    "notesSource": "Ценник COYLI PARFUM, предоставленный пользователем 15.10.2026",
+    "referenceSource": "https://www.fragrantica.com/p/12301",
+    "imageFrame": [
+      -106.25,
+      -43.75,
+      587.5,
+      375,
+      500
+    ]
+  },
+  {
+    "id": 418,
+    "name": "Moschino Toy 2 Bubble Gum",
+    "cat": "Люкс",
+    "kind": "perfume",
+    "volumes": [
+      10,
+      15,
+      20,
+      30
+    ],
+    "price": {
+      "10": 1000,
+      "15": 1400,
+      "20": 1800,
+      "30": 2600
+    },
+    "discountPercent": 50,
+    "saleSprayPrice": {
+      "10": 500,
+      "15": 700,
+      "20": 900,
+      "30": 1300
+    },
+    "discountSource": "Цены на спрей уже со скидкой 50%: скриншоты COYLI PARFUM IMG_2649–IMG_2655 от 15.10.2026. На чистое масло −50% от обычного тарифа категории, подтверждено пользователем.",
+    "image": "assets/discounts/66098.jpg",
+    "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.66098.jpg",
+    "notes": "Ноты: засахаренные фрукты, горький апельсин, лимон, жевательная резинка, болгарская роза, персик, черника, апельсиновый цвет, корица, имбирь, мускус, амброксан, кедр",
+    "notesSource": "Ценник COYLI PARFUM, предоставленный пользователем 15.10.2026",
+    "referenceSource": "https://www.fragrantica.com/p/66098",
+    "imageFrame": [
+      -104.25,
+      -40.25,
+      582.5,
+      375,
+      500
+    ]
+  },
+  {
+    "id": 419,
+    "name": "Moschino Funny!",
+    "cat": "Люкс",
+    "kind": "perfume",
+    "volumes": [
+      10,
+      15,
+      20,
+      30
+    ],
+    "price": {
+      "10": 1000,
+      "15": 1400,
+      "20": 1800,
+      "30": 2600
+    },
+    "discountPercent": 50,
+    "saleSprayPrice": {
+      "10": 500,
+      "15": 700,
+      "20": 900,
+      "30": 1300
+    },
+    "discountSource": "Цены на спрей уже со скидкой 50%: скриншоты COYLI PARFUM IMG_2649–IMG_2655 от 15.10.2026. На чистое масло −50% от обычного тарифа категории, подтверждено пользователем.",
+    "image": "assets/discounts/1215.jpg",
+    "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.1215.jpg",
+    "notes": "Верхние ноты: горький апельсин, красная смородина, розовый перец\nСердце: зелёный чай, пион, жасмин, фиалка\nБаза: кедр, мускус, дубовый мох, амбра",
+    "notesSource": "Ценник COYLI PARFUM, предоставленный пользователем 15.10.2026",
+    "referenceSource": "https://www.fragrantica.com/p/1215",
+    "imageFrame": [
+      -106.125,
+      -43.625,
+      586.25,
+      375,
+      500
+    ]
+  },
+  {
+    "id": 420,
+    "name": "Narciso Rodriguez For Her Eau de Toilette",
+    "cat": "Люкс",
+    "kind": "perfume",
+    "volumes": [
+      10,
+      15,
+      20,
+      30
+    ],
+    "price": {
+      "10": 1000,
+      "15": 1400,
+      "20": 1800,
+      "30": 2600
+    },
+    "discountPercent": 50,
+    "saleSprayPrice": {
+      "10": 500,
+      "15": 700,
+      "20": 900,
+      "30": 1300
+    },
+    "discountSource": "Цены на спрей уже со скидкой 50%: скриншоты COYLI PARFUM IMG_2649–IMG_2655 от 15.10.2026. На чистое масло −50% от обычного тарифа категории, подтверждено пользователем.",
+    "image": "assets/discounts/209.jpg",
+    "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.209.jpg",
+    "notes": "Верхние ноты: африканский апельсиновый цвет, османтус, бергамот\nСердце: мускус, амбра\nБаза: ветивер, пачули, ваниль",
+    "notesSource": "Ценник COYLI PARFUM, предоставленный пользователем 15.10.2026",
+    "referenceSource": "https://www.fragrantica.com/p/209",
+    "imageFrame": [
+      -106.25,
+      -43.75,
+      587.5,
+      375,
+      500
+    ]
+  },
+  {
+    "id": 421,
+    "name": "Paco Rabanne Phantom",
+    "cat": "Люкс",
+    "kind": "perfume",
+    "volumes": [
+      10,
+      15,
+      20,
+      30
+    ],
+    "price": {
+      "10": 1000,
+      "15": 1400,
+      "20": 1800,
+      "30": 2600
+    },
+    "discountPercent": 50,
+    "saleSprayPrice": {
+      "10": 500,
+      "15": 700,
+      "20": 900,
+      "30": 1300
+    },
+    "discountSource": "Цены на спрей уже со скидкой 50%: скриншоты COYLI PARFUM IMG_2649–IMG_2655 от 15.10.2026. На чистое масло −50% от обычного тарифа категории, подтверждено пользователем.",
+    "image": "assets/discounts/68226.jpg",
+    "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.68226.jpg",
+    "notes": "Верхние ноты: лаванда, цедра лимона, лимон\nСердце: лаванда, земляные ноты, яблоко, дым, пачули\nБаза: ваниль, лаванда, ветивер",
+    "notesSource": "Ценник COYLI PARFUM, предоставленный пользователем 15.10.2026",
+    "referenceSource": "https://www.fragrantica.com/p/68226",
+    "imageFrame": [
+      -105.75,
+      -43.75,
+      587.5,
+      375,
+      500
+    ]
+  },
+  {
+    "id": 422,
+    "name": "Puredistance White No. 06",
+    "cat": "Селектив",
+    "kind": "perfume",
+    "volumes": [
+      10,
+      15,
+      20,
+      30
+    ],
+    "price": {
+      "10": 1600,
+      "15": 2300,
+      "20": 3000,
+      "30": 4450
+    },
+    "discountPercent": 50,
+    "saleSprayPrice": {
+      "10": 800,
+      "15": 1150,
+      "20": 1500,
+      "30": 2225
+    },
+    "discountSource": "Цены на спрей уже со скидкой 50%: скриншоты COYLI PARFUM IMG_2649–IMG_2655 от 15.10.2026. На чистое масло −50% от обычного тарифа категории, подтверждено пользователем.",
+    "image": "assets/discounts/29158.jpg",
+    "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.29158.jpg",
+    "notes": "Ноты: мускус, майская роза, корень ириса, сандал, бергамот, бобы тонка, ветивер, пачули",
+    "notesSource": "Ценник COYLI PARFUM, предоставленный пользователем 15.10.2026",
+    "referenceSource": "https://www.fragrantica.com/p/29158",
+    "imageFrame": [
+      -106.25,
+      -43.75,
+      587.5,
+      375,
+      500
+    ]
+  },
+  {
+    "id": 423,
+    "name": "Shaik Khunja (No. 33)",
+    "cat": "Люкс",
+    "kind": "perfume",
+    "volumes": [
+      10,
+      15,
+      20,
+      30
+    ],
+    "price": {
+      "10": 1000,
+      "15": 1400,
+      "20": 1800,
+      "30": 2600
+    },
+    "discountPercent": 50,
+    "saleSprayPrice": {
+      "10": 500,
+      "15": 700,
+      "20": 900,
+      "30": 1300
+    },
+    "discountSource": "Цены на спрей уже со скидкой 50%: скриншоты COYLI PARFUM IMG_2649–IMG_2655 от 15.10.2026. На чистое масло −50% от обычного тарифа категории, подтверждено пользователем.",
+    "image": "assets/discounts/2776.jpg",
+    "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.2776.jpg",
+    "notes": "Верхние ноты: ангелика, кориандр, бергамот\nСердце: гелиотроп, ирис, пион, роза\nБаза: ваниль, бобы тонка, мускус, сандал",
+    "notesSource": "Ценник COYLI PARFUM, предоставленный пользователем 15.10.2026",
+    "referenceSource": "https://www.fragrantica.com/p/2776",
+    "imageFrame": [
+      -105.75,
+      -43.75,
+      587.5,
+      375,
+      500
+    ]
+  },
+  {
+    "id": 424,
+    "name": "Tom Ford Fucking Fabulous",
+    "cat": "Селектив",
+    "kind": "perfume",
+    "volumes": [
+      10,
+      15,
+      20,
+      30
+    ],
+    "price": {
+      "10": 1600,
+      "15": 2300,
+      "20": 3000,
+      "30": 4450
+    },
+    "discountPercent": 50,
+    "saleSprayPrice": {
+      "10": 800,
+      "15": 1150,
+      "20": 1500,
+      "30": 2225
+    },
+    "discountSource": "Цены на спрей уже со скидкой 50%: скриншоты COYLI PARFUM IMG_2649–IMG_2655 от 15.10.2026. На чистое масло −50% от обычного тарифа категории, подтверждено пользователем.",
+    "image": "assets/discounts/46513.jpg",
+    "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.46513.jpg",
+    "notes": "Верхние ноты: лаванда, мускатный шалфей\nСердце: кожа, горький миндаль, ваниль, корень ириса\nБаза: кожа, бобы тонка, кашмеран, светлое дерево, амбра",
+    "notesSource": "Ценник COYLI PARFUM, предоставленный пользователем 15.10.2026",
+    "referenceSource": "https://www.fragrantica.com/p/46513",
+    "imageFrame": [
+      -105.625,
+      -43.625,
+      586.25,
+      375,
+      500
+    ]
+  },
+  {
+    "id": 425,
+    "name": "Zara Mimosa Cloud Eau de Toilette",
+    "cat": "Люкс",
+    "kind": "perfume",
+    "volumes": [
+      10,
+      15,
+      20,
+      30
+    ],
+    "price": {
+      "10": 1000,
+      "15": 1400,
+      "20": 1800,
+      "30": 2600
+    },
+    "discountPercent": 50,
+    "saleSprayPrice": {
+      "10": 500,
+      "15": 700,
+      "20": 900,
+      "30": 1300
+    },
+    "discountSource": "Цены на спрей уже со скидкой 50%: скриншоты COYLI PARFUM IMG_2649–IMG_2655 от 15.10.2026. На чистое масло −50% от обычного тарифа категории, подтверждено пользователем.",
+    "image": "assets/discounts/61993.jpg",
+    "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.61993.jpg",
+    "notes": "Верхняя нота: фисташки\nСердце: мимоза\nБаза: амброксан",
+    "notesSource": "Ценник COYLI PARFUM, предоставленный пользователем 15.10.2026",
+    "referenceSource": "https://www.fragrantica.com/p/61993",
+    "imageFrame": [
+      -106.25,
+      -43.75,
+      587.5,
+      375,
+      500
+    ]
+  },
+  {
+    "id": 426,
+    "name": "Trussardi My Land",
+    "cat": "Люкс",
+    "kind": "perfume",
+    "volumes": [
+      10,
+      15,
+      20,
+      30
+    ],
+    "price": {
+      "10": 1000,
+      "15": 1400,
+      "20": 1800,
+      "30": 2600
+    },
+    "discountPercent": 50,
+    "saleSprayPrice": {
+      "10": 500,
+      "15": 700,
+      "20": 900,
+      "30": 1300
+    },
+    "discountSource": "Цены на спрей уже со скидкой 50%: скриншоты COYLI PARFUM IMG_2649–IMG_2655 от 15.10.2026. На чистое масло −50% от обычного тарифа категории, подтверждено пользователем.",
+    "image": "assets/discounts/16027.jpg",
+    "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.16027.jpg",
+    "notes": "Верхние ноты: зелёный мандарин, бергамот\nСердце: лаванда, фиалка, калон\nБаза: кожа, кашмировое дерево, ветивер, бобы тонка",
+    "notesSource": "Ценник COYLI PARFUM, предоставленный пользователем 15.10.2026",
+    "referenceSource": "https://www.fragrantica.com/p/16027",
+    "imageFrame": [
+      -105.625,
+      -43.625,
+      586.25,
+      375,
+      500
+    ]
+  },
+  {
+    "id": 427,
+    "name": "Escada Taj Sunset",
+    "cat": "Люкс",
+    "kind": "perfume",
+    "volumes": [
+      10,
+      15,
+      20,
+      30
+    ],
+    "price": {
+      "10": 1000,
+      "15": 1400,
+      "20": 1800,
+      "30": 2600
+    },
+    "discountPercent": 50,
+    "saleSprayPrice": {
+      "10": 500,
+      "15": 700,
+      "20": 900,
+      "30": 1300
+    },
+    "discountSource": "Цены на спрей уже со скидкой 50%: скриншоты COYLI PARFUM IMG_2649–IMG_2655 от 15.10.2026. На чистое масло −50% от обычного тарифа категории, подтверждено пользователем.",
+    "image": "assets/discounts/10611.jpg",
+    "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.10611.jpg",
+    "notes": "Верхние ноты: манго, нектарин, красный апельсин\nСердце: малина, каимито, водяная лилия, лотос\nБаза: кокос, мускус, сандал",
+    "notesSource": "Ценник COYLI PARFUM, предоставленный пользователем 15.10.2026",
+    "referenceSource": "https://www.fragrantica.com/p/10611",
+    "imageFrame": [
+      -97.375,
+      -41.875,
+      568.75,
+      375,
+      500
+    ]
+  },
+  {
+    "id": 428,
+    "name": "Escada Candy Love",
+    "cat": "Люкс",
+    "kind": "perfume",
+    "volumes": [
+      10,
+      15,
+      20,
+      30
+    ],
+    "price": {
+      "10": 1000,
+      "15": 1400,
+      "20": 1800,
+      "30": 2600
+    },
+    "discountPercent": 50,
+    "saleSprayPrice": {
+      "10": 500,
+      "15": 700,
+      "20": 900,
+      "30": 1300
+    },
+    "discountSource": "Цены на спрей уже со скидкой 50%: скриншоты COYLI PARFUM IMG_2649–IMG_2655 от 15.10.2026. На чистое масло −50% от обычного тарифа категории, подтверждено пользователем.",
+    "image": "assets/discounts/62791.jpg",
+    "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.62791.jpg",
+    "notes": "Верхняя нота: засахаренное яблоко\nСердце: роза\nБаза: взбитые сливки, ваниль",
+    "notesSource": "Ценник COYLI PARFUM, предоставленный пользователем 15.10.2026",
+    "referenceSource": "https://www.fragrantica.com/p/62791",
+    "imageFrame": [
+      -28.125,
+      34.375,
+      431.25,
+      375,
+      500
+    ]
+  },
+  {
+    "id": 429,
+    "name": "Avon Today",
+    "cat": "Люкс",
+    "kind": "perfume",
+    "volumes": [
+      10,
+      15,
+      20,
+      30
+    ],
+    "price": {
+      "10": 1000,
+      "15": 1400,
+      "20": 1800,
+      "30": 2600
+    },
+    "discountPercent": 50,
+    "saleSprayPrice": {
+      "10": 500,
+      "15": 700,
+      "20": 900,
+      "30": 1300
+    },
+    "discountSource": "Цены на спрей уже со скидкой 50%: скриншоты COYLI PARFUM IMG_2649–IMG_2655 от 15.10.2026. На чистое масло −50% от обычного тарифа категории, подтверждено пользователем.",
+    "image": "assets/discounts/808.jpg",
+    "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.808.jpg",
+    "notes": "Ноты: фрезия, кактус, стефанотис, тубероза, апельсиновый цвет, гибискус, стрелиция, мускус, водяные ноты, древесные ноты, кедр, роза",
+    "notesSource": "Ценник COYLI PARFUM, предоставленный пользователем 15.10.2026",
+    "referenceSource": "https://www.fragrantica.com/p/808",
+    "imageFrame": [
+      -109.0,
+      -42.5,
+      585.0,
+      375,
+      500
+    ]
+  },
+  {
+    "id": 430,
+    "name": "Dior Addict 2",
+    "cat": "Люкс",
+    "kind": "perfume",
+    "volumes": [
+      10,
+      15,
+      20,
+      30
+    ],
+    "price": {
+      "10": 1000,
+      "15": 1400,
+      "20": 1800,
+      "30": 2600
+    },
+    "discountPercent": 50,
+    "saleSprayPrice": {
+      "10": 500,
+      "15": 700,
+      "20": 900,
+      "30": 1300
+    },
+    "discountSource": "Цены на спрей уже со скидкой 50%: скриншоты COYLI PARFUM IMG_2649–IMG_2655 от 15.10.2026. На чистое масло −50% от обычного тарифа категории, подтверждено пользователем.",
+    "image": "assets/discounts/217.jpg",
+    "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.217.jpg",
+    "notes": "Верхние ноты: грейпфрут, фрезия, апельсин, бергамот\nСердце: гранат, лотос, арбуз, ананас, ландыш\nБаза: белый мускус, кедр, сандал",
+    "notesSource": "Ценник COYLI PARFUM, предоставленный пользователем 15.10.2026",
+    "referenceSource": "https://www.fragrantica.com/p/217",
+    "imageFrame": [
+      -105.125,
+      -43.625,
+      586.25,
+      375,
+      500
+    ]
+  },
+  {
+    "id": 431,
+    "name": "Carolina Herrera CH Hot! Hot! Hot!",
+    "cat": "Люкс",
+    "kind": "perfume",
+    "volumes": [
+      10,
+      15,
+      20,
+      30
+    ],
+    "price": {
+      "10": 1000,
+      "15": 1400,
+      "20": 1800,
+      "30": 2600
+    },
+    "discountPercent": 50,
+    "saleSprayPrice": {
+      "10": 500,
+      "15": 700,
+      "20": 900,
+      "30": 1300
+    },
+    "discountSource": "Цены на спрей уже со скидкой 50%: скриншоты COYLI PARFUM IMG_2649–IMG_2655 от 15.10.2026. На чистое масло −50% от обычного тарифа категории, подтверждено пользователем.",
+    "image": "assets/discounts/72700.jpg",
+    "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.72700.jpg",
+    "notes": "Верхние ноты: нероли, алоэ вера, грейпфрут\nСердце: иланг-иланг, малина, кокос\nБаза: ваниль, сандал, мирра",
+    "notesSource": "Ценник COYLI PARFUM, предоставленный пользователем 15.10.2026",
+    "referenceSource": "https://www.fragrantica.com/p/72700",
+    "imageFrame": [
+      -103.25,
+      -41.25,
+      582.5,
+      375,
+      500
+    ]
+  },
+  {
+    "id": 432,
+    "name": "Al-Rehab Dalal",
+    "cat": "Селектив",
+    "kind": "perfume",
+    "volumes": [
+      10,
+      15,
+      20,
+      30
+    ],
+    "price": {
+      "10": 1600,
+      "15": 2300,
+      "20": 3000,
+      "30": 4450
+    },
+    "discountPercent": 50,
+    "saleSprayPrice": {
+      "10": 800,
+      "15": 1150,
+      "20": 1500,
+      "30": 2225
+    },
+    "discountSource": "Цены на спрей уже со скидкой 50%: скриншоты COYLI PARFUM IMG_2649–IMG_2655 от 15.10.2026. На чистое масло −50% от обычного тарифа категории, подтверждено пользователем.",
+    "image": "assets/discounts/20120.jpg",
+    "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.20120.jpg",
+    "notes": "Ноты: карамель, ваниль, апельсин, сандал",
+    "notesSource": "Ценник COYLI PARFUM, предоставленный пользователем 15.10.2026",
+    "referenceSource": "https://www.fragrantica.com/p/20120",
+    "imageFrame": [
+      -106.125,
+      -42.625,
+      586.25,
+      375,
+      500
+    ]
+  },
+  {
+    "id": 433,
+    "name": "Giorgio Armani Armani Code Sport",
+    "cat": "Люкс",
+    "kind": "perfume",
+    "volumes": [
+      10,
+      15,
+      20,
+      30
+    ],
+    "price": {
+      "10": 1000,
+      "15": 1400,
+      "20": 1800,
+      "30": 2600
+    },
+    "discountPercent": 50,
+    "saleSprayPrice": {
+      "10": 500,
+      "15": 700,
+      "20": 900,
+      "30": 1300
+    },
+    "discountSource": "Цены на спрей уже со скидкой 50%: скриншоты COYLI PARFUM IMG_2649–IMG_2655 от 15.10.2026. На чистое масло −50% от обычного тарифа категории, подтверждено пользователем.",
+    "image": "assets/discounts/11649.jpg",
+    "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.11649.jpg",
+    "notes": "Ноты: мята, мандарин, лимон, имбирь, водяные ноты, ветивер, амбра",
+    "notesSource": "Ценник COYLI PARFUM, предоставленный пользователем 15.10.2026",
+    "referenceSource": "https://www.fragrantica.com/p/11649",
+    "imageFrame": [
+      -106.125,
+      -43.625,
+      586.25,
+      375,
+      500
+    ]
+  },
+  {
+    "id": 434,
+    "name": "Lancôme Idôle Nectar",
+    "cat": "Люкс",
+    "kind": "perfume",
+    "volumes": [
+      10,
+      15,
+      20,
+      30
+    ],
+    "price": {
+      "10": 1000,
+      "15": 1400,
+      "20": 1800,
+      "30": 2600
+    },
+    "discountPercent": 50,
+    "saleSprayPrice": {
+      "10": 500,
+      "15": 700,
+      "20": 900,
+      "30": 1300
+    },
+    "discountSource": "Цены на спрей уже со скидкой 50%: скриншоты COYLI PARFUM IMG_2649–IMG_2655 от 15.10.2026. На чистое масло −50% от обычного тарифа категории, подтверждено пользователем.",
+    "image": "assets/discounts/74137.jpg",
+    "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.74137.jpg",
+    "notes": "Верхние ноты: грасская роза, роза, турецкая роза\nСердце: карамель, попкорн\nБаза: ваниль",
+    "notesSource": "Ценник COYLI PARFUM, предоставленный пользователем 15.10.2026",
+    "referenceSource": "https://www.fragrantica.com/p/74137",
+    "imageFrame": [
+      -102.25,
+      -41.25,
+      582.5,
+      375,
+      500
+    ]
+  },
+  {
+    "id": 435,
+    "name": "Al-Rehab Soft",
+    "cat": "Люкс",
+    "kind": "perfume",
+    "volumes": [
+      10,
+      15,
+      20,
+      30
+    ],
+    "price": {
+      "10": 1000,
+      "15": 1400,
+      "20": 1800,
+      "30": 2600
+    },
+    "discountPercent": 50,
+    "saleSprayPrice": {
+      "10": 500,
+      "15": 700,
+      "20": 900,
+      "30": 1300
+    },
+    "discountSource": "Цены на спрей уже со скидкой 50%: скриншоты COYLI PARFUM IMG_2649–IMG_2655 от 15.10.2026. На чистое масло −50% от обычного тарифа категории, подтверждено пользователем.",
+    "image": "assets/discounts/20116.jpg",
+    "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.20116.jpg",
+    "notes": "Ноты: цитрусы, ваниль, карамель, белый мускус, древесные ноты",
+    "notesSource": "Ценник COYLI PARFUM, предоставленный пользователем 15.10.2026",
+    "referenceSource": "https://www.fragrantica.com/p/20116",
+    "imageFrame": [
+      -104.375,
+      -42.375,
+      583.75,
+      375,
+      500
+    ]
+  },
+  {
+    "id": 436,
+    "name": "Davidoff Cool Water",
+    "cat": "Люкс",
+    "kind": "perfume",
+    "volumes": [
+      10,
+      15,
+      20,
+      30
+    ],
+    "price": {
+      "10": 1000,
+      "15": 1400,
+      "20": 1800,
+      "30": 2600
+    },
+    "discountPercent": 50,
+    "saleSprayPrice": {
+      "10": 500,
+      "15": 700,
+      "20": 900,
+      "30": 1300
+    },
+    "discountSource": "Цены на спрей уже со скидкой 50%: скриншоты COYLI PARFUM IMG_2649–IMG_2655 от 15.10.2026. На чистое масло −50% от обычного тарифа категории, подтверждено пользователем.",
+    "image": "assets/discounts/507.jpg",
+    "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.507.jpg",
+    "notes": "Ноты: морская вода, лаванда, мята, зелёные ноты, розмарин, калон, кориандр, сандал, нероли, герань, жасмин, мускус, дубовый мох, кедр, табак, серая амбра",
+    "notesSource": "Ценник COYLI PARFUM, предоставленный пользователем 15.10.2026",
+    "referenceSource": "https://www.fragrantica.com/p/507",
+    "imageFrame": [
+      -106.125,
+      -43.625,
+      586.25,
+      375,
+      500
+    ]
+  },
+  {
+    "id": 437,
+    "name": "Hugo Boss Baldessarini",
+    "cat": "Люкс",
+    "kind": "perfume",
+    "volumes": [
+      10,
+      15,
+      20,
+      30
+    ],
+    "price": {
+      "10": 1000,
+      "15": 1400,
+      "20": 1800,
+      "30": 2600
+    },
+    "discountPercent": 50,
+    "saleSprayPrice": {
+      "10": 500,
+      "15": 700,
+      "20": 900,
+      "30": 1300
+    },
+    "discountSource": "Цены на спрей уже со скидкой 50%: скриншоты COYLI PARFUM IMG_2649–IMG_2655 от 15.10.2026. На чистое масло −50% от обычного тарифа категории, подтверждено пользователем.",
+    "image": "assets/discounts/385.jpg",
+    "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.385.jpg",
+    "notes": "Верхние ноты: танжерин, горький апельсин, мята\nСердце: ромашка, гвоздика\nБаза: мускус, табак, амбра, пачули, можжевельник",
+    "notesSource": "Ценник COYLI PARFUM, предоставленный пользователем 15.10.2026",
+    "referenceSource": "https://www.fragrantica.com/p/385",
+    "imageFrame": [
+      -105.75,
+      -43.75,
+      587.5,
+      375,
+      500
+    ]
   }
 ]
