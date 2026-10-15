@@ -901,8 +901,9 @@
       "50": 7250,
       "100": 14300
     },
-    "notes": "Форматы: спрей и масло — уточняйте наличие",
-    "kind": "perfume"
+    "notes": "Ноты: цветок хлопка, белый мускус, белый уд",
+    "kind": "perfume",
+    "notesSource": "https://www.fragrantica.com/perfume/ZARKOPERFUME/The-Muse-60665.html"
   },
   {
     "id": 63,
@@ -9051,8 +9052,10 @@
       "50": 4150,
       "100": 8000
     },
-    "notes": "",
-    "catalogStatus": "reference_pending"
+    "notes": "Верхние ноты: лайм, лимон, бергамот, жасмин, апельсин, мандарин, нероли\nСердце: морские ноты, жасмин, розмарин, персик, фрезия, цикламен, фиалка, кориандр, роза, мускатный орех\nБаза: белый мускус, кедр, дубовый мох, пачули, амбра",
+    "catalogStatus": "reference_pending",
+    "notesSource": "https://www.fragrantica.com/perfumes/Giorgio-Armani/Acqua-di-Gio-410.html",
+    "referenceVersion": "Acqua di Giò Pour Homme 1996"
   },
   {
     "id": 337,
@@ -9083,8 +9086,10 @@
       "50": 4150,
       "100": 8000
     },
-    "notes": "",
-    "catalogStatus": "reference_pending"
+    "notes": "Верхние ноты: тростник, мята, зелёная сирень, мандарин, розовый перец\nСердце: водяная лилия, перец, фиалка, белый персик, амариллис, роза\nБаза: кедр, белый мускус, ваниль",
+    "catalogStatus": "reference_pending",
+    "notesSource": "https://www.fragrantica.com/perfume/Kenzo/L-Eau-par-Kenzo-78.html",
+    "referenceVersion": "L'Eau par Kenzo pour Femme 1996"
   },
   {
     "id": 338,
