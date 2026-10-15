@@ -8626,5 +8626,75 @@
     "notesSource": "https://www.fragrantica.com/perfume/Zielinski-Rozen/Orange-Jasmine-Vanilla-65053.html",
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.65053.jpg",
     "referenceVersion": "Orange & Jasmine, Vanilla Zielinski & Rozen perfume - a fragrance for women and men"
+  },
+  {
+    "id": 325,
+    "name": "Al Haramain Hayati",
+    "cat": "Селектив",
+    "volumes": [
+      2,
+      3,
+      4,
+      5,
+      10,
+      15,
+      20,
+      30,
+      50,
+      100
+    ],
+    "price": {
+      "2": 340,
+      "3": 500,
+      "4": 660,
+      "5": 850,
+      "10": 1600,
+      "15": 2300,
+      "20": 3000,
+      "30": 4450,
+      "50": 7250,
+      "100": 14300
+    },
+    "notes": "Верхние ноты: мускус, амбра\nСердце: мускус, роза, сахар\nБаза: мускус, древесные ноты, уд",
+    "kind": "perfume",
+    "image": "assets/perfumes/19607.jpg",
+    "notesSource": "https://www.fragrantica.com/perfume/Al-Haramain-Perfumes/Hayati-19607.html",
+    "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.19607.jpg",
+    "referenceVersion": "Hayati Al Haramain Perfumes perfume - a fragrance for women and men"
+  },
+  {
+    "id": 326,
+    "name": "Serge Dumonten Black Narcotique",
+    "cat": "Селектив",
+    "volumes": [
+      2,
+      3,
+      4,
+      5,
+      10,
+      15,
+      20,
+      30,
+      50,
+      100
+    ],
+    "price": {
+      "2": 340,
+      "3": 500,
+      "4": 660,
+      "5": 850,
+      "10": 1600,
+      "15": 2300,
+      "20": 3000,
+      "30": 4450,
+      "50": 7250,
+      "100": 14300
+    },
+    "notes": "Ноты: табак, коньяк, тёмный шоколад, древесные ноты, корица, сандал, серая амбра, миндаль, гелиотроп",
+    "kind": "perfume",
+    "image": "assets/perfumes/65110.jpg",
+    "notesSource": "https://www.fragrantica.com/p/65110",
+    "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.65110.jpg",
+    "referenceVersion": "Black Narcotique Serge Dumonten perfume - a fragrance for women and men"
   }
 ]

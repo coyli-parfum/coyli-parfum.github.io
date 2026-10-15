@@ -21,7 +21,7 @@ This is a buildless static site. index.html, catalog.json and image assets are s
 
 ## Imported perfume references
 
-- The 2026-10-15 import retains the initial 239 product IDs and adds 85 records (324 total). Photos and notes were prepared for 188 identified fragrance references. CATALOG_REVIEW.md lists 29 unresolved source names; obtain precise identities before filling these entries.
+- The 2026-10-15 import retains the initial 239 product IDs and adds 87 records (326 total). Photos and notes were prepared for 190 identified fragrance references. CATALOG_REVIEW.md lists 27 unresolved source names; obtain precise identities before filling these entries.
 - Lux/selective spray and pure-oil price schedules are also encoded as sprayL, sprayS, oilL, oilS in index.html. A requested price update must update the relevant renderer schedule as well as catalog prices; validate the actual format/volume selection and cart amount.
 - For the user's reference-fragrance import, matching bottle images and notes may be researched from official brands or Fragrantica. Keep notesSource and imageSource provenance, distinguish fragrance editions, and host the actual photos locally. White backgrounds and consistent bottle views are preferred. Do not substitute a related fragrance for an unclear name.
 - Unrelated home products, original perfumes, prices and images remain unchanged by this import. Existing duplicate and incomplete legacy records were retained to respect the user's preservation request.
