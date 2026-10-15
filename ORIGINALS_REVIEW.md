@@ -1,25 +1,22 @@
 # Original perfume photos and notes — 2026-10-15
 
-104 of 116 original perfume cards have verified Fragrantica bottle photographs and Russian note lists. All product IDs, names, categories, prices, volumes and unrelated products are preserved. Sources are recorded per card in imageSource and notesSource. Photographs are served from repository assets; imageFrame centers bottles at approximately 80% of a square card without modifying the source photographs.
+All 114 visible original perfume cards have bottle photos and Russian notes. 116 original records are retained; two confirmed duplicates are hidden through duplicateOf (352 → 403, 400 → 379). No unresolved photo/note references remain after the user's 12 clarifying images.
 
-## Awaiting clarification (12)
+## Clarification completed
 
-No photo or note substitution was made for these records.
+- Monolith (193): exact marble bottle matched to user screenshot IMG_2637.jpeg. Fragrantica entry was not found; photograph and note pyramid use https://dnaperfumo.com/products/attar-monolith . The photograph was visually matched and its uploaded bytes verified.
+- Italica (203): 2021 edition, confirmed by the supplied bottle and pyramid.
+- Bleu de Chanel (205) and Dior Sauvage (210): supplied pyramids match the original EDT editions.
+- Absolu Aventus (208): supplied pyramid matches the 2025 edition (106624). Previously missing prices filled from IMG_2631.jpeg: 3/5/10/15 ml = 3000/5000/10000/15000 RUB.
+- Hypnotic Poison (209): original EDT pyramid (219). Previously missing prices filled from IMG_2632.jpeg: 900/1500/3000/4500 RUB for 3/5/10/15 ml.
+- The One Gold (346): confirmed For Men, not the women's edition; name clarified.
+- Samsara (349): supplied current heart-stopper bottle and pyramid matched to the 2021 page (67313); catalog display name remains Samsara.
+- Narciso Rodriguez generic record (352): supplied red bottle and pyramid are For Her Intense. Retain the explicit record (403), transfer the confirmed 750/1250/2500/3750 RUB prices from IMG_2634.jpeg, and hide 352 as a historical duplicate.
+- Roja Elysium (377): confirmed Pour Homme Parfum Cologne; name clarified.
+- La Sultane de Saba (400): IMG_2633.jpeg shows the same Voyage sur la route des Épices bottle and pyramid as 379. Hide 400 as duplicateOf 379. Existing 379 prices/volumes remain unchanged: this task clarifies the fragrance rather than assuming the older story screenshot replaces current prices.
+- What We Do Is Secret (405): confirmed Made in Heaven. Name, photograph and notes completed; missing prices filled from IMG_2636.png: 1200/2000/4000/6000 RUB for 3/5/10/15 ml.
 
-| ID | Catalog name | Needed |
-|---|---|---|
-| 193 | Attar Collection Monolith | Точное совпадение Attar Collection Monolith на Fragrantica не найдено; нужен флакон и корректное название. |
-| 203 | Casamorati Italica | У Italica есть оригинальный выпуск 2016 и Italica (2021); нужен флакон/год выпуска. |
-| 205 | Chanel Bleu de Chanel | Нужна концентрация Bleu de Chanel: EDT, EDP, Parfum или L’Exclusif. |
-| 208 | Creed Aventus Absolu | Нужно различить Absolu Aventus 2023 и Absolu Aventus 2025; нужен флакон/версия. |
-| 209 | Dior Hypnotic Poison | Нужна версия Hypnotic Poison: EDT или EDP. |
-| 210 | Dior Sauvage | Нужна версия Sauvage: EDT, EDP, Parfum, Elixir и т. п. |
-| 346 | Dolce&Gabbana The One Gold | Нужно уточнить The One Gold: женский или For Men; нужен флакон. |
-| 349 | Guerlain Samsara | Нужны концентрация и выпуск Samsara (EDT/EDP, винтажный/современный). |
-| 352 | Narciso Rodriguez Narciso Rodriguez For Her | В карточке повторён бренд; нужна версия For Her (EDT/EDP и т. п.). |
-| 377 | Roja Elysium | Нужна точная версия Elysium; у бренда несколько самостоятельных композиций. |
-| 400 | La Sultane de Saba Ambre Vanille Patchouli | Точное совпадение Ambre Vanille Patchouli отдельно от Voyage sur la route des Épices не подтверждено; проверить, не дублирует ли ID 379. |
-| 405 | What We Do Is Secret What We Do Is Secret | В карточке дважды указан бренд What We Do Is Secret; название аромата отсутствует. |
+Existing prices, volumes, unrelated categories and IDs are preserved except the four previously unpriced original records explicitly filled from the supplied price cards (208, 209, 403, 405).
 
 ## Verified cards
 
@@ -129,3 +126,18 @@ No photo or note substitution was made for these records.
 | 402 | Miller et Bertaux Menta y Menta | https://www.fragrantica.com/p/54796 |
 | 403 | Narciso Rodriguez For Her Intense | https://www.fragrantica.com/p/101595 |
 | 404 | Versace Versense | https://www.fragrantica.com/p/5752 |
+
+## Additional verified sources
+
+| ID | Name | Notes source |
+|---|---|---|
+| 193 | Attar Collection Monolith | https://dnaperfumo.com/products/attar-monolith |
+| 203 | Casamorati Italica | https://www.fragrantica.com/perfume/Casamorati-1888/Italica-2021-65383.html |
+| 208 | Creed Absolu Aventus | https://www.fragrantica.com/perfume/Creed/Absolu-Aventus-106624.html |
+| 209 | Dior Hypnotic Poison | https://www.fragrantica.com/perfume/Dior/Hypnotic-Poison-219.html |
+| 346 | Dolce&Gabbana The One Gold For Men | https://www.fragrantica.com/perfume/Dolce-Gabbana/The-One-Gold-For-Men-69000.html |
+| 349 | Guerlain Samsara | https://www.fragrantica.com/perfume/Guerlain/Samsara-Eau-de-Parfum-67313.html |
+| 377 | Roja Elysium Pour Homme Parfum Cologne | https://www.fragrantica.com/perfume/Roja-Dove/Elysium-Pour-Homme-Parfum-Cologne-46296.html |
+| 405 | What We Do Is Secret Made in Heaven | https://www.fragrantica.com/perfume/What-We-Do-Is-Secret/Made-in-Heaven-27620.html |
+| 205 | Chanel Bleu de Chanel | https://www.fragrantica.com/perfume/Chanel/Bleu-de-Chanel-9099.html |
+| 210 | Dior Sauvage | https://www.fragrantica.com/perfume/Christian-Dior/Sauvage-31861.html |
