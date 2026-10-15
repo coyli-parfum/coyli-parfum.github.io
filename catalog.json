@@ -9129,7 +9129,9 @@
       "100": 8000
     },
     "notes": "",
-    "catalogStatus": "reference_pending"
+    "catalogStatus": "name_label_mismatch",
+    "image": "assets/perfumes/zam-zam-cold-user.jpg",
+    "imageSource": "Фотография предоставлена COYLI PARFUM; на этикетке написано ZAM ZAM COLD"
   },
   {
     "id": 339,
@@ -9162,7 +9164,9 @@
     },
     "notes": "По описанию продавца: верхние ноты — каннабис, перец, бурбонская ваниль, паприка, кофе; сердце — эбеновое дерево, табак, мексиканский шоколад; база — кедр, пачули, сандал. Пирамида не подтверждена официальным сайтом Byredo.",
     "catalogStatus": "notes_unverified",
-    "notesSource": "https://byredo.eu.com/byredo-marijuana-parfyumirovannaya-voda-100-ml-1"
+    "notesSource": "https://byredo.eu.com/byredo-marijuana-parfyumirovannaya-voda-100-ml-1",
+    "image": "assets/perfumes/byredo-marijuana-user.jpg",
+    "imageSource": "Фотография предоставлена COYLI PARFUM"
   },
   {
     "id": 340,
