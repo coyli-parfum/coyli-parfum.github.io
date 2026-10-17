@@ -583,8 +583,9 @@
     "price": {
       "110": 990
     },
-    "notes": "",
-    "kind": "home"
+    "notes": "Кедр · пихта · амбра",
+    "kind": "home",
+    "image": "assets/candles/taiga-20261017.jpeg"
   },
   {
     "id": 38,
@@ -596,8 +597,9 @@
     "price": {
       "110": 990
     },
-    "notes": "",
-    "kind": "home"
+    "notes": "Клюква · смородина · сосна",
+    "kind": "home",
+    "image": "assets/candles/cranberry-20261017.jpeg"
   },
   {
     "id": 39,
@@ -622,8 +624,9 @@
     "price": {
       "110": 990
     },
-    "notes": "",
-    "kind": "home"
+    "notes": "Яблоки · корица · орешки",
+    "kind": "home",
+    "image": "assets/candles/strudel-20261017.jpeg"
   },
   {
     "id": 41,
@@ -636,7 +639,8 @@
       "110": 990
     },
     "notes": "",
-    "kind": "home"
+    "kind": "home",
+    "image": "assets/candles/warm-bread-20261017.jpeg"
   },
   {
     "id": 42,
@@ -648,8 +652,9 @@
     "price": {
       "110": 990
     },
-    "notes": "",
-    "kind": "home"
+    "notes": "Кардамон",
+    "kind": "home",
+    "image": "assets/candles/cardamom-20261017.jpeg"
   },
   {
     "id": 43,
@@ -661,8 +666,9 @@
     "price": {
       "110": 990
     },
-    "notes": "",
-    "kind": "home"
+    "notes": "Гранат · жасмин · мускус",
+    "kind": "home",
+    "image": "assets/candles/pomegranate-20261017.jpeg"
   },
   {
     "id": 44,
@@ -674,8 +680,9 @@
     "price": {
       "110": 990
     },
-    "notes": "",
-    "kind": "home"
+    "notes": "Малина · сахар · ваниль",
+    "kind": "home",
+    "image": "assets/candles/raspberry-tea-20261017.jpeg"
   },
   {
     "id": 45,
@@ -687,8 +694,9 @@
     "price": {
       "110": 990
     },
-    "notes": "",
-    "kind": "home"
+    "notes": "Кофе · какао · ваниль",
+    "kind": "home",
+    "image": "assets/candles/cocoa-break-20261017.jpeg"
   },
   {
     "id": 46,
@@ -700,8 +708,9 @@
     "price": {
       "110": 990
     },
-    "notes": "",
-    "kind": "home"
+    "notes": "Фисташка · катаифи · шоколад",
+    "kind": "home",
+    "image": "assets/candles/dubai-chocolate-20261017.jpeg"
   },
   {
     "id": 47,
@@ -713,8 +722,9 @@
     "price": {
       "110": 990
     },
-    "notes": "",
-    "kind": "home"
+    "notes": "Лимон · масло · торт",
+    "kind": "home",
+    "image": "assets/candles/lemon-20261017.jpeg"
   },
   {
     "id": 48,
@@ -726,8 +736,9 @@
     "price": {
       "110": 990
     },
-    "notes": "",
-    "kind": "home"
+    "notes": "Земляника · молоко · сахар",
+    "kind": "home",
+    "image": "assets/candles/wild-strawberry-20261017.jpeg"
   },
   {
     "id": 49,
@@ -739,8 +750,9 @@
     "price": {
       "110": 990
     },
-    "notes": "",
-    "kind": "home"
+    "notes": "Чёрная смородина · ваниль",
+    "kind": "home",
+    "image": "assets/candles/berries-20261017.jpeg"
   },
   {
     "id": 50,
@@ -752,8 +764,9 @@
     "price": {
       "110": 990
     },
-    "notes": "",
-    "kind": "home"
+    "notes": "Лист томата · базилик · мох",
+    "kind": "home",
+    "image": "assets/candles/tomato-20261017.jpeg"
   },
   {
     "id": 51,
@@ -765,8 +778,9 @@
     "price": {
       "110": 990
     },
-    "notes": "",
-    "kind": "home"
+    "notes": "Зефир · пачули · дым",
+    "kind": "home",
+    "image": "assets/candles/toasted-marshmallow-20261017.jpeg"
   },
   {
     "id": 52,
@@ -778,8 +792,9 @@
     "price": {
       "110": 990
     },
-    "notes": "",
-    "kind": "home"
+    "notes": "Корица · молоко · карамель",
+    "kind": "home",
+    "image": "assets/candles/cinnamon-20261017.jpeg"
   },
   {
     "id": 53,
