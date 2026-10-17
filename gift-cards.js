@@ -23,7 +23,7 @@ el('gift-electronic-preview').style.setProperty('--gift-background',d.bg);el('gi
 el('gift-card-title').textContent=d.title;el('gift-card-line').textContent=d.line;el('gift-card-mark').textContent=d.mark;el('gift-card-amount').textContent=state.amount>0?money(state.amount):'Ваша сумма';
 el('gift-physical-image').src=plastic[state.amount]||plastic[3000];el('gift-physical-image').alt='Пластиковая подарочная карта COYLI PARFUM на '+money(state.amount);
 el('gift-order').textContent=state.amount>0?'Оформить карту · '+money(state.amount):'Оформить карту';
-el('gift-delivery').textContent=electronic?'После оплаты менеджер отправит карту вам. Перешлите её тому, кого хочется порадовать.':'Пластиковая карта на фирменной подложке. Получение или доставку согласуем с менеджером.';
+el('gift-delivery').textContent=electronic?'После оплаты менеджер отправит карту вам. Перешлите её тому, кого хочется порадовать.':'Подарочную карту можно оформить с доставкой или забрать в любом из наших филиалов.';
 el('gift-order-details').hidden=true;el('gift-error').hidden=true;
 }
 window.renderGiftSection=function(){const r=root();if(!r||r.dataset.ready)return;r.dataset.ready='true';
