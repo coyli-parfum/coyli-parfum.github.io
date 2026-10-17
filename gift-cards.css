@@ -36,3 +36,8 @@
 /* Match the visual card proportions shown in the reference: source photo is unusually wide. */
 #gift-section .gift-physical-main img{width:84%;max-width:350px;transform:scaleX(.79);transform-origin:center center}
 @media(max-width:750px){#gift-section .gift-physical-main img{width:88%;max-width:350px;transform:scaleX(.79)}}
+
+/* Compact physical card presentation on mobile and desktop */
+#gift-section .gift-physical-main{padding:4px 0 12px;min-height:0}
+#gift-section .gift-physical-main img{display:block;width:64%;max-width:270px;height:auto;aspect-ratio:auto;transform:scaleX(.88);margin:0 auto}
+@media(max-width:750px){#gift-section .gift-physical-main img{width:66%;max-width:260px;transform:scaleX(.88)} }
