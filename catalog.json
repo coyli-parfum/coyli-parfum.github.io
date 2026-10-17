@@ -14001,5 +14001,47 @@
       500
     ],
     "gender": "Мужской"
+  },
+  {
+    "id": 438,
+    "name": "Груша-тоник",
+    "cat": "Аромасаше",
+    "volumes": [
+      75
+    ],
+    "price": {
+      "75": 790
+    },
+    "notes": "Груша · бергамот · кедр",
+    "kind": "home",
+    "image": "assets/sachets/pear-tonic-20261017.jpeg"
+  },
+  {
+    "id": 439,
+    "name": "AIR Мусс",
+    "cat": "Аромасаше",
+    "volumes": [
+      75
+    ],
+    "price": {
+      "75": 790
+    },
+    "notes": "Белый мускус · хлопок · белый уд",
+    "kind": "home",
+    "image": "assets/sachets/air-mousse-20261017.jpeg"
+  },
+  {
+    "id": 440,
+    "name": "Лимон",
+    "cat": "Аромасаше",
+    "volumes": [
+      75
+    ],
+    "price": {
+      "75": 790
+    },
+    "notes": "Лимон · масло · торт",
+    "kind": "home",
+    "image": "assets/sachets/lemon-20261017.jpeg"
   }
 ]
