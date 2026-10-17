@@ -74,8 +74,13 @@
       "75": 499,
       "150": 949
     },
-    "notes": "",
-    "kind": "home"
+    "notes": "Бергамот · мускус · груша",
+    "kind": "home",
+    "imagesByVolume": {
+      "75": "assets/butters/pear-tonic-75-20261017.jpeg",
+      "150": "assets/butters/pear-tonic-150-20261017.jpeg"
+    },
+    "image": "assets/butters/pear-tonic-75-20261017.jpeg"
   },
   {
     "id": 6,
@@ -89,8 +94,12 @@
       "75": 499,
       "150": 949
     },
-    "notes": "",
-    "kind": "home"
+    "notes": "Груша · маскарпоне · пралине",
+    "kind": "home",
+    "imagesByVolume": {
+      "75": "assets/butters/creamy-pear-75-20261017.jpeg"
+    },
+    "image": "assets/butters/creamy-pear-75-20261017.jpeg"
   },
   {
     "id": 7,
@@ -104,8 +113,12 @@
       "75": 499,
       "150": 949
     },
-    "notes": "",
-    "kind": "home"
+    "notes": "Ананас · папайя · персик",
+    "kind": "home",
+    "imagesByVolume": {
+      "150": "assets/butters/papaya-150-20261017.jpeg"
+    },
+    "image": "assets/butters/papaya-150-20261017.jpeg"
   },
   {
     "id": 8,
@@ -134,8 +147,12 @@
       "75": 499,
       "150": 949
     },
-    "notes": "",
-    "kind": "home"
+    "notes": "Лимон · сливки · сливочное масло",
+    "kind": "home",
+    "imagesByVolume": {
+      "150": "assets/butters/lemon-meringue-150-20261017.jpeg"
+    },
+    "image": "assets/butters/lemon-meringue-150-20261017.jpeg"
   },
   {
     "id": 10,
@@ -149,8 +166,12 @@
       "75": 499,
       "150": 949
     },
-    "notes": "",
-    "kind": "home"
+    "notes": "Кокос · лайм · сливки",
+    "kind": "home",
+    "imagesByVolume": {
+      "75": "assets/butters/coconut-lime-75-20261017.jpeg"
+    },
+    "image": "assets/butters/coconut-lime-75-20261017.jpeg"
   },
   {
     "id": 11,
@@ -164,8 +185,12 @@
       "75": 499,
       "150": 949
     },
-    "notes": "",
-    "kind": "home"
+    "notes": "Ягоды · молоко · сахар",
+    "kind": "home",
+    "imagesByVolume": {
+      "150": "assets/butters/strawberry-150-20261017.png"
+    },
+    "image": "assets/butters/strawberry-150-20261017.png"
   },
   {
     "id": 12,
@@ -193,7 +218,11 @@
       "150": 949
     },
     "notes": "",
-    "kind": "home"
+    "kind": "home",
+    "imagesByVolume": {
+      "75": "assets/butters/vacation-75-20261017.jpeg"
+    },
+    "image": "assets/butters/vacation-75-20261017.jpeg"
   },
   {
     "id": 14,

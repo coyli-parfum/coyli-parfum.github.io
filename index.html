@@ -82,13 +82,14 @@ function handleImageError(img){
 }
 
 
-function productPhoto(x){
- if(!x.image)return '<div class="bottle"><span>COYLI</span></div>';
+function productPhoto(x,selectedVolume){
+ const image=x.imagesByVolume?.[String(selectedVolume??x.volumes?.[0])]||x.image;
+ if(!image)return '<div class="bottle"><span>COYLI</span></div>';
  const f=x.imageFrame;
  const framed=Array.isArray(f)&&f.length===5&&f.every(Number.isFinite)&&f[2]>0&&f[3]>0&&f[4]>0;
  let style='';
  if(framed){const [left,top,size,width,height]=f;style=` style="width:${width/size*100}%;height:${height/size*100}%;left:${-left/size*100}%;top:${-top/size*100}%;object-fit:fill"`;}
- const img=`<img class="product-photo" loading="lazy" decoding="async" src="${esc(x.image)}" alt="${esc(x.name)}"${style} onerror="handleImageError(this)">`;
+ const img=`<img class="product-photo" loading="lazy" decoding="async" src="${esc(image)}" alt="${esc(x.name)}"${style} onerror="handleImageError(this)">`;
  return framed?'<div class="photo-frame">'+img+'</div>':img;
 }
 
@@ -117,7 +118,7 @@ document.getElementById('search').oninput=e=>{query=e.target.value;render()};fun
  }
  const regularAmount=pr[vol];
  const amount=saleAmount(x,regularAmount);
- const photo=productPhoto(x);
+ const photo=productPhoto(x,vol);
  const formats=x.kind==='perfume'?`<h4>Формат</h4><div class="pillset"><button class="pill ${format==='spray'?'selected':''}" onclick="format='spray';vol='5';drawProduct()">Спрей</button><button class="pill ${format==='oil'?'selected':''}" onclick="format='oil';vol='2';drawProduct()">Чистое масло</button></div>`:'';
  const choices=options.map(v=>`<button class="pill ${String(vol)===String(v)?'selected':''}" onclick="vol='${v}';drawProduct()">${v}${x.kind==='car'?'':' мл'}</button>`).join('');
  document.getElementById('panel').innerHTML=`<button class="close" onclick="hide()" aria-label="Закрыть карточку">×</button><div class="visual" style="height:160px">${photo}</div><p class="muted">${esc(x.cat)}</p><h2>${esc(x.name)}</h2>${x.gender?'<p class="muted" style="margin:5px 0 10px;font-size:14px">'+esc(x.gender)+'</p>':''}${saleBadge(x)}<p class="muted product-notes">${esc(x.notes||'Описание и ноты аромата будут добавлены после проверки.')}</p>${formats}<h4>Объём</h4><div class="pillset">${choices}</div><h2>${priceMarkup(x,regularAmount)}</h2><button class="primary" id="add-to-cart" ${x.kind==='original'&&(!(Number(amount)>0)||x.availability?.status==='out_of_stock')?'disabled':''}>Добавить в корзину</button><p class="muted availability">${esc(availabilityText(x))}</p>`;
