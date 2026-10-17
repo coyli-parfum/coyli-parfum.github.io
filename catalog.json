@@ -11586,7 +11586,7 @@
   },
   {
     "id": 369,
-    "name": "Dolce & Gabbana Light Blue Summer Vibes",
+    "name": "Dolce & Gabbana Light Blue Pour Homme Summer Vibes",
     "cat": "Оригинал",
     "kind": "original",
     "volumes": [
@@ -11601,15 +11601,15 @@
       "10": 2000,
       "15": 3000
     },
-    "notes": "Верхняя нота: калабрийский бергамот\nСердце: персик\nБаза: кедр",
+    "notes": "Верхняя нота: сицилийский лимон\nСердце: кипарис\nБаза: амбервуд",
     "priceSource": "Canva COYLI PARFUM, дизайн «Ценники», 15.10.2026",
-    "image": "assets/originals/80376.jpg",
-    "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.80376.jpg",
-    "notesSource": "https://www.fragrantica.com/p/80376",
+    "image": "assets/originals/light-blue-pour-homme-summer-vibes-80377-20261017.jpg",
+    "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.80377.jpg",
+    "notesSource": "Скриншоты пользователя IMG_2976.jpeg и IMG_2977.jpeg, 17.10.2026; https://www.fragrantica.com/p/80377",
     "imageFrame": [
-      -54.125,
-      51.875,
-      481.25,
+      -105.625,
+      -43.625,
+      586.25,
       375,
       500
     ],
@@ -11619,7 +11619,8 @@
       "checkedAt": "2026-10-15",
       "source": "Оригинал отчёт .xlsm, Инвентаризация, остаток на 15.10.2026; наличие оригиналов только в Ньютоне подтверждено пользователем"
     },
-    "gender": "Мужской"
+    "gender": "Мужской",
+    "referenceSource": "Мужская версия Pour Homme подтверждена пользователем по флакону и пирамиде, 17.10.2026"
   },
   {
     "id": 370,
