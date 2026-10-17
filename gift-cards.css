@@ -3,3 +3,32 @@
 /* Standard ISO/IEC 7810 ID-1 card proportions: 85.60 × 53.98 mm */
 .gift-physical-main{display:flex;align-items:center;justify-content:center;padding:22px;background:#f5f6f8}
 .gift-physical-main img{width:100%;max-width:440px;height:auto;aspect-ratio:1.586;object-fit:contain;object-position:center}
+
+/* Gift section: restrained COYLI editorial layout */
+#gift-section .gift-heading{margin:12px 0 30px;max-width:760px}
+#gift-section .gift-eyebrow{font-size:10px;letter-spacing:.19em;font-weight:400;color:#0047BB}
+#gift-section .gift-heading h2{font-size:clamp(26px,3.3vw,39px);line-height:1.2;letter-spacing:-.025em;font-weight:400;color:#22252b;margin:14px 0 13px}
+#gift-section .gift-heading>p:last-child{font-size:14px;line-height:1.65;color:#777d87;margin:0}
+#gift-section .gift-layout{gap:42px;grid-template-columns:minmax(0,1.08fr) minmax(0,.92fr)}
+#gift-section .gift-physical-main{background:#fff;border-radius:0;padding:12px 8px 18px;min-height:0}
+#gift-section .gift-physical-main img{width:76%;max-width:345px;height:auto;aspect-ratio:auto;object-fit:contain;display:block;margin:0 auto}
+#gift-section .gift-holder{background:#fafafa;border:1px solid #f0f0f0;border-radius:12px;gap:14px;margin-top:8px}
+#gift-section .gift-holder img{width:42%;aspect-ratio:1;object-fit:contain}
+#gift-section .gift-holder p{font-size:13px;font-weight:400;line-height:1.6;color:#646b77;padding-right:14px}
+#gift-section .gift-label{font-size:13px;font-weight:400;color:#30343c;margin-bottom:13px}
+#gift-section .gift-amount-list{gap:9px}
+#gift-section .gift-amount-list button{border:1px solid #e3e5e9;border-radius:9px;background:#fff;color:#30343c;font-size:13px;font-weight:400;padding:13px 4px}
+#gift-section .gift-amount-list button[aria-pressed=true]{border-color:#0047BB;background:#f7f9ff;color:#0047BB;box-shadow:none}
+#gift-section .gift-controls .gift-primary{border-radius:10px;font-size:13px;font-weight:400;letter-spacing:.01em;padding:15px}
+#gift-section .gift-delivery{color:#7b8089;font-size:12px;line-height:1.7}
+#gift-section .gift-footnote{font-size:11px;color:#9297a0}
+@media(max-width:750px){
+#gift-section .gift-heading{margin:8px 0 22px}
+#gift-section .gift-heading h2{font-size:29px;line-height:1.22;letter-spacing:-.025em;font-weight:400;max-width:360px}
+#gift-section .gift-heading>p:last-child{font-size:13px}
+#gift-section .gift-layout{grid-template-columns:1fr;gap:24px}
+#gift-section .gift-physical-main{padding:5px 0 16px}
+#gift-section .gift-physical-main img{width:78%;max-width:340px}
+#gift-section .gift-holder{margin-top:0}
+#gift-section .gift-holder p{font-size:12px}
+}
