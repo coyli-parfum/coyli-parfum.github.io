@@ -12,7 +12,14 @@
     },
     "notes": "Шоколад · грецкий орех · нутелла",
     "kind": "home",
-    "image": "brownie-75.jpeg"
+    "image": "brownie-75.jpeg",
+    "imageFrame": [
+      217.111,
+      354.611,
+      802.778,
+      1229,
+      1536
+    ]
   },
   {
     "id": 2,
@@ -28,7 +35,14 @@
     },
     "notes": "",
     "kind": "home",
-    "image": "product-02.jpg"
+    "image": "product-02.jpg",
+    "imageFrame": [
+      50,
+      50,
+      800,
+      900,
+      900
+    ]
   },
   {
     "id": 3,
@@ -44,7 +58,14 @@
     },
     "notes": "",
     "kind": "home",
-    "image": "product-03.jpg"
+    "image": "product-03.jpg",
+    "imageFrame": [
+      50,
+      50,
+      800,
+      900,
+      900
+    ]
   },
   {
     "id": 4,
@@ -60,7 +81,14 @@
     },
     "notes": "",
     "kind": "home",
-    "image": "product-04.jpg"
+    "image": "product-04.jpg",
+    "imageFrame": [
+      50,
+      50,
+      800,
+      900,
+      900
+    ]
   },
   {
     "id": 5,
@@ -80,7 +108,30 @@
       "75": "assets/butters/pear-tonic-75-20261017.jpeg",
       "150": "assets/butters/pear-tonic-150-20261017.jpeg"
     },
-    "image": "assets/butters/pear-tonic-75-20261017.jpeg"
+    "image": "assets/butters/pear-tonic-75-20261017.jpeg",
+    "imageFramesByVolume": {
+      "75": [
+        217.111,
+        354.611,
+        802.778,
+        1229,
+        1536
+      ],
+      "150": [
+        217.111,
+        354.611,
+        802.778,
+        1229,
+        1536
+      ]
+    },
+    "imageFrame": [
+      217.111,
+      354.611,
+      802.778,
+      1229,
+      1536
+    ]
   },
   {
     "id": 6,
@@ -100,7 +151,30 @@
       "75": "assets/butters/creamy-pear-75-20261017.jpeg",
       "150": "assets/butters/creamy-pear-150-volume-edit-20261017.png"
     },
-    "image": "assets/butters/creamy-pear-75-20261017.jpeg"
+    "image": "assets/butters/creamy-pear-75-20261017.jpeg",
+    "imageFramesByVolume": {
+      "75": [
+        217.111,
+        354.611,
+        802.778,
+        1229,
+        1536
+      ],
+      "150": [
+        196.833,
+        323.333,
+        733.333,
+        1122,
+        1402
+      ]
+    },
+    "imageFrame": [
+      217.111,
+      354.611,
+      802.778,
+      1229,
+      1536
+    ]
   },
   {
     "id": 7,
@@ -120,7 +194,30 @@
       "75": "assets/butters/papaya-75-volume-edit-20261017.png",
       "150": "assets/butters/papaya-150-20261017.jpeg"
     },
-    "image": "assets/butters/papaya-75-volume-edit-20261017.png"
+    "image": "assets/butters/papaya-75-volume-edit-20261017.png",
+    "imageFramesByVolume": {
+      "75": [
+        196.139,
+        323.139,
+        734.722,
+        1121,
+        1403
+      ],
+      "150": [
+        217.111,
+        354.611,
+        802.778,
+        1229,
+        1536
+      ]
+    },
+    "imageFrame": [
+      196.139,
+      323.139,
+      734.722,
+      1121,
+      1403
+    ]
   },
   {
     "id": 8,
@@ -155,7 +252,30 @@
       "75": "assets/butters/lemon-meringue-75-volume-edit-20261017.png",
       "150": "assets/butters/lemon-meringue-150-20261017.jpeg"
     },
-    "image": "assets/butters/lemon-meringue-75-volume-edit-20261017.png"
+    "image": "assets/butters/lemon-meringue-75-volume-edit-20261017.png",
+    "imageFramesByVolume": {
+      "75": [
+        196.139,
+        323.139,
+        734.722,
+        1121,
+        1403
+      ],
+      "150": [
+        217.111,
+        354.611,
+        802.778,
+        1229,
+        1536
+      ]
+    },
+    "imageFrame": [
+      196.139,
+      323.139,
+      734.722,
+      1121,
+      1403
+    ]
   },
   {
     "id": 10,
@@ -175,7 +295,30 @@
       "75": "assets/butters/coconut-lime-75-20261017.jpeg",
       "150": "assets/butters/coconut-lime-150-volume-edit-20261017.png"
     },
-    "image": "assets/butters/coconut-lime-75-20261017.jpeg"
+    "image": "assets/butters/coconut-lime-75-20261017.jpeg",
+    "imageFramesByVolume": {
+      "75": [
+        217.111,
+        354.611,
+        802.778,
+        1229,
+        1536
+      ],
+      "150": [
+        197.333,
+        323.333,
+        733.333,
+        1122,
+        1402
+      ]
+    },
+    "imageFrame": [
+      217.111,
+      354.611,
+      802.778,
+      1229,
+      1536
+    ]
   },
   {
     "id": 11,
@@ -195,7 +338,30 @@
       "75": "assets/butters/strawberry-75-volume-edit-20261017.png",
       "150": "assets/butters/strawberry-150-20261017.png"
     },
-    "image": "assets/butters/strawberry-75-volume-edit-20261017.png"
+    "image": "assets/butters/strawberry-75-volume-edit-20261017.png",
+    "imageFramesByVolume": {
+      "75": [
+        196.833,
+        323.333,
+        733.333,
+        1121,
+        1403
+      ],
+      "150": [
+        547.417,
+        894.917,
+        2029.167,
+        3105,
+        3881
+      ]
+    },
+    "imageFrame": [
+      196.833,
+      323.333,
+      733.333,
+      1121,
+      1403
+    ]
   },
   {
     "id": 12,
@@ -227,7 +393,23 @@
     "imagesByVolume": {
       "75": "assets/butters/vacation-75-20261017.jpeg"
     },
-    "image": "assets/butters/vacation-75-20261017.jpeg"
+    "image": "assets/butters/vacation-75-20261017.jpeg",
+    "imageFramesByVolume": {
+      "75": [
+        217.111,
+        354.611,
+        802.778,
+        1229,
+        1536
+      ]
+    },
+    "imageFrame": [
+      217.111,
+      354.611,
+      802.778,
+      1229,
+      1536
+    ]
   },
   {
     "id": 14,
@@ -472,7 +654,14 @@
     },
     "notes": "",
     "kind": "spray",
-    "image": "assets/room-sprays/cotton-20261017.jpeg"
+    "image": "assets/room-sprays/cotton-20261017.jpeg",
+    "imageFrame": [
+      88.125,
+      159.625,
+      1143.75,
+      1229,
+      1536
+    ]
   },
   {
     "id": 27,
@@ -486,7 +675,14 @@
     },
     "notes": "",
     "kind": "spray",
-    "image": "assets/room-sprays/siberian-forest-20261017.png"
+    "image": "assets/room-sprays/siberian-forest-20261017.png",
+    "imageFrame": [
+      236.625,
+      510.625,
+      2843.75,
+      3105,
+      3881
+    ]
   },
   {
     "id": 28,
@@ -500,7 +696,14 @@
     },
     "notes": "",
     "kind": "spray",
-    "image": "assets/room-sprays/white-tea-20261017.png"
+    "image": "assets/room-sprays/white-tea-20261017.png",
+    "imageFrame": [
+      590.5,
+      862,
+      2080,
+      3105,
+      3881
+    ]
   },
   {
     "id": 29,
@@ -514,7 +717,14 @@
     },
     "notes": "Мускус · лаванда · амбра",
     "kind": "spray",
-    "image": "assets/room-sprays/lavender-cream-20261017.jpeg"
+    "image": "assets/room-sprays/lavender-cream-20261017.jpeg",
+    "imageFrame": [
+      81.375,
+      156.875,
+      1151.25,
+      1229,
+      1536
+    ]
   },
   {
     "id": 30,
@@ -528,7 +738,14 @@
     },
     "notes": "Клюква · смородина · сосна",
     "kind": "spray",
-    "image": "assets/room-sprays/cranberry-200ml-20261017.png"
+    "image": "assets/room-sprays/cranberry-200ml-20261017.png",
+    "imageFrame": [
+      167.25,
+      214.25,
+      897.5,
+      1122,
+      1402
+    ]
   },
   {
     "id": 31,
@@ -542,7 +759,14 @@
     },
     "notes": "Кедр · пихта · амбра",
     "kind": "spray",
-    "image": "assets/room-sprays/taiga-20261017.png"
+    "image": "assets/room-sprays/taiga-20261017.png",
+    "imageFrame": [
+      414.25,
+      701.75,
+      2482.5,
+      3105,
+      3881
+    ]
   },
   {
     "id": 32,
@@ -556,7 +780,14 @@
     },
     "notes": "",
     "kind": "home",
-    "image": "product-08.jpg"
+    "image": "product-08.jpg",
+    "imageFrame": [
+      -6.75,
+      -6.25,
+      912.5,
+      900,
+      900
+    ]
   },
   {
     "id": 33,
@@ -570,7 +801,14 @@
     },
     "notes": "",
     "kind": "home",
-    "image": "product-09.jpg"
+    "image": "product-09.jpg",
+    "imageFrame": [
+      -6.75,
+      -6.25,
+      912.5,
+      900,
+      900
+    ]
   },
   {
     "id": 34,
@@ -584,7 +822,14 @@
     },
     "notes": "",
     "kind": "home",
-    "image": "product-10.jpg"
+    "image": "product-10.jpg",
+    "imageFrame": [
+      -6.25,
+      -6.25,
+      912.5,
+      900,
+      900
+    ]
   },
   {
     "id": 35,
@@ -598,7 +843,14 @@
     },
     "notes": "",
     "kind": "home",
-    "image": "product-07.jpg"
+    "image": "product-07.jpg",
+    "imageFrame": [
+      -6.25,
+      -6.25,
+      912.5,
+      900,
+      900
+    ]
   },
   {
     "id": 36,
@@ -612,7 +864,14 @@
     },
     "notes": "Клюква · апельсин · сандал",
     "kind": "home",
-    "image": "assets/diffusers/mulled-wine-20261017.jpeg"
+    "image": "assets/diffusers/mulled-wine-20261017.jpeg",
+    "imageFrame": [
+      -327,
+      -121.5,
+      1705,
+      1065,
+      1477
+    ]
   },
   {
     "id": 37,
@@ -626,7 +885,14 @@
     },
     "notes": "Кедр · пихта · амбра",
     "kind": "home",
-    "image": "assets/candles/taiga-20261017.jpeg"
+    "image": "assets/candles/taiga-20261017.jpeg",
+    "imageFrame": [
+      326.5,
+      485.5,
+      575,
+      1229,
+      1536
+    ]
   },
   {
     "id": 38,
@@ -640,7 +906,14 @@
     },
     "notes": "Клюква · смородина · сосна",
     "kind": "home",
-    "image": "assets/candles/cranberry-20261017.jpeg"
+    "image": "assets/candles/cranberry-20261017.jpeg",
+    "imageFrame": [
+      297.625,
+      471.125,
+      658.75,
+      1229,
+      1536
+    ]
   },
   {
     "id": 39,
@@ -667,7 +940,14 @@
     },
     "notes": "Яблоки · корица · орешки",
     "kind": "home",
-    "image": "assets/candles/strudel-20261017.jpeg"
+    "image": "assets/candles/strudel-20261017.jpeg",
+    "imageFrame": [
+      326.625,
+      475.625,
+      603.75,
+      1229,
+      1536
+    ]
   },
   {
     "id": 41,
@@ -681,7 +961,14 @@
     },
     "notes": "",
     "kind": "home",
-    "image": "assets/candles/warm-bread-20261017.jpeg"
+    "image": "assets/candles/warm-bread-20261017.jpeg",
+    "imageFrame": [
+      277.25,
+      416.75,
+      732.5,
+      1229,
+      1536
+    ]
   },
   {
     "id": 42,
@@ -695,7 +982,14 @@
     },
     "notes": "Кардамон",
     "kind": "home",
-    "image": "assets/candles/cardamom-20261017.jpeg"
+    "image": "assets/candles/cardamom-20261017.jpeg",
+    "imageFrame": [
+      296.75,
+      431.75,
+      682.5,
+      1229,
+      1536
+    ]
   },
   {
     "id": 43,
@@ -709,7 +1003,14 @@
     },
     "notes": "Гранат · жасмин · мускус",
     "kind": "home",
-    "image": "assets/candles/pomegranate-20261017.jpeg"
+    "image": "assets/candles/pomegranate-20261017.jpeg",
+    "imageFrame": [
+      310.875,
+      479.375,
+      636.25,
+      1229,
+      1536
+    ]
   },
   {
     "id": 44,
@@ -723,7 +1024,14 @@
     },
     "notes": "Малина · сахар · ваниль",
     "kind": "home",
-    "image": "assets/candles/raspberry-tea-20261017.jpeg"
+    "image": "assets/candles/raspberry-tea-20261017.jpeg",
+    "imageFrame": [
+      298.25,
+      471.75,
+      672.5,
+      1229,
+      1536
+    ]
   },
   {
     "id": 45,
@@ -737,7 +1045,14 @@
     },
     "notes": "Кофе · какао · ваниль",
     "kind": "home",
-    "image": "assets/candles/cocoa-break-20261017.jpeg"
+    "image": "assets/candles/cocoa-break-20261017.jpeg",
+    "imageFrame": [
+      313.875,
+      497.875,
+      601.25,
+      1229,
+      1536
+    ]
   },
   {
     "id": 46,
@@ -751,7 +1066,14 @@
     },
     "notes": "Фисташка · катаифи · шоколад",
     "kind": "home",
-    "image": "assets/candles/dubai-chocolate-20261017.jpeg"
+    "image": "assets/candles/dubai-chocolate-20261017.jpeg",
+    "imageFrame": [
+      306.75,
+      468.75,
+      672.5,
+      1229,
+      1536
+    ]
   },
   {
     "id": 47,
@@ -765,7 +1087,14 @@
     },
     "notes": "Лимон · масло · торт",
     "kind": "home",
-    "image": "assets/candles/lemon-20261017.jpeg"
+    "image": "assets/candles/lemon-20261017.jpeg",
+    "imageFrame": [
+      327.625,
+      484.625,
+      573.75,
+      1229,
+      1536
+    ]
   },
   {
     "id": 48,
@@ -779,7 +1108,14 @@
     },
     "notes": "Земляника · молоко · сахар",
     "kind": "home",
-    "image": "assets/candles/wild-strawberry-20261017.jpeg"
+    "image": "assets/candles/wild-strawberry-20261017.jpeg",
+    "imageFrame": [
+      292.375,
+      422.875,
+      661.25,
+      1229,
+      1536
+    ]
   },
   {
     "id": 49,
@@ -793,7 +1129,14 @@
     },
     "notes": "Чёрная смородина · ваниль",
     "kind": "home",
-    "image": "assets/candles/berries-20261017.jpeg"
+    "image": "assets/candles/berries-20261017.jpeg",
+    "imageFrame": [
+      306.375,
+      452.875,
+      651.25,
+      1229,
+      1536
+    ]
   },
   {
     "id": 50,
@@ -807,7 +1150,14 @@
     },
     "notes": "Лист томата · базилик · мох",
     "kind": "home",
-    "image": "assets/candles/tomato-20261017.jpeg"
+    "image": "assets/candles/tomato-20261017.jpeg",
+    "imageFrame": [
+      216.375,
+      389.875,
+      791.25,
+      1229,
+      1536
+    ]
   },
   {
     "id": 51,
@@ -821,7 +1171,14 @@
     },
     "notes": "Зефир · пачули · дым",
     "kind": "home",
-    "image": "assets/candles/toasted-marshmallow-20261017.jpeg"
+    "image": "assets/candles/toasted-marshmallow-20261017.jpeg",
+    "imageFrame": [
+      287.875,
+      421.875,
+      691.25,
+      1229,
+      1536
+    ]
   },
   {
     "id": 52,
@@ -835,7 +1192,14 @@
     },
     "notes": "Корица · молоко · карамель",
     "kind": "home",
-    "image": "assets/candles/cinnamon-20261017.jpeg"
+    "image": "assets/candles/cinnamon-20261017.jpeg",
+    "imageFrame": [
+      288.625,
+      424.125,
+      688.75,
+      1229,
+      1536
+    ]
   },
   {
     "id": 53,
