@@ -437,7 +437,8 @@
       "100": 1090
     },
     "notes": "",
-    "kind": "spray"
+    "kind": "spray",
+    "image": "assets/room-sprays/cotton-20261017.jpeg"
   },
   {
     "id": 27,
@@ -450,7 +451,8 @@
       "100": 1090
     },
     "notes": "",
-    "kind": "spray"
+    "kind": "spray",
+    "image": "assets/room-sprays/siberian-forest-20261017.png"
   },
   {
     "id": 28,
@@ -463,7 +465,8 @@
       "100": 1090
     },
     "notes": "",
-    "kind": "spray"
+    "kind": "spray",
+    "image": "assets/room-sprays/white-tea-20261017.png"
   },
   {
     "id": 29,
@@ -475,8 +478,9 @@
     "price": {
       "100": 1090
     },
-    "notes": "",
-    "kind": "spray"
+    "notes": "Мускус · лаванда · амбра",
+    "kind": "spray",
+    "image": "assets/room-sprays/lavender-cream-20261017.jpeg"
   },
   {
     "id": 30,
@@ -488,8 +492,9 @@
     "price": {
       "200": 1590
     },
-    "notes": "",
-    "kind": "spray"
+    "notes": "Клюква · смородина · сосна",
+    "kind": "spray",
+    "image": "assets/room-sprays/cranberry-20261017.png"
   },
   {
     "id": 31,
@@ -501,8 +506,9 @@
     "price": {
       "200": 1590
     },
-    "notes": "",
-    "kind": "spray"
+    "notes": "Кедр · пихта · амбра",
+    "kind": "spray",
+    "image": "assets/room-sprays/taiga-20261017.png"
   },
   {
     "id": 32,
