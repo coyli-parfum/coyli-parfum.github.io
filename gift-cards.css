@@ -32,3 +32,7 @@
 #gift-section .gift-holder{margin-top:0}
 #gift-section .gift-holder p{font-size:12px}
 }
+
+/* Match the visual card proportions shown in the reference: source photo is unusually wide. */
+#gift-section .gift-physical-main img{width:84%;max-width:350px;transform:scaleX(.79);transform-origin:center center}
+@media(max-width:750px){#gift-section .gift-physical-main img{width:88%;max-width:350px;transform:scaleX(.79)}}
