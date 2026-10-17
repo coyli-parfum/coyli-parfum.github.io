@@ -87,7 +87,7 @@ function productPhoto(x,selectedVolume){
  const f=x.imageFramesByVolume?.[String(selectedVolume??x.volumes?.[0])]||x.imageFrame;
  const framed=Array.isArray(f)&&f.length===5&&f.every(Number.isFinite)&&f[2]>0&&f[3]>0&&f[4]>0;
  let style='';
- if(framed){const [left,top,size,width,height]=f;style=` style="width:${width/size*100}%;height:${height/size*100}%;left:${-left/size*100}%;top:${-top/size*100}%;object-fit:fill"`;}
+ if(framed){const [left,top,size,width,height]=f;style=` style="width:${width/size*100}%;height:${height/size*100}%;left:${-left/size*100}%;top:${-top/size*100}%;object-fit:fill;transform:none"`;}
  const img=`<img class="product-photo" loading="lazy" decoding="async" src="${esc(image)}" alt="${esc(x.name)}"${style} onerror="handleImageError(this)">`;
  return framed?'<div class="photo-frame">'+img+'</div>':img;
 }
@@ -104,7 +104,7 @@ function render(){
  document.getElementById('grid').innerHTML=matches.map(x=>{
  const photo=productPhoto(x);
  const meta=esc(x.cat)+' · '+(x.kind==='perfume'?'от '+rub(price(x)):x.kind==='original'?(Number(price(x))>0?'распив от '+rub(price(x)):'цена по запросу'):esc(x.volumes.join(' / '))+(x.kind==='car'?'':' мл'));
- return `<article class="item ${x.id===1?'brownie-card':''}" onclick="openProduct(${x.id})"><div class="visual ${x.kind==='home'?'home':x.kind==='car'?'car':''}">${photo}</div>${saleBadge(x)}<div class="name">${esc(x.name)}</div><div class="meta">${meta}</div>${x.cat==='Оригинал'?'<p class="availability">'+esc(availabilityText(x))+'</p>':''}<div class="bottom"><span class="price">${priceMarkup(x,basePrice(x),x.kind==='perfume'||x.kind==='original'&&Number(price(x))>0?'от ':'')}</span><button class="plus" onclick="event.stopPropagation();openProduct(${x.id})">+</button></div></article>`;
+ return `<article class="item" onclick="openProduct(${x.id})"><div class="visual ${x.kind==='home'?'home':x.kind==='car'?'car':''}">${photo}</div>${saleBadge(x)}<div class="name">${esc(x.name)}</div><div class="meta">${meta}</div>${x.cat==='Оригинал'?'<p class="availability">'+esc(availabilityText(x))+'</p>':''}<div class="bottom"><span class="price">${priceMarkup(x,basePrice(x),x.kind==='perfume'||x.kind==='original'&&Number(price(x))>0?'от ':'')}</span><button class="plus" onclick="event.stopPropagation();openProduct(${x.id})">+</button></div></article>`;
  }).join('')||'<p>Ничего не найдено. Попробуйте другое написание.</p>';
 }
 document.getElementById('search').oninput=e=>{query=e.target.value;render()};function hide(){document.getElementById('overlay').classList.remove('open')}function openProduct(id){current=p.find(x=>x.id===id);format='spray';vol=String(current.kind==='perfume'?5:current.volumes[0]);drawProduct()}function drawProduct(){

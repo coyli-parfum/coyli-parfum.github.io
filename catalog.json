@@ -19,7 +19,16 @@
       802.778,
       1229,
       1536
-    ]
+    ],
+    "imageFramesByVolume": {
+      "75": [
+        217.111,
+        354.611,
+        802.778,
+        1229,
+        1536
+      ]
+    }
   },
   {
     "id": 2,
@@ -1213,7 +1222,14 @@
     },
     "notes": "Абрикос · взбитые сливки · орхидея",
     "kind": "home",
-    "image": "assets/sachets/apricot-20261017.jpeg"
+    "image": "assets/sachets/apricot-20261017.jpeg",
+    "imageFrame": [
+      130.048,
+      287.548,
+      961.905,
+      1229,
+      1536
+    ]
   },
   {
     "id": 54,
@@ -1227,7 +1243,14 @@
     },
     "notes": "Роза · кедр · мускус",
     "kind": "home",
-    "image": "assets/sachets/rose-20261017.jpeg"
+    "image": "assets/sachets/rose-20261017.jpeg",
+    "imageFrame": [
+      130.048,
+      287.548,
+      961.905,
+      1229,
+      1536
+    ]
   },
   {
     "id": 55,
@@ -1241,7 +1264,14 @@
     },
     "notes": "Бергамот · жасмин · белый чай",
     "kind": "home",
-    "image": "assets/sachets/white-tea-20261017.jpeg"
+    "image": "assets/sachets/white-tea-20261017.jpeg",
+    "imageFrame": [
+      130.048,
+      287.548,
+      961.905,
+      1229,
+      1536
+    ]
   },
   {
     "id": 56,
@@ -1255,7 +1285,14 @@
     },
     "notes": "Лаванда · мускус · ванильный крем",
     "kind": "home",
-    "image": "assets/sachets/lavender-cream-20261017.jpeg"
+    "image": "assets/sachets/lavender-cream-20261017.jpeg",
+    "imageFrame": [
+      130.048,
+      287.548,
+      961.905,
+      1229,
+      1536
+    ]
   },
   {
     "id": 57,
@@ -1269,7 +1306,14 @@
     },
     "notes": "Клюква · смородина · сосна",
     "kind": "home",
-    "image": "assets/sachets/cranberry-20261017.jpeg"
+    "image": "assets/sachets/cranberry-20261017.jpeg",
+    "imageFrame": [
+      130.048,
+      287.548,
+      961.905,
+      1229,
+      1536
+    ]
   },
   {
     "id": 58,
@@ -1283,7 +1327,14 @@
     },
     "notes": "Кедр · пихта · амбра",
     "kind": "home",
-    "image": "assets/sachets/taiga-20261017.jpeg"
+    "image": "assets/sachets/taiga-20261017.jpeg",
+    "imageFrame": [
+      130.048,
+      287.548,
+      961.905,
+      1229,
+      1536
+    ]
   },
   {
     "id": 59,
@@ -1297,7 +1348,14 @@
     },
     "notes": "Молоко · тоффи · бобы тонка",
     "kind": "home",
-    "image": "assets/sachets/salted-caramel-20261017.jpeg"
+    "image": "assets/sachets/salted-caramel-20261017.jpeg",
+    "imageFrame": [
+      130.048,
+      287.548,
+      961.905,
+      1229,
+      1536
+    ]
   },
   {
     "id": 60,
@@ -14434,7 +14492,14 @@
     },
     "notes": "Груша · бергамот · кедр",
     "kind": "home",
-    "image": "assets/sachets/pear-tonic-20261017.jpeg"
+    "image": "assets/sachets/pear-tonic-20261017.jpeg",
+    "imageFrame": [
+      130.048,
+      287.548,
+      961.905,
+      1229,
+      1536
+    ]
   },
   {
     "id": 439,
@@ -14448,7 +14513,14 @@
     },
     "notes": "Белый мускус · хлопок · белый уд",
     "kind": "home",
-    "image": "assets/sachets/air-mousse-20261017.jpeg"
+    "image": "assets/sachets/air-mousse-20261017.jpeg",
+    "imageFrame": [
+      130.048,
+      287.548,
+      961.905,
+      1229,
+      1536
+    ]
   },
   {
     "id": 440,
@@ -14462,7 +14534,14 @@
     },
     "notes": "Лимон · масло · торт",
     "kind": "home",
-    "image": "assets/sachets/lemon-20261017.jpeg"
+    "image": "assets/sachets/lemon-20261017.jpeg",
+    "imageFrame": [
+      130.048,
+      287.548,
+      961.905,
+      1229,
+      1536
+    ]
   },
   {
     "id": 445,
