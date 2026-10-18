@@ -7,14 +7,8 @@
 .gift-budget-tabs .pill{border-radius:30px;padding:10px 15px;font-family:inherit;font-size:13px}
 .bundle-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px}
 .bundle-card{min-width:0;border:1px solid #eceef1;border-radius:24px;overflow:hidden;background:#fff;display:flex;flex-direction:column}
-.bundle-photos{position:relative;background:#f4f4f3;height:245px;overflow:hidden}
+.bundle-photos{position:relative;background:#f4f4f3;aspect-ratio:4/3;overflow:hidden}
 .bundle-budget{position:absolute;z-index:2;top:14px;left:14px;background:#fff;color:#30343c;border-radius:25px;padding:8px 12px;font-size:11px}
-.gift-scene{position:relative;width:100%;height:100%;isolation:isolate;overflow:hidden;background:#f4f4f3}
-.gift-scene-bag{position:absolute;height:96%;width:67%;right:0;bottom:0;object-fit:contain;mix-blend-mode:multiply}
-.gift-scene-products{position:absolute;left:12px;bottom:10px;display:flex;align-items:flex-end;gap:3px;width:75%;height:58%;z-index:1}
-.gift-scene-product{min-width:0;flex:1;position:relative;height:100%;overflow:hidden;border-radius:9px}
-.gift-scene-product .photo-frame{width:100%;height:auto;aspect-ratio:1;position:relative;overflow:hidden}
-.gift-scene-product .product-photo{object-fit:contain;border-radius:8px;background:transparent;mix-blend-mode:multiply}
 .bundle-card-content{padding:20px;display:flex;flex-direction:column;flex:1}
 .bundle-card h3{font-size:23px;line-height:1.15;font-weight:500;letter-spacing:-.04em;margin:0 0 10px}
 .bundle-composition{font-size:12px;line-height:1.5;color:#474e59;margin:0 0 10px}
@@ -26,9 +20,7 @@
 .bundle-card .primary{font-family:inherit;border-radius:30px;font-size:13px;padding:13px 16px;min-height:44px}
 .bundle-customize{background:none;border:0;padding:3px 0;color:#626b7a;font-family:inherit;font-size:11px;cursor:pointer;text-align:left;line-height:1.5;min-height:30px}
 .bundle-note{margin:24px 0}
-.bundle-detail-photo{height:250px;border-radius:18px;margin:16px 0}
-.bundle-detail-photo .gift-scene-products{width:65%}
-.bundle-detail-photo .gift-scene-bag{width:58%}
+.bundle-detail-photo{border-radius:18px;margin:16px 0}
 .bundle-detail-hint{font-size:13px;line-height:1.6;color:#747b87}
 .gift-part{border:1px solid #e8ebf0;border-radius:17px;margin:13px 0;padding:14px}
 .gift-part-summary{display:flex;align-items:center;gap:13px}
@@ -52,25 +44,21 @@
 .gift-cart-components{padding:0;margin:12px 0;list-style:none;color:#777;font-size:12px;line-height:1.7}
 .gift-cart-group .gift-pack-note{margin-bottom:0}
 @media(max-width:950px){.bundle-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
-@media(max-width:600px){#shopping-shortcuts{gap:9px}#shopping-shortcuts .coyli-category-name{font-size:10px!important}.bundle-grid{grid-template-columns:1fr;gap:18px}.bundle-heading h2{font-size:32px}.bundle-heading p{font-size:13px}.gift-budget-tabs{gap:7px;margin-bottom:20px}.gift-budget-tabs .pill{padding:10px 12px;font-size:12px}.bundle-photos{height:255px}.bundle-card-content{padding:20px}.bundle-card h3{font-size:25px}.bundle-card .bundle-composition{font-size:13px}.bundle-card-items{font-size:12px}.bundle-card-bottom{grid-template-columns:1fr auto;align-items:center;gap:14px}.bundle-card-bottom .primary{width:auto;padding:13px 22px}.bundle-customize{grid-column:1/-1;font-size:12px}.bundle-detail-photo{height:220px}.gift-scene-products{width:70%;height:60%;left:14px;bottom:12px}.gift-scene-bag{width:61%}.gift-part{padding:12px}}
+@media(max-width:600px){#shopping-shortcuts{gap:9px}#shopping-shortcuts .coyli-category-name{font-size:10px!important}.bundle-grid{grid-template-columns:1fr;gap:18px}.bundle-heading h2{font-size:32px}.bundle-heading p{font-size:13px}.gift-budget-tabs{gap:7px;margin-bottom:20px}.gift-budget-tabs .pill{padding:10px 12px;font-size:12px}.bundle-card-content{padding:20px}.bundle-card h3{font-size:25px}.bundle-card .bundle-composition{font-size:13px}.bundle-card-items{font-size:12px}.bundle-card-bottom{grid-template-columns:1fr auto;align-items:center;gap:14px}.bundle-card-bottom .primary{width:auto;padding:13px 22px}.bundle-customize{grid-column:1/-1;font-size:12px}.gift-part{padding:12px}}
 
 #bundle-section,#gift-section{scroll-margin-top:100px}
 
-/* Gift product photos: neutralise white photo canvases across complete crop layers. */
 .bundle-photos{background:#f4f4f3}
-.gift-scene-products{mix-blend-mode:multiply;isolation:auto}
-.gift-scene-product,.gift-scene-product .photo-frame,.gift-scene-product .product-photo{background:transparent!important;border:0!important;border-radius:0!important;box-shadow:none!important}
-.gift-scene-product .photo-frame{isolation:auto}
-.gift-scene-product .product-photo{mix-blend-mode:normal}
 .gift-part-thumb{mix-blend-mode:multiply}
 .gift-part-thumb .photo-frame,.gift-part-thumb .product-photo{background:transparent!important;box-shadow:none;border-radius:0}
-/* Keep the products clear of the bag so pale bottle details remain legible. */
-.gift-scene-products{left:12px;bottom:14px;width:61%;height:62%;gap:3px}
-.gift-scene-bag{width:43%;height:94%;right:0;bottom:4px}
-.bundle-detail-photo .gift-scene-products{width:61%}
-.bundle-detail-photo .gift-scene-bag{width:43%}
-@media(max-width:600px){.gift-scene-products{left:12px;bottom:14px;width:61%;height:62%}.gift-scene-bag{width:43%}}
 
 
-/* The bag is an actual alpha cutout; preserve its photographed colours. */
-.gift-scene .gift-scene-bag{mix-blend-mode:normal;background:transparent}
+
+/* A shared stage fixes composition across cards and the gift detail. */
+.gift-scene{position:absolute;inset:0;background:#f4f4f3;isolation:isolate;overflow:hidden}
+.gift-scene-products{position:absolute;inset:0;mix-blend-mode:multiply;z-index:1}
+.gift-scene-product{position:absolute;bottom:10%;width:auto;overflow:hidden}
+.gift-bag-slot{position:absolute;right:2%;bottom:10%;height:73%;aspect-ratio:812/1421}
+.gift-object-frame{position:relative;width:100%;height:100%;overflow:hidden;background:transparent}
+.gift-object-frame>img{position:absolute;max-width:none!important;max-height:none!important;object-fit:fill;border:0;border-radius:0;background:transparent}
+.gift-object-fallback{width:100%;height:100%;object-fit:contain}
