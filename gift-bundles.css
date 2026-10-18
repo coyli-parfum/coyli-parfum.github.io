@@ -9,7 +9,7 @@
 .bundle-card{min-width:0;border:1px solid #eceef1;border-radius:24px;overflow:hidden;background:#fff;display:flex;flex-direction:column}
 .bundle-photos{position:relative;background:#f4f4f3;height:245px;overflow:hidden}
 .bundle-budget{position:absolute;z-index:2;top:14px;left:14px;background:#fff;color:#30343c;border-radius:25px;padding:8px 12px;font-size:11px}
-.gift-scene{position:relative;width:100%;height:100%;isolation:isolate;overflow:hidden}
+.gift-scene{position:relative;width:100%;height:100%;isolation:isolate;overflow:hidden;background:#f4f4f3}
 .gift-scene-bag{position:absolute;height:96%;width:67%;right:0;bottom:0;object-fit:contain;mix-blend-mode:multiply}
 .gift-scene-products{position:absolute;left:12px;bottom:10px;display:flex;align-items:flex-end;gap:3px;width:75%;height:58%;z-index:1}
 .gift-scene-product{min-width:0;flex:1;position:relative;height:100%;overflow:hidden;border-radius:9px}
