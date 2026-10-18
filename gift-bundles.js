@@ -1,6 +1,6 @@
 'use strict';
 const giftBundles = [
- {key:'little',name:'Небольшой знак внимания',caption:'Баттер + миниатюра парфюма',budget:1000,items:[{type:'Крем-баттер',id:4,vol:75},{type:'perfume',id:170,vol:2,format:'oil'}]},
+ {key:'little',name:'Небольшой знак внимания',caption:'Баттер + миниатюра парфюма',budget:1000,items:[{type:'Крем-баттер',id:4,vol:75},{type:'perfume',id:435,vol:5,format:'spray'}]},
  {key:'body',name:'Для тела',caption:'Баттер + мист',budget:2000,items:[{type:'Крем-баттер',id:4,vol:75},{type:'Мисты',id:24,vol:60}]},
  {key:'evening',name:'Домашний вечер',caption:'Баттер + мист + свеча',budget:3000,items:[{type:'Крем-баттер',id:4,vol:75},{type:'Мисты',id:24,vol:60},{type:'Свеча',id:40,vol:110}]},
  {key:'signature',name:'Парфюм и уход',caption:'Баттер + мист + селективный парфюм',budget:4000,items:[{type:'Крем-баттер',id:4,vol:150},{type:'Мисты',id:24,vol:60},{type:'perfume',id:446,vol:10,format:'spray'}]},
@@ -22,10 +22,10 @@ function bundlePart(selection){
 }
 function bundleParts(bundle){return bundleSelections(bundle).map(bundlePart)}
 function bundleAmount(part){
- const x=part.product;if(!bundleProductUsable(x))return 0;if(part.type==='perfume'&&x.cat==='Оригинал'&&part.format!=='original')return 0;
+ const x=part.product;if(!bundleProductUsable(x))return 0;if(part.type==='perfume'&&(Number(part.vol)<5||(x.cat==='Оригинал'?part.format!=='original':part.format!=='spray')))return 0;
  let regular;
  if(part.type==='perfume'&&['Люкс','Селектив'].includes(x.cat)){
-  if(!['oil','spray'].includes(part.format))return 0;
+  if(part.format!=='spray')return 0;
   regular=formatPrices(x,part.format)[part.vol];
  }else{
   if(!x.volumes.includes(Number(part.vol)))return 0;
@@ -40,11 +40,12 @@ function bundlePerfumeOptions(bundle,index,category,formatValue){
  const allowance=bundleAllowance(bundle,index);const options=[];
  for(const x of p){
   if(!bundleProductUsable(x)||!giftPerfumeCategories.includes(x.cat)||(category&&x.cat!==category))continue;
-  const formats=x.cat==='Оригинал'?['original']:['spray','oil'];
+  const formats=x.cat==='Оригинал'?['original']:['spray'];
   for(const fmt of formats){
    if(formatValue&&fmt!==formatValue)continue;
    const volumes=fmt==='original'?x.volumes:Object.keys(formatPrices(x,fmt)).map(Number);
    for(const vol of volumes){
+    if(Number(vol)<5)continue;
     const selection={type:'perfume',id:x.id,vol:Number(vol),format:fmt};
     const amount=bundleAmount(bundlePart(selection));
     if(amount>0&&amount<=allowance)options.push({...selection,amount,product:x});
@@ -59,7 +60,7 @@ function bundleHomeOptions(bundle,index){
  .map(x=>({type:selected.type,id:x.id,vol:selected.vol,amount:bundleAmount(bundlePart({...selected,id:x.id})),product:x}))
  .filter(x=>x.amount>0&&x.amount<=allowance).sort((a,b)=>a.product.name.localeCompare(b.product.name,'ru'));
 }
-function bundleFormatName(part){return part.type==='perfume'?(part.product?.cat==='Оригинал'?'Оригинал':part.product?.cat+' · '+(part.format==='oil'?'чистое масло':'спрей')):part.product?.cat||part.type}
+function bundleFormatName(part){return part.type==='perfume'?(part.product?.cat==='Оригинал'?'Оригинал':part.product?.cat+' · '+'спрей'):part.product?.cat||part.type}
 function bundleDescription(part){return (part.product?.name||'Уточняется')+' · '+part.vol+' мл'}
 function bundlePhotos(bundle){
  const parts=bundleParts(bundle);
@@ -99,10 +100,10 @@ function openBundle(key,keepScroll=false){
   let control;
   if(perfume){
    const categories=giftPerfumeCategories.map(c=>'<option value="'+c+'" '+(part.product?.cat===c?'selected':'')+' '+(!bundlePerfumeOptions(b,index,c).length?'disabled':'')+'>'+c+(!bundlePerfumeOptions(b,index,c).length?' — вне бюджета':'')+'</option>').join('');
-   const formats=(part.product?.cat==='Оригинал'?['original']:['spray','oil']).filter(f=>bundlePerfumeOptions(b,index,part.product?.cat,f).length);
+   const formats=(part.product?.cat==='Оригинал'?['original']:['spray']).filter(f=>bundlePerfumeOptions(b,index,part.product?.cat,f).length);
    const options=bundlePerfumeOptions(b,index,part.product?.cat,selected.format),products=[...new Map(options.map(o=>[o.id,o.product])).values()];
    const volumes=options.filter(o=>o.id===selected.id);
-   control='<label class="bundle-label" for="gift-category-'+index+'">Категория парфюма</label><select class="bundle-select" id="gift-category-'+index+'" data-gift-category="'+index+'">'+categories+'</select><label class="bundle-label" for="gift-format-'+index+'">Формат</label><select class="bundle-select" id="gift-format-'+index+'" data-gift-format="'+index+'">'+formats.map(f=>'<option value="'+f+'" '+(f===selected.format?'selected':'')+'>'+(f==='original'?'Оригинальная парфюмерия':f==='oil'?'Чистое масло':'Спрей')+'</option>').join('')+'</select><label class="bundle-label" for="gift-perfume-search-'+index+'">Найти аромат</label><input class="bundle-select" type="search" id="gift-perfume-search-'+index+'" data-gift-perfume-search="'+index+'" placeholder="Название аромата или бренда" autocomplete="off"><label class="bundle-label" for="gift-perfume-'+index+'">Аромат парфюма</label><select class="bundle-select" id="gift-perfume-'+index+'" data-gift-perfume="'+index+'">'+products.map(x=>'<option value="'+x.id+'" '+(x.id===selected.id?'selected':'')+'>'+esc(x.name)+'</option>').join('')+'</select><span class="muted" id="gift-search-count-'+index+'"></span><label class="bundle-label" for="gift-volume-'+index+'">Объём</label><select class="bundle-select" id="gift-volume-'+index+'" data-gift-volume="'+index+'">'+volumes.map(o=>'<option value="'+o.vol+'" '+(o.vol===selected.vol?'selected':'')+'>'+o.vol+' мл · '+rub(o.amount)+'</option>').join('')+'</select><p class="muted">Доступны варианты, с которыми подарок остаётся в бюджете '+rub(b.budget)+'.</p>';
+   control='<label class="bundle-label" for="gift-category-'+index+'">Категория парфюма</label><select class="bundle-select" id="gift-category-'+index+'" data-gift-category="'+index+'">'+categories+'</select><label class="bundle-label" for="gift-format-'+index+'">Формат</label><select class="bundle-select" id="gift-format-'+index+'" data-gift-format="'+index+'">'+formats.map(f=>'<option value="'+f+'" '+(f===selected.format?'selected':'')+'>'+('Спрей')+'</option>').join('')+'</select><label class="bundle-label" for="gift-perfume-search-'+index+'">Найти аромат</label><input class="bundle-select" type="search" id="gift-perfume-search-'+index+'" data-gift-perfume-search="'+index+'" placeholder="Название аромата или бренда" autocomplete="off"><label class="bundle-label" for="gift-perfume-'+index+'">Аромат парфюма</label><select class="bundle-select" id="gift-perfume-'+index+'" data-gift-perfume="'+index+'">'+products.map(x=>'<option value="'+x.id+'" '+(x.id===selected.id?'selected':'')+'>'+esc(x.name)+'</option>').join('')+'</select><span class="muted" id="gift-search-count-'+index+'"></span><label class="bundle-label" for="gift-volume-'+index+'">Объём</label><select class="bundle-select" id="gift-volume-'+index+'" data-gift-volume="'+index+'">'+volumes.map(o=>'<option value="'+o.vol+'" '+(o.vol===selected.vol?'selected':'')+'>'+o.vol+' мл · '+rub(o.amount)+'</option>').join('')+'</select><p class="muted">Доступны варианты, с которыми подарок остаётся в бюджете '+rub(b.budget)+'.</p>';
   }else{
    const options=bundleHomeOptions(b,index);
    control='<label class="bundle-label" for="gift-home-'+index+'">Аромат · '+part.vol+' мл</label><select id="gift-home-'+index+'" class="bundle-select" data-gift-home="'+index+'">'+options.map(o=>'<option value="'+o.id+'" '+(o.id===selected.id?'selected':'')+'>'+esc(o.product.name)+' · '+rub(o.amount)+'</option>').join('')+'</select>';
@@ -126,6 +127,7 @@ function openBundle(key,keepScroll=false){
 function addBundleToCart(key){
  const b=bundleByKey(key);if(!b||!catalogLoaded||!bundleValid(b))return false;
  const instance='gift-'+Date.now().toString(36)+'-'+Math.random().toString(36).slice(2,8);
- for(const part of bundleParts(b))cart.push({name:part.product.name,cat:part.product.cat,vol:String(part.vol),format:part.type==='perfume'?(part.format==='oil'?'Чистое масло':part.format==='original'?'Оригинал':'Спрей'):'',amount:bundleAmount(part),bundle:b.name,bundleInstance:instance,bundleKey:b.key,packaging:'Фирменный пакет — бесплатно'});
+ for(const part of bundleParts(b))cart.push({name:part.product.name,cat:part.product.cat,vol:String(part.vol),format:part.type==='perfume'?(part.format==='original'?'Оригинал · спрей':'Спрей'):'',amount:bundleAmount(part),bundle:b.name,bundleInstance:instance,bundleKey:b.key,packaging:'Фирменный пакет — бесплатно'});
  saveCart();hide();showCart();return true;
 }
+

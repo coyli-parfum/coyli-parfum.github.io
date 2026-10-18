@@ -55,3 +55,19 @@
 @media(max-width:600px){#shopping-shortcuts{gap:9px}#shopping-shortcuts .coyli-category-name{font-size:10px!important}.bundle-grid{grid-template-columns:1fr;gap:18px}.bundle-heading h2{font-size:32px}.bundle-heading p{font-size:13px}.gift-budget-tabs{gap:7px;margin-bottom:20px}.gift-budget-tabs .pill{padding:10px 12px;font-size:12px}.bundle-photos{height:255px}.bundle-card-content{padding:20px}.bundle-card h3{font-size:25px}.bundle-card .bundle-composition{font-size:13px}.bundle-card-items{font-size:12px}.bundle-card-bottom{grid-template-columns:1fr auto;align-items:center;gap:14px}.bundle-card-bottom .primary{width:auto;padding:13px 22px}.bundle-customize{grid-column:1/-1;font-size:12px}.bundle-detail-photo{height:220px}.gift-scene-products{width:70%;height:60%;left:14px;bottom:12px}.gift-scene-bag{width:61%}.gift-part{padding:12px}}
 
 #bundle-section,#gift-section{scroll-margin-top:100px}
+
+/* Gift product photos: neutralise white photo canvases across complete crop layers. */
+.bundle-photos{background:#f4f4f3}
+.gift-scene-products{mix-blend-mode:multiply;isolation:auto}
+.gift-scene-product,.gift-scene-product .photo-frame,.gift-scene-product .product-photo{background:transparent!important;border:0!important;border-radius:0!important;box-shadow:none!important}
+.gift-scene-product .photo-frame{isolation:auto}
+.gift-scene-product .product-photo{mix-blend-mode:normal}
+.gift-part-thumb{mix-blend-mode:multiply}
+.gift-part-thumb .photo-frame,.gift-part-thumb .product-photo{background:transparent!important;box-shadow:none;border-radius:0}
+/* Keep the products clear of the bag so pale bottle details remain legible. */
+.gift-scene-products{left:12px;bottom:14px;width:61%;height:62%;gap:3px}
+.gift-scene-bag{width:43%;height:94%;right:0;bottom:4px}
+.bundle-detail-photo .gift-scene-products{width:61%}
+.bundle-detail-photo .gift-scene-bag{width:43%}
+@media(max-width:600px){.gift-scene-products{left:12px;bottom:14px;width:61%;height:62%}.gift-scene-bag{width:43%}}
+
