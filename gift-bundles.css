@@ -71,3 +71,6 @@
 .bundle-detail-photo .gift-scene-bag{width:43%}
 @media(max-width:600px){.gift-scene-products{left:12px;bottom:14px;width:61%;height:62%}.gift-scene-bag{width:43%}}
 
+
+/* The bag is an actual alpha cutout; preserve its photographed colours. */
+.gift-scene .gift-scene-bag{mix-blend-mode:normal;background:transparent}

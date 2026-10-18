@@ -8,7 +8,7 @@ const giftBundles = [
 ];
 let bundleBudget=0;
 const bundleChoices={};
-const giftBagPath='assets/gifts/coyli-bag-20261018.jpeg';
+const giftBagPath='assets/gifts/coyli-bag-transparent-20261018.webp';
 const giftPerfumeCategories=['Люкс','Селектив','Оригинал'];
 function bundleByKey(key){return giftBundles.find(b=>b.key===key)}
 function bundleSelections(bundle){
