@@ -14669,5 +14669,35 @@
     "notesSource": "https://www.fragrantica.com/perfume/ZARKOPERFUME/MOL-CULE-C-19-The-Beach-91715.html",
     "gender": "Унисекс",
     "sortBrand": "zarkoperfume"
+  },
+  {
+    "id": 450,
+    "name": "Maison Francis Kurkdjian Aqua Media Cologne forte",
+    "cat": "Селектив",
+    "kind": "perfume",
+    "volumes": [
+      5,
+      10,
+      15,
+      20,
+      30,
+      50,
+      100
+    ],
+    "price": {
+      "5": 850,
+      "10": 1600,
+      "15": 2300,
+      "20": 3000,
+      "30": 4450,
+      "50": 7250,
+      "100": 14300
+    },
+    "notes": "Верхние ноты: бергамот, вербена\nСердце: фенхель, гедион\nБаза: чай матча, мускус, древесные ноты",
+    "image": "assets/perfumes/82030.jpg",
+    "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.82030.jpg",
+    "notesSource": "https://www.fragrantica.com/perfume/Maison-Francis-Kurkdjian/Aqua-Media-Cologne-Forte-82030.html",
+    "gender": "Унисекс",
+    "sortBrand": "maison francis kurkdjian"
   }
 ]
