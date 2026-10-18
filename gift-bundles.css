@@ -13,7 +13,7 @@
 .gift-scene-bag{position:absolute;height:96%;width:67%;right:0;bottom:0;object-fit:contain;mix-blend-mode:multiply}
 .gift-scene-products{position:absolute;left:12px;bottom:10px;display:flex;align-items:flex-end;gap:3px;width:75%;height:58%;z-index:1}
 .gift-scene-product{min-width:0;flex:1;position:relative;height:100%;overflow:hidden;border-radius:9px}
-.gift-scene-product .photo-frame{width:100%;height:100%;position:relative;overflow:hidden}
+.gift-scene-product .photo-frame{width:100%;height:auto;aspect-ratio:1;position:relative;overflow:hidden}
 .gift-scene-product .product-photo{object-fit:contain;border-radius:8px;background:transparent;mix-blend-mode:multiply}
 .bundle-card-content{padding:20px;display:flex;flex-direction:column;flex:1}
 .bundle-card h3{font-size:23px;line-height:1.15;font-weight:500;letter-spacing:-.04em;margin:0 0 10px}
@@ -36,7 +36,7 @@
 .gift-part-summary h3{font-size:14px;font-weight:500;line-height:1.5;margin:4px 0 7px;overflow-wrap:anywhere}
 .gift-part-summary>div>span:last-child{font-size:13px}
 .gift-part-thumb{width:65px;height:78px;flex:none;position:relative;overflow:hidden}
-.gift-part-thumb .photo-frame{width:100%;height:100%;position:relative;overflow:hidden}
+.gift-part-thumb .photo-frame{width:100%;height:auto;aspect-ratio:1;position:relative;overflow:hidden}
 .gift-part-thumb .product-photo{object-fit:contain}
 .gift-replacements{margin-top:12px;border-top:1px solid #eff0f4;padding-top:11px}
 .gift-replacements summary{cursor:pointer;color:#0047BB;font-size:12px;min-height:25px}
