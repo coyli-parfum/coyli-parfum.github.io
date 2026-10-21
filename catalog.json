@@ -1591,7 +1591,8 @@
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.68578.jpg",
     "referenceVersion": "Flora Gorgeous Gardenia Gucci perfume - a fragrance for women 2021",
     "sortBrand": "gucci",
-    "gender": "Женский"
+    "gender": "Женский",
+    "isHit": true
   },
   {
     "id": 68,
@@ -1715,7 +1716,8 @@
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.11043.jpg",
     "referenceVersion": "Eau de Lacoste L.12.12. White Lacoste Fragrances cologne - a fragrance for men 2011",
     "sortBrand": "lacoste",
-    "gender": "Мужской"
+    "gender": "Мужской",
+    "isHit": true
   },
   {
     "id": 72,
@@ -2244,7 +2246,8 @@
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.38134.jpg",
     "referenceVersion": "Musk Kashmir Attar Collection perfume - a fragrance for women and men 2016",
     "sortBrand": "attar collection",
-    "gender": "Унисекс"
+    "gender": "Унисекс",
+    "isHit": true
   },
   {
     "id": 92,
@@ -2306,7 +2309,8 @@
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.41222.jpg",
     "referenceVersion": "Tygar Bvlgari cologne - a fragrance for men 2016",
     "sortBrand": "bvlgari",
-    "gender": "Мужской"
+    "gender": "Мужской",
+    "isHit": true
   },
   {
     "id": 94,
@@ -2399,7 +2403,8 @@
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.73595.jpg",
     "referenceVersion": "Blonde Amber Clive Christian perfume - a fragrance for women and men 2022",
     "sortBrand": "clive christian",
-    "gender": "Унисекс"
+    "gender": "Унисекс",
+    "isHit": true
   },
   {
     "id": 97,
@@ -2751,7 +2756,8 @@
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.66804.jpg",
     "referenceVersion": "Dirty Mango Richard perfume - a fragrance for women 2021",
     "sortBrand": "richard",
-    "gender": "Унисекс"
+    "gender": "Унисекс",
+    "isHit": true
   },
   {
     "id": 108,
@@ -2875,7 +2881,8 @@
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.80679.jpg",
     "referenceVersion": "This is Not GABA Hormone Paris perfume - a fragrance for women and men 2023",
     "sortBrand": "hormone paris",
-    "gender": "Унисекс"
+    "gender": "Унисекс",
+    "isHit": true
   },
   {
     "id": 112,
@@ -3030,7 +3037,8 @@
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.67370.jpg",
     "referenceVersion": "Imagination Louis Vuitton cologne - a fragrance for men 2021",
     "sortBrand": "louis vuitton",
-    "gender": "Мужской"
+    "gender": "Мужской",
+    "isHit": true
   },
   {
     "id": 117,
@@ -3400,7 +3408,8 @@
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.68357.jpg",
     "referenceVersion": "Symphony Louis Vuitton perfume - a fragrance for women and men 2021",
     "sortBrand": "louis vuitton",
-    "gender": "Унисекс"
+    "gender": "Унисекс",
+    "isHit": true
   },
   {
     "id": 129,
@@ -3524,7 +3533,8 @@
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.49751.jpg",
     "referenceVersion": "L’Immensité Louis Vuitton cologne - a fragrance for men 2018",
     "sortBrand": "louis vuitton",
-    "gender": "Мужской"
+    "gender": "Мужской",
+    "isHit": true
   },
   {
     "id": 133,
@@ -3721,7 +3731,8 @@
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.46262.jpg",
     "referenceVersion": "White Chocola Richard perfume - a fragrance for women and men",
     "sortBrand": "richard",
-    "gender": "Унисекс"
+    "gender": "Унисекс",
+    "isHit": true
   },
   {
     "id": 139,
@@ -4081,7 +4092,8 @@
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.45258.jpg",
     "referenceVersion": "Emporio Armani Stronger With You Giorgio Armani cologne - a fragrance for men 2017",
     "sortBrand": "giorgio armani",
-    "gender": "Мужской"
+    "gender": "Мужской",
+    "isHit": true
   },
   {
     "id": 150,
@@ -4247,7 +4259,8 @@
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.610.jpg",
     "referenceVersion": "Chance Eau de Toilette Chanel perfume - a fragrance for women 2002",
     "sortBrand": "chanel",
-    "gender": "Женский"
+    "gender": "Женский",
+    "isHit": true
   },
   {
     "id": 155,
@@ -4554,7 +4567,8 @@
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.78639.jpg",
     "referenceVersion": "Gentleman Society Givenchy cologne - a fragrance for men 2023",
     "sortBrand": "givenchy",
-    "gender": "Мужской"
+    "gender": "Мужской",
+    "isHit": true
   },
   {
     "id": 165,
@@ -4771,7 +4785,8 @@
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.76880.jpg",
     "referenceVersion": "Yara Lattafa Perfumes perfume - a fragrance for women 2020",
     "sortBrand": "lattafa",
-    "gender": "Женский"
+    "gender": "Женский",
+    "isHit": true
   },
   {
     "id": 172,
@@ -5052,7 +5067,8 @@
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.26453.jpg",
     "referenceVersion": "Eau So Sexy Victoria's Secret perfume - a fragrance for women 2014",
     "sortBrand": "victoria's secret",
-    "gender": "Женский"
+    "gender": "Женский",
+    "isHit": true
   },
   {
     "id": 180,
@@ -5207,7 +5223,8 @@
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.10190.jpg",
     "referenceVersion": "Bombshell Victoria's Secret perfume - a fragrance for women 2010",
     "sortBrand": "victoria's secret",
-    "gender": "Женский"
+    "gender": "Женский",
+    "isHit": true
   },
   {
     "id": 185,
@@ -5459,7 +5476,9 @@
       "checkedAt": "2026-10-15",
       "source": "Оригинал отчёт .xlsm, Инвентаризация, остаток на 15.10.2026; наличие оригиналов только в Ньютоне подтверждено пользователем"
     },
-    "gender": "Женский"
+    "gender": "Женский",
+    "isHit": true,
+    "hitOrder": 5
   },
   {
     "id": 192,
@@ -6056,7 +6075,9 @@
       "checkedAt": "2026-10-15",
       "source": "Оригинал отчёт .xlsm, Инвентаризация, остаток на 15.10.2026; наличие оригиналов только в Ньютоне подтверждено пользователем"
     },
-    "gender": "Мужской"
+    "gender": "Мужской",
+    "isHit": true,
+    "hitOrder": 0
   },
   {
     "id": 208,
@@ -6281,7 +6302,9 @@
       "checkedAt": "2026-10-15",
       "source": "Оригинал отчёт .xlsm, Инвентаризация, остаток на 15.10.2026; наличие оригиналов только в Ньютоне подтверждено пользователем"
     },
-    "gender": "Унисекс"
+    "gender": "Унисекс",
+    "isHit": true,
+    "hitOrder": 6
   },
   {
     "id": 214,
@@ -6503,7 +6526,9 @@
       "checkedAt": "2026-10-15",
       "source": "Оригинал отчёт .xlsm, Инвентаризация, остаток на 15.10.2026; наличие оригиналов только в Ньютоне подтверждено пользователем"
     },
-    "gender": "Унисекс"
+    "gender": "Унисекс",
+    "isHit": true,
+    "hitOrder": 4
   },
   {
     "id": 220,
@@ -6840,7 +6865,9 @@
       "checkedAt": "2026-10-15",
       "source": "Оригинал отчёт .xlsm, Инвентаризация, остаток на 15.10.2026; наличие оригиналов только в Ньютоне подтверждено пользователем"
     },
-    "gender": "Унисекс"
+    "gender": "Унисекс",
+    "isHit": true,
+    "hitOrder": 7
   },
   {
     "id": 229,
@@ -6877,7 +6904,9 @@
       "checkedAt": "2026-10-15",
       "source": "Оригинал отчёт .xlsm, Инвентаризация, остаток на 15.10.2026; наличие оригиналов только в Ньютоне подтверждено пользователем"
     },
-    "gender": "Унисекс"
+    "gender": "Унисекс",
+    "isHit": true,
+    "hitOrder": 1
   },
   {
     "id": 230,
@@ -7173,7 +7202,9 @@
       "checkedAt": "2026-10-15",
       "source": "Оригинал отчёт .xlsm, Инвентаризация, остаток на 15.10.2026; наличие оригиналов только в Ньютоне подтверждено пользователем"
     },
-    "gender": "Унисекс"
+    "gender": "Унисекс",
+    "isHit": true,
+    "hitOrder": 3
   },
   {
     "id": 238,
@@ -7464,7 +7495,8 @@
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.6529.jpg",
     "referenceVersion": "Ange Ou Demon Le Secret Givenchy perfume - a fragrance for women 2009",
     "sortBrand": "givenchy",
-    "gender": "Женский"
+    "gender": "Женский",
+    "isHit": true
   },
   {
     "id": 247,
@@ -10684,7 +10716,9 @@
       "checkedAt": "2026-10-15",
       "source": "Оригинал отчёт .xlsm, Инвентаризация, остаток на 15.10.2026; наличие оригиналов только в Ньютоне подтверждено пользователем"
     },
-    "gender": "Женский"
+    "gender": "Женский",
+    "isHit": true,
+    "hitOrder": 2
   },
   {
     "id": 345,
