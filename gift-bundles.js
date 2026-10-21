@@ -1,16 +1,16 @@
 'use strict';
 const comboDiscount=0.10;
 const giftBundles=[
- {key:'body',name:'Мист и баттер',budget:1500,items:[{type:'Мисты',id:24,vol:60},{type:'Крем-баттер',id:4,vol:75}]},
- {key:'soft-evening',name:'Баттер и свеча',budget:2000,items:[{type:'Крем-баттер',id:4,vol:150},{type:'Свеча',id:40,vol:110}]},
- {key:'home-duo',name:'Диффузор и саше',budget:2000,items:[{type:'Диффузор',id:36,vol:50},{type:'Аромасаше',id:59,vol:75}]},
+ {key:'body',name:'Мист и баттер',budget:1500,items:[{type:'Мисты',id:20,vol:60},{type:'Крем-баттер',id:6,vol:75}]},
+ {key:'soft-evening',name:'Баттер и свеча',budget:2000,items:[{type:'Крем-баттер',id:2,vol:150},{type:'Свеча',id:45,vol:110}]},
+ {key:'home-duo',name:'Диффузор и саше',budget:2000,items:[{type:'Диффузор',id:32,vol:50},{type:'Аромасаше',id:440,vol:75}]},
  {key:'on-the-go',name:'Аромат с собой',budget:2000,items:[{type:'perfume',id:149,vol:10,categories:['Люкс','Селектив']},{type:'Автопарфюм',id:72,vol:'1 шт'}]},
- {key:'home-trio',name:'Три аромата для дома и тела',budget:3000,items:[{type:'Диффузор',id:36,vol:50},{type:'Мисты',id:24,vol:60},{type:'Аромасаше',id:59,vol:75}]},
- {key:'perfume-care',name:'Парфюм, баттер и свеча',budget:3000,items:[{type:'perfume',id:107,vol:10,categories:['Люкс','Селектив']},{type:'Крем-баттер',id:4,vol:75},{type:'Свеча',id:40,vol:110}]},
- {key:'daily',name:'Для дома и для себя',budget:3000,items:[{type:'Рум-спрей',id:28,vol:100},{type:'Мисты',id:24,vol:60},{type:'Крем-баттер',id:4,vol:150}]},
- {key:'selective',name:'Селектив и уход',budget:5000,items:[{type:'perfume',id:107,vol:20,categories:['Селектив']},{type:'Рум-спрей',id:28,vol:100},{type:'Крем-баттер',id:4,vol:75}]},
+ {key:'home-trio',name:'Три аромата для дома и тела',budget:3000,items:[{type:'Диффузор',id:33,vol:50},{type:'Мисты',id:18,vol:60},{type:'Аромасаше',id:58,vol:75}]},
+ {key:'perfume-care',name:'Парфюм, баттер и свеча',budget:3000,items:[{type:'perfume',id:107,vol:10,categories:['Люкс','Селектив']},{type:'Крем-баттер',id:7,vol:75},{type:'Свеча',id:48,vol:110}]},
+ {key:'daily',name:'Для дома и для себя',budget:3000,items:[{type:'Рум-спрей',id:29,vol:100},{type:'Мисты',id:19,vol:60},{type:'Крем-баттер',id:10,vol:150}]},
+ {key:'selective',name:'Селектив и уход',budget:5000,items:[{type:'perfume',id:107,vol:20,categories:['Селектив']},{type:'Рум-спрей',id:28,vol:100},{type:'Крем-баттер',id:9,vol:75}]},
  {key:'collection',name:'Большой ароматный набор',budget:5000,items:[{type:'Диффузор',id:36,vol:50},{type:'Аромасаше',id:59,vol:75},{type:'Крем-баттер',id:4,vol:150},{type:'Мисты',id:24,vol:60},{type:'Свеча',id:40,vol:110}]},
- {key:'original',name:'Оригинальный аромат и забота',budget:10000,items:[{type:'perfume',id:237,vol:20,categories:['Оригинал'],maxRegular:8000},{type:'Диффузор',id:36,vol:50},{type:'Крем-баттер',id:4,vol:150}]}
+ {key:'original',name:'Оригинальный аромат и забота',budget:10000,items:[{type:'perfume',id:237,vol:20,categories:['Оригинал'],maxRegular:8000},{type:'Диффузор',id:34,vol:50},{type:'Крем-баттер',id:5,vol:150}]}
 ];
 let bundleBudget=0;
 const bundleChoices={};
