@@ -63,13 +63,14 @@ function bundlePhotos(b){
  }).filter(Boolean);
  const bag='assets/gifts/coyli-bag-transparent-20261018.webp',bagBounds=comboPhotoBounds[bag];
  objects.push({path:bag,bounds:bagBounds,ratio:bagBounds[2]/bagBounds[3],scale:1.08,bag:true,alt:'Фирменный пакет COYLI PARFUM'});
- const gap=objects.length>4?2:3,aspect=1.28;
- const ratios=objects.reduce((sum,o)=>sum+o.ratio*o.scale,0);
- const height=Math.min(59,(88-gap*(objects.length-1))*aspect/ratios);
- const total=height/aspect*ratios+gap*(objects.length-1);
+ const gap=objects.length>4?2:3,aspect=2,bagHeight=45;
+ const bagWidth=bagHeight*(bagBounds[2]/bagBounds[3])/aspect;
+ const productRatios=objects.filter(o=>!o.bag).reduce((sum,o)=>sum+o.ratio,0);
+ const height=Math.min(45,(88-bagWidth-gap*(objects.length-1))*aspect/productRatios);
+ const total=height/aspect*productRatios+bagWidth+gap*(objects.length-1);
  let left=(100-total)/2;
  return '<div class="combo-scene composition-'+parts.length+'">'+objects.map(o=>{
-  const h=height*o.scale,w=h*o.ratio/aspect;
+  const h=o.bag?bagHeight:height,w=h*o.ratio/aspect;
   const html='<div class="'+(o.bag?'combo-bag':'combo-object'+(o.butter?' is-butter':''))+'" style="left:'+left.toFixed(3)+'%;bottom:9%;height:'+h.toFixed(3)+'%;width:'+w.toFixed(3)+'%;max-width:none;right:auto;z-index:2">'+comboObjectPhoto(o.path,o.bounds,o.alt)+'</div>';
   left+=w+gap;return html;
  }).join('')+'</div>';
