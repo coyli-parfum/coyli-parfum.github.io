@@ -22,12 +22,12 @@ el('gift-electronic-preview').hidden=!electronic;el('gift-physical-preview').hid
 el('gift-electronic-preview').style.setProperty('--gift-background',d.bg);el('gift-electronic-preview').style.setProperty('--gift-ink',d.ink);
 el('gift-card-title').textContent=d.title;el('gift-card-line').textContent=d.line;el('gift-card-mark').textContent=d.mark;el('gift-card-amount').textContent=state.amount>0?money(state.amount):'Ваша сумма';
 el('gift-physical-image').src=plastic[state.amount]||plastic[3000];el('gift-physical-image').alt='Пластиковая подарочная карта COYLI PARFUM на '+money(state.amount);
-el('gift-order').textContent=state.amount>0?'Оформить карту · '+money(state.amount):'Оформить карту';
+el('gift-order').textContent=state.amount>0?'Оформить сертификат · '+money(state.amount):'Оформить сертификат';
 el('gift-delivery').textContent=electronic?'После оплаты менеджер отправит карту вам. Перешлите её тому, кого хочется порадовать.':'Подарочную карту можно оформить с доставкой или забрать в любом из наших филиалов.';
 el('gift-order-details').hidden=true;el('gift-error').hidden=true;
 }
 window.renderGiftSection=function(){const r=root();if(!r||r.dataset.ready)return;r.dataset.ready='true';
-r.innerHTML=`<div class="gift-heading"><p class="gift-eyebrow">ПОДАРОЧНЫЕ КАРТЫ</p><h2>Подарочная карта COYLI PARFUM</h2><p>Когда хочется подарить возможность выбрать своё.</p></div>
+r.innerHTML=`<div class="gift-heading"><p class="gift-eyebrow">СЕРТИФИКАТЫ</p><h2>Подарочный сертификат COYLI PARFUM</h2><p>Когда хочется подарить возможность выбрать своё.</p></div>
 <div class="gift-layout"><div class="gift-preview-col"><div class="gift-electronic-card" id="gift-electronic-preview"><div class="gift-card-top"><span>ПОДАРОЧНАЯ КАРТА</span><span class="gift-brand">COYLI</span></div><span id="gift-card-mark" aria-hidden="true"></span><div class="gift-card-copy"><h3 id="gift-card-title"></h3><p id="gift-card-line"></p></div><div class="gift-card-bottom"><strong id="gift-card-amount" aria-live="polite"></strong><span>PARFUM · HOME · BODY</span></div></div>
 <div id="gift-physical-preview" hidden><div class="gift-physical-main"><img id="gift-physical-image" src="assets/gifts/card-bow.png" alt="Подарочная карта"></div><div class="gift-holder"><img src="assets/gifts/holder.png" alt="Подарочная карта COYLI на фирменной синей подложке"><p>Фирменная подложка<br>для вашего подарка.</p></div></div></div>
 <div class="gift-controls">
