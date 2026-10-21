@@ -63,10 +63,10 @@ function bundlePhotos(b){
  }).filter(Boolean);
  const bag='assets/gifts/coyli-bag-transparent-20261018.webp',bagBounds=comboPhotoBounds[bag];
  objects.push({path:bag,bounds:bagBounds,ratio:bagBounds[2]/bagBounds[3],scale:1.08,bag:true,alt:'Фирменный пакет COYLI PARFUM'});
- const gap=objects.length>4?2:3,aspect=2,bagHeight=45;
+ const gap=objects.length>4?2:3,aspect=2,bagHeight=70;
  const bagWidth=bagHeight*(bagBounds[2]/bagBounds[3])/aspect;
  const productRatios=objects.filter(o=>!o.bag).reduce((sum,o)=>sum+o.ratio,0);
- const height=Math.min(45,(88-bagWidth-gap*(objects.length-1))*aspect/productRatios);
+ const height=Math.min(70,(88-bagWidth-gap*(objects.length-1))*aspect/productRatios);
  const total=height/aspect*productRatios+bagWidth+gap*(objects.length-1);
  let left=(100-total)/2;
  return '<div class="combo-scene composition-'+parts.length+'">'+objects.map(o=>{
