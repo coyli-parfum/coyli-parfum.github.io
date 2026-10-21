@@ -10511,7 +10511,8 @@
     "imageSource": "User supplied: DBAC4E16-3FC3-42D0-857F-E80E1471DD9F(1).jpeg",
     "sortBrand": "zam",
     "imageStatus": "verified",
-    "gender": "Мужской"
+    "gender": "Мужской",
+    "isHit": true
   },
   {
     "id": 339,
@@ -10830,7 +10831,9 @@
       "checkedAt": "2026-10-15",
       "source": "Оригинал отчёт .xlsm, Инвентаризация, остаток на 15.10.2026; наличие оригиналов только в Ньютоне подтверждено пользователем"
     },
-    "gender": "Унисекс"
+    "gender": "Унисекс",
+    "isHit": true,
+    "hitOrder": 8
   },
   {
     "id": 348,
