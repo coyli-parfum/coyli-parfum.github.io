@@ -53,19 +53,27 @@ function comboObjectPhoto(path,bounds,alt){
  return '<span class="combo-cutout" style="aspect-ratio:'+w+'/'+h+'"><img src="'+esc(path)+'" alt="'+esc(alt)+'" loading="lazy" style="width:'+(sw/w*100)+'%;height:'+(sh/h*100)+'%;left:'+(-l/w*100)+'%;top:'+(-t/h*100)+'%"></span>';
 }
 function bundlePhotos(b){
- const parts=bundleParts(b),bag='assets/gifts/coyli-bag-transparent-20261018.webp';
- return '<div class="combo-scene composition-'+parts.length+'"><div class="combo-bag">'+comboObjectPhoto(bag,comboPhotoBounds[bag],'Фирменный пакет COYLI PARFUM')+'</div>'+parts.map((part,i)=>{
- const x=part.product;if(!x)return '';
- const cutout={24:'mist',40:'candle',28:'room',72:'car',36:'diffuser',59:'sachet'}[x.id];
- const path=cutout?'assets/bottles/combo-'+cutout+'.webp':part.type==='perfume'?'assets/bottles/coyli-'+part.vol+'ml.webp':x.id===4&&Number(part.vol)===75?'assets/gifts/maple-waffles-75-front-20261018.webp':x.imagesByVolume?.[part.vol]||x.image;
- const bounds=comboPhotoBounds[path];
- const h=part.type==='perfume'?(Number(part.vol)===10?53:52):part.type==='Мисты'?57:part.type==='Крем-баттер'?(Number(part.vol)===75?32:36):part.type==='Свеча'?35:part.type==='Диффузор'?72:part.type==='Рум-спрей'?62:part.type==='Автопарфюм'?43:48;
- const left=parts.length===2?[12,43][i]:parts.length===3?[7,32,57][i]:[3,20,38,57,74][i];
- const width=parts.length===5?24:35;
- return '<div class="combo-object '+(part.type==='Крем-баттер'?'is-butter':'')+'" style="left:'+left+'%;height:'+h+'%;max-width:'+width+'%;z-index:'+(i+2)+'">'+comboObjectPhoto(path,bounds,x.name+(part.type==='perfume'?' · '+part.vol+' мл':''))+'</div>';
+ const parts=bundleParts(b);
+ const objects=parts.map(part=>{
+  const x=part.product;if(!x)return null;
+  const cutout={24:'mist',40:'candle',28:'room',72:'car',36:'diffuser',59:'sachet'}[x.id];
+  const path=cutout?'assets/bottles/combo-'+cutout+'.webp':part.type==='perfume'?'assets/bottles/coyli-'+part.vol+'ml.webp':x.id===4&&Number(part.vol)===75?'assets/gifts/maple-waffles-75-front-20261018.webp':x.imagesByVolume?.[part.vol]||x.image;
+  const bounds=comboPhotoBounds[path];
+  return {path,bounds,ratio:bounds?bounds[2]/bounds[3]:1,scale:1,butter:part.type==='Крем-баттер',alt:x.name+(part.type==='perfume'?' · '+part.vol+' мл':'')};
+ }).filter(Boolean);
+ const bag='assets/gifts/coyli-bag-transparent-20261018.webp',bagBounds=comboPhotoBounds[bag];
+ objects.push({path:bag,bounds:bagBounds,ratio:bagBounds[2]/bagBounds[3],scale:1.08,bag:true,alt:'Фирменный пакет COYLI PARFUM'});
+ const gap=objects.length>4?2:3,aspect=1.28;
+ const ratios=objects.reduce((sum,o)=>sum+o.ratio*o.scale,0);
+ const height=Math.min(59,(88-gap*(objects.length-1))*aspect/ratios);
+ const total=height/aspect*ratios+gap*(objects.length-1);
+ let left=(100-total)/2;
+ return '<div class="combo-scene composition-'+parts.length+'">'+objects.map(o=>{
+  const h=height*o.scale,w=h*o.ratio/aspect;
+  const html='<div class="'+(o.bag?'combo-bag':'combo-object'+(o.butter?' is-butter':''))+'" style="left:'+left.toFixed(3)+'%;bottom:9%;height:'+h.toFixed(3)+'%;width:'+w.toFixed(3)+'%;max-width:none;right:auto;z-index:2">'+comboObjectPhoto(o.path,o.bounds,o.alt)+'</div>';
+  left+=w+gap;return html;
  }).join('')+'</div>';
 }
-
 function comboPrice(b){return '<div class="combo-price"><del>'+comboMoney(bundleRegularTotal(b))+'</del><strong>'+comboMoney(bundleTotal(b))+'</strong><span>Выгода '+comboMoney((comboCents(bundleRegularTotal(b))-comboCents(bundleTotal(b)))/100)+'</span></div>'}
 function renderBundles(){
  const root=document.getElementById('bundle-section');
