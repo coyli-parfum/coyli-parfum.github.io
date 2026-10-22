@@ -9306,48 +9306,6 @@
     "gender": "Женский"
   },
   {
-    "id": 293,
-    "name": "Lancôme La Vie Est Belle",
-    "cat": "Селектив",
-    "volumes": [
-      5,
-      10,
-      15,
-      20,
-      30,
-      50,
-      100
-    ],
-    "price": {
-      "5": 550,
-      "10": 1000,
-      "15": 1400,
-      "20": 1800,
-      "30": 2600,
-      "50": 4150,
-      "100": 8000
-    },
-    "notes": "Верхние ноты: чёрная смородина, груша\nСердце: ирис, жасмин, апельсиновый цвет\nБаза: пралине, ваниль, пачули, бобы тонка",
-    "kind": "perfume",
-    "image": "assets/perfumes/14982.jpg",
-    "notesSource": "https://www.fragrantica.com/perfume/Lanc-me/La-Vie-Est-Belle-14982.html",
-    "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.14982.jpg",
-    "referenceVersion": "La Vie Est Belle Lancôme perfume - a fragrance for women 2012",
-    "sortBrand": "lancôme",
-    "discountPercent": 50,
-    "saleSprayPrice": {
-      "5": 275,
-      "10": 500,
-      "15": 700,
-      "20": 900,
-      "30": 1300,
-      "50": 2075,
-      "100": 4000
-    },
-    "discountSource": "Цены на спрей уже со скидкой 50%: скриншоты COYLI PARFUM IMG_2649–IMG_2655 от 15.10.2026. На чистое масло −50% от обычного тарифа категории, подтверждено пользователем.",
-    "gender": "Женский"
-  },
-  {
     "id": 294,
     "name": "Louis Vuitton Pacific Chill",
     "cat": "Селектив",
