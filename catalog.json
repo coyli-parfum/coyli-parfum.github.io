@@ -6599,23 +6599,17 @@
       3,
       5,
       10,
-      15,
-      20,
-      30,
-      50
+      15
     ],
     "price": {
-      "3": 600,
-      "5": 1000,
-      "10": 2000,
-      "15": 3000,
-      "20": 4000,
-      "30": 6000,
-      "50": 10000
+      "3": 750,
+      "5": 1250,
+      "10": 2500,
+      "15": 3750
     },
     "notes": "Верхние ноты: мускатный орех, перечная мята, мускатный шалфей\nСердце: кофе, корень ириса, мадагаскарский ветивер, гаитянский ветивер, ветивер, французский нарцисс\nБаза: мадагаскарская ваниль, австралийский сандал, гималайский кедр",
     "kind": "original",
-    "priceSource": "Canva COYLI PARFUM, дизайн «Ценники», 15.10.2026",
+    "priceSource": "Ценники пользователя, 23.10.2026",
     "image": "assets/originals/89933.jpg",
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.89933.jpg",
     "notesSource": "https://www.fragrantica.com/perfume/Givenchy/Gentleman-Society-Eau-de-Parfum-Extreme-89933.html",
@@ -6629,8 +6623,8 @@
     "availability": {
       "location": "ТК «Ньютон»",
       "status": "in_stock",
-      "checkedAt": "2026-10-15",
-      "source": "Оригинал отчёт .xlsm, Инвентаризация, остаток на 15.10.2026; наличие оригиналов только в Ньютоне подтверждено пользователем"
+      "checkedAt": "2026-10-23",
+      "source": "Поставка 22.10.2026, подтверждено пользователем"
     },
     "gender": "Мужской"
   },
@@ -15828,5 +15822,249 @@
       "100": 600
     },
     "notes": "Пустой флакон с распылителем. Аромат приобретается отдельно."
+  },
+  {
+    "name": "Amouage Guidance",
+    "notes": "Верхние ноты: груша, лесной орех, ладан\nСердце: османтус, роза, шафран, жасмин самбак\nБаза: сандал, ваниль, акигалавуд, серая амбра, лабданум",
+    "image": "assets/perfumes/78656.jpg",
+    "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.78656.jpg",
+    "notesSource": "https://www.fragrantica.com/perfume/Amouage/Guidance-78656.html",
+    "gender": "Унисекс",
+    "sortBrand": "amouage",
+    "id": 482,
+    "cat": "Оригинал",
+    "kind": "original",
+    "volumes": [
+      3,
+      5,
+      10,
+      15
+    ],
+    "price": {
+      "3": 2100,
+      "5": 3500,
+      "10": 7000,
+      "15": 10500
+    },
+    "priceSource": "Ценники пользователя, 23.10.2026",
+    "availability": {
+      "location": "ТК «Ньютон»",
+      "status": "in_stock",
+      "checkedAt": "2026-10-23",
+      "source": "Поставка 22.10.2026, подтверждено пользователем"
+    }
+  },
+  {
+    "name": "Louis Vuitton Imagination",
+    "notes": "Верхние ноты: цитрон, калабрийский бергамот, сицилийский апельсин\nСердце: тунисский нероли, нигерийский имбирь, цейлонская корица\nБаза: китайский чёрный чай, амброксан, гваяковое дерево, ладан",
+    "image": "assets/perfumes/67370.jpg",
+    "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.67370.jpg",
+    "notesSource": "https://www.fragrantica.com/p/67370",
+    "gender": "Мужской",
+    "sortBrand": "louis vuitton",
+    "id": 483,
+    "cat": "Оригинал",
+    "kind": "original",
+    "volumes": [
+      3,
+      5,
+      10,
+      15
+    ],
+    "price": {
+      "3": 2700,
+      "5": 4500,
+      "10": 9000,
+      "15": 13500
+    },
+    "priceSource": "Ценники пользователя, 23.10.2026",
+    "availability": {
+      "location": "ТК «Ньютон»",
+      "status": "in_stock",
+      "checkedAt": "2026-10-23",
+      "source": "Поставка 22.10.2026, подтверждено пользователем"
+    }
+  },
+  {
+    "name": "Louis Vuitton L’Immensité",
+    "notes": "Верхние ноты: грейпфрут, бергамот, имбирь\nСердце: розмарин, шалфей, водные ноты, герань\nБаза: амброксан, амбра, лабданум",
+    "image": "assets/perfumes/49751.jpg",
+    "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.49751.jpg",
+    "notesSource": "https://www.fragrantica.com/perfume/Louis-Vuitton/L-Immensit--49751.html",
+    "gender": "Мужской",
+    "sortBrand": "louis vuitton",
+    "id": 484,
+    "cat": "Оригинал",
+    "kind": "original",
+    "volumes": [
+      3,
+      5,
+      10,
+      15
+    ],
+    "price": {
+      "3": 2700,
+      "5": 4500,
+      "10": 9000,
+      "15": 13500
+    },
+    "priceSource": "Ценники пользователя, 23.10.2026",
+    "availability": {
+      "location": "ТК «Ньютон»",
+      "status": "in_stock",
+      "checkedAt": "2026-10-23",
+      "source": "Поставка 22.10.2026, подтверждено пользователем"
+    }
+  },
+  {
+    "name": "Marc-Antoine Barrois Tilia",
+    "notes": "Верхние ноты: липовый цвет, жасмин самбак, дрок\nСердце: апельсиновый цвет, гелиотроп, ветивер\nБаза: Ambrofix, Georgywood",
+    "image": "assets/perfumes/91688.jpg",
+    "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.91688.jpg",
+    "notesSource": "https://www.fragrantica.com/p/91688",
+    "gender": "Унисекс",
+    "sortBrand": "marc-antoine barrois",
+    "id": 485,
+    "cat": "Оригинал",
+    "kind": "original",
+    "volumes": [
+      3,
+      5,
+      10,
+      15
+    ],
+    "price": {
+      "3": 1500,
+      "5": 2500,
+      "10": 5000,
+      "15": 7500
+    },
+    "priceSource": "Ценники пользователя, 23.10.2026",
+    "availability": {
+      "location": "ТК «Ньютон»",
+      "status": "in_stock",
+      "checkedAt": "2026-10-23",
+      "source": "Поставка 22.10.2026, подтверждено пользователем"
+    }
+  },
+  {
+    "id": 486,
+    "name": "HFC Nirvanesque",
+    "notes": "Верхние ноты: давана, ладанник, мирра, ром\nСердце: кожа, ладан\nБаза: мускус, бензоин, бобы тонка, ваниль, уд",
+    "notesSource": "https://www.hfcparis.com/catalog/nirvanesque",
+    "gender": "Унисекс",
+    "image": "assets/originals/77134.jpg",
+    "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.77134.jpg",
+    "cat": "Оригинал",
+    "kind": "original",
+    "volumes": [
+      3,
+      5,
+      10,
+      15
+    ],
+    "price": {
+      "3": 1500,
+      "5": 2500,
+      "10": 5000,
+      "15": 7500
+    },
+    "priceSource": "Ценники пользователя, 23.10.2026",
+    "availability": {
+      "location": "ТК «Ньютон»",
+      "status": "in_stock",
+      "checkedAt": "2026-10-23",
+      "source": "Поставка 22.10.2026, подтверждено пользователем"
+    }
+  },
+  {
+    "id": 487,
+    "name": "HFC Indian Venus",
+    "notes": "Верхние ноты: апельсиновый цвет, тубероза\nСердце: марокканский кедр, сандаловое молоко, лабданум\nБаза: дымная древесина, коричневый сахар, пудровый мускус, амбровая древесина",
+    "notesSource": "https://www.hfcparis.com/catalog/indian-venus",
+    "gender": "Женский",
+    "image": "assets/originals/52793.jpg",
+    "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.52793.jpg",
+    "cat": "Оригинал",
+    "kind": "original",
+    "volumes": [
+      3,
+      5,
+      10,
+      15
+    ],
+    "price": {
+      "3": 1500,
+      "5": 2500,
+      "10": 5000,
+      "15": 7500
+    },
+    "priceSource": "Ценники пользователя, 23.10.2026",
+    "availability": {
+      "location": "ТК «Ньютон»",
+      "status": "in_stock",
+      "checkedAt": "2026-10-23",
+      "source": "Поставка 22.10.2026, подтверждено пользователем"
+    }
+  },
+  {
+    "id": 488,
+    "name": "Valentino Uomo Born In Roma Coral Fantasy",
+    "notes": "Верхняя нота: красное яблоко\nСердце: шалфей\nБаза: табак",
+    "notesSource": "https://www.valentino-beauty.com/int/fragrances/men-fragrances/born-in-roma-uomo-coral-fantasy/MPL01750.html",
+    "gender": "Мужской",
+    "image": "assets/originals/71761.jpg",
+    "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.71761.jpg",
+    "cat": "Оригинал",
+    "kind": "original",
+    "volumes": [
+      3,
+      5,
+      10,
+      15
+    ],
+    "price": {
+      "3": 900,
+      "5": 1500,
+      "10": 3000,
+      "15": 4500
+    },
+    "priceSource": "Ценники пользователя, 23.10.2026",
+    "availability": {
+      "location": "ТК «Ньютон»",
+      "status": "in_stock",
+      "checkedAt": "2026-10-23",
+      "source": "Поставка 22.10.2026, подтверждено пользователем"
+    }
+  },
+  {
+    "id": 489,
+    "name": "Juliette Has a Gun Not A Perfume Superdose",
+    "notes": "Основная нота: цеталокс (Cetalox)",
+    "notesSource": "https://www.juliettehasagun.com/en/products/not-a-perfume-superdose",
+    "gender": "Унисекс",
+    "image": "assets/originals/56679.jpg",
+    "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.56679.jpg",
+    "cat": "Оригинал",
+    "kind": "original",
+    "volumes": [
+      3,
+      5,
+      10,
+      15
+    ],
+    "price": {
+      "3": 750,
+      "5": 1250,
+      "10": 2500,
+      "15": 3750
+    },
+    "priceSource": "Ценники пользователя, 23.10.2026",
+    "availability": {
+      "location": "ТК «Ньютон»",
+      "status": "in_stock",
+      "checkedAt": "2026-10-23",
+      "source": "Поставка 22.10.2026, подтверждено пользователем"
+    }
   }
 ]
