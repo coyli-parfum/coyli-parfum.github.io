@@ -16612,5 +16612,185 @@
       "source": "Поставка 22.10.2026, подтверждено пользователем"
     },
     "isNew": true
+  },
+  {
+    "id": 490,
+    "name": "Carolina Herrera Cedar Chic",
+    "cat": "Селектив",
+    "volumes": [
+      5,
+      10,
+      15,
+      20,
+      30,
+      50,
+      100
+    ],
+    "price": {
+      "5": 850,
+      "10": 1600,
+      "15": 2300,
+      "20": 3000,
+      "30": 4450,
+      "50": 7250,
+      "100": 14300
+    },
+    "notes": "Верхние ноты: бергамот, альдегиды\nСердце: апельсиновый цвет\nБаза: кедр, белый мускус",
+    "kind": "perfume",
+    "image": "assets/perfumes/109989.jpg",
+    "notesSource": "https://www.carolinaherrera.com/ww/en/editorial/fragrances-confidential-cedar-chic",
+    "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.109989.jpg",
+    "sortBrand": "carolina herrera",
+    "gender": "Унисекс"
+  },
+  {
+    "id": 491,
+    "name": "Initio Oud for Greatness",
+    "cat": "Селектив",
+    "volumes": [
+      5,
+      10,
+      15,
+      20,
+      30,
+      50,
+      100
+    ],
+    "price": {
+      "5": 850,
+      "10": 1600,
+      "15": 2300,
+      "20": 3000,
+      "30": 4450,
+      "50": 7250,
+      "100": 14300
+    },
+    "notes": "Ноты: уд, агаровое масло, лаванда, шафран, пачули, мускус, мускатный орех",
+    "kind": "perfume",
+    "image": "assets/perfumes/53641.jpg",
+    "notesSource": "https://initioparfums.com/products/oud-for-greatness",
+    "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.53641.jpg",
+    "sortBrand": "initio",
+    "gender": "Унисекс"
+  },
+  {
+    "id": 492,
+    "name": "Initio Psychedelic Love",
+    "cat": "Селектив",
+    "volumes": [
+      5,
+      10,
+      15,
+      20,
+      30,
+      50,
+      100
+    ],
+    "price": {
+      "5": 850,
+      "10": 1600,
+      "15": 2300,
+      "20": 3000,
+      "30": 4450,
+      "50": 7250,
+      "100": 14300
+    },
+    "notes": "Ноты: бергамот, роза, мирра, ваниль, пачули, гелиотропин",
+    "kind": "perfume",
+    "image": "assets/perfumes/45977.jpg",
+    "notesSource": "https://us.initioparfums.com/products/psychedelic-love",
+    "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.45977.jpg",
+    "sortBrand": "initio",
+    "gender": "Унисекс"
+  },
+  {
+    "id": 493,
+    "name": "Kilian Vodka on the Rocks",
+    "cat": "Селектив",
+    "volumes": [
+      5,
+      10,
+      15,
+      20,
+      30,
+      50,
+      100
+    ],
+    "price": {
+      "5": 850,
+      "10": 1600,
+      "15": 2300,
+      "20": 3000,
+      "30": 4450,
+      "50": 7250,
+      "100": 14300
+    },
+    "notes": "Верхние ноты: кардамон, кориандр, ледяной аккорд\nСердце: ландыш, ревень, роза\nБаза: дубовый мох, сандал",
+    "kind": "perfume",
+    "image": "assets/perfumes/23899.jpg",
+    "notesSource": "https://www.bykilian.com/product/19797/146984/perfume/vodka-on-the-rocks/the-liquors",
+    "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.23899.jpg",
+    "sortBrand": "kilian",
+    "gender": "Унисекс"
+  },
+  {
+    "id": 494,
+    "name": "Louis Vuitton Rain Tea",
+    "cat": "Селектив",
+    "volumes": [
+      5,
+      10,
+      15,
+      20,
+      30,
+      50,
+      100
+    ],
+    "price": {
+      "5": 850,
+      "10": 1600,
+      "15": 2300,
+      "20": 3000,
+      "30": 4450,
+      "50": 7250,
+      "100": 14300
+    },
+    "notes": "Ноты: лемонграсс, чай, китайская магнолия, роза",
+    "kind": "perfume",
+    "image": "assets/perfumes/115406.jpg",
+    "notesSource": "https://www.louisvuitton.cn/zhs-cn/products/rain-tea-louis-vuitton-nvprod6840031v/LP0424",
+    "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.115406.jpg",
+    "sortBrand": "louis vuitton",
+    "gender": "Унисекс"
+  },
+  {
+    "id": 495,
+    "name": "Parfums de Marly Valaya",
+    "cat": "Селектив",
+    "volumes": [
+      5,
+      10,
+      15,
+      20,
+      30,
+      50,
+      100
+    ],
+    "price": {
+      "5": 850,
+      "10": 1600,
+      "15": 2300,
+      "20": 3000,
+      "30": 4450,
+      "50": 7250,
+      "100": 14300
+    },
+    "notes": "Верхние ноты: бергамот, мандарин, белый персик\nСердце: апельсиновый цвет, белые цветы\nБаза: белый мускус, акигалавуд, ваниль, ветивер",
+    "kind": "perfume",
+    "image": "assets/perfumes/78574.jpg",
+    "notesSource": "https://parfums-de-marly.com/products/valaya",
+    "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.78574.jpg",
+    "sortBrand": "parfums de marly",
+    "gender": "Женский"
   }
 ]
