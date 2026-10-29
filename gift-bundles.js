@@ -14,7 +14,7 @@ const giftBundles=[
 ];
 let bundleBudget=0;
 const bundleChoices={};
-const comboMoney=n=>Number(n).toLocaleString('ru-RU',{minimumFractionDigits:Number.isInteger(Number(n))?0:2,maximumFractionDigits:2})+' ₽';
+const comboMoney=n=>Math.floor(Number(n)).toLocaleString('ru-RU',{maximumFractionDigits:0})+' ₽';
 const comboCents=n=>Math.round(Number(n)*100);
 function bundleByKey(key){return giftBundles.find(b=>b.key===key)}
 function bundleSelections(b){return bundleChoices[b.key]||(bundleChoices[b.key]=b.items.map(x=>({...x})))}
@@ -30,7 +30,7 @@ function bundleAmount(part){
  const n=Number(rates[part.vol]);return Number.isFinite(n)&&n>0?n:0;
 }
 function bundleRegularTotal(b){return bundleParts(b).reduce((s,x)=>s+comboCents(bundleAmount(x)),0)/100}
-function bundleTotal(b){return Math.round(comboCents(bundleRegularTotal(b))*(1-comboDiscount))/100}
+function bundleTotal(b){return Math.floor(comboCents(bundleRegularTotal(b))*9/1000)}
 function bundlePartAllowed(b,i,selection){
  const rule=b.items[i],x=p.find(x=>x.id===Number(selection.id));
  if(!rule||!bundleProductUsable(x)||selection.type!==rule.type||String(selection.vol)!==String(rule.vol))return false;
@@ -42,7 +42,7 @@ function bundleValid(b){return bundleSelections(b).every((s,i)=>bundlePartAllowe
 function bundleOptions(b,i){
  const current=bundleSelections(b)[i];
  const other=bundleParts(b).reduce((sum,part,j)=>sum+(i===j?0:comboCents(bundleAmount(part))),0);
- return p.map(x=>({...current,id:x.id})).filter(s=>bundlePartAllowed(b,i,s)&&Math.round((other+comboCents(bundleAmount(bundlePart(s))))*.9)<=b.budget*100).map(s=>({...s,product:p.find(x=>x.id===s.id)})).sort((a,b)=>a.product.name.localeCompare(b.product.name,'ru'));
+ return p.map(x=>({...current,id:x.id})).filter(s=>bundlePartAllowed(b,i,s)&&Math.floor((other+comboCents(bundleAmount(bundlePart(s))))*9/1000)<=b.budget).map(s=>({...s,product:p.find(x=>x.id===s.id)})).sort((a,b)=>a.product.name.localeCompare(b.product.name,'ru'));
 }
 function bundleDescription(part){return (part.product?.name||'Выберите аромат')+' · '+part.vol+(part.product?.cat==='Автопарфюм'?'':' мл')}
 function comboPartType(part){return part.product?.cat==='Автопарфюм'?'Автопарфюм':part.type==='perfume'?part.product?.cat+' · спрей':part.type==='Мисты'?'Мист для тела':part.type}
@@ -64,10 +64,14 @@ function comboPhoto(part){
 function comboPhotoMarkup(part){
  const o=comboPhoto(part);return o?comboObjectPhoto(o.path,o.bounds,o.alt):'<span class="combo-photo-missing">Фото скоро</span>';
 }
+// Editorial photos match the exact default selection; changed aromas always show their real catalogue photo.
+function bundleScenePath(b){return 'assets/combos/approved-'+b.key+'-20261029.webp'}
+function bundleIsDefault(b){return bundleSelections(b).every((s,i)=>s.id===b.items[i].id&&String(s.vol)===String(b.items[i].vol))}
 function bundlePhotos(b){
+ if(bundleIsDefault(b))return '<div class="combo-studio-scene is-photographic"><img class="combo-editorial-photo" src="'+bundleScenePath(b)+'" alt="'+esc(b.name)+'" loading="lazy" decoding="async" width="1254" height="1254"></div>';
  const objects=bundleParts(b).map(comboPhoto).filter(Boolean),gap=objects.length>3?3:5;
  const totalRatio=objects.reduce((n,o)=>n+o.ratio*o.scale,0);
- const unit=Math.min(74,(88-gap*(objects.length-1))*1.1/totalRatio);
+ const unit=Math.min(58,(76-gap*(objects.length-1))*1.1/totalRatio);
  const total=unit/1.1*totalRatio+gap*(objects.length-1);let left=(100-total)/2;
  return '<div class="combo-studio-scene" aria-label="Состав набора">'+objects.map(o=>{
  const h=unit*o.scale,w=h*o.ratio/1.1;
@@ -88,10 +92,10 @@ function bundleChoose(key,i,selection){const b=bundleByKey(key);if(!b||!bundlePa
 function openBundle(key,keepScroll=false){
  const b=bundleByKey(key);if(!b)return;
  const panel=document.getElementById('panel'),scroll=keepScroll?panel.scrollTop:0,trackScroll=keepScroll?(panel.querySelector('.combo-studio-parts')?.scrollLeft||0):0;
- panel.innerHTML='<article class="combo-studio-detail" role="dialog" aria-modal="true" aria-labelledby="combo-studio-title"><div class="combo-studio-heading"><h2 id="combo-studio-title">'+esc(b.name)+'</h2><button type="button" class="combo-studio-close" aria-label="Закрыть комбо">×</button></div>'+bundlePhotos(b)+'<div class="combo-studio-parts" aria-label="Товары в наборе">'+bundleParts(b).map((part,i)=>{
+ panel.innerHTML='<article class="combo-studio-detail" data-combo="'+esc(b.key)+'" role="dialog" aria-modal="true" aria-labelledby="combo-studio-title"><div class="combo-studio-heading"><h2 id="combo-studio-title">'+esc(b.name)+'</h2><button type="button" class="combo-studio-close" aria-label="Закрыть комбо">×</button></div>'+bundlePhotos(b)+'<div class="combo-studio-parts" aria-label="Товары в наборе">'+bundleParts(b).map((part,i)=>{
  const o=comboPhoto(part);
  return '<section class="combo-studio-part"><div class="combo-studio-thumb'+(o?.butter?' is-butter':'')+'" style="--object-scale:'+(o?.scale||1)+'">'+comboPhotoMarkup(part)+'</div><p class="combo-studio-volume">'+esc(String(part.vol))+(part.product?.cat==='Автопарфюм'?'':' мл')+'</p><h3>'+esc(comboPartType(part))+'</h3><p class="combo-studio-name">'+esc(part.product?.name||'Выберите аромат')+'</p><button type="button" class="combo-studio-replace" data-replace-part="'+i+'" aria-label="Заменить '+esc(comboPartType(part))+'">Заменить</button></section>';
- }).join('')+'</div><div class="combo-studio-notes"><p>Фирменный пакет бесплатно</p>'+(b.key==='original'?'<small>Оригиналы представлены только в ТК «Ньютон».</small>':'')+'<small>−10% на полный набор · Наличие подтвердит менеджер</small></div><div class="combo-studio-purchase"><button class="combo-studio-buy" type="button" id="add-bundle" '+(!bundleValid(b)?'disabled':'')+' aria-label="Добавить набор в корзину за '+comboMoney(bundleTotal(b))+'"><span aria-hidden="true">+</span><strong>'+comboMoney(bundleTotal(b))+'</strong><del>'+comboMoney(bundleRegularTotal(b))+'</del></button>'+(!bundleValid(b)?'<p role="status">Выберите доступные ароматы для всех средств.</p>':'')+'</div><div class="combo-studio-picker" hidden></div></article>';
+ }).join('')+'</div><div class="combo-studio-notes">'+(b.key==='original'?'<small>Оригиналы представлены только в ТК «Ньютон».</small>':'')+'</div><div class="combo-studio-purchase"><button class="combo-studio-buy" type="button" id="add-bundle" '+(!bundleValid(b)?'disabled':'')+' aria-label="Добавить набор в корзину за '+comboMoney(bundleTotal(b))+'"><span aria-hidden="true">+</span><strong>'+comboMoney(bundleTotal(b))+'</strong><del>'+comboMoney(bundleRegularTotal(b))+'</del></button>'+(!bundleValid(b)?'<p role="status">Выберите доступные ароматы для всех средств.</p>':'')+'<p class="combo-bag-note">Фирменный пакет бесплатно</p></div><div class="combo-studio-picker" hidden></div></article>';
  panel.querySelector('.combo-studio-close').onclick=()=>{hide();document.querySelector('[data-open-combo="'+key+'"]')?.focus({preventScroll:true})};
  panel.querySelectorAll('[data-replace-part]').forEach(el=>el.onclick=()=>openComboPicker(key,Number(el.dataset.replacePart)));
  document.getElementById('add-bundle').onclick=()=>addBundleToCart(key);
@@ -124,11 +128,12 @@ document.addEventListener('keydown',e=>{
  }
 });
 function bundleCartAmounts(b){
- const cents=bundleParts(b).map(part=>comboCents(bundleAmount(part))*.9),rounded=cents.map(Math.floor);
- let remainder=comboCents(bundleTotal(b))-rounded.reduce((a,v)=>a+v,0);
- const order=cents.map((v,i)=>({i,f:v-rounded[i]})).sort((a,b)=>b.f-a.f);
- for(let j=0;j<remainder;j++)rounded[order[j%order.length].i]++;
- return rounded.map(n=>n/100);
+ // Allocate the rounded-down bundle price in whole rubles, including cart line items.
+ const discounted=bundleParts(b).map(part=>comboCents(bundleAmount(part))*9/1000),amounts=discounted.map(Math.floor);
+ const remainder=bundleTotal(b)-amounts.reduce((a,v)=>a+v,0);
+ const order=discounted.map((v,i)=>({i,f:v-amounts[i]})).sort((a,b)=>b.f-a.f);
+ for(let j=0;j<remainder;j++)amounts[order[j].i]++;
+ return amounts;
 }
 function addBundleToCart(key){
  const b=bundleByKey(key);if(!b||!catalogLoaded||!bundleValid(b))return false;
@@ -137,6 +142,21 @@ function addBundleToCart(key){
  saveCart();hide();showCart();return true;
 }
 
+// Keep previously saved combo baskets consistent with the new whole-ruble prices.
+function roundSavedBundleCart(items){
+ const groups=new Map();let changed=false;
+ items.filter(x=>x.bundleInstance&&x.bundleKey).forEach(x=>{if(!groups.has(x.bundleInstance))groups.set(x.bundleInstance,[]);groups.get(x.bundleInstance).push(x)});
+ for(const group of groups.values()){
+  const cents=group.map(x=>comboCents(x.amount)),target=Math.floor(cents.reduce((s,n)=>s+n,0)/100),amounts=cents.map(n=>Math.floor(n/100));
+  const order=cents.map((n,i)=>({i,f:n%100})).sort((a,b)=>b.f-a.f);
+  const remainder=target-amounts.reduce((s,n)=>s+n,0);
+  for(let j=0;j<remainder;j++)amounts[order[j].i]++;
+  group.forEach((x,i)=>{if(Number(x.amount)!==amounts[i]){x.amount=amounts[i];changed=true}});
+ }
+ return changed;
+}
+document.addEventListener('DOMContentLoaded',()=>{if(typeof cart!=='undefined'&&roundSavedBundleCart(cart))saveCart()});
+
 
 // Load after the storefront's legacy inline rules so the combo design stays scoped.
-const comboStudioStyle=document.createElement('link');comboStudioStyle.rel='stylesheet';comboStudioStyle.href='combo-studio.css?v=20261029-2';document.head.appendChild(comboStudioStyle);
+const comboStudioStyle=document.createElement('link');comboStudioStyle.rel='stylesheet';comboStudioStyle.href='combo-studio.css?v=20261029-3';document.head.appendChild(comboStudioStyle);
