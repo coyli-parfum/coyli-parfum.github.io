@@ -14,7 +14,7 @@ const giftBundles=[
 ];
 let bundleBudget=0;
 const bundleChoices={};
-const comboMoney=n=>Number(n).toLocaleString('ru-RU',{maximumFractionDigits:2})+' ₽';
+const comboMoney=n=>Number(n).toLocaleString('ru-RU',{minimumFractionDigits:Number.isInteger(Number(n))?0:2,maximumFractionDigits:2})+' ₽';
 const comboCents=n=>Math.round(Number(n)*100);
 function bundleByKey(key){return giftBundles.find(b=>b.key===key)}
 function bundleSelections(b){return bundleChoices[b.key]||(bundleChoices[b.key]=b.items.map(x=>({...x})))}
@@ -52,27 +52,26 @@ function comboObjectPhoto(path,bounds,alt){
  const [l,t,w,h,sw,sh]=bounds;
  return '<span class="combo-cutout" style="aspect-ratio:'+w+'/'+h+'"><img src="'+esc(path)+'" alt="'+esc(alt)+'" loading="lazy" style="width:'+(sw/w*100)+'%;height:'+(sh/h*100)+'%;left:'+(-l/w*100)+'%;top:'+(-t/h*100)+'%"></span>';
 }
+// Use the same photographed object and scale in the scene, card and picker.
+function comboPhoto(part){
+ const x=part.product;if(!x)return null;
+ const path=part.type==='perfume'?'assets/bottles/coyli-'+part.vol+'ml.webp':x.id===4&&Number(part.vol)===75?'assets/gifts/maple-waffles-75-front-20261018.webp':x.imagesByVolume?.[part.vol]||x.image;
+ const bounds=comboPhotoBounds[path];
+ const sizes={'Крем-баттер':Number(part.vol)===75?.53:.66,'Свеча':.63,'Мисты':1,'Диффузор':1.12,'Аромасаше':.73,'Автопарфюм':.66,'Рум-спрей':Number(part.vol)===200?1.14:1.04};
+ return {path,bounds,ratio:bounds?bounds[2]/bounds[3]:.6,scale:part.type==='perfume'?(Number(part.vol)===10?.68:.86):(sizes[part.type]||.8),butter:part.type==='Крем-баттер',alt:x.name};
+}
+function comboPhotoMarkup(part){
+ const o=comboPhoto(part);return o?comboObjectPhoto(o.path,o.bounds,o.alt):'<span class="combo-photo-missing">Фото скоро</span>';
+}
 function bundlePhotos(b){
- const parts=bundleParts(b);
- const objects=parts.map(part=>{
-  const x=part.product;if(!x)return null;
-  const cutout={24:'mist',40:'candle',28:'room',72:'car',36:'diffuser',59:'sachet'}[x.id];
-  const path=cutout?'assets/bottles/combo-'+cutout+'.webp':part.type==='perfume'?'assets/bottles/coyli-'+part.vol+'ml.webp':x.id===4&&Number(part.vol)===75?'assets/gifts/maple-waffles-75-front-20261018.webp':x.imagesByVolume?.[part.vol]||x.image;
-  const bounds=comboPhotoBounds[path];
-  return {path,bounds,ratio:bounds?bounds[2]/bounds[3]:1,scale:1,butter:part.type==='Крем-баттер',alt:x.name+(part.type==='perfume'?' · '+part.vol+' мл':'')};
- }).filter(Boolean);
- const bag='assets/gifts/coyli-bag-transparent-20261018.webp',bagBounds=comboPhotoBounds[bag];
- objects.push({path:bag,bounds:bagBounds,ratio:bagBounds[2]/bagBounds[3],scale:1.08,bag:true,alt:'Фирменный пакет COYLI PARFUM'});
- const gap=objects.length>4?2:3,aspect=2,bagHeight=70;
- const bagWidth=bagHeight*(bagBounds[2]/bagBounds[3])/aspect;
- const productRatios=objects.filter(o=>!o.bag).reduce((sum,o)=>sum+o.ratio,0);
- const height=Math.min(70,(88-bagWidth-gap*(objects.length-1))*aspect/productRatios);
- const total=height/aspect*productRatios+bagWidth+gap*(objects.length-1);
- let left=(100-total)/2;
- return '<div class="combo-scene composition-'+parts.length+'">'+objects.map(o=>{
-  const h=o.bag?bagHeight:height,w=h*o.ratio/aspect;
-  const html='<div class="'+(o.bag?'combo-bag':'combo-object'+(o.butter?' is-butter':''))+'" style="left:'+left.toFixed(3)+'%;bottom:9%;height:'+h.toFixed(3)+'%;width:'+w.toFixed(3)+'%;max-width:none;right:auto;z-index:2">'+comboObjectPhoto(o.path,o.bounds,o.alt)+'</div>';
-  left+=w+gap;return html;
+ const objects=bundleParts(b).map(comboPhoto).filter(Boolean),gap=objects.length>3?3:5;
+ const totalRatio=objects.reduce((n,o)=>n+o.ratio*o.scale,0);
+ const unit=Math.min(74,(88-gap*(objects.length-1))*1.1/totalRatio);
+ const total=unit/1.1*totalRatio+gap*(objects.length-1);let left=(100-total)/2;
+ return '<div class="combo-studio-scene" aria-label="Состав набора">'+objects.map(o=>{
+ const h=unit*o.scale,w=h*o.ratio/1.1;
+ const html='<div class="combo-studio-object'+(o.butter?' is-butter':'')+'" style="left:'+left.toFixed(3)+'%;height:'+h.toFixed(3)+'%;width:'+w.toFixed(3)+'%">'+comboObjectPhoto(o.path,o.bounds,o.alt)+'</div>';
+ left+=w+gap;return html;
  }).join('')+'</div>';
 }
 function comboPrice(b){return '<div class="combo-price"><del>'+comboMoney(bundleRegularTotal(b))+'</del><strong>'+comboMoney(bundleTotal(b))+'</strong><span>Выгода '+comboMoney((comboCents(bundleRegularTotal(b))-comboCents(bundleTotal(b)))/100)+'</span></div>'}
@@ -80,22 +79,49 @@ function renderBundles(){
  const root=document.getElementById('bundle-section');
  if(!catalogLoaded){root.innerHTML='<p role="status">Загружаем комбо…</p>';return}
  const list=giftBundles.filter(b=>!bundleBudget||b.budget===bundleBudget);
- root.innerHTML='<div class="combo-heading"><p class="coyli-kicker">КОМБО COYLI PARFUM</p><h2>Вместе выгоднее</h2><p>Выберите сочетание по бюджету. Меняйте ароматы — скидка 10% на полный набор сохранится.</p></div><div class="gift-budget-tabs" aria-label="Бюджет комбо">'+[0,1500,2000,3000,5000,10000].map(n=>'<button type="button" class="pill '+(n===bundleBudget?'selected':'')+'" data-combo-budget="'+n+'">'+(n?'До '+comboMoney(n):'Все комбо')+'</button>').join('')+'</div><div class="combo-grid">'+list.map(b=>'<article class="combo-card"><div class="combo-visual">'+bundlePhotos(b)+'<span class="combo-discount">−10%</span></div><div class="combo-content"><p class="combo-budget">До '+comboMoney(b.budget)+'</p><h3>'+esc(b.name)+'</h3><ul>'+bundleParts(b).map(part=>'<li><span>'+esc(comboPartType(part))+'</span><small>'+esc(bundleDescription(part))+'</small></li>').join('')+'</ul>'+comboPrice(b)+(b.key==='original'?'<p class="combo-location">Оригиналы — только ТК «Ньютон»</p>':'')+'<button type="button" class="primary" data-open-combo="'+b.key+'">Выбрать ароматы</button><p class="gift-pack-note">Фирменный пакет бесплатно</p></div></article>').join('')+'</div><p class="combo-terms">Скидка 10% действует при покупке полного набора. Акционные ароматы в комбо не участвуют. Наличие подтвердит менеджер.</p>';
+ root.innerHTML='<div class="combo-heading"><p class="coyli-kicker">КОМБО COYLI PARFUM</p><h2>Вместе выгоднее</h2><p>Любимые сочетания со скидкой 10%. Ароматы можно менять.</p></div><div class="gift-budget-tabs" aria-label="Бюджет комбо">'+[0,1500,2000,3000,5000,10000].map(n=>'<button type="button" class="pill '+(n===bundleBudget?'selected':'')+'" data-combo-budget="'+n+'">'+(n?'До '+comboMoney(n):'Все комбо')+'</button>').join('')+'</div><div class="combo-studio-grid">'+list.map(b=>'<button type="button" class="combo-studio-tile" data-open-combo="'+b.key+'">'+bundlePhotos(b)+'<span class="combo-tile-copy"><span class="combo-tile-name">'+esc(b.name)+'</span><span class="combo-tile-price"><del>'+comboMoney(bundleRegularTotal(b))+'</del><strong>'+comboMoney(bundleTotal(b))+'</strong><span aria-hidden="true">↗</span></span></span></button>').join('')+'</div><p class="combo-terms">Скидка 10% действует при покупке полного набора. Акционные ароматы в комбо не участвуют. Фирменный пакет бесплатно. Наличие подтвердит менеджер.</p>';
  root.querySelectorAll('[data-combo-budget]').forEach(el=>el.onclick=()=>{bundleBudget=Number(el.dataset.comboBudget);renderBundles()});
  root.querySelectorAll('[data-open-combo]').forEach(el=>el.onclick=()=>openBundle(el.dataset.openCombo));
 }
 function bundleChoose(key,i,selection){const b=bundleByKey(key);if(!b||!bundlePartAllowed(b,i,selection))return false;const allowed=bundleOptions(b,i).some(x=>x.id===Number(selection.id));if(!allowed)return false;bundleSelections(b)[i]={...bundleSelections(b)[i],id:Number(selection.id)};return true}
 function openBundle(key,keepScroll=false){
- const b=bundleByKey(key);if(!b)return;const panel=document.getElementById('panel'),scroll=keepScroll?panel.scrollTop:0;
- panel.innerHTML='<button class="close" onclick="hide()" aria-label="Закрыть комбо">×</button><p class="coyli-kicker">КОМБО · −10%</p><h2>'+esc(b.name)+'</h2>'+bundlePhotos(b)+'<p class="combo-detail-intro">Выберите аромат каждого средства. Объёмы и состав комбо фиксированы.</p>'+bundleParts(b).map((part,i)=>{
- const options=bundleOptions(b,i),selected=bundleSelections(b)[i];
- return '<section class="combo-part"><label for="combo-choice-'+i+'">'+esc(comboPartType(part))+' · '+part.vol+(part.product?.cat==='Автопарфюм'?'':' мл')+'</label>'+(part.type==='perfume'?'<input type="search" class="bundle-select" data-combo-search="'+i+'" placeholder="Найти аромат или бренд" aria-label="Поиск парфюма">':'')+'<select class="bundle-select" id="combo-choice-'+i+'" data-combo-choice="'+i+'">'+options.map(o=>'<option value="'+o.id+'" '+(o.id===selected.id?'selected':'')+'>'+esc((part.type==='perfume'?o.product.cat+' · ':'')+o.product.name)+' — '+comboMoney(bundleAmount(bundlePart(o)))+'</option>').join('')+'</select>'+(b.items[i].maxRegular?'<p class="muted">Оригинал 20 мл стоимостью до '+comboMoney(b.items[i].maxRegular)+' до скидки.</p>':'')+'</section>';
- }).join('')+comboPrice(b)+'<p class="gift-pack-note">Фирменный пакет бесплатно</p>'+(b.key==='original'?'<p class="combo-location">Оригиналы представлены только в ТК «Ньютон».</p>':'')+'<button class="primary" type="button" id="add-bundle" '+(!bundleValid(b)?'disabled':'')+'>Добавить комбо в корзину</button><p class="muted">Цена уже со скидкой 10%. Наличие подтвердит менеджер.</p>';
- panel.querySelectorAll('[data-combo-choice]').forEach(el=>el.onchange=()=>{const i=Number(el.dataset.comboChoice);if(bundleChoose(key,i,{...bundleSelections(b)[i],id:Number(el.value)})){openBundle(key,true);renderBundles()}});
- panel.querySelectorAll('[data-combo-search]').forEach(el=>el.oninput=()=>{const select=panel.querySelector('[data-combo-choice="'+el.dataset.comboSearch+'"]');for(const option of select.options){option.hidden=!norm(option.textContent).includes(norm(el.value))}});
+ const b=bundleByKey(key);if(!b)return;
+ const panel=document.getElementById('panel'),scroll=keepScroll?panel.scrollTop:0,trackScroll=keepScroll?(panel.querySelector('.combo-studio-parts')?.scrollLeft||0):0;
+ panel.innerHTML='<article class="combo-studio-detail" role="dialog" aria-modal="true" aria-labelledby="combo-studio-title"><div class="combo-studio-heading"><h2 id="combo-studio-title">'+esc(b.name)+'</h2><button type="button" class="combo-studio-close" aria-label="Закрыть комбо">×</button></div>'+bundlePhotos(b)+'<div class="combo-studio-parts" aria-label="Товары в наборе">'+bundleParts(b).map((part,i)=>{
+ const o=comboPhoto(part);
+ return '<section class="combo-studio-part"><div class="combo-studio-thumb'+(o?.butter?' is-butter':'')+'" style="--object-scale:'+(o?.scale||1)+'">'+comboPhotoMarkup(part)+'</div><p class="combo-studio-volume">'+esc(String(part.vol))+(part.product?.cat==='Автопарфюм'?'':' мл')+'</p><h3>'+esc(comboPartType(part))+'</h3><p class="combo-studio-name">'+esc(part.product?.name||'Выберите аромат')+'</p><button type="button" class="combo-studio-replace" data-replace-part="'+i+'" aria-label="Заменить '+esc(comboPartType(part))+'">Заменить</button></section>';
+ }).join('')+'</div><div class="combo-studio-notes"><p>Фирменный пакет бесплатно</p>'+(b.key==='original'?'<small>Оригиналы представлены только в ТК «Ньютон».</small>':'')+'<small>−10% на полный набор · Наличие подтвердит менеджер</small></div><div class="combo-studio-purchase"><button class="combo-studio-buy" type="button" id="add-bundle" '+(!bundleValid(b)?'disabled':'')+' aria-label="Добавить набор в корзину за '+comboMoney(bundleTotal(b))+'"><span aria-hidden="true">+</span><strong>'+comboMoney(bundleTotal(b))+'</strong><del>'+comboMoney(bundleRegularTotal(b))+'</del></button>'+(!bundleValid(b)?'<p role="status">Выберите доступные ароматы для всех средств.</p>':'')+'</div><div class="combo-studio-picker" hidden></div></article>';
+ panel.querySelector('.combo-studio-close').onclick=()=>{hide();document.querySelector('[data-open-combo="'+key+'"]')?.focus({preventScroll:true})};
+ panel.querySelectorAll('[data-replace-part]').forEach(el=>el.onclick=()=>openComboPicker(key,Number(el.dataset.replacePart)));
  document.getElementById('add-bundle').onclick=()=>addBundleToCart(key);
- panel.scrollTop=scroll;document.getElementById('overlay').classList.add('open');
+ panel.scrollTop=scroll;panel.querySelector('.combo-studio-parts').scrollLeft=trackScroll;
+ document.getElementById('overlay').classList.add('open');
+ if(!keepScroll)panel.querySelector('.combo-studio-close').focus({preventScroll:true});
 }
+function openComboPicker(key,i){
+ const b=bundleByKey(key),picker=document.querySelector('.combo-studio-picker');if(!b||!picker)return;
+ const options=bundleOptions(b,i),current=bundleSelections(b)[i];
+ picker.innerHTML='<div class="combo-picker-sheet" role="dialog" aria-modal="true" aria-label="Выбрать аромат"><div class="combo-picker-head"><h3>Выбрать аромат</h3><button type="button" class="combo-picker-close" aria-label="Закрыть выбор аромата">×</button></div><input type="search" class="combo-picker-search" placeholder="Название или бренд" aria-label="Найти аромат"><div class="combo-picker-options">'+options.map(o=>'<button type="button" class="combo-picker-option" data-choice-id="'+o.id+'" aria-pressed="'+(o.id===current.id)+'"><span class="combo-picker-photo">'+comboPhotoMarkup(bundlePart(o))+'</span><span>'+esc(o.product.name)+'<small>'+esc(o.product.cat)+' · '+comboMoney(bundleAmount(bundlePart(o)))+'</small></span><span class="combo-picker-check" aria-hidden="true">'+(o.id===current.id?'✓':'+')+'</span></button>').join('')+'<p class="combo-picker-empty" hidden>Подходящих ароматов нет.</p></div></div>';
+ picker.hidden=false;
+ const close=()=>{picker.hidden=true;document.querySelector('[data-replace-part="'+i+'"]')?.focus({preventScroll:true})};
+ picker.onclick=e=>{if(e.target===picker)close()};picker.querySelector('.combo-picker-close').onclick=close;
+ picker.querySelector('.combo-picker-search').oninput=e=>{
+ let count=0;picker.querySelectorAll('[data-choice-id]').forEach(el=>{el.hidden=!norm(el.textContent).includes(norm(e.target.value));if(!el.hidden)count++});picker.querySelector('.combo-picker-empty').hidden=count>0;
+ };
+ picker.querySelectorAll('[data-choice-id]').forEach(el=>el.onclick=()=>{
+ if(bundleChoose(key,i,{...current,id:Number(el.dataset.choiceId)})){openBundle(key,true);renderBundles();document.querySelector('[data-replace-part="'+i+'"]')?.focus({preventScroll:true})}
+ });
+ picker.querySelector('.combo-picker-close').focus({preventScroll:true});
+}
+document.addEventListener('keydown',e=>{
+ const overlay=document.getElementById('overlay'),detail=overlay?.classList.contains('open')&&overlay.querySelector('.combo-studio-detail');if(!detail)return;
+ const picker=detail.querySelector('.combo-studio-picker');
+ if(e.key==='Escape'){e.preventDefault();if(!picker.hidden)picker.querySelector('.combo-picker-close').click();else detail.querySelector('.combo-studio-close').click()}
+ if(e.key==='Tab'){
+ const scope=picker.hidden?detail:picker,items=Array.from(scope.querySelectorAll('button:not([disabled]),input')).filter(el=>el.getClientRects().length);
+ const first=items[0],last=items[items.length-1];if(e.shiftKey&&document.activeElement===first){e.preventDefault();last?.focus()}else if(!e.shiftKey&&document.activeElement===last){e.preventDefault();first?.focus()}
+ }
+});
 function bundleCartAmounts(b){
  const cents=bundleParts(b).map(part=>comboCents(bundleAmount(part))*.9),rounded=cents.map(Math.floor);
  let remainder=comboCents(bundleTotal(b))-rounded.reduce((a,v)=>a+v,0);
@@ -110,3 +136,6 @@ function addBundleToCart(key){
  saveCart();hide();showCart();return true;
 }
 
+
+// Load after the storefront's legacy inline rules so the combo design stays scoped.
+const comboStudioStyle=document.createElement('link');comboStudioStyle.rel='stylesheet';comboStudioStyle.href='combo-studio.css?v=20261029-1';document.head.appendChild(comboStudioStyle);
