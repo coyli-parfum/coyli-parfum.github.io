@@ -61,12 +61,12 @@ function comboPhoto(part){
  const sizes={'Крем-баттер':Number(part.vol)===75?.53:.66,'Свеча':.63,'Мисты':1,'Диффузор':1.12,'Аромасаше':.73,'Автопарфюм':.66,'Рум-спрей':Number(part.vol)===200?1.14:1.04};
  return {path,bounds,ratio:bounds?bounds[2]/bounds[3]:.6,scale:part.type==='perfume'?(Number(part.vol)===10?.68:.86):(sizes[part.type]||.8),butter:part.type==='Крем-баттер',alt:x.name};
 }
-function comboPhotoMarkup(part){
- const o=comboPhoto(part);return o?comboObjectPhoto(o.path,o.bounds,o.alt):'<span class="combo-photo-missing">Фото скоро</span>';
+function comboProductFigure(o){
+ if(!o)return '<span class="combo-photo-missing">Фото скоро</span>';
+ const photo=comboObjectPhoto(o.path,o.bounds,o.alt),reflection=comboObjectPhoto(o.path,o.bounds,'');
+ return '<span class="combo-product'+(o.butter?' is-tin':'')+'" style="aspect-ratio:'+o.ratio+'"><span class="combo-contact-shadow" aria-hidden="true"></span><span class="combo-object-body">'+(o.butter?'<span class="combo-tin-depth" aria-hidden="true"></span>':'')+photo+'</span><span class="combo-reflection" aria-hidden="true"><span class="combo-reflected-body">'+(o.butter?'<span class="combo-tin-depth"></span>':'')+reflection+'</span></span></span>';
 }
-// Editorial photos match the exact default selection; changed aromas always show their real catalogue photo.
-function bundleScenePath(b){return 'assets/combos/approved-'+b.key+'-20261029.webp'}
-function bundleIsDefault(b){return bundleSelections(b).every((s,i)=>s.id===b.items[i].id&&String(s.vol)===String(b.items[i].vol))}
+function comboPhotoMarkup(part){return comboProductFigure(comboPhoto(part))}
 // Fixed slots depend on product type and volume, never on the selected aroma.
 function comboSlotRatio(item){return item.type==='Крем-баттер'?1.05:item.type==='Свеча'?.98:item.type==='Аромасаше'?.78:item.type==='Диффузор'?.72:item.type==='Автопарфюм'?.55:item.type==='Рум-спрей'?.50:item.type==='perfume'?(Number(item.vol)===10?.23:.42):.32}
 function bundleLayout(b){
@@ -76,12 +76,11 @@ function bundleLayout(b){
  const width=unit/1.65*totalRatio+gap*(objects.length-1);let left=(100-width)/2;
  return objects.map(o=>{const h=unit*o.scale,w=h*o.slotRatio/1.65,slot={left,width:w,height:h};left+=w+gap;return slot});
 }
-function bundlePhotos(b,detail=false){
- if(!detail)return '<div class="combo-studio-scene is-photographic"><img class="combo-editorial-photo" src="'+bundleScenePath(b)+'" alt="'+esc(b.name)+'" loading="lazy" decoding="async" width="1254" height="1254"></div>';
+function bundlePhotos(b){
  const slots=bundleLayout(b);
  return '<div class="combo-studio-scene is-live-products" aria-label="Состав набора">'+bundleParts(b).map((part,i)=>{
  const o=comboPhoto(part),slot=slots[i];if(!o)return '';
- return '<div class="combo-studio-object'+(o.butter?' is-butter':'')+'" data-combo-slot="'+i+'" style="left:'+slot.left.toFixed(3)+'%;height:'+slot.height.toFixed(3)+'%;width:'+slot.width.toFixed(3)+'%">'+comboObjectPhoto(o.path,o.bounds,o.alt)+'</div>';
+ return '<div class="combo-studio-object'+(o.butter?' is-butter':'')+'" data-combo-slot="'+i+'" style="left:'+slot.left.toFixed(3)+'%;height:'+slot.height.toFixed(3)+'%;width:'+slot.width.toFixed(3)+'%">'+comboProductFigure(o)+'</div>';
  }).join('')+'</div>';
 }
 function comboPrice(b){return '<div class="combo-price"><del>'+comboMoney(bundleRegularTotal(b))+'</del><strong>'+comboMoney(bundleTotal(b))+'</strong><span>Выгода '+comboMoney((comboCents(bundleRegularTotal(b))-comboCents(bundleTotal(b)))/100)+'</span></div>'}
@@ -97,7 +96,7 @@ function bundleChoose(key,i,selection){const b=bundleByKey(key);if(!b||!bundlePa
 function openBundle(key,keepScroll=false){
  const b=bundleByKey(key);if(!b)return;
  const panel=document.getElementById('panel'),scroll=keepScroll?panel.scrollTop:0,trackScroll=keepScroll?(panel.querySelector('.combo-studio-parts')?.scrollLeft||0):0;
- panel.innerHTML='<article class="combo-studio-detail" data-combo="'+esc(b.key)+'" role="dialog" aria-modal="true" aria-labelledby="combo-studio-title"><div class="combo-studio-heading"><h2 id="combo-studio-title">'+esc(b.name)+'</h2><button type="button" class="combo-studio-close" aria-label="Закрыть комбо">×</button></div>'+bundlePhotos(b,true)+'<div class="combo-studio-parts" aria-label="Товары в наборе">'+bundleParts(b).map((part,i)=>{
+ panel.innerHTML='<article class="combo-studio-detail" data-combo="'+esc(b.key)+'" role="dialog" aria-modal="true" aria-labelledby="combo-studio-title"><div class="combo-studio-heading"><h2 id="combo-studio-title">'+esc(b.name)+'</h2><button type="button" class="combo-studio-close" aria-label="Закрыть комбо">×</button></div>'+bundlePhotos(b)+'<div class="combo-studio-parts" aria-label="Товары в наборе">'+bundleParts(b).map((part,i)=>{
  const o=comboPhoto(part);
  return '<section class="combo-studio-part"><div class="combo-studio-thumb'+(o?.butter?' is-butter':'')+'" style="--object-scale:'+(o?.scale||1)+'">'+comboPhotoMarkup(part)+'</div><p class="combo-studio-volume">'+esc(String(part.vol))+(part.product?.cat==='Автопарфюм'?'':' мл')+'</p><h3>'+esc(comboPartType(part))+'</h3><p class="combo-studio-name">'+esc(part.product?.name||'Выберите аромат')+'</p><button type="button" class="combo-studio-replace" data-replace-part="'+i+'" aria-label="Заменить '+esc(comboPartType(part))+'">Заменить</button></section>';
  }).join('')+'</div><div class="combo-studio-notes">'+(b.key==='original'?'<small>Оригиналы представлены только в ТК «Ньютон».</small>':'')+'</div><div class="combo-studio-purchase"><button class="combo-studio-buy" type="button" id="add-bundle" '+(!bundleValid(b)?'disabled':'')+' aria-label="Добавить набор в корзину за '+comboMoney(bundleTotal(b))+'"><span aria-hidden="true">+</span><strong>'+comboMoney(bundleTotal(b))+'</strong><del>'+comboMoney(bundleRegularTotal(b))+'</del></button>'+(!bundleValid(b)?'<p role="status">Выберите доступные ароматы для всех средств.</p>':'')+'<p class="combo-bag-note">Фирменный пакет бесплатно</p></div><div class="combo-studio-picker" hidden></div></article>';
@@ -164,4 +163,4 @@ document.addEventListener('DOMContentLoaded',()=>{if(typeof cart!=='undefined'&&
 
 
 // Load after the storefront's legacy inline rules so the combo design stays scoped.
-const comboStudioStyle=document.createElement('link');comboStudioStyle.rel='stylesheet';comboStudioStyle.href='combo-studio.css?v=20261030-silver-1';document.head.appendChild(comboStudioStyle);
+const comboStudioStyle=document.createElement('link');comboStudioStyle.rel='stylesheet';comboStudioStyle.href='combo-studio.css?v=20261030-unified-1';document.head.appendChild(comboStudioStyle);
