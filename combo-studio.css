@@ -142,3 +142,16 @@ body:has(#overlay.open .combo-studio-detail) .coyli-side-trigger{visibility:hidd
 .combo-studio-object:after{z-index:0;bottom:-4px;height:6px;left:3%;width:94%;background:#41372d50;filter:blur(3px)}
 
 .combo-budget-line{display:block;white-space:nowrap}
+
+/* COYLI silver studio: cool neutral light and restrained metallic reflections. */
+#panel:has(.combo-studio-detail){background:#eceef2}
+.combo-studio-detail{background:radial-gradient(ellipse at 30% 12%,#fffffffa 0%,#ffffff00 48%),linear-gradient(130deg,#eef0f4 0%,#d8dce3 52%,#f8f9fb 100%);color:#272b37}
+.combo-studio-detail>.is-live-products{background:radial-gradient(ellipse at 48% 83%,#ffffffbd 0%,#ffffff00 61%),linear-gradient(180deg,#e4e7ed00 0%,#d8dce580 44%,#f8f9fc 47%,#e8ebf2 55%,#f6f7fa 81%,#e3e7ee00 100%);mask-image:linear-gradient(transparent,#000 10%,#000 88%,transparent);-webkit-mask-image:linear-gradient(transparent,#000 10%,#000 88%,transparent)}
+.combo-studio-detail .combo-studio-object{filter:drop-shadow(2px 5px 3px #424b5c22)}
+.combo-studio-detail .combo-studio-object:after{background:#48546730}
+.combo-studio-detail .combo-studio-part{background:linear-gradient(135deg,#ffffff60,#ffffff24);border-color:#ffffffc4;box-shadow:inset 0 1px 0 #ffffff55}
+.combo-studio-detail .combo-studio-replace{background:#f6f7f98c;border:1px solid #ffffffa6;color:#303543}
+.combo-studio-detail .combo-studio-volume,.combo-studio-detail .combo-studio-name{color:#626978}
+.combo-studio-detail .combo-studio-purchase{background:#edf0f5b5;border-color:#ffffff80}
+.combo-studio-detail .combo-bag-note{color:#626978}
+.combo-studio-detail .combo-studio-close{background:#ffffff40;border-color:#ffffffb3;color:#414957}

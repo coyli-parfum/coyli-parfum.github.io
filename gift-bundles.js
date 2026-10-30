@@ -164,4 +164,4 @@ document.addEventListener('DOMContentLoaded',()=>{if(typeof cart!=='undefined'&&
 
 
 // Load after the storefront's legacy inline rules so the combo design stays scoped.
-const comboStudioStyle=document.createElement('link');comboStudioStyle.rel='stylesheet';comboStudioStyle.href='combo-studio.css?v=20261029-4';document.head.appendChild(comboStudioStyle);
+const comboStudioStyle=document.createElement('link');comboStudioStyle.rel='stylesheet';comboStudioStyle.href='combo-studio.css?v=20261030-silver-1';document.head.appendChild(comboStudioStyle);
