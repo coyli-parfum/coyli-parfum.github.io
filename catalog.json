@@ -16641,7 +16641,8 @@
     "notesSource": "https://www.carolinaherrera.com/ww/en/editorial/fragrances-confidential-cedar-chic",
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.109989.jpg",
     "sortBrand": "carolina herrera",
-    "gender": "Унисекс"
+    "gender": "Унисекс",
+    "isNew": true
   },
   {
     "id": 491,
@@ -16671,7 +16672,8 @@
     "notesSource": "https://initioparfums.com/products/oud-for-greatness",
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.53641.jpg",
     "sortBrand": "initio",
-    "gender": "Унисекс"
+    "gender": "Унисекс",
+    "isNew": true
   },
   {
     "id": 492,
@@ -16701,7 +16703,8 @@
     "notesSource": "https://us.initioparfums.com/products/psychedelic-love",
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.45977.jpg",
     "sortBrand": "initio",
-    "gender": "Унисекс"
+    "gender": "Унисекс",
+    "isNew": true
   },
   {
     "id": 493,
@@ -16731,7 +16734,8 @@
     "notesSource": "https://www.bykilian.com/product/19797/146984/perfume/vodka-on-the-rocks/the-liquors",
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.23899.jpg",
     "sortBrand": "kilian",
-    "gender": "Унисекс"
+    "gender": "Унисекс",
+    "isNew": true
   },
   {
     "id": 494,
@@ -16761,7 +16765,8 @@
     "notesSource": "https://www.louisvuitton.cn/zhs-cn/products/rain-tea-louis-vuitton-nvprod6840031v/LP0424",
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.115406.jpg",
     "sortBrand": "louis vuitton",
-    "gender": "Унисекс"
+    "gender": "Унисекс",
+    "isNew": true
   },
   {
     "id": 495,
@@ -16791,6 +16796,7 @@
     "notesSource": "https://parfums-de-marly.com/products/valaya",
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.78574.jpg",
     "sortBrand": "parfums de marly",
-    "gender": "Женский"
+    "gender": "Женский",
+    "isNew": true
   }
 ]
