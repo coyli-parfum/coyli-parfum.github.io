@@ -42,8 +42,9 @@ r.querySelectorAll('[data-gift-design]').forEach(b=>b.addEventListener('click',(
 r.querySelectorAll('[data-gift-amount]').forEach(b=>b.addEventListener('click',()=>{state.amount=Number(b.dataset.giftAmount);el('gift-custom-amount').value='';update();}));
 el('gift-custom-amount').addEventListener('input',e=>{e.target.value=e.target.value.replace(/[^0-9]/g,'');state.amount=Number(e.target.value);update();});
 el('gift-wish').addEventListener('input',e=>{state.wish=e.target.value;el('gift-order-details').hidden=true;});
-el('gift-order').addEventListener('click',()=>{if(!Number.isSafeInteger(state.amount)||state.amount<=0){el('gift-error').hidden=false;el('gift-custom-amount').focus();return;}el('gift-order-text').value=summary();el('gift-telegram').href='https://t.me/coyli_parfum?text='+encodeURIComponent(summary());el('gift-order-details').hidden=false;el('gift-copy-status').textContent='';el('gift-order-details').scrollIntoView({behavior:'smooth',block:'nearest'});});
+el('gift-order').addEventListener('click',()=>{if(!Number.isSafeInteger(state.amount)||state.amount<=0){el('gift-error').hidden=false;el('gift-custom-amount').focus();return;}if(window.CoyliApp?.request){window.CoyliApp.request({giftText:'Подарочный сертификат COYLI PARFUM\n'+summary().split('\n\n')[1]},'pickup',()=>{hide();selectCategory('Подарочные карты');});return;}el('gift-order-text').value=summary();el('gift-telegram').href='https://t.me/coyli_parfum?text='+encodeURIComponent(summary());el('gift-order-details').hidden=false;el('gift-copy-status').textContent='';el('gift-order-details').scrollIntoView({behavior:'smooth',block:'nearest'});});
 el('gift-copy').addEventListener('click',async()=>{try{await navigator.clipboard.writeText(summary());el('gift-copy-status').textContent='Заявка скопирована.';}catch{el('gift-order-text').focus();el('gift-order-text').select();el('gift-copy-status').textContent='Выделили заявку — скопируйте её вручную.';}});
 update();};
 })();
+
 

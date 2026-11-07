@@ -256,3 +256,26 @@ body .coyli-info-panel {
   #panel.app-panel { border-radius: var(--coyli-sheet-radius) var(--coyli-sheet-radius) 0 0; }
   body .app-nav button { border-radius: var(--coyli-control-radius); }
 }
+
+/* Clear catalog hierarchy and context-rich contact requests. */
+.app-category-list button small{display:block;color:#737984;font-size:12px;line-height:1.5;font-weight:400;margin-top:5px;max-width:520px}
+.app-category-description{font-size:13px;line-height:1.65;color:#606979;margin:8px 0 14px;max-width:720px}
+.app-subcategories{display:flex;gap:7px;flex-wrap:wrap;margin:0 0 18px}
+.app-subcategories button{font:inherit;font-size:12px;min-height:42px;padding:10px 15px;border:1px solid #e4e8f0;border-radius:12px;background:#fff;color:#3b4655;cursor:pointer}
+.app-subcategories button[aria-pressed="true"]{background:#0047bb;border-color:#0047bb;color:#fff}
+.app-product-kind-note{font-size:12px;line-height:1.6;color:#59677d;background:#f1f5fc;border-radius:12px;padding:12px 14px;margin:12px 0 18px}
+.app-request-product{margin-top:10px;width:100%}
+.app-request-intro{font-size:14px;line-height:1.6;color:#69717c;margin:0 0 18px}
+.app-request-selection{display:grid;gap:6px;background:#f4f6fa;border-radius:14px;padding:14px;margin:0 0 20px;font-size:13px;line-height:1.5}
+.app-request-selection strong{font-size:16px;font-weight:500}.app-request-selection span{color:#647084}
+.app-intents{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px;border:0;padding:0;margin:0 0 22px;min-width:0}
+.app-intents legend{font-size:15px;font-weight:500;margin-bottom:12px}
+.app-intents label{display:flex;align-items:flex-start;gap:8px;padding:12px 10px;border:1px solid #e1e6ef;border-radius:12px;cursor:pointer;min-width:0;min-height:70px}
+.app-intents label:has(:checked){background:#edf3ff;border-color:#0047bb}
+.app-intents input{accent-color:#0047bb;flex:none;width:16px;height:16px;min-height:0;margin:2px 0 0;padding:0}
+.app-intents strong{display:block;font-size:13px;font-weight:500;line-height:1.4}.app-intents small{display:block;font-size:11px;line-height:1.5;color:#687589;margin-top:4px}
+.app-form-error{font-size:13px;line-height:1.5;color:#b03333}.app-form-error:empty{display:none}
+.app-request-text{min-height:340px!important;line-height:1.65!important;white-space:pre-wrap;resize:vertical}
+#app-request-form [hidden],#app-catalog-context[hidden]{display:none!important}
+@media(max-width:600px){.app-intents label{padding:11px 9px}.app-request-intro{font-size:13px}.app-request-text{font-size:16px!important;min-height:360px!important}.app-category-description{font-size:12px}.app-category-list button small{font-size:11px}.app-subcategories{gap:6px}.app-subcategories button{font-size:11px;padding:9px 11px}}
+@media(max-width:360px){.app-intents{grid-template-columns:1fr}}
