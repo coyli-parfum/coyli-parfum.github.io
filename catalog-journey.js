@@ -30,7 +30,7 @@
   function message(d,context={}){
     const opening={availability:'Хочу уточнить наличие в вашем филиале.',pickup:'Хочу забрать покупку в магазине и уточнить возможность брони.',delivery:'Хочу оформить заказ с доставкой.',advice:'Помогите, пожалуйста, с выбором.',question:'Хочу уточнить информацию о товаре.',bottle:'Хочу узнать о заказе оригинального полноразмерного флакона.'};
     const closing={availability:'Подскажите, пожалуйста, есть ли этот товар в выбранном филиале в нужном объёме.',pickup:'Подтвердите, пожалуйста, наличие и возможность отложить покупку. Буду ждать подтверждения брони.',delivery:'Подскажите, пожалуйста, наличие, стоимость и срок доставки, итоговую сумму и способ оплаты.',advice:'Подскажите, пожалуйста, какие варианты подойдут под мои пожелания.',question:'Подскажите, пожалуйста, по моему вопросу.',bottle:'Подскажите, пожалуйста, доступные объёмы, стоимость, срок привоза и условия предоплаты.'};
-    const parts=['Здравствуйте! 💙\n'+opening[d.purpose]];
+    const parts=['Здравствуйте!\n'+opening[d.purpose]];
     if(context.product)parts.push(d.purpose==='bottle'?context.product.name+'\nОригинальный полноразмерный флакон\nЖелаемый объём: '+String(d.bottleVolume).trim():productText(context.product));
     if(context.itemsText)parts.push(context.itemsText);
     if(context.giftText)parts.push(context.giftText);
