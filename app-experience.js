@@ -15,7 +15,7 @@
   const icon = name => `<svg class="app-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="${paths[name] || paths.next}"/></svg>`;
   const J=CoyliJourney, label=J.label;
   const unit = x => `${x.vol}${/[^\d.,\s]/.test(String(x.vol)) ? '' : x.cat === 'Аромасаше' ? ' г' : ' мл'}`;
-  const amountTotal = () => cart.reduce((s,x) => s + Number(x.amount),0);
+  const amountTotal = () => {repriceCart();return cart.reduce((s,x) => s + Number(x.amount),0);};
   const money = n => new Intl.NumberFormat('ru-RU',{maximumFractionDigits:2}).format(n) + ' ₽';
   const originalRender = render, originalSaveCart = saveCart, originalSelectCategory = selectCategory;
   const originalRoute = applyCatalogRoute;
@@ -122,13 +122,13 @@
   window.addEventListener('beforeinstallprompt',e=>{e.preventDefault();installPrompt=e;});
 
   productCard=function(x){
-    const meta=(x.kind==='perfume'||x.kind==='original')?J.type(x.cat):`${label(x.cat)} · ${x.volumes.map(v=>unit({vol:v,cat:x.cat})).join(' / ')}`;
-    return `<article class="item${x.isHit===true||x.isNew===true?' has-hit':''}"><button class="app-card-link" type="button" aria-label="Открыть ${esc(x.name)}" onclick="openProduct(${x.id})"></button><div class="visual ${x.kind==='home'?'home':x.kind==='car'?'car':''}"><div class="product-label-row">${x.isNew===true?'<span class="hit-badge new-badge">Новинка</span>':x.isHit===true?'<span class="hit-badge">Хит продаж</span>':''}${saleBadge(x)}</div><div class="product-image-area">${productPhoto(x)}</div></div><div class="name">${esc(x.name)}</div><div class="meta">${esc(meta)}</div>${x.cat==='Оригинал'?'<p class="availability">'+esc(availabilityText(x))+'</p>':''}<div class="bottom"><span class="price">${priceMarkup(x,basePrice(x),(x.kind==='perfume'||x.volumes.length>1)&&Number(price(x))>0?'от ':'')}</span><button type="button" class="plus" aria-label="Выбрать ${esc(x.name)}" onclick="openProduct(${x.id})">+</button></div></article>`;
+    const meta=(x.kind==='perfume'||x.kind==='original')?J.type(x.cat)+(CoyliSale.active()?' · '+(x.kind==='perfume'?'спрей · ':'')+defaultVolume(x)+' мл':''):`${label(x.cat)} · ${x.volumes.map(v=>unit({vol:v,cat:x.cat})).join(' / ')}`;
+    return `<article class="item${x.isHit===true||x.isNew===true?' has-hit':''}"><button class="app-card-link" type="button" aria-label="Открыть ${esc(x.name)}" onclick="openProduct(${x.id})"></button><div class="visual ${x.kind==='home'?'home':x.kind==='car'?'car':''}"><div class="product-label-row">${x.isNew===true?'<span class="hit-badge new-badge">Новинка</span>':x.isHit===true?'<span class="hit-badge">Хит продаж</span>':''}${saleBadge(x)}</div><div class="product-image-area">${productPhoto(x)}</div></div><div class="name">${esc(x.name)}</div><div class="meta">${esc(meta)}</div>${x.cat==='Оригинал'?'<p class="availability">'+esc(availabilityText(x))+'</p>':''}<div class="bottom"><span class="price">${priceMarkup(x,basePrice(x),!CoyliSale.active()&&(x.kind==='perfume'||x.volumes.length>1)&&Number(price(x))>0?'от ':'')}</span><button type="button" class="plus" aria-label="Выбрать ${esc(x.name)}" onclick="openProduct(${x.id})">+</button></div></article>`;
   };
   openProduct=function(id,push=true){
     const item=p.find(x=>x.id===id);if(!isStorefrontProduct(item))return;
     if(!screen)modalReturnHash=/^#product-/.test(location.hash)?'#'+categoryRoutes[cat]:location.hash;
-    current=item;format='spray';vol=String(item.kind==='perfume'?5:item.volumes[0]);
+    current=item;format='spray';vol=defaultVolume(item);
     if(push&&location.hash!=='#product-'+id)history.pushState({appOverlay:true,returnHash:modalReturnHash},'','#product-'+id);
     screen='product';drawProduct();
   };
@@ -136,15 +136,15 @@
     const x=current;if(!x)return;
     let options=x.volumes,pr=x.price;
     if(x.cat==='Селектив'||x.cat==='Люкс'){pr=formatPrices(x,format);options=Object.keys(pr);if(!(vol in pr))vol=String(options[0]);}
-    const regularAmount=pr[vol],amount=saleAmount(x,regularAmount),unavailable=x.kind==='original'&&x.availability?.status==='out_of_stock';
+    const regularAmount=pr[vol],amount=saleAmount(x,regularAmount,vol,format),unavailable=x.kind==='original'&&x.availability?.status==='out_of_stock';
     const canAdd=Number.isFinite(Number(amount))&&Number(amount)>0&&!unavailable;
-    const body=`<div class="app-product-photo">${productPhoto(x,vol)}</div><p class="app-eyebrow">${esc(J.type(x.cat))}</p><h3 class="app-product-title">${esc(x.name)}</h3>${x.gender?'<p class="app-product-gender">'+esc(x.gender)+'</p>':''}${x.kind==='perfume'?'<p class="app-product-kind-note">Аналог аромата на масляной основе COYLI. Фото показывает аромат-ориентир. Доступны масло и спрей.</p>':x.kind==='original'?'<p class="app-product-kind-note">Распив оригинального аромата. Полноразмерный флакон можно запросить отдельно.</p>':''}${x.kind==='perfume'?`<h4>Формат</h4><div class="app-format-grid" aria-label="Формат аромата"><button type="button" data-format="spray" aria-pressed="${format==='spray'}">Спрей</button><button type="button" data-format="oil" aria-pressed="${format==='oil'}">Чистое масло</button></div>`:''}<h4>${x.kind==='car'?'Количество в упаковке':x.cat==='Аромасаше'?'Вес':'Объём'}</h4><div class="app-volume-grid" aria-label="Выбор объёма">${options.map(v=>`<button type="button" data-volume="${esc(v)}" aria-pressed="${String(vol)===String(v)}">${esc(unit({vol:v,cat:x.cat}))}</button>`).join('')}</div><p class="muted">${esc(availabilityText(x))}</p>${x.cat==='Оригинал'&&Number(vol)===100?'<p class="muted">100 мл — если во флаконе есть нужное количество. Уточните у менеджера.</p>':''}<details class="app-product-description"><summary>Об аромате и ноты ${icon('down')}</summary><p>${esc(x.notes||'Описание и ноты аромата будут добавлены после проверки.')}</p></details><button type="button" class="app-share" id="app-share-product">Скопировать ссылку на товар</button>`;
-    sheet('Выбор товара',body,`<div class="app-buy-row"><div class="price">${priceMarkup(x,regularAmount)}</div><button type="button" class="primary" id="add-to-cart" ${canAdd?'':'disabled'}>${unavailable?'Нет в наличии':'В корзину'}</button></div><button type="button" class="app-secondary-action app-request-product" id="app-request-product">Наличие, доставка или вопрос</button>`,null,keep);
-    $('panel').querySelectorAll('[data-format]').forEach(b=>b.onclick=()=>{format=b.dataset.format;vol=format==='oil'?'2':'5';drawProduct(true);$('panel').querySelector(`[data-format="${format}"]`).focus({preventScroll:true});});
+    const body=`<div class="app-product-photo">${productPhoto(x,vol)}</div><p class="app-eyebrow">${esc(J.type(x.cat))}</p><h3 class="app-product-title">${esc(x.name)}</h3>${x.gender?'<p class="app-product-gender">'+esc(x.gender)+'</p>':''}${x.kind==='perfume'?'<p class="app-product-kind-note">Аналог аромата на масляной основе COYLI. Фото показывает аромат-ориентир. Доступны масло и спрей.</p>':x.kind==='original'?'<p class="app-product-kind-note">Распив оригинального аромата. Полноразмерный флакон можно запросить отдельно.</p>':''}${x.kind==='perfume'?`<h4>Формат</h4><div class="app-format-grid" aria-label="Формат аромата"><button type="button" data-format="spray" aria-pressed="${format==='spray'}">Спрей</button><button type="button" data-format="oil" aria-pressed="${format==='oil'}">Чистое масло</button></div>`:''}<h4>${x.kind==='car'?'Количество в упаковке':x.cat==='Аромасаше'?'Вес':'Объём'}</h4><div class="app-volume-grid" aria-label="Выбор объёма">${options.map(v=>`<button type="button" data-volume="${esc(v)}" aria-pressed="${String(vol)===String(v)}">${esc(unit({vol:v,cat:x.cat}))}</button>`).join('')}</div><p class="muted">${esc(availabilityText(x))}</p>${saleNote()}${x.cat==='Оригинал'&&Number(vol)===100?'<p class="muted">100 мл — если во флаконе есть нужное количество. Уточните у менеджера.</p>':''}<details class="app-product-description"><summary>Об аромате и ноты ${icon('down')}</summary><p>${esc(x.notes||'Описание и ноты аромата будут добавлены после проверки.')}</p></details><button type="button" class="app-share" id="app-share-product">Скопировать ссылку на товар</button>`;
+    sheet('Выбор товара',body,`<div class="app-buy-row"><div class="price">${priceMarkup(x,regularAmount,'',vol,format)}</div><button type="button" class="primary" id="add-to-cart" ${canAdd?'':'disabled'}>${unavailable?'Нет в наличии':'В корзину'}</button></div><button type="button" class="app-secondary-action app-request-product" id="app-request-product">Наличие, доставка или вопрос</button>`,null,keep);
+    $('panel').querySelectorAll('[data-format]').forEach(b=>b.onclick=()=>{format=b.dataset.format;vol=format==='oil'?'2':defaultVolume(current);drawProduct(true);$('panel').querySelector(`[data-format="${format}"]`).focus({preventScroll:true});});
     $('panel').querySelectorAll('[data-volume]').forEach(b=>b.onclick=()=>{vol=b.dataset.volume;drawProduct(true);$('panel').querySelector(`[data-volume="${CSS.escape(vol)}"]`).focus({preventScroll:true});});
     $('app-request-product').onclick=()=>beginRequest({product:{id:x.id,name:x.name,cat:x.cat,vol,format:x.kind==='perfume'?(format==='oil'?'Чистое масло':'Спрей'):'',quantity:1},url:new URL('#product-'+x.id,location.href).href},'availability',()=>{screen='product';history.replaceState(history.state,'','#product-'+x.id);drawProduct();});
     $('app-share-product').onclick=()=>copyProductLink(x.id,$('app-share-product'));
-    $('add-to-cart').onclick=()=>{if(!canAdd)return;cart.push({productId:x.id,name:x.name,cat:x.cat,format:x.kind==='perfume'?(format==='spray'?'Спрей':'Масло'):'',vol,amount:Number(amount)});saveCart();hide();notify('Добавлено в корзину','Открыть',showCart);};
+    $('add-to-cart').onclick=()=>{if(!canAdd)return;cart.push({productId:x.id,name:x.name,cat:x.cat,format:x.kind==='perfume'?(format==='spray'?'Спрей':'Масло'):'',vol,amount:Number(saleAmount(x,pr[vol],vol,format))});saveCart();hide();notify('Добавлено в корзину','Открыть',showCart);};
   };
 
   let requestContext={},requestDraft={},requestBack=null;
@@ -199,9 +199,9 @@
     notify('Товар удалён','Вернуть',()=>{if(undoCart){for(const entry of undoCart)cart.splice(Math.min(entry.index,cart.length),0,entry.item);undoCart=null;saveCart();showCart(true);}});
   }
   showCart=function(keep=false){
-    routeSheet('cart');const rows=groups(),total=amountTotal();
+    repriceCart();routeSheet('cart');const rows=groups(),total=amountTotal();
     if(!rows.length){sheet('Корзина',`<div class="app-empty">${icon('bag')}<h3>Здесь будет ваш выбор</h3><p>Добавьте любимый аромат<br>или найдите что-то новое.</p><button type="button" class="primary" id="app-empty-catalog">Перейти в каталог</button></div>`);$('app-empty-catalog').onclick=()=>{hide();selectCategory('Все товары');};return;}
-    const body=rows.map((g,i)=>{const x=g.item,item=productFor(x),bundle=!!x.bundleInstance;return `<div class="app-cart-row"><div class="app-cart-thumb">${item?productPhoto(item,x.vol):icon('bag')}</div><div class="app-cart-content"><h3>${esc(groupTitle(g))}</h3><button class="app-remove" type="button" data-remove-group="${i}" aria-label="Удалить ${esc(groupTitle(g))}">${icon('trash')}</button><p class="app-cart-detail">${esc(groupDetails(g))}</p>${bundle&&x.packaging?'<p class="app-cart-detail">Фирменный пакет в комплекте</p>':''}<div class="app-cart-row-bottom">${bundle?'':`<div class="app-quantity"><button type="button" data-minus="${i}" aria-label="Уменьшить количество ${esc(x.name)}">−</button><output aria-label="Количество ${esc(x.name)}">${g.indices.length}</output><button type="button" data-plus="${i}" aria-label="Увеличить количество ${esc(x.name)}">+</button></div>`}<strong>${money(g.total)}</strong></div></div></div>`;}).join('')+`<div class="app-delivery-progress">${total>=5000?'Доставка бесплатно':`До бесплатной доставки — ${money(5000-total)}`}<div class="app-progress-track"><span style="width:${Math.min(total/5000*100,100)}%"></span></div></div><p class="app-checkout-note">Наличие товаров и условия получения подтвердит менеджер. Оплата — после согласования заказа.</p>`;
+    const body=saleNote()+rows.map((g,i)=>{const x=g.item,item=productFor(x),bundle=!!x.bundleInstance;return `<div class="app-cart-row"><div class="app-cart-thumb">${item?productPhoto(item,x.vol):icon('bag')}</div><div class="app-cart-content"><h3>${esc(groupTitle(g))}</h3><button class="app-remove" type="button" data-remove-group="${i}" aria-label="Удалить ${esc(groupTitle(g))}">${icon('trash')}</button><p class="app-cart-detail">${esc(groupDetails(g))}</p>${bundle&&x.packaging?'<p class="app-cart-detail">Фирменный пакет в комплекте</p>':''}<div class="app-cart-row-bottom">${bundle?'':`<div class="app-quantity"><button type="button" data-minus="${i}" aria-label="Уменьшить количество ${esc(x.name)}">−</button><output aria-label="Количество ${esc(x.name)}">${g.indices.length}</output><button type="button" data-plus="${i}" aria-label="Увеличить количество ${esc(x.name)}">+</button></div>`}<strong>${money(g.total)}</strong></div></div></div>`;}).join('')+`<div class="app-delivery-progress">${total>=5000?'Доставка бесплатно':`До бесплатной доставки — ${money(5000-total)}`}<div class="app-progress-track"><span style="width:${Math.min(total/5000*100,100)}%"></span></div></div><p class="app-checkout-note">Наличие товаров и условия получения подтвердит менеджер. Оплата — после согласования заказа.</p>`;
     sheet('Корзина · '+cart.length,body,`<div class="app-cart-total"><span>Товары</span><strong>${money(total)}</strong></div><button type="button" class="primary" id="app-checkout">К оформлению</button>`,null,keep);
     $('app-checkout').onclick=showCheckout;
     $('panel').querySelectorAll('[data-remove-group]').forEach(b=>b.onclick=()=>removeGroup(rows[Number(b.dataset.removeGroup)]));
@@ -225,7 +225,7 @@
     form.onsubmit=e=>{e.preventDefault();readDraft();if(draft.method==='delivery'&&!draft.city){$('app-city').setCustomValidity('Укажите город доставки');$('app-city').reportValidity();return;}$('app-city').setCustomValidity('');showReview();};
     $('app-city').addEventListener('input',()=>{$('app-city').setCustomValidity('');});
   }
-  cartText=function(){
+  cartText=function(){repriceCart();
     const rows=groups();
     const lines=rows.map((g,i)=>`${i+1}. ${groupTitle(g)}\n${groupDetails(g)}${g.item.bundleInstance?'':' · '+g.indices.length+' шт.'} — ${money(g.total)}`);
     return J.message({...draft,purpose:draft.method},{itemsText:lines.join('\n\n'),total:money(amountTotal())})+(cart.some(x=>x.packaging)?'\n\nФирменный пакет к каждому подарку — бесплатно.':'');
@@ -273,5 +273,15 @@
   window.CoyliApp={notify,sync:syncPage,request:beginRequest};
   document.querySelectorAll('[data-info="contact"]').forEach(b=>b.addEventListener('click',e=>{e.preventDefault();e.stopImmediatePropagation();toggleCoyliDrawer(false);beginRequest(null,'advice');},true));
   render();if(location.hash)appRoute();
+  let lastSaleActive=CoyliSale.active();
+  function refreshSaleBoundary(){
+    const active=CoyliSale.active();if(active===lastSaleActive)return;
+    lastSaleActive=active;repriceCart();render();
+    if(screen==='product')drawProduct(true);
+    else if(['cart','checkout','review'].includes(screen))showCart(true);
+  }
+  setInterval(refreshSaleBoundary,30000);
+  window.addEventListener('focus',refreshSaleBoundary);
+  document.addEventListener('visibilitychange',()=>{if(!document.hidden)refreshSaleBoundary();});
 })();
 

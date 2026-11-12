@@ -28,6 +28,13 @@
         1229,
         1536
       ]
+    },
+    "novemberSale": {
+      "id": "2026-11-12-15",
+      "price": {
+        "75": 400,
+        "150": 750
+      }
     }
   },
   {
@@ -51,7 +58,14 @@
       800,
       900,
       900
-    ]
+    ],
+    "novemberSale": {
+      "id": "2026-11-12-15",
+      "price": {
+        "75": 400,
+        "150": 750
+      }
+    }
   },
   {
     "id": 3,
@@ -74,7 +88,14 @@
       800,
       900,
       900
-    ]
+    ],
+    "novemberSale": {
+      "id": "2026-11-12-15",
+      "price": {
+        "75": 400,
+        "150": 750
+      }
+    }
   },
   {
     "id": 4,
@@ -97,7 +118,14 @@
       800,
       900,
       900
-    ]
+    ],
+    "novemberSale": {
+      "id": "2026-11-12-15",
+      "price": {
+        "75": 400,
+        "150": 750
+      }
+    }
   },
   {
     "id": 5,
@@ -140,7 +168,14 @@
       802.778,
       1229,
       1536
-    ]
+    ],
+    "novemberSale": {
+      "id": "2026-11-12-15",
+      "price": {
+        "75": 400,
+        "150": 750
+      }
+    }
   },
   {
     "id": 6,
@@ -183,7 +218,14 @@
       802.778,
       1229,
       1536
-    ]
+    ],
+    "novemberSale": {
+      "id": "2026-11-12-15",
+      "price": {
+        "75": 400,
+        "150": 750
+      }
+    }
   },
   {
     "id": 7,
@@ -226,7 +268,14 @@
       734.722,
       1121,
       1403
-    ]
+    ],
+    "novemberSale": {
+      "id": "2026-11-12-15",
+      "price": {
+        "75": 400,
+        "150": 750
+      }
+    }
   },
   {
     "id": 8,
@@ -241,7 +290,14 @@
       "150": 949
     },
     "notes": "",
-    "kind": "home"
+    "kind": "home",
+    "novemberSale": {
+      "id": "2026-11-12-15",
+      "price": {
+        "75": 400,
+        "150": 750
+      }
+    }
   },
   {
     "id": 9,
@@ -284,7 +340,14 @@
       734.722,
       1121,
       1403
-    ]
+    ],
+    "novemberSale": {
+      "id": "2026-11-12-15",
+      "price": {
+        "75": 400,
+        "150": 750
+      }
+    }
   },
   {
     "id": 10,
@@ -327,7 +390,14 @@
       802.778,
       1229,
       1536
-    ]
+    ],
+    "novemberSale": {
+      "id": "2026-11-12-15",
+      "price": {
+        "75": 400,
+        "150": 750
+      }
+    }
   },
   {
     "id": 11,
@@ -370,7 +440,14 @@
       733.333,
       1121,
       1403
-    ]
+    ],
+    "novemberSale": {
+      "id": "2026-11-12-15",
+      "price": {
+        "75": 400,
+        "150": 750
+      }
+    }
   },
   {
     "id": 12,
@@ -384,7 +461,14 @@
       "150": 949
     },
     "notes": "",
-    "kind": "home"
+    "kind": "home",
+    "novemberSale": {
+      "id": "2026-11-12-15",
+      "price": {
+        "75": 400,
+        "150": 750
+      }
+    }
   },
   {
     "id": 13,
@@ -418,7 +502,14 @@
       802.778,
       1229,
       1536
-    ]
+    ],
+    "novemberSale": {
+      "id": "2026-11-12-15",
+      "price": {
+        "75": 400,
+        "150": 750
+      }
+    }
   },
   {
     "id": 15,
@@ -432,7 +523,14 @@
       "150": 949
     },
     "notes": "",
-    "kind": "home"
+    "kind": "home",
+    "novemberSale": {
+      "id": "2026-11-12-15",
+      "price": {
+        "75": 400,
+        "150": 750
+      }
+    }
   },
   {
     "id": 17,
@@ -455,7 +553,13 @@
       1075,
       1086,
       1448
-    ]
+    ],
+    "novemberSale": {
+      "id": "2026-11-12-15",
+      "price": {
+        "60": 800
+      }
+    }
   },
   {
     "id": 18,
@@ -478,7 +582,13 @@
       1022.5,
       1086,
       1448
-    ]
+    ],
+    "novemberSale": {
+      "id": "2026-11-12-15",
+      "price": {
+        "60": 800
+      }
+    }
   },
   {
     "id": 19,
@@ -501,7 +611,13 @@
       1131.25,
       1086,
       1448
-    ]
+    ],
+    "novemberSale": {
+      "id": "2026-11-12-15",
+      "price": {
+        "60": 800
+      }
+    }
   },
   {
     "id": 20,
@@ -524,7 +640,13 @@
       883.75,
       1086,
       1448
-    ]
+    ],
+    "novemberSale": {
+      "id": "2026-11-12-15",
+      "price": {
+        "60": 800
+      }
+    }
   },
   {
     "id": 21,
@@ -547,7 +669,13 @@
       1041.25,
       1086,
       1448
-    ]
+    ],
+    "novemberSale": {
+      "id": "2026-11-12-15",
+      "price": {
+        "60": 800
+      }
+    }
   },
   {
     "id": 22,
@@ -570,7 +698,13 @@
       852.5,
       1122,
       1402
-    ]
+    ],
+    "novemberSale": {
+      "id": "2026-11-12-15",
+      "price": {
+        "60": 800
+      }
+    }
   },
   {
     "id": 23,
@@ -593,7 +727,13 @@
       911.25,
       1086,
       1448
-    ]
+    ],
+    "novemberSale": {
+      "id": "2026-11-12-15",
+      "price": {
+        "60": 800
+      }
+    }
   },
   {
     "id": 24,
@@ -614,7 +754,13 @@
       856.25,
       900,
       900
-    ]
+    ],
+    "novemberSale": {
+      "id": "2026-11-12-15",
+      "price": {
+        "60": 800
+      }
+    }
   },
   {
     "id": 25,
@@ -635,7 +781,13 @@
       912.5,
       900,
       900
-    ]
+    ],
+    "novemberSale": {
+      "id": "2026-11-12-15",
+      "price": {
+        "60": 800
+      }
+    }
   },
   {
     "id": 26,
@@ -656,7 +808,13 @@
       1143.75,
       1229,
       1536
-    ]
+    ],
+    "novemberSale": {
+      "id": "2026-11-12-15",
+      "price": {
+        "100": 850
+      }
+    }
   },
   {
     "id": 27,
@@ -677,7 +835,13 @@
       2843.75,
       3105,
       3881
-    ]
+    ],
+    "novemberSale": {
+      "id": "2026-11-12-15",
+      "price": {
+        "100": 850
+      }
+    }
   },
   {
     "id": 28,
@@ -698,7 +862,13 @@
       2080,
       3105,
       3881
-    ]
+    ],
+    "novemberSale": {
+      "id": "2026-11-12-15",
+      "price": {
+        "100": 850
+      }
+    }
   },
   {
     "id": 29,
@@ -719,7 +889,13 @@
       1151.25,
       1229,
       1536
-    ]
+    ],
+    "novemberSale": {
+      "id": "2026-11-12-15",
+      "price": {
+        "100": 850
+      }
+    }
   },
   {
     "id": 30,
@@ -740,7 +916,13 @@
       897.5,
       1122,
       1402
-    ]
+    ],
+    "novemberSale": {
+      "id": "2026-11-12-15",
+      "price": {
+        "200": 1290
+      }
+    }
   },
   {
     "id": 31,
@@ -761,7 +943,13 @@
       2482.5,
       3105,
       3881
-    ]
+    ],
+    "novemberSale": {
+      "id": "2026-11-12-15",
+      "price": {
+        "200": 1290
+      }
+    }
   },
   {
     "id": 32,
@@ -782,7 +970,13 @@
       912.5,
       900,
       900
-    ]
+    ],
+    "novemberSale": {
+      "id": "2026-11-12-15",
+      "price": {
+        "50": 790
+      }
+    }
   },
   {
     "id": 33,
@@ -803,7 +997,13 @@
       912.5,
       900,
       900
-    ]
+    ],
+    "novemberSale": {
+      "id": "2026-11-12-15",
+      "price": {
+        "50": 790
+      }
+    }
   },
   {
     "id": 34,
@@ -824,7 +1024,13 @@
       912.5,
       900,
       900
-    ]
+    ],
+    "novemberSale": {
+      "id": "2026-11-12-15",
+      "price": {
+        "50": 790
+      }
+    }
   },
   {
     "id": 35,
@@ -845,7 +1051,13 @@
       912.5,
       900,
       900
-    ]
+    ],
+    "novemberSale": {
+      "id": "2026-11-12-15",
+      "price": {
+        "50": 790
+      }
+    }
   },
   {
     "id": 36,
@@ -866,7 +1078,13 @@
       1705,
       1065,
       1477
-    ]
+    ],
+    "novemberSale": {
+      "id": "2026-11-12-15",
+      "price": {
+        "50": 790
+      }
+    }
   },
   {
     "id": 37,
@@ -887,7 +1105,13 @@
       575,
       1229,
       1536
-    ]
+    ],
+    "novemberSale": {
+      "id": "2026-11-12-15",
+      "price": {
+        "110": 790
+      }
+    }
   },
   {
     "id": 38,
@@ -908,7 +1132,13 @@
       658.75,
       1229,
       1536
-    ]
+    ],
+    "novemberSale": {
+      "id": "2026-11-12-15",
+      "price": {
+        "110": 790
+      }
+    }
   },
   {
     "id": 39,
@@ -921,7 +1151,13 @@
       "110": 990
     },
     "notes": "",
-    "kind": "home"
+    "kind": "home",
+    "novemberSale": {
+      "id": "2026-11-12-15",
+      "price": {
+        "110": 790
+      }
+    }
   },
   {
     "id": 40,
@@ -942,7 +1178,13 @@
       603.75,
       1229,
       1536
-    ]
+    ],
+    "novemberSale": {
+      "id": "2026-11-12-15",
+      "price": {
+        "110": 790
+      }
+    }
   },
   {
     "id": 41,
@@ -963,7 +1205,13 @@
       732.5,
       1229,
       1536
-    ]
+    ],
+    "novemberSale": {
+      "id": "2026-11-12-15",
+      "price": {
+        "110": 790
+      }
+    }
   },
   {
     "id": 42,
@@ -984,7 +1232,13 @@
       682.5,
       1229,
       1536
-    ]
+    ],
+    "novemberSale": {
+      "id": "2026-11-12-15",
+      "price": {
+        "110": 790
+      }
+    }
   },
   {
     "id": 43,
@@ -1005,7 +1259,13 @@
       636.25,
       1229,
       1536
-    ]
+    ],
+    "novemberSale": {
+      "id": "2026-11-12-15",
+      "price": {
+        "110": 790
+      }
+    }
   },
   {
     "id": 44,
@@ -1026,7 +1286,13 @@
       672.5,
       1229,
       1536
-    ]
+    ],
+    "novemberSale": {
+      "id": "2026-11-12-15",
+      "price": {
+        "110": 790
+      }
+    }
   },
   {
     "id": 45,
@@ -1047,7 +1313,13 @@
       601.25,
       1229,
       1536
-    ]
+    ],
+    "novemberSale": {
+      "id": "2026-11-12-15",
+      "price": {
+        "110": 790
+      }
+    }
   },
   {
     "id": 46,
@@ -1068,7 +1340,13 @@
       672.5,
       1229,
       1536
-    ]
+    ],
+    "novemberSale": {
+      "id": "2026-11-12-15",
+      "price": {
+        "110": 790
+      }
+    }
   },
   {
     "id": 47,
@@ -1089,7 +1367,13 @@
       573.75,
       1229,
       1536
-    ]
+    ],
+    "novemberSale": {
+      "id": "2026-11-12-15",
+      "price": {
+        "110": 790
+      }
+    }
   },
   {
     "id": 48,
@@ -1110,7 +1394,13 @@
       661.25,
       1229,
       1536
-    ]
+    ],
+    "novemberSale": {
+      "id": "2026-11-12-15",
+      "price": {
+        "110": 790
+      }
+    }
   },
   {
     "id": 49,
@@ -1131,7 +1421,13 @@
       651.25,
       1229,
       1536
-    ]
+    ],
+    "novemberSale": {
+      "id": "2026-11-12-15",
+      "price": {
+        "110": 790
+      }
+    }
   },
   {
     "id": 50,
@@ -1152,7 +1448,13 @@
       791.25,
       1229,
       1536
-    ]
+    ],
+    "novemberSale": {
+      "id": "2026-11-12-15",
+      "price": {
+        "110": 790
+      }
+    }
   },
   {
     "id": 51,
@@ -1173,7 +1475,13 @@
       691.25,
       1229,
       1536
-    ]
+    ],
+    "novemberSale": {
+      "id": "2026-11-12-15",
+      "price": {
+        "110": 790
+      }
+    }
   },
   {
     "id": 52,
@@ -1194,7 +1502,13 @@
       688.75,
       1229,
       1536
-    ]
+    ],
+    "novemberSale": {
+      "id": "2026-11-12-15",
+      "price": {
+        "110": 790
+      }
+    }
   },
   {
     "id": 53,
@@ -1215,7 +1529,13 @@
       961.905,
       1229,
       1536
-    ]
+    ],
+    "novemberSale": {
+      "id": "2026-11-12-15",
+      "price": {
+        "75": 650
+      }
+    }
   },
   {
     "id": 54,
@@ -1236,7 +1556,13 @@
       961.905,
       1229,
       1536
-    ]
+    ],
+    "novemberSale": {
+      "id": "2026-11-12-15",
+      "price": {
+        "75": 650
+      }
+    }
   },
   {
     "id": 55,
@@ -1257,7 +1583,13 @@
       961.905,
       1229,
       1536
-    ]
+    ],
+    "novemberSale": {
+      "id": "2026-11-12-15",
+      "price": {
+        "75": 650
+      }
+    }
   },
   {
     "id": 56,
@@ -1278,7 +1610,13 @@
       961.905,
       1229,
       1536
-    ]
+    ],
+    "novemberSale": {
+      "id": "2026-11-12-15",
+      "price": {
+        "75": 650
+      }
+    }
   },
   {
     "id": 57,
@@ -1299,7 +1637,13 @@
       961.905,
       1229,
       1536
-    ]
+    ],
+    "novemberSale": {
+      "id": "2026-11-12-15",
+      "price": {
+        "75": 650
+      }
+    }
   },
   {
     "id": 58,
@@ -1320,7 +1664,13 @@
       961.905,
       1229,
       1536
-    ]
+    ],
+    "novemberSale": {
+      "id": "2026-11-12-15",
+      "price": {
+        "75": 650
+      }
+    }
   },
   {
     "id": 59,
@@ -1341,7 +1691,13 @@
       961.905,
       1229,
       1536
-    ]
+    ],
+    "novemberSale": {
+      "id": "2026-11-12-15",
+      "price": {
+        "75": 650
+      }
+    }
   },
   {
     "id": 60,
@@ -1373,7 +1729,17 @@
     "referenceVersion": "Baccarat Rouge 540 Maison Francis Kurkdjian perfume - a fragrance for women and men 2015",
     "duplicateOf": 92,
     "sortBrand": "baccarat",
-    "gender": "Унисекс"
+    "gender": "Унисекс",
+    "novemberSale": {
+      "id": "2026-11-12-15",
+      "price": {
+        "20": 2100,
+        "30": 3115,
+        "50": 5075,
+        "100": 10010
+      },
+      "format": "spray"
+    }
   },
   {
     "id": 61,
@@ -1405,7 +1771,17 @@
     "referenceVersion": "Kirkè Tiziana Terenzi perfume - a fragrance for women and men 2015",
     "duplicateOf": 127,
     "sortBrand": "kirke",
-    "gender": "Унисекс"
+    "gender": "Унисекс",
+    "novemberSale": {
+      "id": "2026-11-12-15",
+      "price": {
+        "20": 2100,
+        "30": 3115,
+        "50": 5075,
+        "100": 10010
+      },
+      "format": "spray"
+    }
   },
   {
     "id": 62,
@@ -1435,7 +1811,17 @@
     "image": "https://image.brigitte.de/13575226/t/5T/v4/w960/r1/-/zarko-perfume-the-muse.png",
     "imageSource": "https://image.brigitte.de/13575226/t/5T/v4/w960/r1/-/zarko-perfume-the-muse.png",
     "sortBrand": "zarkoperfume",
-    "gender": "Унисекс"
+    "gender": "Унисекс",
+    "novemberSale": {
+      "id": "2026-11-12-15",
+      "price": {
+        "20": 2100,
+        "30": 3115,
+        "50": 5075,
+        "100": 10010
+      },
+      "format": "spray"
+    }
   },
   {
     "id": 63,
@@ -1467,7 +1853,17 @@
     "referenceVersion": "Tygar Bvlgari cologne - a fragrance for men 2016",
     "duplicateOf": 93,
     "sortBrand": "bvlgari",
-    "gender": "Мужской"
+    "gender": "Мужской",
+    "novemberSale": {
+      "id": "2026-11-12-15",
+      "price": {
+        "20": 2100,
+        "30": 3115,
+        "50": 5075,
+        "100": 10010
+      },
+      "format": "spray"
+    }
   },
   {
     "id": 64,
@@ -1498,7 +1894,17 @@
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.31861.jpg",
     "referenceVersion": "Sauvage Dior cologne - a fragrance for men 2015",
     "sortBrand": "dior",
-    "gender": "Мужской"
+    "gender": "Мужской",
+    "novemberSale": {
+      "id": "2026-11-12-15",
+      "price": {
+        "20": 2100,
+        "30": 3115,
+        "50": 5075,
+        "100": 10010
+      },
+      "format": "spray"
+    }
   },
   {
     "id": 65,
@@ -1529,7 +1935,17 @@
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.9099.jpg",
     "referenceVersion": "Bleu de Chanel Chanel cologne - a fragrance for men 2010",
     "sortBrand": "chanel",
-    "gender": "Мужской"
+    "gender": "Мужской",
+    "novemberSale": {
+      "id": "2026-11-12-15",
+      "price": {
+        "20": 1260,
+        "30": 1820,
+        "50": 2905,
+        "100": 5600
+      },
+      "format": "spray"
+    }
   },
   {
     "id": 66,
@@ -1560,7 +1976,17 @@
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.25324.jpg",
     "referenceVersion": "Black Opium Yves Saint Laurent perfume - a fragrance for women 2014",
     "sortBrand": "yves saint laurent",
-    "gender": "Женский"
+    "gender": "Женский",
+    "novemberSale": {
+      "id": "2026-11-12-15",
+      "price": {
+        "20": 1260,
+        "30": 1820,
+        "50": 2905,
+        "100": 5600
+      },
+      "format": "spray"
+    }
   },
   {
     "id": 67,
@@ -1592,7 +2018,17 @@
     "referenceVersion": "Flora Gorgeous Gardenia Gucci perfume - a fragrance for women 2021",
     "sortBrand": "gucci",
     "gender": "Женский",
-    "isHit": true
+    "isHit": true,
+    "novemberSale": {
+      "id": "2026-11-12-15",
+      "price": {
+        "20": 1260,
+        "30": 1820,
+        "50": 2905,
+        "100": 5600
+      },
+      "format": "spray"
+    }
   },
   {
     "id": 68,
@@ -1623,7 +2059,17 @@
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.51694.jpg",
     "referenceVersion": "Burberry Her Burberry perfume - a fragrance for women 2018",
     "sortBrand": "burberry",
-    "gender": "Женский"
+    "gender": "Женский",
+    "novemberSale": {
+      "id": "2026-11-12-15",
+      "price": {
+        "20": 1260,
+        "30": 1820,
+        "50": 2905,
+        "100": 5600
+      },
+      "format": "spray"
+    }
   },
   {
     "id": 69,
@@ -1654,7 +2100,17 @@
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.18453.jpg",
     "referenceVersion": "Si Giorgio Armani perfume - a fragrance for women 2013",
     "sortBrand": "giorgio armani",
-    "gender": "Женский"
+    "gender": "Женский",
+    "novemberSale": {
+      "id": "2026-11-12-15",
+      "price": {
+        "20": 1260,
+        "30": 1820,
+        "50": 2905,
+        "100": 5600
+      },
+      "format": "spray"
+    }
   },
   {
     "id": 70,
@@ -1685,7 +2141,17 @@
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.18471.jpg",
     "referenceVersion": "Invictus Rabanne cologne - a fragrance for men 2013",
     "sortBrand": "paco rabanne",
-    "gender": "Мужской"
+    "gender": "Мужской",
+    "novemberSale": {
+      "id": "2026-11-12-15",
+      "price": {
+        "20": 1260,
+        "30": 1820,
+        "50": 2905,
+        "100": 5600
+      },
+      "format": "spray"
+    }
   },
   {
     "id": 71,
@@ -1717,7 +2183,17 @@
     "referenceVersion": "Eau de Lacoste L.12.12. White Lacoste Fragrances cologne - a fragrance for men 2011",
     "sortBrand": "lacoste",
     "gender": "Мужской",
-    "isHit": true
+    "isHit": true,
+    "novemberSale": {
+      "id": "2026-11-12-15",
+      "price": {
+        "20": 1260,
+        "30": 1820,
+        "50": 2905,
+        "100": 5600
+      },
+      "format": "spray"
+    }
   },
   {
     "id": 72,
@@ -2060,7 +2536,17 @@
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.51396.jpg",
     "referenceVersion": "Genetic Bliss 27 87 perfume - a fragrance for women and men 2018",
     "sortBrand": "27",
-    "gender": "Унисекс"
+    "gender": "Унисекс",
+    "novemberSale": {
+      "id": "2026-11-12-15",
+      "price": {
+        "20": 2100,
+        "30": 3115,
+        "50": 5075,
+        "100": 10010
+      },
+      "format": "spray"
+    }
   },
   {
     "id": 86,
@@ -2091,7 +2577,17 @@
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.26016.jpg",
     "referenceVersion": "Amber Wood Ajmal perfume - a fragrance for women and men 2014",
     "sortBrand": "ajmal",
-    "gender": "Унисекс"
+    "gender": "Унисекс",
+    "novemberSale": {
+      "id": "2026-11-12-15",
+      "price": {
+        "20": 2100,
+        "30": 3115,
+        "50": 5075,
+        "100": 10010
+      },
+      "format": "spray"
+    }
   },
   {
     "id": 87,
@@ -2122,7 +2618,17 @@
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.84109.jpg",
     "referenceVersion": "Althaïr Parfums de Marly cologne - a fragrance for men 2023",
     "sortBrand": "parfums",
-    "gender": "Мужской"
+    "gender": "Мужской",
+    "novemberSale": {
+      "id": "2026-11-12-15",
+      "price": {
+        "20": 2100,
+        "30": 3115,
+        "50": 5075,
+        "100": 10010
+      },
+      "format": "spray"
+    }
   },
   {
     "id": 88,
@@ -2153,7 +2659,17 @@
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.30623.jpg",
     "referenceVersion": "Andromeda Tiziana Terenzi perfume - a fragrance for women and men 2015",
     "sortBrand": "tiziana terenzi",
-    "gender": "Женский"
+    "gender": "Женский",
+    "novemberSale": {
+      "id": "2026-11-12-15",
+      "price": {
+        "20": 2100,
+        "30": 3115,
+        "50": 5075,
+        "100": 10010
+      },
+      "format": "spray"
+    }
   },
   {
     "id": 89,
@@ -2184,7 +2700,17 @@
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.92704.jpg",
     "referenceVersion": "Madawi Gold Edition Arabian Oud perfume - a fragrance for women and men 2024",
     "sortBrand": "arabian",
-    "gender": "Унисекс"
+    "gender": "Унисекс",
+    "novemberSale": {
+      "id": "2026-11-12-15",
+      "price": {
+        "20": 2100,
+        "30": 3115,
+        "50": 5075,
+        "100": 10010
+      },
+      "format": "spray"
+    }
   },
   {
     "id": 90,
@@ -2215,7 +2741,17 @@
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.59566.jpg",
     "referenceVersion": "Crystal Love For Her — Attar Collection (2020)",
     "sortBrand": "attar collection",
-    "gender": "Женский"
+    "gender": "Женский",
+    "novemberSale": {
+      "id": "2026-11-12-15",
+      "price": {
+        "20": 2100,
+        "30": 3115,
+        "50": 5075,
+        "100": 10010
+      },
+      "format": "spray"
+    }
   },
   {
     "id": 91,
@@ -2247,7 +2783,17 @@
     "referenceVersion": "Musk Kashmir Attar Collection perfume - a fragrance for women and men 2016",
     "sortBrand": "attar collection",
     "gender": "Унисекс",
-    "isHit": true
+    "isHit": true,
+    "novemberSale": {
+      "id": "2026-11-12-15",
+      "price": {
+        "20": 2100,
+        "30": 3115,
+        "50": 5075,
+        "100": 10010
+      },
+      "format": "spray"
+    }
   },
   {
     "id": 92,
@@ -2278,7 +2824,17 @@
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.33519.jpg",
     "referenceVersion": "Baccarat Rouge 540 Maison Francis Kurkdjian perfume - a fragrance for women and men 2015",
     "sortBrand": "maison francis kurkdjian",
-    "gender": "Унисекс"
+    "gender": "Унисекс",
+    "novemberSale": {
+      "id": "2026-11-12-15",
+      "price": {
+        "20": 2100,
+        "30": 3115,
+        "50": 5075,
+        "100": 10010
+      },
+      "format": "spray"
+    }
   },
   {
     "id": 93,
@@ -2310,7 +2866,17 @@
     "referenceVersion": "Tygar Bvlgari cologne - a fragrance for men 2016",
     "sortBrand": "bvlgari",
     "gender": "Мужской",
-    "isHit": true
+    "isHit": true,
+    "novemberSale": {
+      "id": "2026-11-12-15",
+      "price": {
+        "20": 2100,
+        "30": 3115,
+        "50": 5075,
+        "100": 10010
+      },
+      "format": "spray"
+    }
   },
   {
     "id": 94,
@@ -2341,7 +2907,17 @@
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.6472.jpg",
     "referenceVersion": "Black Afgano Nasomatto perfume - a fragrance for women and men 2009",
     "sortBrand": "nasomatto",
-    "gender": "Унисекс"
+    "gender": "Унисекс",
+    "novemberSale": {
+      "id": "2026-11-12-15",
+      "price": {
+        "20": 2100,
+        "30": 3115,
+        "50": 5075,
+        "100": 10010
+      },
+      "format": "spray"
+    }
   },
   {
     "id": 95,
@@ -2372,7 +2948,17 @@
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.43632.jpg",
     "referenceVersion": "Black Phantom By Kilian perfume - a fragrance for women and men 2017",
     "sortBrand": "kilian",
-    "gender": "Унисекс"
+    "gender": "Унисекс",
+    "novemberSale": {
+      "id": "2026-11-12-15",
+      "price": {
+        "20": 2100,
+        "30": 3115,
+        "50": 5075,
+        "100": 10010
+      },
+      "format": "spray"
+    }
   },
   {
     "id": 96,
@@ -2404,7 +2990,17 @@
     "referenceVersion": "Blonde Amber Clive Christian perfume - a fragrance for women and men 2022",
     "sortBrand": "clive christian",
     "gender": "Унисекс",
-    "isHit": true
+    "isHit": true,
+    "novemberSale": {
+      "id": "2026-11-12-15",
+      "price": {
+        "20": 2100,
+        "30": 3115,
+        "50": 5075,
+        "100": 10010
+      },
+      "format": "spray"
+    }
   },
   {
     "id": 97,
@@ -2435,7 +3031,17 @@
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.84224.jpg",
     "referenceVersion": "Blue Talisman Ex Nihilo perfume - a fragrance for women and men 2023",
     "sortBrand": "ex nihilo",
-    "gender": "Унисекс"
+    "gender": "Унисекс",
+    "novemberSale": {
+      "id": "2026-11-12-15",
+      "price": {
+        "20": 2100,
+        "30": 3115,
+        "50": 5075,
+        "100": 10010
+      },
+      "format": "spray"
+    }
   },
   {
     "id": 98,
@@ -2477,7 +3083,17 @@
       "100": 7150
     },
     "discountSource": "Цены на спрей уже со скидкой 50%: скриншоты COYLI PARFUM IMG_2649–IMG_2655 от 15.10.2026. На чистое масло −50% от обычного тарифа категории, подтверждено пользователем.",
-    "gender": "Женский"
+    "gender": "Женский",
+    "novemberSale": {
+      "id": "2026-11-12-15",
+      "price": {
+        "20": 2100,
+        "30": 3115,
+        "50": 5075,
+        "100": 10010
+      },
+      "format": "spray"
+    }
   },
   {
     "id": 99,
@@ -2508,7 +3124,17 @@
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.64338.jpg",
     "referenceVersion": "Bois Impérial Essential Parfums perfume - a fragrance for women and men 2020",
     "sortBrand": "essential",
-    "gender": "Унисекс"
+    "gender": "Унисекс",
+    "novemberSale": {
+      "id": "2026-11-12-15",
+      "price": {
+        "20": 2100,
+        "30": 3115,
+        "50": 5075,
+        "100": 10010
+      },
+      "format": "spray"
+    }
   },
   {
     "id": 100,
@@ -2539,7 +3165,17 @@
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.6458.jpg",
     "referenceVersion": "Bal d'Afrique Byredo perfume - a fragrance for women and men 2009",
     "sortBrand": "byredo",
-    "gender": "Унисекс"
+    "gender": "Унисекс",
+    "novemberSale": {
+      "id": "2026-11-12-15",
+      "price": {
+        "20": 2100,
+        "30": 3115,
+        "50": 5075,
+        "100": 10010
+      },
+      "format": "spray"
+    }
   },
   {
     "id": 101,
@@ -2570,7 +3206,17 @@
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.73438.jpg",
     "referenceVersion": "Vanille Antique Byredo perfume - a fragrance for women and men 2022",
     "sortBrand": "byredo",
-    "gender": "Унисекс"
+    "gender": "Унисекс",
+    "novemberSale": {
+      "id": "2026-11-12-15",
+      "price": {
+        "20": 2100,
+        "30": 3115,
+        "50": 5075,
+        "100": 10010
+      },
+      "format": "spray"
+    }
   },
   {
     "id": 102,
@@ -2601,7 +3247,17 @@
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.101532.jpg",
     "referenceVersion": "Chimilka Vilhelm Parfumerie perfume - a new fragrance for women and men 2025",
     "sortBrand": "vilhelm",
-    "gender": "Унисекс"
+    "gender": "Унисекс",
+    "novemberSale": {
+      "id": "2026-11-12-15",
+      "price": {
+        "20": 2100,
+        "30": 3115,
+        "50": 5075,
+        "100": 10010
+      },
+      "format": "spray"
+    }
   },
   {
     "id": 103,
@@ -2632,7 +3288,17 @@
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.106624.jpg",
     "referenceVersion": "Absolu Aventus Creed cologne - a new fragrance for men 2025",
     "sortBrand": "creed",
-    "gender": "Мужской"
+    "gender": "Мужской",
+    "novemberSale": {
+      "id": "2026-11-12-15",
+      "price": {
+        "20": 2100,
+        "30": 3115,
+        "50": 5075,
+        "100": 10010
+      },
+      "format": "spray"
+    }
   },
   {
     "id": 104,
@@ -2663,7 +3329,17 @@
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.9828.jpg",
     "referenceVersion": "Aventus Creed cologne - a fragrance for men 2010",
     "sortBrand": "creed",
-    "gender": "Мужской"
+    "gender": "Мужской",
+    "novemberSale": {
+      "id": "2026-11-12-15",
+      "price": {
+        "20": 2100,
+        "30": 3115,
+        "50": 5075,
+        "100": 10010
+      },
+      "format": "spray"
+    }
   },
   {
     "id": 105,
@@ -2694,7 +3370,17 @@
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.56273.jpg",
     "referenceVersion": "Sedley Parfums de Marly perfume - a fragrance for women and men 2019",
     "sortBrand": "parfums",
-    "gender": "Мужской"
+    "gender": "Мужской",
+    "novemberSale": {
+      "id": "2026-11-12-15",
+      "price": {
+        "20": 2100,
+        "30": 3115,
+        "50": 5075,
+        "100": 10010
+      },
+      "format": "spray"
+    }
   },
   {
     "id": 106,
@@ -2725,7 +3411,17 @@
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.52792.jpg",
     "referenceVersion": "Devil's Intrigue Haute Fragrance Company HFC perfume - a fragrance for women 2018",
     "sortBrand": "hfc",
-    "gender": "Женский"
+    "gender": "Женский",
+    "novemberSale": {
+      "id": "2026-11-12-15",
+      "price": {
+        "20": 2100,
+        "30": 3115,
+        "50": 5075,
+        "100": 10010
+      },
+      "format": "spray"
+    }
   },
   {
     "id": 107,
@@ -2757,7 +3453,17 @@
     "referenceVersion": "Dirty Mango Richard perfume - a fragrance for women 2021",
     "sortBrand": "richard",
     "gender": "Унисекс",
-    "isHit": true
+    "isHit": true,
+    "novemberSale": {
+      "id": "2026-11-12-15",
+      "price": {
+        "20": 2100,
+        "30": 3115,
+        "50": 5075,
+        "100": 10010
+      },
+      "format": "spray"
+    }
   },
   {
     "id": 108,
@@ -2788,7 +3494,17 @@
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.106031.jpg",
     "referenceVersion": "Generation(s) Ex Nihilo perfume - a new fragrance for women and men 2025",
     "sortBrand": "ex nihilo",
-    "gender": "Унисекс"
+    "gender": "Унисекс",
+    "novemberSale": {
+      "id": "2026-11-12-15",
+      "price": {
+        "20": 2100,
+        "30": 3115,
+        "50": 5075,
+        "100": 10010
+      },
+      "format": "spray"
+    }
   },
   {
     "id": 109,
@@ -2819,7 +3535,17 @@
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.27571.jpg",
     "referenceVersion": "Fleur Narcotique Ex Nihilo perfume - a fragrance for women and men 2014",
     "sortBrand": "ex nihilo",
-    "gender": "Женский"
+    "gender": "Женский",
+    "novemberSale": {
+      "id": "2026-11-12-15",
+      "price": {
+        "20": 2100,
+        "30": 3115,
+        "50": 5075,
+        "100": 10010
+      },
+      "format": "spray"
+    }
   },
   {
     "id": 110,
@@ -2850,7 +3576,17 @@
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.44128.jpg",
     "referenceVersion": "Cocaïne Franck Boclet perfume - a fragrance for women and men 2017",
     "sortBrand": "franck",
-    "gender": "Унисекс"
+    "gender": "Унисекс",
+    "novemberSale": {
+      "id": "2026-11-12-15",
+      "price": {
+        "20": 2100,
+        "30": 3115,
+        "50": 5075,
+        "100": 10010
+      },
+      "format": "spray"
+    }
   },
   {
     "id": 111,
@@ -2882,7 +3618,17 @@
     "referenceVersion": "This is Not GABA Hormone Paris perfume - a fragrance for women and men 2023",
     "sortBrand": "hormone paris",
     "gender": "Унисекс",
-    "isHit": true
+    "isHit": true,
+    "novemberSale": {
+      "id": "2026-11-12-15",
+      "price": {
+        "20": 2100,
+        "30": 3115,
+        "50": 5075,
+        "100": 10010
+      },
+      "format": "spray"
+    }
   },
   {
     "id": 112,
@@ -2913,7 +3659,17 @@
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.54720.jpg",
     "referenceVersion": "Ganymede Marc-Antoine Barrois perfume - a fragrance for women and men 2019",
     "sortBrand": "marc-antoine barrois",
-    "gender": "Унисекс"
+    "gender": "Унисекс",
+    "novemberSale": {
+      "id": "2026-11-12-15",
+      "price": {
+        "20": 2100,
+        "30": 3115,
+        "50": 5075,
+        "100": 10010
+      },
+      "format": "spray"
+    }
   },
   {
     "id": 113,
@@ -2944,7 +3700,17 @@
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.3575.jpg",
     "referenceVersion": "Gypsy Water Byredo perfume - a fragrance for women and men 2008",
     "sortBrand": "byredo",
-    "gender": "Унисекс"
+    "gender": "Унисекс",
+    "novemberSale": {
+      "id": "2026-11-12-15",
+      "price": {
+        "20": 2100,
+        "30": 3115,
+        "50": 5075,
+        "100": 10010
+      },
+      "format": "spray"
+    }
   },
   {
     "id": 114,
@@ -2975,7 +3741,17 @@
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.118765.jpg",
     "referenceVersion": "This is Not Caffeine Hormone Paris perfume - a new fragrance for women and men 2025",
     "sortBrand": "hormone paris",
-    "gender": "Унисекс"
+    "gender": "Унисекс",
+    "novemberSale": {
+      "id": "2026-11-12-15",
+      "price": {
+        "20": 2100,
+        "30": 3115,
+        "50": 5075,
+        "100": 10010
+      },
+      "format": "spray"
+    }
   },
   {
     "id": 115,
@@ -3006,7 +3782,17 @@
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.105751.jpg",
     "referenceVersion": "This is Not Testosterone Hormone Paris perfume - a new fragrance for women and men 2025",
     "sortBrand": "hormone paris",
-    "gender": "Унисекс"
+    "gender": "Унисекс",
+    "novemberSale": {
+      "id": "2026-11-12-15",
+      "price": {
+        "20": 2100,
+        "30": 3115,
+        "50": 5075,
+        "100": 10010
+      },
+      "format": "spray"
+    }
   },
   {
     "id": 116,
@@ -3038,7 +3824,17 @@
     "referenceVersion": "Imagination Louis Vuitton cologne - a fragrance for men 2021",
     "sortBrand": "louis vuitton",
     "gender": "Мужской",
-    "isHit": true
+    "isHit": true,
+    "novemberSale": {
+      "id": "2026-11-12-15",
+      "price": {
+        "20": 2100,
+        "30": 3115,
+        "50": 5075,
+        "100": 10010
+      },
+      "format": "spray"
+    }
   },
   {
     "id": 117,
@@ -3069,7 +3865,17 @@
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.89368.jpg",
     "referenceVersion": "Narcotic Delight Initio Parfums Prives perfume - a fragrance for women and men 2024",
     "sortBrand": "initio",
-    "gender": "Унисекс"
+    "gender": "Унисекс",
+    "novemberSale": {
+      "id": "2026-11-12-15",
+      "price": {
+        "20": 2100,
+        "30": 3115,
+        "50": 5075,
+        "100": 10010
+      },
+      "format": "spray"
+    }
   },
   {
     "id": 118,
@@ -3100,7 +3906,17 @@
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.50351.jpg",
     "referenceVersion": "Rehab Initio Parfums Prives perfume - a fragrance for women and men 2018",
     "sortBrand": "initio",
-    "gender": "Унисекс"
+    "gender": "Унисекс",
+    "novemberSale": {
+      "id": "2026-11-12-15",
+      "price": {
+        "20": 2100,
+        "30": 3115,
+        "50": 5075,
+        "100": 10010
+      },
+      "format": "spray"
+    }
   },
   {
     "id": 119,
@@ -3131,7 +3947,17 @@
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.42260.jpg",
     "referenceVersion": "Side Effect Initio Parfums Prives perfume - a fragrance for women and men 2016",
     "sortBrand": "initio",
-    "gender": "Унисекс"
+    "gender": "Унисекс",
+    "novemberSale": {
+      "id": "2026-11-12-15",
+      "price": {
+        "20": 2100,
+        "30": 3115,
+        "50": 5075,
+        "100": 10010
+      },
+      "format": "spray"
+    }
   },
   {
     "id": 120,
@@ -3162,7 +3988,17 @@
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.20541.jpg",
     "referenceVersion": "Jazz Club Maison Martin Margiela cologne - a fragrance for men 2013",
     "sortBrand": "maison margiela",
-    "gender": "Унисекс"
+    "gender": "Унисекс",
+    "novemberSale": {
+      "id": "2026-11-12-15",
+      "price": {
+        "20": 2100,
+        "30": 3115,
+        "50": 5075,
+        "100": 10010
+      },
+      "format": "spray"
+    }
   },
   {
     "id": 121,
@@ -3193,7 +4029,17 @@
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.15134.jpg",
     "referenceVersion": "Blackberry & Bay Jo Malone London perfume - a fragrance for women 2012",
     "sortBrand": "jo",
-    "gender": "Унисекс"
+    "gender": "Унисекс",
+    "novemberSale": {
+      "id": "2026-11-12-15",
+      "price": {
+        "20": 2100,
+        "30": 3115,
+        "50": 5075,
+        "100": 10010
+      },
+      "format": "spray"
+    }
   },
   {
     "id": 122,
@@ -3224,7 +4070,17 @@
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.73429.jpg",
     "referenceVersion": "Almaz Kajal perfume - a fragrance for women and men 2022",
     "sortBrand": "kajal",
-    "gender": "Унисекс"
+    "gender": "Унисекс",
+    "novemberSale": {
+      "id": "2026-11-12-15",
+      "price": {
+        "20": 2100,
+        "30": 3115,
+        "50": 5075,
+        "100": 10010
+      },
+      "format": "spray"
+    }
   },
   {
     "id": 123,
@@ -3255,7 +4111,17 @@
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.79846.jpg",
     "referenceVersion": "Yum Pistachio Gelato | 33 Kayali Fragrances perfume - a fragrance for women and men 2023",
     "sortBrand": "kayali",
-    "gender": "Женский"
+    "gender": "Женский",
+    "novemberSale": {
+      "id": "2026-11-12-15",
+      "price": {
+        "20": 2100,
+        "30": 3115,
+        "50": 5075,
+        "100": 10010
+      },
+      "format": "spray"
+    }
   },
   {
     "id": 124,
@@ -3284,7 +4150,17 @@
     "duplicateOf": 123,
     "catalogStatus": "duplicate_split_from_name",
     "sortBrand": "",
-    "gender": "Женский"
+    "gender": "Женский",
+    "novemberSale": {
+      "id": "2026-11-12-15",
+      "price": {
+        "20": 2100,
+        "30": 3115,
+        "50": 5075,
+        "100": 10010
+      },
+      "format": "spray"
+    }
   },
   {
     "id": 125,
@@ -3315,7 +4191,17 @@
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.15924.jpg",
     "referenceVersion": "Good Girl Gone Bad By Kilian perfume - a fragrance for women 2012",
     "sortBrand": "kilian",
-    "gender": "Женский"
+    "gender": "Женский",
+    "novemberSale": {
+      "id": "2026-11-12-15",
+      "price": {
+        "20": 2100,
+        "30": 3115,
+        "50": 5075,
+        "100": 10010
+      },
+      "format": "spray"
+    }
   },
   {
     "id": 126,
@@ -3346,7 +4232,17 @@
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.56402.jpg",
     "referenceVersion": "Rolling in Love By Kilian perfume - a fragrance for women and men 2019",
     "sortBrand": "kilian",
-    "gender": "Женский"
+    "gender": "Женский",
+    "novemberSale": {
+      "id": "2026-11-12-15",
+      "price": {
+        "20": 2100,
+        "30": 3115,
+        "50": 5075,
+        "100": 10010
+      },
+      "format": "spray"
+    }
   },
   {
     "id": 127,
@@ -3377,7 +4273,17 @@
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.32172.jpg",
     "referenceVersion": "Kirkè Tiziana Terenzi perfume - a fragrance for women and men 2015",
     "sortBrand": "tiziana terenzi",
-    "gender": "Унисекс"
+    "gender": "Унисекс",
+    "novemberSale": {
+      "id": "2026-11-12-15",
+      "price": {
+        "20": 2100,
+        "30": 3115,
+        "50": 5075,
+        "100": 10010
+      },
+      "format": "spray"
+    }
   },
   {
     "id": 128,
@@ -3409,7 +4315,17 @@
     "referenceVersion": "Symphony Louis Vuitton perfume - a fragrance for women and men 2021",
     "sortBrand": "louis vuitton",
     "gender": "Унисекс",
-    "isHit": true
+    "isHit": true,
+    "novemberSale": {
+      "id": "2026-11-12-15",
+      "price": {
+        "20": 2100,
+        "30": 3115,
+        "50": 5075,
+        "100": 10010
+      },
+      "format": "spray"
+    }
   },
   {
     "id": 129,
@@ -3440,7 +4356,17 @@
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.10131.jpg",
     "referenceVersion": "Another 13 Le Labo perfume - a fragrance for women and men 2010",
     "sortBrand": "le",
-    "gender": "Унисекс"
+    "gender": "Унисекс",
+    "novemberSale": {
+      "id": "2026-11-12-15",
+      "price": {
+        "20": 2100,
+        "30": 3115,
+        "50": 5075,
+        "100": 10010
+      },
+      "format": "spray"
+    }
   },
   {
     "id": 130,
@@ -3471,7 +4397,17 @@
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.53947.jpg",
     "referenceVersion": "Afternoon Swim Louis Vuitton perfume - a fragrance for women and men 2019",
     "sortBrand": "louis vuitton",
-    "gender": "Унисекс"
+    "gender": "Унисекс",
+    "novemberSale": {
+      "id": "2026-11-12-15",
+      "price": {
+        "20": 2100,
+        "30": 3115,
+        "50": 5075,
+        "100": 10010
+      },
+      "format": "spray"
+    }
   },
   {
     "id": 131,
@@ -3502,7 +4438,17 @@
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.116625.jpg",
     "referenceVersion": "Fantasmagory Louis Vuitton perfume - a new fragrance for women and men 2025",
     "sortBrand": "louis vuitton",
-    "gender": "Унисекс"
+    "gender": "Унисекс",
+    "novemberSale": {
+      "id": "2026-11-12-15",
+      "price": {
+        "20": 2100,
+        "30": 3115,
+        "50": 5075,
+        "100": 10010
+      },
+      "format": "spray"
+    }
   },
   {
     "id": 132,
@@ -3534,7 +4480,17 @@
     "referenceVersion": "L’Immensité Louis Vuitton cologne - a fragrance for men 2018",
     "sortBrand": "louis vuitton",
     "gender": "Мужской",
-    "isHit": true
+    "isHit": true,
+    "novemberSale": {
+      "id": "2026-11-12-15",
+      "price": {
+        "20": 2100,
+        "30": 3115,
+        "50": 5075,
+        "100": 10010
+      },
+      "format": "spray"
+    }
   },
   {
     "id": 133,
@@ -3565,7 +4521,17 @@
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.68356.jpg",
     "referenceVersion": "Stellar Times Louis Vuitton perfume - a fragrance for women and men 2021",
     "sortBrand": "louis vuitton",
-    "gender": "Унисекс"
+    "gender": "Унисекс",
+    "novemberSale": {
+      "id": "2026-11-12-15",
+      "price": {
+        "20": 2100,
+        "30": 3115,
+        "50": 5075,
+        "100": 10010
+      },
+      "format": "spray"
+    }
   },
   {
     "id": 134,
@@ -3607,7 +4573,17 @@
       "100": 7150
     },
     "discountSource": "Цены на спрей уже со скидкой 50%: скриншоты COYLI PARFUM IMG_2649–IMG_2655 от 15.10.2026. На чистое масло −50% от обычного тарифа категории, подтверждено пользователем.",
-    "gender": "Унисекс"
+    "gender": "Унисекс",
+    "novemberSale": {
+      "id": "2026-11-12-15",
+      "price": {
+        "20": 2100,
+        "30": 3115,
+        "50": 5075,
+        "100": 10010
+      },
+      "format": "spray"
+    }
   },
   {
     "id": 135,
@@ -3638,7 +4614,17 @@
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.91688.jpg",
     "referenceVersion": "Tilia Marc-Antoine Barrois perfume - a fragrance for women and men 2024",
     "sortBrand": "marc-antoine barrois",
-    "gender": "Унисекс"
+    "gender": "Унисекс",
+    "novemberSale": {
+      "id": "2026-11-12-15",
+      "price": {
+        "20": 2100,
+        "30": 3115,
+        "50": 5075,
+        "100": 10010
+      },
+      "format": "spray"
+    }
   },
   {
     "id": 136,
@@ -3669,7 +4655,17 @@
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.53471.jpg",
     "referenceVersion": "Megamare Orto Parisi perfume - a fragrance for women and men 2019",
     "sortBrand": "orto",
-    "gender": "Унисекс"
+    "gender": "Унисекс",
+    "novemberSale": {
+      "id": "2026-11-12-15",
+      "price": {
+        "20": 2100,
+        "30": 3115,
+        "50": 5075,
+        "100": 10010
+      },
+      "format": "spray"
+    }
   },
   {
     "id": 137,
@@ -3700,7 +4696,17 @@
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.3606.jpg",
     "referenceVersion": "Molecule 02 Escentric Molecules perfume - a fragrance for women and men 2008",
     "sortBrand": "escentric",
-    "gender": "Унисекс"
+    "gender": "Унисекс",
+    "novemberSale": {
+      "id": "2026-11-12-15",
+      "price": {
+        "20": 2100,
+        "30": 3115,
+        "50": 5075,
+        "100": 10010
+      },
+      "format": "spray"
+    }
   },
   {
     "id": 138,
@@ -3732,7 +4738,17 @@
     "referenceVersion": "White Chocola Richard perfume - a fragrance for women and men",
     "sortBrand": "richard",
     "gender": "Унисекс",
-    "isHit": true
+    "isHit": true,
+    "novemberSale": {
+      "id": "2026-11-12-15",
+      "price": {
+        "20": 2100,
+        "30": 3115,
+        "50": 5075,
+        "100": 10010
+      },
+      "format": "spray"
+    }
   },
   {
     "id": 139,
@@ -3763,7 +4779,17 @@
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.13816.jpg",
     "referenceVersion": "Accento Sospiro Perfumes perfume - a fragrance for women and men 2011",
     "sortBrand": "sospiro",
-    "gender": "Унисекс"
+    "gender": "Унисекс",
+    "novemberSale": {
+      "id": "2026-11-12-15",
+      "price": {
+        "20": 2100,
+        "30": 3115,
+        "50": 5075,
+        "100": 10010
+      },
+      "format": "spray"
+    }
   },
   {
     "id": 140,
@@ -3794,7 +4820,17 @@
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.18652.jpg",
     "referenceVersion": "Erba Pura Sospiro Perfumes perfume - a fragrance for women and men 2013",
     "sortBrand": "sospiro",
-    "gender": "Унисекс"
+    "gender": "Унисекс",
+    "novemberSale": {
+      "id": "2026-11-12-15",
+      "price": {
+        "20": 2100,
+        "30": 3115,
+        "50": 5075,
+        "100": 10010
+      },
+      "format": "spray"
+    }
   },
   {
     "id": 141,
@@ -3825,7 +4861,17 @@
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.51411.jpg",
     "referenceVersion": "Lost Cherry Tom Ford perfume - a fragrance for women and men 2018",
     "sortBrand": "tom ford",
-    "gender": "Унисекс"
+    "gender": "Унисекс",
+    "novemberSale": {
+      "id": "2026-11-12-15",
+      "price": {
+        "20": 2100,
+        "30": 3115,
+        "50": 5075,
+        "100": 10010
+      },
+      "format": "spray"
+    }
   },
   {
     "id": 142,
@@ -3856,7 +4902,17 @@
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.1826.jpg",
     "referenceVersion": "Oud Wood Tom Ford perfume - a fragrance for women and men 2007",
     "sortBrand": "tom ford",
-    "gender": "Унисекс"
+    "gender": "Унисекс",
+    "novemberSale": {
+      "id": "2026-11-12-15",
+      "price": {
+        "20": 2100,
+        "30": 3115,
+        "50": 5075,
+        "100": 10010
+      },
+      "format": "spray"
+    }
   },
   {
     "id": 143,
@@ -3887,7 +4943,17 @@
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.78578.jpg",
     "referenceVersion": "Cherry Smoke Tom Ford perfume - a fragrance for women and men 2022",
     "sortBrand": "tom ford",
-    "gender": "Унисекс"
+    "gender": "Унисекс",
+    "novemberSale": {
+      "id": "2026-11-12-15",
+      "price": {
+        "20": 2100,
+        "30": 3115,
+        "50": 5075,
+        "100": 10010
+      },
+      "format": "spray"
+    }
   },
   {
     "id": 144,
@@ -3937,7 +5003,17 @@
       375,
       500
     ],
-    "gender": "Унисекс"
+    "gender": "Унисекс",
+    "novemberSale": {
+      "id": "2026-11-12-15",
+      "price": {
+        "20": 2100,
+        "30": 3115,
+        "50": 5075,
+        "100": 10010
+      },
+      "format": "spray"
+    }
   },
   {
     "id": 145,
@@ -3968,7 +5044,17 @@
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.53742.jpg",
     "referenceVersion": "Nọ 4 - Après l’Amour Eau de Parfum Thomas Kosmala perfume - a fragrance for women and men 2018",
     "sortBrand": "thomas",
-    "gender": "Унисекс"
+    "gender": "Унисекс",
+    "novemberSale": {
+      "id": "2026-11-12-15",
+      "price": {
+        "20": 2100,
+        "30": 3115,
+        "50": 5075,
+        "100": 10010
+      },
+      "format": "spray"
+    }
   },
   {
     "id": 146,
@@ -3999,7 +5085,17 @@
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.65074.jpg",
     "referenceVersion": "Black Pepper & Amber, Neroli Zielinski & Rozen perfume - a fragrance for women and men",
     "sortBrand": "zielinski & rozen",
-    "gender": "Унисекс"
+    "gender": "Унисекс",
+    "novemberSale": {
+      "id": "2026-11-12-15",
+      "price": {
+        "20": 2100,
+        "30": 3115,
+        "50": 5075,
+        "100": 10010
+      },
+      "format": "spray"
+    }
   },
   {
     "id": 147,
@@ -4030,7 +5126,17 @@
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.25474.jpg",
     "referenceVersion": "PINK MOLéCULE 090.09 ZARKOPERFUME perfume - a fragrance for women and men 2014",
     "sortBrand": "zarkoperfume",
-    "gender": "Унисекс"
+    "gender": "Унисекс",
+    "novemberSale": {
+      "id": "2026-11-12-15",
+      "price": {
+        "20": 2100,
+        "30": 3115,
+        "50": 5075,
+        "100": 10010
+      },
+      "format": "spray"
+    }
   },
   {
     "id": 148,
@@ -4061,7 +5167,17 @@
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.1088.jpg",
     "referenceVersion": "Blue Seduction Antonio Banderas cologne - a fragrance for men 2007",
     "sortBrand": "antonio",
-    "gender": "Мужской"
+    "gender": "Мужской",
+    "novemberSale": {
+      "id": "2026-11-12-15",
+      "price": {
+        "20": 1260,
+        "30": 1820,
+        "50": 2905,
+        "100": 5600
+      },
+      "format": "spray"
+    }
   },
   {
     "id": 149,
@@ -4093,7 +5209,17 @@
     "referenceVersion": "Emporio Armani Stronger With You Giorgio Armani cologne - a fragrance for men 2017",
     "sortBrand": "giorgio armani",
     "gender": "Мужской",
-    "isHit": true
+    "isHit": true,
+    "novemberSale": {
+      "id": "2026-11-12-15",
+      "price": {
+        "20": 1260,
+        "30": 1820,
+        "50": 2905,
+        "100": 5600
+      },
+      "format": "spray"
+    }
   },
   {
     "id": 150,
@@ -4135,7 +5261,17 @@
       "100": 4000
     },
     "discountSource": "Цены на спрей уже со скидкой 50%: скриншоты COYLI PARFUM IMG_2649–IMG_2655 от 15.10.2026. На чистое масло −50% от обычного тарифа категории, подтверждено пользователем.",
-    "gender": "Мужской"
+    "gender": "Мужской",
+    "novemberSale": {
+      "id": "2026-11-12-15",
+      "price": {
+        "20": 1260,
+        "30": 1820,
+        "50": 2905,
+        "100": 5600
+      },
+      "format": "spray"
+    }
   },
   {
     "id": 151,
@@ -4166,7 +5302,17 @@
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.5979.jpg",
     "referenceVersion": "Boss Orange Hugo Boss perfume - a fragrance for women 2009",
     "sortBrand": "hugo boss",
-    "gender": "Мужской"
+    "gender": "Мужской",
+    "novemberSale": {
+      "id": "2026-11-12-15",
+      "price": {
+        "20": 1260,
+        "30": 1820,
+        "50": 2905,
+        "100": 5600
+      },
+      "format": "spray"
+    }
   },
   {
     "id": 152,
@@ -4197,7 +5343,17 @@
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.45820.jpg",
     "referenceVersion": "My Burberry Blush Burberry perfume - a fragrance for women 2017",
     "sortBrand": "burberry",
-    "gender": "Женский"
+    "gender": "Женский",
+    "novemberSale": {
+      "id": "2026-11-12-15",
+      "price": {
+        "20": 1260,
+        "30": 1820,
+        "50": 2905,
+        "100": 5600
+      },
+      "format": "spray"
+    }
   },
   {
     "id": 153,
@@ -4228,7 +5384,17 @@
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.607.jpg",
     "referenceVersion": "Allure Homme Sport Chanel cologne - a fragrance for men 2004",
     "sortBrand": "chanel",
-    "gender": "Мужской"
+    "gender": "Мужской",
+    "novemberSale": {
+      "id": "2026-11-12-15",
+      "price": {
+        "20": 1260,
+        "30": 1820,
+        "50": 2905,
+        "100": 5600
+      },
+      "format": "spray"
+    }
   },
   {
     "id": 154,
@@ -4260,7 +5426,17 @@
     "referenceVersion": "Chance Eau de Toilette Chanel perfume - a fragrance for women 2002",
     "sortBrand": "chanel",
     "gender": "Женский",
-    "isHit": true
+    "isHit": true,
+    "novemberSale": {
+      "id": "2026-11-12-15",
+      "price": {
+        "20": 1260,
+        "30": 1820,
+        "50": 2905,
+        "100": 5600
+      },
+      "format": "spray"
+    }
   },
   {
     "id": 155,
@@ -4291,7 +5467,17 @@
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.611.jpg",
     "referenceVersion": "Coco Mademoiselle Chanel perfume - a fragrance for women 2001",
     "sortBrand": "chanel",
-    "gender": "Женский"
+    "gender": "Женский",
+    "novemberSale": {
+      "id": "2026-11-12-15",
+      "price": {
+        "20": 1260,
+        "30": 1820,
+        "50": 2905,
+        "100": 5600
+      },
+      "format": "spray"
+    }
   },
   {
     "id": 156,
@@ -4322,7 +5508,17 @@
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.613.jpg",
     "referenceVersion": "Egoiste Chanel cologne - a fragrance for men 1990",
     "sortBrand": "chanel",
-    "gender": "Мужской"
+    "gender": "Мужской",
+    "novemberSale": {
+      "id": "2026-11-12-15",
+      "price": {
+        "20": 1260,
+        "30": 1820,
+        "50": 2905,
+        "100": 5600
+      },
+      "format": "spray"
+    }
   },
   {
     "id": 157,
@@ -4353,7 +5549,17 @@
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.1483.jpg",
     "referenceVersion": "Chance Eau Fraiche Chanel perfume - a fragrance for women 2007",
     "sortBrand": "chanel",
-    "gender": "Женский"
+    "gender": "Женский",
+    "novemberSale": {
+      "id": "2026-11-12-15",
+      "price": {
+        "20": 1260,
+        "30": 1820,
+        "50": 2905,
+        "100": 5600
+      },
+      "format": "spray"
+    }
   },
   {
     "id": 158,
@@ -4384,7 +5590,17 @@
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.6086.jpg",
     "referenceVersion": "D&G Anthology L'Imperatrice 3 Dolce&Gabbana perfume - a fragrance for women 2009",
     "sortBrand": "dolce & gabbana",
-    "gender": "Женский"
+    "gender": "Женский",
+    "novemberSale": {
+      "id": "2026-11-12-15",
+      "price": {
+        "20": 1260,
+        "30": 1820,
+        "50": 2905,
+        "100": 5600
+      },
+      "format": "spray"
+    }
   },
   {
     "id": 159,
@@ -4415,7 +5631,17 @@
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.4033.jpg",
     "referenceVersion": "Dior Homme Sport (2008), Eau de Toilette",
     "sortBrand": "dior",
-    "gender": "Мужской"
+    "gender": "Мужской",
+    "novemberSale": {
+      "id": "2026-11-12-15",
+      "price": {
+        "20": 1260,
+        "30": 1820,
+        "50": 2905,
+        "100": 5600
+      },
+      "format": "spray"
+    }
   },
   {
     "id": 160,
@@ -4446,7 +5672,17 @@
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.210.jpg",
     "referenceVersion": "J'adore Dior perfume - a fragrance for women 1999",
     "sortBrand": "dior",
-    "gender": "Женский"
+    "gender": "Женский",
+    "novemberSale": {
+      "id": "2026-11-12-15",
+      "price": {
+        "20": 1260,
+        "30": 1820,
+        "50": 2905,
+        "100": 5600
+      },
+      "format": "spray"
+    }
   },
   {
     "id": 161,
@@ -4477,7 +5713,17 @@
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.78873.jpg",
     "referenceVersion": "Q by Dolce & Gabbana Dolce&Gabbana perfume - a fragrance for women 2023",
     "sortBrand": "dolce & gabbana",
-    "gender": "Женский"
+    "gender": "Женский",
+    "novemberSale": {
+      "id": "2026-11-12-15",
+      "price": {
+        "20": 1260,
+        "30": 1820,
+        "50": 2905,
+        "100": 5600
+      },
+      "format": "spray"
+    }
   },
   {
     "id": 162,
@@ -4508,7 +5754,17 @@
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.988.jpg",
     "referenceVersion": "Eclat d’Arpège Lanvin perfume - a fragrance for women 2002",
     "sortBrand": "lanvin",
-    "gender": "Женский"
+    "gender": "Женский",
+    "novemberSale": {
+      "id": "2026-11-12-15",
+      "price": {
+        "20": 1260,
+        "30": 1820,
+        "50": 2905,
+        "100": 5600
+      },
+      "format": "spray"
+    }
   },
   {
     "id": 163,
@@ -4536,7 +5792,17 @@
     "kind": "perfume",
     "duplicateOf": 164,
     "sortBrand": "givenchy",
-    "gender": "Мужской"
+    "gender": "Мужской",
+    "novemberSale": {
+      "id": "2026-11-12-15",
+      "price": {
+        "20": 1260,
+        "30": 1820,
+        "50": 2905,
+        "100": 5600
+      },
+      "format": "spray"
+    }
   },
   {
     "id": 164,
@@ -4568,7 +5834,17 @@
     "referenceVersion": "Gentleman Society Givenchy cologne - a fragrance for men 2023",
     "sortBrand": "givenchy",
     "gender": "Мужской",
-    "isHit": true
+    "isHit": true,
+    "novemberSale": {
+      "id": "2026-11-12-15",
+      "price": {
+        "20": 1260,
+        "30": 1820,
+        "50": 2905,
+        "100": 5600
+      },
+      "format": "spray"
+    }
   },
   {
     "id": 165,
@@ -4599,7 +5875,17 @@
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.60891.jpg",
     "referenceVersion": "Irresistible Givenchy Givenchy perfume - a fragrance for women 2020",
     "sortBrand": "givenchy",
-    "gender": "Женский"
+    "gender": "Женский",
+    "novemberSale": {
+      "id": "2026-11-12-15",
+      "price": {
+        "20": 1260,
+        "30": 1820,
+        "50": 2905,
+        "100": 5600
+      },
+      "format": "spray"
+    }
   },
   {
     "id": 166,
@@ -4630,7 +5916,17 @@
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.51488.jpg",
     "referenceVersion": "L'Interdit Eau de Parfum Givenchy perfume - a fragrance for women 2018",
     "sortBrand": "givenchy",
-    "gender": "Женский"
+    "gender": "Женский",
+    "novemberSale": {
+      "id": "2026-11-12-15",
+      "price": {
+        "20": 1260,
+        "30": 1820,
+        "50": 2905,
+        "100": 5600
+      },
+      "format": "spray"
+    }
   },
   {
     "id": 167,
@@ -4661,7 +5957,17 @@
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.106623.jpg",
     "referenceVersion": "Flora Gorgeous Gardenia Intense Gucci perfume - a new fragrance for women 2025",
     "sortBrand": "gucci",
-    "gender": "Женский"
+    "gender": "Женский",
+    "novemberSale": {
+      "id": "2026-11-12-15",
+      "price": {
+        "20": 1260,
+        "30": 1820,
+        "50": 2905,
+        "100": 5600
+      },
+      "format": "spray"
+    }
   },
   {
     "id": 168,
@@ -4692,7 +5998,17 @@
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.383.jpg",
     "referenceVersion": "Boss Bottled Hugo Boss cologne - a fragrance for men 1998",
     "sortBrand": "hugo boss",
-    "gender": "Мужской"
+    "gender": "Мужской",
+    "novemberSale": {
+      "id": "2026-11-12-15",
+      "price": {
+        "20": 1260,
+        "30": 1820,
+        "50": 2905,
+        "100": 5600
+      },
+      "format": "spray"
+    }
   },
   {
     "id": 169,
@@ -4723,7 +6039,17 @@
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.64606.jpg",
     "referenceVersion": "Hugo Man Hugo Boss cologne - a fragrance for men 2021",
     "sortBrand": "hugo boss",
-    "gender": "Мужской"
+    "gender": "Мужской",
+    "novemberSale": {
+      "id": "2026-11-12-15",
+      "price": {
+        "20": 1260,
+        "30": 1820,
+        "50": 2905,
+        "100": 5600
+      },
+      "format": "spray"
+    }
   },
   {
     "id": 170,
@@ -4754,7 +6080,17 @@
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.669.jpg",
     "referenceVersion": "Lacoste Pour Femme Lacoste Fragrances perfume - a fragrance for women 2003",
     "sortBrand": "lacoste",
-    "gender": "Женский"
+    "gender": "Женский",
+    "novemberSale": {
+      "id": "2026-11-12-15",
+      "price": {
+        "20": 1260,
+        "30": 1820,
+        "50": 2905,
+        "100": 5600
+      },
+      "format": "spray"
+    }
   },
   {
     "id": 171,
@@ -4786,7 +6122,17 @@
     "referenceVersion": "Yara Lattafa Perfumes perfume - a fragrance for women 2020",
     "sortBrand": "lattafa",
     "gender": "Женский",
-    "isHit": true
+    "isHit": true,
+    "novemberSale": {
+      "id": "2026-11-12-15",
+      "price": {
+        "20": 1260,
+        "30": 1820,
+        "50": 2905,
+        "100": 5600
+      },
+      "format": "spray"
+    }
   },
   {
     "id": 172,
@@ -4817,7 +6163,17 @@
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.485.jpg",
     "referenceVersion": "Light Blue Dolce&Gabbana perfume - a fragrance for women 2001",
     "sortBrand": "dolce & gabbana",
-    "gender": "Унисекс"
+    "gender": "Унисекс",
+    "novemberSale": {
+      "id": "2026-11-12-15",
+      "price": {
+        "20": 1260,
+        "30": 1820,
+        "50": 2905,
+        "100": 5600
+      },
+      "format": "spray"
+    }
   },
   {
     "id": 173,
@@ -4859,7 +6215,17 @@
       "100": 4000
     },
     "discountSource": "Цены на спрей уже со скидкой 50%: скриншоты COYLI PARFUM IMG_2649–IMG_2655 от 15.10.2026. На чистое масло −50% от обычного тарифа категории, подтверждено пользователем.",
-    "gender": "Унисекс"
+    "gender": "Унисекс",
+    "novemberSale": {
+      "id": "2026-11-12-15",
+      "price": {
+        "20": 1260,
+        "30": 1820,
+        "50": 2905,
+        "100": 5600
+      },
+      "format": "spray"
+    }
   },
   {
     "id": 174,
@@ -4901,7 +6267,17 @@
       "100": 4000
     },
     "discountSource": "Цены на спрей уже со скидкой 50%: скриншоты COYLI PARFUM IMG_2649–IMG_2655 от 15.10.2026. На чистое масло −50% от обычного тарифа категории, подтверждено пользователем.",
-    "gender": "Женский"
+    "gender": "Женский",
+    "novemberSale": {
+      "id": "2026-11-12-15",
+      "price": {
+        "20": 1260,
+        "30": 1820,
+        "50": 2905,
+        "100": 5600
+      },
+      "format": "spray"
+    }
   },
   {
     "id": 175,
@@ -4943,7 +6319,17 @@
       "100": 4000
     },
     "discountSource": "Цены на спрей уже со скидкой 50%: скриншоты COYLI PARFUM IMG_2649–IMG_2655 от 15.10.2026. На чистое масло −50% от обычного тарифа категории, подтверждено пользователем.",
-    "gender": "Унисекс"
+    "gender": "Унисекс",
+    "novemberSale": {
+      "id": "2026-11-12-15",
+      "price": {
+        "20": 1260,
+        "30": 1820,
+        "50": 2905,
+        "100": 5600
+      },
+      "format": "spray"
+    }
   },
   {
     "id": 176,
@@ -4974,7 +6360,17 @@
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.3747.jpg",
     "referenceVersion": "1 Million Rabanne cologne - a fragrance for men 2008",
     "sortBrand": "paco rabanne",
-    "gender": "Мужской"
+    "gender": "Мужской",
+    "novemberSale": {
+      "id": "2026-11-12-15",
+      "price": {
+        "20": 1260,
+        "30": 1820,
+        "50": 2905,
+        "100": 5600
+      },
+      "format": "spray"
+    }
   },
   {
     "id": 177,
@@ -5005,7 +6401,17 @@
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.33495.jpg",
     "referenceVersion": "Aqua Kiss Victoria's Secret perfume - a fragrance for women 2012",
     "sortBrand": "victoria's secret",
-    "gender": "Женский"
+    "gender": "Женский",
+    "novemberSale": {
+      "id": "2026-11-12-15",
+      "price": {
+        "20": 1260,
+        "30": 1820,
+        "50": 2905,
+        "100": 5600
+      },
+      "format": "spray"
+    }
   },
   {
     "id": 178,
@@ -5036,7 +6442,17 @@
     "imageSource": "https://www.fragrantica.com/perfume/Victoria-s-Secret/Scandalous-28256.html",
     "referenceVersion": "Scandalous Victoria's Secret Eau de Parfum 2014 (pink patterned bottle with black bow)",
     "sortBrand": "victoria's secret",
-    "gender": "Женский"
+    "gender": "Женский",
+    "novemberSale": {
+      "id": "2026-11-12-15",
+      "price": {
+        "20": 1260,
+        "30": 1820,
+        "50": 2905,
+        "100": 5600
+      },
+      "format": "spray"
+    }
   },
   {
     "id": 179,
@@ -5068,7 +6484,17 @@
     "referenceVersion": "Eau So Sexy Victoria's Secret perfume - a fragrance for women 2014",
     "sortBrand": "victoria's secret",
     "gender": "Женский",
-    "isHit": true
+    "isHit": true,
+    "novemberSale": {
+      "id": "2026-11-12-15",
+      "price": {
+        "20": 1260,
+        "30": 1820,
+        "50": 2905,
+        "100": 5600
+      },
+      "format": "spray"
+    }
   },
   {
     "id": 180,
@@ -5099,7 +6525,17 @@
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.632.jpg",
     "referenceVersion": "Bright Crystal Versace perfume - a fragrance for women 2006",
     "sortBrand": "versace",
-    "gender": "Женский"
+    "gender": "Женский",
+    "novemberSale": {
+      "id": "2026-11-12-15",
+      "price": {
+        "20": 1260,
+        "30": 1820,
+        "50": 2905,
+        "100": 5600
+      },
+      "format": "spray"
+    }
   },
   {
     "id": 181,
@@ -5130,7 +6566,17 @@
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.631.jpg",
     "referenceVersion": "Crystal Noir Versace perfume - a fragrance for women 2004",
     "sortBrand": "versace",
-    "gender": "Женский"
+    "gender": "Женский",
+    "novemberSale": {
+      "id": "2026-11-12-15",
+      "price": {
+        "20": 1260,
+        "30": 1820,
+        "50": 2905,
+        "100": 5600
+      },
+      "format": "spray"
+    }
   },
   {
     "id": 182,
@@ -5161,7 +6607,17 @@
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.52180.jpg",
     "referenceVersion": "Eros Flame Versace cologne - a fragrance for men 2018",
     "sortBrand": "versace",
-    "gender": "Мужской"
+    "gender": "Мужской",
+    "novemberSale": {
+      "id": "2026-11-12-15",
+      "price": {
+        "20": 1260,
+        "30": 1820,
+        "50": 2905,
+        "100": 5600
+      },
+      "format": "spray"
+    }
   },
   {
     "id": 183,
@@ -5192,7 +6648,17 @@
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.16657.jpg",
     "referenceVersion": "Eros Versace cologne - a fragrance for men 2012",
     "sortBrand": "versace",
-    "gender": "Мужской"
+    "gender": "Мужской",
+    "novemberSale": {
+      "id": "2026-11-12-15",
+      "price": {
+        "20": 1260,
+        "30": 1820,
+        "50": 2905,
+        "100": 5600
+      },
+      "format": "spray"
+    }
   },
   {
     "id": 184,
@@ -5224,7 +6690,17 @@
     "referenceVersion": "Bombshell Victoria's Secret perfume - a fragrance for women 2010",
     "sortBrand": "victoria's secret",
     "gender": "Женский",
-    "isHit": true
+    "isHit": true,
+    "novemberSale": {
+      "id": "2026-11-12-15",
+      "price": {
+        "20": 1260,
+        "30": 1820,
+        "50": 2905,
+        "100": 5600
+      },
+      "format": "spray"
+    }
   },
   {
     "id": 185,
@@ -5255,7 +6731,17 @@
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.15540.jpg",
     "referenceVersion": "Manifesto Yves Saint Laurent perfume - a fragrance for women 2012",
     "sortBrand": "yves saint laurent",
-    "gender": "Женский"
+    "gender": "Женский",
+    "novemberSale": {
+      "id": "2026-11-12-15",
+      "price": {
+        "20": 1260,
+        "30": 1820,
+        "50": 2905,
+        "100": 5600
+      },
+      "format": "spray"
+    }
   },
   {
     "id": 186,
@@ -5286,7 +6772,17 @@
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.39359.jpg",
     "referenceVersion": "This is Him Zadig & Voltaire cologne - a fragrance for men 2016",
     "sortBrand": "zadig & voltaire",
-    "gender": "Мужской"
+    "gender": "Мужской",
+    "novemberSale": {
+      "id": "2026-11-12-15",
+      "price": {
+        "20": 1260,
+        "30": 1820,
+        "50": 2905,
+        "100": 5600
+      },
+      "format": "spray"
+    }
   },
   {
     "id": 187,
@@ -5328,7 +6824,17 @@
       "100": 4000
     },
     "discountSource": "Цены на спрей уже со скидкой 50%: скриншоты COYLI PARFUM IMG_2649–IMG_2655 от 15.10.2026. На чистое масло −50% от обычного тарифа категории, подтверждено пользователем.",
-    "gender": "Мужской"
+    "gender": "Мужской",
+    "novemberSale": {
+      "id": "2026-11-12-15",
+      "price": {
+        "20": 1260,
+        "30": 1820,
+        "50": 2905,
+        "100": 5600
+      },
+      "format": "spray"
+    }
   },
   {
     "id": 188,
@@ -5375,7 +6881,20 @@
       "checkedAt": "2026-10-15",
       "source": "Оригинал отчёт .xlsm, Инвентаризация, остаток на 15.10.2026; наличие оригиналов только в Ньютоне подтверждено пользователем"
     },
-    "gender": "Унисекс"
+    "gender": "Унисекс",
+    "novemberSale": {
+      "id": "2026-11-12-15",
+      "price": {
+        "3": 675,
+        "5": 1125,
+        "10": 2125,
+        "15": 3187.5,
+        "20": 4250,
+        "30": 6375,
+        "50": 10625,
+        "100": 21250
+      }
+    }
   },
   {
     "id": 189,
@@ -5422,7 +6941,20 @@
       "checkedAt": "2026-10-15",
       "source": "Оригинал отчёт .xlsm, Инвентаризация, остаток на 15.10.2026; наличие оригиналов только в Ньютоне подтверждено пользователем"
     },
-    "gender": "Унисекс"
+    "gender": "Унисекс",
+    "novemberSale": {
+      "id": "2026-11-12-15",
+      "price": {
+        "3": 810,
+        "5": 1350,
+        "10": 2550,
+        "15": 3825,
+        "20": 5100,
+        "30": 7650,
+        "50": 12750,
+        "100": 25500
+      }
+    }
   },
   {
     "id": 190,
@@ -5469,7 +7001,20 @@
       "checkedAt": "2026-10-15",
       "source": "Оригинал отчёт .xlsm, Инвентаризация, остаток на 15.10.2026; наличие оригиналов только в Ньютоне подтверждено пользователем"
     },
-    "gender": "Женский"
+    "gender": "Женский",
+    "novemberSale": {
+      "id": "2026-11-12-15",
+      "price": {
+        "3": 810,
+        "5": 1350,
+        "10": 2550,
+        "15": 3825,
+        "20": 5100,
+        "30": 7650,
+        "50": 12750,
+        "100": 25500
+      }
+    }
   },
   {
     "id": 191,
@@ -5518,7 +7063,20 @@
     },
     "gender": "Женский",
     "isHit": true,
-    "hitOrder": 5
+    "hitOrder": 5,
+    "novemberSale": {
+      "id": "2026-11-12-15",
+      "price": {
+        "3": 675,
+        "5": 1125,
+        "10": 2125,
+        "15": 3187.5,
+        "20": 4250,
+        "30": 6375,
+        "50": 10625,
+        "100": 21250
+      }
+    }
   },
   {
     "id": 192,
@@ -5565,7 +7123,20 @@
       "checkedAt": "2026-10-15",
       "source": "Оригинал отчёт .xlsm, Инвентаризация, остаток на 15.10.2026; наличие оригиналов только в Ньютоне подтверждено пользователем"
     },
-    "gender": "Женский"
+    "gender": "Женский",
+    "novemberSale": {
+      "id": "2026-11-12-15",
+      "price": {
+        "3": 675,
+        "5": 1125,
+        "10": 2125,
+        "15": 3187.5,
+        "20": 4250,
+        "30": 6375,
+        "50": 10625,
+        "100": 21250
+      }
+    }
   },
   {
     "id": 193,
@@ -5613,7 +7184,20 @@
       "checkedAt": "2026-10-15",
       "source": "Оригинал отчёт .xlsm, Инвентаризация, остаток на 15.10.2026; наличие оригиналов только в Ньютоне подтверждено пользователем"
     },
-    "gender": "Унисекс"
+    "gender": "Унисекс",
+    "novemberSale": {
+      "id": "2026-11-12-15",
+      "price": {
+        "3": 810,
+        "5": 1350,
+        "10": 2550,
+        "15": 3825,
+        "20": 5100,
+        "30": 7650,
+        "50": 12750,
+        "100": 25500
+      }
+    }
   },
   {
     "id": 194,
@@ -5660,7 +7244,20 @@
       "checkedAt": "2026-10-15",
       "source": "Оригинал отчёт .xlsm, Инвентаризация, остаток на 15.10.2026; наличие оригиналов только в Ньютоне подтверждено пользователем"
     },
-    "gender": "Унисекс"
+    "gender": "Унисекс",
+    "novemberSale": {
+      "id": "2026-11-12-15",
+      "price": {
+        "3": 1080,
+        "5": 1800,
+        "10": 3400,
+        "15": 5100,
+        "20": 6800,
+        "30": 10200,
+        "50": 17000,
+        "100": 34000
+      }
+    }
   },
   {
     "id": 195,
@@ -5707,7 +7304,20 @@
       "checkedAt": "2026-10-15",
       "source": "Оригинал отчёт .xlsm, Инвентаризация, остаток на 15.10.2026; наличие оригиналов только в Ньютоне подтверждено пользователем"
     },
-    "gender": "Женский"
+    "gender": "Женский",
+    "novemberSale": {
+      "id": "2026-11-12-15",
+      "price": {
+        "3": 810,
+        "5": 1350,
+        "10": 2550,
+        "15": 3825,
+        "20": 5100,
+        "30": 7650,
+        "50": 12750,
+        "100": 25500
+      }
+    }
   },
   {
     "id": 196,
@@ -5754,7 +7364,20 @@
       "checkedAt": "2026-10-15",
       "source": "Оригинал отчёт .xlsm, Инвентаризация, остаток на 15.10.2026; наличие оригиналов только в Ньютоне подтверждено пользователем"
     },
-    "gender": "Женский"
+    "gender": "Женский",
+    "novemberSale": {
+      "id": "2026-11-12-15",
+      "price": {
+        "3": 810,
+        "5": 1350,
+        "10": 2550,
+        "15": 3825,
+        "20": 5100,
+        "30": 7650,
+        "50": 12750,
+        "100": 25500
+      }
+    }
   },
   {
     "id": 197,
@@ -5801,7 +7424,20 @@
       "checkedAt": "2026-10-15",
       "source": "Оригинал отчёт .xlsm, Инвентаризация, остаток на 15.10.2026; наличие оригиналов только в Ньютоне подтверждено пользователем"
     },
-    "gender": "Унисекс"
+    "gender": "Унисекс",
+    "novemberSale": {
+      "id": "2026-11-12-15",
+      "price": {
+        "3": 810,
+        "5": 1350,
+        "10": 2550,
+        "15": 3825,
+        "20": 5100,
+        "30": 7650,
+        "50": 12750,
+        "100": 25500
+      }
+    }
   },
   {
     "id": 198,
@@ -5848,7 +7484,20 @@
       "checkedAt": "2026-10-15",
       "source": "Оригинал отчёт .xlsm, Инвентаризация, остаток на 15.10.2026; наличие оригиналов только в Ньютоне подтверждено пользователем"
     },
-    "gender": "Унисекс"
+    "gender": "Унисекс",
+    "novemberSale": {
+      "id": "2026-11-12-15",
+      "price": {
+        "3": 945,
+        "5": 1575,
+        "10": 2975,
+        "15": 4462.5,
+        "20": 5950,
+        "30": 8925,
+        "50": 14875,
+        "100": 29750
+      }
+    }
   },
   {
     "id": 199,
@@ -5897,7 +7546,20 @@
     },
     "discountPercent": 15,
     "discountSource": "Пользователь: акция −15% на 12 ароматов с IMG_2656.jpeg и IMG_2657.jpeg, 15.10.2026",
-    "gender": "Унисекс"
+    "gender": "Унисекс",
+    "novemberSale": {
+      "id": "2026-11-12-15",
+      "price": {
+        "3": 945,
+        "5": 1575,
+        "10": 2975,
+        "15": 4462.5,
+        "20": 5950,
+        "30": 8925,
+        "50": 14875,
+        "100": 29750
+      }
+    }
   },
   {
     "id": 200,
@@ -5944,7 +7606,20 @@
       "checkedAt": "2026-10-15",
       "source": "Оригинал отчёт .xlsm, Инвентаризация, остаток на 15.10.2026; наличие оригиналов только в Ньютоне подтверждено пользователем"
     },
-    "gender": "Унисекс"
+    "gender": "Унисекс",
+    "novemberSale": {
+      "id": "2026-11-12-15",
+      "price": {
+        "3": 1080,
+        "5": 1800,
+        "10": 3400,
+        "15": 5100,
+        "20": 6800,
+        "30": 10200,
+        "50": 17000,
+        "100": 34000
+      }
+    }
   },
   {
     "id": 201,
@@ -5991,7 +7666,20 @@
       "checkedAt": "2026-10-15",
       "source": "Оригинал отчёт .xlsm, Инвентаризация, остаток на 15.10.2026; наличие оригиналов только в Ньютоне подтверждено пользователем"
     },
-    "gender": "Унисекс"
+    "gender": "Унисекс",
+    "novemberSale": {
+      "id": "2026-11-12-15",
+      "price": {
+        "3": 1215,
+        "5": 2025,
+        "10": 3825,
+        "15": 5737.5,
+        "20": 7650,
+        "30": 11475,
+        "50": 19125,
+        "100": 38250
+      }
+    }
   },
   {
     "id": 202,
@@ -6038,7 +7726,20 @@
       "checkedAt": "2026-10-15",
       "source": "Оригинал отчёт .xlsm, Инвентаризация, остаток на 15.10.2026; наличие оригиналов только в Ньютоне подтверждено пользователем"
     },
-    "gender": "Унисекс"
+    "gender": "Унисекс",
+    "novemberSale": {
+      "id": "2026-11-12-15",
+      "price": {
+        "3": 1080,
+        "5": 1800,
+        "10": 3400,
+        "15": 5100,
+        "20": 6800,
+        "30": 10200,
+        "50": 17000,
+        "100": 34000
+      }
+    }
   },
   {
     "id": 203,
@@ -6086,7 +7787,20 @@
       "checkedAt": "2026-10-15",
       "source": "Оригинал отчёт .xlsm, Инвентаризация, остаток на 15.10.2026; наличие оригиналов только в Ньютоне подтверждено пользователем"
     },
-    "gender": "Унисекс"
+    "gender": "Унисекс",
+    "novemberSale": {
+      "id": "2026-11-12-15",
+      "price": {
+        "3": 1080,
+        "5": 1800,
+        "10": 3400,
+        "15": 5100,
+        "20": 6800,
+        "30": 10200,
+        "50": 17000,
+        "100": 34000
+      }
+    }
   },
   {
     "id": 204,
@@ -6133,7 +7847,20 @@
       "checkedAt": "2026-10-15",
       "source": "Оригинал отчёт .xlsm, Инвентаризация, остаток на 15.10.2026; наличие оригиналов только в Ньютоне подтверждено пользователем"
     },
-    "gender": "Мужской"
+    "gender": "Мужской",
+    "novemberSale": {
+      "id": "2026-11-12-15",
+      "price": {
+        "3": 1080,
+        "5": 1800,
+        "10": 3400,
+        "15": 5100,
+        "20": 6800,
+        "30": 10200,
+        "50": 17000,
+        "100": 34000
+      }
+    }
   },
   {
     "id": 205,
@@ -6181,7 +7908,20 @@
       "checkedAt": "2026-10-15",
       "source": "Оригинал отчёт .xlsm, Инвентаризация, остаток на 15.10.2026; наличие оригиналов только в Ньютоне подтверждено пользователем"
     },
-    "gender": "Мужской"
+    "gender": "Мужской",
+    "novemberSale": {
+      "id": "2026-11-12-15",
+      "price": {
+        "3": 1080,
+        "5": 1800,
+        "10": 3400,
+        "15": 5100,
+        "20": 6800,
+        "30": 10200,
+        "50": 17000,
+        "100": 34000
+      }
+    }
   },
   {
     "id": 206,
@@ -6228,7 +7968,20 @@
       "checkedAt": "2026-10-15",
       "source": "Оригинал отчёт .xlsm, Инвентаризация, остаток на 15.10.2026; наличие оригиналов только в Ньютоне подтверждено пользователем"
     },
-    "gender": "Женский"
+    "gender": "Женский",
+    "novemberSale": {
+      "id": "2026-11-12-15",
+      "price": {
+        "3": 1080,
+        "5": 1800,
+        "10": 3400,
+        "15": 5100,
+        "20": 6800,
+        "30": 10200,
+        "50": 17000,
+        "100": 34000
+      }
+    }
   },
   {
     "id": 207,
@@ -6277,7 +8030,20 @@
     },
     "gender": "Мужской",
     "isHit": true,
-    "hitOrder": 0
+    "hitOrder": 0,
+    "novemberSale": {
+      "id": "2026-11-12-15",
+      "price": {
+        "3": 1620,
+        "5": 2700,
+        "10": 5100,
+        "15": 7650,
+        "20": 10200,
+        "30": 15300,
+        "50": 25500,
+        "100": 51000
+      }
+    }
   },
   {
     "id": 208,
@@ -6325,7 +8091,20 @@
       "checkedAt": "2026-10-15",
       "source": "Оригинал отчёт .xlsm, Инвентаризация, остаток на 15.10.2026; наличие оригиналов только в Ньютоне подтверждено пользователем"
     },
-    "gender": "Мужской"
+    "gender": "Мужской",
+    "novemberSale": {
+      "id": "2026-11-12-15",
+      "price": {
+        "3": 2700,
+        "5": 4500,
+        "10": 8500,
+        "15": 12750,
+        "20": 17000,
+        "30": 25500,
+        "50": 42500,
+        "100": 85000
+      }
+    }
   },
   {
     "id": 209,
@@ -6373,7 +8152,20 @@
       "checkedAt": "2026-10-15",
       "source": "Оригинал отчёт .xlsm, Инвентаризация, остаток на 15.10.2026; наличие оригиналов только в Ньютоне подтверждено пользователем"
     },
-    "gender": "Женский"
+    "gender": "Женский",
+    "novemberSale": {
+      "id": "2026-11-12-15",
+      "price": {
+        "3": 810,
+        "5": 1350,
+        "10": 2550,
+        "15": 3825,
+        "20": 5100,
+        "30": 7650,
+        "50": 12750,
+        "100": 25500
+      }
+    }
   },
   {
     "id": 210,
@@ -6421,7 +8213,20 @@
       "checkedAt": "2026-10-15",
       "source": "Оригинал отчёт .xlsm, Инвентаризация, остаток на 15.10.2026; наличие оригиналов только в Ньютоне подтверждено пользователем"
     },
-    "gender": "Мужской"
+    "gender": "Мужской",
+    "novemberSale": {
+      "id": "2026-11-12-15",
+      "price": {
+        "3": 810,
+        "5": 1350,
+        "10": 2550,
+        "15": 3825,
+        "20": 5100,
+        "30": 7650,
+        "50": 12750,
+        "100": 25500
+      }
+    }
   },
   {
     "id": 211,
@@ -6468,7 +8273,20 @@
       "checkedAt": "2026-10-15",
       "source": "Оригинал отчёт .xlsm, Инвентаризация, остаток на 15.10.2026; наличие оригиналов только в Ньютоне подтверждено пользователем"
     },
-    "gender": "Унисекс"
+    "gender": "Унисекс",
+    "novemberSale": {
+      "id": "2026-11-12-15",
+      "price": {
+        "3": 945,
+        "5": 1575,
+        "10": 2975,
+        "15": 4462.5,
+        "20": 5950,
+        "30": 8925,
+        "50": 14875,
+        "100": 29750
+      }
+    }
   },
   {
     "id": 212,
@@ -6515,7 +8333,20 @@
       "checkedAt": "2026-10-15",
       "source": "Оригинал отчёт .xlsm, Инвентаризация, остаток на 15.10.2026; наличие оригиналов только в Ньютоне подтверждено пользователем"
     },
-    "gender": "Унисекс"
+    "gender": "Унисекс",
+    "novemberSale": {
+      "id": "2026-11-12-15",
+      "price": {
+        "3": 1080,
+        "5": 1800,
+        "10": 3400,
+        "15": 5100,
+        "20": 6800,
+        "30": 10200,
+        "50": 17000,
+        "100": 34000
+      }
+    }
   },
   {
     "id": 213,
@@ -6564,7 +8395,20 @@
     },
     "gender": "Унисекс",
     "isHit": true,
-    "hitOrder": 6
+    "hitOrder": 6,
+    "novemberSale": {
+      "id": "2026-11-12-15",
+      "price": {
+        "3": 675,
+        "5": 1125,
+        "10": 2125,
+        "15": 3187.5,
+        "20": 4250,
+        "30": 6375,
+        "50": 10625,
+        "100": 21250
+      }
+    }
   },
   {
     "id": 214,
@@ -6611,7 +8455,20 @@
       "checkedAt": "2026-10-15",
       "source": "Оригинал отчёт .xlsm, Инвентаризация, остаток на 15.10.2026; наличие оригиналов только в Ньютоне подтверждено пользователем"
     },
-    "gender": "Унисекс"
+    "gender": "Унисекс",
+    "novemberSale": {
+      "id": "2026-11-12-15",
+      "price": {
+        "3": 2430,
+        "5": 4050,
+        "10": 7650,
+        "15": 11475,
+        "20": 15300,
+        "30": 22950,
+        "50": 38250,
+        "100": 76500
+      }
+    }
   },
   {
     "id": 215,
@@ -6658,7 +8515,20 @@
       "checkedAt": "2026-10-15",
       "source": "Оригинал отчёт .xlsm, Инвентаризация, остаток на 15.10.2026; наличие оригиналов только в Ньютоне подтверждено пользователем"
     },
-    "gender": "Женский"
+    "gender": "Женский",
+    "novemberSale": {
+      "id": "2026-11-12-15",
+      "price": {
+        "3": 1080,
+        "5": 1800,
+        "10": 3400,
+        "15": 5100,
+        "20": 6800,
+        "30": 10200,
+        "50": 17000,
+        "100": 34000
+      }
+    }
   },
   {
     "id": 216,
@@ -6705,7 +8575,20 @@
       "checkedAt": "2026-10-15",
       "source": "Оригинал отчёт .xlsm, Инвентаризация, остаток на 15.10.2026; наличие оригиналов только в Ньютоне подтверждено пользователем"
     },
-    "gender": "Унисекс"
+    "gender": "Унисекс",
+    "novemberSale": {
+      "id": "2026-11-12-15",
+      "price": {
+        "3": 1215,
+        "5": 2025,
+        "10": 3825,
+        "15": 5737.5,
+        "20": 7650,
+        "30": 11475,
+        "50": 19125,
+        "100": 38250
+      }
+    }
   },
   {
     "id": 217,
@@ -6752,7 +8635,20 @@
       "checkedAt": "2026-10-23",
       "source": "Поставка 22.10.2026, подтверждено пользователем"
     },
-    "gender": "Мужской"
+    "gender": "Мужской",
+    "novemberSale": {
+      "id": "2026-11-12-15",
+      "price": {
+        "3": 675,
+        "5": 1125,
+        "10": 2125,
+        "15": 3187.5,
+        "20": 4250,
+        "30": 6375,
+        "50": 10625,
+        "100": 21250
+      }
+    }
   },
   {
     "id": 218,
@@ -6799,7 +8695,20 @@
       "checkedAt": "2026-10-15",
       "source": "Оригинал отчёт .xlsm, Инвентаризация, остаток на 15.10.2026; наличие оригиналов только в Ньютоне подтверждено пользователем"
     },
-    "gender": "Женский"
+    "gender": "Женский",
+    "novemberSale": {
+      "id": "2026-11-12-15",
+      "price": {
+        "3": 2295,
+        "5": 3825,
+        "10": 7225,
+        "15": 10837.5,
+        "20": 14450,
+        "30": 21675,
+        "50": 36125,
+        "100": 72250
+      }
+    }
   },
   {
     "id": 219,
@@ -6848,7 +8757,20 @@
     },
     "gender": "Унисекс",
     "isHit": true,
-    "hitOrder": 4
+    "hitOrder": 4,
+    "novemberSale": {
+      "id": "2026-11-12-15",
+      "price": {
+        "3": 1215,
+        "5": 2025,
+        "10": 3825,
+        "15": 5737.5,
+        "20": 7650,
+        "30": 11475,
+        "50": 19125,
+        "100": 38250
+      }
+    }
   },
   {
     "id": 220,
@@ -6895,7 +8817,20 @@
       "checkedAt": "2026-10-15",
       "source": "Оригинал отчёт .xlsm, Инвентаризация, остаток на 15.10.2026; наличие оригиналов только в Ньютоне подтверждено пользователем"
     },
-    "gender": "Унисекс"
+    "gender": "Унисекс",
+    "novemberSale": {
+      "id": "2026-11-12-15",
+      "price": {
+        "3": 1350,
+        "5": 2250,
+        "10": 4250,
+        "15": 6375,
+        "20": 8500,
+        "30": 12750,
+        "50": 21250,
+        "100": 42500
+      }
+    }
   },
   {
     "id": 221,
@@ -6942,7 +8877,20 @@
       "checkedAt": "2026-10-15",
       "source": "Оригинал отчёт .xlsm, Инвентаризация, остаток на 15.10.2026; наличие оригиналов только в Ньютоне подтверждено пользователем"
     },
-    "gender": "Женский"
+    "gender": "Женский",
+    "novemberSale": {
+      "id": "2026-11-12-15",
+      "price": {
+        "3": 675,
+        "5": 1125,
+        "10": 2125,
+        "15": 3187.5,
+        "20": 4250,
+        "30": 6375,
+        "50": 10625,
+        "100": 21250
+      }
+    }
   },
   {
     "id": 222,
@@ -6989,7 +8937,20 @@
       "checkedAt": "2026-10-15",
       "source": "Оригинал отчёт .xlsm, Инвентаризация, остаток на 15.10.2026; наличие оригиналов только в Ньютоне подтверждено пользователем"
     },
-    "gender": "Женский"
+    "gender": "Женский",
+    "novemberSale": {
+      "id": "2026-11-12-15",
+      "price": {
+        "3": 540,
+        "5": 900,
+        "10": 1700,
+        "15": 2550,
+        "20": 3400,
+        "30": 5100,
+        "50": 8500,
+        "100": 17000
+      }
+    }
   },
   {
     "id": 223,
@@ -7038,7 +8999,20 @@
     },
     "discountPercent": 15,
     "discountSource": "Пользователь: акция −15% на 12 ароматов с IMG_2656.jpeg и IMG_2657.jpeg, 15.10.2026",
-    "gender": "Унисекс"
+    "gender": "Унисекс",
+    "novemberSale": {
+      "id": "2026-11-12-15",
+      "price": {
+        "3": 675,
+        "5": 1125,
+        "10": 2125,
+        "15": 3187.5,
+        "20": 4250,
+        "30": 6375,
+        "50": 10625,
+        "100": 21250
+      }
+    }
   },
   {
     "id": 224,
@@ -7085,7 +9059,20 @@
       "checkedAt": "2026-10-15",
       "source": "Оригинал отчёт .xlsm, Инвентаризация, остаток на 15.10.2026; наличие оригиналов только в Ньютоне подтверждено пользователем"
     },
-    "gender": "Женский"
+    "gender": "Женский",
+    "novemberSale": {
+      "id": "2026-11-12-15",
+      "price": {
+        "3": 675,
+        "5": 1125,
+        "10": 2125,
+        "15": 3187.5,
+        "20": 4250,
+        "30": 6375,
+        "50": 10625,
+        "100": 21250
+      }
+    }
   },
   {
     "id": 225,
@@ -7132,7 +9119,20 @@
       "checkedAt": "2026-10-15",
       "source": "Оригинал отчёт .xlsm, Инвентаризация, остаток на 15.10.2026; наличие оригиналов только в Ньютоне подтверждено пользователем"
     },
-    "gender": "Женский"
+    "gender": "Женский",
+    "novemberSale": {
+      "id": "2026-11-12-15",
+      "price": {
+        "3": 675,
+        "5": 1125,
+        "10": 2125,
+        "15": 3187.5,
+        "20": 4250,
+        "30": 6375,
+        "50": 10625,
+        "100": 21250
+      }
+    }
   },
   {
     "id": 226,
@@ -7181,7 +9181,20 @@
     },
     "discountPercent": 15,
     "discountSource": "Пользователь: акция −15% на 12 ароматов с IMG_2656.jpeg и IMG_2657.jpeg, 15.10.2026",
-    "gender": "Женский"
+    "gender": "Женский",
+    "novemberSale": {
+      "id": "2026-11-12-15",
+      "price": {
+        "3": 675,
+        "5": 1125,
+        "10": 2125,
+        "15": 3187.5,
+        "20": 4250,
+        "30": 6375,
+        "50": 10625,
+        "100": 21250
+      }
+    }
   },
   {
     "id": 227,
@@ -7228,7 +9241,20 @@
       "checkedAt": "2026-10-15",
       "source": "Оригинал отчёт .xlsm, Инвентаризация, остаток на 15.10.2026; наличие оригиналов только в Ньютоне подтверждено пользователем"
     },
-    "gender": "Унисекс"
+    "gender": "Унисекс",
+    "novemberSale": {
+      "id": "2026-11-12-15",
+      "price": {
+        "3": 1755,
+        "5": 2925,
+        "10": 5525,
+        "15": 8287.5,
+        "20": 11050,
+        "30": 16575,
+        "50": 27625,
+        "100": 55250
+      }
+    }
   },
   {
     "id": 228,
@@ -7277,7 +9303,20 @@
     },
     "gender": "Унисекс",
     "isHit": true,
-    "hitOrder": 7
+    "hitOrder": 7,
+    "novemberSale": {
+      "id": "2026-11-12-15",
+      "price": {
+        "3": 1755,
+        "5": 2925,
+        "10": 5525,
+        "15": 8287.5,
+        "20": 11050,
+        "30": 16575,
+        "50": 27625,
+        "100": 55250
+      }
+    }
   },
   {
     "id": 229,
@@ -7326,7 +9365,20 @@
     },
     "gender": "Унисекс",
     "isHit": true,
-    "hitOrder": 1
+    "hitOrder": 1,
+    "novemberSale": {
+      "id": "2026-11-12-15",
+      "price": {
+        "3": 1350,
+        "5": 2250,
+        "10": 4250,
+        "15": 6375,
+        "20": 8500,
+        "30": 12750,
+        "50": 21250,
+        "100": 42500
+      }
+    }
   },
   {
     "id": 230,
@@ -7373,7 +9425,20 @@
       "checkedAt": "2026-10-15",
       "source": "Оригинал отчёт .xlsm, Инвентаризация, остаток на 15.10.2026; наличие оригиналов только в Ньютоне подтверждено пользователем"
     },
-    "gender": "Унисекс"
+    "gender": "Унисекс",
+    "novemberSale": {
+      "id": "2026-11-12-15",
+      "price": {
+        "3": 1350,
+        "5": 2250,
+        "10": 4250,
+        "15": 6375,
+        "20": 8500,
+        "30": 12750,
+        "50": 21250,
+        "100": 42500
+      }
+    }
   },
   {
     "id": 231,
@@ -7420,7 +9485,20 @@
       "checkedAt": "2026-10-15",
       "source": "Оригинал отчёт .xlsm, Инвентаризация, остаток на 15.10.2026; наличие оригиналов только в Ньютоне подтверждено пользователем"
     },
-    "gender": "Унисекс"
+    "gender": "Унисекс",
+    "novemberSale": {
+      "id": "2026-11-12-15",
+      "price": {
+        "3": 945,
+        "5": 1575,
+        "10": 2975,
+        "15": 4462.5,
+        "20": 5950,
+        "30": 8925,
+        "50": 14875,
+        "100": 29750
+      }
+    }
   },
   {
     "id": 232,
@@ -7467,7 +9545,20 @@
       "checkedAt": "2026-10-15",
       "source": "Оригинал отчёт .xlsm, Инвентаризация, остаток на 15.10.2026; наличие оригиналов только в Ньютоне подтверждено пользователем"
     },
-    "gender": "Унисекс"
+    "gender": "Унисекс",
+    "novemberSale": {
+      "id": "2026-11-12-15",
+      "price": {
+        "3": 2025,
+        "5": 3375,
+        "10": 6375,
+        "15": 9562.5,
+        "20": 12750,
+        "30": 19125,
+        "50": 31875,
+        "100": 63750
+      }
+    }
   },
   {
     "id": 233,
@@ -7514,7 +9605,20 @@
       "checkedAt": "2026-10-15",
       "source": "Оригинал отчёт .xlsm, Инвентаризация, остаток на 15.10.2026; наличие оригиналов только в Ньютоне подтверждено пользователем"
     },
-    "gender": "Унисекс"
+    "gender": "Унисекс",
+    "novemberSale": {
+      "id": "2026-11-12-15",
+      "price": {
+        "3": 1755,
+        "5": 2925,
+        "10": 5525,
+        "15": 8287.5,
+        "20": 11050,
+        "30": 16575,
+        "50": 27625,
+        "100": 55250
+      }
+    }
   },
   {
     "id": 234,
@@ -7561,7 +9665,20 @@
       "checkedAt": "2026-10-15",
       "source": "Оригинал отчёт .xlsm, Инвентаризация, остаток на 15.10.2026; наличие оригиналов только в Ньютоне подтверждено пользователем"
     },
-    "gender": "Унисекс"
+    "gender": "Унисекс",
+    "novemberSale": {
+      "id": "2026-11-12-15",
+      "price": {
+        "3": 945,
+        "5": 1575,
+        "10": 2975,
+        "15": 4462.5,
+        "20": 5950,
+        "30": 8925,
+        "50": 14875,
+        "100": 29750
+      }
+    }
   },
   {
     "id": 235,
@@ -7608,7 +9725,20 @@
       "checkedAt": "2026-10-15",
       "source": "Оригинал отчёт .xlsm, Инвентаризация, остаток на 15.10.2026; наличие оригиналов только в Ньютоне подтверждено пользователем"
     },
-    "gender": "Унисекс"
+    "gender": "Унисекс",
+    "novemberSale": {
+      "id": "2026-11-12-15",
+      "price": {
+        "3": 945,
+        "5": 1575,
+        "10": 2975,
+        "15": 4462.5,
+        "20": 5950,
+        "30": 8925,
+        "50": 14875,
+        "100": 29750
+      }
+    }
   },
   {
     "id": 236,
@@ -7655,7 +9785,20 @@
       "checkedAt": "2026-10-15",
       "source": "Оригинал отчёт .xlsm, Инвентаризация, остаток на 15.10.2026; наличие оригиналов только в Ньютоне подтверждено пользователем"
     },
-    "gender": "Унисекс"
+    "gender": "Унисекс",
+    "novemberSale": {
+      "id": "2026-11-12-15",
+      "price": {
+        "3": 675,
+        "5": 1125,
+        "10": 2125,
+        "15": 3187.5,
+        "20": 4250,
+        "30": 6375,
+        "50": 10625,
+        "100": 21250
+      }
+    }
   },
   {
     "id": 237,
@@ -7704,7 +9847,20 @@
     },
     "gender": "Унисекс",
     "isHit": true,
-    "hitOrder": 3
+    "hitOrder": 3,
+    "novemberSale": {
+      "id": "2026-11-12-15",
+      "price": {
+        "3": 945,
+        "5": 1575,
+        "10": 2975,
+        "15": 4462.5,
+        "20": 5950,
+        "30": 8925,
+        "50": 14875,
+        "100": 29750
+      }
+    }
   },
   {
     "id": 238,
@@ -7751,7 +9907,20 @@
       "checkedAt": "2026-10-15",
       "source": "Оригинал отчёт .xlsm, Инвентаризация, остаток на 15.10.2026; наличие оригиналов только в Ньютоне подтверждено пользователем"
     },
-    "gender": "Унисекс"
+    "gender": "Унисекс",
+    "novemberSale": {
+      "id": "2026-11-12-15",
+      "price": {
+        "3": 1485,
+        "5": 2475,
+        "10": 4675,
+        "15": 7012.5,
+        "20": 9350,
+        "30": 14025,
+        "50": 23375,
+        "100": 46750
+      }
+    }
   },
   {
     "id": 239,
@@ -7798,7 +9967,20 @@
       "checkedAt": "2026-10-15",
       "source": "Оригинал отчёт .xlsm, Инвентаризация, остаток на 15.10.2026; наличие оригиналов только в Ньютоне подтверждено пользователем"
     },
-    "gender": "Унисекс"
+    "gender": "Унисекс",
+    "novemberSale": {
+      "id": "2026-11-12-15",
+      "price": {
+        "3": 675,
+        "5": 1125,
+        "10": 2125,
+        "15": 3187.5,
+        "20": 4250,
+        "30": 6375,
+        "50": 10625,
+        "100": 21250
+      }
+    }
   },
   {
     "id": 240,
@@ -7829,7 +10011,17 @@
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.20139.jpg?t=1789494472",
     "referenceVersion": "Choco Musk ALREHAB PERFUMES perfume - a fragrance for women and men",
     "sortBrand": "al-rehab",
-    "gender": "Унисекс"
+    "gender": "Унисекс",
+    "novemberSale": {
+      "id": "2026-11-12-15",
+      "price": {
+        "20": 1260,
+        "30": 1820,
+        "50": 2905,
+        "100": 5600
+      },
+      "format": "spray"
+    }
   },
   {
     "id": 241,
@@ -7860,7 +10052,17 @@
     "imageSource": "https://www.banderasperfumes.com/uploads/products/images/seduction-black-gama-100ml_1675080411.png",
     "referenceVersion": "Seduction in Black Antonio Banderas cologne - a fragrance for men 2009",
     "sortBrand": "antonio",
-    "gender": "Мужской"
+    "gender": "Мужской",
+    "novemberSale": {
+      "id": "2026-11-12-15",
+      "price": {
+        "20": 1260,
+        "30": 1820,
+        "50": 2905,
+        "100": 5600
+      },
+      "format": "spray"
+    }
   },
   {
     "id": 242,
@@ -7891,7 +10093,17 @@
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.228.jpg",
     "referenceVersion": "Fahrenheit Dior cologne - a fragrance for men 1988",
     "sortBrand": "dior",
-    "gender": "Мужской"
+    "gender": "Мужской",
+    "novemberSale": {
+      "id": "2026-11-12-15",
+      "price": {
+        "20": 1260,
+        "30": 1820,
+        "50": 2905,
+        "100": 5600
+      },
+      "format": "spray"
+    }
   },
   {
     "id": 243,
@@ -7922,7 +10134,17 @@
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.23280.jpg",
     "referenceVersion": "Miss Dior Blooming Bouquet Dior perfume - a fragrance for women 2014",
     "sortBrand": "dior",
-    "gender": "Женский"
+    "gender": "Женский",
+    "novemberSale": {
+      "id": "2026-11-12-15",
+      "price": {
+        "20": 1260,
+        "30": 1820,
+        "50": 2905,
+        "100": 5600
+      },
+      "format": "spray"
+    }
   },
   {
     "id": 244,
@@ -7953,7 +10175,17 @@
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.56358.jpg",
     "referenceVersion": "K by Dolce & Gabbana Dolce&Gabbana cologne - a fragrance for men 2019",
     "sortBrand": "dolce & gabbana",
-    "gender": "Мужской"
+    "gender": "Мужской",
+    "novemberSale": {
+      "id": "2026-11-12-15",
+      "price": {
+        "20": 1260,
+        "30": 1820,
+        "50": 2905,
+        "100": 5600
+      },
+      "format": "spray"
+    }
   },
   {
     "id": 245,
@@ -7984,7 +10216,17 @@
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.62036.jpg",
     "referenceVersion": "My Way Giorgio Armani perfume - a fragrance for women 2020",
     "sortBrand": "giorgio armani",
-    "gender": "Женский"
+    "gender": "Женский",
+    "novemberSale": {
+      "id": "2026-11-12-15",
+      "price": {
+        "20": 1260,
+        "30": 1820,
+        "50": 2905,
+        "100": 5600
+      },
+      "format": "spray"
+    }
   },
   {
     "id": 246,
@@ -8016,7 +10258,17 @@
     "referenceVersion": "Ange Ou Demon Le Secret Givenchy perfume - a fragrance for women 2009",
     "sortBrand": "givenchy",
     "gender": "Женский",
-    "isHit": true
+    "isHit": true,
+    "novemberSale": {
+      "id": "2026-11-12-15",
+      "price": {
+        "20": 1260,
+        "30": 1820,
+        "50": 2905,
+        "100": 5600
+      },
+      "format": "spray"
+    }
   },
   {
     "id": 247,
@@ -8047,7 +10299,17 @@
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.38.jpg",
     "referenceVersion": "Givenchy pour Homme Blue Label Givenchy cologne - a fragrance for men 2004",
     "sortBrand": "givenchy",
-    "gender": "Мужской"
+    "gender": "Мужской",
+    "novemberSale": {
+      "id": "2026-11-12-15",
+      "price": {
+        "20": 1260,
+        "30": 1820,
+        "50": 2905,
+        "100": 5600
+      },
+      "format": "spray"
+    }
   },
   {
     "id": 248,
@@ -8078,7 +10340,17 @@
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.54822.jpg",
     "referenceVersion": "Tutù Gritti perfume - a fragrance for women 2019",
     "sortBrand": "gritti",
-    "gender": "Женский"
+    "gender": "Женский",
+    "novemberSale": {
+      "id": "2026-11-12-15",
+      "price": {
+        "20": 1260,
+        "30": 1820,
+        "50": 2905,
+        "100": 5600
+      },
+      "format": "spray"
+    }
   },
   {
     "id": 249,
@@ -8120,7 +10392,17 @@
       "100": 4000
     },
     "discountSource": "Цены на спрей уже со скидкой 50%: скриншоты COYLI PARFUM IMG_2649–IMG_2655 от 15.10.2026. На чистое масло −50% от обычного тарифа категории, подтверждено пользователем.",
-    "gender": "Женский"
+    "gender": "Женский",
+    "novemberSale": {
+      "id": "2026-11-12-15",
+      "price": {
+        "20": 1260,
+        "30": 1820,
+        "50": 2905,
+        "100": 5600
+      },
+      "format": "spray"
+    }
   },
   {
     "id": 250,
@@ -8151,7 +10433,17 @@
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.17.jpg",
     "referenceVersion": "Terre d'Hermès Hermès cologne - a fragrance for men 2006",
     "sortBrand": "hermès",
-    "gender": "Мужской"
+    "gender": "Мужской",
+    "novemberSale": {
+      "id": "2026-11-12-15",
+      "price": {
+        "20": 1260,
+        "30": 1820,
+        "50": 2905,
+        "100": 5600
+      },
+      "format": "spray"
+    }
   },
   {
     "id": 251,
@@ -8182,7 +10474,17 @@
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.72.jpg",
     "referenceVersion": "Flower by Kenzo Kenzo perfume - a fragrance for women 2000",
     "sortBrand": "kenzo",
-    "gender": "Женский"
+    "gender": "Женский",
+    "novemberSale": {
+      "id": "2026-11-12-15",
+      "price": {
+        "20": 1260,
+        "30": 1820,
+        "50": 2905,
+        "100": 5600
+      },
+      "format": "spray"
+    }
   },
   {
     "id": 252,
@@ -8213,7 +10515,17 @@
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.78.jpg",
     "referenceVersion": "L'Eau par Kenzo Kenzo perfume - a fragrance for women 1996",
     "sortBrand": "kenzo",
-    "gender": "Женский"
+    "gender": "Женский",
+    "novemberSale": {
+      "id": "2026-11-12-15",
+      "price": {
+        "20": 1260,
+        "30": 1820,
+        "50": 2905,
+        "100": 5600
+      },
+      "format": "spray"
+    }
   },
   {
     "id": 253,
@@ -8244,7 +10556,17 @@
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.32591.jpg",
     "referenceVersion": "Voyage sur la route des Épices La Sultane de Saba perfume - a fragrance for women and men 2013",
     "sortBrand": "la",
-    "gender": "Унисекс"
+    "gender": "Унисекс",
+    "novemberSale": {
+      "id": "2026-11-12-15",
+      "price": {
+        "20": 1260,
+        "30": 1820,
+        "50": 2905,
+        "100": 5600
+      },
+      "format": "spray"
+    }
   },
   {
     "id": 254,
@@ -8275,7 +10597,17 @@
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.32686.jpg",
     "referenceVersion": "Eau de Lacoste L.12.12 Pour Elle Sparkling Lacoste Fragrances perfume - a fragrance for women 2015",
     "sortBrand": "lacoste",
-    "gender": "Женский"
+    "gender": "Женский",
+    "novemberSale": {
+      "id": "2026-11-12-15",
+      "price": {
+        "20": 1260,
+        "30": 1820,
+        "50": 2905,
+        "100": 5600
+      },
+      "format": "spray"
+    }
   },
   {
     "id": 255,
@@ -8306,7 +10638,17 @@
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.8158.jpg",
     "referenceVersion": "Lacoste Essential Sport Lacoste Fragrances cologne - a fragrance for men 2009",
     "sortBrand": "lacoste",
-    "gender": "Мужской"
+    "gender": "Мужской",
+    "novemberSale": {
+      "id": "2026-11-12-15",
+      "price": {
+        "20": 1260,
+        "30": 1820,
+        "50": 2905,
+        "100": 5600
+      },
+      "format": "spray"
+    }
   },
   {
     "id": 256,
@@ -8348,7 +10690,17 @@
       "100": 4000
     },
     "discountSource": "Цены на спрей уже со скидкой 50%: скриншоты COYLI PARFUM IMG_2649–IMG_2655 от 15.10.2026. На чистое масло −50% от обычного тарифа категории, подтверждено пользователем.",
-    "gender": "Женский"
+    "gender": "Женский",
+    "novemberSale": {
+      "id": "2026-11-12-15",
+      "price": {
+        "20": 1260,
+        "30": 1820,
+        "50": 2905,
+        "100": 5600
+      },
+      "format": "spray"
+    }
   },
   {
     "id": 257,
@@ -8379,7 +10731,17 @@
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.25808.jpg",
     "referenceVersion": "Sheikh Al Shuyukh Lattafa Perfumes perfume - a fragrance for women and men",
     "sortBrand": "lattafa",
-    "gender": "Мужской"
+    "gender": "Мужской",
+    "novemberSale": {
+      "id": "2026-11-12-15",
+      "price": {
+        "20": 1260,
+        "30": 1820,
+        "50": 2905,
+        "100": 5600
+      },
+      "format": "spray"
+    }
   },
   {
     "id": 258,
@@ -8410,7 +10772,17 @@
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.48948.jpg",
     "referenceVersion": "Vanilla Cake Montale perfume - a fragrance for women and men 2018",
     "sortBrand": "montale",
-    "gender": "Унисекс"
+    "gender": "Унисекс",
+    "novemberSale": {
+      "id": "2026-11-12-15",
+      "price": {
+        "20": 1260,
+        "30": 1820,
+        "50": 2905,
+        "100": 5600
+      },
+      "format": "spray"
+    }
   },
   {
     "id": 259,
@@ -8441,7 +10813,17 @@
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.51589.jpg",
     "referenceVersion": "Toy 2 Moschino perfume - a fragrance for women 2018",
     "sortBrand": "moschino",
-    "gender": "Женский"
+    "gender": "Женский",
+    "novemberSale": {
+      "id": "2026-11-12-15",
+      "price": {
+        "20": 1260,
+        "30": 1820,
+        "50": 2905,
+        "100": 5600
+      },
+      "format": "spray"
+    }
   },
   {
     "id": 260,
@@ -8483,7 +10865,17 @@
       "100": 4000
     },
     "discountSource": "Цены на спрей уже со скидкой 50%: скриншоты COYLI PARFUM IMG_2649–IMG_2655 от 15.10.2026. На чистое масло −50% от обычного тарифа категории, подтверждено пользователем.",
-    "gender": "Женский"
+    "gender": "Женский",
+    "novemberSale": {
+      "id": "2026-11-12-15",
+      "price": {
+        "20": 1260,
+        "30": 1820,
+        "50": 2905,
+        "100": 5600
+      },
+      "format": "spray"
+    }
   },
   {
     "id": 261,
@@ -8525,7 +10917,17 @@
       "100": 4000
     },
     "discountSource": "Цены на спрей уже со скидкой 50%: скриншоты COYLI PARFUM IMG_2649–IMG_2655 от 15.10.2026. На чистое масло −50% от обычного тарифа категории, подтверждено пользователем.",
-    "gender": "Женский"
+    "gender": "Женский",
+    "novemberSale": {
+      "id": "2026-11-12-15",
+      "price": {
+        "20": 1260,
+        "30": 1820,
+        "50": 2905,
+        "100": 5600
+      },
+      "format": "spray"
+    }
   },
   {
     "id": 262,
@@ -8556,7 +10958,17 @@
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.31666.jpg",
     "referenceVersion": "Olympéa Rabanne perfume - a fragrance for women 2015",
     "sortBrand": "paco rabanne",
-    "gender": "Женский"
+    "gender": "Женский",
+    "novemberSale": {
+      "id": "2026-11-12-15",
+      "price": {
+        "20": 1260,
+        "30": 1820,
+        "50": 2905,
+        "100": 5600
+      },
+      "format": "spray"
+    }
   },
   {
     "id": 263,
@@ -8587,7 +10999,17 @@
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.2777.jpg",
     "referenceVersion": "Opulent Shaik Classic No 77 Shaik cologne - a fragrance for men",
     "sortBrand": "shaik",
-    "gender": "Мужской"
+    "gender": "Мужской",
+    "novemberSale": {
+      "id": "2026-11-12-15",
+      "price": {
+        "20": 1260,
+        "30": 1820,
+        "50": 2905,
+        "100": 5600
+      },
+      "format": "spray"
+    }
   },
   {
     "id": 264,
@@ -8618,7 +11040,17 @@
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.18802.jpg",
     "referenceVersion": "My Name Trussardi perfume - a fragrance for women 2013",
     "sortBrand": "trussardi",
-    "gender": "Женский"
+    "gender": "Женский",
+    "novemberSale": {
+      "id": "2026-11-12-15",
+      "price": {
+        "20": 1260,
+        "30": 1820,
+        "50": 2905,
+        "100": 5600
+      },
+      "format": "spray"
+    }
   },
   {
     "id": 265,
@@ -8649,7 +11081,17 @@
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.644.jpg",
     "referenceVersion": "Versace Man Eau Fraiche Versace cologne - a fragrance for men 2006",
     "sortBrand": "versace",
-    "gender": "Мужской"
+    "gender": "Мужской",
+    "novemberSale": {
+      "id": "2026-11-12-15",
+      "price": {
+        "20": 1260,
+        "30": 1820,
+        "50": 2905,
+        "100": 5600
+      },
+      "format": "spray"
+    }
   },
   {
     "id": 266,
@@ -8680,7 +11122,17 @@
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.68550.jpg",
     "referenceVersion": "Tease Crème Cloud Victoria's Secret perfume - a fragrance for women 2021",
     "sortBrand": "victoria's secret",
-    "gender": "Женский"
+    "gender": "Женский",
+    "novemberSale": {
+      "id": "2026-11-12-15",
+      "price": {
+        "20": 1260,
+        "30": 1820,
+        "50": 2905,
+        "100": 5600
+      },
+      "format": "spray"
+    }
   },
   {
     "id": 267,
@@ -8711,7 +11163,17 @@
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.39358.jpg",
     "referenceVersion": "This is Her Zadig & Voltaire perfume - a fragrance for women 2016",
     "sortBrand": "zadig & voltaire",
-    "gender": "Женский"
+    "gender": "Женский",
+    "novemberSale": {
+      "id": "2026-11-12-15",
+      "price": {
+        "20": 1260,
+        "30": 1820,
+        "50": 2905,
+        "100": 5600
+      },
+      "format": "spray"
+    }
   },
   {
     "id": 268,
@@ -8742,7 +11204,17 @@
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.21307.jpg",
     "referenceVersion": "Al Hajjar Al Aswad Abdul Samad Al Qurashi perfume - a fragrance for women and men",
     "sortBrand": "abdul",
-    "gender": "Унисекс"
+    "gender": "Унисекс",
+    "novemberSale": {
+      "id": "2026-11-12-15",
+      "price": {
+        "20": 2100,
+        "30": 3115,
+        "50": 5075,
+        "100": 10010
+      },
+      "format": "spray"
+    }
   },
   {
     "id": 269,
@@ -8773,7 +11245,17 @@
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.50343.jpg",
     "referenceVersion": "Azora Attar Collection perfume - a fragrance for women and men 2018",
     "sortBrand": "attar collection",
-    "gender": "Унисекс"
+    "gender": "Унисекс",
+    "novemberSale": {
+      "id": "2026-11-12-15",
+      "price": {
+        "20": 2100,
+        "30": 3115,
+        "50": 5075,
+        "100": 10010
+      },
+      "format": "spray"
+    }
   },
   {
     "id": 270,
@@ -8804,7 +11286,17 @@
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.62707.jpg",
     "referenceVersion": "Bitter Peach Tom Ford perfume - a fragrance for women and men 2020",
     "sortBrand": "tom ford",
-    "gender": "Унисекс"
+    "gender": "Унисекс",
+    "novemberSale": {
+      "id": "2026-11-12-15",
+      "price": {
+        "20": 2100,
+        "30": 3115,
+        "50": 5075,
+        "100": 10010
+      },
+      "format": "spray"
+    }
   },
   {
     "id": 271,
@@ -8835,7 +11327,17 @@
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.58545.jpg",
     "referenceVersion": "Aurica Boadicea the Victorious perfume - a fragrance for women and men 2020",
     "sortBrand": "boadicea the victorious",
-    "gender": "Унисекс"
+    "gender": "Унисекс",
+    "novemberSale": {
+      "id": "2026-11-12-15",
+      "price": {
+        "20": 2100,
+        "30": 3115,
+        "50": 5075,
+        "100": 10010
+      },
+      "format": "spray"
+    }
   },
   {
     "id": 272,
@@ -8866,7 +11368,17 @@
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.35525.jpg",
     "referenceVersion": "Hanuman Boadicea the Victorious perfume - a fragrance for women and men 2016",
     "sortBrand": "boadicea the victorious",
-    "gender": "Унисекс"
+    "gender": "Унисекс",
+    "novemberSale": {
+      "id": "2026-11-12-15",
+      "price": {
+        "20": 2100,
+        "30": 3115,
+        "50": 5075,
+        "100": 10010
+      },
+      "format": "spray"
+    }
   },
   {
     "id": 273,
@@ -8908,7 +11420,17 @@
       "100": 7150
     },
     "discountSource": "Цены на спрей уже со скидкой 50%: скриншоты COYLI PARFUM IMG_2649–IMG_2655 от 15.10.2026. На чистое масло −50% от обычного тарифа категории, подтверждено пользователем.",
-    "gender": "Мужской"
+    "gender": "Мужской",
+    "novemberSale": {
+      "id": "2026-11-12-15",
+      "price": {
+        "20": 2100,
+        "30": 3115,
+        "50": 5075,
+        "100": 10010
+      },
+      "format": "spray"
+    }
   },
   {
     "id": 274,
@@ -8939,7 +11461,17 @@
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.6686.jpg",
     "referenceVersion": "Blanche Byredo perfume - a fragrance for women 2009",
     "sortBrand": "byredo",
-    "gender": "Женский"
+    "gender": "Женский",
+    "novemberSale": {
+      "id": "2026-11-12-15",
+      "price": {
+        "20": 2100,
+        "30": 3115,
+        "50": 5075,
+        "100": 10010
+      },
+      "format": "spray"
+    }
   },
   {
     "id": 275,
@@ -8970,7 +11502,17 @@
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.27040.jpg",
     "referenceVersion": "Mojave Ghost Byredo perfume - a fragrance for women and men 2014",
     "sortBrand": "byredo",
-    "gender": "Унисекс"
+    "gender": "Унисекс",
+    "novemberSale": {
+      "id": "2026-11-12-15",
+      "price": {
+        "20": 2100,
+        "30": 3115,
+        "50": 5075,
+        "100": 10010
+      },
+      "format": "spray"
+    }
   },
   {
     "id": 276,
@@ -9001,7 +11543,17 @@
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.39681.jpg",
     "referenceVersion": "Good Girl Carolina Herrera perfume - a fragrance for women 2016",
     "sortBrand": "carolina",
-    "gender": "Женский"
+    "gender": "Женский",
+    "novemberSale": {
+      "id": "2026-11-12-15",
+      "price": {
+        "20": 2100,
+        "30": 3115,
+        "50": 5075,
+        "100": 10010
+      },
+      "format": "spray"
+    }
   },
   {
     "id": 277,
@@ -9032,7 +11584,17 @@
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.47116.jpg",
     "referenceVersion": "Jump up and Kiss Me Hedonistic Clive Christian cologne - a fragrance for men 2017",
     "sortBrand": "clive christian",
-    "gender": "Унисекс"
+    "gender": "Унисекс",
+    "novemberSale": {
+      "id": "2026-11-12-15",
+      "price": {
+        "20": 2100,
+        "30": 3115,
+        "50": 5075,
+        "100": 10010
+      },
+      "format": "spray"
+    }
   },
   {
     "id": 278,
@@ -9064,7 +11626,17 @@
     "referenceVersion": "D&G Anthology L'Imperatrice 3 Dolce&Gabbana perfume - a fragrance for women 2009",
     "duplicateOf": 158,
     "sortBrand": "dolce & gabbana",
-    "gender": "Женский"
+    "gender": "Женский",
+    "novemberSale": {
+      "id": "2026-11-12-15",
+      "price": {
+        "20": 2100,
+        "30": 3115,
+        "50": 5075,
+        "100": 10010
+      },
+      "format": "spray"
+    }
   },
   {
     "id": 279,
@@ -9096,7 +11668,17 @@
     "referenceVersion": "Q by Dolce & Gabbana Dolce&Gabbana perfume - a fragrance for women 2023",
     "duplicateOf": 161,
     "sortBrand": "dolce & gabbana",
-    "gender": "Женский"
+    "gender": "Женский",
+    "novemberSale": {
+      "id": "2026-11-12-15",
+      "price": {
+        "20": 2100,
+        "30": 3115,
+        "50": 5075,
+        "100": 10010
+      },
+      "format": "spray"
+    }
   },
   {
     "id": 280,
@@ -9127,7 +11709,17 @@
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.66047.jpg",
     "referenceVersion": "Molecule 01 + Mandarin Escentric Molecules perfume - a fragrance for women and men 2021",
     "sortBrand": "escentric",
-    "gender": "Унисекс"
+    "gender": "Унисекс",
+    "novemberSale": {
+      "id": "2026-11-12-15",
+      "price": {
+        "20": 2100,
+        "30": 3115,
+        "50": 5075,
+        "100": 10010
+      },
+      "format": "spray"
+    }
   },
   {
     "id": 281,
@@ -9158,7 +11750,17 @@
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.66049.jpg",
     "referenceVersion": "Molecule 01 + Patchouli Escentric Molecules perfume - a fragrance for women and men 2021",
     "sortBrand": "escentric",
-    "gender": "Унисекс"
+    "gender": "Унисекс",
+    "novemberSale": {
+      "id": "2026-11-12-15",
+      "price": {
+        "20": 2100,
+        "30": 3115,
+        "50": 5075,
+        "100": 10010
+      },
+      "format": "spray"
+    }
   },
   {
     "id": 282,
@@ -9189,7 +11791,17 @@
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.44315.jpg",
     "referenceVersion": "Molecule 04 Escentric Molecules perfume - a fragrance for women and men 2017",
     "sortBrand": "escentric",
-    "gender": "Унисекс"
+    "gender": "Унисекс",
+    "novemberSale": {
+      "id": "2026-11-12-15",
+      "price": {
+        "20": 2100,
+        "30": 3115,
+        "50": 5075,
+        "100": 10010
+      },
+      "format": "spray"
+    }
   },
   {
     "id": 283,
@@ -9220,7 +11832,17 @@
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.58969.jpg?t=1791423466",
     "referenceVersion": "Molecule 05 Escentric Molecules perfume - a fragrance for women and men 2020",
     "sortBrand": "escentric",
-    "gender": "Унисекс"
+    "gender": "Унисекс",
+    "novemberSale": {
+      "id": "2026-11-12-15",
+      "price": {
+        "20": 2100,
+        "30": 3115,
+        "50": 5075,
+        "100": 10010
+      },
+      "format": "spray"
+    }
   },
   {
     "id": 284,
@@ -9251,7 +11873,17 @@
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.54911.jpg",
     "referenceVersion": "Painter Genyum perfume - a fragrance for women and men 2018",
     "sortBrand": "genyum",
-    "gender": "Унисекс"
+    "gender": "Унисекс",
+    "novemberSale": {
+      "id": "2026-11-12-15",
+      "price": {
+        "20": 2100,
+        "30": 3115,
+        "50": 5075,
+        "100": 10010
+      },
+      "format": "spray"
+    }
   },
   {
     "id": 285,
@@ -9282,7 +11914,17 @@
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.63835.jpg",
     "referenceVersion": "This is Not Dopamine Hormone Paris perfume - a fragrance for women and men 2020",
     "sortBrand": "hormone paris",
-    "gender": "Унисекс"
+    "gender": "Унисекс",
+    "novemberSale": {
+      "id": "2026-11-12-15",
+      "price": {
+        "20": 2100,
+        "30": 3115,
+        "50": 5075,
+        "100": 10010
+      },
+      "format": "spray"
+    }
   },
   {
     "id": 286,
@@ -9313,7 +11955,17 @@
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.69224.jpg",
     "referenceVersion": "Oud for Happiness Initio Parfums Prives perfume - a fragrance for women and men 2021",
     "sortBrand": "initio",
-    "gender": "Унисекс"
+    "gender": "Унисекс",
+    "novemberSale": {
+      "id": "2026-11-12-15",
+      "price": {
+        "20": 2100,
+        "30": 3115,
+        "50": 5075,
+        "100": 10010
+      },
+      "format": "spray"
+    }
   },
   {
     "id": 287,
@@ -9344,7 +11996,17 @@
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.8594.jpg",
     "referenceVersion": "Volume I Intelligence & Fantasy The Beautiful Mind Series perfume - a fragrance for women 2010",
     "sortBrand": "the",
-    "gender": "Унисекс"
+    "gender": "Унисекс",
+    "novemberSale": {
+      "id": "2026-11-12-15",
+      "price": {
+        "20": 2100,
+        "30": 3115,
+        "50": 5075,
+        "100": 10010
+      },
+      "format": "spray"
+    }
   },
   {
     "id": 288,
@@ -9375,7 +12037,17 @@
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.62571.jpg",
     "referenceVersion": "Lamar Kajal perfume - a fragrance for women and men 2020",
     "sortBrand": "kajal",
-    "gender": "Женский"
+    "gender": "Женский",
+    "novemberSale": {
+      "id": "2026-11-12-15",
+      "price": {
+        "20": 2100,
+        "30": 3115,
+        "50": 5075,
+        "100": 10010
+      },
+      "format": "spray"
+    }
   },
   {
     "id": 289,
@@ -9417,7 +12089,17 @@
       "100": 7150
     },
     "discountSource": "Цены на спрей уже со скидкой 50%: скриншоты COYLI PARFUM IMG_2649–IMG_2655 от 15.10.2026. На чистое масло −50% от обычного тарифа категории, подтверждено пользователем.",
-    "gender": "Женский"
+    "gender": "Женский",
+    "novemberSale": {
+      "id": "2026-11-12-15",
+      "price": {
+        "20": 2100,
+        "30": 3115,
+        "50": 5075,
+        "100": 10010
+      },
+      "format": "spray"
+    }
   },
   {
     "id": 290,
@@ -9448,7 +12130,17 @@
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.50495.jpg",
     "referenceVersion": "Bad Boys Are No Good But Good Boys Are No Fun By Kilian perfume - a fragrance for women and men 2018",
     "sortBrand": "kilian",
-    "gender": "Мужской"
+    "gender": "Мужской",
+    "novemberSale": {
+      "id": "2026-11-12-15",
+      "price": {
+        "20": 2100,
+        "30": 3115,
+        "50": 5075,
+        "100": 10010
+      },
+      "format": "spray"
+    }
   },
   {
     "id": 291,
@@ -9479,7 +12171,17 @@
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.50497.jpg",
     "referenceVersion": "I Don't Need A Prince By My Side To Be A Princess By Kilian perfume - a fragrance for women and men 2018",
     "sortBrand": "kilian",
-    "gender": "Женский"
+    "gender": "Женский",
+    "novemberSale": {
+      "id": "2026-11-12-15",
+      "price": {
+        "20": 2100,
+        "30": 3115,
+        "50": 5075,
+        "100": 10010
+      },
+      "format": "spray"
+    }
   },
   {
     "id": 292,
@@ -9511,7 +12213,17 @@
     "referenceVersion": "Lacoste Pour Femme Lacoste Fragrances perfume - a fragrance for women 2003",
     "duplicateOf": 170,
     "sortBrand": "lacoste",
-    "gender": "Женский"
+    "gender": "Женский",
+    "novemberSale": {
+      "id": "2026-11-12-15",
+      "price": {
+        "20": 2100,
+        "30": 3115,
+        "50": 5075,
+        "100": 10010
+      },
+      "format": "spray"
+    }
   },
   {
     "id": 294,
@@ -9542,7 +12254,17 @@
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.81423.jpg",
     "referenceVersion": "Pacific Chill Louis Vuitton perfume - a fragrance for women and men 2023",
     "sortBrand": "louis vuitton",
-    "gender": "Унисекс"
+    "gender": "Унисекс",
+    "novemberSale": {
+      "id": "2026-11-12-15",
+      "price": {
+        "20": 2100,
+        "30": 3115,
+        "50": 5075,
+        "100": 10010
+      },
+      "format": "spray"
+    }
   },
   {
     "id": 295,
@@ -9573,7 +12295,17 @@
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.53945.jpg",
     "referenceVersion": "Sun Song Louis Vuitton perfume - a fragrance for women and men 2019",
     "sortBrand": "louis vuitton",
-    "gender": "Унисекс"
+    "gender": "Унисекс",
+    "novemberSale": {
+      "id": "2026-11-12-15",
+      "price": {
+        "20": 2100,
+        "30": 3115,
+        "50": 5075,
+        "100": 10010
+      },
+      "format": "spray"
+    }
   },
   {
     "id": 296,
@@ -9604,7 +12336,17 @@
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.51016.jpg",
     "referenceVersion": "Attrape-Rêves Louis Vuitton perfume - a fragrance for women 2018",
     "sortBrand": "louis vuitton",
-    "gender": "Женский"
+    "gender": "Женский",
+    "novemberSale": {
+      "id": "2026-11-12-15",
+      "price": {
+        "20": 2100,
+        "30": 3115,
+        "50": 5075,
+        "100": 10010
+      },
+      "format": "spray"
+    }
   },
   {
     "id": 297,
@@ -9635,7 +12377,17 @@
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.31623.jpg",
     "referenceVersion": "By the Fireplace Maison Martin Margiela perfume - a fragrance for women and men 2015",
     "sortBrand": "maison margiela",
-    "gender": "Унисекс"
+    "gender": "Унисекс",
+    "novemberSale": {
+      "id": "2026-11-12-15",
+      "price": {
+        "20": 2100,
+        "30": 3115,
+        "50": 5075,
+        "100": 10010
+      },
+      "format": "spray"
+    }
   },
   {
     "id": 298,
@@ -9666,7 +12418,17 @@
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.83842.jpg",
     "referenceVersion": "Oud Maracujá Maison Crivelli perfume - a fragrance for women and men 2023",
     "sortBrand": "maison crivelli",
-    "gender": "Унисекс"
+    "gender": "Унисекс",
+    "novemberSale": {
+      "id": "2026-11-12-15",
+      "price": {
+        "20": 2100,
+        "30": 3115,
+        "50": 5075,
+        "100": 10010
+      },
+      "format": "spray"
+    }
   },
   {
     "id": 299,
@@ -9697,7 +12459,17 @@
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.15211.jpg",
     "referenceVersion": "Cedrat Boise Mancera perfume - a fragrance for women and men 2011",
     "sortBrand": "mancera",
-    "gender": "Унисекс"
+    "gender": "Унисекс",
+    "novemberSale": {
+      "id": "2026-11-12-15",
+      "price": {
+        "20": 2100,
+        "30": 3115,
+        "50": 5075,
+        "100": 10010
+      },
+      "format": "spray"
+    }
   },
   {
     "id": 300,
@@ -9728,7 +12500,17 @@
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.42782.jpg",
     "referenceVersion": "Coco Vanille Mancera perfume - a fragrance for women 2016",
     "sortBrand": "mancera",
-    "gender": "Унисекс"
+    "gender": "Унисекс",
+    "novemberSale": {
+      "id": "2026-11-12-15",
+      "price": {
+        "20": 2100,
+        "30": 3115,
+        "50": 5075,
+        "100": 10010
+      },
+      "format": "spray"
+    }
   },
   {
     "id": 301,
@@ -9759,7 +12541,17 @@
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.61755.jpg",
     "referenceVersion": "Feminity Mancera perfume - a fragrance for women 2020",
     "sortBrand": "mancera",
-    "gender": "Женский"
+    "gender": "Женский",
+    "novemberSale": {
+      "id": "2026-11-12-15",
+      "price": {
+        "20": 2100,
+        "30": 3115,
+        "50": 5075,
+        "100": 10010
+      },
+      "format": "spray"
+    }
   },
   {
     "id": 302,
@@ -9790,7 +12582,17 @@
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.42888.jpg",
     "referenceVersion": "Holidays Mancera perfume - a fragrance for women and men 2016",
     "sortBrand": "mancera",
-    "gender": "Унисекс"
+    "gender": "Унисекс",
+    "novemberSale": {
+      "id": "2026-11-12-15",
+      "price": {
+        "20": 2100,
+        "30": 3115,
+        "50": 5075,
+        "100": 10010
+      },
+      "format": "spray"
+    }
   },
   {
     "id": 303,
@@ -9832,7 +12634,17 @@
       "100": 7150
     },
     "discountSource": "Цены на спрей уже со скидкой 50%: скриншоты COYLI PARFUM IMG_2649–IMG_2655 от 15.10.2026. На чистое масло −50% от обычного тарифа категории, подтверждено пользователем.",
-    "gender": "Женский"
+    "gender": "Женский",
+    "novemberSale": {
+      "id": "2026-11-12-15",
+      "price": {
+        "20": 2100,
+        "30": 3115,
+        "50": 5075,
+        "100": 10010
+      },
+      "format": "spray"
+    }
   },
   {
     "id": 304,
@@ -9863,7 +12675,17 @@
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.28049.jpg",
     "referenceVersion": "French Leather Memo Paris perfume - a fragrance for women and men 2014",
     "sortBrand": "memo",
-    "gender": "Унисекс"
+    "gender": "Унисекс",
+    "novemberSale": {
+      "id": "2026-11-12-15",
+      "price": {
+        "20": 2100,
+        "30": 3115,
+        "50": 5075,
+        "100": 10010
+      },
+      "format": "spray"
+    }
   },
   {
     "id": 305,
@@ -9894,7 +12716,17 @@
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.37185.jpg",
     "referenceVersion": "Marfa Memo Paris perfume - a fragrance for women and men 2016",
     "sortBrand": "memo",
-    "gender": "Унисекс"
+    "gender": "Унисекс",
+    "novemberSale": {
+      "id": "2026-11-12-15",
+      "price": {
+        "20": 2100,
+        "30": 3115,
+        "50": 5075,
+        "100": 10010
+      },
+      "format": "spray"
+    }
   },
   {
     "id": 306,
@@ -9925,7 +12757,17 @@
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.3241.jpg",
     "referenceVersion": "Mukhallat Montale perfume - a fragrance for women and men 2008",
     "sortBrand": "montale",
-    "gender": "Унисекс"
+    "gender": "Унисекс",
+    "novemberSale": {
+      "id": "2026-11-12-15",
+      "price": {
+        "20": 2100,
+        "30": 3115,
+        "50": 5075,
+        "100": 10010
+      },
+      "format": "spray"
+    }
   },
   {
     "id": 307,
@@ -9967,7 +12809,17 @@
       "100": 7150
     },
     "discountSource": "Цены на спрей уже со скидкой 50%: скриншоты COYLI PARFUM IMG_2649–IMG_2655 от 15.10.2026. На чистое масло −50% от обычного тарифа категории, подтверждено пользователем.",
-    "gender": "Женский"
+    "gender": "Женский",
+    "novemberSale": {
+      "id": "2026-11-12-15",
+      "price": {
+        "20": 2100,
+        "30": 3115,
+        "50": 5075,
+        "100": 10010
+      },
+      "format": "spray"
+    }
   },
   {
     "id": 308,
@@ -9998,7 +12850,17 @@
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.31771.jpg",
     "referenceVersion": "Starry Nights Montale perfume - a fragrance for women and men 2015",
     "sortBrand": "montale",
-    "gender": "Унисекс"
+    "gender": "Унисекс",
+    "novemberSale": {
+      "id": "2026-11-12-15",
+      "price": {
+        "20": 2100,
+        "30": 3115,
+        "50": 5075,
+        "100": 10010
+      },
+      "format": "spray"
+    }
   },
   {
     "id": 309,
@@ -10029,7 +12891,17 @@
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.62775.jpg",
     "referenceVersion": "Fantomas Nasomatto perfume - a fragrance for women and men 2020",
     "sortBrand": "nasomatto",
-    "gender": "Унисекс"
+    "gender": "Унисекс",
+    "novemberSale": {
+      "id": "2026-11-12-15",
+      "price": {
+        "20": 2100,
+        "30": 3115,
+        "50": 5075,
+        "100": 10010
+      },
+      "format": "spray"
+    }
   },
   {
     "id": 310,
@@ -10071,7 +12943,17 @@
       "100": 7150
     },
     "discountSource": "Цены на спрей уже со скидкой 50%: скриншоты COYLI PARFUM IMG_2649–IMG_2655 от 15.10.2026. На чистое масло −50% от обычного тарифа категории, подтверждено пользователем.",
-    "gender": "Женский"
+    "gender": "Женский",
+    "novemberSale": {
+      "id": "2026-11-12-15",
+      "price": {
+        "20": 2100,
+        "30": 3115,
+        "50": 5075,
+        "100": 10010
+      },
+      "format": "spray"
+    }
   },
   {
     "id": 311,
@@ -10102,7 +12984,17 @@
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.16896.jpg",
     "referenceVersion": "Montabaco Ormonde Jayne perfume - a fragrance for women and men 2012",
     "sortBrand": "ormonde",
-    "gender": "Унисекс"
+    "gender": "Унисекс",
+    "novemberSale": {
+      "id": "2026-11-12-15",
+      "price": {
+        "20": 2100,
+        "30": 3115,
+        "50": 5075,
+        "100": 10010
+      },
+      "format": "spray"
+    }
   },
   {
     "id": 312,
@@ -10134,7 +13026,17 @@
     "referenceVersion": "Invictus Rabanne cologne - a fragrance for men 2013",
     "duplicateOf": 70,
     "sortBrand": "paco rabanne",
-    "gender": "Мужской"
+    "gender": "Мужской",
+    "novemberSale": {
+      "id": "2026-11-12-15",
+      "price": {
+        "20": 2100,
+        "30": 3115,
+        "50": 5075,
+        "100": 10010
+      },
+      "format": "spray"
+    }
   },
   {
     "id": 313,
@@ -10165,7 +13067,17 @@
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.50239.jpg",
     "referenceVersion": "Ombré Leather (2018) Tom Ford perfume - a fragrance for women and men 2018",
     "sortBrand": "tom ford",
-    "gender": "Унисекс"
+    "gender": "Унисекс",
+    "novemberSale": {
+      "id": "2026-11-12-15",
+      "price": {
+        "20": 2100,
+        "30": 3115,
+        "50": 5075,
+        "100": 10010
+      },
+      "format": "spray"
+    }
   },
   {
     "id": 314,
@@ -10196,7 +13108,17 @@
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.30624.jpg",
     "referenceVersion": "Cassiopea Tiziana Terenzi perfume - a fragrance for women and men 2015",
     "sortBrand": "tiziana terenzi",
-    "gender": "Женский"
+    "gender": "Женский",
+    "novemberSale": {
+      "id": "2026-11-12-15",
+      "price": {
+        "20": 2100,
+        "30": 3115,
+        "50": 5075,
+        "100": 10010
+      },
+      "format": "spray"
+    }
   },
   {
     "id": 315,
@@ -10238,7 +13160,17 @@
       "100": 7150
     },
     "discountSource": "Цены на спрей уже со скидкой 50%: скриншоты COYLI PARFUM IMG_2649–IMG_2655 от 15.10.2026. На чистое масло −50% от обычного тарифа категории, подтверждено пользователем.",
-    "gender": "Женский"
+    "gender": "Женский",
+    "novemberSale": {
+      "id": "2026-11-12-15",
+      "price": {
+        "20": 2100,
+        "30": 3115,
+        "50": 5075,
+        "100": 10010
+      },
+      "format": "spray"
+    }
   },
   {
     "id": 316,
@@ -10269,7 +13201,17 @@
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.6363.jpg",
     "referenceVersion": "Arabian Wood Tom Ford perfume - a fragrance for women and men 2009",
     "sortBrand": "tom ford",
-    "gender": "Унисекс"
+    "gender": "Унисекс",
+    "novemberSale": {
+      "id": "2026-11-12-15",
+      "price": {
+        "20": 2100,
+        "30": 3115,
+        "50": 5075,
+        "100": 10010
+      },
+      "format": "spray"
+    }
   },
   {
     "id": 317,
@@ -10300,7 +13242,17 @@
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.1825.jpg",
     "referenceVersion": "Tobacco Vanille Tom Ford perfume - a fragrance for women and men 2007",
     "sortBrand": "tom ford",
-    "gender": "Унисекс"
+    "gender": "Унисекс",
+    "novemberSale": {
+      "id": "2026-11-12-15",
+      "price": {
+        "20": 2100,
+        "30": 3115,
+        "50": 5075,
+        "100": 10010
+      },
+      "format": "spray"
+    }
   },
   {
     "id": 318,
@@ -10331,7 +13283,17 @@
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.88588.jpg",
     "referenceVersion": "Vanilla Tom Ford perfume - a fragrance for women and men 2023",
     "sortBrand": "tom ford",
-    "gender": "Унисекс"
+    "gender": "Унисекс",
+    "novemberSale": {
+      "id": "2026-11-12-15",
+      "price": {
+        "20": 2100,
+        "30": 3115,
+        "50": 5075,
+        "100": 10010
+      },
+      "format": "spray"
+    }
   },
   {
     "id": 319,
@@ -10362,7 +13324,17 @@
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.59831.jpg",
     "referenceVersion": "Musc Noir Perfume Enhancer Trussardi perfume - a fragrance for women and men 2020",
     "sortBrand": "trussardi",
-    "gender": "Унисекс"
+    "gender": "Унисекс",
+    "novemberSale": {
+      "id": "2026-11-12-15",
+      "price": {
+        "20": 2100,
+        "30": 3115,
+        "50": 5075,
+        "100": 10010
+      },
+      "format": "spray"
+    }
   },
   {
     "id": 320,
@@ -10404,7 +13376,17 @@
       "100": 7150
     },
     "discountSource": "Цены на спрей уже со скидкой 50%: скриншоты COYLI PARFUM IMG_2649–IMG_2655 от 15.10.2026. На чистое масло −50% от обычного тарифа категории, подтверждено пользователем.",
-    "gender": "Унисекс"
+    "gender": "Унисекс",
+    "novemberSale": {
+      "id": "2026-11-12-15",
+      "price": {
+        "20": 2100,
+        "30": 3115,
+        "50": 5075,
+        "100": 10010
+      },
+      "format": "spray"
+    }
   },
   {
     "id": 321,
@@ -10435,7 +13417,17 @@
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.65065.jpg",
     "referenceVersion": "Fiction Zielinski & Rozen perfume - a fragrance for women and men",
     "sortBrand": "zielinski & rozen",
-    "gender": "Унисекс"
+    "gender": "Унисекс",
+    "novemberSale": {
+      "id": "2026-11-12-15",
+      "price": {
+        "20": 2100,
+        "30": 3115,
+        "50": 5075,
+        "100": 10010
+      },
+      "format": "spray"
+    }
   },
   {
     "id": 322,
@@ -10466,7 +13458,17 @@
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.65057.jpg",
     "referenceVersion": "Oakmoss & Amber Zielinski & Rozen perfume - a fragrance for women and men",
     "sortBrand": "zielinski & rozen",
-    "gender": "Унисекс"
+    "gender": "Унисекс",
+    "novemberSale": {
+      "id": "2026-11-12-15",
+      "price": {
+        "20": 2100,
+        "30": 3115,
+        "50": 5075,
+        "100": 10010
+      },
+      "format": "spray"
+    }
   },
   {
     "id": 323,
@@ -10497,7 +13499,17 @@
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.65069.jpg",
     "referenceVersion": "Vanilla Blend Zielinski & Rozen perfume - a fragrance for women and men",
     "sortBrand": "zielinski & rozen",
-    "gender": "Унисекс"
+    "gender": "Унисекс",
+    "novemberSale": {
+      "id": "2026-11-12-15",
+      "price": {
+        "20": 2100,
+        "30": 3115,
+        "50": 5075,
+        "100": 10010
+      },
+      "format": "spray"
+    }
   },
   {
     "id": 324,
@@ -10528,7 +13540,17 @@
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.65053.jpg",
     "referenceVersion": "Orange & Jasmine, Vanilla Zielinski & Rozen perfume - a fragrance for women and men",
     "sortBrand": "zielinski & rozen",
-    "gender": "Унисекс"
+    "gender": "Унисекс",
+    "novemberSale": {
+      "id": "2026-11-12-15",
+      "price": {
+        "20": 2100,
+        "30": 3115,
+        "50": 5075,
+        "100": 10010
+      },
+      "format": "spray"
+    }
   },
   {
     "id": 325,
@@ -10559,7 +13581,17 @@
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.19607.jpg",
     "referenceVersion": "Hayati Al Haramain Perfumes perfume - a fragrance for women and men",
     "sortBrand": "al",
-    "gender": "Унисекс"
+    "gender": "Унисекс",
+    "novemberSale": {
+      "id": "2026-11-12-15",
+      "price": {
+        "20": 2100,
+        "30": 3115,
+        "50": 5075,
+        "100": 10010
+      },
+      "format": "spray"
+    }
   },
   {
     "id": 326,
@@ -10590,7 +13622,17 @@
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.65110.jpg",
     "referenceVersion": "Black Narcotique Serge Dumonten perfume - a fragrance for women and men",
     "sortBrand": "serge",
-    "gender": "Унисекс"
+    "gender": "Унисекс",
+    "novemberSale": {
+      "id": "2026-11-12-15",
+      "price": {
+        "20": 2100,
+        "30": 3115,
+        "50": 5075,
+        "100": 10010
+      },
+      "format": "spray"
+    }
   },
   {
     "id": 327,
@@ -10621,7 +13663,17 @@
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.50559.jpg",
     "referenceVersion": "Captain Black — Elixirs Of Eden",
     "sortBrand": "captain",
-    "gender": "Мужской"
+    "gender": "Мужской",
+    "novemberSale": {
+      "id": "2026-11-12-15",
+      "price": {
+        "20": 1260,
+        "30": 1820,
+        "50": 2905,
+        "100": 5600
+      },
+      "format": "spray"
+    }
   },
   {
     "id": 328,
@@ -10652,7 +13704,17 @@
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.600.jpg",
     "referenceVersion": "Fantasy — Britney Spears (2005), Eau de Parfum",
     "sortBrand": "britney",
-    "gender": "Женский"
+    "gender": "Женский",
+    "novemberSale": {
+      "id": "2026-11-12-15",
+      "price": {
+        "20": 1260,
+        "30": 1820,
+        "50": 2905,
+        "100": 5600
+      },
+      "format": "spray"
+    }
   },
   {
     "id": 329,
@@ -10683,7 +13745,17 @@
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.28711.jpg",
     "referenceVersion": "Chanel No 5 Parfum (1921)",
     "sortBrand": "chanel",
-    "gender": "Женский"
+    "gender": "Женский",
+    "novemberSale": {
+      "id": "2026-11-12-15",
+      "price": {
+        "20": 2100,
+        "30": 3115,
+        "50": 5075,
+        "100": 10010
+      },
+      "format": "spray"
+    }
   },
   {
     "id": 330,
@@ -10725,7 +13797,17 @@
       "100": 7150
     },
     "discountSource": "Цены на спрей уже со скидкой 50%: скриншоты COYLI PARFUM IMG_2649–IMG_2655 от 15.10.2026. На чистое масло −50% от обычного тарифа категории, подтверждено пользователем.",
-    "gender": "Женский"
+    "gender": "Женский",
+    "novemberSale": {
+      "id": "2026-11-12-15",
+      "price": {
+        "20": 2100,
+        "30": 3115,
+        "50": 5075,
+        "100": 10010
+      },
+      "format": "spray"
+    }
   },
   {
     "id": 331,
@@ -10756,7 +13838,17 @@
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.75692.jpg",
     "referenceVersion": "Exotic Mimosa — Zara (2022)",
     "sortBrand": "zara",
-    "gender": "Женский"
+    "gender": "Женский",
+    "novemberSale": {
+      "id": "2026-11-12-15",
+      "price": {
+        "20": 1260,
+        "30": 1820,
+        "50": 2905,
+        "100": 5600
+      },
+      "format": "spray"
+    }
   },
   {
     "id": 332,
@@ -10787,7 +13879,17 @@
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.34893.jpg",
     "referenceVersion": "Soleil Blanc — Tom Ford (2016), Eau de Parfum",
     "sortBrand": "tom ford",
-    "gender": "Унисекс"
+    "gender": "Унисекс",
+    "novemberSale": {
+      "id": "2026-11-12-15",
+      "price": {
+        "20": 2100,
+        "30": 3115,
+        "50": 5075,
+        "100": 10010
+      },
+      "format": "spray"
+    }
   },
   {
     "id": 333,
@@ -10818,7 +13920,17 @@
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.45226.jpg",
     "referenceVersion": "Vetiver d'Haiti au The Vert — Chopard (2017)",
     "sortBrand": "chopard",
-    "gender": "Унисекс"
+    "gender": "Унисекс",
+    "novemberSale": {
+      "id": "2026-11-12-15",
+      "price": {
+        "20": 2100,
+        "30": 3115,
+        "50": 5075,
+        "100": 10010
+      },
+      "format": "spray"
+    }
   },
   {
     "id": 334,
@@ -10849,7 +13961,17 @@
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.10296.jpg",
     "referenceVersion": "Not a Perfume — Juliette Has a Gun (2010)",
     "sortBrand": "juliette has a gun",
-    "gender": "Женский"
+    "gender": "Женский",
+    "novemberSale": {
+      "id": "2026-11-12-15",
+      "price": {
+        "20": 2100,
+        "30": 3115,
+        "50": 5075,
+        "100": 10010
+      },
+      "format": "spray"
+    }
   },
   {
     "id": 335,
@@ -10881,7 +14003,17 @@
     "referenceVersion": "Voyage sur la route des Épices La Sultane de Saba perfume - a fragrance for women and men 2013",
     "duplicateOf": 253,
     "sortBrand": "la",
-    "gender": "Унисекс"
+    "gender": "Унисекс",
+    "novemberSale": {
+      "id": "2026-11-12-15",
+      "price": {
+        "20": 2100,
+        "30": 3115,
+        "50": 5075,
+        "100": 10010
+      },
+      "format": "spray"
+    }
   },
   {
     "id": 336,
@@ -10925,7 +14057,17 @@
       "100": 4000
     },
     "discountSource": "Цены на спрей уже со скидкой 50%: скриншоты COYLI PARFUM IMG_2649–IMG_2655 от 15.10.2026. На чистое масло −50% от обычного тарифа категории, подтверждено пользователем.",
-    "gender": "Мужской"
+    "gender": "Мужской",
+    "novemberSale": {
+      "id": "2026-11-12-15",
+      "price": {
+        "20": 1260,
+        "30": 1820,
+        "50": 2905,
+        "100": 5600
+      },
+      "format": "spray"
+    }
   },
   {
     "id": 337,
@@ -10958,7 +14100,17 @@
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.112700.jpg",
     "sortBrand": "kenzo",
     "imageStatus": "verified",
-    "gender": "Женский"
+    "gender": "Женский",
+    "novemberSale": {
+      "id": "2026-11-12-15",
+      "price": {
+        "20": 1260,
+        "30": 1820,
+        "50": 2905,
+        "100": 5600
+      },
+      "format": "spray"
+    }
   },
   {
     "id": 338,
@@ -10990,7 +14142,17 @@
     "sortBrand": "zam",
     "imageStatus": "verified",
     "gender": "Мужской",
-    "isHit": true
+    "isHit": true,
+    "novemberSale": {
+      "id": "2026-11-12-15",
+      "price": {
+        "20": 1260,
+        "30": 1820,
+        "50": 2905,
+        "100": 5600
+      },
+      "format": "spray"
+    }
   },
   {
     "id": 339,
@@ -11022,7 +14184,17 @@
     "imageSource": "https://mrlilacscents.com/cdn/shop/files/JPG_6_1fb243e5-9ca4-490a-b514-255cdb95362d.jpg?v=1709759158&width=1080",
     "sortBrand": "byredo",
     "imageStatus": "verified",
-    "gender": "Унисекс"
+    "gender": "Унисекс",
+    "novemberSale": {
+      "id": "2026-11-12-15",
+      "price": {
+        "20": 2100,
+        "30": 3115,
+        "50": 5075,
+        "100": 10010
+      },
+      "format": "spray"
+    }
   },
   {
     "id": 340,
@@ -11054,7 +14226,17 @@
     "imageSource": "User supplied: IMG_2591(1).jpeg",
     "sortBrand": "zielinski & rozen",
     "imageStatus": "verified",
-    "gender": "Унисекс"
+    "gender": "Унисекс",
+    "novemberSale": {
+      "id": "2026-11-12-15",
+      "price": {
+        "20": 2100,
+        "30": 3115,
+        "50": 5075,
+        "100": 10010
+      },
+      "format": "spray"
+    }
   },
   {
     "id": 341,
@@ -11084,7 +14266,17 @@
     "imageSource": "User supplied: 660102CF-7C3D-4C2C-B1EB-18B5B47EBAEC(1).jpeg",
     "sortBrand": "zam",
     "imageStatus": "verified",
-    "gender": "Мужской"
+    "gender": "Мужской",
+    "novemberSale": {
+      "id": "2026-11-12-15",
+      "price": {
+        "20": 1260,
+        "30": 1820,
+        "50": 2905,
+        "100": 5600
+      },
+      "format": "spray"
+    }
   },
   {
     "id": 342,
@@ -11131,7 +14323,20 @@
       "checkedAt": "2026-10-15",
       "source": "Оригинал отчёт .xlsm, Инвентаризация, остаток на 15.10.2026; наличие оригиналов только в Ньютоне подтверждено пользователем"
     },
-    "gender": "Унисекс"
+    "gender": "Унисекс",
+    "novemberSale": {
+      "id": "2026-11-12-15",
+      "price": {
+        "3": 1215,
+        "5": 2025,
+        "10": 3825,
+        "15": 5737.5,
+        "20": 7650,
+        "30": 11475,
+        "50": 19125,
+        "100": 38250
+      }
+    }
   },
   {
     "id": 343,
@@ -11178,7 +14383,20 @@
       "checkedAt": "2026-10-15",
       "source": "Оригинал отчёт .xlsm, Инвентаризация, остаток на 15.10.2026; наличие оригиналов только в Ньютоне подтверждено пользователем"
     },
-    "gender": "Унисекс"
+    "gender": "Унисекс",
+    "novemberSale": {
+      "id": "2026-11-12-15",
+      "price": {
+        "3": 1080,
+        "5": 1800,
+        "10": 3400,
+        "15": 5100,
+        "20": 6800,
+        "30": 10200,
+        "50": 17000,
+        "100": 34000
+      }
+    }
   },
   {
     "id": 344,
@@ -11227,7 +14445,20 @@
     },
     "gender": "Женский",
     "isHit": true,
-    "hitOrder": 2
+    "hitOrder": 2,
+    "novemberSale": {
+      "id": "2026-11-12-15",
+      "price": {
+        "3": 945,
+        "5": 1575,
+        "10": 2975,
+        "15": 4462.5,
+        "20": 5950,
+        "30": 8925,
+        "50": 14875,
+        "100": 29750
+      }
+    }
   },
   {
     "id": 345,
@@ -11274,7 +14505,20 @@
       "checkedAt": "2026-10-15",
       "source": "Оригинал отчёт .xlsm, Инвентаризация, остаток на 15.10.2026; наличие оригиналов только в Ньютоне подтверждено пользователем"
     },
-    "gender": "Женский"
+    "gender": "Женский",
+    "novemberSale": {
+      "id": "2026-11-12-15",
+      "price": {
+        "3": 945,
+        "5": 1575,
+        "10": 2975,
+        "15": 4462.5,
+        "20": 5950,
+        "30": 8925,
+        "50": 14875,
+        "100": 29750
+      }
+    }
   },
   {
     "id": 346,
@@ -11322,7 +14566,20 @@
       "checkedAt": "2026-10-15",
       "source": "Оригинал отчёт .xlsm, Инвентаризация, остаток на 15.10.2026; наличие оригиналов только в Ньютоне подтверждено пользователем"
     },
-    "gender": "Мужской"
+    "gender": "Мужской",
+    "novemberSale": {
+      "id": "2026-11-12-15",
+      "price": {
+        "3": 540,
+        "5": 900,
+        "10": 1700,
+        "15": 2550,
+        "20": 3400,
+        "30": 5100,
+        "50": 8500,
+        "100": 17000
+      }
+    }
   },
   {
     "id": 347,
@@ -11371,7 +14628,20 @@
     },
     "gender": "Унисекс",
     "isHit": true,
-    "hitOrder": 8
+    "hitOrder": 8,
+    "novemberSale": {
+      "id": "2026-11-12-15",
+      "price": {
+        "3": 1215,
+        "5": 2025,
+        "10": 3825,
+        "15": 5737.5,
+        "20": 7650,
+        "30": 11475,
+        "50": 19125,
+        "100": 38250
+      }
+    }
   },
   {
     "id": 348,
@@ -11420,7 +14690,20 @@
     },
     "discountPercent": 15,
     "discountSource": "Пользователь: акция −15% на 12 ароматов с IMG_2656.jpeg и IMG_2657.jpeg, 15.10.2026",
-    "gender": "Женский"
+    "gender": "Женский",
+    "novemberSale": {
+      "id": "2026-11-12-15",
+      "price": {
+        "3": 810,
+        "5": 1350,
+        "10": 2550,
+        "15": 3825,
+        "20": 5100,
+        "30": 7650,
+        "50": 12750,
+        "100": 25500
+      }
+    }
   },
   {
     "id": 349,
@@ -11468,7 +14751,20 @@
       "checkedAt": "2026-10-15",
       "source": "Оригинал отчёт .xlsm, Инвентаризация, остаток на 15.10.2026; наличие оригиналов только в Ньютоне подтверждено пользователем"
     },
-    "gender": "Женский"
+    "gender": "Женский",
+    "novemberSale": {
+      "id": "2026-11-12-15",
+      "price": {
+        "3": 810,
+        "5": 1350,
+        "10": 2550,
+        "15": 3825,
+        "20": 5100,
+        "30": 7650,
+        "50": 12750,
+        "100": 25500
+      }
+    }
   },
   {
     "id": 350,
@@ -11515,7 +14811,20 @@
       "checkedAt": "2026-10-15",
       "source": "Оригинал отчёт .xlsm, Инвентаризация, остаток на 15.10.2026; наличие оригиналов только в Ньютоне подтверждено пользователем"
     },
-    "gender": "Унисекс"
+    "gender": "Унисекс",
+    "novemberSale": {
+      "id": "2026-11-12-15",
+      "price": {
+        "3": 810,
+        "5": 1350,
+        "10": 2550,
+        "15": 3825,
+        "20": 5100,
+        "30": 7650,
+        "50": 12750,
+        "100": 25500
+      }
+    }
   },
   {
     "id": 351,
@@ -11562,7 +14871,20 @@
       "checkedAt": "2026-10-15",
       "source": "Оригинал отчёт .xlsm, Инвентаризация, остаток на 15.10.2026; наличие оригиналов только в Ньютоне подтверждено пользователем"
     },
-    "gender": "Женский"
+    "gender": "Женский",
+    "novemberSale": {
+      "id": "2026-11-12-15",
+      "price": {
+        "3": 675,
+        "5": 1125,
+        "10": 2125,
+        "15": 3187.5,
+        "20": 4250,
+        "30": 6375,
+        "50": 10625,
+        "100": 21250
+      }
+    }
   },
   {
     "id": 352,
@@ -11607,7 +14929,19 @@
       "checkedAt": "2026-10-15",
       "source": "Оригинал отчёт .xlsm, Инвентаризация, остаток на 15.10.2026; наличие оригиналов только в Ньютоне подтверждено пользователем"
     },
-    "gender": "Женский"
+    "gender": "Женский",
+    "novemberSale": {
+      "id": "2026-11-12-15",
+      "price": {
+        "3": 675,
+        "5": 1125,
+        "10": 2125,
+        "15": 3187.5,
+        "20": 4250,
+        "30": 6375,
+        "50": 10625
+      }
+    }
   },
   {
     "id": 353,
@@ -11654,7 +14988,20 @@
       "checkedAt": "2026-10-15",
       "source": "Оригинал отчёт .xlsm, Инвентаризация, остаток на 15.10.2026; наличие оригиналов только в Ньютоне подтверждено пользователем"
     },
-    "gender": "Женский"
+    "gender": "Женский",
+    "novemberSale": {
+      "id": "2026-11-12-15",
+      "price": {
+        "3": 810,
+        "5": 1350,
+        "10": 2550,
+        "15": 3825,
+        "20": 5100,
+        "30": 7650,
+        "50": 12750,
+        "100": 25500
+      }
+    }
   },
   {
     "id": 354,
@@ -11703,7 +15050,20 @@
     },
     "discountPercent": 15,
     "discountSource": "Пользователь: акция −15% на 12 ароматов с IMG_2656.jpeg и IMG_2657.jpeg, 15.10.2026",
-    "gender": "Женский"
+    "gender": "Женский",
+    "novemberSale": {
+      "id": "2026-11-12-15",
+      "price": {
+        "3": 810,
+        "5": 1350,
+        "10": 2550,
+        "15": 3825,
+        "20": 5100,
+        "30": 7650,
+        "50": 12750,
+        "100": 25500
+      }
+    }
   },
   {
     "id": 355,
@@ -11750,7 +15110,20 @@
       "checkedAt": "2026-10-15",
       "source": "Оригинал отчёт .xlsm, Инвентаризация, остаток на 15.10.2026; наличие оригиналов только в Ньютоне подтверждено пользователем"
     },
-    "gender": "Женский"
+    "gender": "Женский",
+    "novemberSale": {
+      "id": "2026-11-12-15",
+      "price": {
+        "3": 810,
+        "5": 1350,
+        "10": 2550,
+        "15": 3825,
+        "20": 5100,
+        "30": 7650,
+        "50": 12750,
+        "100": 25500
+      }
+    }
   },
   {
     "id": 356,
@@ -11797,7 +15170,20 @@
       "checkedAt": "2026-10-15",
       "source": "Оригинал отчёт .xlsm, Инвентаризация, остаток на 15.10.2026; наличие оригиналов только в Ньютоне подтверждено пользователем"
     },
-    "gender": "Женский"
+    "gender": "Женский",
+    "novemberSale": {
+      "id": "2026-11-12-15",
+      "price": {
+        "3": 810,
+        "5": 1350,
+        "10": 2550,
+        "15": 3825,
+        "20": 5100,
+        "30": 7650,
+        "50": 12750,
+        "100": 25500
+      }
+    }
   },
   {
     "id": 357,
@@ -11844,7 +15230,20 @@
       "checkedAt": "2026-10-15",
       "source": "Оригинал отчёт .xlsm, Инвентаризация, остаток на 15.10.2026; наличие оригиналов только в Ньютоне подтверждено пользователем"
     },
-    "gender": "Унисекс"
+    "gender": "Унисекс",
+    "novemberSale": {
+      "id": "2026-11-12-15",
+      "price": {
+        "3": 1080,
+        "5": 1800,
+        "10": 3400,
+        "15": 5100,
+        "20": 6800,
+        "30": 10200,
+        "50": 17000,
+        "100": 34000
+      }
+    }
   },
   {
     "id": 358,
@@ -11891,7 +15290,20 @@
       "checkedAt": "2026-10-15",
       "source": "Оригинал отчёт .xlsm, Инвентаризация, остаток на 15.10.2026; наличие оригиналов только в Ньютоне подтверждено пользователем"
     },
-    "gender": "Унисекс"
+    "gender": "Унисекс",
+    "novemberSale": {
+      "id": "2026-11-12-15",
+      "price": {
+        "3": 1080,
+        "5": 1800,
+        "10": 3400,
+        "15": 5100,
+        "20": 6800,
+        "30": 10200,
+        "50": 17000,
+        "100": 34000
+      }
+    }
   },
   {
     "id": 359,
@@ -11938,7 +15350,20 @@
       "checkedAt": "2026-10-15",
       "source": "Оригинал отчёт .xlsm, Инвентаризация, остаток на 15.10.2026; наличие оригиналов только в Ньютоне подтверждено пользователем"
     },
-    "gender": "Мужской"
+    "gender": "Мужской",
+    "novemberSale": {
+      "id": "2026-11-12-15",
+      "price": {
+        "3": 1215,
+        "5": 2025,
+        "10": 3825,
+        "15": 5737.5,
+        "20": 7650,
+        "30": 11475,
+        "50": 19125,
+        "100": 38250
+      }
+    }
   },
   {
     "id": 360,
@@ -11985,7 +15410,20 @@
       "checkedAt": "2026-10-15",
       "source": "Оригинал отчёт .xlsm, Инвентаризация, остаток на 15.10.2026; наличие оригиналов только в Ньютоне подтверждено пользователем"
     },
-    "gender": "Женский"
+    "gender": "Женский",
+    "novemberSale": {
+      "id": "2026-11-12-15",
+      "price": {
+        "3": 810,
+        "5": 1350,
+        "10": 2550,
+        "15": 3825,
+        "20": 5100,
+        "30": 7650,
+        "50": 12750,
+        "100": 25500
+      }
+    }
   },
   {
     "id": 361,
@@ -12032,7 +15470,20 @@
       "checkedAt": "2026-10-15",
       "source": "Оригинал отчёт .xlsm, Инвентаризация, остаток на 15.10.2026; наличие оригиналов только в Ньютоне подтверждено пользователем"
     },
-    "gender": "Унисекс"
+    "gender": "Унисекс",
+    "novemberSale": {
+      "id": "2026-11-12-15",
+      "price": {
+        "3": 810,
+        "5": 1350,
+        "10": 2550,
+        "15": 3825,
+        "20": 5100,
+        "30": 7650,
+        "50": 12750,
+        "100": 25500
+      }
+    }
   },
   {
     "id": 362,
@@ -12079,7 +15530,20 @@
       "checkedAt": "2026-10-15",
       "source": "Оригинал отчёт .xlsm, Инвентаризация, остаток на 15.10.2026; наличие оригиналов только в Ньютоне подтверждено пользователем"
     },
-    "gender": "Мужской"
+    "gender": "Мужской",
+    "novemberSale": {
+      "id": "2026-11-12-15",
+      "price": {
+        "3": 810,
+        "5": 1350,
+        "10": 2550,
+        "15": 3825,
+        "20": 5100,
+        "30": 7650,
+        "50": 12750,
+        "100": 25500
+      }
+    }
   },
   {
     "id": 363,
@@ -12126,7 +15590,20 @@
       "checkedAt": "2026-10-15",
       "source": "Оригинал отчёт .xlsm, Инвентаризация, остаток на 15.10.2026; наличие оригиналов только в Ньютоне подтверждено пользователем"
     },
-    "gender": "Унисекс"
+    "gender": "Унисекс",
+    "novemberSale": {
+      "id": "2026-11-12-15",
+      "price": {
+        "3": 1215,
+        "5": 2025,
+        "10": 3825,
+        "15": 5737.5,
+        "20": 7650,
+        "30": 11475,
+        "50": 19125,
+        "100": 38250
+      }
+    }
   },
   {
     "id": 364,
@@ -12175,7 +15652,20 @@
     },
     "discountPercent": 15,
     "discountSource": "Пользователь: акция −15% на 12 ароматов с IMG_2656.jpeg и IMG_2657.jpeg, 15.10.2026",
-    "gender": "Унисекс"
+    "gender": "Унисекс",
+    "novemberSale": {
+      "id": "2026-11-12-15",
+      "price": {
+        "3": 945,
+        "5": 1575,
+        "10": 2975,
+        "15": 4462.5,
+        "20": 5950,
+        "30": 8925,
+        "50": 14875,
+        "100": 29750
+      }
+    }
   },
   {
     "id": 365,
@@ -12222,7 +15712,20 @@
       "checkedAt": "2026-10-15",
       "source": "Оригинал отчёт .xlsm, Инвентаризация, остаток на 15.10.2026; наличие оригиналов только в Ньютоне подтверждено пользователем"
     },
-    "gender": "Унисекс"
+    "gender": "Унисекс",
+    "novemberSale": {
+      "id": "2026-11-12-15",
+      "price": {
+        "3": 810,
+        "5": 1350,
+        "10": 2550,
+        "15": 3825,
+        "20": 5100,
+        "30": 7650,
+        "50": 12750,
+        "100": 25500
+      }
+    }
   },
   {
     "id": 366,
@@ -12269,7 +15772,20 @@
       "checkedAt": "2026-10-15",
       "source": "Оригинал отчёт .xlsm, Инвентаризация, остаток на 15.10.2026; наличие оригиналов только в Ньютоне подтверждено пользователем"
     },
-    "gender": "Женский"
+    "gender": "Женский",
+    "novemberSale": {
+      "id": "2026-11-12-15",
+      "price": {
+        "3": 675,
+        "5": 1125,
+        "10": 2125,
+        "15": 3187.5,
+        "20": 4250,
+        "30": 6375,
+        "50": 10625,
+        "100": 21250
+      }
+    }
   },
   {
     "id": 367,
@@ -12316,7 +15832,20 @@
       "checkedAt": "2026-10-15",
       "source": "Оригинал отчёт .xlsm, Инвентаризация, остаток на 15.10.2026; наличие оригиналов только в Ньютоне подтверждено пользователем"
     },
-    "gender": "Унисекс"
+    "gender": "Унисекс",
+    "novemberSale": {
+      "id": "2026-11-12-15",
+      "price": {
+        "3": 675,
+        "5": 1125,
+        "10": 2125,
+        "15": 3187.5,
+        "20": 4250,
+        "30": 6375,
+        "50": 10625,
+        "100": 21250
+      }
+    }
   },
   {
     "id": 368,
@@ -12363,7 +15892,20 @@
       "checkedAt": "2026-10-15",
       "source": "Оригинал отчёт .xlsm, Инвентаризация, остаток на 15.10.2026; наличие оригиналов только в Ньютоне подтверждено пользователем"
     },
-    "gender": "Женский"
+    "gender": "Женский",
+    "novemberSale": {
+      "id": "2026-11-12-15",
+      "price": {
+        "3": 540,
+        "5": 900,
+        "10": 1700,
+        "15": 2550,
+        "20": 3400,
+        "30": 5100,
+        "50": 8500,
+        "100": 17000
+      }
+    }
   },
   {
     "id": 369,
@@ -12411,7 +15953,20 @@
       "source": "Оригинал отчёт .xlsm, Инвентаризация, остаток на 15.10.2026; наличие оригиналов только в Ньютоне подтверждено пользователем"
     },
     "gender": "Мужской",
-    "referenceSource": "Мужская версия Pour Homme подтверждена пользователем по флакону и пирамиде, 17.10.2026"
+    "referenceSource": "Мужская версия Pour Homme подтверждена пользователем по флакону и пирамиде, 17.10.2026",
+    "novemberSale": {
+      "id": "2026-11-12-15",
+      "price": {
+        "3": 540,
+        "5": 900,
+        "10": 1700,
+        "15": 2550,
+        "20": 3400,
+        "30": 5100,
+        "50": 8500,
+        "100": 17000
+      }
+    }
   },
   {
     "id": 370,
@@ -12458,7 +16013,20 @@
       "checkedAt": "2026-10-15",
       "source": "Оригинал отчёт .xlsm, Инвентаризация, остаток на 15.10.2026; наличие оригиналов только в Ньютоне подтверждено пользователем"
     },
-    "gender": "Унисекс"
+    "gender": "Унисекс",
+    "novemberSale": {
+      "id": "2026-11-12-15",
+      "price": {
+        "3": 810,
+        "5": 1350,
+        "10": 2550,
+        "15": 3825,
+        "20": 5100,
+        "30": 7650,
+        "50": 12750,
+        "100": 25500
+      }
+    }
   },
   {
     "id": 371,
@@ -12505,7 +16073,20 @@
       "checkedAt": "2026-10-15",
       "source": "Оригинал отчёт .xlsm, Инвентаризация, остаток на 15.10.2026; наличие оригиналов только в Ньютоне подтверждено пользователем"
     },
-    "gender": "Унисекс"
+    "gender": "Унисекс",
+    "novemberSale": {
+      "id": "2026-11-12-15",
+      "price": {
+        "3": 675,
+        "5": 1125,
+        "10": 2125,
+        "15": 3187.5,
+        "20": 4250,
+        "30": 6375,
+        "50": 10625,
+        "100": 21250
+      }
+    }
   },
   {
     "id": 372,
@@ -12552,7 +16133,20 @@
       "checkedAt": "2026-10-15",
       "source": "Оригинал отчёт .xlsm, Инвентаризация, остаток на 15.10.2026; наличие оригиналов только в Ньютоне подтверждено пользователем"
     },
-    "gender": "Мужской"
+    "gender": "Мужской",
+    "novemberSale": {
+      "id": "2026-11-12-15",
+      "price": {
+        "3": 405,
+        "5": 675,
+        "10": 1275,
+        "15": 1912.5,
+        "20": 2550,
+        "30": 3825,
+        "50": 6375,
+        "100": 12750
+      }
+    }
   },
   {
     "id": 373,
@@ -12599,7 +16193,20 @@
       "checkedAt": "2026-10-15",
       "source": "Оригинал отчёт .xlsm, Инвентаризация, остаток на 15.10.2026; наличие оригиналов только в Ньютоне подтверждено пользователем"
     },
-    "gender": "Унисекс"
+    "gender": "Унисекс",
+    "novemberSale": {
+      "id": "2026-11-12-15",
+      "price": {
+        "3": 540,
+        "5": 900,
+        "10": 1700,
+        "15": 2550,
+        "20": 3400,
+        "30": 5100,
+        "50": 8500,
+        "100": 17000
+      }
+    }
   },
   {
     "id": 374,
@@ -12646,7 +16253,20 @@
       "checkedAt": "2026-10-15",
       "source": "Оригинал отчёт .xlsm, Инвентаризация, остаток на 15.10.2026; наличие оригиналов только в Ньютоне подтверждено пользователем"
     },
-    "gender": "Унисекс"
+    "gender": "Унисекс",
+    "novemberSale": {
+      "id": "2026-11-12-15",
+      "price": {
+        "3": 945,
+        "5": 1575,
+        "10": 2975,
+        "15": 4462.5,
+        "20": 5950,
+        "30": 8925,
+        "50": 14875,
+        "100": 29750
+      }
+    }
   },
   {
     "id": 375,
@@ -12693,7 +16313,20 @@
       "checkedAt": "2026-10-15",
       "source": "Оригинал отчёт .xlsm, Инвентаризация, остаток на 15.10.2026; наличие оригиналов только в Ньютоне подтверждено пользователем"
     },
-    "gender": "Женский"
+    "gender": "Женский",
+    "novemberSale": {
+      "id": "2026-11-12-15",
+      "price": {
+        "3": 1080,
+        "5": 1800,
+        "10": 3400,
+        "15": 5100,
+        "20": 6800,
+        "30": 10200,
+        "50": 17000,
+        "100": 34000
+      }
+    }
   },
   {
     "id": 376,
@@ -12740,7 +16373,20 @@
       "checkedAt": "2026-10-15",
       "source": "Оригинал отчёт .xlsm, Инвентаризация, остаток на 15.10.2026; наличие оригиналов только в Ньютоне подтверждено пользователем"
     },
-    "gender": "Унисекс"
+    "gender": "Унисекс",
+    "novemberSale": {
+      "id": "2026-11-12-15",
+      "price": {
+        "3": 1350,
+        "5": 2250,
+        "10": 4250,
+        "15": 6375,
+        "20": 8500,
+        "30": 12750,
+        "50": 21250,
+        "100": 42500
+      }
+    }
   },
   {
     "id": 377,
@@ -12788,7 +16434,20 @@
       "checkedAt": "2026-10-15",
       "source": "Оригинал отчёт .xlsm, Инвентаризация, остаток на 15.10.2026; наличие оригиналов только в Ньютоне подтверждено пользователем"
     },
-    "gender": "Мужской"
+    "gender": "Мужской",
+    "novemberSale": {
+      "id": "2026-11-12-15",
+      "price": {
+        "3": 1350,
+        "5": 2250,
+        "10": 4250,
+        "15": 6375,
+        "20": 8500,
+        "30": 12750,
+        "50": 21250,
+        "100": 42500
+      }
+    }
   },
   {
     "id": 378,
@@ -12837,7 +16496,20 @@
     },
     "discountPercent": 15,
     "discountSource": "Пользователь: акция −15% на 12 ароматов с IMG_2656.jpeg и IMG_2657.jpeg, 15.10.2026",
-    "gender": "Женский"
+    "gender": "Женский",
+    "novemberSale": {
+      "id": "2026-11-12-15",
+      "price": {
+        "3": 1350,
+        "5": 2250,
+        "10": 4250,
+        "15": 6375,
+        "20": 8500,
+        "30": 12750,
+        "50": 21250,
+        "100": 42500
+      }
+    }
   },
   {
     "id": 379,
@@ -12884,7 +16556,20 @@
       "checkedAt": "2026-10-15",
       "source": "Оригинал отчёт .xlsm, Инвентаризация, остаток на 15.10.2026; наличие оригиналов только в Ньютоне подтверждено пользователем"
     },
-    "gender": "Унисекс"
+    "gender": "Унисекс",
+    "novemberSale": {
+      "id": "2026-11-12-15",
+      "price": {
+        "3": 675,
+        "5": 1125,
+        "10": 2125,
+        "15": 3187.5,
+        "20": 4250,
+        "30": 6375,
+        "50": 10625,
+        "100": 21250
+      }
+    }
   },
   {
     "id": 380,
@@ -12931,7 +16616,20 @@
       "checkedAt": "2026-10-15",
       "source": "Оригинал отчёт .xlsm, Инвентаризация, остаток на 15.10.2026; наличие оригиналов только в Ньютоне подтверждено пользователем"
     },
-    "gender": "Унисекс"
+    "gender": "Унисекс",
+    "novemberSale": {
+      "id": "2026-11-12-15",
+      "price": {
+        "3": 675,
+        "5": 1125,
+        "10": 2125,
+        "15": 3187.5,
+        "20": 4250,
+        "30": 6375,
+        "50": 10625,
+        "100": 21250
+      }
+    }
   },
   {
     "id": 381,
@@ -12978,7 +16676,20 @@
       "checkedAt": "2026-10-15",
       "source": "Оригинал отчёт .xlsm, Инвентаризация, остаток на 15.10.2026; наличие оригиналов только в Ньютоне подтверждено пользователем"
     },
-    "gender": "Унисекс"
+    "gender": "Унисекс",
+    "novemberSale": {
+      "id": "2026-11-12-15",
+      "price": {
+        "3": 945,
+        "5": 1575,
+        "10": 2975,
+        "15": 4462.5,
+        "20": 5950,
+        "30": 8925,
+        "50": 14875,
+        "100": 29750
+      }
+    }
   },
   {
     "id": 382,
@@ -13025,7 +16736,20 @@
       "checkedAt": "2026-10-15",
       "source": "Оригинал отчёт .xlsm, Инвентаризация, остаток на 15.10.2026; наличие оригиналов только в Ньютоне подтверждено пользователем"
     },
-    "gender": "Унисекс"
+    "gender": "Унисекс",
+    "novemberSale": {
+      "id": "2026-11-12-15",
+      "price": {
+        "3": 945,
+        "5": 1575,
+        "10": 2975,
+        "15": 4462.5,
+        "20": 5950,
+        "30": 8925,
+        "50": 14875,
+        "100": 29750
+      }
+    }
   },
   {
     "id": 383,
@@ -13072,7 +16796,20 @@
       "checkedAt": "2026-10-15",
       "source": "Оригинал отчёт .xlsm, Инвентаризация, остаток на 15.10.2026; наличие оригиналов только в Ньютоне подтверждено пользователем"
     },
-    "gender": "Женский"
+    "gender": "Женский",
+    "novemberSale": {
+      "id": "2026-11-12-15",
+      "price": {
+        "3": 810,
+        "5": 1350,
+        "10": 2550,
+        "15": 3825,
+        "20": 5100,
+        "30": 7650,
+        "50": 12750,
+        "100": 25500
+      }
+    }
   },
   {
     "id": 384,
@@ -13121,7 +16858,20 @@
     },
     "discountPercent": 15,
     "discountSource": "Пользователь: акция −15% на 12 ароматов с IMG_2656.jpeg и IMG_2657.jpeg, 15.10.2026",
-    "gender": "Женский"
+    "gender": "Женский",
+    "novemberSale": {
+      "id": "2026-11-12-15",
+      "price": {
+        "3": 540,
+        "5": 900,
+        "10": 1700,
+        "15": 2550,
+        "20": 3400,
+        "30": 5100,
+        "50": 8500,
+        "100": 17000
+      }
+    }
   },
   {
     "id": 385,
@@ -13168,7 +16918,20 @@
       "checkedAt": "2026-10-15",
       "source": "Оригинал отчёт .xlsm, Инвентаризация, остаток на 15.10.2026; наличие оригиналов только в Ньютоне подтверждено пользователем"
     },
-    "gender": "Унисекс"
+    "gender": "Унисекс",
+    "novemberSale": {
+      "id": "2026-11-12-15",
+      "price": {
+        "3": 1080,
+        "5": 1800,
+        "10": 3400,
+        "15": 5100,
+        "20": 6800,
+        "30": 10200,
+        "50": 17000,
+        "100": 34000
+      }
+    }
   },
   {
     "id": 386,
@@ -13215,7 +16978,20 @@
       "checkedAt": "2026-10-15",
       "source": "Оригинал отчёт .xlsm, Инвентаризация, остаток на 15.10.2026; наличие оригиналов только в Ньютоне подтверждено пользователем"
     },
-    "gender": "Унисекс"
+    "gender": "Унисекс",
+    "novemberSale": {
+      "id": "2026-11-12-15",
+      "price": {
+        "3": 810,
+        "5": 1350,
+        "10": 2550,
+        "15": 3825,
+        "20": 5100,
+        "30": 7650,
+        "50": 12750,
+        "100": 25500
+      }
+    }
   },
   {
     "id": 387,
@@ -13262,7 +17038,20 @@
       "checkedAt": "2026-10-15",
       "source": "Оригинал отчёт .xlsm, Инвентаризация, остаток на 15.10.2026; наличие оригиналов только в Ньютоне подтверждено пользователем"
     },
-    "gender": "Женский"
+    "gender": "Женский",
+    "novemberSale": {
+      "id": "2026-11-12-15",
+      "price": {
+        "3": 810,
+        "5": 1350,
+        "10": 2550,
+        "15": 3825,
+        "20": 5100,
+        "30": 7650,
+        "50": 12750,
+        "100": 25500
+      }
+    }
   },
   {
     "id": 388,
@@ -13309,7 +17098,20 @@
       "checkedAt": "2026-10-15",
       "source": "Оригинал отчёт .xlsm, Инвентаризация, остаток на 15.10.2026; наличие оригиналов только в Ньютоне подтверждено пользователем"
     },
-    "gender": "Мужской"
+    "gender": "Мужской",
+    "novemberSale": {
+      "id": "2026-11-12-15",
+      "price": {
+        "3": 540,
+        "5": 900,
+        "10": 1700,
+        "15": 2550,
+        "20": 3400,
+        "30": 5100,
+        "50": 8500,
+        "100": 17000
+      }
+    }
   },
   {
     "id": 389,
@@ -13356,7 +17158,20 @@
       "checkedAt": "2026-10-15",
       "source": "Оригинал отчёт .xlsm, Инвентаризация, остаток на 15.10.2026; наличие оригиналов только в Ньютоне подтверждено пользователем"
     },
-    "gender": "Унисекс"
+    "gender": "Унисекс",
+    "novemberSale": {
+      "id": "2026-11-12-15",
+      "price": {
+        "3": 675,
+        "5": 1125,
+        "10": 2125,
+        "15": 3187.5,
+        "20": 4250,
+        "30": 6375,
+        "50": 10625,
+        "100": 21250
+      }
+    }
   },
   {
     "id": 390,
@@ -13403,7 +17218,20 @@
       "checkedAt": "2026-10-15",
       "source": "Оригинал отчёт .xlsm, Инвентаризация, остаток на 15.10.2026; наличие оригиналов только в Ньютоне подтверждено пользователем"
     },
-    "gender": "Унисекс"
+    "gender": "Унисекс",
+    "novemberSale": {
+      "id": "2026-11-12-15",
+      "price": {
+        "3": 540,
+        "5": 900,
+        "10": 1700,
+        "15": 2550,
+        "20": 3400,
+        "30": 5100,
+        "50": 8500,
+        "100": 17000
+      }
+    }
   },
   {
     "id": 391,
@@ -13452,7 +17280,20 @@
     },
     "discountPercent": 15,
     "discountSource": "Пользователь: акция −15% на 12 ароматов с IMG_2656.jpeg и IMG_2657.jpeg, 15.10.2026",
-    "gender": "Унисекс"
+    "gender": "Унисекс",
+    "novemberSale": {
+      "id": "2026-11-12-15",
+      "price": {
+        "3": 540,
+        "5": 900,
+        "10": 1700,
+        "15": 2550,
+        "20": 3400,
+        "30": 5100,
+        "50": 8500,
+        "100": 17000
+      }
+    }
   },
   {
     "id": 392,
@@ -13499,7 +17340,20 @@
       "checkedAt": "2026-10-15",
       "source": "Оригинал отчёт .xlsm, Инвентаризация, остаток на 15.10.2026; наличие оригиналов только в Ньютоне подтверждено пользователем"
     },
-    "gender": "Женский"
+    "gender": "Женский",
+    "novemberSale": {
+      "id": "2026-11-12-15",
+      "price": {
+        "3": 540,
+        "5": 900,
+        "10": 1700,
+        "15": 2550,
+        "20": 3400,
+        "30": 5100,
+        "50": 8500,
+        "100": 17000
+      }
+    }
   },
   {
     "id": 393,
@@ -13546,7 +17400,20 @@
       "checkedAt": "2026-10-15",
       "source": "Оригинал отчёт .xlsm, Инвентаризация, остаток на 15.10.2026; наличие оригиналов только в Ньютоне подтверждено пользователем"
     },
-    "gender": "Унисекс"
+    "gender": "Унисекс",
+    "novemberSale": {
+      "id": "2026-11-12-15",
+      "price": {
+        "3": 540,
+        "5": 900,
+        "10": 1700,
+        "15": 2550,
+        "20": 3400,
+        "30": 5100,
+        "50": 8500,
+        "100": 17000
+      }
+    }
   },
   {
     "id": 395,
@@ -13593,7 +17460,20 @@
       "checkedAt": "2026-10-15",
       "source": "Оригинал отчёт .xlsm, Инвентаризация, остаток на 15.10.2026; наличие оригиналов только в Ньютоне подтверждено пользователем"
     },
-    "gender": "Женский"
+    "gender": "Женский",
+    "novemberSale": {
+      "id": "2026-11-12-15",
+      "price": {
+        "3": 1350,
+        "5": 2250,
+        "10": 4250,
+        "15": 6375,
+        "20": 8500,
+        "30": 12750,
+        "50": 21250,
+        "100": 42500
+      }
+    }
   },
   {
     "id": 396,
@@ -13640,7 +17520,20 @@
       "checkedAt": "2026-10-15",
       "source": "Оригинал отчёт .xlsm, Инвентаризация, остаток на 15.10.2026; наличие оригиналов только в Ньютоне подтверждено пользователем"
     },
-    "gender": "Женский"
+    "gender": "Женский",
+    "novemberSale": {
+      "id": "2026-11-12-15",
+      "price": {
+        "3": 675,
+        "5": 1125,
+        "10": 2125,
+        "15": 3187.5,
+        "20": 4250,
+        "30": 6375,
+        "50": 10625,
+        "100": 21250
+      }
+    }
   },
   {
     "id": 397,
@@ -13689,7 +17582,20 @@
     },
     "discountPercent": 15,
     "discountSource": "Пользователь: акция −15% на 12 ароматов с IMG_2656.jpeg и IMG_2657.jpeg, 15.10.2026",
-    "gender": "Женский"
+    "gender": "Женский",
+    "novemberSale": {
+      "id": "2026-11-12-15",
+      "price": {
+        "3": 540,
+        "5": 900,
+        "10": 1700,
+        "15": 2550,
+        "20": 3400,
+        "30": 5100,
+        "50": 8500,
+        "100": 17000
+      }
+    }
   },
   {
     "id": 398,
@@ -13736,7 +17642,20 @@
       "checkedAt": "2026-10-15",
       "source": "Оригинал отчёт .xlsm, Инвентаризация, остаток на 15.10.2026; наличие оригиналов только в Ньютоне подтверждено пользователем"
     },
-    "gender": "Женский"
+    "gender": "Женский",
+    "novemberSale": {
+      "id": "2026-11-12-15",
+      "price": {
+        "3": 540,
+        "5": 900,
+        "10": 1700,
+        "15": 2550,
+        "20": 3400,
+        "30": 5100,
+        "50": 8500,
+        "100": 17000
+      }
+    }
   },
   {
     "id": 399,
@@ -13785,7 +17704,20 @@
     },
     "discountPercent": 15,
     "discountSource": "Пользователь: акция −15% на 12 ароматов с IMG_2656.jpeg и IMG_2657.jpeg, 15.10.2026",
-    "gender": "Унисекс"
+    "gender": "Унисекс",
+    "novemberSale": {
+      "id": "2026-11-12-15",
+      "price": {
+        "3": 945,
+        "5": 1575,
+        "10": 2975,
+        "15": 4462.5,
+        "20": 5950,
+        "30": 8925,
+        "50": 14875,
+        "100": 29750
+      }
+    }
   },
   {
     "id": 400,
@@ -13878,7 +17810,20 @@
       "checkedAt": "2026-10-15",
       "source": "Оригинал отчёт .xlsm, Инвентаризация, остаток на 15.10.2026; наличие оригиналов только в Ньютоне подтверждено пользователем"
     },
-    "gender": "Унисекс"
+    "gender": "Унисекс",
+    "novemberSale": {
+      "id": "2026-11-12-15",
+      "price": {
+        "3": 540,
+        "5": 900,
+        "10": 1700,
+        "15": 2550,
+        "20": 3400,
+        "30": 5100,
+        "50": 8500,
+        "100": 17000
+      }
+    }
   },
   {
     "id": 402,
@@ -13926,7 +17871,20 @@
       "checkedAt": "2026-10-15",
       "source": "Оригинал отчёт .xlsm, Инвентаризация, остаток на 15.10.2026; наличие оригиналов только в Ньютоне подтверждено пользователем"
     },
-    "gender": "Унисекс"
+    "gender": "Унисекс",
+    "novemberSale": {
+      "id": "2026-11-12-15",
+      "price": {
+        "3": 675,
+        "5": 1125,
+        "10": 2125,
+        "15": 3187.5,
+        "20": 4250,
+        "30": 6375,
+        "50": 10625,
+        "100": 21250
+      }
+    }
   },
   {
     "id": 403,
@@ -13976,7 +17934,20 @@
     },
     "discountPercent": 15,
     "discountSource": "Пользователь: акция −15% на 12 ароматов с IMG_2656.jpeg и IMG_2657.jpeg, 15.10.2026",
-    "gender": "Женский"
+    "gender": "Женский",
+    "novemberSale": {
+      "id": "2026-11-12-15",
+      "price": {
+        "3": 675,
+        "5": 1125,
+        "10": 2125,
+        "15": 3187.5,
+        "20": 4250,
+        "30": 6375,
+        "50": 10625,
+        "100": 21250
+      }
+    }
   },
   {
     "id": 404,
@@ -14024,7 +17995,20 @@
       "checkedAt": "2026-10-15",
       "source": "Оригинал отчёт .xlsm, Инвентаризация, остаток на 15.10.2026; наличие оригиналов только в Ньютоне подтверждено пользователем"
     },
-    "gender": "Женский"
+    "gender": "Женский",
+    "novemberSale": {
+      "id": "2026-11-12-15",
+      "price": {
+        "3": 540,
+        "5": 900,
+        "10": 1700,
+        "15": 2550,
+        "20": 3400,
+        "30": 5100,
+        "50": 8500,
+        "100": 17000
+      }
+    }
   },
   {
     "id": 405,
@@ -14072,7 +18056,20 @@
       "checkedAt": "2026-10-15",
       "source": "Оригинал отчёт .xlsm, Инвентаризация, остаток на 15.10.2026; наличие оригиналов только в Ньютоне подтверждено пользователем"
     },
-    "gender": "Унисекс"
+    "gender": "Унисекс",
+    "novemberSale": {
+      "id": "2026-11-12-15",
+      "price": {
+        "3": 1080,
+        "5": 1800,
+        "10": 3400,
+        "15": 5100,
+        "20": 6800,
+        "30": 10200,
+        "50": 17000,
+        "100": 34000
+      }
+    }
   },
   {
     "id": 406,
@@ -14120,7 +18117,17 @@
       375,
       500
     ],
-    "gender": "Женский"
+    "gender": "Женский",
+    "novemberSale": {
+      "id": "2026-11-12-15",
+      "price": {
+        "20": 1260,
+        "30": 1820,
+        "50": 2905,
+        "100": 5600
+      },
+      "format": "spray"
+    }
   },
   {
     "id": 407,
@@ -14168,7 +18175,17 @@
       375,
       500
     ],
-    "gender": "Унисекс"
+    "gender": "Унисекс",
+    "novemberSale": {
+      "id": "2026-11-12-15",
+      "price": {
+        "20": 2100,
+        "30": 3115,
+        "50": 5075,
+        "100": 10010
+      },
+      "format": "spray"
+    }
   },
   {
     "id": 408,
@@ -14216,7 +18233,17 @@
       375,
       500
     ],
-    "gender": "Женский"
+    "gender": "Женский",
+    "novemberSale": {
+      "id": "2026-11-12-15",
+      "price": {
+        "20": 1260,
+        "30": 1820,
+        "50": 2905,
+        "100": 5600
+      },
+      "format": "spray"
+    }
   },
   {
     "id": 409,
@@ -14264,7 +18291,17 @@
       375,
       500
     ],
-    "gender": "Мужской"
+    "gender": "Мужской",
+    "novemberSale": {
+      "id": "2026-11-12-15",
+      "price": {
+        "20": 1260,
+        "30": 1820,
+        "50": 2905,
+        "100": 5600
+      },
+      "format": "spray"
+    }
   },
   {
     "id": 410,
@@ -14312,7 +18349,17 @@
       375,
       500
     ],
-    "gender": "Женский"
+    "gender": "Женский",
+    "novemberSale": {
+      "id": "2026-11-12-15",
+      "price": {
+        "20": 1260,
+        "30": 1820,
+        "50": 2905,
+        "100": 5600
+      },
+      "format": "spray"
+    }
   },
   {
     "id": 411,
@@ -14360,7 +18407,17 @@
       375,
       500
     ],
-    "gender": "Женский"
+    "gender": "Женский",
+    "novemberSale": {
+      "id": "2026-11-12-15",
+      "price": {
+        "20": 1260,
+        "30": 1820,
+        "50": 2905,
+        "100": 5600
+      },
+      "format": "spray"
+    }
   },
   {
     "id": 412,
@@ -14408,7 +18465,17 @@
       375,
       500
     ],
-    "gender": "Женский"
+    "gender": "Женский",
+    "novemberSale": {
+      "id": "2026-11-12-15",
+      "price": {
+        "20": 1260,
+        "30": 1820,
+        "50": 2905,
+        "100": 5600
+      },
+      "format": "spray"
+    }
   },
   {
     "id": 413,
@@ -14456,7 +18523,17 @@
       375,
       500
     ],
-    "gender": "Женский"
+    "gender": "Женский",
+    "novemberSale": {
+      "id": "2026-11-12-15",
+      "price": {
+        "20": 2100,
+        "30": 3115,
+        "50": 5075,
+        "100": 10010
+      },
+      "format": "spray"
+    }
   },
   {
     "id": 414,
@@ -14504,7 +18581,17 @@
       375,
       500
     ],
-    "gender": "Мужской"
+    "gender": "Мужской",
+    "novemberSale": {
+      "id": "2026-11-12-15",
+      "price": {
+        "20": 1260,
+        "30": 1820,
+        "50": 2905,
+        "100": 5600
+      },
+      "format": "spray"
+    }
   },
   {
     "id": 415,
@@ -14552,7 +18639,17 @@
       375,
       500
     ],
-    "gender": "Мужской"
+    "gender": "Мужской",
+    "novemberSale": {
+      "id": "2026-11-12-15",
+      "price": {
+        "20": 2100,
+        "30": 3115,
+        "50": 5075,
+        "100": 10010
+      },
+      "format": "spray"
+    }
   },
   {
     "id": 416,
@@ -14600,7 +18697,17 @@
       375,
       500
     ],
-    "gender": "Унисекс"
+    "gender": "Унисекс",
+    "novemberSale": {
+      "id": "2026-11-12-15",
+      "price": {
+        "20": 1260,
+        "30": 1820,
+        "50": 2905,
+        "100": 5600
+      },
+      "format": "spray"
+    }
   },
   {
     "id": 417,
@@ -14648,7 +18755,17 @@
       375,
       500
     ],
-    "gender": "Женский"
+    "gender": "Женский",
+    "novemberSale": {
+      "id": "2026-11-12-15",
+      "price": {
+        "20": 1260,
+        "30": 1820,
+        "50": 2905,
+        "100": 5600
+      },
+      "format": "spray"
+    }
   },
   {
     "id": 418,
@@ -14696,7 +18813,17 @@
       375,
       500
     ],
-    "gender": "Женский"
+    "gender": "Женский",
+    "novemberSale": {
+      "id": "2026-11-12-15",
+      "price": {
+        "20": 1260,
+        "30": 1820,
+        "50": 2905,
+        "100": 5600
+      },
+      "format": "spray"
+    }
   },
   {
     "id": 419,
@@ -14744,7 +18871,17 @@
       375,
       500
     ],
-    "gender": "Женский"
+    "gender": "Женский",
+    "novemberSale": {
+      "id": "2026-11-12-15",
+      "price": {
+        "20": 1260,
+        "30": 1820,
+        "50": 2905,
+        "100": 5600
+      },
+      "format": "spray"
+    }
   },
   {
     "id": 420,
@@ -14792,7 +18929,17 @@
       375,
       500
     ],
-    "gender": "Женский"
+    "gender": "Женский",
+    "novemberSale": {
+      "id": "2026-11-12-15",
+      "price": {
+        "20": 1260,
+        "30": 1820,
+        "50": 2905,
+        "100": 5600
+      },
+      "format": "spray"
+    }
   },
   {
     "id": 421,
@@ -14840,7 +18987,17 @@
       375,
       500
     ],
-    "gender": "Мужской"
+    "gender": "Мужской",
+    "novemberSale": {
+      "id": "2026-11-12-15",
+      "price": {
+        "20": 1260,
+        "30": 1820,
+        "50": 2905,
+        "100": 5600
+      },
+      "format": "spray"
+    }
   },
   {
     "id": 422,
@@ -14888,7 +19045,17 @@
       375,
       500
     ],
-    "gender": "Женский"
+    "gender": "Женский",
+    "novemberSale": {
+      "id": "2026-11-12-15",
+      "price": {
+        "20": 2100,
+        "30": 3115,
+        "50": 5075,
+        "100": 10010
+      },
+      "format": "spray"
+    }
   },
   {
     "id": 423,
@@ -14936,7 +19103,17 @@
       375,
       500
     ],
-    "gender": "Мужской"
+    "gender": "Мужской",
+    "novemberSale": {
+      "id": "2026-11-12-15",
+      "price": {
+        "20": 1260,
+        "30": 1820,
+        "50": 2905,
+        "100": 5600
+      },
+      "format": "spray"
+    }
   },
   {
     "id": 424,
@@ -14984,7 +19161,17 @@
       375,
       500
     ],
-    "gender": "Унисекс"
+    "gender": "Унисекс",
+    "novemberSale": {
+      "id": "2026-11-12-15",
+      "price": {
+        "20": 2100,
+        "30": 3115,
+        "50": 5075,
+        "100": 10010
+      },
+      "format": "spray"
+    }
   },
   {
     "id": 425,
@@ -15032,7 +19219,17 @@
       375,
       500
     ],
-    "gender": "Женский"
+    "gender": "Женский",
+    "novemberSale": {
+      "id": "2026-11-12-15",
+      "price": {
+        "20": 1260,
+        "30": 1820,
+        "50": 2905,
+        "100": 5600
+      },
+      "format": "spray"
+    }
   },
   {
     "id": 426,
@@ -15080,7 +19277,17 @@
       375,
       500
     ],
-    "gender": "Мужской"
+    "gender": "Мужской",
+    "novemberSale": {
+      "id": "2026-11-12-15",
+      "price": {
+        "20": 1260,
+        "30": 1820,
+        "50": 2905,
+        "100": 5600
+      },
+      "format": "spray"
+    }
   },
   {
     "id": 427,
@@ -15128,7 +19335,17 @@
       375,
       500
     ],
-    "gender": "Женский"
+    "gender": "Женский",
+    "novemberSale": {
+      "id": "2026-11-12-15",
+      "price": {
+        "20": 1260,
+        "30": 1820,
+        "50": 2905,
+        "100": 5600
+      },
+      "format": "spray"
+    }
   },
   {
     "id": 428,
@@ -15176,7 +19393,17 @@
       375,
       500
     ],
-    "gender": "Женский"
+    "gender": "Женский",
+    "novemberSale": {
+      "id": "2026-11-12-15",
+      "price": {
+        "20": 1260,
+        "30": 1820,
+        "50": 2905,
+        "100": 5600
+      },
+      "format": "spray"
+    }
   },
   {
     "id": 429,
@@ -15224,7 +19451,17 @@
       375,
       500
     ],
-    "gender": "Женский"
+    "gender": "Женский",
+    "novemberSale": {
+      "id": "2026-11-12-15",
+      "price": {
+        "20": 1260,
+        "30": 1820,
+        "50": 2905,
+        "100": 5600
+      },
+      "format": "spray"
+    }
   },
   {
     "id": 430,
@@ -15272,7 +19509,17 @@
       375,
       500
     ],
-    "gender": "Женский"
+    "gender": "Женский",
+    "novemberSale": {
+      "id": "2026-11-12-15",
+      "price": {
+        "20": 1260,
+        "30": 1820,
+        "50": 2905,
+        "100": 5600
+      },
+      "format": "spray"
+    }
   },
   {
     "id": 431,
@@ -15320,7 +19567,17 @@
       375,
       500
     ],
-    "gender": "Женский"
+    "gender": "Женский",
+    "novemberSale": {
+      "id": "2026-11-12-15",
+      "price": {
+        "20": 1260,
+        "30": 1820,
+        "50": 2905,
+        "100": 5600
+      },
+      "format": "spray"
+    }
   },
   {
     "id": 432,
@@ -15368,7 +19625,17 @@
       375,
       500
     ],
-    "gender": "Женский"
+    "gender": "Женский",
+    "novemberSale": {
+      "id": "2026-11-12-15",
+      "price": {
+        "20": 2100,
+        "30": 3115,
+        "50": 5075,
+        "100": 10010
+      },
+      "format": "spray"
+    }
   },
   {
     "id": 433,
@@ -15416,7 +19683,17 @@
       375,
       500
     ],
-    "gender": "Мужской"
+    "gender": "Мужской",
+    "novemberSale": {
+      "id": "2026-11-12-15",
+      "price": {
+        "20": 1260,
+        "30": 1820,
+        "50": 2905,
+        "100": 5600
+      },
+      "format": "spray"
+    }
   },
   {
     "id": 434,
@@ -15464,7 +19741,17 @@
       375,
       500
     ],
-    "gender": "Женский"
+    "gender": "Женский",
+    "novemberSale": {
+      "id": "2026-11-12-15",
+      "price": {
+        "20": 1260,
+        "30": 1820,
+        "50": 2905,
+        "100": 5600
+      },
+      "format": "spray"
+    }
   },
   {
     "id": 435,
@@ -15512,7 +19799,17 @@
       375,
       500
     ],
-    "gender": "Женский"
+    "gender": "Женский",
+    "novemberSale": {
+      "id": "2026-11-12-15",
+      "price": {
+        "20": 1260,
+        "30": 1820,
+        "50": 2905,
+        "100": 5600
+      },
+      "format": "spray"
+    }
   },
   {
     "id": 436,
@@ -15560,7 +19857,17 @@
       375,
       500
     ],
-    "gender": "Мужской"
+    "gender": "Мужской",
+    "novemberSale": {
+      "id": "2026-11-12-15",
+      "price": {
+        "20": 1260,
+        "30": 1820,
+        "50": 2905,
+        "100": 5600
+      },
+      "format": "spray"
+    }
   },
   {
     "id": 437,
@@ -15608,7 +19915,17 @@
       375,
       500
     ],
-    "gender": "Мужской"
+    "gender": "Мужской",
+    "novemberSale": {
+      "id": "2026-11-12-15",
+      "price": {
+        "20": 1260,
+        "30": 1820,
+        "50": 2905,
+        "100": 5600
+      },
+      "format": "spray"
+    }
   },
   {
     "id": 438,
@@ -15629,7 +19946,13 @@
       961.905,
       1229,
       1536
-    ]
+    ],
+    "novemberSale": {
+      "id": "2026-11-12-15",
+      "price": {
+        "75": 650
+      }
+    }
   },
   {
     "id": 439,
@@ -15650,7 +19973,13 @@
       961.905,
       1229,
       1536
-    ]
+    ],
+    "novemberSale": {
+      "id": "2026-11-12-15",
+      "price": {
+        "75": 650
+      }
+    }
   },
   {
     "id": 440,
@@ -15671,7 +20000,13 @@
       961.905,
       1229,
       1536
-    ]
+    ],
+    "novemberSale": {
+      "id": "2026-11-12-15",
+      "price": {
+        "75": 650
+      }
+    }
   },
   {
     "id": 445,
@@ -15684,7 +20019,13 @@
       "110": 990
     },
     "notes": "",
-    "kind": "home"
+    "kind": "home",
+    "novemberSale": {
+      "id": "2026-11-12-15",
+      "price": {
+        "110": 790
+      }
+    }
   },
   {
     "id": 446,
@@ -15714,7 +20055,17 @@
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.78656.jpg",
     "notesSource": "https://www.fragrantica.com/perfume/Amouage/Guidance-78656.html",
     "gender": "Унисекс",
-    "sortBrand": "amouage"
+    "sortBrand": "amouage",
+    "novemberSale": {
+      "id": "2026-11-12-15",
+      "price": {
+        "20": 2100,
+        "30": 3115,
+        "50": 5075,
+        "100": 10010
+      },
+      "format": "spray"
+    }
   },
   {
     "id": 447,
@@ -15744,7 +20095,17 @@
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.30989.jpg",
     "notesSource": "https://www.fragrantica.com/perfume/Initio-Parfums-Prives/Absolute-Aphrodisiac-30989.html",
     "gender": "Унисекс",
-    "sortBrand": "initio"
+    "sortBrand": "initio",
+    "novemberSale": {
+      "id": "2026-11-12-15",
+      "price": {
+        "20": 2100,
+        "30": 3115,
+        "50": 5075,
+        "100": 10010
+      },
+      "format": "spray"
+    }
   },
   {
     "id": 448,
@@ -15781,7 +20142,17 @@
       586.25,
       375,
       500
-    ]
+    ],
+    "novemberSale": {
+      "id": "2026-11-12-15",
+      "price": {
+        "20": 2100,
+        "30": 3115,
+        "50": 5075,
+        "100": 10010
+      },
+      "format": "spray"
+    }
   },
   {
     "id": 449,
@@ -15811,7 +20182,17 @@
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.91715.jpg",
     "notesSource": "https://www.fragrantica.com/perfume/ZARKOPERFUME/MOL-CULE-C-19-The-Beach-91715.html",
     "gender": "Унисекс",
-    "sortBrand": "zarkoperfume"
+    "sortBrand": "zarkoperfume",
+    "novemberSale": {
+      "id": "2026-11-12-15",
+      "price": {
+        "20": 2100,
+        "30": 3115,
+        "50": 5075,
+        "100": 10010
+      },
+      "format": "spray"
+    }
   },
   {
     "id": 450,
@@ -15841,7 +20222,17 @@
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.82030.jpg",
     "notesSource": "https://www.fragrantica.com/perfume/Maison-Francis-Kurkdjian/Aqua-Media-Cologne-Forte-82030.html",
     "gender": "Унисекс",
-    "sortBrand": "maison francis kurkdjian"
+    "sortBrand": "maison francis kurkdjian",
+    "novemberSale": {
+      "id": "2026-11-12-15",
+      "price": {
+        "20": 2100,
+        "30": 3115,
+        "50": 5075,
+        "100": 10010
+      },
+      "format": "spray"
+    }
   },
   {
     "id": 451,
@@ -16321,7 +20712,20 @@
       "checkedAt": "2026-10-23",
       "source": "Поставка 22.10.2026, подтверждено пользователем"
     },
-    "isNew": true
+    "isNew": true,
+    "novemberSale": {
+      "id": "2026-11-12-15",
+      "price": {
+        "3": 1890,
+        "5": 3150,
+        "10": 5950,
+        "15": 8925,
+        "20": 11900,
+        "30": 17850,
+        "50": 29750,
+        "100": 59500
+      }
+    }
   },
   {
     "name": "Louis Vuitton Imagination",
@@ -16363,7 +20767,20 @@
       "checkedAt": "2026-10-23",
       "source": "Поставка 22.10.2026, подтверждено пользователем"
     },
-    "isNew": true
+    "isNew": true,
+    "novemberSale": {
+      "id": "2026-11-12-15",
+      "price": {
+        "3": 2430,
+        "5": 4050,
+        "10": 7650,
+        "15": 11475,
+        "20": 15300,
+        "30": 22950,
+        "50": 38250,
+        "100": 76500
+      }
+    }
   },
   {
     "name": "Louis Vuitton L’Immensité",
@@ -16405,7 +20822,20 @@
       "checkedAt": "2026-10-23",
       "source": "Поставка 22.10.2026, подтверждено пользователем"
     },
-    "isNew": true
+    "isNew": true,
+    "novemberSale": {
+      "id": "2026-11-12-15",
+      "price": {
+        "3": 2430,
+        "5": 4050,
+        "10": 7650,
+        "15": 11475,
+        "20": 15300,
+        "30": 22950,
+        "50": 38250,
+        "100": 76500
+      }
+    }
   },
   {
     "name": "Marc-Antoine Barrois Tilia",
@@ -16447,7 +20877,20 @@
       "checkedAt": "2026-10-23",
       "source": "Поставка 22.10.2026, подтверждено пользователем"
     },
-    "isNew": true
+    "isNew": true,
+    "novemberSale": {
+      "id": "2026-11-12-15",
+      "price": {
+        "3": 1350,
+        "5": 2250,
+        "10": 4250,
+        "15": 6375,
+        "20": 8500,
+        "30": 12750,
+        "50": 21250,
+        "100": 42500
+      }
+    }
   },
   {
     "id": 486,
@@ -16488,7 +20931,20 @@
       "checkedAt": "2026-10-23",
       "source": "Поставка 22.10.2026, подтверждено пользователем"
     },
-    "isNew": true
+    "isNew": true,
+    "novemberSale": {
+      "id": "2026-11-12-15",
+      "price": {
+        "3": 1350,
+        "5": 2250,
+        "10": 4250,
+        "15": 6375,
+        "20": 8500,
+        "30": 12750,
+        "50": 21250,
+        "100": 42500
+      }
+    }
   },
   {
     "id": 487,
@@ -16529,7 +20985,20 @@
       "checkedAt": "2026-10-23",
       "source": "Поставка 22.10.2026, подтверждено пользователем"
     },
-    "isNew": true
+    "isNew": true,
+    "novemberSale": {
+      "id": "2026-11-12-15",
+      "price": {
+        "3": 1350,
+        "5": 2250,
+        "10": 4250,
+        "15": 6375,
+        "20": 8500,
+        "30": 12750,
+        "50": 21250,
+        "100": 42500
+      }
+    }
   },
   {
     "id": 488,
@@ -16570,7 +21039,20 @@
       "checkedAt": "2026-10-23",
       "source": "Поставка 22.10.2026, подтверждено пользователем"
     },
-    "isNew": true
+    "isNew": true,
+    "novemberSale": {
+      "id": "2026-11-12-15",
+      "price": {
+        "3": 810,
+        "5": 1350,
+        "10": 2550,
+        "15": 3825,
+        "20": 5100,
+        "30": 7650,
+        "50": 12750,
+        "100": 25500
+      }
+    }
   },
   {
     "id": 489,
@@ -16611,7 +21093,20 @@
       "checkedAt": "2026-10-23",
       "source": "Поставка 22.10.2026, подтверждено пользователем"
     },
-    "isNew": true
+    "isNew": true,
+    "novemberSale": {
+      "id": "2026-11-12-15",
+      "price": {
+        "3": 675,
+        "5": 1125,
+        "10": 2125,
+        "15": 3187.5,
+        "20": 4250,
+        "30": 6375,
+        "50": 10625,
+        "100": 21250
+      }
+    }
   },
   {
     "id": 490,
@@ -16642,7 +21137,17 @@
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.109989.jpg",
     "sortBrand": "carolina herrera",
     "gender": "Унисекс",
-    "isNew": true
+    "isNew": true,
+    "novemberSale": {
+      "id": "2026-11-12-15",
+      "price": {
+        "20": 2100,
+        "30": 3115,
+        "50": 5075,
+        "100": 10010
+      },
+      "format": "spray"
+    }
   },
   {
     "id": 491,
@@ -16673,7 +21178,17 @@
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.53641.jpg",
     "sortBrand": "initio",
     "gender": "Унисекс",
-    "isNew": true
+    "isNew": true,
+    "novemberSale": {
+      "id": "2026-11-12-15",
+      "price": {
+        "20": 2100,
+        "30": 3115,
+        "50": 5075,
+        "100": 10010
+      },
+      "format": "spray"
+    }
   },
   {
     "id": 492,
@@ -16704,7 +21219,17 @@
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.45977.jpg",
     "sortBrand": "initio",
     "gender": "Унисекс",
-    "isNew": true
+    "isNew": true,
+    "novemberSale": {
+      "id": "2026-11-12-15",
+      "price": {
+        "20": 2100,
+        "30": 3115,
+        "50": 5075,
+        "100": 10010
+      },
+      "format": "spray"
+    }
   },
   {
     "id": 493,
@@ -16735,7 +21260,17 @@
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.23899.jpg",
     "sortBrand": "kilian",
     "gender": "Унисекс",
-    "isNew": true
+    "isNew": true,
+    "novemberSale": {
+      "id": "2026-11-12-15",
+      "price": {
+        "20": 2100,
+        "30": 3115,
+        "50": 5075,
+        "100": 10010
+      },
+      "format": "spray"
+    }
   },
   {
     "id": 494,
@@ -16766,7 +21301,17 @@
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.115406.jpg",
     "sortBrand": "louis vuitton",
     "gender": "Унисекс",
-    "isNew": true
+    "isNew": true,
+    "novemberSale": {
+      "id": "2026-11-12-15",
+      "price": {
+        "20": 2100,
+        "30": 3115,
+        "50": 5075,
+        "100": 10010
+      },
+      "format": "spray"
+    }
   },
   {
     "id": 495,
@@ -16797,6 +21342,16 @@
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.78574.jpg",
     "sortBrand": "parfums de marly",
     "gender": "Женский",
-    "isNew": true
+    "isNew": true,
+    "novemberSale": {
+      "id": "2026-11-12-15",
+      "price": {
+        "20": 2100,
+        "30": 3115,
+        "50": 5075,
+        "100": 10010
+      },
+      "format": "spray"
+    }
   }
 ]

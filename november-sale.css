@@ -1,0 +1,16 @@
+.hero.autumn-hero.november-sale-hero{grid-template-columns:1fr 0.85fr;background:#061b3b;color:#fff}
+.hero.autumn-hero.november-sale-hero .autumn-hero-photo{object-fit:contain;min-height:0;max-height:570px;aspect-ratio:1055/1491;background:#061b3b}
+.hero.autumn-hero.november-sale-hero h1{color:#fff;font-size:clamp(32px,4vw,52px);line-height:1.08}
+.hero.autumn-hero.november-sale-hero .hero-kicker{color:#b8cdee}
+.hero.autumn-hero.november-sale-hero p{color:#d3e0f2}
+.hero.autumn-hero.november-sale-hero .coyli-hero-cta{background:#fff;color:#0047bb}
+.sale-hero-terms{font-size:11px;line-height:1.5;display:block;margin-top:22px;color:#b8cdee;max-width:290px}
+.sale-terms{font-size:12px;line-height:1.5;color:#0047bb;background:#f1f5fc;border-radius:12px;padding:12px 14px}
+@media(max-width:750px){
+ .hero.autumn-hero.november-sale-hero .autumn-hero-photo{width:100%;height:auto;max-height:none;aspect-ratio:1055/1491;object-fit:contain}
+ .hero.autumn-hero.november-sale-hero .hero-copy{padding:0 20px 20px}
+ .hero.autumn-hero.november-sale-hero .hero-kicker,.hero.autumn-hero.november-sale-hero h1,.hero.autumn-hero.november-sale-hero p{display:none}
+ .hero.autumn-hero.november-sale-hero .coyli-hero-cta{width:100%;justify-content:space-between}
+ .sale-hero-terms{margin-top:12px;max-width:none;font-size:11px}
+ .app-buy-row .price{display:flex;flex-direction:column;gap:3px}
+}
