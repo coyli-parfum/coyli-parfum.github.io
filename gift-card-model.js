@@ -8,6 +8,7 @@ const designs=[
 {id:'bloom',label:'свети и цвети',x:78,y:914,size:78},
 {id:'chrome',label:'Хром',x:78,y:903,size:78,tone:'chrome'},
 {id:'rug',label:'Ковёр',x:165,y:852,size:88,tone:'woven'},
+{id:'blanket',label:'Вязаная',x:105,y:860,size:120},
 {id:'game',label:'Игровая',x:100,y:901,size:56,tone:'green'},
 {id:'heart',label:'Сердце',x:160,y:813,size:100},
 {id:'bow',label:'Бант',x:173,y:789,size:100},
