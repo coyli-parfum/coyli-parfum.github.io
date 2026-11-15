@@ -1,0 +1,6 @@
+const test=require('node:test');const assert=require('node:assert/strict');const fs=require('node:fs');const path=require('node:path');
+const M=require('../gift-card-model.js');
+test('all approved and classic designs have an actual local template',()=>{assert.equal(M.designs.length,9);assert.equal(new Set(M.designs.map(x=>x.id)).size,9);for(const d of M.designs)assert.ok(fs.statSync(path.join(__dirname,'..',d.image)).size>1000);});
+test('custom amounts reject ambiguous, invalid and unsafe input',()=>{assert.equal(M.parseAmount('6 000'),6000);assert.equal(M.parseAmount('1500'),1500);for(const s of ['', '0', '-100', '1.5', '1,5', '1e3', '500 руб', '99999999'])assert.equal(M.parseAmount(s),null,s);});
+test('each selected design, amount and complete multiline greeting reach the request',()=>{for(const d of M.designs){const text=M.summary({format:'electronic',design:d.id,amount:6700,wish:'Алёна!\nС любовью'});assert.ok(text.includes(d.label));assert.match(text,/6\s700 ₽/);assert.ok(text.includes('Алёна!\nС любовью'));assert.ok(!text.includes('Номер:'));}});
+test('physical orders retain their format and do not inherit electronic greeting',()=>{const t=M.summary({format:'physical',design:'rug',amount:5000,wish:'hello'});assert.match(t,/пластиковая/);assert.ok(!t.includes('Ковёр'));assert.ok(!t.includes('hello'));});

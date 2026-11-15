@@ -41,3 +41,27 @@
 #gift-section .gift-physical-main{padding:4px 0 12px;min-height:0}
 #gift-section .gift-physical-main img{display:block;width:64%;max-width:270px;height:auto;aspect-ratio:auto;transform:scaleX(.88);margin:0 auto}
 @media(max-width:750px){#gift-section .gift-physical-main img{width:66%;max-width:260px;transform:scaleX(.88)} }
+
+/* Approved electronic cards: original artwork and a live denomination layer. */
+@font-face{font-family:GiftGolos;src:url('assets/fonts/golos-regular.ttf') format('truetype');font-style:normal;font-weight:400;font-display:swap}
+#gift-section{font-family:GiftGolos,'Golos Text',sans-serif}
+#gift-section .gift-heading h2{font-weight:400}
+#gift-section .gift-artwork{position:relative;display:block;width:100%;overflow:hidden;line-height:0;border-radius:9px}
+#gift-section .gift-artwork>img{display:block;width:100%;height:auto;aspect-ratio:1.6;object-fit:fill}
+#gift-section .gift-amount-layer{position:absolute;inset:0;width:100%;height:100%;overflow:hidden;pointer-events:none}
+#gift-section .gift-amount-layer text{font-family:GiftGolos,'Golos Text',sans-serif;font-weight:400;fill:#0047bb}
+#gift-section .gift-amount-chrome text{fill:#454545;text-shadow:1px 2px 0 #d6d6d6,-1px -1px 0 #555}
+#gift-section .gift-amount-woven text{fill:#e8cba0;text-shadow:.6px .7px 0 #a2774b}
+#gift-section .gift-amount-green text{fill:#438c09;text-shadow:1px 1.5px 0 #c4e69c}
+#gift-section .gift-preview-caption{margin:17px 0 5px;font-size:13px;color:#444a55}
+#gift-section .gift-preview-note{margin:0;font-size:11px;line-height:1.5;color:#888d96}
+#gift-section .gift-format{margin-bottom:25px}
+#gift-section .gift-design-gallery{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px;margin-bottom:26px}
+#gift-section .gift-design-gallery button{display:block;min-width:0;background:#fff;border:1px solid #e6e8ee;border-radius:10px;padding:5px;cursor:pointer;color:#555e6d;min-height:44px}
+#gift-section .gift-design-gallery button[aria-pressed=true]{border-color:#0047bb;box-shadow:0 0 0 1px #0047bb;color:#0047bb}
+#gift-section .gift-design-gallery .gift-artwork{border-radius:5px}
+#gift-section .gift-design-name{display:block;font-size:11px;line-height:1.4;padding:7px 1px 3px}
+#gift-section button:focus-visible,#gift-section a:focus-visible,#gift-section input:focus-visible,#gift-section textarea:focus-visible{outline:2px solid #0047bb;outline-offset:3px}
+#gift-section input[aria-invalid=true]{border-color:#b51c35}
+@media(min-width:751px){#gift-section .gift-preview-col{position:sticky;top:100px}}
+@media(max-width:750px){#gift-section .gift-layout{max-width:560px}#gift-section .gift-heading h2{font-size:28px;max-width:none}#gift-section .gift-design-gallery{gap:9px}#gift-section .gift-format{margin-bottom:22px}}
