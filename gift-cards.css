@@ -1,67 +1,111 @@
-.gift-heading{margin:8px 0 30px}.gift-eyebrow{font-size:11px;letter-spacing:2px;color:#0047bb}.gift-heading h2{font-size:clamp(30px,5vw,48px);font-weight:500;letter-spacing:-.04em;margin:12px 0}.gift-heading>p:last-child{color:#6d7280;font-size:14px;line-height:1.6}.gift-layout{display:grid;grid-template-columns:minmax(0,1.1fr) minmax(0,1fr);gap:48px;align-items:start}.gift-preview-col{min-width:0}.gift-electronic-card{--gift-background:#e7edfc;--gift-ink:#0047bb;position:relative;overflow:hidden;isolation:isolate;background:var(--gift-background);color:var(--gift-ink);border-radius:20px;aspect-ratio:1.586;display:flex;flex-direction:column;justify-content:space-between;padding:26px;transition:background .2s,color .2s}.gift-electronic-card:after{content:'';position:absolute;width:260px;height:260px;border:1px solid currentColor;opacity:.12;border-radius:50%;right:-60px;top:-120px;z-index:-1}.gift-card-top,.gift-card-bottom{display:flex;align-items:center;justify-content:space-between;gap:8px}.gift-card-top{font-size:9px;letter-spacing:1px}.gift-brand{font-size:16px;letter-spacing:4px}.gift-card-copy{z-index:1;max-width:85%}.gift-card-copy h3{font-size:clamp(24px,3vw,37px);letter-spacing:-.05em;font-weight:500;margin:0 0 8px}.gift-card-copy p{font-size:12px;line-height:1.4;margin:0}.gift-card-bottom strong{font-size:25px;font-weight:500}.gift-card-bottom>span{font-size:9px;letter-spacing:1px}#gift-card-mark{position:absolute;font-family:Georgia,serif;right:18px;top:65px;font-size:100px;opacity:.2;line-height:1}.gift-controls button,.gift-controls input,.gift-controls textarea,.gift-controls a{font:inherit}.gift-controls button{cursor:pointer;min-height:44px}.gift-format{display:flex;gap:4px;background:#f1f2f5;padding:4px;border-radius:13px;margin-bottom:26px}.gift-format button{flex:1;border:0;border-radius:10px;background:transparent;color:#747982;font-size:13px;padding:10px 6px}.gift-format button[aria-pressed=true]{background:white;color:#0047bb;box-shadow:0 2px 6px #18295b08}.gift-label{font-size:13px;font-weight:500;display:block;margin:0 0 11px}.gift-label span{font-weight:400;color:#878c95}.gift-design-list{display:flex;gap:7px;flex-wrap:wrap;margin-bottom:24px}.gift-design-list button{border:1px solid #e0e3e9;border-radius:22px;background:#fff;padding:10px 14px;color:#545967;font-size:12px}.gift-design-list button[aria-pressed=true]{background:#0047bb;border-color:#0047bb;color:white}.gift-amount-list{display:flex;gap:8px;margin-bottom:10px}.gift-amount-list button{flex:1;padding:10px 4px;border:1px solid #e0e3e9;background:#fff;border-radius:11px;color:#222;font-size:13px}.gift-amount-list button[aria-pressed=true]{color:#0047bb;border-color:#0047bb;background:#f0f5ff}.gift-custom-wrap{position:relative;margin:0 0 24px}.gift-custom-wrap input{width:100%;padding:14px 40px 14px 13px;border:1px solid #e0e3e9;border-radius:11px;font-size:16px}.gift-custom-wrap>span{position:absolute;right:15px;top:13px;color:#8b8f97}#gift-wish,#gift-order-text{width:100%;resize:vertical;border:1px solid #e0e3e9;border-radius:11px;padding:13px;font-size:16px;color:#292c33;background:#fff;line-height:1.5}.gift-delivery{font-size:12px;line-height:1.7;color:#6e7480;margin:20px 0}.gift-controls .gift-primary{width:100%;border:0;border-radius:13px;background:#0047bb;color:#fff;padding:16px;font-size:14px}.gift-footnote{text-align:center;font-size:11px;color:#8b9099;line-height:1.5}.gift-physical-main{background:#f5f6f8;border-radius:18px;overflow:hidden}.gift-physical-main img{display:block;width:100%;aspect-ratio:1.4;object-fit:contain}.gift-holder{display:flex;align-items:center;gap:18px;background:#f5f6f8;border-radius:16px;overflow:hidden;margin-top:16px}.gift-holder img{display:block;width:48%;aspect-ratio:1;object-fit:contain}.gift-holder p{font-size:18px;line-height:1.4;color:#0047bb;padding-right:15px}.gift-order-details{margin-top:20px;border-top:1px solid #e9ebef;padding-top:20px}.gift-order-details>p{font-size:12px;line-height:1.6;color:#757b85}.gift-order-actions{display:flex;gap:8px;flex-wrap:wrap}.gift-order-actions button,.gift-order-actions a{display:flex;align-items:center;justify-content:center;flex:1;padding:13px;border:0;border-radius:11px;text-decoration:none;background:#eff3fb;color:#0047bb;font-size:12px;min-height:44px}.gift-error{color:#b51c35;font-size:12px;line-height:1.5}.gift-sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}.gift-hero-link{display:inline-flex;margin-top:10px;color:#0047bb;font-size:13px;text-decoration:none;border-bottom:1px solid #0047bb55;padding-bottom:3px}#gift-section [hidden],#gift-section[hidden]{display:none!important}@media(max-width:750px){.gift-layout{grid-template-columns:1fr;gap:24px;max-width:480px;margin:auto}.gift-heading{margin-bottom:23px}.gift-electronic-card{padding:23px}.gift-card-copy h3{font-size:31px}.gift-card-copy p{font-size:11px}.gift-card-bottom strong{font-size:23px}.gift-format{margin-bottom:22px}.gift-heading h2{font-size:34px}.gift-holder p{font-size:17px}}@media(max-width:360px){.gift-electronic-card{padding:18px}.gift-card-copy h3{font-size:26px}.gift-card-top{font-size:8px}.gift-card-bottom>span{font-size:8px}.gift-brand{font-size:13px}.gift-holder p{font-size:14px}.gift-design-list button{padding:9px 11px}}@media(prefers-reduced-motion:reduce){.gift-electronic-card{transition:none}}
-
-/* Standard ISO/IEC 7810 ID-1 card proportions: 85.60 × 53.98 mm */
-.gift-physical-main{display:flex;align-items:center;justify-content:center;padding:22px;background:#f5f6f8}
-.gift-physical-main img{width:100%;max-width:440px;height:auto;aspect-ratio:1.586;object-fit:contain;object-position:center}
-
-/* Gift section: restrained COYLI editorial layout */
-#gift-section .gift-heading{margin:12px 0 30px;max-width:760px}
-#gift-section .gift-eyebrow{font-size:10px;letter-spacing:.19em;font-weight:400;color:#0047BB}
-#gift-section .gift-heading h2{font-size:clamp(26px,3.3vw,39px);line-height:1.2;letter-spacing:-.025em;font-weight:400;color:#22252b;margin:14px 0 13px}
-#gift-section .gift-heading>p:last-child{font-size:14px;line-height:1.65;color:#777d87;margin:0}
-#gift-section .gift-layout{gap:42px;grid-template-columns:minmax(0,1.08fr) minmax(0,.92fr)}
-#gift-section .gift-physical-main{background:#fff;border-radius:0;padding:12px 8px 18px;min-height:0}
-#gift-section .gift-physical-main img{width:76%;max-width:345px;height:auto;aspect-ratio:auto;object-fit:contain;display:block;margin:0 auto}
-#gift-section .gift-holder{background:#fafafa;border:1px solid #f0f0f0;border-radius:12px;gap:14px;margin-top:8px}
-#gift-section .gift-holder img{width:42%;aspect-ratio:1;object-fit:contain}
-#gift-section .gift-holder p{font-size:13px;font-weight:400;line-height:1.6;color:#646b77;padding-right:14px}
-#gift-section .gift-label{font-size:13px;font-weight:400;color:#30343c;margin-bottom:13px}
-#gift-section .gift-amount-list{gap:9px}
-#gift-section .gift-amount-list button{border:1px solid #e3e5e9;border-radius:9px;background:#fff;color:#30343c;font-size:13px;font-weight:400;padding:13px 4px}
-#gift-section .gift-amount-list button[aria-pressed=true]{border-color:#0047BB;background:#f7f9ff;color:#0047BB;box-shadow:none}
-#gift-section .gift-controls .gift-primary{border-radius:10px;font-size:13px;font-weight:400;letter-spacing:.01em;padding:15px}
-#gift-section .gift-delivery{color:#7b8089;font-size:12px;line-height:1.7}
-#gift-section .gift-footnote{font-size:11px;color:#9297a0}
-@media(max-width:750px){
-#gift-section .gift-heading{margin:8px 0 22px}
-#gift-section .gift-heading h2{font-size:29px;line-height:1.22;letter-spacing:-.025em;font-weight:400;max-width:360px}
-#gift-section .gift-heading>p:last-child{font-size:13px}
-#gift-section .gift-layout{grid-template-columns:1fr;gap:24px}
-#gift-section .gift-physical-main{padding:5px 0 16px}
-#gift-section .gift-physical-main img{width:78%;max-width:340px}
-#gift-section .gift-holder{margin-top:0}
-#gift-section .gift-holder p{font-size:12px}
-}
-
-/* Match the visual card proportions shown in the reference: source photo is unusually wide. */
-#gift-section .gift-physical-main img{width:84%;max-width:350px;transform:scaleX(.79);transform-origin:center center}
-@media(max-width:750px){#gift-section .gift-physical-main img{width:88%;max-width:350px;transform:scaleX(.79)}}
-
-/* Compact physical card presentation on mobile and desktop */
-#gift-section .gift-physical-main{padding:4px 0 12px;min-height:0}
-#gift-section .gift-physical-main img{display:block;width:64%;max-width:270px;height:auto;aspect-ratio:auto;transform:scaleX(.88);margin:0 auto}
-@media(max-width:750px){#gift-section .gift-physical-main img{width:66%;max-width:260px;transform:scaleX(.88)} }
-
-/* Approved electronic cards: original artwork and a live denomination layer. */
 @font-face{font-family:GiftGolos;src:url('assets/fonts/golos-regular.ttf') format('truetype');font-style:normal;font-weight:400;font-display:swap}
-#gift-section{font-family:GiftGolos,'Golos Text',sans-serif}
-#gift-section .gift-heading h2{font-weight:400}
-#gift-section .gift-artwork{position:relative;display:block;width:100%;overflow:hidden;line-height:0;border-radius:9px}
-#gift-section .gift-artwork>img{display:block;width:100%;height:auto;aspect-ratio:1.6;object-fit:fill}
+#gift-section{--gift-blue:#0047bb;--gift-muted:#737d8c;font-family:GiftGolos,'Golos Text',sans-serif;color:#202a3a;padding-bottom:30px}
+#gift-section *,#gift-section *:before,#gift-section *:after{box-sizing:border-box}
+#gift-section [hidden],#gift-section[hidden]{display:none!important}
+#gift-section button,#gift-section input,#gift-section textarea,#gift-section a{font:inherit}
+#gift-section button{cursor:pointer;min-height:44px;color:inherit}
+#gift-section button:disabled{cursor:default;opacity:.32}
+#gift-section button:focus-visible,#gift-section a:focus-visible,#gift-section input:focus-visible,#gift-section textarea:focus-visible{outline:2px solid var(--gift-blue);outline-offset:4px}
+#gift-section h3:focus{outline:none}
+#gift-section .gift-heading{margin:18px 0 34px}
+#gift-section .gift-eyebrow{font-size:10px;letter-spacing:.16em;color:var(--gift-blue);margin:0 0 14px}
+#gift-section .gift-heading h2{font-size:clamp(32px,4vw,50px);font-weight:400;letter-spacing:-.045em;line-height:1.12;margin:0 0 14px}
+#gift-section .gift-heading>p:last-child{color:var(--gift-muted);font-size:14px;margin:0;line-height:1.6}
+#gift-section .gift-layout{display:grid;grid-template-columns:minmax(0,1.15fr) minmax(0,1fr);gap:48px;align-items:start}
+#gift-section .gift-preview-col{min-width:0;position:sticky;top:105px}
+#gift-section .gift-preview-stage{padding:22px;background:#f5f7fb;border-radius:24px}
+#gift-section .gift-artwork{position:relative;display:block;width:100%;aspect-ratio:1.6;overflow:hidden;line-height:0;border-radius:12px;background:white;isolation:isolate}
+#gift-section .gift-artwork>img{display:block;width:100%;height:100%;object-fit:cover;object-position:center}
+#gift-section .gift-preview-stage .gift-artwork{box-shadow:0 12px 28px -16px #182b5355;border:1px solid #1020410a}
 #gift-section .gift-amount-layer{position:absolute;inset:0;width:100%;height:100%;overflow:hidden;pointer-events:none}
-#gift-section .gift-amount-layer text{font-family:GiftGolos,'Golos Text',sans-serif;font-weight:400;fill:#0047bb}
+#gift-section .gift-amount-layer text{font-family:GiftGolos,'Golos Text',sans-serif;font-weight:400;fill:var(--gift-blue)}
 #gift-section .gift-amount-chrome text{fill:#454545;text-shadow:1px 2px 0 #d6d6d6,-1px -1px 0 #555}
 #gift-section .gift-amount-woven text{fill:#e8cba0;text-shadow:.6px .7px 0 #a2774b}
 #gift-section .gift-amount-green text{fill:#438c09;text-shadow:1px 1.5px 0 #c4e69c}
-#gift-section .gift-preview-caption{margin:17px 0 5px;font-size:13px;color:#444a55}
-#gift-section .gift-preview-note{margin:0;font-size:11px;line-height:1.5;color:#888d96}
-#gift-section .gift-format{margin-bottom:25px}
-#gift-section .gift-design-gallery{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px;margin-bottom:26px}
-#gift-section .gift-design-gallery button{display:block;min-width:0;background:#fff;border:1px solid #e6e8ee;border-radius:10px;padding:5px;cursor:pointer;color:#555e6d;min-height:44px}
-#gift-section .gift-design-gallery button[aria-pressed=true]{border-color:#0047bb;box-shadow:0 0 0 1px #0047bb;color:#0047bb}
-#gift-section .gift-design-gallery .gift-artwork{border-radius:5px}
-#gift-section .gift-design-name{display:block;font-size:11px;line-height:1.4;padding:7px 1px 3px}
-#gift-section button:focus-visible,#gift-section a:focus-visible,#gift-section input:focus-visible,#gift-section textarea:focus-visible{outline:2px solid #0047bb;outline-offset:3px}
+#gift-section .gift-preview-caption{display:flex;justify-content:space-between;gap:12px;margin:19px 3px 6px;font-size:14px;line-height:1.5}
+#gift-section #gift-preview-value{color:var(--gift-blue);white-space:nowrap}
+#gift-section .gift-preview-note{font-size:10px;line-height:1.5;margin:0 3px;color:var(--gift-muted)}
+#gift-section .gift-message-preview{margin-top:25px;padding:24px;border-left:2px solid #c5d8f5;background:#f8faff;line-height:1.65;overflow-wrap:anywhere;font-size:15px}
+#gift-section .gift-message-preview p{margin:0 0 8px;white-space:pre-wrap}
+#gift-section .gift-message-preview .gift-eyebrow{font-size:9px;margin-bottom:14px}
+#gift-section #gift-message-sender{color:var(--gift-muted);font-size:12px;margin-top:16px}
+#gift-section .gift-controls{min-width:0}
+#gift-section .gift-format{display:flex;gap:4px;padding:4px;background:#f2f4f8;border-radius:14px;margin-bottom:24px}
+#gift-section .gift-format button{flex:1;border:0;background:transparent;border-radius:10px;font-size:12px;color:var(--gift-muted);padding:10px}
+#gift-section .gift-format button[aria-pressed=true]{background:#fff;color:var(--gift-blue);box-shadow:0 2px 8px #132b4d08}
+#gift-section .gift-steps{display:flex;gap:8px;margin-bottom:28px}
+#gift-section .gift-steps button{flex:1;display:flex;align-items:center;justify-content:center;gap:7px;padding:0 0 12px;border:0;border-bottom:2px solid #e8edf4;background:none;color:#8b94a2;font-size:11px;min-height:36px;white-space:nowrap}
+#gift-section .gift-steps button>span{display:grid;place-items:center;width:20px;height:20px;border-radius:50%;font-size:10px;background:#f1f4f8}
+#gift-section .gift-steps button[aria-current=step]{color:var(--gift-blue);border-color:var(--gift-blue)}
+#gift-section .gift-steps button[aria-current=step]>span{color:#fff;background:var(--gift-blue)}
+#gift-section .gift-steps button.is-complete{color:var(--gift-blue);border-color:#b5cef1}
+#gift-section h3{font-size:24px;font-weight:400;letter-spacing:-.035em;line-height:1.25;margin:0 0 10px}
+#gift-section .gift-panel-intro{font-size:12px;color:var(--gift-muted);line-height:1.65;margin:0 0 20px}
+#gift-section .gift-design-gallery{display:flex;position:relative;gap:12px;overflow-x:auto;scroll-snap-type:x mandatory;padding:4px 3px 12px;margin:0 -3px;scrollbar-width:thin;scrollbar-color:#c8d6eb transparent;overscroll-behavior-x:contain}
+#gift-section .gift-design-gallery button{flex:0 0 45%;min-width:0;border:1px solid #e0e6ef;border-radius:13px;background:#fff;padding:5px;scroll-snap-align:center}
+#gift-section .gift-design-gallery button[aria-pressed=true]{border-color:var(--gift-blue);box-shadow:0 0 0 1px var(--gift-blue);color:var(--gift-blue)}
+#gift-section .gift-design-gallery .gift-artwork{border-radius:8px}
+#gift-section .gift-design-name{display:block;font-size:10px;line-height:1.4;padding:10px 2px 5px;white-space:nowrap}
+#gift-section .gift-design-gallery.is-expanded{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));overflow:visible;margin:0;padding:4px 0}
+#gift-section .gift-design-gallery.is-expanded .gift-design-name{white-space:normal;min-height:39px;font-size:9px;display:grid;place-items:center}
+#gift-section .gift-gallery-tools{display:flex;justify-content:space-between;align-items:center;gap:8px;color:#8a93a0;font-size:10px;margin:8px 0 19px}
+#gift-section .gift-gallery-tools>div{display:flex;align-items:center;gap:10px}
+#gift-section .gift-gallery-tools button,#gift-section .gift-wheel-tools button{border:1px solid #e2e8f1;background:#fff;border-radius:50%;min-height:34px;width:34px;font-size:16px;color:var(--gift-blue)}
+#gift-section .gift-selected-name{font-size:18px;letter-spacing:-.02em;margin:0 0 7px}
+#gift-section #gift-design-description{margin-bottom:8px}
+#gift-section .gift-text-button{padding:0;border:0;background:transparent;color:var(--gift-blue);font-size:11px;min-height:30px;text-underline-offset:4px}
+#gift-section .gift-text-button:hover{text-decoration:underline}
+#gift-section .gift-live-amount{display:block;text-align:center;font-size:44px;letter-spacing:-.045em;color:var(--gift-blue);margin:21px 0 5px;line-height:1.2;font-variant-numeric:tabular-nums}
+#gift-section .gift-wheel-wrap{position:relative;overflow:hidden;margin:0 -10px}
+#gift-section .gift-wheel-wrap:before{content:'';position:absolute;border-top:1px solid #dbe5f5;border-radius:50%;width:140%;height:300px;left:-20%;top:8px;background:linear-gradient(180deg,#f7faff,white 50%);pointer-events:none}
+#gift-section .gift-wheel-pointer{position:absolute;top:5px;left:calc(50% - 3px);width:6px;height:6px;background:var(--gift-blue);border-radius:50%;z-index:2;pointer-events:none}
+#gift-section .gift-wheel{--wheel-item:106px;display:flex;position:relative;height:128px;overflow-x:auto;overflow-y:hidden;padding:30px max(0px,calc(50% - var(--wheel-item)/2)) 14px;scroll-padding-inline:calc(50% - var(--wheel-item)/2);scroll-snap-type:x mandatory;scrollbar-width:none;overscroll-behavior-x:contain;touch-action:pan-x pan-y;cursor:grab;mask-image:linear-gradient(90deg,transparent,#000 12%,#000 88%,transparent)}
+#gift-section .gift-wheel::-webkit-scrollbar{display:none}
+#gift-section .gift-wheel>div{flex:0 0 var(--wheel-item);height:74px;scroll-snap-align:center;display:flex;justify-content:center;align-items:flex-start;user-select:none;cursor:pointer}
+#gift-section .gift-wheel>div>span{font-size:24px;white-space:nowrap;line-height:1.3;transform-origin:50% 250%;display:block;font-variant-numeric:tabular-nums;will-change:transform}
+#gift-section .gift-wheel>div[aria-selected=true]>span{color:var(--gift-blue)}
+#gift-section .gift-wheel.is-dragging{scroll-snap-type:none;cursor:grabbing}
+#gift-section .gift-wheel-tools{display:flex;align-items:center;justify-content:center;gap:20px;font-size:11px;color:var(--gift-muted);margin:-3px 0 24px}
+#gift-section .gift-label{display:block;font-size:12px;line-height:1.5;margin:0 0 9px;font-weight:400}
+#gift-section .gift-label>span{color:var(--gift-muted)}
+#gift-section input,#gift-section textarea{border:1px solid #dfe5ee;border-radius:12px;padding:13px 14px;color:#202a3a;background:white;width:100%;font-size:16px;line-height:1.5}
+#gift-section input::placeholder,#gift-section textarea::placeholder{color:#a0a7b2}
 #gift-section input[aria-invalid=true]{border-color:#b51c35}
-@media(min-width:751px){#gift-section .gift-preview-col{position:sticky;top:100px}}
-@media(max-width:750px){#gift-section .gift-layout{max-width:560px}#gift-section .gift-heading h2{font-size:28px;max-width:none}#gift-section .gift-design-gallery{gap:9px}#gift-section .gift-format{margin-bottom:22px}}
+#gift-section .gift-custom-wrap{position:relative}
+#gift-section .gift-custom-wrap input{padding-right:40px}
+#gift-section .gift-custom-wrap>span{position:absolute;right:16px;top:14px;color:var(--gift-muted)}
+#gift-section .gift-field-hint{font-size:10px;line-height:1.5;color:var(--gift-muted);margin:8px 0 0}
+#gift-section .gift-error{color:#b51c35;font-size:12px;line-height:1.5;margin:8px 0 0}
+#gift-section .gift-name-fields{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin:20px 0 14px}
+#gift-section .gift-name-fields input{display:block;margin-top:7px;font-size:13px;padding:11px 12px}
+#gift-section .gift-wish-chips{display:flex;flex-wrap:wrap;gap:7px;margin-bottom:18px}
+#gift-section .gift-wish-chips button{font-size:10px;border:1px solid #dfe6f1;border-radius:20px;padding:8px 12px;min-height:34px;background:#f8faff;color:var(--gift-blue)}
+#gift-section textarea{resize:vertical;min-height:110px}
+#gift-section .gift-wish-footer{display:flex;justify-content:space-between;align-items:center;gap:12px;font-size:10px;color:var(--gift-muted);margin:6px 0}
+#gift-section .gift-flow-footer{margin-top:26px}
+#gift-section #gift-step-count{font-size:10px;letter-spacing:.04em;color:#8a93a0;margin:0 0 10px}
+#gift-section .gift-flow-actions{display:flex;gap:10px}
+#gift-section .gift-flow-actions button{min-height:50px;border-radius:12px;border:1px solid #dfe5ee;background:white}
+#gift-section #gift-back{width:50px;flex-shrink:0;color:var(--gift-blue)}
+#gift-section .gift-controls .gift-primary{flex:1;border:0;border-radius:12px;background:var(--gift-blue);color:#fff;padding:14px 18px;font-size:13px}
+#gift-section .gift-primary:hover{background:#003c9f}
+#gift-section .gift-delivery{font-size:10px;line-height:1.6;color:var(--gift-muted);margin:15px 0 5px}
+#gift-section .gift-footnote{font-size:10px;color:#969eaa;margin:0;line-height:1.5}
+#gift-section .gift-order-details{margin-top:25px;padding-top:24px;border-top:1px solid #e1e7ef}
+#gift-section .gift-order-details>p{font-size:12px;line-height:1.7;color:var(--gift-muted)}
+#gift-section #gift-order-text{font-size:13px;line-height:1.7;background:#f8faff}
+#gift-section .gift-order-actions{display:flex;gap:10px;margin-top:12px;flex-wrap:wrap}
+#gift-section .gift-order-actions>*{flex:1;display:flex;justify-content:center;align-items:center;min-height:44px;border:1px solid #dce5f2;border-radius:12px;padding:12px;font-size:11px;text-decoration:none;color:var(--gift-blue);background:#f5f8ff}
+#gift-section #gift-physical-preview img{display:block;width:100%;aspect-ratio:1.6;object-fit:contain}
+#gift-section .gift-amount-list{display:flex;gap:10px;margin:20px 0}
+#gift-section .gift-amount-list button{flex:1;border:1px solid #dfe6ef;background:white;border-radius:12px;padding:12px 4px;font-size:13px}
+#gift-section .gift-amount-list button[aria-pressed=true]{border-color:var(--gift-blue);color:var(--gift-blue);background:#f5f8ff}
+#gift-section .gift-holder{display:block;width:100%;height:125px;object-fit:contain}
+.gift-hero-link{display:inline-flex;margin-top:10px;color:#0047bb;font-size:13px;text-decoration:none;border-bottom:1px solid #0047bb55;padding-bottom:3px}
+.gift-sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}
+@media(max-width:950px) and (min-width:751px){#gift-section .gift-layout{gap:26px;grid-template-columns:minmax(0,1fr) minmax(0,1fr)}#gift-section .gift-preview-stage{padding:14px}#gift-section .gift-design-name{font-size:9px}#gift-section .gift-steps{gap:4px}#gift-section .gift-steps button{font-size:10px;gap:5px}}
+@media(max-width:750px){#gift-section .gift-heading{margin:6px 0 22px}#gift-section .gift-heading h2{font-size:32px!important}#gift-section .gift-heading>p:last-child{font-size:12px}#gift-section .gift-eyebrow{font-size:9px;margin-bottom:12px}#gift-section .gift-layout{grid-template-columns:1fr;gap:25px;max-width:560px;margin:auto}#gift-section .gift-preview-col{position:static}#gift-section .gift-preview-stage{padding:13px;border-radius:18px}#gift-section .gift-preview-caption{font-size:12px;margin:12px 2px 4px}#gift-section .gift-preview-note{font-size:9px}#gift-section .gift-format{margin-bottom:20px}#gift-section .gift-steps{margin-bottom:23px}#gift-section h3{font-size:23px}#gift-section .gift-design-gallery button{flex-basis:44%}#gift-section .gift-design-name{font-size:10px}#gift-section .gift-live-amount{font-size:40px;margin-top:18px}#gift-section .gift-wheel{--wheel-item:95px}#gift-section .gift-wheel>div>span{font-size:23px}#gift-section .gift-message-preview{margin-top:18px;padding:18px;font-size:14px}#gift-section .gift-flow-footer{margin-top:22px}}
+@media(max-width:360px){#gift-section .gift-steps button{font-size:10px;gap:4px}#gift-section .gift-design-name{font-size:9px}#gift-section .gift-name-fields{grid-template-columns:1fr}#gift-section .gift-wheel{--wheel-item:90px}}
+@media(prefers-reduced-motion:reduce){#gift-section *{scroll-behavior:auto!important;transition:none!important}}
+#gift-section .gift-wheel:focus{outline:none}
+#gift-section .gift-wheel-wrap:has(.gift-wheel:focus-visible){outline:2px solid #0047bb;outline-offset:3px;border-radius:16px}
