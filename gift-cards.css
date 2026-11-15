@@ -2,10 +2,10 @@
 #gift-section{--gift-blue:#0047bb;--gift-muted:#737d8c;font-family:GiftGolos,'Golos Text',sans-serif;color:#202a3a;padding-bottom:30px}
 #gift-section *,#gift-section *:before,#gift-section *:after{box-sizing:border-box}
 #gift-section [hidden],#gift-section[hidden]{display:none!important}
-#gift-section button,#gift-section input,#gift-section textarea,#gift-section a{font:inherit}
+#gift-section button,#gift-section input,#gift-section textarea,#gift-section select,#gift-section a{font:inherit}
 #gift-section button{cursor:pointer;min-height:44px;color:inherit}
 #gift-section button:disabled{cursor:default;opacity:.32}
-#gift-section button:focus-visible,#gift-section a:focus-visible,#gift-section input:focus-visible,#gift-section textarea:focus-visible{outline:2px solid var(--gift-blue);outline-offset:4px}
+#gift-section button:focus-visible,#gift-section a:focus-visible,#gift-section input:focus-visible,#gift-section textarea:focus-visible,#gift-section select:focus-visible{outline:2px solid var(--gift-blue);outline-offset:4px}
 #gift-section h3:focus{outline:none}
 #gift-section .gift-heading{margin:18px 0 34px}
 #gift-section .gift-eyebrow{font-size:10px;letter-spacing:.16em;color:var(--gift-blue);margin:0 0 14px}
@@ -77,7 +77,7 @@
 #gift-section .gift-field-hint{font-size:10px;line-height:1.5;color:var(--gift-muted);margin:8px 0 0}
 #gift-section .gift-error{color:#b51c35;font-size:12px;line-height:1.5;margin:8px 0 0}
 #gift-section .gift-name-fields{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin:20px 0 14px}
-#gift-section .gift-name-fields input{display:block;margin-top:7px;font-size:13px;padding:11px 12px}
+#gift-section .gift-name-fields input{display:block;margin-top:7px;font-size:16px;padding:11px 12px}
 #gift-section .gift-wish-chips{display:flex;flex-wrap:wrap;gap:7px;margin-bottom:18px}
 #gift-section .gift-wish-chips button{font-size:10px;border:1px solid #dfe6f1;border-radius:20px;padding:8px 12px;min-height:34px;background:#f8faff;color:var(--gift-blue)}
 #gift-section textarea{resize:vertical;min-height:110px}
@@ -109,3 +109,40 @@
 @media(prefers-reduced-motion:reduce){#gift-section *{scroll-behavior:auto!important;transition:none!important}}
 #gift-section .gift-wheel:focus{outline:none}
 #gift-section .gift-wheel-wrap:has(.gift-wheel:focus-visible){outline:2px solid #0047bb;outline-offset:3px;border-radius:16px}
+
+/* A complete gift order: ready-made words, recipient and delivery. */
+#gift-section #gift-wish-group{display:block;width:100%;min-height:50px;border:1px solid #dfe5ee;border-radius:12px;background:#fff;color:#202a3a;padding:12px;font-size:16px;line-height:1.5}
+#gift-section .gift-wish-options{display:grid;gap:9px;margin:14px 0 23px}
+#gift-section .gift-wish-options button{text-align:left;padding:15px 17px;border:1px solid #e1e7f0;border-radius:14px;background:#fff;transition:border-color .15s,background .15s}
+#gift-section .gift-wish-options button:hover{border-color:#8baedf;background:#fafcff}
+#gift-section .gift-wish-options button[aria-pressed=true]{border-color:var(--gift-blue);background:#f4f8ff;box-shadow:inset 0 0 0 1px var(--gift-blue)}
+#gift-section .gift-wish-title{display:block;color:var(--gift-blue);font-size:13px;line-height:1.5;margin-bottom:5px}
+#gift-section .gift-wish-text{display:block;color:#505d70;font-size:12px;line-height:1.65}
+#gift-section .gift-wish-use{display:block;color:var(--gift-blue);font-size:10px;line-height:1.5;margin-top:10px}
+#gift-section .gift-name-fields{align-items:start}
+#gift-section .gift-label .gift-error{display:block;color:#b51c35}
+#gift-section .gift-delivery-choices,#gift-section .gift-messenger-choices{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:10px;margin-bottom:22px}
+#gift-section .gift-delivery-choices button,#gift-section .gift-messenger-choices button{border:1px solid #dfe5ee;border-radius:12px;background:#fff;padding:13px 12px;text-align:left;line-height:1.5;font-size:13px}
+#gift-section .gift-delivery-choices button[aria-pressed=true],#gift-section .gift-messenger-choices button[aria-pressed=true]{border-color:var(--gift-blue);background:#f5f8ff;color:var(--gift-blue)}
+#gift-section .gift-delivery-choices span{display:block;margin-bottom:4px}
+#gift-section .gift-delivery-choices small{display:block;font-size:10px;color:#737d8c;line-height:1.5}
+#gift-section .gift-messenger-choices button{text-align:center}
+#gift-section .gift-note-label{margin-top:23px}
+#gift-section #gift-delivery-note{min-height:88px}
+#gift-section .gift-delivery-explain{font-size:11px;line-height:1.65;color:#61718a;background:#f5f8fe;border-radius:12px;padding:13px 15px;margin:16px 0 0}
+#gift-section .gift-review-list{display:grid;grid-template-columns:100px minmax(0,1fr);gap:12px 16px;margin:22px 0;font-size:13px;line-height:1.6}
+#gift-section .gift-review-list dt{color:#737d8c}
+#gift-section .gift-review-list dd{margin:0;overflow-wrap:anywhere}
+#gift-section .gift-review-wish{padding:16px 18px;border-radius:12px;background:#f5f8ff;margin:12px 0}
+#gift-section .gift-review-wish>span{font-size:10px;color:var(--gift-blue)}
+#gift-section .gift-review-wish>p{font-size:13px;line-height:1.7;margin:7px 0 0;white-space:pre-wrap;overflow-wrap:anywhere}
+#gift-section .gift-order-actions{flex-direction:column}
+#gift-section #gift-telegram{background:var(--gift-blue);color:#fff;border-color:var(--gift-blue);min-height:50px;font-size:13px}
+#gift-section #gift-copy{font-size:12px;background:#fff}
+#gift-section .gift-message-details{margin-top:20px}
+#gift-section .gift-message-details summary{font-size:11px;color:var(--gift-blue);cursor:pointer;padding:12px 0}
+#gift-section .gift-message-details textarea{margin-top:8px;min-height:240px}
+@media(max-width:1050px){#gift-section .gift-steps{gap:5px}#gift-section .gift-steps button{flex-direction:column;gap:7px;font-size:10px;min-width:0;padding:0 0 10px;min-height:55px}}
+@media(max-width:750px){#gift-section .gift-name-fields{grid-template-columns:1fr;gap:3px}#gift-section .gift-wish-text{font-size:13px}#gift-section .gift-wish-options button{padding:15px}#gift-section .gift-review-list{grid-template-columns:84px minmax(0,1fr);gap:11px 12px}}
+
+#gift-section .gift-steps{scroll-margin-top:100px}
