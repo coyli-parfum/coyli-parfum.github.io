@@ -21353,5 +21353,129 @@
       },
       "format": "spray"
     }
+  },
+  {
+    "id": 496,
+    "name": "Chloé Cedrus Intense",
+    "cat": "Селектив",
+    "volumes": [
+      5,
+      10,
+      15,
+      20,
+      30,
+      50,
+      100
+    ],
+    "price": {
+      "5": 850,
+      "10": 1600,
+      "15": 2300,
+      "20": 3000,
+      "30": 4450,
+      "50": 7250,
+      "100": 14300
+    },
+    "notes": "Ноты: бергамот, кардамон, роза с кожаным оттенком, китайский кедр, индийский ветивер, австралийский сандал",
+    "kind": "perfume",
+    "image": "assets/perfumes/101280.jpg",
+    "notesSource": "https://www.chloe.com/en-us/p/fragrances/eau-de-parfum/CHCA50201239.html",
+    "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.101280.jpg",
+    "sortBrand": "chloe",
+    "gender": "Женский",
+    "isNew": true
+  },
+  {
+    "id": 497,
+    "name": "Xerjoff XJ 1861 Naxos",
+    "cat": "Селектив",
+    "volumes": [
+      5,
+      10,
+      15,
+      20,
+      30,
+      50,
+      100
+    ],
+    "price": {
+      "5": 850,
+      "10": 1600,
+      "15": 2300,
+      "20": 3000,
+      "30": 4450,
+      "50": 7250,
+      "100": 14300
+    },
+    "notes": "Верхние ноты: лимон, бергамот, лаванда, оманский ладан\nСердце: жасмин самбак, мёд, корица, кашемировые ноты\nБаза: ваниль, табачный лист, бобы тонка",
+    "kind": "perfume",
+    "image": "assets/perfumes/30529.jpg",
+    "notesSource": "https://www.xerjoff.com/en-eu/products/naxos-eau-de-parfum",
+    "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.30529.jpg",
+    "sortBrand": "xerjoff",
+    "gender": "Унисекс",
+    "isNew": true
+  },
+  {
+    "id": 498,
+    "name": "Initio Wild Rush",
+    "cat": "Селектив",
+    "volumes": [
+      5,
+      10,
+      15,
+      20,
+      30,
+      50,
+      100
+    ],
+    "price": {
+      "5": 850,
+      "10": 1600,
+      "15": 2300,
+      "20": 3000,
+      "30": 4450,
+      "50": 7250,
+      "100": 14300
+    },
+    "notes": "Ноты: бергамот, лаванда, красные ягоды, карамель, ваниль, пачули, сандал",
+    "kind": "perfume",
+    "image": "assets/perfumes/129498.jpg",
+    "notesSource": "https://initioparfums.com/products/wild-rush",
+    "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.129498.jpg",
+    "sortBrand": "initio",
+    "gender": "Унисекс",
+    "isNew": true
+  },
+  {
+    "id": 499,
+    "name": "Kilian Smoking Hot",
+    "cat": "Селектив",
+    "volumes": [
+      5,
+      10,
+      15,
+      20,
+      30,
+      50,
+      100
+    ],
+    "price": {
+      "5": 850,
+      "10": 1600,
+      "15": 2300,
+      "20": 3000,
+      "30": 4450,
+      "50": 7250,
+      "100": 14300
+    },
+    "notes": "Ноты: яблочный кальянный аккорд, корица, табак, дубовый мох, бурбонская ваниль",
+    "kind": "perfume",
+    "image": "assets/perfumes/84413.jpg",
+    "notesSource": "https://www.bykilian.com/product/19797/119317/perfume/smoking-hot/the-smokes",
+    "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.84413.jpg",
+    "sortBrand": "kilian",
+    "gender": "Унисекс",
+    "isNew": true
   }
 ]
