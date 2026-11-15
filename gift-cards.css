@@ -96,7 +96,6 @@
 #gift-section #gift-order-text{font-size:13px;line-height:1.7;background:#f8faff}
 #gift-section .gift-order-actions{display:flex;gap:10px;margin-top:12px;flex-wrap:wrap}
 #gift-section .gift-order-actions>*{flex:1;display:flex;justify-content:center;align-items:center;min-height:44px;border:1px solid #dce5f2;border-radius:12px;padding:12px;font-size:11px;text-decoration:none;color:var(--gift-blue);background:#f5f8ff}
-#gift-section #gift-physical-preview img{display:block;width:100%;aspect-ratio:1.6;object-fit:contain}
 #gift-section .gift-amount-list{display:flex;gap:10px;margin:20px 0}
 #gift-section .gift-amount-list button{flex:1;border:1px solid #dfe6ef;background:white;border-radius:12px;padding:12px 4px;font-size:13px}
 #gift-section .gift-amount-list button[aria-pressed=true]{border-color:var(--gift-blue);color:var(--gift-blue);background:#f5f8ff}

@@ -3,7 +3,8 @@
 'use strict';
 const M=window.CoyliGiftCards;
 const state={format:'electronic',amount:3000,design:'hug',wish:'',recipient:'',sender:'',step:0,wishGroup:'universal',deliveryTo:'self',messenger:'telegram',contact:'',deliveryNote:''};
-const plastic={1500:'assets/gifts/card-heart.png',3000:'assets/gifts/card-bow.png',5000:'assets/gifts/card-gift.png'};
+// Both formats share the approved full-bleed artwork and the same 1.6:1 frame.
+const plastic={1500:'heart',3000:'bow',5000:'gift'};
 const descriptions={hug:'Тёплые объятия, даже если вы далеко.',love:'Для слов, которые хочется сказать лично.',bloom:'Пусть каждый день будет чуть светлее.',chrome:'Сдержанный блеск. Особенный подарок.',rug:'Знакомое чувство: ты там, где тебя любят.',blanket:'Забота, которую почти можно потрогать.',game:'Новый аромат — новый уровень настроения.',heart:'Когда всё самое важное — от сердца.',bow:'Тот самый повод сделать красиво.',gift:'Большая радость в маленьком подарке.'};
 const wishGroups=window.CoyliGiftWishes;
 const root=()=>document.getElementById('gift-section');
@@ -32,8 +33,8 @@ function updatePreview(){
  el('gift-design-description').textContent=descriptions[d.id];
  el('gift-selected-name').textContent=d.label;
  el('gift-design-count').textContent=(M.designs.indexOf(d)+1)+' / '+M.designs.length;
- el('gift-physical-image').src=plastic[state.amount]||plastic[3000];
- el('gift-physical-image').alt='Пластиковая подарочная карта на '+M.money(plastic[state.amount]?state.amount:3000);
+ const physicalAmount=plastic[state.amount]?state.amount:3000;
+ el('gift-physical-preview').innerHTML=preview(M.designs.find(item=>item.id===plastic[physicalAmount]),physicalAmount);
  el('gift-live-amount').textContent=valid?M.money(state.amount):'— ₽';
  root().querySelectorAll('[data-gift-format]').forEach(b=>b.setAttribute('aria-pressed',String(b.dataset.giftFormat===state.format)));
  root().querySelectorAll('[data-gift-design]').forEach(b=>b.setAttribute('aria-pressed',String(b.dataset.giftDesign===state.design)));
@@ -143,7 +144,7 @@ function updateDeliveryFields(){
 window.renderGiftSection=function(){
  const r=root();if(!r||r.dataset.ready)return;r.dataset.ready='true';
  r.innerHTML=`<div class="gift-heading"><p class="gift-eyebrow">COYLI · ПОДАРОЧНЫЕ КАРТЫ</p><h2>Дарите по-своему.</h2><p>Настроение — от вас. Любимый аромат — на выбор.</p></div>
- <div class="gift-layout"><div class="gift-preview-col"><div class="gift-preview-stage"><div id="gift-electronic-preview"></div><div id="gift-physical-preview" hidden><img id="gift-physical-image" src="assets/gifts/card-bow.png" alt="Подарочная карта"></div></div>
+ <div class="gift-layout"><div class="gift-preview-col"><div class="gift-preview-stage"><div id="gift-electronic-preview"></div><div id="gift-physical-preview" hidden></div></div>
  <div class="gift-preview-caption"><span id="gift-preview-caption"></span><span id="gift-preview-value"></span></div><p class="gift-preview-note">Предпросмотр · номер карты появится при оформлении</p>
  <div id="gift-message-preview" class="gift-message-preview" hidden><p class="gift-eyebrow">ЛИЧНОЕ ПОСЛАНИЕ</p><p id="gift-message-recipient"></p><p id="gift-message-body"></p><p id="gift-message-sender"></p></div></div>
  <div class="gift-controls"><div class="gift-format" role="group" aria-label="Формат подарочной карты"><button type="button" data-gift-format="electronic" aria-pressed="true">Электронная</button><button type="button" data-gift-format="physical" aria-pressed="false">Пластиковая</button></div>
