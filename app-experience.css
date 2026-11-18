@@ -436,7 +436,7 @@ body .hero.brand-cover .season-copy :is(h1,h2) { color:white; font-weight:400; f
  .season-slide { background:#391912; }
  .season-slide:nth-child(1) { background:#360a0b; }
  .season-slide:nth-child(3) { background:#490b12; }
- .season-slide:nth-child(4) { background:#58301e; }
+ .season-slide:nth-child(4) { background:#490b12; }
  .season-slide > img {
    left:auto; right:4%; width:auto; max-width:62%; object-fit:contain; object-position:center;
    mask-image:linear-gradient(90deg,transparent,#000 17%,#000 89%,transparent);
