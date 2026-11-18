@@ -62,10 +62,24 @@
     if(!home&&!$('grid').hidden&&!$('grid').querySelector('.item'))$('grid').innerHTML=`<div class="app-empty">${icon('search')}<h3>Пока ничего не нашли</h3><p>Попробуйте название бренда, аромата<br>или любимую ноту.</p><button type="button" class="primary" id="app-search-all">Смотреть все товары</button></div>`;
     const reset=$('app-search-all');if(reset)reset.onclick=()=>selectCategory('Все товары');
     const root=J.parent(cat),sub=J.children[root]||[];
-    categoryContext.hidden=cat==='Подарочные карты'||!J.sections.includes(root);
-    categoryContext.innerHTML=(J.descriptions[root]?'<p class="app-category-description">'+esc(J.descriptions[root])+'</p>':'')+(sub.length?'<div class="app-subcategories" role="group" aria-label="Виды товаров">'+[root,...sub].map(c=>'<button type="button" data-subcategory="'+esc(c)+'" aria-pressed="'+(cat===c)+'">'+esc(c===root?'Все':label(c))+'</button>').join('')+'</div>':'');
-    categoryContext.querySelectorAll('[data-subcategory]').forEach(b=>b.onclick=()=>selectCategory(b.dataset.subcategory));
+    categoryContext.hidden=cat==='Подарочные карты'||cat!==root||!J.sections.includes(root);
+    categoryContext.textContent=J.descriptions[root]||'';
+    const submenu=$('shop-submenu');
+    submenu.hidden=home||!sub.length;
+    submenu.innerHTML=sub.length?[root,...sub].map(c=>`<a href="#${categoryRoutes[c]}"${cat===c?' aria-current="page"':''}>${esc(c===root?'Все':label(c))}</a>`).join(''):'';
+    renderHomeShelves(home);
     syncNavigation();
+  }
+  function renderHomeShelves(home){
+    const container=$('home-shelves');
+    container.hidden=!home;
+    if(!home){container.replaceChildren();return;}
+    const shelves=[['Крем-баттер','Крем-баттеры'],['Свеча','Свечи']];
+    container.innerHTML=shelves.map(([category,title])=>{
+      const items=p.filter(item=>item.cat===category&&item.image&&isStorefrontProduct(item)).slice(0,8);
+      if(!items.length)return '';
+      return `<section class="bestsellers" aria-label="${title}"><div class="bestsellers-heading"><h2>${title}</h2><a href="#${categoryRoutes[category]}">Все <span aria-hidden="true">›</span></a></div><div class="bestsellers-track">${items.map(productCard).join('')}</div></section>`;
+    }).join('');
   }
   render=function(){originalRender();syncPage();};
   saveCart=function(){originalSaveCart();syncNavigation();};
@@ -122,8 +136,8 @@
   window.addEventListener('beforeinstallprompt',e=>{e.preventDefault();installPrompt=e;});
 
   productCard=function(x){
-    const meta=(x.kind==='perfume'||x.kind==='original')?J.type(x.cat)+(CoyliSale.active()?' · '+(x.kind==='perfume'?'спрей · ':'')+defaultVolume(x)+' мл':''):`${label(x.cat)} · ${x.volumes.map(v=>unit({vol:v,cat:x.cat})).join(' / ')}`;
-    return `<article class="item${x.isHit===true||x.isNew===true?' has-hit':''}"><button class="app-card-link" type="button" aria-label="Открыть ${esc(x.name)}" onclick="openProduct(${x.id})"></button><div class="visual ${x.kind==='home'?'home':x.kind==='car'?'car':''}"><div class="product-label-row">${x.isNew===true?'<span class="hit-badge new-badge">Новинка</span>':x.isHit===true?'<span class="hit-badge">Хит продаж</span>':''}${saleBadge(x)}</div><div class="product-image-area">${productPhoto(x)}</div></div><div class="name">${esc(x.name)}</div><div class="meta">${esc(meta)}</div>${x.cat==='Оригинал'?'<p class="availability">'+esc(availabilityText(x))+'</p>':''}<div class="bottom"><span class="price">${priceMarkup(x,basePrice(x),!CoyliSale.active()&&(x.kind==='perfume'||x.volumes.length>1)&&Number(price(x))>0?'от ':'')}</span><button type="button" class="plus" aria-label="Выбрать ${esc(x.name)}" onclick="openProduct(${x.id})">+</button></div></article>`;
+    const meta=(x.kind==='perfume'||x.kind==='original')?(x.kind==='original'?'Оригинал · распив':x.cat+' · аналог')+(CoyliSale.active()?' · '+(x.kind==='perfume'?'спрей · ':'')+defaultVolume(x)+' мл':''):`${label(x.cat)} · ${x.volumes.map(v=>unit({vol:v,cat:x.cat})).join(' / ')}`;
+    return `<article class="item${x.isHit===true||x.isNew===true?' has-hit':''}"><button class="app-card-link" type="button" aria-label="Открыть ${esc(x.name)}" onclick="openProduct(${x.id})"></button><div class="visual ${x.kind==='home'?'home':x.kind==='car'?'car':''}"><div class="product-label-row">${x.isNew===true?'<span class="hit-badge new-badge">Новинка</span>':x.isHit===true?'<span class="hit-badge">Хит продаж</span>':''}${saleBadge(x)}</div><div class="product-image-area">${productPhoto(x)}</div></div><div class="name">${esc(x.name)}</div><div class="meta">${esc(meta)}</div>${x.cat==='Оригинал'?'<p class="availability">'+esc(availabilityText(x))+'</p>':''}<div class="bottom"><span class="price">${priceMarkup(x,basePrice(x),!CoyliSale.active()&&(x.kind==='perfume'||x.volumes.length>1)&&Number(price(x))>0?'от ':'')}</span><button type="button" class="plus" aria-label="Выбрать ${esc(x.name)}" onclick="openProduct(${x.id})">${icon('next')}</button></div></article>`;
   };
   openProduct=function(id,push=true){
     const requested=p.find(x=>x.id===id);
