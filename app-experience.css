@@ -600,3 +600,35 @@ body #shopping-shortcuts .loyalty-feature { min-height:236px; }
 :is(#grid,#bestsellers-track,#home-shelves .bestsellers-track) .visual:has(.new-badge) .product-image-area {
  margin-top:28px; height:calc(100% - 28px);
 }
+
+/* Approved outline treatment for all product status labels. */
+body :is(.hit-badge,.new-badge,.sale-badge,.combo-discount),
+:is(#grid,#bestsellers-track,#home-shelves .bestsellers-track) .item :is(.hit-badge,.new-badge,.sale-badge) {
+ --badge-ink:#0047bb; --badge-outline:#94b0df;
+ display:inline-flex; align-items:center; justify-content:center; box-sizing:border-box;
+ flex:0 0 auto; background:transparent; color:var(--badge-ink);
+ border:1px solid var(--badge-outline); border-radius:999px;
+ padding:1px 8px; font-size:11px; line-height:18px; font-weight:400;
+ text-transform:lowercase; letter-spacing:0; white-space:nowrap; box-shadow:none;
+}
+body .new-badge,
+:is(#grid,#bestsellers-track,#home-shelves .bestsellers-track) .item .new-badge {
+ --badge-ink:#348a49; --badge-outline:#90bf9a;
+}
+body :is(.sale-badge,.combo-discount),
+:is(#grid,#bestsellers-track,#home-shelves .bestsellers-track) .item .sale-badge {
+ --badge-ink:#9b3049; --badge-outline:#ca98a4;
+}
+:is(#grid,#bestsellers-track,#home-shelves .bestsellers-track) .product-label-row,
+:is(#grid,#bestsellers-track,#home-shelves .bestsellers-track) .product-label-row:has(.new-badge) {
+ height:24px; min-height:24px; gap:5px; align-items:flex-start;
+}
+:is(#grid,#bestsellers-track,#home-shelves .bestsellers-track) .product-image-area,
+:is(#grid,#bestsellers-track,#home-shelves .bestsellers-track) .visual:has(.new-badge) .product-image-area {
+ margin-top:26px; height:calc(100% - 26px);
+}
+@media(max-width:390px) {
+ :is(#grid,#bestsellers-track,#home-shelves .bestsellers-track) .product-label-row:has(.sale-badge):has(.hit-badge) :is(.hit-badge,.sale-badge) {
+  font-size:10px; padding-inline:6px;
+ }
+}
