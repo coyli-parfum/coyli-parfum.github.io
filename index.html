@@ -482,7 +482,8 @@ function productPhoto(x,selectedVolume){
 }
 
 // Hidden categories remain in catalog.json so they can be restored later.
-function isStorefrontProduct(item){return !!item&&!item.duplicateOf&&item.cat!=='Флаконы'}
+p.find(item=>item.id===11).storefrontHidden=true;
+function isStorefrontProduct(item){return !!item&&!item.storefrontHidden&&!item.duplicateOf&&item.cat!=='Флаконы'}
 function productCard(x){
  const photo=productPhoto(x);
  const meta=(x.kind==='perfume'||x.kind==='original')?'':esc(x.cat)+' · '+esc(x.volumes.join(' / '))+(x.kind==='car'?'':' мл');
