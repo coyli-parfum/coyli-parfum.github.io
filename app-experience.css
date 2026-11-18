@@ -509,7 +509,7 @@ header nav button,.brand-footer nav button,.coyli-side-panel button[data-info] {
 
 /* Clear status colours and an editorial loyalty invitation. */
 body .new-badge,
-:is(#grid,#bestsellers-track,#home-shelves .bestsellers-track) .item .new-badge { background:#247448; color:#fff; }
+:is(#grid,#bestsellers-track,#home-shelves .bestsellers-track) .item .new-badge { background:#a9edba; color:#18542b; }
 body .sale-badge,body .combo-discount,
 :is(#grid,#bestsellers-track,#home-shelves .bestsellers-track) .item .sale-badge { background:#9b3049; color:#fff; }
 body .sale-price { color:#9b3049; }
@@ -565,4 +565,26 @@ body #shopping-shortcuts .loyalty-feature { min-height:236px; }
  .loyalty-art.loyalty-art-approved { right:-4px; top:42px; width:120px; height:145px; }
  .loyalty-art-approved > img { width:155px; height:155px; top:0; left:-18px; }
  .loyalty-feature .loyalty-copy small { max-width:162px; }
+}
+
+/* Wide campaign photography: preserve the whole composition on tablets and desktops. */
+.season-picture { position:absolute; inset:0; z-index:-2; display:block; }
+.season-picture img { display:block; width:100%; height:100%; object-fit:cover; object-position:center 47%; }
+@media(min-width:751px) {
+ body .hero.brand-cover:has(.season-track):not([hidden]) { height:auto; aspect-ratio:16/9; min-height:0; max-height:none; }
+ .season-track { position:absolute; inset:0; }
+ .season-picture img { object-position:center; }
+ body.app-home .season-copy { left:4%; right:auto; width:38%; bottom:20%; }
+ body .hero.brand-cover .season-copy :is(h1,h2) { font-size:clamp(34px,4.6vw,68px); }
+ body.app-home .season-controls { bottom:70px; right:4%; }
+}
+/* Give every badge its own full height instead of clipping it inside a 13px row. */
+:is(#grid,#bestsellers-track,#home-shelves .bestsellers-track) .product-label-row {
+ height:22px; min-height:22px; align-items:flex-start; gap:5px;
+}
+:is(#grid,#bestsellers-track,#home-shelves .bestsellers-track) .item :is(.hit-badge,.sale-badge) {
+ flex:0 0 auto; align-self:flex-start; font-size:9px; line-height:14px; padding:3px 7px; border-radius:7px;
+}
+:is(#grid,#bestsellers-track,#home-shelves .bestsellers-track) .product-image-area {
+ margin-top:24px; height:calc(100% - 24px);
 }
