@@ -509,7 +509,7 @@ header nav button,.brand-footer nav button,.coyli-side-panel button[data-info] {
 
 /* Clear status colours and an editorial loyalty invitation. */
 body .new-badge,
-:is(#grid,#bestsellers-track,#home-shelves .bestsellers-track) .item .new-badge { background:#a9edba; color:#18542b; }
+:is(#grid,#bestsellers-track,#home-shelves .bestsellers-track) .item .new-badge { background:#b8ef43; color:#172315; }
 body .sale-badge,body .combo-discount,
 :is(#grid,#bestsellers-track,#home-shelves .bestsellers-track) .item .sale-badge { background:#9b3049; color:#fff; }
 body .sale-price { color:#9b3049; }
@@ -587,4 +587,16 @@ body #shopping-shortcuts .loyalty-feature { min-height:236px; }
 }
 :is(#grid,#bestsellers-track,#home-shelves .bestsellers-track) .product-image-area {
  margin-top:24px; height:calc(100% - 24px);
+}
+
+/* A clear, lively new-product label, sized for a phone rather than a tiny tag. */
+:is(#grid,#bestsellers-track,#home-shelves .bestsellers-track) .item .new-badge {
+ background:#b8ef43; color:#172315; font-size:11px; font-weight:500; line-height:16px;
+ padding:4px 9px; border-radius:8px; text-transform:lowercase; letter-spacing:0;
+}
+:is(#grid,#bestsellers-track,#home-shelves .bestsellers-track) .product-label-row:has(.new-badge) {
+ height:26px; min-height:26px;
+}
+:is(#grid,#bestsellers-track,#home-shelves .bestsellers-track) .visual:has(.new-badge) .product-image-area {
+ margin-top:28px; height:calc(100% - 28px);
 }
