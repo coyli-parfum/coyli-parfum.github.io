@@ -59,10 +59,10 @@
     $('app-catalog-tools').hidden=cat==='Подарочные карты';
     $('app-reset-search').hidden=!query.trim();
     document.querySelector('#app-categories span').textContent=cat==='Все товары'?'Все разделы':label(cat);
-    if(!home&&!$('grid').hidden&&!$('grid').querySelector('.item'))$('grid').innerHTML=`<div class="app-empty">${icon('search')}<h3>Пока ничего не нашли</h3><p>Попробуйте название бренда, аромата<br>или любимую ноту.</p><button type="button" class="primary" id="app-search-all">Смотреть все товары</button></div>`;
-    const reset=$('app-search-all');if(reset)reset.onclick=()=>selectCategory('Все товары');
-    const root=J.parent(cat),sub=J.children[root]||[];
-    categoryContext.hidden=cat==='Подарочные карты'||cat!==root||!J.sections.includes(root);
+    if(!home&&!$('grid').hidden&&!$('grid').querySelector('.item, .search-prompt'))$('grid').innerHTML=`<div class="app-empty">${icon('search')}<h3>Пока ничего не нашли</h3><p>Попробуйте название бренда, аромата<br>или любимую ноту.</p><button type="button" class="primary" id="app-search-all">Выбрать раздел</button></div>`;
+    const reset=$('app-search-all');if(reset)reset.onclick=showCategories;
+    const root=sectionOf(cat),sub=J.children[root]||[];
+    categoryContext.hidden=cat==='Оригинал'||cat==='Подарочные карты'||cat!==root||!J.sections.includes(root);
     categoryContext.textContent=J.descriptions[root]||'';
     const submenu=$('shop-submenu');
     submenu.hidden=home||!sub.length;
@@ -76,7 +76,7 @@
     if(!home){container.replaceChildren();return;}
     const shelves=[['Крем-баттер','Крем-баттеры'],['Свеча','Свечи']];
     container.innerHTML=shelves.map(([category,title])=>{
-      const items=p.filter(item=>item.cat===category&&item.image&&isStorefrontProduct(item)).slice(0,8);
+      const items=p.filter(item=>item.cat===category&&isStorefrontProduct(item)).sort(byPopularity).slice(0,8);
       if(!items.length)return '';
       return `<section class="bestsellers" aria-label="${title}"><div class="bestsellers-heading"><h2>${title}</h2><a href="#${categoryRoutes[category]}">Все <span aria-hidden="true">›</span></a></div><div class="bestsellers-track">${items.map(productCard).join('')}</div></section>`;
     }).join('');
@@ -121,8 +121,8 @@
   };
   function showCategories(){
     routeSheet('categories');
-    const groups=[['Разделы',J.sections],['Подборки',['Все товары','Новинки','Скидки','Осенняя коллекция']]];
-    sheet('Каталог',groups.map(([title,items])=>`<p class="app-category-label">${title}</p><div class="app-category-list">${items.map(c=>`<button type="button" data-app-category="${esc(c)}" aria-current="${J.parent(cat)===c}"><span>${esc(label(c))}${J.descriptions[c]?'<small>'+esc(J.descriptions[c])+'</small>':''}</span>${icon(J.parent(cat)===c?'check':'next')}</button>`).join('')}</div>`).join(''));
+    const groups=[['Разделы',storefrontSections],['Подборки',['Осенняя коллекция','Новинки','Скидки']]];
+    sheet('Каталог',groups.map(([title,items])=>`<p class="app-category-label">${title}</p><div class="app-category-list">${items.map(c=>`<button type="button" data-app-category="${esc(c)}" aria-current="${sectionOf(cat)===c}"><span>${esc(label(c))}${J.descriptions[c]?'<small>'+esc(J.descriptions[c])+'</small>':''}</span>${icon(sectionOf(cat)===c?'check':'next')}</button>`).join('')}</div>`).join(''));
     $('panel').querySelectorAll('[data-app-category]').forEach(b=>b.onclick=()=>{hide();selectCategory(b.dataset.appCategory);});
   }
   function showMore(){
@@ -135,9 +135,11 @@
   }
   window.addEventListener('beforeinstallprompt',e=>{e.preventDefault();installPrompt=e;});
 
+  const featuredHits=new Set([138, 127, 128, 327, 148, 66, 33, 32, 7, 2, 4, 25, 24, 20, 217, 201, 191]);
   productCard=function(x){
+    const hit=featuredHits.has(x.id);
     const meta=(x.kind==='perfume'||x.kind==='original')?(x.kind==='original'?'Оригинал · распив':x.cat+' · аналог')+(CoyliSale.active()?' · '+(x.kind==='perfume'?'спрей · ':'')+defaultVolume(x)+' мл':''):`${label(x.cat)} · ${x.volumes.map(v=>unit({vol:v,cat:x.cat})).join(' / ')}`;
-    return `<article class="item${x.isHit===true||x.isNew===true?' has-hit':''}"><button class="app-card-link" type="button" aria-label="Открыть ${esc(x.name)}" onclick="openProduct(${x.id})"></button><div class="visual ${x.kind==='home'?'home':x.kind==='car'?'car':''}"><div class="product-label-row">${x.isNew===true?'<span class="hit-badge new-badge">Новинка</span>':x.isHit===true?'<span class="hit-badge">Хит продаж</span>':''}${saleBadge(x)}</div><div class="product-image-area">${productPhoto(x)}</div></div><div class="name">${esc(x.name)}</div><div class="meta">${esc(meta)}</div>${x.cat==='Оригинал'?'<p class="availability">'+esc(availabilityText(x))+'</p>':''}<div class="bottom"><span class="price">${priceMarkup(x,basePrice(x),!CoyliSale.active()&&(x.kind==='perfume'||x.volumes.length>1)&&Number(price(x))>0?'от ':'')}</span><button type="button" class="plus" aria-label="Выбрать ${esc(x.name)}" onclick="openProduct(${x.id})">${icon('next')}</button></div></article>`;
+    return `<article class="item${hit||x.isNew===true?' has-hit':''}"><button class="app-card-link" type="button" aria-label="Открыть ${esc(x.name)}" onclick="openProduct(${x.id})"></button><div class="visual ${x.kind==='home'?'home':x.kind==='car'?'car':''}"><div class="product-label-row">${x.isNew===true?'<span class="hit-badge new-badge">Новинка</span>':hit?'<span class="hit-badge">Хит продаж</span>':''}${saleBadge(x)}</div><div class="product-image-area">${productPhoto(x)}</div></div><div class="name">${esc(x.name)}</div><div class="meta">${esc(meta)}</div>${x.cat==='Оригинал'?'<p class="availability">'+esc(availabilityText(x))+'</p>':''}<div class="bottom"><span class="price">${priceMarkup(x,basePrice(x),!CoyliSale.active()&&(x.kind==='perfume'||x.volumes.length>1)&&Number(price(x))>0?'от ':'')}</span><button type="button" class="plus" aria-label="Выбрать ${esc(x.name)}" onclick="openProduct(${x.id})">${icon('next')}</button></div></article>`;
   };
   openProduct=function(id,push=true){
     const requested=p.find(x=>x.id===id);
@@ -145,7 +147,7 @@
     if(!isStorefrontProduct(item))return;
     if(requested!==item&&!push)history.replaceState(history.state,'','#product-'+item.id);
     id=item.id;
-    if(!screen)modalReturnHash=/^#product-/.test(location.hash)?'#'+categoryRoutes[cat]:location.hash;
+    if(!screen)modalReturnHash=/^#product-/.test(location.hash)?(document.body.classList.contains('app-home')?'#start':'#'+categoryRoutes[cat]):location.hash;
     current=item;format='spray';vol=defaultVolume(item);
     if(push&&location.hash!=='#product-'+id)history.pushState({appOverlay:true,returnHash:modalReturnHash},'','#product-'+id);
     screen='product';drawProduct();
@@ -166,7 +168,7 @@
     if(x.cat==='Селектив'||x.cat==='Люкс'){pr=formatPrices(x,format);options=Object.keys(pr);if(!(vol in pr))vol=String(options[0]);}
     const regularAmount=pr[vol],amount=saleAmount(x,regularAmount,vol,format),unavailable=x.kind==='original'&&x.availability?.status==='out_of_stock';
     const canAdd=Number.isFinite(Number(amount))&&Number(amount)>0&&!unavailable;
-    const body=`<div class="app-product-photo">${productPhoto(x,vol)}</div><p class="app-eyebrow">${esc(J.type(x.cat))}</p><h3 class="app-product-title">${esc(x.name)}</h3>${x.description?'<p class="fragrance-story">'+esc(x.description)+'</p>':''}${x.gender?'<p class="app-product-gender">'+esc(x.gender)+'</p>':''}${x.kind==='perfume'?'<p class="app-product-kind-note">Аналог аромата на масляной основе COYLI. Фото показывает аромат-ориентир. Доступны масло и спрей.</p>':x.kind==='original'?'<p class="app-product-kind-note">Распив оригинального аромата. Полноразмерный флакон можно запросить отдельно.</p>':''}${x.kind==='perfume'?`<h4>Формат</h4><div class="app-format-grid" aria-label="Формат аромата"><button type="button" data-format="spray" aria-pressed="${format==='spray'}">Спрей</button><button type="button" data-format="oil" aria-pressed="${format==='oil'}">Чистое масло</button></div>`:''}<h4>${x.kind==='car'?'Количество в упаковке':x.cat==='Аромасаше'?'Вес':'Объём'}</h4><div class="app-volume-grid" aria-label="Выбор объёма">${options.map(v=>`<button type="button" data-volume="${esc(v)}" aria-pressed="${String(vol)===String(v)}">${esc(unit({vol:v,cat:x.cat}))}</button>`).join('')}</div><p class="muted">${esc(availabilityText(x))}</p>${saleNote()}${x.cat==='Оригинал'&&Number(vol)===100?'<p class="muted">100 мл — если во флаконе есть нужное количество. Уточните у менеджера.</p>':''}${fragranceNotes(x)}<button type="button" class="app-share" id="app-share-product">Скопировать ссылку на товар</button>`;
+    const body=`<div class="app-product-photo">${productPhoto(x,vol)}</div><p class="app-eyebrow">${esc(J.type(x.cat))}</p><h3 class="app-product-title">${esc(x.name)}</h3>${x.description?'<p class="fragrance-story">'+esc(x.description)+'</p>':''}${x.gender?'<p class="app-product-gender">'+esc(x.gender)+'</p>':''}${x.kind==='perfume'?'<p class="app-product-kind-note">Масло или спрей COYLI. На фото — аромат-ориентир.</p>':x.kind==='original'?'<p class="app-product-kind-note">Полный флакон — по запросу.</p>':''}${x.kind==='perfume'?`<h4>Формат</h4><div class="app-format-grid" aria-label="Формат аромата"><button type="button" data-format="spray" aria-pressed="${format==='spray'}">Спрей</button><button type="button" data-format="oil" aria-pressed="${format==='oil'}">Чистое масло</button></div>`:''}<h4>${x.kind==='car'?'Количество в упаковке':x.cat==='Аромасаше'?'Вес':'Объём'}</h4><div class="app-volume-grid" aria-label="Выбор объёма">${options.map(v=>`<button type="button" data-volume="${esc(v)}" aria-pressed="${String(vol)===String(v)}">${esc(unit({vol:v,cat:x.cat}))}</button>`).join('')}</div><p class="muted">${esc(availabilityText(x))}</p>${saleNote()}${x.cat==='Оригинал'&&Number(vol)===100?'<p class="muted">100 мл — если во флаконе есть нужное количество. Уточните у менеджера.</p>':''}${fragranceNotes(x)}<button type="button" class="app-share" id="app-share-product">Скопировать ссылку на товар</button>`;
     sheet('Выбор товара',body,`<div class="app-buy-row"><div class="price">${priceMarkup(x,regularAmount,'',vol,format)}</div><button type="button" class="primary" id="add-to-cart" ${canAdd?'':'disabled'}>${unavailable?'Нет в наличии':'В корзину'}</button></div><button type="button" class="app-secondary-action app-request-product" id="app-request-product">Наличие, доставка или вопрос</button>`,null,keep);
     $('panel').querySelectorAll('[data-format]').forEach(b=>b.onclick=()=>{format=b.dataset.format;vol=format==='oil'?'2':defaultVolume(current);drawProduct(true);$('panel').querySelector(`[data-format="${format}"]`).focus({preventScroll:true});});
     $('panel').querySelectorAll('[data-volume]').forEach(b=>b.onclick=()=>{vol=b.dataset.volume;drawProduct(true);$('panel').querySelector(`[data-volume="${CSS.escape(vol)}"]`).focus({preventScroll:true});});
@@ -228,7 +230,7 @@
   }
   showCart=function(keep=false){
     repriceCart();routeSheet('cart');const rows=groups(),total=amountTotal();
-    if(!rows.length){sheet('Корзина',`<div class="app-empty">${icon('bag')}<h3>Здесь будет ваш выбор</h3><p>Добавьте любимый аромат<br>или найдите что-то новое.</p><button type="button" class="primary" id="app-empty-catalog">Перейти в каталог</button></div>`);$('app-empty-catalog').onclick=()=>{hide();selectCategory('Все товары');};return;}
+    if(!rows.length){sheet('Корзина',`<div class="app-empty">${icon('bag')}<h3>Здесь будет ваш выбор</h3><p>Добавьте любимый аромат<br>или найдите что-то новое.</p><button type="button" class="primary" id="app-empty-catalog">Перейти в каталог</button></div>`);$('app-empty-catalog').onclick=()=>{hide();showCategories();};return;}
     const body=saleNote()+rows.map((g,i)=>{const x=g.item,item=productFor(x),bundle=!!x.bundleInstance;return `<div class="app-cart-row"><div class="app-cart-thumb">${item?productPhoto(item,x.vol):icon('bag')}</div><div class="app-cart-content"><h3>${esc(groupTitle(g))}</h3><button class="app-remove" type="button" data-remove-group="${i}" aria-label="Удалить ${esc(groupTitle(g))}">${icon('trash')}</button><p class="app-cart-detail">${esc(groupDetails(g))}</p>${bundle&&x.packaging?'<p class="app-cart-detail">Фирменный пакет в комплекте</p>':''}<div class="app-cart-row-bottom">${bundle?'':`<div class="app-quantity"><button type="button" data-minus="${i}" aria-label="Уменьшить количество ${esc(x.name)}">−</button><output aria-label="Количество ${esc(x.name)}">${g.indices.length}</output><button type="button" data-plus="${i}" aria-label="Увеличить количество ${esc(x.name)}">+</button></div>`}<strong>${money(g.total)}</strong></div></div></div>`;}).join('')+`<div class="app-delivery-progress">${total>=5000?'Доставка бесплатно':`До бесплатной доставки — ${money(5000-total)}`}<div class="app-progress-track"><span style="width:${Math.min(total/5000*100,100)}%"></span></div></div><p class="app-checkout-note">Наличие товаров и условия получения подтвердит менеджер. Оплата — после согласования заказа.</p>`;
     sheet('Корзина · '+cart.length,body,`<div class="app-cart-total"><span>Товары</span><strong>${money(total)}</strong></div><button type="button" class="primary" id="app-checkout">К оформлению</button>`,null,keep);
     $('app-checkout').onclick=showCheckout;
@@ -301,6 +303,20 @@
   window.CoyliApp={notify,sync:syncPage,request:beginRequest};
   document.querySelectorAll('[data-info="contact"]').forEach(b=>b.addEventListener('click',e=>{e.preventDefault();e.stopImmediatePropagation();toggleCoyliDrawer(false);beginRequest(null,'advice');},true));
   render();if(location.hash)appRoute();
+  const track=document.querySelector('.season-track');
+  if(track){
+    const hero=track.parentElement, count=hero.querySelector('.season-count');
+    const position=()=>Math.round(track.scrollLeft/Math.max(1,track.clientWidth));
+    const update=()=>{
+      const i=position();count.textContent=(i+1)+' / '+track.children.length;
+      hero.querySelector('[data-step="-1"]').disabled=i===0;
+      hero.querySelector('[data-step="1"]').disabled=i===track.children.length-1;
+    };
+    track.addEventListener('scroll',update,{passive:true});
+    hero.querySelectorAll('[data-step]').forEach(button=>button.onclick=()=>track.scrollTo({left:(position()+Number(button.dataset.step))*track.clientWidth,behavior:matchMedia('(prefers-reduced-motion: reduce)').matches?'instant':'smooth'}));
+    track.querySelectorAll('a[href^="#product-"]').forEach(link=>link.onclick=e=>{e.preventDefault();openProduct(Number(link.hash.slice(9)));});
+    update();
+  }
   let lastSaleActive=CoyliSale.active();
   function refreshSaleBoundary(){
     const active=CoyliSale.active();if(active===lastSaleActive)return;
