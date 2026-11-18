@@ -453,3 +453,19 @@ body .hero.brand-cover .season-copy :is(h1,h2) { color:white; font-weight:400; f
  .season-controls { bottom:13px; right:10px; }
  .season-copy a { max-width:calc(100% - 107px); }
 }
+
+/* Keep compact product labels above the photo area. */
+:is(#grid, #bestsellers-track, #home-shelves .bestsellers-track) .product-label-row {
+  height: 13px;
+  min-height: 13px;
+}
+:is(#grid, #bestsellers-track, #home-shelves .bestsellers-track) .item .hit-badge {
+  font-size: 8px;
+  line-height: 1.15;
+  padding: 2px 4px;
+  border-radius: 4px;
+}
+:is(#grid, #bestsellers-track, #home-shelves .bestsellers-track) .product-image-area {
+  margin-top: 16px;
+  height: calc(100% - 16px);
+}
