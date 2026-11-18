@@ -59,7 +59,7 @@
     $('app-catalog-tools').hidden=cat==='Подарочные карты';
     $('app-reset-search').hidden=!query.trim();
     document.querySelector('#app-categories span').textContent=cat==='Все товары'?'Все разделы':label(cat);
-    if(!$('grid').hidden&&!$('grid').querySelector('.item'))$('grid').innerHTML=`<div class="app-empty">${icon('search')}<h3>Пока ничего не нашли</h3><p>Попробуйте название бренда, аромата<br>или любимую ноту.</p><button type="button" class="primary" id="app-search-all">Смотреть все товары</button></div>`;
+    if(!home&&!$('grid').hidden&&!$('grid').querySelector('.item'))$('grid').innerHTML=`<div class="app-empty">${icon('search')}<h3>Пока ничего не нашли</h3><p>Попробуйте название бренда, аромата<br>или любимую ноту.</p><button type="button" class="primary" id="app-search-all">Смотреть все товары</button></div>`;
     const reset=$('app-search-all');if(reset)reset.onclick=()=>selectCategory('Все товары');
     const root=J.parent(cat),sub=J.children[root]||[];
     categoryContext.hidden=cat==='Подарочные карты'||!J.sections.includes(root);
@@ -113,7 +113,7 @@
   }
   function showMore(){
     routeSheet('more');
-    const info=[['stores','Наши филиалы','Три магазина в Красноярске'],['delivery','Доставка','По Красноярску и России'],['loyalty','Бонусная программа','Ваша карта COYLI'],['contact','Связаться с нами','Поможем с выбором и заказом']];
+    const info=[['about','О бренде','Знакомство с COYLI PARFUM'],['faq','Вопросы и ответы','Распив, форматы и заказ'],['stores','Наши филиалы','Три магазина в Красноярске'],['delivery','Доставка','По Красноярску и России'],['loyalty','Бонусная программа','Ваша карта COYLI'],['contact','Связаться с нами','Поможем с выбором и заказом']];
     const installed=matchMedia('(display-mode: standalone)').matches||navigator.standalone;
     sheet('Ещё',`<p class="app-eyebrow">COYLI PARFUM</p><h3>Всегда рядом</h3><div class="app-category-list app-more-list">${info.map(([id,title,sub])=>`<button type="button" data-app-info="${id}"><span>${title}<small>${sub}</small></span>${icon('next')}</button>`).join('')}</div>${installed?'':`<div class="app-install-guide"><strong>COYLI на экране телефона</strong><p>${/iPad|iPhone|iPod/.test(navigator.userAgent)?'Откройте сайт в Safari → «Поделиться» → «На экран Домой». Если есть переключатель «Открывать как веб-приложение», включите его.':'Откройте меню браузера и выберите «Установить приложение» или «Добавить на главный экран».'}</p>${installPrompt?'<button type="button" id="app-install" class="app-secondary-action">Установить COYLI</button>':''}</div>`}`);
     $('panel').querySelectorAll('[data-app-info]').forEach(b=>b.onclick=()=>{if(b.dataset.appInfo==='contact'){beginRequest(null,'advice');return;}hide();document.querySelector(`[data-info="${b.dataset.appInfo}"]`).click();});
@@ -126,19 +126,33 @@
     return `<article class="item${x.isHit===true||x.isNew===true?' has-hit':''}"><button class="app-card-link" type="button" aria-label="Открыть ${esc(x.name)}" onclick="openProduct(${x.id})"></button><div class="visual ${x.kind==='home'?'home':x.kind==='car'?'car':''}"><div class="product-label-row">${x.isNew===true?'<span class="hit-badge new-badge">Новинка</span>':x.isHit===true?'<span class="hit-badge">Хит продаж</span>':''}${saleBadge(x)}</div><div class="product-image-area">${productPhoto(x)}</div></div><div class="name">${esc(x.name)}</div><div class="meta">${esc(meta)}</div>${x.cat==='Оригинал'?'<p class="availability">'+esc(availabilityText(x))+'</p>':''}<div class="bottom"><span class="price">${priceMarkup(x,basePrice(x),!CoyliSale.active()&&(x.kind==='perfume'||x.volumes.length>1)&&Number(price(x))>0?'от ':'')}</span><button type="button" class="plus" aria-label="Выбрать ${esc(x.name)}" onclick="openProduct(${x.id})">+</button></div></article>`;
   };
   openProduct=function(id,push=true){
-    const item=p.find(x=>x.id===id);if(!isStorefrontProduct(item))return;
+    const requested=p.find(x=>x.id===id);
+    const item=requested?.duplicateOf?p.find(x=>x.id===requested.duplicateOf):requested;
+    if(!isStorefrontProduct(item))return;
+    if(requested!==item&&!push)history.replaceState(history.state,'','#product-'+item.id);
+    id=item.id;
     if(!screen)modalReturnHash=/^#product-/.test(location.hash)?'#'+categoryRoutes[cat]:location.hash;
     current=item;format='spray';vol=defaultVolume(item);
     if(push&&location.hash!=='#product-'+id)history.pushState({appOverlay:true,returnHash:modalReturnHash},'','#product-'+id);
     screen='product';drawProduct();
   };
+  function fragranceNotes(x){
+    const lines=(x.notes||'').split('\n').filter(Boolean);
+    const pyramid=lines.length>1&&lines.every(line=>/^[^:]{2,32}:\s*\S/.test(line));
+    if(!pyramid)return '<details class="app-product-description"><summary>Об аромате и ноты '+icon('down')+'</summary><p>'+esc(x.notes||'Описание уточняется.')+'</p></details>';
+    const rows=lines.map(line=>{
+      const i=line.indexOf(':');
+      return '<div><dt>'+esc(line.slice(0,i))+'</dt><dd>'+esc(line.slice(i+1).trim())+'</dd></div>';
+    }).join('');
+    return '<details class="app-product-description"'+(x.description?' open':'')+'><summary>Ноты аромата '+icon('down')+'</summary><dl class="note-pyramid">'+rows+'</dl></details>';
+  }
   drawProduct=function(keep=false){
     const x=current;if(!x)return;
     let options=x.volumes,pr=x.price;
     if(x.cat==='Селектив'||x.cat==='Люкс'){pr=formatPrices(x,format);options=Object.keys(pr);if(!(vol in pr))vol=String(options[0]);}
     const regularAmount=pr[vol],amount=saleAmount(x,regularAmount,vol,format),unavailable=x.kind==='original'&&x.availability?.status==='out_of_stock';
     const canAdd=Number.isFinite(Number(amount))&&Number(amount)>0&&!unavailable;
-    const body=`<div class="app-product-photo">${productPhoto(x,vol)}</div><p class="app-eyebrow">${esc(J.type(x.cat))}</p><h3 class="app-product-title">${esc(x.name)}</h3>${x.gender?'<p class="app-product-gender">'+esc(x.gender)+'</p>':''}${x.kind==='perfume'?'<p class="app-product-kind-note">Аналог аромата на масляной основе COYLI. Фото показывает аромат-ориентир. Доступны масло и спрей.</p>':x.kind==='original'?'<p class="app-product-kind-note">Распив оригинального аромата. Полноразмерный флакон можно запросить отдельно.</p>':''}${x.kind==='perfume'?`<h4>Формат</h4><div class="app-format-grid" aria-label="Формат аромата"><button type="button" data-format="spray" aria-pressed="${format==='spray'}">Спрей</button><button type="button" data-format="oil" aria-pressed="${format==='oil'}">Чистое масло</button></div>`:''}<h4>${x.kind==='car'?'Количество в упаковке':x.cat==='Аромасаше'?'Вес':'Объём'}</h4><div class="app-volume-grid" aria-label="Выбор объёма">${options.map(v=>`<button type="button" data-volume="${esc(v)}" aria-pressed="${String(vol)===String(v)}">${esc(unit({vol:v,cat:x.cat}))}</button>`).join('')}</div><p class="muted">${esc(availabilityText(x))}</p>${saleNote()}${x.cat==='Оригинал'&&Number(vol)===100?'<p class="muted">100 мл — если во флаконе есть нужное количество. Уточните у менеджера.</p>':''}<details class="app-product-description"><summary>Об аромате и ноты ${icon('down')}</summary><p>${esc(x.notes||'Описание и ноты аромата будут добавлены после проверки.')}</p></details><button type="button" class="app-share" id="app-share-product">Скопировать ссылку на товар</button>`;
+    const body=`<div class="app-product-photo">${productPhoto(x,vol)}</div><p class="app-eyebrow">${esc(J.type(x.cat))}</p><h3 class="app-product-title">${esc(x.name)}</h3>${x.description?'<p class="fragrance-story">'+esc(x.description)+'</p>':''}${x.gender?'<p class="app-product-gender">'+esc(x.gender)+'</p>':''}${x.kind==='perfume'?'<p class="app-product-kind-note">Аналог аромата на масляной основе COYLI. Фото показывает аромат-ориентир. Доступны масло и спрей.</p>':x.kind==='original'?'<p class="app-product-kind-note">Распив оригинального аромата. Полноразмерный флакон можно запросить отдельно.</p>':''}${x.kind==='perfume'?`<h4>Формат</h4><div class="app-format-grid" aria-label="Формат аромата"><button type="button" data-format="spray" aria-pressed="${format==='spray'}">Спрей</button><button type="button" data-format="oil" aria-pressed="${format==='oil'}">Чистое масло</button></div>`:''}<h4>${x.kind==='car'?'Количество в упаковке':x.cat==='Аромасаше'?'Вес':'Объём'}</h4><div class="app-volume-grid" aria-label="Выбор объёма">${options.map(v=>`<button type="button" data-volume="${esc(v)}" aria-pressed="${String(vol)===String(v)}">${esc(unit({vol:v,cat:x.cat}))}</button>`).join('')}</div><p class="muted">${esc(availabilityText(x))}</p>${saleNote()}${x.cat==='Оригинал'&&Number(vol)===100?'<p class="muted">100 мл — если во флаконе есть нужное количество. Уточните у менеджера.</p>':''}${fragranceNotes(x)}<button type="button" class="app-share" id="app-share-product">Скопировать ссылку на товар</button>`;
     sheet('Выбор товара',body,`<div class="app-buy-row"><div class="price">${priceMarkup(x,regularAmount,'',vol,format)}</div><button type="button" class="primary" id="add-to-cart" ${canAdd?'':'disabled'}>${unavailable?'Нет в наличии':'В корзину'}</button></div><button type="button" class="app-secondary-action app-request-product" id="app-request-product">Наличие, доставка или вопрос</button>`,null,keep);
     $('panel').querySelectorAll('[data-format]').forEach(b=>b.onclick=()=>{format=b.dataset.format;vol=format==='oil'?'2':defaultVolume(current);drawProduct(true);$('panel').querySelector(`[data-format="${format}"]`).focus({preventScroll:true});});
     $('panel').querySelectorAll('[data-volume]').forEach(b=>b.onclick=()=>{vol=b.dataset.volume;drawProduct(true);$('panel').querySelector(`[data-volume="${CSS.escape(vol)}"]`).focus({preventScroll:true});});
