@@ -1,0 +1,1 @@
+window.CoyliWinter={guideLink(x){const key=x&&x.winterStickerPack;return ['cranberry','frost','mandarin','blueberry','lemon'].includes(key)?`<a class="winter-guide-link" href="winter.html#${key}" onclick="event.stopPropagation()">Собери свою зиму · идеи с наклейками ↗</a>`:'';}};
