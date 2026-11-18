@@ -54,9 +54,8 @@ body{color:var(--app-ink);-webkit-tap-highlight-color:transparent}button,input,t
   outline-offset: 2px;
 }
 :is(#grid, #bestsellers-track, #home-shelves .bestsellers-track) .item .visual {
-  display: grid;
-  grid-template-rows: 18px minmax(0, 1fr);
-  gap: 6px;
+  position: relative;
+  display: block;
   width: 100%;
   height: auto;
   min-height: 0;
@@ -70,6 +69,10 @@ body{color:var(--app-ink);-webkit-tap-highlight-color:transparent}button,input,t
   flex-shrink: 0;
 }
 :is(#grid, #bestsellers-track, #home-shelves .bestsellers-track) .product-label-row {
+  position: absolute;
+  inset: 0 0 auto;
+  z-index: 1;
+  pointer-events: none;
   display: flex;
   align-items: center;
   justify-content: flex-start;
@@ -351,13 +354,17 @@ body #tabs .tab.active, #shop-submenu [aria-current] { color:var(--shop-ink); fo
 #shop-submenu[hidden] { display:none!important; }
 body #shopping-shortcuts.coyli-quick { display:block!important; margin:7px 0 25px; padding:0; overflow:visible; }
 body #shopping-shortcuts[hidden] { display:none!important; }
-body #shopping-shortcuts.coyli-quick button.gift-feature {
-  display:flex; flex-direction:row; align-items:center; justify-content:space-between; gap:16px; width:100%; min-height:78px;
-  padding:8px 20px; background:white; border:0; border-radius:22px; text-align:left; color:var(--shop-ink);
-  font:inherit; font-size:17px; cursor:pointer;
+.loyalty-feature {
+  display:flex; align-items:center; justify-content:space-between; gap:16px; min-height:78px;
+  box-sizing:border-box; padding:15px 19px; border-radius:20px; background:#fff;
+  color:var(--shop-ink); text-decoration:none; font-size:clamp(17px,2vw,22px); line-height:1.2;
 }
-.gift-feature small { display:block; margin-top:4px; color:#526473; font-size:13px; }
-.gift-feature img { width:92px; height:61px; object-fit:contain; transform:rotate(-7deg); }
+.loyalty-feature small { display:block; margin-top:5px; color:#425876; font-size:13px; }
+.loyalty-arrow {
+  flex:none; display:grid; place-items:center; width:38px; height:38px;
+  border-radius:50%; background:#eff3fc; color:var(--app-blue); font:22px/1 Arial,sans-serif;
+}
+.loyalty-feature:hover .loyalty-arrow { background:var(--app-blue); color:white; }
 body .bestsellers { margin:25px 0 32px; }
 body .bestsellers-heading { align-items:center; margin:0 0 11px; }
 body .bestsellers-heading h2, body .coyli-catalog-heading h2 { font-weight:400; color:var(--shop-ink); letter-spacing:-.04em; font-size:clamp(23px,3vw,36px); }
@@ -403,7 +410,6 @@ body .coyli-home-links button { background:transparent; }
   #search { background:white; border:0; }
 }
 body #tabs.tabs { scroll-snap-type:none; }
-:is(#grid,#bestsellers-track,#home-shelves .bestsellers-track) .item .visual:has(.product-label-row:empty) { grid-template-rows:minmax(0,1fr); }
 :is(#grid,#bestsellers-track,#home-shelves .bestsellers-track) .product-label-row:empty { display:none; }
 
 body .hero.brand-cover:has(.season-track):not([hidden]) { display:block; height:clamp(380px,63svh,660px); background:#593829; }
@@ -411,7 +417,6 @@ body .hero.brand-cover:has(.season-track):not([hidden]) { display:block; height:
 .season-track::-webkit-scrollbar { display:none; }
 .season-slide { position:relative; flex:0 0 100%; height:100%; scroll-snap-align:start; isolation:isolate; overflow:hidden; }
 .season-slide > img { position:absolute; inset:0; width:100%; height:100%; object-fit:cover; object-position:center 47%; z-index:-2; }
-.season-slide:first-child > img { object-position:center 57%; }
 .season-slide::after { content:''; position:absolute; inset:0; z-index:-1; background:linear-gradient(180deg,#20100e5c,transparent 24%,transparent 48%,#241410cf); pointer-events:none; }
 .season-copy { position:absolute; bottom:24px; left:clamp(20px,4vw,50px); right:150px; color:#fff; text-align:left; }
 .season-copy small { display:block; font-size:13px; letter-spacing:.02em; }
@@ -427,12 +432,18 @@ body .hero.brand-cover .season-copy :is(h1,h2) { color:white; font-weight:400; f
 .app-sheet-body .app-eyebrow { color:#57636e; letter-spacing:.025em; }
 #app-catalog-context, #collection-intro p { color:#58636c; font-size:12px; line-height:1.5; }
 #grid :is(.search-group,.search-prompt) { grid-column:1/-1; margin:14px 0 0; font-weight:400; }
-body #shopping-shortcuts .gift-feature img { flex:none; width:86px; height:auto; transform:none; border:1px solid #e1e4e8; border-radius:7px; box-shadow:0 2px 5px #21324b14; }
 @media(min-width:751px) {
- .season-slide { background:#34231c; }
- .season-slide > img { object-fit:contain; object-position:72% center; }
- .season-slide:first-child > img { object-fit:cover; object-position:center 56%; }
- .season-slide:not(:first-child)::after { background:linear-gradient(90deg,#38251c 15%,transparent 66%),linear-gradient(0deg,#25170e6b,transparent 30%); }
+ .season-slide { background:#391912; }
+ .season-slide:nth-child(1) { background:#360a0b; }
+ .season-slide:nth-child(3) { background:#542c17; }
+ .season-slide:nth-child(4) { background:#58301e; }
+ .season-slide > img {
+   left:auto; right:0; width:65%; object-fit:cover; object-position:50% 48%;
+   mask-image:linear-gradient(90deg,transparent,#000 26%);
+ }
+ .season-slide::after { background:linear-gradient(0deg,#21100855,transparent 36%),linear-gradient(180deg,#20100955,transparent 20%); }
+ .season-copy { right:58%; bottom:9%; }
+
 }
 @media(max-width:750px) {
  body .hero.brand-cover:has(.season-track):not([hidden]) { height:clamp(310px,61svh,620px); }

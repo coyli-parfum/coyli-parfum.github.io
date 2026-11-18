@@ -1739,7 +1739,14 @@
         "100": 10010
       },
       "format": "spray"
-    }
+    },
+    "imageFrame": [
+      -100.915,
+      -37.915,
+      576.829,
+      375,
+      500
+    ]
   },
   {
     "id": 61,
@@ -1781,7 +1788,14 @@
         "100": 10010
       },
       "format": "spray"
-    }
+    },
+    "imageFrame": [
+      -100.805,
+      -37.805,
+      575.61,
+      375,
+      500
+    ]
   },
   {
     "id": 62,
@@ -1871,7 +1885,14 @@
         "100": 10010
       },
       "format": "spray"
-    }
+    },
+    "imageFrame": [
+      -101.524,
+      -39.024,
+      578.049,
+      375,
+      500
+    ]
   },
   {
     "id": 64,
@@ -2255,9 +2276,9 @@
       "format": "spray"
     },
     "imageFrame": [
-      -83.95,
-      -18.95,
-      543.9,
+      97.78,
+      156.28,
+      352.439,
       375,
       500
     ]
@@ -3745,9 +3766,9 @@
       "format": "spray"
     },
     "imageFrame": [
-      -98.98,
-      -36.48,
-      571.95,
+      -79.354,
+      -34.854,
+      531.707,
       375,
       500
     ]
@@ -4473,9 +4494,9 @@
       "format": "spray"
     },
     "imageFrame": [
-      -99.59,
-      -36.59,
-      573.17,
+      -58.732,
+      39.768,
+      491.463,
       375,
       500
     ]
@@ -5008,9 +5029,9 @@
       "format": "spray"
     },
     "imageFrame": [
-      -0.04,
-      60.96,
-      376.09,
+      -25.305,
+      36.695,
+      425.61,
       375,
       500
     ]
@@ -6000,9 +6021,9 @@
       "format": "spray"
     },
     "imageFrame": [
-      -83.84,
-      -20.84,
-      542.68,
+      -75.415,
+      -5.415,
+      526.829,
       375,
       500
     ]
@@ -6144,9 +6165,9 @@
       "format": "spray"
     },
     "imageFrame": [
-      -97.38,
-      -32.38,
-      559.76,
+      -72.098,
+      11.902,
+      512.195,
       375,
       500
     ]
@@ -6857,9 +6878,9 @@
       "format": "spray"
     },
     "imageFrame": [
-      -98.48,
-      -36.48,
-      571.95,
+      -69.817,
+      -33.317,
+      514.634,
       375,
       500
     ]
@@ -8206,9 +8227,9 @@
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.70683.jpg",
     "notesSource": "https://www.fragrantica.com/perfume/ByBozo/Habibi-70683.html",
     "imageFrame": [
-      -94.82,
-      -35.82,
-      564.63,
+      -55.463,
+      -29.463,
+      482.927,
       375,
       500
     ],
@@ -9056,9 +9077,9 @@
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.845.jpg",
     "notesSource": "https://www.fragrantica.com/perfume/Escentric-Molecules/Molecule-01-845.html",
     "imageFrame": [
-      -98.48,
-      -36.48,
-      571.95,
+      -91.268,
+      -37.268,
+      558.537,
       375,
       500
     ],
@@ -9962,9 +9983,9 @@
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.46128.jpg",
     "notesSource": "https://www.fragrantica.com/perfume/Juliette-Has-A-Gun/Sunny-Side-Up-46128.html",
     "imageFrame": [
-      -99.48,
-      -36.48,
-      571.95,
+      -25.183,
+      -26.183,
+      435.366,
       375,
       500
     ],
@@ -10866,9 +10887,9 @@
       "format": "spray"
     },
     "imageFrame": [
-      -29.65,
-      7.32,
-      788.66,
+      -79.573,
+      -79.573,
+      884.146,
       725,
       725
     ]
@@ -11262,9 +11283,9 @@
       "format": "spray"
     },
     "imageFrame": [
-      -10.06,
-      51.44,
-      395.12,
+      -23.756,
+      38.744,
+      419.512,
       375,
       500
     ]
@@ -11872,9 +11893,9 @@
       "format": "spray"
     },
     "imageFrame": [
-      -2.74,
-      59.76,
-      380.49,
+      -24.195,
+      37.305,
+      424.39,
       375,
       500
     ]
@@ -12160,9 +12181,9 @@
       "format": "spray"
     },
     "imageFrame": [
-      -98.37,
-      -35.37,
-      570.73,
+      -9.768,
+      -21.768,
+      408.537,
       375,
       500
     ]
@@ -12459,9 +12480,9 @@
       "format": "spray"
     },
     "imageFrame": [
-      -18.6,
-      43.9,
-      412.2,
+      -25.305,
+      37.695,
+      425.61,
       375,
       500
     ]
@@ -12698,7 +12719,14 @@
         "100": 10010
       },
       "format": "spray"
-    }
+    },
+    "imageFrame": [
+      -101.524,
+      -39.024,
+      578.049,
+      375,
+      500
+    ]
   },
   {
     "id": 279,
@@ -12740,7 +12768,14 @@
         "100": 10010
       },
       "format": "spray"
-    }
+    },
+    "imageFrame": [
+      -101.415,
+      -37.915,
+      576.829,
+      375,
+      500
+    ]
   },
   {
     "id": 280,
@@ -13370,7 +13405,14 @@
         "100": 10010
       },
       "format": "spray"
-    }
+    },
+    "imageFrame": [
+      -94.927,
+      -36.927,
+      565.854,
+      375,
+      500
+    ]
   },
   {
     "id": 294,
@@ -14311,7 +14353,14 @@
         "100": 10010
       },
       "format": "spray"
-    }
+    },
+    "imageFrame": [
+      -98.476,
+      -37.476,
+      571.951,
+      375,
+      500
+    ]
   },
   {
     "id": 313,
@@ -14713,9 +14762,9 @@
       "format": "spray"
     },
     "imageFrame": [
-      -89.94,
-      -26.94,
-      554.88,
+      -81.293,
+      -27.293,
+      536.585,
       375,
       500
     ]
@@ -14953,9 +15002,9 @@
       "format": "spray"
     },
     "imageFrame": [
-      -94.82,
-      -35.82,
-      564.63,
+      -89.561,
+      -17.061,
+      545.122,
       375,
       500
     ]
@@ -15300,9 +15349,9 @@
       "format": "spray"
     },
     "imageFrame": [
-      -97.87,
-      -35.37,
-      570.73,
+      36.39,
+      111.89,
+      301.22,
       375,
       500
     ]
@@ -15444,7 +15493,14 @@
         "100": 10010
       },
       "format": "spray"
-    }
+    },
+    "imageFrame": [
+      -99.305,
+      -38.805,
+      575.61,
+      375,
+      500
+    ]
   },
   {
     "id": 336,
@@ -15549,7 +15605,14 @@
       },
       "format": "spray"
     },
-    "duplicateOf": 252
+    "duplicateOf": 252,
+    "imageFrame": [
+      -100.805,
+      -37.805,
+      575.61,
+      375,
+      500
+    ]
   },
   {
     "id": 338,
@@ -15593,9 +15656,9 @@
       "format": "spray"
     },
     "imageFrame": [
-      -327.18,
-      -74.25,
-      1678.36,
+      -289.829,
+      -67.329,
+      1603.659,
       1024,
       1536
     ]
@@ -15738,9 +15801,9 @@
       "format": "spray"
     },
     "imageFrame": [
-      -331.26,
-      -81.41,
-      1689.6,
+      -310.171,
+      -78.171,
+      1646.341,
       1024,
       1536
     ]
@@ -17167,9 +17230,9 @@
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.95202.jpg",
     "notesSource": "https://www.fragrantica.com/p/95202",
     "imageFrame": [
-      -98.37,
-      -35.37,
-      570.73,
+      -69.073,
+      -34.073,
+      534.146,
       375,
       500
     ],
@@ -17407,9 +17470,9 @@
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.80377.jpg",
     "notesSource": "Скриншоты пользователя IMG_2976.jpeg и IMG_2977.jpeg, 17.10.2026; https://www.fragrantica.com/p/80377",
     "imageFrame": [
-      -99.7,
-      -36.7,
-      574.39,
+      -58.841,
+      38.659,
+      492.683,
       375,
       500
     ],
@@ -18494,9 +18557,9 @@
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.98761.jpg",
     "notesSource": "https://www.fragrantica.com/perfume/Osmassino/See-me-98761.html",
     "imageFrame": [
-      -97.87,
-      -35.37,
-      570.73,
+      -71.11,
+      -35.61,
+      551.22,
       375,
       500
     ],
@@ -19158,9 +19221,9 @@
     "image": "assets/originals/129555.jpg",
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.129555.jpg",
     "imageFrame": [
-      -98.37,
-      -35.37,
-      570.73,
+      -61.915,
+      -27.915,
+      476.829,
       375,
       500
     ],
@@ -19511,9 +19574,9 @@
     "imageSource": "https://fimgs.net/mdimg/perfume-thumbs/375x500.27620.jpg",
     "notesSource": "https://www.fragrantica.com/perfume/What-We-Do-Is-Secret/Made-in-Heaven-27620.html",
     "imageFrame": [
-      -99.48,
-      -35.48,
-      571.95,
+      -84.244,
+      -32.744,
+      530.488,
       375,
       500
     ],
@@ -19695,9 +19758,9 @@
     "notesSource": "Ценник COYLI PARFUM, предоставленный пользователем 15.10.2026",
     "referenceSource": "https://www.fragrantica.com/p/698",
     "imageFrame": [
-      -1.52,
-      59.98,
-      378.05,
+      -25.305,
+      35.695,
+      425.61,
       375,
       500
     ],
@@ -19811,9 +19874,9 @@
     "notesSource": "Ценник COYLI PARFUM, предоставленный пользователем 15.10.2026",
     "referenceSource": "https://www.fragrantica.com/p/498",
     "imageFrame": [
-      0.0,
-      61.5,
-      375.0,
+      -24.085,
+      37.415,
+      423.171,
       375,
       500
     ],
@@ -19927,9 +19990,9 @@
     "notesSource": "Ценник COYLI PARFUM, предоставленный пользователем 15.10.2026",
     "referenceSource": "https://www.fragrantica.com/p/687",
     "imageFrame": [
-      0.0,
-      63.0,
-      375.0,
+      -25.305,
+      38.195,
+      425.61,
       375,
       500
     ],
@@ -20855,9 +20918,9 @@
     "notesSource": "Ценник COYLI PARFUM, предоставленный пользователем 15.10.2026",
     "referenceSource": "https://www.fragrantica.com/p/62791",
     "imageFrame": [
-      -16.16,
-      46.34,
-      407.32,
+      -25.305,
+      37.195,
+      425.61,
       375,
       500
     ],
@@ -21145,9 +21208,9 @@
     "notesSource": "Ценник COYLI PARFUM, предоставленный пользователем 15.10.2026",
     "referenceSource": "https://www.fragrantica.com/p/11649",
     "imageFrame": [
-      -98.98,
-      -36.48,
-      571.95,
+      -32.951,
+      82.049,
+      443.902,
       375,
       500
     ],
