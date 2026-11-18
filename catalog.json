@@ -297,6 +297,11 @@
         "75": 400,
         "150": 750
       }
+    },
+    "image": "assets/butters/mango-75-label-20261118.webp",
+    "imagesByVolume": {
+      "75": "assets/butters/mango-75-label-20261118.webp",
+      "150": "assets/butters/mango-150-label-20261118.webp"
     }
   },
   {
@@ -468,7 +473,8 @@
         "75": 400,
         "150": 750
       }
-    }
+    },
+    "image": "assets/butters/melon-75-label-20261118.webp"
   },
   {
     "id": 13,
@@ -530,7 +536,8 @@
         "75": 400,
         "150": 750
       }
-    }
+    },
+    "image": "assets/butters/watermelon-75-label-20261118.webp"
   },
   {
     "id": 17,
@@ -1157,7 +1164,8 @@
       "price": {
         "110": 790
       }
-    }
+    },
+    "image": "assets/candles/churros-label-20261118.webp"
   },
   {
     "id": 40,
@@ -21556,7 +21564,8 @@
       "price": {
         "110": 790
       }
-    }
+    },
+    "image": "assets/candles/croissant-label-20261118.webp"
   },
   {
     "id": 446,

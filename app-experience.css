@@ -469,3 +469,27 @@ body .hero.brand-cover .season-copy :is(h1,h2) { color:white; font-weight:400; f
   margin-top: 16px;
   height: calc(100% - 16px);
 }
+
+/* Let the home categories overlap the campaign through a soft frosted fade. */
+body.app-home .shop-menu {
+  margin-top: -54px;
+  background: linear-gradient(180deg, rgba(242,245,247,.66), rgba(242,245,247,.91) 70%, var(--shop-paper));
+  -webkit-backdrop-filter: blur(6px);
+  backdrop-filter: blur(6px);
+  isolation: isolate;
+}
+body.app-home .shop-menu::before {
+  content: '';
+  position: absolute;
+  inset: -28px 0 100%;
+  background: linear-gradient(180deg, rgba(242,245,247,0), rgba(242,245,247,.66));
+  pointer-events: none;
+}
+body.app-home #tabs.tabs { min-height: 54px; padding-block: 5px; }
+body.app-home .season-copy { bottom: 88px; }
+body.app-home .season-controls { bottom: 86px; }
+body.app-home .hero.brand-cover { border-radius: 0; }
+@media(max-width:750px) {
+  body.app-home .season-copy { bottom: 82px; }
+  body.app-home .season-controls { bottom: 82px; }
+}
