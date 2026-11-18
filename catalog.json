@@ -298,10 +298,33 @@
         "150": 750
       }
     },
-    "image": "assets/butters/mango-75-label-20261118.webp",
+    "image": "assets/butters/mango-75-top-20261118.webp",
     "imagesByVolume": {
-      "75": "assets/butters/mango-75-label-20261118.webp",
-      "150": "assets/butters/mango-150-label-20261118.webp"
+      "75": "assets/butters/mango-75-top-20261118.webp",
+      "150": "assets/butters/mango-150-top-20261118.webp"
+    },
+    "imageFrame": [
+      65,
+      65,
+      870,
+      1000,
+      1000
+    ],
+    "imageFramesByVolume": {
+      "75": [
+        65,
+        65,
+        870,
+        1000,
+        1000
+      ],
+      "150": [
+        65,
+        65,
+        870,
+        1000,
+        1000
+      ]
     }
   },
   {
@@ -474,7 +497,14 @@
         "150": 750
       }
     },
-    "image": "assets/butters/melon-75-label-20261118.webp"
+    "image": "assets/butters/melon-75-top-20261118.webp",
+    "imageFrame": [
+      65,
+      65,
+      870,
+      1000,
+      1000
+    ]
   },
   {
     "id": 13,
@@ -537,7 +567,14 @@
         "150": 750
       }
     },
-    "image": "assets/butters/watermelon-75-label-20261118.webp"
+    "image": "assets/butters/watermelon-75-top-20261118.webp",
+    "imageFrame": [
+      65,
+      65,
+      870,
+      1000,
+      1000
+    ]
   },
   {
     "id": 17,
