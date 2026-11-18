@@ -493,3 +493,16 @@ body.app-home .hero.brand-cover { border-radius: 0; }
   body.app-home .season-copy { bottom: 82px; }
   body.app-home .season-controls { bottom: 82px; }
 }
+
+/* Home refinements: full-width loyalty, quiet pagination, consistent lowercase menus. */
+body #shopping-shortcuts.coyli-quick { width:100%; max-width:none; grid-column:1/-1; }
+body #shopping-shortcuts .loyalty-feature { width:100%; max-width:none; flex:1 1 100%; grid-column:1/-1; }
+body #bestsellers[hidden] { display:none!important; }
+.season-controls { bottom:26px; right:22px; gap:0; padding:0 5px; background:rgba(30,20,20,.18); border-radius:999px; backdrop-filter:blur(16px); -webkit-backdrop-filter:blur(16px); }
+.season-controls .season-dot { display:grid; place-items:center; width:30px; height:44px; padding:0; }
+.season-dot span { display:block; width:6px; height:6px; border-radius:99px; background:rgba(255,255,255,.45); transition:width .25s ease,background .25s ease; }
+.season-dot[aria-pressed="true"] span { width:19px; background:white; }
+.season-dot:focus-visible { outline:2px solid white; outline-offset:-4px; border-radius:99px; }
+header nav button,.brand-footer nav button,.coyli-side-panel button[data-info] { text-transform:lowercase; }
+@media(max-width:750px){.season-controls{bottom:13px;right:10px}.season-controls .season-dot{width:25px}.season-copy a{max-width:calc(100% - 115px)}}
+@media(prefers-reduced-motion:reduce){.season-dot span{transition:none}.season-track{scroll-behavior:auto}}

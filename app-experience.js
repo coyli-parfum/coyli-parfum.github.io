@@ -55,7 +55,7 @@
     document.body.classList.toggle('app-home',home);document.body.classList.toggle('app-catalog',!home);
     document.querySelector('.hero').hidden=!home;
     document.querySelector('.coyli-quick').hidden=!home;
-    if(!home)$('bestsellers').hidden=true;
+    $('bestsellers').hidden=true;
     $('app-catalog-tools').hidden=cat==='Подарочные карты';
     $('app-reset-search').hidden=!query.trim();
     document.querySelector('#app-categories span').textContent=cat==='Все товары'?'Все разделы':label(cat);
@@ -74,13 +74,21 @@
     const container=$('home-shelves');
     container.hidden=!home;
     if(!home){container.replaceChildren();return;}
-    const shelves=[['Крем-баттер','Крем-баттеры'],['Свеча','Свечи']];
-    container.innerHTML=shelves.map(([category,title])=>{
-      const items=p.filter(item=>item.cat===category&&isStorefrontProduct(item)).sort(byPopularity).slice(0,8);
+    const shelves=[
+      {title:'новинки',route:'new',match:x=>x.isNew===true},
+      {title:'хиты парфюмерии',route:'oil-perfume',match:x=>['Оригинал','Селектив','Люкс'].includes(x.cat)},
+      {title:'хиты для тела',route:'body',match:x=>['Крем-баттер','Мисты'].includes(x.cat)},
+      {title:'хиты для дома',route:'home',match:x=>homeCategories.has(x.cat)},
+      {title:'хиты автопарфюма',route:'car',match:x=>x.cat==='Автопарфюм'}
+    ];
+    container.innerHTML=shelves.map(({title,route,match})=>{
+      const isNew=route==='new';
+      const items=p.filter(item=>isStorefrontProduct(item)&&match(item)&&(isNew||popularity.has(item.id)||item.isHit===true)).sort(isNew?(a,b)=>a.id-b.id:byPopularity).slice(0,8);
       if(!items.length)return '';
-      return `<section class="bestsellers" aria-label="${title}"><div class="bestsellers-heading"><h2>${title}</h2><a href="#${categoryRoutes[category]}">Все <span aria-hidden="true">›</span></a></div><div class="bestsellers-track">${items.map(productCard).join('')}</div></section>`;
+      return `<section class="bestsellers" data-home-shelf="${route}" aria-label="${title}"><div class="bestsellers-heading"><h2>${title}</h2><a href="#${route}">все <span aria-hidden="true">›</span></a></div><div class="bestsellers-track">${items.map(item=>productCard(isNew?item:{...item,isHit:true})).join('')}</div></section>`;
     }).join('');
   }
+
   render=function(){originalRender();syncPage();};
   saveCart=function(){originalSaveCart();syncNavigation();};
   selectCategory=function(value,push=true){screen='';unlock();originalSelectCategory(value,push);syncPage();};
@@ -127,7 +135,7 @@
   }
   function showMore(){
     routeSheet('more');
-    const info=[['about','О бренде','Знакомство с COYLI PARFUM'],['faq','Вопросы и ответы','Распив, форматы и заказ'],['stores','Наши филиалы','Три магазина в Красноярске'],['delivery','Доставка','По Красноярску и России'],['loyalty','Бонусная программа','Ваша карта COYLI'],['contact','Связаться с нами','Поможем с выбором и заказом']];
+    const info=[['about','о бренде','Знакомство с COYLI PARFUM'],['stores','наши филиалы','Три магазина в Красноярске'],['delivery','доставка','По Красноярску и России'],['loyalty','бонусная программа','Ваша карта COYLI'],['contact','связаться с нами','Поможем с выбором и заказом']];
     const installed=matchMedia('(display-mode: standalone)').matches||navigator.standalone;
     sheet('Ещё',`<p class="app-eyebrow">COYLI PARFUM</p><h3>Всегда рядом</h3><div class="app-category-list app-more-list">${info.map(([id,title,sub])=>`<button type="button" data-app-info="${id}"><span>${title}<small>${sub}</small></span>${icon('next')}</button>`).join('')}</div>${installed?'':`<div class="app-install-guide"><strong>COYLI на экране телефона</strong><p>${/iPad|iPhone|iPod/.test(navigator.userAgent)?'Откройте сайт в Safari → «Поделиться» → «На экран Домой». Если есть переключатель «Открывать как веб-приложение», включите его.':'Откройте меню браузера и выберите «Установить приложение» или «Добавить на главный экран».'}</p>${installPrompt?'<button type="button" id="app-install" class="app-secondary-action">Установить COYLI</button>':''}</div>`}`);
     $('panel').querySelectorAll('[data-app-info]').forEach(b=>b.onclick=()=>{if(b.dataset.appInfo==='contact'){beginRequest(null,'advice');return;}hide();document.querySelector(`[data-info="${b.dataset.appInfo}"]`).click();});
@@ -305,15 +313,22 @@
   render();if(location.hash)appRoute();
   const track=document.querySelector('.season-track');
   if(track){
-    const hero=track.parentElement, count=hero.querySelector('.season-count');
-    const position=()=>Math.round(track.scrollLeft/Math.max(1,track.clientWidth));
+    const hero=track.parentElement, controls=hero.querySelector('.season-controls');
+    const slides=[...track.children];
+    controls.innerHTML=slides.map((slide,i)=>`<button type="button" class="season-dot" aria-label="Слайд ${i+1}: ${esc(slide.querySelector('h1,h2').textContent)}" data-slide="${i}"><span></span></button>`).join('');
+    const position=()=>Math.max(0,Math.min(slides.length-1,Math.round(track.scrollLeft/Math.max(1,track.clientWidth))));
+    let selected=0;
     const update=()=>{
-      const i=position();count.textContent=(i+1)+' / '+track.children.length;
-      hero.querySelector('[data-step="-1"]').disabled=i===0;
-      hero.querySelector('[data-step="1"]').disabled=i===track.children.length-1;
+      selected=position();
+      controls.querySelectorAll('button').forEach((button,i)=>button.setAttribute('aria-pressed',String(i===selected)));
     };
+    const goTo=i=>track.scrollTo({left:i*track.clientWidth,behavior:matchMedia('(prefers-reduced-motion: reduce)').matches?'instant':'smooth'});
     track.addEventListener('scroll',update,{passive:true});
-    hero.querySelectorAll('[data-step]').forEach(button=>button.onclick=()=>track.scrollTo({left:(position()+Number(button.dataset.step))*track.clientWidth,behavior:matchMedia('(prefers-reduced-motion: reduce)').matches?'instant':'smooth'}));
+    controls.querySelectorAll('button').forEach(button=>{
+      button.onclick=()=>goTo(Number(button.dataset.slide));
+      button.onkeydown=e=>{if(!['ArrowLeft','ArrowRight','Home','End'].includes(e.key))return;e.preventDefault();const next=e.key==='Home'?0:e.key==='End'?slides.length-1:Math.max(0,Math.min(slides.length-1,Number(button.dataset.slide)+(e.key==='ArrowRight'?1:-1)));goTo(next);controls.children[next].focus();};
+    });
+    new ResizeObserver(()=>{track.scrollTo({left:selected*track.clientWidth,behavior:'instant'});update();}).observe(track);
     track.querySelectorAll('a[href^="#product-"]').forEach(link=>link.onclick=e=>{e.preventDefault();openProduct(Number(link.hash.slice(9)));});
     update();
   }
