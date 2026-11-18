@@ -438,8 +438,8 @@ body .hero.brand-cover .season-copy :is(h1,h2) { color:white; font-weight:400; f
  .season-slide:nth-child(3) { background:#542c17; }
  .season-slide:nth-child(4) { background:#58301e; }
  .season-slide > img {
-   left:auto; right:0; width:65%; object-fit:cover; object-position:50% 48%;
-   mask-image:linear-gradient(90deg,transparent,#000 26%);
+   left:auto; right:4%; width:auto; max-width:62%; object-fit:contain; object-position:center;
+   mask-image:linear-gradient(90deg,transparent,#000 17%,#000 89%,transparent);
  }
  .season-slide::after { background:linear-gradient(0deg,#21100855,transparent 36%),linear-gradient(180deg,#20100955,transparent 20%); }
  .season-copy { right:58%; bottom:9%; }
